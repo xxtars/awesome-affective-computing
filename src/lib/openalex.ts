@@ -4,8 +4,16 @@ export type OpenAlexAuthorCandidate = {
   id: string;
   display_name: string;
   works_count: number;
-  last_known_institutions?: {display_name: string}[];
+  last_known_institutions?: {display_name: string; country_code?: string}[];
   x_concepts?: {display_name: string; score: number}[];
+};
+
+export type OpenAlexAuthor = {
+  id: string;
+  display_name: string;
+  last_known_institutions?: {display_name: string; country_code?: string}[];
+  x_concepts?: {display_name: string; score: number}[];
+  topics?: {display_name: string; score: number}[];
 };
 
 export type OpenAlexWork = {
@@ -61,6 +69,17 @@ export async function getWorksByAuthorId(
 
   const data = (await resp.json()) as OpenAlexListResponse<OpenAlexWork>;
   return data.results;
+}
+
+export async function getAuthorById(authorId: string): Promise<OpenAlexAuthor> {
+  const normalizedId = extractEntityId(authorId).replace(/^A/, '');
+  const resp = await fetch(`${OPENALEX_BASE_URL}/authors/A${normalizedId}`);
+
+  if (!resp.ok) {
+    throw new Error(`Failed to fetch author: ${resp.status}`);
+  }
+
+  return (await resp.json()) as OpenAlexAuthor;
 }
 
 export function pickBestAuthorCandidate(

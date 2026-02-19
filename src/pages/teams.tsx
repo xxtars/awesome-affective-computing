@@ -4,35 +4,26 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import Link from '@docusaurus/Link';
 
-import teamsData from '../data/teams.json';
-import {getWorksByAuthorId} from '../lib/openalex';
+import researchersData from '../data/researchers.json';
+import {
+  getAuthorById,
+  getAuthorCandidatesByName,
+  pickBestAuthorCandidate,
+  type OpenAlexAuthor,
+} from '../lib/openalex';
 import styles from './index.module.css';
 
-type TeamItem = (typeof teamsData)[number];
+type ResearcherItem = (typeof researchersData)[number];
 
-function useRecentPaperCounts(teams: TeamItem[]) {
-  const [counts, setCounts] = useState<Record<string, number>>({});
-
-  useEffect(() => {
-    teams.forEach(async (team) => {
-      if (!team.openalex_author_id || counts[team.name] !== undefined) {
-        return;
-      }
-
-      try {
-        const works = await getWorksByAuthorId(team.openalex_author_id, {perPage: 50});
-        const currentYear = new Date().getFullYear();
-        const recentCount = works.filter((w) => w.publication_year >= currentYear - 3).length;
-
-        setCounts((prev) => ({...prev, [team.name]: recentCount}));
-      } catch {
-        setCounts((prev) => ({...prev, [team.name]: -1}));
-      }
-    });
-  }, [teams, counts]);
-
-  return counts;
-}
+type TeamItem = {
+  name: string;
+  institution: string;
+  country: string;
+  directions: string[];
+  homepage?: string;
+  google_scholar?: string;
+  openalex_author_id?: string;
+};
 
 function getUniqueCountries(teams: TeamItem[]) {
   return Array.from(new Set(teams.map((t) => t.country))).sort();
@@ -53,7 +44,69 @@ function groupByInstitution(teams: TeamItem[]) {
   }, {});
 }
 
-function TeamCard({team, recentCount}: {team: TeamItem; recentCount?: number}) {
+function pickDirections(author?: OpenAlexAuthor): string[] {
+  const topics = (author?.topics ?? [])
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 3)
+    .map((topic) => topic.display_name);
+
+  if (topics.length > 0) {
+    return topics;
+  }
+
+  return (author?.x_concepts ?? [])
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 3)
+    .map((concept) => concept.display_name);
+}
+
+function normalizeCountry(code?: string): string {
+  if (!code) {
+    return 'Unknown';
+  }
+  return code.toUpperCase();
+}
+
+async function hydrateResearcher(researcher: ResearcherItem): Promise<TeamItem> {
+  const fallback: TeamItem = {
+    name: researcher.name,
+    institution: 'Unknown Institution',
+    country: 'Unknown',
+    directions: [],
+    homepage: undefined,
+    google_scholar: researcher.google_scholar,
+    openalex_author_id: researcher.openalex_author_id,
+  };
+
+  try {
+    let authorId = researcher.openalex_author_id;
+
+    if (!authorId) {
+      const candidates = await getAuthorCandidatesByName(researcher.name);
+      authorId = pickBestAuthorCandidate(researcher.name, candidates)?.id;
+    }
+
+    if (!authorId) {
+      return fallback;
+    }
+
+    const author = await getAuthorById(authorId);
+    const firstInstitution = author.last_known_institutions?.[0];
+
+    return {
+      ...fallback,
+      name: author.display_name || researcher.name,
+      openalex_author_id: author.id,
+      institution: firstInstitution?.display_name ?? fallback.institution,
+      country: normalizeCountry(firstInstitution?.country_code),
+      directions: pickDirections(author),
+    };
+  } catch {
+    return fallback;
+  }
+}
+
+function TeamCard({team}: {team: TeamItem}) {
   const researcherLink = team.openalex_author_id
     ? `/researcher?id=${encodeURIComponent(team.openalex_author_id)}`
     : `/researcher?name=${encodeURIComponent(team.name)}`;
@@ -73,32 +126,30 @@ function TeamCard({team, recentCount}: {team: TeamItem; recentCount?: number}) {
         <div className={styles.teamMetaRow}>
           <span className={styles.metaKey}>Directions</span>
           <div className={styles.directionTags}>
-            {team.directions.map((dir) => (
-              <span key={dir} className={styles.directionTag}>
-                {dir}
-              </span>
-            ))}
+            {team.directions.length > 0 ? (
+              team.directions.map((dir) => (
+                <span key={dir} className={styles.directionTag}>
+                  {dir}
+                </span>
+              ))
+            ) : (
+              <span>Unknown</span>
+            )}
           </div>
-        </div>
-        <div className={styles.teamMetaRow}>
-          <span className={styles.metaKey}>Recent papers (3y)</span>
-          <span>
-            {recentCount === undefined
-              ? 'Loading...'
-              : recentCount >= 0
-                ? `${recentCount}`
-                : 'Unavailable'}
-          </span>
         </div>
       </div>
 
       <div className={styles.teamPapers}>
-        <a href={team.homepage} className={styles.paperLink} target="_blank" rel="noreferrer">
-          Homepage
-        </a>
-        <a href={team.google_scholar} className={styles.paperLink} target="_blank" rel="noreferrer">
-          Google Scholar
-        </a>
+        {team.homepage && (
+          <a href={team.homepage} className={styles.paperLink} target="_blank" rel="noreferrer">
+            Homepage
+          </a>
+        )}
+        {team.google_scholar && (
+          <a href={team.google_scholar} className={styles.paperLink} target="_blank" rel="noreferrer">
+            Google Scholar
+          </a>
+        )}
       </div>
     </article>
   );
@@ -108,15 +159,35 @@ export default function Teams(): ReactNode {
   const [countryFilter, setCountryFilter] = useState('All');
   const [directionFilter, setDirectionFilter] = useState('All');
   const [query, setQuery] = useState('');
+  const [teams, setTeams] = useState<TeamItem[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  const counts = useRecentPaperCounts(teamsData);
-  const countries = useMemo(() => getUniqueCountries(teamsData), []);
-  const directions = useMemo(() => getUniqueDirections(teamsData), []);
+  useEffect(() => {
+    let active = true;
+
+    async function loadTeams() {
+      setLoading(true);
+      const hydrated = await Promise.all(researchersData.map((r) => hydrateResearcher(r)));
+      if (active) {
+        setTeams(hydrated);
+        setLoading(false);
+      }
+    }
+
+    loadTeams();
+
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  const countries = useMemo(() => getUniqueCountries(teams), [teams]);
+  const directions = useMemo(() => getUniqueDirections(teams), [teams]);
 
   const filteredTeams = useMemo(() => {
     const q = query.trim().toLowerCase();
 
-    return teamsData.filter((team) => {
+    return teams.filter((team) => {
       const countryMatch = countryFilter === 'All' || team.country === countryFilter;
       const directionMatch =
         directionFilter === 'All' || team.directions.includes(directionFilter);
@@ -127,7 +198,7 @@ export default function Teams(): ReactNode {
 
       return countryMatch && directionMatch && searchMatch;
     });
-  }, [countryFilter, directionFilter, query]);
+  }, [teams, countryFilter, directionFilter, query]);
 
   const groupedTeams = useMemo(() => groupByInstitution(filteredTeams), [filteredTeams]);
 
@@ -139,7 +210,7 @@ export default function Teams(): ReactNode {
             Teams & Researchers
           </Heading>
           <p className={styles.pageSubtitle}>
-            {teamsData.length} researchers · grouped by institution · OpenAlex live paper counts
+            {teams.length} researchers · grouped by institution · metadata from OpenAlex
           </p>
         </div>
       </header>
@@ -184,23 +255,26 @@ export default function Teams(): ReactNode {
         </section>
 
         <p className="margin-bottom--md">
-          Showing {filteredTeams.length} of {teamsData.length} researchers
+          Showing {filteredTeams.length} of {teams.length} researchers
         </p>
 
-        {Object.entries(groupedTeams)
-          .sort(([a], [b]) => a.localeCompare(b))
-          .map(([institution, members]) => (
-            <section key={institution} className="margin-bottom--lg">
-              <Heading as="h2">{institution}</Heading>
-              <div className={styles.teamGrid}>
-                {members.map((team) => (
-                  <TeamCard key={team.name} team={team} recentCount={counts[team.name]} />
-                ))}
-              </div>
-            </section>
-          ))}
+        {loading && <p>Loading researchers from OpenAlex...</p>}
 
-        {filteredTeams.length === 0 && <p>No researchers matched the current filters.</p>}
+        {!loading &&
+          Object.entries(groupedTeams)
+            .sort(([a], [b]) => a.localeCompare(b))
+            .map(([institution, members]) => (
+              <section key={institution} className="margin-bottom--lg">
+                <Heading as="h2">{institution}</Heading>
+                <div className={styles.teamGrid}>
+                  {members.map((team) => (
+                    <TeamCard key={team.name} team={team} />
+                  ))}
+                </div>
+              </section>
+            ))}
+
+        {!loading && filteredTeams.length === 0 && <p>No researchers matched the current filters.</p>}
       </main>
     </Layout>
   );
