@@ -83,9 +83,9 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Docs',
+          label: 'Team',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Direction', position: 'left'},
         {
           href: `https://github.com/${organizationName}/${projectName}`,
           label: 'GitHub',
