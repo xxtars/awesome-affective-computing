@@ -30,6 +30,40 @@
   grid-column: 1 / -1;
 }
 
+.tagSection {
+  margin-top: 1rem;
+}
+
+.tagTitle {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.tagList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tagButton,
+.clearTagButton {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 999px;
+  background: transparent;
+  cursor: pointer;
+  padding: 0.35rem 0.8rem;
+}
+
+.tagButtonActive {
+  background: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  color: #fff;
+}
+
+.clearTagButton {
+  border-style: dashed;
+}
+
 .tableWrap {
   overflow-x: auto;
 }
@@ -44,6 +78,7 @@
   border-bottom: 1px solid var(--ifm-color-emphasis-200);
   padding: 0.75rem;
   text-align: left;
+  vertical-align: top;
 }
 
 @media screen and (max-width: 996px) {
