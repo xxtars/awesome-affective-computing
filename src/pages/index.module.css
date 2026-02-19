@@ -1,9 +1,137 @@
-.heroBanner {
-  padding: 4rem 0;
+/* ===== LANDING PAGE ===== */
+
+.hero {
+  background: var(--ifm-color-primary);
+  color: #fff;
+  padding: 5rem 0 4rem;
   text-align: center;
-  position: relative;
-  overflow: hidden;
 }
+
+.heroTitle {
+  color: #fff !important;
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.heroSubtitle {
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 1.2rem;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.statsSection {
+  background: var(--ifm-background-surface-color);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  padding: 2.5rem 0;
+}
+
+.statsGrid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.statCard {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-width: 120px;
+}
+
+.statValue {
+  color: var(--ifm-color-primary);
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.statLabel {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 0.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.cardsSection {
+  padding: 3rem 0 4rem;
+}
+
+.cardsGrid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.entryCard {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  color: var(--ifm-font-color-base) !important;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  text-decoration: none !important;
+  transition: box-shadow 0.2s, border-color 0.2s, transform 0.15s;
+}
+
+.entryCard:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.cardIcon {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.cardTitle {
+  font-size: 1.3rem !important;
+  font-weight: 700;
+  margin-bottom: 0.6rem !important;
+}
+
+.cardDescription {
+  color: var(--ifm-color-emphasis-700);
+  flex: 1;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
+
+.cardLink {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* ===== SHARED PAGE HEADER ===== */
+
+.pageHeader {
+  background: var(--ifm-color-primary);
+  color: #fff;
+  padding: 3rem 0 2.5rem;
+  text-align: center;
+}
+
+.pageTitle {
+  color: #fff !important;
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.pageSubtitle {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* ===== PAPERS PAGE ===== */
 
 .filterGrid {
   display: grid;
@@ -24,6 +152,8 @@
   border-radius: 8px;
   font-size: 0.95rem;
   padding: 0.55rem 0.7rem;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
 }
 
 .searchInputWrap {
@@ -52,6 +182,8 @@
   background: transparent;
   cursor: pointer;
   padding: 0.35rem 0.8rem;
+  color: var(--ifm-font-color-base);
+  font-size: 0.875rem;
 }
 
 .tagButtonActive {
@@ -81,8 +213,182 @@
   vertical-align: top;
 }
 
+.tagPill {
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 999px;
+  display: inline-block;
+  font-size: 0.78rem;
+  margin: 0.1rem 0.2rem 0.1rem 0;
+  padding: 0.15rem 0.6rem;
+}
+
+/* ===== TEAMS PAGE ===== */
+
+.teamGrid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.teamCard {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.teamName {
+  font-size: 1.1rem !important;
+  font-weight: 700;
+  margin-bottom: 0.2rem !important;
+}
+
+.teamInstitution {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.875rem;
+  margin-bottom: 0.8rem;
+}
+
+.teamMeta {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.875rem;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+}
+
+.teamMetaRow {
+  align-items: flex-start;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.metaKey {
+  color: var(--ifm-color-emphasis-600);
+  flex-shrink: 0;
+  font-weight: 600;
+  width: 80px;
+}
+
+.directionTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.directionTag {
+  background: var(--ifm-color-primary-lightest);
+  border-radius: 4px;
+  color: var(--ifm-color-primary-darkest);
+  font-size: 0.78rem;
+  padding: 0.15rem 0.5rem;
+}
+
+[data-theme='dark'] .directionTag {
+  background: rgba(37, 194, 160, 0.15);
+  color: var(--ifm-color-primary-light);
+}
+
+.teamPapers {
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+}
+
+.teamPapersTitle {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.paperLink {
+  display: block;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  margin-bottom: 0.25rem;
+}
+
+.teamWebsite {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 0.75rem;
+}
+
+/* ===== DIRECTIONS PAGE ===== */
+
+.directionBlock {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  padding: 1.75rem;
+}
+
+.directionName {
+  font-size: 1.3rem !important;
+  font-weight: 700;
+  margin-bottom: 0.75rem !important;
+}
+
+.directionDescription {
+  color: var(--ifm-color-emphasis-800);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+
+.directionSections {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.directionSection {
+  background: var(--ifm-background-surface-color);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.directionSectionTitle {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.6rem;
+  text-transform: uppercase;
+}
+
+.directionListItem {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  margin-bottom: 0.3rem;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media screen and (max-width: 768px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .statsGrid {
+    gap: 1.5rem;
+  }
+
+  .directionSections {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+  .hero {
+    padding: 3rem 0 2.5rem;
+  }
+
+  .pageHeader {
+    padding: 2rem 0 1.75rem;
   }
 }

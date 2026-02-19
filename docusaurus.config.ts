@@ -41,24 +41,8 @@ const config: Config = {
     [
       'classic',
       {
-        docs: {
-          sidebarPath: './sidebars.ts',
-          // "Edit this page" link target (optional but recommended)
-          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // "Edit this page" link target (optional but recommended)
-          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        docs: false,
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -79,13 +63,9 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Team',
-        },
-        {to: '/blog', label: 'Direction', position: 'left'},
+        {to: '/papers', label: 'Papers', position: 'left'},
+        {to: '/teams', label: 'Teams', position: 'left'},
+        {to: '/directions', label: 'Directions', position: 'left'},
         {
           href: `https://github.com/${organizationName}/${projectName}`,
           label: 'GitHub',
@@ -97,21 +77,16 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Browse',
           items: [
-            {
-              label: 'Intro',
-              to: '/docs/intro',
-            },
+            {label: 'Papers', to: '/papers'},
+            {label: 'Teams', to: '/teams'},
+            {label: 'Directions', to: '/directions'},
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
               href: `https://github.com/${organizationName}/${projectName}`,

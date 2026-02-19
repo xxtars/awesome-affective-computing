@@ -1,0 +1,104 @@
+[
+  {
+    "name": "MIT Media Lab",
+    "institution": "Massachusetts Institute of Technology",
+    "country": "USA",
+    "directions": ["Affect Recognition", "Physiological Signal Sensing"],
+    "website": "https://www.media.mit.edu/",
+    "representative_papers": [
+      "A Survey on Affective Computing and Intelligent Interaction",
+      "Physiological Affect Sensing under Naturalistic Conditions"
+    ]
+  },
+  {
+    "name": "University of Cambridge",
+    "institution": "University of Cambridge",
+    "country": "UK",
+    "directions": ["Multimodal Emotion Analysis"],
+    "website": "https://www.cam.ac.uk/",
+    "representative_papers": [
+      "Cross-cultural Emotion Understanding in Multimodal Signals",
+      "Dyadic Conversation Emotion Dynamics Modeling"
+    ]
+  },
+  {
+    "name": "Tsinghua University",
+    "institution": "Tsinghua University",
+    "country": "China",
+    "directions": ["Emotion-aware LLM", "Affective HCI"],
+    "website": "https://www.tsinghua.edu.cn/",
+    "representative_papers": [
+      "Large Language Models for Emotion-centric Human-Computer Interaction"
+    ]
+  },
+  {
+    "name": "National University of Singapore",
+    "institution": "National University of Singapore",
+    "country": "Singapore",
+    "directions": ["Micro-expression", "Affect Recognition"],
+    "website": "https://www.nus.edu.sg/",
+    "representative_papers": [
+      "Facial Micro-expression Benchmark for Real-world Affective States"
+    ]
+  },
+  {
+    "name": "University of Toronto",
+    "institution": "University of Toronto",
+    "country": "Canada",
+    "directions": ["Speech Emotion Recognition"],
+    "website": "https://www.utoronto.ca/",
+    "representative_papers": [
+      "Affective Speech Foundation Model for Clinical Scenarios"
+    ]
+  },
+  {
+    "name": "Carnegie Mellon University",
+    "institution": "Carnegie Mellon University",
+    "country": "USA",
+    "directions": ["Multimodal Emotion Analysis", "Affect Recognition"],
+    "website": "https://www.cmu.edu/",
+    "representative_papers": [
+      "Multimodal Sentiment Analysis with Transformer Fusion"
+    ]
+  },
+  {
+    "name": "Stanford University",
+    "institution": "Stanford University",
+    "country": "USA",
+    "directions": ["Affective HCI"],
+    "website": "https://www.stanford.edu/",
+    "representative_papers": [
+      "Social Emotional Intelligence for Human-Robot Interaction"
+    ]
+  },
+  {
+    "name": "Zhejiang University",
+    "institution": "Zhejiang University",
+    "country": "China",
+    "directions": ["Physiological Signal Sensing", "Affect Recognition"],
+    "website": "https://www.zju.edu.cn/",
+    "representative_papers": [
+      "EEG-based Emotion Recognition with Graph Neural Networks"
+    ]
+  },
+  {
+    "name": "Peking University",
+    "institution": "Peking University",
+    "country": "China",
+    "directions": ["Emotion-aware LLM"],
+    "website": "https://www.pku.edu.cn/",
+    "representative_papers": [
+      "Emotion Cause Analysis in Conversational Settings"
+    ]
+  },
+  {
+    "name": "University of Pittsburgh",
+    "institution": "University of Pittsburgh",
+    "country": "USA",
+    "directions": ["Affect Recognition", "Micro-expression"],
+    "website": "https://www.pitt.edu/",
+    "representative_papers": [
+      "Spontaneous Facial Action Unit Detection in the Wild"
+    ]
+  }
+]
