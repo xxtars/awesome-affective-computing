@@ -1,10 +1,10 @@
 [
   {
     "name": "Björn Schuller",
-    "institution": "Imperial College London",
-    "country": "UK",
-    "directions": ["Speech Emotion Recognition", "Affect Recognition"],
-    "homepage": "https://www.schuller.one/",
+    "institution": "Unknown",
+    "country": "Unknown",
+    "directions": [],
+    "homepage": "",
     "google_scholar": "https://scholar.google.com/citations?user=QtwxD1AAAAAJ",
     "openalex_author_id": "A5023888391"
   }

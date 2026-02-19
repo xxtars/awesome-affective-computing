@@ -1,30 +1,29 @@
-name: Update Papers
+name: Update Teams
 
 on:
   schedule:
     - cron: '0 2 * * 1'
   workflow_dispatch:
 
-env:
-  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-  S2_API_KEY: ${{ secrets.S2_API_KEY }}
-
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: python scripts/enrich_researchers.py
-      - run: python scripts/fetch_papers.py
-      - run: python scripts/classify_papers.py
-      - run: python scripts/merge_papers.py
+
+      - name: Generate teams from researcher.json
+        run: python scripts/generate_teams.py
+
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
-          git diff --cached --quiet || git commit -m "auto: update papers $(date +%Y-%m-%d)"
+          git add data/teams.json src/data/teams.json
+          git diff --cached --quiet || git commit -m "auto: update teams $(date +%Y-%m-%d)"
           git push

@@ -8,7 +8,7 @@ const projectName = 'awesome-affective-computing';
 
 const config: Config = {
   title: 'Awesome Affective Computing',
-  tagline: 'Teams × Directions × Papers — a structured collection',
+  tagline: 'Auto-generate teams from researcher.json',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -64,7 +64,6 @@ const config: Config = {
       },
       items: [
         {to: '/teams', label: 'Teams', position: 'left'},
-        {to: '/directions', label: 'Directions', position: 'left'},
         {
           href: `https://github.com/${organizationName}/${projectName}`,
           label: 'GitHub',
@@ -79,7 +78,6 @@ const config: Config = {
           title: 'Browse',
           items: [
             {label: 'Teams', to: '/teams'},
-            {label: 'Directions', to: '/directions'},
           ],
         },
         {
