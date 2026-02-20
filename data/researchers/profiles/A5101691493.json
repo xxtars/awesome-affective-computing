@@ -31,68 +31,68 @@
         "weight": 0.96
       },
       {
-        "name": "clinical affective computing",
+        "name": "explainable AI for emotion analysis",
         "weight": 0.92
       },
       {
-        "name": "explainable AI for emotion analysis",
+        "name": "clinical affective computing",
         "weight": 0.89
       },
       {
-        "name": "cross-cultural affective computing",
-        "weight": 0.85
-      },
-      {
         "name": "remote physiological sensing for emotion inference",
-        "weight": 0.83
+        "weight": 0.87
       },
       {
-        "name": "affective behavior modeling (body/gesture/micro-action)",
+        "name": "cross-cultural affective computing",
+        "weight": 0.84
+      },
+      {
+        "name": "fine-grained emotion recognition from body cues",
         "weight": 0.81
       }
     ],
-    "trend_summary": "Xiaobai Li's research centers on multimodal, clinically grounded, and ethically aware affective AI — with strong emphasis on fine-grained, spontaneous, and culturally robust emotion inference from nonverbal cues (especially micro-expressions, micro-gestures, and remote physiological signals). A clear evolution is observed: from foundational work on micro-expression datasets (CASME, 4DME) and spotting/recognition methods, toward integrated frameworks combining vision, language, physiology, and behavior — increasingly interpretable, disentangled, reinforcement-aligned, and deployed in real-world contexts like online meetings, depression screening, and cross-cultural HCI. Trust, privacy, and clinical translation are recurring thematic constraints shaping technical design.",
+    "trend_summary": "Xiaobai Li's research centers on multimodal, clinically grounded, and ethically aware affective AI—progressing from foundational micro-expression analysis toward interpretable, cross-culturally robust, and contactless emotion inference. Key trends include: (1) strong emphasis on integrating facial, bodily, audio, textual, and physiological signals (e.g., rPPG, EEG); (2) growing focus on clinical translation—especially depression, stress, and engagement detection in real-world settings (e.g., online meetings, mental health monitoring); (3) methodological innovation in disentanglement, fusion architectures (e.g., VISTANet, TCCT-Net), reinforcement learning (AffectGPT-R1), and vision-language models; (4) increasing attention to cultural adaptivity, privacy preservation, and psychological validity (e.g., SMG, iMiGUE, Privacy-Phys); and (5) sustained leadership in benchmarking via Grand Challenges (MEGC/MAC series) and high-impact dataset curation (CASME II, 4DME, SMG).",
     "representative_papers": [
       {
         "title": "CASME II: An Improved Spontaneous Micro-Expression Database and the Baseline Evaluation",
-        "why": "Foundational dataset paper with highest citation count (930), establishing benchmark standards for spontaneous micro-expression research — core to Li's long-term focus on subtle, involuntary affect."
+        "why": "Foundational dataset paper with highest citation count (930), establishing gold-standard spontaneous micro-expression resources and catalyzing the field."
       },
       {
         "title": "Video-Based Remote Physiological Measurement via Cross-Verified Feature Disentangling",
-        "why": "Highly cited (197) methodological breakthrough enabling contactless emotion inference via rPPG, bridging physiological signal estimation and affective computing — a pillar of Li's remote sensing work."
+        "why": "Highly cited (197) methodological breakthrough enabling reliable contactless emotion inference from video via rPPG, underpinning many later clinical and remote-affect works."
       },
       {
         "title": "SMG: A Micro-gesture Dataset Towards Spontaneous Body Gestures for Emotional Stress State Analysis",
-        "why": "Seminal body-based affect resource (48 citations), expanding beyond facial cues to model hidden stress through spontaneous micro-gestures — key to holistic affective behavior modeling."
+        "why": "Seminal body-based affect resource (48 citations), expanding beyond face/voice to psychologically-grounded micro-gestures for hidden stress detection."
       },
       {
         "title": "MEGC2025: Micro-Expression Grand Challenge on Spot Then Recognize and Visual Question Answering",
-        "why": "Latest flagship challenge integrating micro-expression analysis with vision-language understanding, reflecting Li's forward-looking shift toward multimodal, open-vocabulary, and reasoning-capable affective AI."
-      },
-      {
-        "title": "AffectGPT-R1: Leveraging Reinforcement Learning for Open-Vocabulary Multimodal Emotion Recognition",
-        "why": "Represents cutting-edge direction: merging generative foundation models, reward-based training, and open-set emotion recognition — signaling next-generation affective AI architecture."
-      },
-      {
-        "title": "Cross-Cultural Nuances of Micro-Expressions and Action Units: A Comparative Study",
-        "why": "Exemplifies growing emphasis on cultural robustness and decoupling anatomical vs. affective interpretation — critical for global deployment and ethical validity of emotion AI."
-      },
-      {
-        "title": "Multimodal Interpretable Depression Analysis Using Visual, Physiological, Audio and Textual Data",
-        "why": "Highlights clinical translation focus: high-citation (3) multimodal depression detection with interpretability — aligning with healthcare-oriented affective computing goals."
+        "why": "Flagship 2025 challenge integrating micro-expression analysis with vision-language reasoning—showcasing next-gen multimodal, interpretable, and task-aware affective AI."
       },
       {
         "title": "VISTANet: VIsual Spoken Textual Additive Net for Interpretable Multimodal Emotion Recognition",
-        "why": "Embodies core technical synthesis: interpretable fusion of visual, spoken, and textual modalities — directly addressing the need for transparency in real-world emotion-aware systems."
+        "why": "Exemplifies core direction of explainable multimodal fusion, unifying visual, spoken, and textual signals with transparency for real-world deployment."
+      },
+      {
+        "title": "Multimodal Interpretable Depression Analysis Using Visual, Physiological, Audio and Textual Data",
+        "why": "Represents clinical translation focus—highest-cited clinical paper (3 citations in early 2025, but reflects mature methodology applied to depression biomarkers)."
+      },
+      {
+        "title": "Cross-Cultural Nuances of Micro-Expressions and Action Units: A Comparative Study",
+        "why": "Highlights emerging priority on cultural robustness—addressing critical gaps in anatomical vs. affective interpretation across populations."
+      },
+      {
+        "title": "Editorial: Towards Emotion AI to next generation healthcare and education",
+        "why": "Synthesizes overarching vision—bridging technical advances with trust, ethics, adoption barriers, and human-centered applications in high-stakes domains."
       }
     ]
   },
   "stats": {
     "analyzed_works_count": 127,
     "interesting_works_count": 54,
-    "new_works_count": 127,
+    "new_works_count": 20,
     "deduped_works_count": 127,
-    "ai_called_count": 127,
+    "ai_called_count": 20,
     "summary_recomputed": true
   },
   "works": [
@@ -246,10 +246,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '25: The 33rd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '25: The 33rd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -346,10 +346,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '25: The 33rd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '25: The 33rd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -460,10 +460,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '25: The 33rd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '25: The 33rd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -857,10 +857,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2025 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2025 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -1495,10 +1495,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -1694,10 +1694,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -2210,10 +2210,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 6,
-      "primary_source": null,
+      "primary_source": "MM '24: The 32nd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '24: The 32nd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -2400,10 +2400,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "MM '24: The 32nd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '24: The 32nd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -2991,10 +2991,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2024 IEEE International Joint Conference on Biometrics (IJCB)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE International Joint Conference on Biometrics (IJCB)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -3418,10 +3418,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -3705,10 +3705,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -5919,10 +5919,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 6,
-      "primary_source": null,
+      "primary_source": "MM '23: The 31st ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '23: The 31st ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6272,10 +6272,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "MM '23: The 31st ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '23: The 31st ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6905,10 +6905,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2023 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2023 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -10654,10 +10654,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 22,
-      "primary_source": null,
+      "primary_source": "UbiComp/ISWC '22: The 2022 ACM International Joint Conference on Pervasive and Ubiquitous Computing",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "UbiComp/ISWC '22: The 2022 ACM International Joint Conference on Pervasive and Ubiquitous Computing",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -12599,10 +12599,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 14,
-      "primary_source": null,
+      "primary_source": "MM '21: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '21: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -12884,10 +12884,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2021 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2021 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -13099,10 +13099,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 123,
-      "primary_source": null,
+      "primary_source": "Thirtieth International Joint Conference on Artificial Intelligence {IJCAI-21}",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Thirtieth International Joint Conference on Artificial Intelligence {IJCAI-21}",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -14074,10 +14074,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 83,
-      "primary_source": null,
+      "primary_source": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -16267,355 +16267,6 @@
       }
     },
     {
-      "id": "https://openalex.org/W3128516613",
-      "openalex_url": "https://openalex.org/W3128516613",
-      "title": "MEGC2020 - The Third Facial Micro-Expression Grand Challenge",
-      "publication_year": 2020,
-      "publication_date": "2020-11-01",
-      "doi": "https://doi.org/10.1109/fg47880.2020.00035",
-      "doi_url": "https://doi.org/10.1109/fg47880.2020.00035",
-      "type": "article",
-      "type_crossref": null,
-      "language": "en",
-      "is_retracted": false,
-      "is_paratext": false,
-      "cited_by_count": 35,
-      "primary_source": null,
-      "source": {
-        "id": null,
-        "display_name": null,
-        "type": null,
-        "issn_l": null,
-        "is_in_doaj": null,
-        "host_organization_name": null,
-        "host_organization_lineage_names": []
-      },
-      "links": {
-        "openalex": "https://openalex.org/W3128516613",
-        "landing_page": "https://doi.org/10.1109/fg47880.2020.00035",
-        "pdf": null,
-        "primary_topic_openalex": "https://openalex.org/T10667",
-        "source_openalex": null
-      },
-      "concepts": [
-        "Spotting",
-        "Expression (computer science)",
-        "Computer science",
-        "Task (project management)",
-        "Facial expression",
-        "Face (sociological concept)",
-        "Keyword spotting",
-        "Artificial intelligence"
-      ],
-      "abstract": "The recent emergence of automatic facial micro-expression analysis has attracted a lot of attention in the last five years. Compared to the advances made in micro-expression recognition, the task of micro-expression spotting from long videos is tremendously in need of more effective methods. This paper summarises the 3rd Facial Micro-Expression Grand Challenge (MEGC 2020) held in conjunction with the 15th IEEE Conference on Automatic Face and Gesture Recognition (FG) 2020. In this workshop, we propose a new challenge of spotting both macro- and micro-expressions from long videos, to spur the community to develop new techniques for micro-expression spotting and also to extend facial micro-expression analysis to more complex real-world scenarios where micro-expressions are likely to be intertwined among normal expressions. In this paper, we outline the evaluation protocols for the challenge task, and describe the datasets involved. Then, we summarize the methods from the accepted challenge papers, present the comparison and analysis of results, as well as future directions.",
-      "openalex_analysis": {
-        "primary_topic": {
-          "id": "https://openalex.org/T10667",
-          "name": "Emotion and Mood Recognition",
-          "score": 0.9968000054359436,
-          "subfield": "Experimental and Cognitive Psychology",
-          "field": "Psychology",
-          "domain": "Social Sciences"
-        },
-        "topics": [
-          {
-            "id": "https://openalex.org/T10667",
-            "name": "Emotion and Mood Recognition",
-            "score": 0.9968000054359436,
-            "subfield": "Experimental and Cognitive Psychology",
-            "field": "Psychology",
-            "domain": "Social Sciences"
-          },
-          {
-            "id": "https://openalex.org/T11448",
-            "name": "Face recognition and analysis",
-            "score": 0.9904000163078308,
-            "subfield": "Computer Vision and Pattern Recognition",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10057",
-            "name": "Face and Expression Recognition",
-            "score": 0.989300012588501,
-            "subfield": "Computer Vision and Pattern Recognition",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "concepts": [
-          {
-            "id": "https://openalex.org/C2779506182",
-            "name": "Spotting",
-            "score": 0.903674840927124,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C90559484",
-            "name": "Expression (computer science)",
-            "score": 0.7896254062652588,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C41008148",
-            "name": "Computer science",
-            "score": 0.7573833465576172,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C2780451532",
-            "name": "Task (project management)",
-            "score": 0.681090772151947,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C195704467",
-            "name": "Facial expression",
-            "score": 0.6695895195007324,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C2779304628",
-            "name": "Face (sociological concept)",
-            "score": 0.4976086914539337,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C2781213101",
-            "name": "Keyword spotting",
-            "score": 0.4648662209510803,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C154945302",
-            "name": "Artificial intelligence",
-            "score": 0.45973312854766846,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C207347870",
-            "name": "Gesture",
-            "score": 0.4560335874557495,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C2777362162",
-            "name": "Grand Challenges",
-            "score": 0.4367508292198181,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C107457646",
-            "name": "Human–computer interaction",
-            "score": 0.43223682045936584,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C2987714656",
-            "name": "Facial expression recognition",
-            "score": 0.4286009669303894,
-            "level": 4
-          },
-          {
-            "id": "https://openalex.org/C166955791",
-            "name": "Macro",
-            "score": 0.42470067739486694,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C31510193",
-            "name": "Facial recognition system",
-            "score": 0.3406261205673218,
-            "level": 3
-          },
-          {
-            "id": "https://openalex.org/C153180895",
-            "name": "Pattern recognition (psychology)",
-            "score": 0.22722426056861877,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C127413603",
-            "name": "Engineering",
-            "score": 0.06642347574234009,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C201995342",
-            "name": "Systems engineering",
-            "score": 0.06401702761650085,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C111919701",
-            "name": "Operating system",
-            "score": 0,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C144024400",
-            "name": "Sociology",
-            "score": 0,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C36289849",
-            "name": "Social science",
-            "score": 0,
-            "level": 1
-          }
-        ],
-        "keywords": [
-          {
-            "id": "https://openalex.org/keywords/spotting",
-            "name": "Spotting",
-            "score": 0.903674840927124
-          },
-          {
-            "id": "https://openalex.org/keywords/expression",
-            "name": "Expression (computer science)",
-            "score": 0.7896254062652588
-          },
-          {
-            "id": "https://openalex.org/keywords/computer-science",
-            "name": "Computer science",
-            "score": 0.7573833465576172
-          },
-          {
-            "id": "https://openalex.org/keywords/task",
-            "name": "Task (project management)",
-            "score": 0.681090772151947
-          },
-          {
-            "id": "https://openalex.org/keywords/facial-expression",
-            "name": "Facial expression",
-            "score": 0.6695895195007324
-          },
-          {
-            "id": "https://openalex.org/keywords/face",
-            "name": "Face (sociological concept)",
-            "score": 0.4976086914539337
-          },
-          {
-            "id": "https://openalex.org/keywords/keyword-spotting",
-            "name": "Keyword spotting",
-            "score": 0.4648662209510803
-          },
-          {
-            "id": "https://openalex.org/keywords/artificial-intelligence",
-            "name": "Artificial intelligence",
-            "score": 0.45973312854766846
-          },
-          {
-            "id": "https://openalex.org/keywords/gesture",
-            "name": "Gesture",
-            "score": 0.4560335874557495
-          },
-          {
-            "id": "https://openalex.org/keywords/grand-challenges",
-            "name": "Grand Challenges",
-            "score": 0.4367508292198181
-          },
-          {
-            "id": "https://openalex.org/keywords/human–computer-interaction",
-            "name": "Human–computer interaction",
-            "score": 0.43223682045936584
-          },
-          {
-            "id": "https://openalex.org/keywords/facial-expression-recognition",
-            "name": "Facial expression recognition",
-            "score": 0.4286009669303894
-          },
-          {
-            "id": "https://openalex.org/keywords/macro",
-            "name": "Macro",
-            "score": 0.42470067739486694
-          },
-          {
-            "id": "https://openalex.org/keywords/facial-recognition-system",
-            "name": "Facial recognition system",
-            "score": 0.3406261205673218
-          },
-          {
-            "id": "https://openalex.org/keywords/pattern-recognition",
-            "name": "Pattern recognition (psychology)",
-            "score": 0.22722426056861877
-          },
-          {
-            "id": "https://openalex.org/keywords/engineering",
-            "name": "Engineering",
-            "score": 0.06642347574234009
-          },
-          {
-            "id": "https://openalex.org/keywords/systems-engineering",
-            "name": "Systems engineering",
-            "score": 0.06401702761650085
-          }
-        ],
-        "sustainable_development_goals": [],
-        "open_access": {
-          "is_oa": false,
-          "oa_status": "closed",
-          "oa_url": null,
-          "any_repository_has_fulltext": false
-        },
-        "citation_normalized_percentile": {
-          "value": 0.95289981,
-          "is_in_top_1_percent": false,
-          "is_in_top_10_percent": true
-        },
-        "fwci": 5.40938967,
-        "counts_by_year": [
-          {
-            "year": 2025,
-            "cited_by_count": 2
-          },
-          {
-            "year": 2024,
-            "cited_by_count": 6
-          },
-          {
-            "year": 2023,
-            "cited_by_count": 11
-          },
-          {
-            "year": 2022,
-            "cited_by_count": 8
-          },
-          {
-            "year": 2021,
-            "cited_by_count": 8
-          }
-        ],
-        "institutions_distinct_count": 6,
-        "countries_distinct_count": 4,
-        "referenced_works_count": 33
-      },
-      "analysis": {
-        "is_interesting": true,
-        "relevance_score": 0.92,
-        "confidence": 0.95,
-        "reason": "The paper focuses on facial micro-expression spotting and analysis, which is a core subfield of affective computing and emotion recognition; the researcher's interest topic 'emotion' directly aligns with this domain.",
-        "evidence": [
-          "The paper centers on automatic facial micro-expression analysis, a well-established method for inferring underlying emotional states.",
-          "It explicitly connects micro-expressions to 'real-world scenarios where micro-expressions are likely to be intertwined among normal expressions', implying affective/emotional significance.",
-          "Facial expression is listed as a top concept, and micro-expressions are widely accepted in psychology and affective computing as involuntary indicators of concealed or suppressed emotions."
-        ],
-        "keywords": [
-          "facial micro-expression",
-          "emotion recognition",
-          "affective computing",
-          "expression spotting",
-          "nonverbal emotion cues"
-        ],
-        "research_directions": [
-          "automated emotion inference from subtle facial dynamics",
-          "real-world affective state detection in long video streams",
-          "joint macro- and micro-expression analysis for robust emotion understanding"
-        ]
-      }
-    },
-    {
       "id": "https://openalex.org/W3127609451",
       "openalex_url": "https://openalex.org/W3127609451",
       "title": "Landmarks-assisted Collaborative Deep Framework for Automatic 4D Facial Expression Recognition",
@@ -16629,10 +16280,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 9,
-      "primary_source": null,
+      "primary_source": "2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -16968,6 +16619,355 @@
       }
     },
     {
+      "id": "https://openalex.org/W3128516613",
+      "openalex_url": "https://openalex.org/W3128516613",
+      "title": "MEGC2020 - The Third Facial Micro-Expression Grand Challenge",
+      "publication_year": 2020,
+      "publication_date": "2020-11-01",
+      "doi": "https://doi.org/10.1109/fg47880.2020.00035",
+      "doi_url": "https://doi.org/10.1109/fg47880.2020.00035",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 35,
+      "primary_source": "2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020)",
+      "source": {
+        "id": null,
+        "display_name": "2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020)",
+        "type": null,
+        "issn_l": null,
+        "is_in_doaj": null,
+        "host_organization_name": null,
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W3128516613",
+        "landing_page": "https://doi.org/10.1109/fg47880.2020.00035",
+        "pdf": null,
+        "primary_topic_openalex": "https://openalex.org/T10667",
+        "source_openalex": null
+      },
+      "concepts": [
+        "Spotting",
+        "Expression (computer science)",
+        "Computer science",
+        "Task (project management)",
+        "Facial expression",
+        "Face (sociological concept)",
+        "Keyword spotting",
+        "Artificial intelligence"
+      ],
+      "abstract": "The recent emergence of automatic facial micro-expression analysis has attracted a lot of attention in the last five years. Compared to the advances made in micro-expression recognition, the task of micro-expression spotting from long videos is tremendously in need of more effective methods. This paper summarises the 3rd Facial Micro-Expression Grand Challenge (MEGC 2020) held in conjunction with the 15th IEEE Conference on Automatic Face and Gesture Recognition (FG) 2020. In this workshop, we propose a new challenge of spotting both macro- and micro-expressions from long videos, to spur the community to develop new techniques for micro-expression spotting and also to extend facial micro-expression analysis to more complex real-world scenarios where micro-expressions are likely to be intertwined among normal expressions. In this paper, we outline the evaluation protocols for the challenge task, and describe the datasets involved. Then, we summarize the methods from the accepted challenge papers, present the comparison and analysis of results, as well as future directions.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T10667",
+          "name": "Emotion and Mood Recognition",
+          "score": 0.9968000054359436,
+          "subfield": "Experimental and Cognitive Psychology",
+          "field": "Psychology",
+          "domain": "Social Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10667",
+            "name": "Emotion and Mood Recognition",
+            "score": 0.9968000054359436,
+            "subfield": "Experimental and Cognitive Psychology",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11448",
+            "name": "Face recognition and analysis",
+            "score": 0.9904000163078308,
+            "subfield": "Computer Vision and Pattern Recognition",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10057",
+            "name": "Face and Expression Recognition",
+            "score": 0.989300012588501,
+            "subfield": "Computer Vision and Pattern Recognition",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C2779506182",
+            "name": "Spotting",
+            "score": 0.903674840927124,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C90559484",
+            "name": "Expression (computer science)",
+            "score": 0.7896254062652588,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.7573833465576172,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C2780451532",
+            "name": "Task (project management)",
+            "score": 0.681090772151947,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C195704467",
+            "name": "Facial expression",
+            "score": 0.6695895195007324,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2779304628",
+            "name": "Face (sociological concept)",
+            "score": 0.4976086914539337,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2781213101",
+            "name": "Keyword spotting",
+            "score": 0.4648662209510803,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "name": "Artificial intelligence",
+            "score": 0.45973312854766846,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C207347870",
+            "name": "Gesture",
+            "score": 0.4560335874557495,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2777362162",
+            "name": "Grand Challenges",
+            "score": 0.4367508292198181,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C107457646",
+            "name": "Human–computer interaction",
+            "score": 0.43223682045936584,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C2987714656",
+            "name": "Facial expression recognition",
+            "score": 0.4286009669303894,
+            "level": 4
+          },
+          {
+            "id": "https://openalex.org/C166955791",
+            "name": "Macro",
+            "score": 0.42470067739486694,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C31510193",
+            "name": "Facial recognition system",
+            "score": 0.3406261205673218,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C153180895",
+            "name": "Pattern recognition (psychology)",
+            "score": 0.22722426056861877,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C127413603",
+            "name": "Engineering",
+            "score": 0.06642347574234009,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C201995342",
+            "name": "Systems engineering",
+            "score": 0.06401702761650085,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C111919701",
+            "name": "Operating system",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C144024400",
+            "name": "Sociology",
+            "score": 0,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C36289849",
+            "name": "Social science",
+            "score": 0,
+            "level": 1
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/spotting",
+            "name": "Spotting",
+            "score": 0.903674840927124
+          },
+          {
+            "id": "https://openalex.org/keywords/expression",
+            "name": "Expression (computer science)",
+            "score": 0.7896254062652588
+          },
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.7573833465576172
+          },
+          {
+            "id": "https://openalex.org/keywords/task",
+            "name": "Task (project management)",
+            "score": 0.681090772151947
+          },
+          {
+            "id": "https://openalex.org/keywords/facial-expression",
+            "name": "Facial expression",
+            "score": 0.6695895195007324
+          },
+          {
+            "id": "https://openalex.org/keywords/face",
+            "name": "Face (sociological concept)",
+            "score": 0.4976086914539337
+          },
+          {
+            "id": "https://openalex.org/keywords/keyword-spotting",
+            "name": "Keyword spotting",
+            "score": 0.4648662209510803
+          },
+          {
+            "id": "https://openalex.org/keywords/artificial-intelligence",
+            "name": "Artificial intelligence",
+            "score": 0.45973312854766846
+          },
+          {
+            "id": "https://openalex.org/keywords/gesture",
+            "name": "Gesture",
+            "score": 0.4560335874557495
+          },
+          {
+            "id": "https://openalex.org/keywords/grand-challenges",
+            "name": "Grand Challenges",
+            "score": 0.4367508292198181
+          },
+          {
+            "id": "https://openalex.org/keywords/human–computer-interaction",
+            "name": "Human–computer interaction",
+            "score": 0.43223682045936584
+          },
+          {
+            "id": "https://openalex.org/keywords/facial-expression-recognition",
+            "name": "Facial expression recognition",
+            "score": 0.4286009669303894
+          },
+          {
+            "id": "https://openalex.org/keywords/macro",
+            "name": "Macro",
+            "score": 0.42470067739486694
+          },
+          {
+            "id": "https://openalex.org/keywords/facial-recognition-system",
+            "name": "Facial recognition system",
+            "score": 0.3406261205673218
+          },
+          {
+            "id": "https://openalex.org/keywords/pattern-recognition",
+            "name": "Pattern recognition (psychology)",
+            "score": 0.22722426056861877
+          },
+          {
+            "id": "https://openalex.org/keywords/engineering",
+            "name": "Engineering",
+            "score": 0.06642347574234009
+          },
+          {
+            "id": "https://openalex.org/keywords/systems-engineering",
+            "name": "Systems engineering",
+            "score": 0.06401702761650085
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "citation_normalized_percentile": {
+          "value": 0.95289981,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": true
+        },
+        "fwci": 5.40938967,
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 2
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 6
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 11
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 8
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 8
+          }
+        ],
+        "institutions_distinct_count": 6,
+        "countries_distinct_count": 4,
+        "referenced_works_count": 33
+      },
+      "analysis": {
+        "is_interesting": true,
+        "relevance_score": 0.92,
+        "confidence": 0.95,
+        "reason": "The paper focuses on facial micro-expression spotting and analysis, which is a core subfield of affective computing and emotion recognition; the researcher's interest topic 'emotion' directly aligns with this domain.",
+        "evidence": [
+          "The paper centers on automatic facial micro-expression analysis, a well-established method for inferring underlying emotional states.",
+          "It explicitly connects micro-expressions to 'real-world scenarios where micro-expressions are likely to be intertwined among normal expressions', implying affective/emotional significance.",
+          "Facial expression is listed as a top concept, and micro-expressions are widely accepted in psychology and affective computing as involuntary indicators of concealed or suppressed emotions."
+        ],
+        "keywords": [
+          "facial micro-expression",
+          "emotion recognition",
+          "affective computing",
+          "expression spotting",
+          "nonverbal emotion cues"
+        ],
+        "research_directions": [
+          "automated emotion inference from subtle facial dynamics",
+          "real-world affective state detection in long video streams",
+          "joint macro- and micro-expression analysis for robust emotion understanding"
+        ]
+      }
+    },
+    {
       "id": "https://openalex.org/W3082504832",
       "openalex_url": "https://openalex.org/W3082504832",
       "title": "Experimental Study on Deliquification with Atomizing Nozzle in Gas Well",
@@ -17279,10 +17279,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 14,
-      "primary_source": null,
+      "primary_source": "2020 42nd Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) in conjunction with the 43rd Annual Conference of the Canadian Medical and Biological Engineering Society",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2020 42nd Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) in conjunction with the 43rd Annual Conference of the Canadian Medical and Biological Engineering Society",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -17561,297 +17561,6 @@
       }
     },
     {
-      "id": "https://openalex.org/W3035459165",
-      "openalex_url": "https://openalex.org/W3035459165",
-      "title": "Searching Central Difference Convolutional Networks for Face Anti-Spoofing",
-      "publication_year": 2020,
-      "publication_date": "2020-06-01",
-      "doi": "https://doi.org/10.1109/cvpr42600.2020.00534",
-      "doi_url": "https://doi.org/10.1109/cvpr42600.2020.00534",
-      "type": "article",
-      "type_crossref": null,
-      "language": "en",
-      "is_retracted": false,
-      "is_paratext": false,
-      "cited_by_count": 568,
-      "primary_source": null,
-      "source": {
-        "id": null,
-        "display_name": null,
-        "type": null,
-        "issn_l": null,
-        "is_in_doaj": null,
-        "host_organization_name": null,
-        "host_organization_lineage_names": []
-      },
-      "links": {
-        "openalex": "https://openalex.org/W3035459165",
-        "landing_page": "https://doi.org/10.1109/cvpr42600.2020.00534",
-        "pdf": null,
-        "primary_topic_openalex": "https://openalex.org/T10828",
-        "source_openalex": null
-      },
-      "concepts": [
-        "Computer science",
-        "Convolutional neural network",
-        "Convolution (computer science)",
-        "Benchmark (surveying)",
-        "Artificial intelligence",
-        "Boosting (machine learning)",
-        "Face (sociological concept)",
-        "Pattern recognition (psychology)"
-      ],
-      "abstract": "Face anti-spoofing (FAS) plays a vital role in face recognition systems. Most state-of-the-art FAS methods 1) rely on stacked convolutions and expert-designed network, which is weak in describing detailed fine-grained information and easily being ineffective when the environment varies (e.g., different illumination), and 2) prefer to use long sequence as input to extract dynamic features, making them difficult to deploy into scenarios which need quick response. Here we propose a novel frame level FAS method based on Central Difference Convolution (CDC), which is able to capture intrinsic detailed patterns via aggregating both intensity and gradient information. A network built with CDC, called the Central Difference Convolutional Network (CDCN), is able to provide more robust modeling capacity than its counterpart built with vanilla convolution. Furthermore, over a specifically designed CDC search space, Neural Architecture Search (NAS) is utilized to discover a more powerful network structure (CDCN++), which can be assembled with Multiscale Attention Fusion Module (MAFM) for further boosting performance. Comprehensive experiments are performed on six benchmark datasets to show that 1) the proposed method not only achieves superior performance on intra-dataset testing (especially 0.2% ACER in Protocol-1 of OULU-NPU dataset), 2) it also generalizes well on cross-dataset testing (particularly 6.5% HTER from CASIA-MFSD to Replay-Attack datasets). The codes are available at https://github.com/ZitongYu/CDCN.",
-      "openalex_analysis": {
-        "primary_topic": {
-          "id": "https://openalex.org/T10828",
-          "name": "Biometric Identification and Security",
-          "score": 0.9998999834060669,
-          "subfield": "Signal Processing",
-          "field": "Computer Science",
-          "domain": "Physical Sciences"
-        },
-        "topics": [
-          {
-            "id": "https://openalex.org/T10828",
-            "name": "Biometric Identification and Security",
-            "score": 0.9998999834060669,
-            "subfield": "Signal Processing",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T11448",
-            "name": "Face recognition and analysis",
-            "score": 0.9927999973297119,
-            "subfield": "Computer Vision and Pattern Recognition",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T11800",
-            "name": "User Authentication and Security Systems",
-            "score": 0.9757000207901001,
-            "subfield": "Information Systems",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "concepts": [
-          {
-            "id": "https://openalex.org/C41008148",
-            "name": "Computer science",
-            "score": 0.8542238473892212,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C81363708",
-            "name": "Convolutional neural network",
-            "score": 0.5949758291244507,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C45347329",
-            "name": "Convolution (computer science)",
-            "score": 0.5632250308990479,
-            "level": 3
-          },
-          {
-            "id": "https://openalex.org/C185798385",
-            "name": "Benchmark (surveying)",
-            "score": 0.5579518675804138,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C154945302",
-            "name": "Artificial intelligence",
-            "score": 0.5166135430335999,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C46686674",
-            "name": "Boosting (machine learning)",
-            "score": 0.467765748500824,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C2779304628",
-            "name": "Face (sociological concept)",
-            "score": 0.44942498207092285,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C153180895",
-            "name": "Pattern recognition (psychology)",
-            "score": 0.44656968116760254,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C31510193",
-            "name": "Facial recognition system",
-            "score": 0.43207791447639465,
-            "level": 3
-          },
-          {
-            "id": "https://openalex.org/C124101348",
-            "name": "Data mining",
-            "score": 0.3334349989891052,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C50644808",
-            "name": "Artificial neural network",
-            "score": 0.2344163954257965,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C36289849",
-            "name": "Social science",
-            "score": 0,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C144024400",
-            "name": "Sociology",
-            "score": 0,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C13280743",
-            "name": "Geodesy",
-            "score": 0,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C205649164",
-            "name": "Geography",
-            "score": 0,
-            "level": 0
-          }
-        ],
-        "keywords": [
-          {
-            "id": "https://openalex.org/keywords/computer-science",
-            "name": "Computer science",
-            "score": 0.8542238473892212
-          },
-          {
-            "id": "https://openalex.org/keywords/convolutional-neural-network",
-            "name": "Convolutional neural network",
-            "score": 0.5949758291244507
-          },
-          {
-            "id": "https://openalex.org/keywords/convolution",
-            "name": "Convolution (computer science)",
-            "score": 0.5632250308990479
-          },
-          {
-            "id": "https://openalex.org/keywords/benchmark",
-            "name": "Benchmark (surveying)",
-            "score": 0.5579518675804138
-          },
-          {
-            "id": "https://openalex.org/keywords/artificial-intelligence",
-            "name": "Artificial intelligence",
-            "score": 0.5166135430335999
-          },
-          {
-            "id": "https://openalex.org/keywords/boosting",
-            "name": "Boosting (machine learning)",
-            "score": 0.467765748500824
-          },
-          {
-            "id": "https://openalex.org/keywords/face",
-            "name": "Face (sociological concept)",
-            "score": 0.44942498207092285
-          },
-          {
-            "id": "https://openalex.org/keywords/pattern-recognition",
-            "name": "Pattern recognition (psychology)",
-            "score": 0.44656968116760254
-          },
-          {
-            "id": "https://openalex.org/keywords/facial-recognition-system",
-            "name": "Facial recognition system",
-            "score": 0.43207791447639465
-          },
-          {
-            "id": "https://openalex.org/keywords/data-mining",
-            "name": "Data mining",
-            "score": 0.3334349989891052
-          },
-          {
-            "id": "https://openalex.org/keywords/artificial-neural-network",
-            "name": "Artificial neural network",
-            "score": 0.2344163954257965
-          }
-        ],
-        "sustainable_development_goals": [
-          {
-            "id": "https://metadata.un.org/sdg/11",
-            "display_name": "Sustainable cities and communities",
-            "score": 0.46000000834465027
-          }
-        ],
-        "open_access": {
-          "is_oa": false,
-          "oa_status": "closed",
-          "oa_url": null,
-          "any_repository_has_fulltext": false
-        },
-        "citation_normalized_percentile": {
-          "value": 0.99908004,
-          "is_in_top_1_percent": true,
-          "is_in_top_10_percent": true
-        },
-        "fwci": 43.74160073,
-        "counts_by_year": [
-          {
-            "year": 2026,
-            "cited_by_count": 13
-          },
-          {
-            "year": 2025,
-            "cited_by_count": 117
-          },
-          {
-            "year": 2024,
-            "cited_by_count": 142
-          },
-          {
-            "year": 2023,
-            "cited_by_count": 131
-          },
-          {
-            "year": 2022,
-            "cited_by_count": 74
-          },
-          {
-            "year": 2021,
-            "cited_by_count": 74
-          },
-          {
-            "year": 2020,
-            "cited_by_count": 17
-          }
-        ],
-        "institutions_distinct_count": 8,
-        "countries_distinct_count": 2,
-        "referenced_works_count": 88
-      },
-      "analysis": {
-        "is_interesting": false,
-        "relevance_score": 0.1,
-        "confidence": 0.95,
-        "reason": "The paper focuses on face anti-spoofing using convolutional neural networks and architecture search; no mention of emotion, affect, or related psychological constructs.",
-        "evidence": [
-          "Abstract and concepts contain no emotion-related terms; 'emotion' does not appear in title, abstract, or listed concepts."
-        ],
-        "keywords": [],
-        "research_directions": []
-      }
-    },
-    {
       "id": "https://openalex.org/W3036080349",
       "openalex_url": "https://openalex.org/W3036080349",
       "title": "Multi-Modal Face Anti-Spoofing Based on Central Difference Networks",
@@ -17865,10 +17574,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 82,
-      "primary_source": null,
+      "primary_source": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -18202,10 +17911,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 23,
-      "primary_source": null,
+      "primary_source": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -18443,6 +18152,297 @@
         "reason": "The paper focuses on remote heart rate measurement from facial videos, a physiological signal sensing task; 'emotion' is not mentioned in title, abstract, or concepts, and no affective/emotion-related methodology, labeling, or application is indicated.",
         "evidence": [
           "The challenge focuses on measuring average heart rate — a basic physiological parameter, not an emotional state or affective process."
+        ],
+        "keywords": [],
+        "research_directions": []
+      }
+    },
+    {
+      "id": "https://openalex.org/W3035459165",
+      "openalex_url": "https://openalex.org/W3035459165",
+      "title": "Searching Central Difference Convolutional Networks for Face Anti-Spoofing",
+      "publication_year": 2020,
+      "publication_date": "2020-06-01",
+      "doi": "https://doi.org/10.1109/cvpr42600.2020.00534",
+      "doi_url": "https://doi.org/10.1109/cvpr42600.2020.00534",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 568,
+      "primary_source": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "source": {
+        "id": null,
+        "display_name": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "type": null,
+        "issn_l": null,
+        "is_in_doaj": null,
+        "host_organization_name": null,
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W3035459165",
+        "landing_page": "https://doi.org/10.1109/cvpr42600.2020.00534",
+        "pdf": null,
+        "primary_topic_openalex": "https://openalex.org/T10828",
+        "source_openalex": null
+      },
+      "concepts": [
+        "Computer science",
+        "Convolutional neural network",
+        "Convolution (computer science)",
+        "Benchmark (surveying)",
+        "Artificial intelligence",
+        "Boosting (machine learning)",
+        "Face (sociological concept)",
+        "Pattern recognition (psychology)"
+      ],
+      "abstract": "Face anti-spoofing (FAS) plays a vital role in face recognition systems. Most state-of-the-art FAS methods 1) rely on stacked convolutions and expert-designed network, which is weak in describing detailed fine-grained information and easily being ineffective when the environment varies (e.g., different illumination), and 2) prefer to use long sequence as input to extract dynamic features, making them difficult to deploy into scenarios which need quick response. Here we propose a novel frame level FAS method based on Central Difference Convolution (CDC), which is able to capture intrinsic detailed patterns via aggregating both intensity and gradient information. A network built with CDC, called the Central Difference Convolutional Network (CDCN), is able to provide more robust modeling capacity than its counterpart built with vanilla convolution. Furthermore, over a specifically designed CDC search space, Neural Architecture Search (NAS) is utilized to discover a more powerful network structure (CDCN++), which can be assembled with Multiscale Attention Fusion Module (MAFM) for further boosting performance. Comprehensive experiments are performed on six benchmark datasets to show that 1) the proposed method not only achieves superior performance on intra-dataset testing (especially 0.2% ACER in Protocol-1 of OULU-NPU dataset), 2) it also generalizes well on cross-dataset testing (particularly 6.5% HTER from CASIA-MFSD to Replay-Attack datasets). The codes are available at https://github.com/ZitongYu/CDCN.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T10828",
+          "name": "Biometric Identification and Security",
+          "score": 0.9998999834060669,
+          "subfield": "Signal Processing",
+          "field": "Computer Science",
+          "domain": "Physical Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10828",
+            "name": "Biometric Identification and Security",
+            "score": 0.9998999834060669,
+            "subfield": "Signal Processing",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11448",
+            "name": "Face recognition and analysis",
+            "score": 0.9927999973297119,
+            "subfield": "Computer Vision and Pattern Recognition",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11800",
+            "name": "User Authentication and Security Systems",
+            "score": 0.9757000207901001,
+            "subfield": "Information Systems",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.8542238473892212,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C81363708",
+            "name": "Convolutional neural network",
+            "score": 0.5949758291244507,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C45347329",
+            "name": "Convolution (computer science)",
+            "score": 0.5632250308990479,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C185798385",
+            "name": "Benchmark (surveying)",
+            "score": 0.5579518675804138,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "name": "Artificial intelligence",
+            "score": 0.5166135430335999,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C46686674",
+            "name": "Boosting (machine learning)",
+            "score": 0.467765748500824,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2779304628",
+            "name": "Face (sociological concept)",
+            "score": 0.44942498207092285,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C153180895",
+            "name": "Pattern recognition (psychology)",
+            "score": 0.44656968116760254,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C31510193",
+            "name": "Facial recognition system",
+            "score": 0.43207791447639465,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C124101348",
+            "name": "Data mining",
+            "score": 0.3334349989891052,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C50644808",
+            "name": "Artificial neural network",
+            "score": 0.2344163954257965,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C36289849",
+            "name": "Social science",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C144024400",
+            "name": "Sociology",
+            "score": 0,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C13280743",
+            "name": "Geodesy",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C205649164",
+            "name": "Geography",
+            "score": 0,
+            "level": 0
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.8542238473892212
+          },
+          {
+            "id": "https://openalex.org/keywords/convolutional-neural-network",
+            "name": "Convolutional neural network",
+            "score": 0.5949758291244507
+          },
+          {
+            "id": "https://openalex.org/keywords/convolution",
+            "name": "Convolution (computer science)",
+            "score": 0.5632250308990479
+          },
+          {
+            "id": "https://openalex.org/keywords/benchmark",
+            "name": "Benchmark (surveying)",
+            "score": 0.5579518675804138
+          },
+          {
+            "id": "https://openalex.org/keywords/artificial-intelligence",
+            "name": "Artificial intelligence",
+            "score": 0.5166135430335999
+          },
+          {
+            "id": "https://openalex.org/keywords/boosting",
+            "name": "Boosting (machine learning)",
+            "score": 0.467765748500824
+          },
+          {
+            "id": "https://openalex.org/keywords/face",
+            "name": "Face (sociological concept)",
+            "score": 0.44942498207092285
+          },
+          {
+            "id": "https://openalex.org/keywords/pattern-recognition",
+            "name": "Pattern recognition (psychology)",
+            "score": 0.44656968116760254
+          },
+          {
+            "id": "https://openalex.org/keywords/facial-recognition-system",
+            "name": "Facial recognition system",
+            "score": 0.43207791447639465
+          },
+          {
+            "id": "https://openalex.org/keywords/data-mining",
+            "name": "Data mining",
+            "score": 0.3334349989891052
+          },
+          {
+            "id": "https://openalex.org/keywords/artificial-neural-network",
+            "name": "Artificial neural network",
+            "score": 0.2344163954257965
+          }
+        ],
+        "sustainable_development_goals": [
+          {
+            "id": "https://metadata.un.org/sdg/11",
+            "display_name": "Sustainable cities and communities",
+            "score": 0.46000000834465027
+          }
+        ],
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "citation_normalized_percentile": {
+          "value": 0.99908004,
+          "is_in_top_1_percent": true,
+          "is_in_top_10_percent": true
+        },
+        "fwci": 43.74160073,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 13
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 117
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 142
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 131
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 74
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 74
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 17
+          }
+        ],
+        "institutions_distinct_count": 8,
+        "countries_distinct_count": 2,
+        "referenced_works_count": 88
+      },
+      "analysis": {
+        "is_interesting": false,
+        "relevance_score": 0.1,
+        "confidence": 0.95,
+        "reason": "The paper focuses on face anti-spoofing using convolutional neural networks and architecture search; no mention of emotion, affect, or related psychological constructs.",
+        "evidence": [
+          "Abstract and concepts contain no emotion-related terms; 'emotion' does not appear in title, abstract, or listed concepts."
         ],
         "keywords": [],
         "research_directions": []
@@ -20059,10 +20059,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 317,
-      "primary_source": null,
+      "primary_source": "2019 IEEE/CVF International Conference on Computer Vision (ICCV)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 IEEE/CVF International Conference on Computer Vision (ICCV)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -21132,10 +21132,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 89,
-      "primary_source": null,
+      "primary_source": "ICBEA 2019: 2019 3rd International Conference on Biometric Engineering and Applications",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICBEA 2019: 2019 3rd International Conference on Biometric Engineering and Applications",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -22327,10 +22327,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 40,
-      "primary_source": null,
+      "primary_source": "2019 14th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2019)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 14th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2019)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -23814,10 +23814,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 110,
-      "primary_source": null,
+      "primary_source": "2018 13th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2018)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2018 13th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2018)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -25277,10 +25277,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 185,
-      "primary_source": null,
+      "primary_source": "2016 23rd International Conference on Pattern Recognition (ICPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2016 23rd International Conference on Pattern Recognition (ICPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -25585,10 +25585,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 34,
-      "primary_source": null,
+      "primary_source": "2016 Sixth International Conference on Image Processing Theory, Tools and Applications (IPTA)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2016 Sixth International Conference on Image Processing Theory, Tools and Applications (IPTA)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -27174,10 +27174,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 142,
-      "primary_source": null,
+      "primary_source": "2014 22nd International Conference on Pattern Recognition (ICPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2014 22nd International Conference on Pattern Recognition (ICPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -27505,10 +27505,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 547,
-      "primary_source": null,
+      "primary_source": "2014 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2014 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -28752,10 +28752,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 629,
-      "primary_source": null,
+      "primary_source": "2013 10th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2013)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2013 10th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2013)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -29657,10 +29657,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 30,
-      "primary_source": null,
+      "primary_source": "2012 34th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2012 34th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -30950,10 +30950,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 421,
-      "primary_source": null,
+      "primary_source": "2011 IEEE International Conference on Computer Vision (ICCV)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2011 IEEE International Conference on Computer Vision (ICCV)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -31157,10 +31157,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 104,
-      "primary_source": null,
+      "primary_source": "2011 IEEE International Conference on Computer Vision Workshops (ICCV Workshops)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2011 IEEE International Conference on Computer Vision Workshops (ICCV Workshops)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -31488,10 +31488,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "2010 2nd International Conference on Signal Processing Systems (ICSPS)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 2nd International Conference on Signal Processing Systems (ICSPS)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -33507,10 +33507,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "XXIst International Symposium on Discharges and Electrical Insulation in Vacuum, 2004. ISDEIV.",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "XXIst International Symposium on Discharges and Electrical Insulation in Vacuum, 2004. ISDEIV.",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -33995,10 +33995,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "International Conference on Microwave and Millimeter Wave Technology",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "International Conference on Microwave and Millimeter Wave Technology",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,

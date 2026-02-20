@@ -19,11 +19,11 @@
   "topic_summary": {
     "top_research_directions": [
       {
-        "name": "Affective multimodal emotion modeling",
+        "name": "Affective multimodal emotion analysis",
         "weight": 1
       },
       {
-        "name": "Emotion-aware generative AI for music and audiovisual content",
+        "name": "Emotion-aware generative AI (music/audiovisual)",
         "weight": 0.97
       },
       {
@@ -31,11 +31,11 @@
         "weight": 0.93
       },
       {
-        "name": "Physiological and behavioral signal-based affective computing",
+        "name": "Emotion-aware recommender and personalization systems",
         "weight": 0.89
       },
       {
-        "name": "Emotion-aware recommender and personalization systems",
+        "name": "Physiological-signal-informed affective computing",
         "weight": 0.85
       },
       {
@@ -43,56 +43,56 @@
         "weight": 0.81
       },
       {
-        "name": "Culture- and context-sensitive affective modeling",
+        "name": "Culture- and context-aware affective modeling",
         "weight": 0.76
       },
       {
-        "name": "Psychology-informed HCI and creative tool design",
+        "name": "Psychology-informed HCI for emotional well-being",
         "weight": 0.72
       }
     ],
-    "trend_summary": "Kejun Zhang's research centers on affective computing with strong emphasis on multimodal emotion representation—especially fusing audio, video, physiological signals (e.g., EDA, EEG), and behavioral cues. A defining trend is the application of generative AI (diffusion models, LLMs, cross-modal alignment) to emotion-conditioned creative synthesis—particularly music generation, soundtrack adaptation, and human-AI-animal co-creation for wellness. His work bridges technical innovation (e.g., real-time affect inference, soft-transition arrangement, colloquial expression alignment) with human-centered goals: therapeutic impact, emotional well-being, retail/service robotics, and cross-cultural expressivity. Early foundations in music emotion recognition and physiological modeling have evolved into integrated, context-aware, and ethically grounded affective systems.",
+    "trend_summary": "Kejun Zhang's research centers on affective computing with strong emphasis on multimodal emotion sensing, modeling, and generation—especially at the intersection of music, video, physiology (e.g., EDA, EEG), and behavior. A clear longitudinal trend emerges: from early foundational work in music emotion recognition and physiological signal fusion (2007–2019), to increasingly applied, human-centered systems—particularly involving pets, therapy, wearables, and real-time interactive media (2022–2025). Generative AI (diffusion models, LLMs, cross-modal alignment) is now tightly coupled with affective intent, prioritizing emotional resonance, cultural nuance, soft transitions, and therapeutic outcomes—not just accuracy. The work bridges technical AI/ML rigor with psychological, clinical, and design principles.",
     "representative_papers": [
       {
         "title": "A Multimodal Framework for Large-Scale Emotion Recognition by Fusing Music and Electrodermal Activity Signals",
-        "why": "Highly cited foundational work demonstrating early integration of physiological (EDA) and musical modalities for robust emotion recognition—core to his multimodal affect paradigm."
+        "why": "Highly cited foundational paper (41 citations) establishing core methodology for physiological + audio affect fusion; anchors the multimodal analysis direction."
       },
       {
         "title": "Diff-V2M: A Hierarchical Conditional Diffusion Model with Explicit Rhythmic Modeling for Video-to-Music Generation",
-        "why": "Represents cutting-edge direction: state-of-the-art diffusion-based generative modeling explicitly conditioned on affective rhythm and cross-modal alignment—showcasing evolution toward expressive, controllable affective synthesis."
+        "why": "Latest flagship generative work (2025), exemplifying cutting-edge integration of diffusion modeling, rhythmic affect control, and audiovisual alignment."
       },
       {
         "title": "PetChat: An Emotion-Aware Pet Communication System Powered by LLMs and Wearable Devices",
-        "why": "Exemplifies expansion into affective human–animal interaction with real-time wearables and LLM-driven response generation—highlighting interdisciplinary application and embodied affect sensing."
+        "why": "Embodies the convergence of affective HCI, wearable sensing, LLM-based response generation, and human-animal interaction—a signature applied direction."
       },
       {
         "title": "AI-Assisted Human-Pet Artistic Musical Co-Creation for Wellness Therapy",
-        "why": "Embodies convergence of therapeutic goals, affective music generation, and interspecies interaction—underscoring applied wellness focus and co-creative human-AI-pet frameworks."
+        "why": "Synthesizes therapeutic goals, co-creation paradigms, emotion-aware music generation, and wellness evaluation—core to the wellness-oriented affective co-creation theme."
       },
       {
         "title": "REMAST: Real-Time Emotion-Based Music Arrangement With Soft Transition",
-        "why": "Key bridge between affective HCI and computational musicology—demonstrates real-time, smooth, emotion-responsive soundtrack adaptation, a hallmark of his interactive affective systems."
+        "why": "Demonstrates mature real-time affective system design with smooth adaptation—key for interactive multimedia and user experience."
       },
       {
         "title": "Consumer shopping emotion and interest database: a unique database with a multimodal emotion recognition method for retail service robots to infer consumer shopping intentions better than humans",
-        "why": "Seminal applied work showing real-world deployment potential—multimodal emotion inference for service robotics with human-outperforming accuracy, grounding theory in commercial affective AI."
-      },
-      {
-        "title": "SoundScape: A Human-AI Co-Creation System Making Your Memories Heard",
-        "why": "Illustrates psychology-informed, memory-augmented affective expression—integrating autobiographical recall, emotionally resonant sound design, and AI-mediated narrative, reflecting deep HCI and clinical inspiration."
+        "why": "Landmark applied work bridging affective robotics, multimodal inference, and real-world service contexts—high impact (8 citations) and domain-translational."
       },
       {
         "title": "The PMEmo Dataset for Music Emotion Recognition",
-        "why": "Foundational resource paper enabling reproducible affective MIR research; widely cited benchmark that catalyzed his long-standing focus on music-emotion grounding and dataset curation."
+        "why": "Seminal resource (89 citations) enabling reproducible affective MIR research; reflects long-standing commitment to dataset curation and benchmarking."
+      },
+      {
+        "title": "SoundScape: A Human-AI Co-Creation System Making Your Memories Heard",
+        "why": "Exemplifies psychology-informed, memory-augmented affective expression—integrating narrative, emotion, sound design, and HCI theory."
       }
     ]
   },
   "stats": {
     "analyzed_works_count": 163,
     "interesting_works_count": 35,
-    "new_works_count": 119,
+    "new_works_count": 9,
     "deduped_works_count": 163,
-    "ai_called_count": 119,
+    "ai_called_count": 9,
     "summary_recomputed": true
   },
   "works": [
@@ -324,10 +324,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '25: The 33rd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '25: The 33rd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -424,10 +424,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '25:The 33rd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '25:The 33rd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -703,10 +703,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Thirty-Fourth International Joint Conference on Artificial Intelligence {IJCAI-25}",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Thirty-Fourth International Joint Conference on Artificial Intelligence {IJCAI-25}",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -1511,10 +1511,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2025 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2025 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -1907,10 +1907,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "CHI 2025: CHI Conference on Human Factors in Computing Systems",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "CHI 2025: CHI Conference on Human Factors in Computing Systems",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -2334,10 +2334,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2025 Conference of Science and Technology of Integrated Circuits (CSTIC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2025 Conference of Science and Technology of Integrated Circuits (CSTIC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -3617,10 +3617,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2024 17th International Symposium on Computational Intelligence and Design (ISCID)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 17th International Symposium on Computational Intelligence and Design (ISCID)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -3861,10 +3861,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2024 17th International Symposium on Computational Intelligence and Design (ISCID)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 17th International Symposium on Computational Intelligence and Design (ISCID)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6306,10 +6306,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2024 16th International Conference on Intelligent Human-Machine Systems and Cybernetics (IHMSC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 16th International Conference on Intelligent Human-Machine Systems and Cybernetics (IHMSC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6781,10 +6781,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2024 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6974,10 +6974,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2024 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -7693,10 +7693,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2024 International Joint Conference on Neural Networks (IJCNN)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 International Joint Conference on Neural Networks (IJCNN)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -9661,10 +9661,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2023 IEEE 8th International Conference on Intelligent Transportation Engineering (ICITE)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2023 IEEE 8th International Conference on Intelligent Transportation Engineering (ICITE)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -12012,10 +12012,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "2022 4th International Conference on Intelligent Information Processing (IIP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2022 4th International Conference on Intelligent Information Processing (IIP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -14229,10 +14229,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 15,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -14713,10 +14713,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2021 28th Asia-Pacific Software Engineering Conference (APSEC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2021 28th Asia-Pacific Software Engineering Conference (APSEC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -14978,10 +14978,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "2021 IEEE 4th International Conference on Multimedia Information Processing and Retrieval (MIPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2021 IEEE 4th International Conference on Multimedia Information Processing and Retrieval (MIPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -16213,10 +16213,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 41,
-      "primary_source": null,
+      "primary_source": "ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -17564,10 +17564,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "2020 13th International Symposium on Computational Intelligence and Design (ISCID)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2020 13th International Symposium on Computational Intelligence and Design (ISCID)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -19994,10 +19994,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 16,
-      "primary_source": null,
+      "primary_source": "MM '19: The 27th ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '19: The 27th ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -21009,10 +21009,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2019 IEEE Fourth International Conference on Data Science in Cyberspace (DSC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 IEEE Fourth International Conference on Data Science in Cyberspace (DSC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -22943,10 +22943,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 89,
-      "primary_source": null,
+      "primary_source": "ICMR '18: International Conference on Multimedia Retrieval",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICMR '18: International Conference on Multimedia Retrieval",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -23886,10 +23886,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2017 IEEE International Conference on Robotics and Biomimetics (ROBIO)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2017 IEEE International Conference on Robotics and Biomimetics (ROBIO)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -25624,10 +25624,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '16: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '16: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -26264,10 +26264,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2016 International Conference on Network and Information Systems for Computers (ICNISC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2016 International Conference on Network and Information Systems for Computers (ICNISC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -26590,10 +26590,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 21,
-      "primary_source": null,
+      "primary_source": "2015 IEEE 16th International Conference on Communication Technology (ICCT)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2015 IEEE 16th International Conference on Communication Technology (ICCT)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -28776,10 +28776,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2014 5th IEEE International Conference on Software Engineering and Service Science (ICSESS)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2014 5th IEEE International Conference on Software Engineering and Service Science (ICSESS)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -29075,10 +29075,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 8,
-      "primary_source": null,
+      "primary_source": "2013 3rd International Conference on Computer Science and Network Technology (ICCSNT)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2013 3rd International Conference on Computer Science and Network Technology (ICCSNT)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -29932,10 +29932,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2012 2nd International Conference on Computer Science and Network Technology (ICCSNT)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2012 2nd International Conference on Computer Science and Network Technology (ICCSNT)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -30944,10 +30944,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2nd International Conference on Computer Application and System Modeling",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2nd International Conference on Computer Application and System Modeling",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -31188,10 +31188,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "SA '11: SIGGRAPH Asia 2011",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "SA '11: SIGGRAPH Asia 2011",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -31755,10 +31755,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "2011 International Conference on Mechatronic Science, Electric Engineering and Computer (MEC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2011 International Conference on Mechatronic Science, Electric Engineering and Computer (MEC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -32078,10 +32078,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2011 International Conference on Electronics and Optoelectronics (ICEOE)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2011 International Conference on Electronics and Optoelectronics (ICEOE)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -32712,10 +32712,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 10,
-      "primary_source": null,
+      "primary_source": "2010 International Conference on Computer Design and Applications (ICCDA 2010)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 International Conference on Computer Design and Applications (ICCDA 2010)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -33004,10 +33004,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2010 IEEE 11th International Conference on Computer-Aided Industrial Design & Conceptual Design 1",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 IEEE 11th International Conference on Computer-Aided Industrial Design & Conceptual Design 1",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -33511,10 +33511,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2009 International Conference on Computational Intelligence and Software Engineering",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2009 International Conference on Computational Intelligence and Software Engineering",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -34958,10 +34958,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "Second Workshop on Digital Media and its Application in Museum & Heritage (DMAMH 2007)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Second Workshop on Digital Media and its Application in Museum & Heritage (DMAMH 2007)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -36231,10 +36231,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2005 IEEE International Conference on Robotics and Automation",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2005 IEEE International Conference on Robotics and Automation",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -36503,10 +36503,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 7,
-      "primary_source": null,
+      "primary_source": "2006 6th World Congress on Intelligent Control and Automation",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2006 6th World Congress on Intelligent Control and Automation",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -37788,10 +37788,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "2004 International Conference on Machine Learning and Cybernetics",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2004 International Conference on Machine Learning and Cybernetics",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -38074,10 +38074,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 9,
-      "primary_source": null,
+      "primary_source": "Proceedings of 2005 International Conference on Machine Learning and Cybernetics",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of 2005 International Conference on Machine Learning and Cybernetics",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,

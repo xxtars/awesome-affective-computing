@@ -4097,5 +4097,92 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "e9148dcc9b1c610d2d88cd233ce12f10bba70fed692d1e95de2c9074bb3701d9": {
+    "paper_id": "https://openalex.org/W4392780860",
+    "title": "Frequency Decoupling for Motion Magnification via Multi-Level Isomorphic Architecture",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T20:26:45.824Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video motion magnification using frequency-domain signal processing and architectural innovations in computer vision; no mention of emotion, affective states, or psychological/behavioral correlates.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are purely technical (e.g., 'frequency decoupling', 'sparse filters', 'FLOPs')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ce6399c05b3315cf194d8190fb32daf98c5f0285b2b38ba13e6d5148580f922e": {
+    "paper_id": "https://openalex.org/W3015144141",
+    "title": "Iterative Context-Aware Graph Inference for Visual Dialog",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T20:26:46.078Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on graph-based neural architectures for visual dialog, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical AI/NLP/graph modeling"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1a58b9c53dabe18af83ee4dc38e1376bda3852b05e2845a9402ee70468309a61": {
+    "paper_id": "https://openalex.org/W3037932287",
+    "title": "Recurrent Relational Memory Network for Unsupervised Image Captioning",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T20:26:46.232Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unsupervised image captioning using a memory-based neural architecture; no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical/computer vision/AI-focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "762b492bbb01b804e692d92e276c6f18fe019518ec90f4b2978965b9ab0ca7a6": {
+    "paper_id": "https://openalex.org/W4288043066",
+    "title": "Emotion Separation and Recognition from a Facial Expression by Generating the Poker Face with Vision Transformers",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T20:26:48.947Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion separation and recognition from facial expressions, aligning precisely with the researcher's interest topic 'emotion'. It employs a novel vision transformer architecture specifically designed for disentangling emotion-relevant features, grounded in affective science principles (e.g., Facial Action Coding System).",
+      "evidence": [
+        "Title explicitly includes 'Emotion Separation and Recognition'",
+        "Abstract states the goal is to 'separate and recognize the disturbance-agnostic emotion from a static facial image'",
+        "Method leverages Facial Action Coding System, a foundational framework in emotion psychology"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "facial expression",
+        "feature disentanglement",
+        "vision transformers",
+        "affective computing",
+        "poker face generation"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion representation learning",
+        "disentangled deep learning for affect",
+        "computer vision for emotion analysis",
+        "transformer-based models in psychology-informed AI"
+      ]
+    }
   }
 }

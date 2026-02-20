@@ -2617,5 +2617,53 @@
         "Sentiment Classification"
       ]
     }
+  },
+  "45b8960b835d0a8e0880b27c2ff2808d750e1c16fbff66f82196429871fa35f8": {
+    "paper_id": "https://openalex.org/W2808557836",
+    "title": "Motor Imagery Electroencephalograph Classification Based on Optimized Support Vector Machine by Magnetic Bacteria Optimization Algorithm",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T20:50:11.099Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on motor imagery EEG classification using an optimization algorithm for SVM; no mention or conceptual link to emotion, affect, or affective processes.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: 'Motor imagery', 'Electroencephalography', 'Support vector machine', 'Brain–computer interface' — all technical/computational, no affective/emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "58128b2055087bd2ad4c5009adb556f658bbfd473bfdc19cadea88d17c55591d": {
+    "paper_id": "https://openalex.org/W2316437399",
+    "title": "Integrating Intra- and Inter-document Evidences for Improving Sentence Sentiment Classification",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T20:50:13.135Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on sentiment classification of evaluative sentences, a core subtask of emotion/sentiment analysis, and directly references '情感分析' (affective/emotion analysis) in both abstract and keywords.",
+      "evidence": [
+        "摘要: 评价句的极性识别是情感分析领域一个重要的研究任务",
+        "关键词: 情感分析 / 评价句极性分析"
+      ],
+      "keywords": [
+        "情感分析",
+        "评价句极性分析",
+        "篇章内部特征",
+        "篇章外部特征",
+        "基于图的算法"
+      ],
+      "research_directions": [
+        "sentiment classification",
+        "emotion-related NLP",
+        "cross-sentence sentiment modeling",
+        "graph-based feature fusion for affective computing"
+      ]
+    }
   }
 }

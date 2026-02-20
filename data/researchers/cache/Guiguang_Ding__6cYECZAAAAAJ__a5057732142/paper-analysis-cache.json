@@ -5530,5 +5530,605 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "a5ffa49bb3395e78a4154dc8b79e8af13033c185e4d49dc5422af654784fe27b": {
+    "paper_id": "https://openalex.org/W4390307264",
+    "title": "One-Dimensional Adapter to Rule Them All: Concepts, Diffusion Models and Erasing Applications",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:03.832Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on concept erasure in diffusion models using one-dimensional adapters; no mention of emotion, affect, psychological constructs, or affective computing.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain zero emotion-related terms or applications."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "482e8add7d3fad85450e893dc1706a50a15de7e6c3a882b2c7c826327e871508": {
+    "paper_id": "https://openalex.org/W57215181",
+    "title": "Transfer Learning with Graph Co-Regularization",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:03.860Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on transfer learning with graph regularization and has no mention of emotion, affect, or related psychological, linguistic, or computational affective science concepts.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are technical ML/AI topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5f7586117860e4dfd46abd74f228f337a3bb956e139ae63db5a3e5f8ed0371ec": {
+    "paper_id": "https://openalex.org/W2968614659",
+    "title": "ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:03.877Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on CNN architecture optimization via asymmetric convolution blocks and kernel robustness; no mention of emotion, affective computing, or psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical/computer vision focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b04e5950cac054d276e309c9fefa39724352463b7b7142fb28a058a09b8d3e54": {
+    "paper_id": "https://openalex.org/W3138141365",
+    "title": "Diverse Branch Block: Building a Convolution as an Inception-like Unit",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:03.919Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on architectural improvements in convolutional neural networks and has no connection to emotion or affective computing.",
+      "evidence": [
+        "Interest topics are 'emotion', but the paper's title, abstract, concepts, and venue all pertain to computer vision and deep learning architecture design."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6e2ad502e1a453a41a04cac1508a729b0dc3cda339b982de513b16f0d67100b6": {
+    "paper_id": "https://openalex.org/W4392871553",
+    "title": "PYRA: Parallel Yielding Re-Activation for Training-Inference Efficient Task Adaptation",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:03.925Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on efficient task adaptation for large language models, with no mention of emotion, affective computing, or psychological emotion modeling.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; 'emotion' appears only in researcher's interest topics, not in paper content."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "971ebf9f4309dde364cfc1151e8e388ce3f4b2fe10f362339712cc243fa7f908": {
+    "paper_id": "https://openalex.org/W4387158415",
+    "title": "Confidence-based Visual Dispersal for Few-shot Unsupervised Domain Adaptation",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:03.928Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on few-shot unsupervised domain adaptation in computer vision, with no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; all concepts are technical ML/domain adaptation topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b05f360f5d058947dab2cea3e715aa3266a4a7dfeb80a1963570803d2db03332": {
+    "paper_id": "https://openalex.org/W2904286546",
+    "title": "Adaptive Region Embedding for Text Classification",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:03.934Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on text classification and context-aware embedding techniques in NLP/AI; no mention of emotion, affect, sentiment, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4c80b9fef2ddd93a5782f777b15c96872dd015a22ebc6cbdc4b34e5101145ec7": {
+    "paper_id": "https://openalex.org/W4309869335",
+    "title": "Confidence-guided Centroids for Unsupervised Person Re-Identification",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:03.973Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unsupervised person re-identification using confidence-guided clustering and pseudo-label refinement; no connection to emotion, affective science, or psychological affective processes.",
+      "evidence": [
+        "Interest topics specify 'emotion', but paper concepts and abstract contain no emotion-related terms or constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "854c2d4d95f5aae846b132b27cdda3f76c07562985cc7a8297c2386f3c5d9a47": {
+    "paper_id": "https://openalex.org/W3193259844",
+    "title": "Manipulating Identical Filter Redundancy for Efficient Pruning on Deep and Complicated CNN",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.019Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on CNN pruning and redundancy manipulation via optimization (C-SGD); no mention of emotion, affect, sentiment, or psychological affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical/computational (e.g., pruning, SGD, filters, redundancy)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bbfc4578dbfb875824cc57d5440bd0e8c9bca5897bcded7f7fe9e0a6f193a338": {
+    "paper_id": "https://openalex.org/W2946882696",
+    "title": "Incremental Few-Shot Learning for Pedestrian Attribute Recognition",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.025Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on incremental few-shot learning for pedestrian attribute recognition in computer vision and surveillance; 'emotion' is not mentioned or implied in title, abstract, concepts, or context.",
+      "evidence": [
+        "Concepts include 'Pedestrian', 'Machine learning', 'Computer science', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "025ffc1ec86653b53991f46024471d762529af99064967b9ba02bda146df4336": {
+    "paper_id": "https://openalex.org/W4401058212",
+    "title": "Debiased Novel Category Discovering and Localization",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.029Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on novel class discovery and localization in object detection, with no mention of emotion, affective computing, or psychological emotion modeling.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes 'Psychology' only as a broad domain, not specifically affective psychology or emotion research."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "28ad4e78a74cae67ee24da54d22357724903bd353fbf1a0d614dd0f7d059fc2c": {
+    "paper_id": "https://openalex.org/W3120184084",
+    "title": "RepVGG: Making VGG-style ConvNets Great Again",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.082Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a computer vision architecture paper focused on model efficiency and accuracy; no mention or implication of emotion, affect, or psychological/behavioral modeling.",
+      "evidence": [
+        "Abstract and concepts contain only technical deep learning terms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2a5d5b5c1a776cd581b75a672834240818dcbeaaab1431254e4602674da07cdf": {
+    "paper_id": "https://openalex.org/W4226301418",
+    "title": "RepMLPNet: Hierarchical Vision MLP with Re-parameterized Locality",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.106Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper is a computer vision and deep learning architecture paper focused on MLP-based image recognition; it contains no emotion-related content, methodology, or application.",
+      "evidence": [
+        "Abstract and concepts contain no emotion, affect, psychology (beyond 'pattern recognition' as a technical CS term), or affective science terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5be9ea701dfd9a1a477fd93f0d4e6bd1a0be4ecd7d32bf468529965ee81ea755": {
+    "paper_id": "https://openalex.org/W2610617295",
+    "title": "From Zero-shot Learning to Conventional Supervised Classification: Unseen Visual Data Synthesis",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.115Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on zero-shot learning and visual feature synthesis using semantic attributes; 'emotion' is not mentioned or implied in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Concepts list contains no emotion-related terms; abstract discusses semantic attributes, SVM, and benchmark datasets without any affective or psychological emotion content."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "20118c63c90f3b5d7129b53ff5f16157a64f5107c1d64644dbf0010b3ddb73c4": {
+    "paper_id": "https://openalex.org/W3012359779",
+    "title": "PANDA: A Gigapixel-level Human-centric Video Dataset",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.117Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on large-scale video dataset construction, human detection, tracking, and group interaction modeling using gigapixel imaging; no mention of emotion, affective states, sentiment, or psychological constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, feeling, sentiment, mood, or behavioral psychology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5762990b8da2f4fcb2a4d002daaa2004bcb419e14bcbac47fd5ffbbe38457e7f": {
+    "paper_id": "https://openalex.org/W4310234056",
+    "title": "TAGPerson: A Target-Aware Generation Pipeline for Person Re-identification",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.133Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on synthetic data generation for person re-identification using parameterized rendering and domain adaptation; no mention of emotion, affective computing, or psychological/behavioral affective constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all technical terms pertain to computer vision, rendering, and AI systems."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f7ccd19c5f65a1e178830c3256a63ee956d0dc19c2457a21a5555a47c6b0f3c8": {
+    "paper_id": "https://openalex.org/W2957081657",
+    "title": "GRN: Gated Relation Network to Enhance Convolutional Neural Network for Named Entity Recognition",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.170Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on named entity recognition using a gated relation network and convolutional neural networks, with no mention of emotion, affect, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are NLP/ML technical (CNN, NER, RNN, context in sequence modeling)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a5fde3874bbdb5ad5b76a2f966f05eb1b03e3abd4b50e3563b7bde092d42bf65": {
+    "paper_id": "https://openalex.org/W4398810114",
+    "title": "YOLOv10: Real-Time End-to-End Object Detection",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.174Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a technical computer vision contribution focused on real-time object detection architecture optimization, with no mention or conceptual link to emotion, affective computing, or psychological/affective phenomena.",
+      "evidence": [
+        "Title and abstract exclusively discuss YOLOv10, NMS-free training, efficiency-accuracy trade-offs, and object detection benchmarks."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f88bd2590bc03973071f8be0266455299719e52dabdeb1bd319d835a460acd0e": {
+    "paper_id": "https://openalex.org/W2995580282",
+    "title": "Shallow Feature Based Dense Attention Network for Crowd Counting",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.200Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on crowd counting using computer vision and deep learning techniques, with no connection to emotion, affective science, or psychological affective processes.",
+      "evidence": [
+        "Title and abstract exclusively address crowd counting, feature extraction, attention mechanisms, and benchmark performance—no mention of emotion, affect, sentiment, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "86d0cbf82db885c344ea4368df702616acc86cefd490776218478f5bd8e1769b": {
+    "paper_id": "https://openalex.org/W4360885601",
+    "title": "Box-Level Active Detection",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.212Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on active learning for object detection at the bounding box level, with no mention of emotion, affective computing, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively cover computer vision, active learning, object detection, and annotation efficiency; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "194a2083098a6d2ccd9af022e22d6cb37500a5e5cb9d7ef6d9b53fb25bf6184c": {
+    "paper_id": "https://openalex.org/W2935391837",
+    "title": "Centripetal SGD for Pruning Very Deep Convolutional Networks with Complicated Structure",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.214Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on optimization and pruning techniques for deep convolutional neural networks, with no mention or conceptual connection to emotion, affective computing, or psychological/affective phenomena.",
+      "evidence": [
+        "All concepts and the abstract pertain to network redundancy, filter pruning, and SGD variants; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "426a7206f421653ac3bdbd0d48c2db3ddfeb04ab635aaa3ca4ccbbafe2db30f0": {
+    "paper_id": "https://openalex.org/W4403623284",
+    "title": "Context Enhancement with Reconstruction as Sequence for Unified Unsupervised Anomaly Detection",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.215Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unsupervised anomaly detection in computer vision using transformer-based sequence modeling; no mention of emotion, affect, psychological states, or related constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes 'Pattern recognition (psychology)' but this refers to perceptual pattern recognition, not affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "282f5d98dd6a6d382c5b05266b863dff8fcf124fd8f8bd3360fe151d1cd73912": {
+    "paper_id": "https://openalex.org/W2998426706",
+    "title": "Learning From Multiple Experts: Self-paced Knowledge Distillation for Long-tailed Classification",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.296Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on long-tailed classification and knowledge distillation in machine learning, with no mention of emotion, affect, or related psychological or affective computing concepts.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical ML/AI topics (e.g., 'long-tailed distribution', 'knowledge distillation', 'self-paced learning')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2883ad0858064e0a24a48f1536a7f353a111861984a25e976bb8dfb1746994e5": {
+    "paper_id": "https://openalex.org/W4387478298",
+    "title": "Disorder-Free Data are All You Need: Inverse Supervised Learning for Broad-Spectrum Head Disorder Detection",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.330Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on medical AI for head disorder detection using inverse supervised learning on CT scans; no connection to emotion, affective science, or psychological affective processes.",
+      "evidence": [
+        "Interest topic is 'emotion', but paper's concepts and abstract mention only medical imaging, AI, pattern recognition (in technical sense), and disorder detection—no affective/emotion-related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a2841d96c0dfbd5103ac499ca0c88b42d2986c38831ac12ecba6afe302abcbb7": {
+    "paper_id": "https://openalex.org/W3202745805",
+    "title": "ResRep: Lossless CNN Pruning via Decoupling Remembering and Forgetting",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.336Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is about CNN pruning and structural re-parameterization in deep learning; 'emotion' in the researcher's interest topics appears to be coincidental and unrelated to the paper's content.",
+      "evidence": [
+        "No mention of emotion, affect, psychology, neuroscience of affect, or related constructs in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1678ea168bb65eb09fc705948cd63fc58846f6091e936ca8ad73a92cae522c1f": {
+    "paper_id": "https://openalex.org/W3010363512",
+    "title": "IMRAM: Iterative Matching with Recurrent Attention Memory for Cross-Modal Image-Text Retrieval",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.339Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cross-modal image-text retrieval using iterative attention mechanisms and has no mention of emotion, affect, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes 'Natural language processing', 'Semantics', 'Matching', but not affective computing, sentiment, emotion recognition, or related topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ca6607b6a24770d98a8df67860d891fffb80773aecd93a40980eee71d1481228": {
+    "paper_id": "https://openalex.org/W2975084181",
+    "title": "Global Sparse Momentum SGD for Pruning Very Deep Neural Networks",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.419Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on deep learning optimization and neural network pruning, with no mention or conceptual connection to emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "All concepts and the abstract pertain to model compression, SGD variants, and DNN pruning; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4800f5e0425104614f3be9fe427170fdee678e6afeec957d2c2da936274883db": {
+    "paper_id": "https://openalex.org/W4402963627",
+    "title": "Learn from the Learnt: Source-Free Active Domain Adaptation via Contrastive Sampling and Visual Persistence",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:04.708Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on domain adaptation and active learning in computer vision/AI; 'emotion' appears only as a generic concept in the broad 'Psychology' tag, with no substantive treatment of affective states, emotion recognition, or related methodologies.",
+      "evidence": [
+        "Psychology is listed only as a high-level concept among many technical CS/AI terms; no emotion-related methods, datasets, or evaluation metrics appear in title, abstract, or described contributions."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bea40415d7bbf23ff8dbb797f31e093b98b66ba14ab9fd30186a04983118f815": {
+    "paper_id": "https://openalex.org/W3173358483",
+    "title": "Affective Image Content Analysis: Two Decades Review and New Perspectives",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:06.132Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is a comprehensive survey on affective image content analysis, explicitly centered on emotion modeling, recognition, and perception — directly aligning with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Title contains 'Affective Image Content Analysis'",
+        "Abstract explicitly discusses emotion representation models, dominant emotion recognition, personalized emotion prediction, and emotion distribution learning",
+        "Researcher's interest topic is 'emotion', and the paper's core focus is emotion in visual content"
+      ],
+      "keywords": [
+        "affective computing",
+        "emotion recognition",
+        "affective gap",
+        "emotion representation",
+        "label noise",
+        "perception subjectivity"
+      ],
+      "research_directions": [
+        "image content and context understanding",
+        "group emotion clustering",
+        "viewer-image interaction",
+        "learning from noisy data or few labels",
+        "personalized emotion prediction"
+      ]
+    }
+  },
+  "00a12a5064830f56e727c3fc04e19418fab90d0bca67b6a0fc3c5bfafea0357b": {
+    "paper_id": "https://openalex.org/W3109173618",
+    "title": "Emotional Semantics-Preserved and Feature-Aligned CycleGAN for Visual Emotion Adaptation",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:06.363Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on visual emotion analysis, emotional semantics preservation, and emotion distribution learning — directly aligning with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Title contains 'Emotional Semantics-Preserved' and 'Visual Emotion Adaptation'",
+        "Abstract states: 'we focus on UDA in visual emotion analysis for both emotion distribution learning and dominant emotion classification'",
+        "Proposed model named 'CycleEmotionGAN++' explicitly incorporates 'Emotion' in its name"
+      ],
+      "keywords": [
+        "visual emotion analysis",
+        "emotional semantics",
+        "emotion distribution learning",
+        "dominant emotion classification",
+        "unsupervised domain adaptation",
+        "CycleGAN"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion recognition",
+        "domain adaptation for affective signals",
+        "generative models for emotion transfer"
+      ]
+    }
+  },
+  "c6dace6bab8a56c240bd9e8f14fb3e334be83054dc435470e16de5b600b894e5": {
+    "paper_id": "https://openalex.org/W3138014506",
+    "title": "Computational Emotion Analysis From Images: Recent Advances and Future Directions",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T20:28:06.842Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is explicitly focused on computational emotion analysis from images, directly aligning with the researcher's interest topic 'emotion'. The title, abstract, and conceptual framing all center on modeling, detecting, and analyzing human emotions computationally.",
+      "evidence": [
+        "Title: 'Computational Emotion Analysis From Images: Recent Advances and Future Directions'",
+        "Abstract states: 'we aim to introduce image emotion analysis (IEA) from a computational perspective with the focus on summarizing recent advances and suggesting future directions'",
+        "Interest topics include 'emotion', and the paper's core subject is emotion representation, classification, and analysis"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "image emotion analysis",
+        "affective computing",
+        "emotion representation models",
+        "domain adaptation for emotion"
+      ],
+      "research_directions": [
+        "computational modeling of emotion from visual stimuli",
+        "cross-domain generalization in affective image analysis",
+        "psychologically grounded emotion representation in AI",
+        "supervised learning for affective classification"
+      ]
+    }
   }
 }

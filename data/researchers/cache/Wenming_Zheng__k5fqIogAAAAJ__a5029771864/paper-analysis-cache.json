@@ -7983,5 +7983,294 @@
         "biometric affect analysis"
       ]
     }
+  },
+  "646ef4c8674402a501acd9fb362eb8caaf8fb722905fd3fee544c01ca868740f": {
+    "paper_id": "https://openalex.org/W2788778841",
+    "title": "Spatio-Temporal Graph Convolution for Skeleton Based Action Recognition",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T20:46:14.643Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on skeleton-based action recognition using graph convolutional networks, with no mention of emotion modeling, affective computing, or psychological affective constructs.",
+      "evidence": [
+        "Abstract and concepts emphasize action recognition, graph convolution, and computer vision—no emotion-related terms or affective targets"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f2ad4eac1165f0395e2aa7575388939571319496d163ff8a6182fbc2b66dcae3": {
+    "paper_id": "https://openalex.org/W2054607206",
+    "title": "Class-Incremental Generalized Discriminant Analysis",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T20:46:14.758Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mathematical optimization and incremental extensions of discriminant analysis algorithms, with no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain only mathematical and machine learning terms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3ebbda77756890bafa292ca254496fa8bd16c10d4f41b8a308c554dbd2bef0b3": {
+    "paper_id": "https://openalex.org/W4392488014",
+    "title": "PAVITS: Exploring Prosody-aware VITS for End-to-End Emotional Voice Conversion",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T20:46:16.062Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly targets emotional voice conversion with core focus on modeling and transferring emotion-specific prosody, directly aligning with 'emotion' as a stated interest topic.",
+      "evidence": [
+        "Title contains 'Emotional Voice Conversion'",
+        "Abstract states 'aiming to achieve ... high emotional naturalness'",
+        "Introduces 'emotion descriptor' and 'prosody predictor' conditioned on emotion label"
+      ],
+      "keywords": [
+        "emotional voice conversion",
+        "prosody",
+        "emotion descriptor",
+        "end-to-end speech synthesis",
+        "affective prosody modeling"
+      ],
+      "research_directions": [
+        "Affective speech processing",
+        "Emotion-aware TTS and voice conversion",
+        "Multimodal emotion representation learning",
+        "Prosody-emotion alignment in neural synthesis"
+      ]
+    }
+  },
+  "548a234d1e80f4043887ad6e7f61ebb41eb3efd635ee6b5a03e64ff6643410c2": {
+    "paper_id": "https://openalex.org/W4391046143",
+    "title": "Improving Speaker-independent Speech Emotion Recognition Using Dynamic Joint Distribution Adaptation",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T20:46:16.515Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on speech emotion recognition, directly aligning with the researcher's interest topic 'emotion'; it addresses core affective computing challenges including speaker-invariant emotion feature learning and distribution adaptation for emotional states.",
+      "evidence": [
+        "Title contains 'Speech Emotion Recognition'",
+        "Abstract emphasizes 'speaker-independent speech emotion recognition' and 'emotion features'",
+        "Method (DJDA) is designed to eliminate 'speaker bias in emotion features'"
+      ],
+      "keywords": [
+        "speech emotion recognition",
+        "emotion features",
+        "domain adaptation",
+        "affective computing",
+        "joint distribution adaptation"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion analysis",
+        "domain generalization for emotion recognition",
+        "speaker-invariant affective modeling"
+      ]
+    }
+  },
+  "896f0ffccc75e9e79ede94dae8608d0222db8faf77701bbaee5bc5a50693a7eb": {
+    "paper_id": "https://openalex.org/W4391124075",
+    "title": "Speech Swin-Transformer: Exploring a Hierarchical Transformer with Shifted Windows for Speech Emotion Recognition",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T20:46:16.532Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on speech emotion recognition (SER), directly aligning with the researcher's interest topic 'emotion'. It proposes a novel hierarchical Transformer architecture specifically designed to model multi-scale emotional cues in speech.",
+      "evidence": [
+        "Title contains 'Speech Emotion Recognition'",
+        "Abstract states 'aggregate multi-scale emotion features for speech emotion recognition (SER)'",
+        "Method targets emotional information distributed across word, phrase, and utterance levels"
+      ],
+      "keywords": [
+        "speech emotion recognition",
+        "Swin-Transformer",
+        "hierarchical transformer",
+        "multi-scale emotion features",
+        "speech spectrogram",
+        "SER"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion modeling in speech",
+        "transformer architectures for affective signals",
+        "multi-granularity emotion analysis"
+      ]
+    }
+  },
+  "223d9420822edba19a16ca336293cb7d28d30a999fa4c6da712b7180e3969150": {
+    "paper_id": "https://openalex.org/W3087125831",
+    "title": "A Novel Transferability Attention Neural Network Model for EEG Emotion Recognition",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T20:46:16.611Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on EEG-based emotion recognition, directly aligning with the researcher's interest topic 'emotion'. It introduces a neural network model designed to improve emotional classification by attending to emotionally discriminative and transferable brain regions and samples.",
+      "evidence": [
+        "Title contains 'EEG Emotion Recognition'",
+        "Abstract states the goal is to 'learn the emotional discriminative information'",
+        "Method (TANN) is explicitly designed for 'EEG emotion recognition'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "EEG",
+        "transfer learning",
+        "attention mechanism",
+        "affective computing",
+        "neural networks"
+      ],
+      "research_directions": [
+        "affective neuroscience",
+        "brain-computer interfaces",
+        "emotion-aware AI",
+        "transferable representation learning for affect"
+      ]
+    }
+  },
+  "a1945bc77830354157a2ae7fe6d8280ee7a7028be196a54639922f23a693c493": {
+    "paper_id": "https://openalex.org/W4379474365",
+    "title": "Learning Local to Global Feature Aggregation for Speech Emotion Recognition",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T20:46:16.620Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on speech emotion recognition (SER), directly aligning with the researcher's interest topic 'emotion'. It proposes a novel architecture (LGFA) specifically designed to improve emotion discrimination in utterance-level speech features.",
+      "evidence": [
+        "Title contains 'Speech Emotion Recognition'",
+        "Abstract states goal is to 'enhance the emotion discrimination of utterance-level speech features'",
+        "Method targets 'local emotion correlations across frames' and 'global emotion features'"
+      ],
+      "keywords": [
+        "speech emotion recognition",
+        "emotion discrimination",
+        "local emotion correlations",
+        "global emotion features",
+        "transformer"
+      ],
+      "research_directions": [
+        "affective computing",
+        "speech processing for emotion",
+        "deep learning for emotion recognition",
+        "multiscale feature aggregation in SER"
+      ]
+    }
+  },
+  "d118221c992e5307de11da43f23686a34c44294266f4be30838a8ec2cb748fa1": {
+    "paper_id": "https://openalex.org/W4391212779",
+    "title": "Emotion-Aware Contrastive Adaptation Network for Source-Free Cross-Corpus Speech Emotion Recognition",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T20:46:16.713Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses speech emotion recognition with explicit focus on emotion modeling, adaptation, and consistency—fully aligned with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Title contains 'Emotion-Aware Contrastive Adaptation Network'",
+        "Abstract emphasizes 'emotional knowledge transfer', 'local emotion consistency', and 'clusters representing different emotions'",
+        "Task is 'source-free cross-corpus speech emotion recognition (SER)'"
+      ],
+      "keywords": [
+        "speech emotion recognition",
+        "emotion-aware",
+        "contrastive learning",
+        "domain adaptation",
+        "emotion consistency",
+        "source-free adaptation"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion representation learning",
+        "cross-domain emotion transfer",
+        "privacy-preserving affective AI",
+        "unsupervised/semi-supervised emotion recognition"
+      ]
+    }
+  },
+  "6f702db81db960846ab6e983ac991f4118a75754db22616860acb39e8f3e20b8": {
+    "paper_id": "https://openalex.org/W2948902203",
+    "title": "A Novel Bi-hemispheric Discrepancy Model for EEG Emotion Recognition",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T20:46:17.181Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on EEG-based emotion recognition, directly aligning with the researcher's interest topic 'emotion'. It introduces a novel neurobiologically inspired model targeting emotional state classification from brain signals.",
+      "evidence": [
+        "Title contains 'EEG Emotion Recognition'",
+        "Abstract states 'bi-hemispheric discrepancy model ... for electroencephalograph (EEG) emotion recognition'",
+        "Concepts include 'Emotion recognition' as a top-level concept"
+      ],
+      "keywords": [
+        "EEG",
+        "emotion recognition",
+        "bi-hemispheric asymmetry",
+        "deep learning",
+        "domain adaptation",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective neuroscience",
+        "physiological signal-based emotion modeling",
+        "adversarial domain adaptation for affective computing",
+        "spatial-temporal deep learning for EEG"
+      ]
+    }
+  },
+  "d7a07c3f9a26398b09c6bac58f72983d49900701dd93e7979551a17af2f2c993": {
+    "paper_id": "https://openalex.org/W2903718075",
+    "title": "Cross-Database Micro-Expression Recognition: A Benchmark",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T20:46:18.051Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses micro-expression recognition—a core affective computing task—under cross-database settings, with explicit focus on emotion-relevant facial cues (e.g., local region contributions to micro-expression recognition), aligning tightly with 'emotion' as the researcher's stated interest topic.",
+      "evidence": [
+        "Title contains 'Micro-Expression Recognition', a well-established subfield of affective computing targeting subtle, involuntary emotional expressions",
+        "Abstract states RSTR leverages 'one important cue for recognizing micro-expressions, i.e., the different contributions of the facial local regions in MER', linking method design to emotion-specific behavioral signals",
+        "CDMER is framed as an emerging problem in 'micro-expression analysis', which is fundamentally emotion-laden and used for inferring underlying affective states"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "facial expression",
+        "domain adaptation",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware AI",
+        "cross-dataset generalization in affective analysis",
+        "facial behavior modeling for emotion inference"
+      ]
+    }
   }
 }

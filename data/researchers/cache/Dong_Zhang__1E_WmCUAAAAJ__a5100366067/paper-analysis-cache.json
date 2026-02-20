@@ -2079,5 +2079,23 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "465bdca1a2c2528178db1d5c6ab731e52ebff6f54f9751ce2fa2985f899464b1": {
+    "paper_id": "https://openalex.org/W2920594064",
+    "title": "Empirical likelihood confidence intervals for the difference of areas under two correlated ROC curves",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T20:27:27.953Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a statistical methodology paper focused on empirical likelihood and ROC curve comparison, with no connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract pertain to mathematical statistics and diagnostic test evaluation, not emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

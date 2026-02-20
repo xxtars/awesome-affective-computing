@@ -14035,5 +14035,635 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "4277b7dff84f37e1873a9e55513c5f786c259d2cf69402f3eba58525b29fc72f": {
+    "paper_id": "https://openalex.org/W4255215886",
+    "title": "A Novel Approach to Extract Hand Gesture Feature in Depth Images",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.163Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hand gesture feature extraction from depth images, with no explicit connection to emotion or affective computing.",
+      "evidence": [
+        "Concepts include gesture recognition and computer vision, but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d9aebf046a9dec6a6e5939e5199aa7e7729d3645d5c095785fdad71355cf2756": {
+    "paper_id": "https://openalex.org/W4245530739",
+    "title": "Fuzzy Qualitative Robot Kinematics",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.288Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on robot kinematics and fuzzy logic applied to robotics, with no indication of emotion modeling, affective computing, or affective science.",
+      "evidence": [
+        "Concepts: Kinematics, Robot kinematics, Fuzzy logic, Robotics"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "442db896f3108bc3d4df9c631177974c3065b0e36e2b03cae4fe40715ddb59e0": {
+    "paper_id": "https://openalex.org/W4242546694",
+    "title": "Qualitative classification of descent phases in commercial flight data",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.300Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on flight data analysis and anomaly detection in aerospace descent phases, with no connection to emotion or affective computing.",
+      "evidence": [
+        "Concepts include Descent (aeronautics), Aerospace engineering, Data mining — no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6aa824e59a37de0ae7809f9f3175eb4e66e5eeb209cf904bd8b702f5297da58d": {
+    "paper_id": "https://openalex.org/W4235699066",
+    "title": "Gesture recognition based on sparse representation",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.361Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on gesture recognition using sparse representation and computer vision techniques, with no mention of emotion modeling, affective computing, or psychological/emotional aspects of gestures.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, or human emotional states"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8dcd864114bf997db206fcedddfc22ba8f53e3e3d107a80d2b20df3c3020787b": {
+    "paper_id": "https://openalex.org/W4206364501",
+    "title": "Intelligent Robotics and Applications",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.416Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper title and concepts are generic to robotics and AI with no explicit or implicit indication of emotion-related content; abstract is empty and 'emotion' does not appear in any provided metadata.",
+      "evidence": [
+        "Concepts: Computer science, Robotics, Artificial intelligence, Robot"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "181fdfe27ec427f67d156068d5dee362cf9e330f0e9358c432f2ead35be05da7": {
+    "paper_id": "https://openalex.org/W4245257308",
+    "title": "Fusion hand gesture segmentation and extraction based on CMOS sensor and 3D sensor",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.419Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hand gesture segmentation and recognition using depth and color sensors, with no mention of emotion modeling, affective computing, or emotional states.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are in computer vision and sensor-based gesture recognition."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "079b76ac4167689d1cc89409dccd4148943ce61234ac63ead9bb057e8782853d": {
+    "paper_id": "https://openalex.org/W4239369639",
+    "title": "Human Hand Motion Analysis with Multisensory Information",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.429Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on hand motion analysis using multisensory data, with no explicit connection to emotion modeling, recognition, or affective computing.",
+      "evidence": [
+        "Concepts include motion, robotic hand, tactile sensor, computer vision — all technical and motor-control oriented, not affective"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "73e4bc8b44c437211b348efe085e8ccf837f905bee8e9bf59f3d7080de569238": {
+    "paper_id": "https://openalex.org/W4233106642",
+    "title": "Temperature intelligent prediction model of coke oven flue based on CBR and RBFNN",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.449Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on industrial temperature prediction using CBR and RBFNN for coke oven flue control; no mention of emotion, affective computing, or psychological/behavioral aspects.",
+      "evidence": [
+        "Title and abstract exclusively address temperature control, neural networks, and industrial process optimization."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0c4a2b5b687899e5a5d388828d2201e2e0804f48e73f4b245b2a90353d833c28": {
+    "paper_id": "https://openalex.org/W2805598529",
+    "title": "Variational inequalities for bilinear averages",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.485Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a pure mathematics work on variational inequalities and ergodic theory, with no connection to emotion, affective science, or human affective processes.",
+      "evidence": [
+        "All concepts are mathematical: Ergodic theory, Bilinear interpolation, Variational inequality, Convergence (economics)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ee16f10198bb6d38fce2b6c03e4603d683f67c8d03fdd7d92a25577f27f0c944": {
+    "paper_id": "https://openalex.org/W3124809167",
+    "title": "Robotics and Rehabilitation Intelligence",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.498Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on robotics and rehabilitation intelligence; no explicit mention of emotion, affective computing, or related constructs in title, venue, or listed concepts.",
+      "evidence": [
+        "Concepts include Robotics, AI, Rehabilitation, Psychology, Neuroscience—but 'emotion' is not listed and abstract is empty."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1428b1b7bb607f980b9817fee97e02abc18bceea7604ef20af42cfd78e16bbb9": {
+    "paper_id": "https://openalex.org/W4293793992",
+    "title": "Deep Depth Completion from Extremely Sparse Data: A Survey",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.499Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a technical survey on depth completion in computer vision and robotics, with no mention of emotion, affective computing, or related psychological, behavioral, or human-centered constructs.",
+      "evidence": [
+        "Title and abstract focus exclusively on depth sensing, deep learning architectures, and benchmarking for autonomous systems."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bd25d9941b210066222f22ce4b1d5137c11af0867e75d635a5249fbce748c86a": {
+    "paper_id": "https://openalex.org/W2951882012",
+    "title": "Dense 3D Facial Reconstruction from a Single Depth Image in Unconstrained Environment",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.512Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical 3D facial reconstruction from depth images, with no mention of emotion modeling, affective computing, or emotional states.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "906d7034822c3fe20fb59dda85ae4fb8e2abcf5c7625fe799989866fbbb5bad8": {
+    "paper_id": "https://openalex.org/W4321613611",
+    "title": "Molecular mechanism of selective adsorption and separation of n-butane/i-butane on MFI zeolite",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.518Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a computational chemistry study on hydrocarbon adsorption in zeolites, with no connection to human emotion, affective science, or psychological/physiological emotion modeling.",
+      "evidence": [
+        "All concepts and abstract content pertain to molecular simulation, adsorption thermodynamics, and materials science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "618649a00b436f12b0b37aa963c686322c3b7155485b65da6ab4c2c56eaecc5b": {
+    "paper_id": "https://openalex.org/W4244845736",
+    "title": "Surface EMG electrode distribution for thumb motion classification based on wireless communication equipment",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.520Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sEMG-based thumb gesture classification and robustness improvement using wireless electrode features; no mention of emotion, affective states, or affective computing.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are in signal processing, gesture recognition, and wearable hardware."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7ad76ec2d87b5c59cc2c8f1d0933afb321722f3cb047659021f36d06cd559117": {
+    "paper_id": "https://openalex.org/W4250262616",
+    "title": "Ladle health monitoring system based on LabVIEW",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.521Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on industrial monitoring and fault diagnosis of steel ladles using LabVIEW; no mention of emotion, affective computing, or psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively reference engineering, sensors, temperature, stress, volume, and fault diagnosis in metallurgical systems."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ad0e0d41e641b4e103050497dc4018890b02d56aaf99f7338b6c42606b60eb7e": {
+    "paper_id": "https://openalex.org/W4390833195",
+    "title": "Exploring Self- and Cross-Triplet Correlations for Human-Object Interaction Detection",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.525Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on human-object interaction detection using graph-based triplet correlations and CLIP-based knowledge distillation; no mention of emotion, affect, sentiment, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, feeling, sentiment, or behavioral states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "46b59bb1c51a3d754723792803428c7a35a2353703597da9778b191750d1dd1c": {
+    "paper_id": "https://openalex.org/W2995741314",
+    "title": "The accessibility of a unimolecular micelle's core to environmental ions: Exploration with a xanthene dye",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.584Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a physical chemistry study on micelle core ion accessibility and dye stacking behavior; no connection to emotion, affective science, or psychological/physiological emotion modeling.",
+      "evidence": [
+        "Abstract and concepts focus exclusively on chemical properties, ionic interactions, and spectroscopic analysis of unimolecular micelles."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f821bb93cde7bff2800521347b54f3dbe5c6077b4dac78033a2c2b4e66751b6f": {
+    "paper_id": "https://openalex.org/W4232610912",
+    "title": "Fuzzy Gaussian Mixture Models",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.595Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mathematical modeling and pattern recognition algorithms without any explicit or implied connection to emotion, affective computing, or psychological emotion processes.",
+      "evidence": [
+        "Concepts include 'Mixture model', 'Gaussian', 'Algorithm', and 'Mathematics' — all technical/statistical; no emotion-related terms present"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "98e2a6ebb19c3780f123081bd45895b3f2cf02f5711981014472af95fbe641ea": {
+    "paper_id": "https://openalex.org/W2755646512",
+    "title": "Variational inequalities for the commutators of rough operators with BMO functions",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.596Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical mathematics work on variational inequalities and commutators in harmonic analysis, with no connection to emotion, affective science, or human affective processes.",
+      "evidence": [
+        "Title and abstract contain only advanced pure mathematics concepts; no mention of emotion, psychology, neuroscience, or affective computing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1e7a70951f0a990a542e76a24d04c93fe8e602109dcb40e44acf1c0e88612aaf": {
+    "paper_id": "https://openalex.org/W4249257633",
+    "title": "Tactile sensing and feedback in SEMG hand",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.615Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on tactile sensing and feedback in myoelectric prosthetic hands, with no mention of emotion, affective computing, or psychological/subjective emotional states.",
+      "evidence": [
+        "Abstract and concepts emphasize tactile perception, GRASP, robotic hand, and feedback control—none relate to emotion or affective processes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ee5a963133dfab9b129c389398946dc2428fd53159b15b4fdf1cb00a84807cc7": {
+    "paper_id": "https://openalex.org/W4247058903",
+    "title": "Development of articulated robot trajectory planning",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.656Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses exclusively on robotic trajectory planning algorithms and industrial automation; no mention of emotion, affective computing, or human-centered affective phenomena.",
+      "evidence": [
+        "Abstract and concepts contain only robotics, motion planning, and computer science terms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5ed7ddacc8ecf896430bca615f23381bfa01144f627df046a5f77f22bbfe2fb3": {
+    "paper_id": "https://openalex.org/W3143123399",
+    "title": "Fuzzy Qualitative Trigonometry",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.721Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on fuzzy qualitative trigonometry and mathematical modeling, with no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts contain only mathematical and computational terms (e.g., 'fuzzy logic', 'trigonometry', 'defuzzification'); no emotion-related terms appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2f8cd17c2d3d0a8c90a81511aaa6e7f574dcc1e3f4c97ea8fa21285d47e44f5c": {
+    "paper_id": "https://openalex.org/W2953183688",
+    "title": "Jump and variational inequalities for rough operators",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.724Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a pure mathematics work on jump and variational inequalities for rough operators, with no connection to emotion, affective computing, or psychological/behavioral modeling.",
+      "evidence": [
+        "All concepts listed—Omega, Variational inequality, Kernel (algebra), Mathematical analysis—are mathematical; abstract contains no emotion-related terms or applications."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1f98e829ec371ca89dee0d1b5e7add16d710eaeeafe83f8dd8bf55c8a3d3544e": {
+    "paper_id": "https://openalex.org/W4238731777",
+    "title": "Fuzzy Qualitative Human Motion Analysis",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.754Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on fuzzy qualitative analysis of human motion using techniques from computer vision and pattern recognition; no explicit connection to emotion or affective computing is indicated by title, venue, or listed concepts.",
+      "evidence": [
+        "Concepts include 'Motion (physics)', 'Fuzzy logic', 'Hidden Markov model', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6150decba42f9aff795636c17e3fb76c7923f6d1212627ee5ac9ede56816c5fe": {
+    "paper_id": "https://openalex.org/W4252165549",
+    "title": "Electrotactile Feedback-based Muscle Fatigue Alleviation for Hand Manipulation",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.774Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on electrotactile feedback for muscle fatigue alleviation in hand manipulation; no mention of emotion, affect, affective computing, or related psychological/physiological constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; concepts are biomedical, engineering, and HCI-focused (e.g., muscle fatigue, electromyography, rehabilitation)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d4feacab8db9744184b7695c7e19dc3649c2d12c57a12a305c345c5b1b1826c2": {
+    "paper_id": "https://openalex.org/W4232815621",
+    "title": "A Unified Fuzzy Framework for Human Hand Motion Recognition",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.781Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hand motion and gesture recognition using fuzzy logic and clustering; no explicit connection to emotion or affective computing is indicated by title, venue, concepts, or available metadata.",
+      "evidence": [
+        "Concepts include 'Gesture recognition', 'Fuzzy logic', 'Hidden Markov model' — all technical/computational, with no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6e9f965708c08cc201a81ec8e165ea4ec44b3e2188424c3c96362a28c5ed6426": {
+    "paper_id": "https://openalex.org/W2962892147",
+    "title": "An operator-valued $T1$ theory for symmetric CZOs",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.806Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical mathematics work on operator-valued Calderón-Zygmund theory with no connection to emotion, affective science, or human affective processes.",
+      "evidence": [
+        "Concepts include Mathematics, Haar, Operator (biology), Vector space — all unrelated to emotion; abstract mentions quantum probability and BMO spaces, not affective modeling."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a9d7c890e6250bb21457944a0f3a610bcdc58c785f7b86c8b435e1f6293d1a08": {
+    "paper_id": "https://openalex.org/W4378468502",
+    "title": "Full Resolution Repetition Counting",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.836Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on repetition counting in videos using temporal modeling and computer vision techniques, with no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all concepts are technical/computer science-oriented (e.g., convolution, sampling, pattern recognition in psychology context refers to perceptual/motor patterns, not affect)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e594aff65cb90baa9dfd99536f2b60c15fe1ad51f4a7b4dfd7d833fdfb0b955d": {
+    "paper_id": "https://openalex.org/W2756332042",
+    "title": "Weighted jump and variational inequalities for rough operators",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:08.919Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a technical mathematics work on weighted inequalities for rough operators, with no conceptual, methodological, or terminological connection to emotion or affective science.",
+      "evidence": [
+        "All concepts listed—Omega, Variational inequality, Jump, Combinatorics, Mathematics, Kernel, Mathematical analysis, Physics—are purely mathematical; 'emotion' appears nowhere in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e6386076a14318af2c0f82601158011ad372428a1255037c514d3acfa781ea68": {
+    "paper_id": "https://openalex.org/W4283733431",
+    "title": "Limited range extrapolation with quantitative bounds and applications",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:09.004Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical mathematics work on quantitative extrapolation theory in harmonic analysis, with no conceptual, methodological, or terminological connection to emotion, affect, or affective science.",
+      "evidence": [
+        "All concepts and applications are pure/applied mathematical: multilinear maps, Banach spaces, weighted inequalities, singular integrals — no mention of psychology, neuroscience, affect, emotion, or human behavior."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "62779be69a58b665f6567ce63e6be4867c729bce9b323b9a7856ba10f689549d": {
+    "paper_id": "https://openalex.org/W4226431585",
+    "title": "Organic-Free Modulation of the Framework Al Distribution in Zsm-5 Zeolite by Magnesium Participated Synthesis and its Impact on the Catalytic Cracking Reaction of Alkanes",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:09.034Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on inorganic zeolite synthesis and catalytic cracking chemistry, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Zeolite, Catalysis, Cracking, Magnesium, ZSM-5 — all materials chemistry/catalysis terms; 'emotion' does not appear in title, concepts, or implied from domain."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6ea35f4e43cf82101cd89437497c6ebc6975309e9075f8ce41770d156945ffd1": {
+    "paper_id": "https://openalex.org/W4253510583",
+    "title": "D-S evidential theory on sEMG signal recognition",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:09.039Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sEMG signal recognition using D-S evidential theory for sensor fusion and classification robustness; no mention of emotion, affective states, or psychological emotion modeling.",
+      "evidence": [
+        "Title and abstract exclusively discuss signal processing, pattern recognition, and fusion methods for motor action classification (e.g., 'six actions are set to be the samples'); 'emotion' does not appear in metadata or abstract."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f81cdc6bb4a772765ec759f42e39c01734ac33462667e550d8460a9efc9bb2e0": {
+    "paper_id": "https://openalex.org/W2115977868",
+    "title": "Dynamic Grasp Recognition Using Time Clustering, Gaussian Mixture Models and Hidden Markov Models",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:11.148Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on dynamic grasp recognition using time clustering and statistical models, with no mention or conceptual link to emotion or affective computing.",
+      "evidence": [
+        "Concepts include GRASP, Hidden Markov model, Robotics, Gesture recognition — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "48bee09de6d7b278d577baf136cd4187287ec5ea1605f57e4572f34c372edc77": {
+    "paper_id": "https://openalex.org/W2808284267",
+    "title": "A Model-Based Approach to Robot Fault Diagnosis",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:11.151Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on robot fault diagnosis using model-based methods, with no indication of emotion or affective computing in title, venue, concepts, or abstract.",
+      "evidence": [
+        "Title: 'A Model-Based Approach to Robot Fault Diagnosis'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "087e0da893295cfcdc3e55db0f864949fdb205283c337aa08a77beb0e3862dcf": {
+    "paper_id": "https://openalex.org/W4231660581",
+    "title": "Combining Multi-Frame Images for Enhancement Using Self-Delaying Dynamic Networks",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T20:29:11.619Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on image enhancement using temporal neural networks and has no mention of emotion, affective computing, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively concern image processing, neural networks, interpolation, and frame-based enhancement; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

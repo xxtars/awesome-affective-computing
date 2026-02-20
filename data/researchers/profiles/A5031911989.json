@@ -19,7 +19,7 @@
   "topic_summary": {
     "top_research_directions": [
       {
-        "name": "Affective NLP for mental health and clinical applications",
+        "name": "Affective NLP for mental health applications",
         "weight": 1
       },
       {
@@ -27,72 +27,68 @@
         "weight": 0.97
       },
       {
-        "name": "Multimodal and context-aware affective analysis",
-        "weight": 0.94
+        "name": "Multimodal and uncertainty-aware affective analysis",
+        "weight": 0.93
       },
       {
-        "name": "Low-resource and label-efficient emotion/sentiment analysis",
-        "weight": 0.91
+        "name": "Fine-grained, aspect- and utterance-level sentiment/emotion analysis",
+        "weight": 0.89
       },
       {
-        "name": "Fine-grained aspect- and utterance-level sentiment/emotion modeling",
-        "weight": 0.88
-      },
-      {
-        "name": "Causal and interaction-aware emotion recognition in conversations",
+        "name": "Causal, contextual, and iterative emotion modeling in dialogue",
         "weight": 0.85
       },
       {
-        "name": "Uncertainty-aware and robust affective systems",
-        "weight": 0.82
+        "name": "Label-efficient and weakly supervised affective learning",
+        "weight": 0.81
       },
       {
-        "name": "Cross-disciplinary integration of clinical psychology and AI",
-        "weight": 0.79
+        "name": "Cross-domain and domain-adaptive emotion/sentiment modeling",
+        "weight": 0.76
       }
     ],
-    "trend_summary": "Yanyan Zhao's research centers on human-centered affective AI, with a strong evolution toward clinically grounded, explainable, and robust emotion modeling—especially for mental health applications on social media. Early work focused on foundational aspect-based sentiment analysis and syntactic modeling; recent work increasingly integrates clinical scales (e.g., psychiatric assessments), cognitive distortions, causal reasoning, multimodal uncertainty, and low-resource learning. A consistent thread is bridging computational linguistics with clinical psychology—emphasizing interpretability, domain adaptation, and real-world applicability in digital mental health.",
+    "trend_summary": "Yanyan Zhao's research centers on human-centered affective AI, with a strong clinical and cognitive grounding—especially in mental health (e.g., depression, cognitive distortions) using social media and conversational data. Her work consistently bridges NLP, multimodal learning, and clinical psychology: advancing explainability via cognitive theories (e.g., cognitive distortion), integrating psychiatric scales into LLMs, modeling emotion distributions and causes in context, and addressing data scarcity through weak/low-shot supervision. A clear evolution is visible—from foundational aspect-based sentiment analysis (2010s) to clinically aligned, uncertainty-aware, multimodal, and causally grounded affective systems (2022–2024).",
     "representative_papers": [
       {
         "title": "Scale-CoT: Integrating LLM with Psychiatric Scales for Analyzing Mental Health Issues on Social Media",
-        "why": "Exemplifies the flagship direction: clinical scale alignment with LLMs for explainable, domain-grounded mental health analysis."
-      },
-      {
-        "title": "Cognitive distortion based explainable depression detection and analysis technologies for the adolescent internet users on social media",
-        "why": "Pioneering integration of clinical cognitive theory (e.g., CBT distortions) into interpretable NLP models for adolescent mental health."
+        "why": "Exemplifies her signature cross-disciplinary integration—bridging clinical psychiatry (standardized scales) and LLMs for explainable, domain-grounded mental health analysis on social media."
       },
       {
         "title": "CauAIN: Causal Aware Interaction Network for Emotion Recognition in Conversations",
-        "why": "Seminal work introducing causal modeling to conversational emotion recognition—highly cited and foundational for context-aware affective dialogue systems."
+        "why": "Highly cited (65) and foundational for causal reasoning in affective dialogue systems—demonstrates her focus on context-aware, mechanistic emotion modeling beyond surface classification."
+      },
+      {
+        "title": "Cognitive distortion based explainable depression detection and analysis technologies for the adolescent internet users on social media",
+        "why": "Highlights her clinical translation focus—using linguistically grounded cognitive distortion markers to build interpretable, adolescent-specific depression detection tools."
       },
       {
         "title": "Toward Label-Efficient Emotion and Sentiment Analysis",
-        "why": "Key contribution to low-resource affective NLP, addressing annotation scarcity and ambiguity—widely cited and methodologically influential."
+        "why": "Most cited paper (34) in her corpus; anchors her methodological emphasis on practical deployment constraints—weak supervision, annotation ambiguity, and domain adaptation."
       },
       {
         "title": "Data Uncertainty-Aware Learning for Multimodal Aspect-based Sentiment Analysis",
-        "why": "Represents the emerging focus on quantifying and leveraging uncertainty in multimodal affective systems."
+        "why": "Represents her cutting-edge direction: unifying multimodality, fine-grained aspect modeling, and explicit uncertainty quantification for robust affective systems."
       },
       {
         "title": "A Topic-Enhanced Approach for Emotion Distribution Forecasting in Conversations",
-        "why": "Highlights distributional, dynamic, and topic-conditioned emotion modeling—critical for longitudinal and conversational affect understanding."
+        "why": "Illustrates her shift toward predictive, distributional, and discourse-aware emotion modeling—moving beyond single-label classification to dynamic emotional trajectories."
       },
       {
         "title": "C2D2 Dataset: A Resource for the Cognitive Distortion Analysis and Its Impact on Mental Health",
-        "why": "Landmark resource paper enabling clinical NLP research by formalizing linguistic markers of cognitive distortions in depression/anxiety."
+        "why": "Signals her commitment to resource creation grounded in clinical theory—enabling reproducible, cognition-emotion interaction research in NLP."
       },
       {
         "title": "An Iterative Emotion Interaction Network for Emotion Recognition in Conversations",
-        "why": "Early high-impact work establishing iterative, context-propagating architectures for conversational emotion modeling—foundational for later causal and interaction networks."
+        "why": "Early high-impact work (46 citations) establishing her long-standing focus on dialogue context, iterative inference, and inter-utterance emotion dynamics."
       }
     ]
   },
   "stats": {
     "analyzed_works_count": 115,
     "interesting_works_count": 40,
-    "new_works_count": 67,
+    "new_works_count": 2,
     "deduped_works_count": 115,
-    "ai_called_count": 67,
+    "ai_called_count": 2,
     "summary_recomputed": true
   },
   "works": [
@@ -310,10 +306,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "SPE Advances in Integrated Reservoir Modelling and Field Development Conference and Exhibition",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "SPE Advances in Integrated Reservoir Modelling and Field Development Conference and Exhibition",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -638,10 +634,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -1057,10 +1053,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2024 IEEE 6th Symposium on Computers &amp; Informatics (ISCI)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE 6th Symposium on Computers &amp; Informatics (ISCI)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -1417,10 +1413,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 9,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -1814,10 +1810,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "3rd International Conference on Advanced Algorithms and Signal Image Processing (AASIP 2023)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "3rd International Conference on Advanced Algorithms and Signal Image Processing (AASIP 2023)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -2382,10 +2378,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -3017,10 +3013,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 13th Workshop on Computational Approaches to Subjectivity, Sentiment, & Social Media Analysis",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 13th Workshop on Computational Approaches to Subjectivity, Sentiment, & Social Media Analysis",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -3622,10 +3618,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "Findings of the Association for Computational Linguistics: EMNLP 2023",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Findings of the Association for Computational Linguistics: EMNLP 2023",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -3881,10 +3877,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 18,
-      "primary_source": null,
+      "primary_source": "MM '22: The 30th ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '22: The 30th ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -4369,10 +4365,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 7,
-      "primary_source": null,
+      "primary_source": "2022 10th International Conference on Agro-geoinformatics (Agro-Geoinformatics)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2022 10th International Conference on Agro-geoinformatics (Agro-Geoinformatics)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6049,10 +6045,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2021 International Joint Conference on Neural Networks (IJCNN)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2021 International Joint Conference on Neural Networks (IJCNN)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -7254,10 +7250,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 104,
-      "primary_source": null,
+      "primary_source": "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -7544,10 +7540,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 9,
-      "primary_source": null,
+      "primary_source": "Findings of the Association for Computational Linguistics: EMNLP 2021",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Findings of the Association for Computational Linguistics: EMNLP 2021",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -9524,10 +9520,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 46,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 28th International Conference on Computational Linguistics",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 28th International Conference on Computational Linguistics",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -9991,10 +9987,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 24,
-      "primary_source": null,
+      "primary_source": "ICMR '19: International Conference on Multimedia Retrieval",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICMR '19: International Conference on Multimedia Retrieval",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -11729,10 +11725,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2018 First Asian Conference on Affective Computing and Intelligent Interaction (ACII Asia)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2018 First Asian Conference on Affective Computing and Intelligent Interaction (ACII Asia)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -13649,10 +13645,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 7,
-      "primary_source": null,
+      "primary_source": "Proceedings of ACL 2017, System Demonstrations",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of ACL 2017, System Demonstrations",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -15043,10 +15039,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1221,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval-2016)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval-2016)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -22712,10 +22708,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "Education (ICCSE 2011)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Education (ICCSE 2011)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -24343,10 +24339,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2010 International Forum on Information Technology and Applications (IFITA)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 International Forum on Information Technology and Applications (IFITA)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -27551,10 +27547,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "2008 Fifth International Conference on Fuzzy Systems and Knowledge Discovery (FSKD)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2008 Fifth International Conference on Fuzzy Systems and Knowledge Discovery (FSKD)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,

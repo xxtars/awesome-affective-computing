@@ -7069,5 +7069,351 @@
         "Robust multimodal emotion recognition in learning contexts"
       ]
     }
+  },
+  "2d5b84ce61f8f3c5df23a9fbb1bf0c44a12318ad637a904547d2fbad8d1c204e": {
+    "paper_id": "https://openalex.org/W4398192678",
+    "title": "CLAMBER: A Benchmark of Identifying and Clarifying Ambiguous Information Needs in Large Language Models",
+    "researcher_name": "Tong Zhang",
+    "researcher_openalex_author_id": "A5100378800",
+    "updated_at": "2026-02-20T20:44:15.787Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on ambiguity identification and clarification in LLMs, with no mention of emotion, affective states, or related psychological constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, mood, or human emotional response."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a999d28a24672dce97f835745ebd0168940f2711a22727cda2ce088163e0bb68": {
+    "paper_id": "https://openalex.org/W2742381200",
+    "title": "液体レンズに基づく二重ビームレーザ自動焦点システム【Powered by NICT】",
+    "researcher_name": "Tong Zhang",
+    "researcher_openalex_author_id": "A5100378800",
+    "updated_at": "2026-02-20T20:44:16.401Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on an optical engineering system using liquid lenses and laser beam control, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title: 'Dual-beam laser auto-focusing system based on liquid lens'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e6d42ef39ec18ffbe424112c8b0907b88133ce9f0a98d3a00df6e82734b9b0c6": {
+    "paper_id": "https://openalex.org/W4253158786",
+    "title": "On the high-speed VLSI implementation of errors-and-erasures correcting reed-solomon decoders",
+    "researcher_name": "Tong Zhang",
+    "researcher_openalex_author_id": "A5100378800",
+    "updated_at": "2026-02-20T20:44:16.526Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical VLSI implementation study of Reed-Solomon decoders with no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract focus exclusively on hardware architecture, algorithm transformation, and throughput optimization for error correction decoding."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1662e662aa13aa440896f52b38ab56f1b3fd78f4f6b8e88bd8999222591b1d2d": {
+    "paper_id": "https://openalex.org/W2952186153",
+    "title": "Learning Nonlinear Functions Using Regularized Greedy Forest",
+    "researcher_name": "Tong Zhang",
+    "researcher_openalex_author_id": "A5100378800",
+    "updated_at": "2026-02-20T20:44:16.569Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on machine learning algorithms for nonlinear function approximation and does not address emotion, affect, or any psychological, behavioral, or neuroscientific aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all are technical ML/AI topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "fa6b1e9178cbe37e3888de4a574dd020a064a58c9dc14d91d2024409d876c830": {
+    "paper_id": "https://openalex.org/W4306705057",
+    "title": "MICO: A Multi-alternative Contrastive Learning Framework for Commonsense Knowledge Representation",
+    "researcher_name": "Tong Zhang",
+    "researcher_openalex_author_id": "A5100378800",
+    "updated_at": "2026-02-20T20:44:16.624Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on commonsense knowledge representation and contrastive learning for AI tasks; no mention of emotion, affect, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all listed concepts are technical AI/NLP topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "733d9816602ac9292c2ba851a0e5ab6bf5719913ea8409d4b6c9859002d57123": {
+    "paper_id": "https://openalex.org/W4319165828",
+    "title": "History-Aware Hierarchical Transformer for Multi-session Open-domain Dialogue System",
+    "researcher_name": "Tong Zhang",
+    "researcher_openalex_author_id": "A5100378800",
+    "updated_at": "2026-02-20T20:44:16.650Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multi-session dialogue modeling and long-term context retention using transformer architectures, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical NLP/dialogue-system oriented."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "363b3681156cdac6b181d6999ce4ee507b2e7008b5cb6fa0c74e0e49f5edc40c": {
+    "paper_id": "https://openalex.org/W2746968088",
+    "title": "乳癌の診断における乳房組織診における乳癌細胞診の価値【JST・京大機械翻訳】",
+    "researcher_name": "Tong Zhang",
+    "researcher_openalex_author_id": "A5100378800",
+    "updated_at": "2026-02-20T20:44:16.652Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on diagnostic value of cytology in breast cancer tissue examination; no connection to emotion or affective science.",
+      "evidence": [
+        "Title is in Japanese and translates to 'The Value of Breast Cancer Cytology in Breast Tissue Diagnosis'; domain is oncology/medical diagnostics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2fd74d728f3aa75642f1a3e9b875bc23218f44787a298c75f96f897677731886": {
+    "paper_id": "https://openalex.org/W4380137047",
+    "title": "Mixture-of-Domain-Adapters: Decoupling and Injecting Domain Knowledge to Pre-trained Language Models Memories",
+    "researcher_name": "Tong Zhang",
+    "researcher_openalex_author_id": "A5100378800",
+    "updated_at": "2026-02-20T20:44:16.661Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on domain adaptation techniques for language models using adapter modules; no mention of emotion, affect, sentiment, or any psychological/behavioral constructs related to affective science.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are technical ML/NLP infrastructure concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "76f071bf2459f67ee1b003c64d354d1e759265de8feeedf0c3fb16404ecb8a5e": {
+    "paper_id": "https://openalex.org/W4388787841",
+    "title": "R-Tuning: Instructing Large Language Models to Say `I Don't Know'",
+    "researcher_name": "Tong Zhang",
+    "researcher_openalex_author_id": "A5100378800",
+    "updated_at": "2026-02-20T20:44:16.669Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on model refusal, uncertainty calibration, and hallucination mitigation in LLMs; 'emotion' is not mentioned or implied in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Interest topic 'emotion' has no lexical or conceptual overlap with the paper's content."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "67f44b4570892b197c8ac705e3d3a969b09ef3af96f0c72870aa4bbb45c0502a": {
+    "paper_id": "https://openalex.org/W1841724727",
+    "title": "Effective Use of Word Order for Text Categorization with Convolutional Neural Networks",
+    "researcher_name": "Tong Zhang",
+    "researcher_openalex_author_id": "A5100378800",
+    "updated_at": "2026-02-20T20:44:16.728Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on text categorization using convolutional neural networks and word order modeling, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are technical NLP/AI methods."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "956a4a67239eb12e4ddfed4e2914a0be7e386a6d680cb8130a99b32f523e7467": {
+    "paper_id": "https://openalex.org/W2897702211",
+    "title": "Cross-lingual analysis of English and Chinese web search",
+    "researcher_name": "Tong Zhang",
+    "researcher_openalex_author_id": "A5100378800",
+    "updated_at": "2026-02-20T20:44:16.907Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cross-lingual web search behavior analysis and does not mention emotion, affective states, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract contains no reference to emotion, affect, sentiment, mood, or related terms; concepts are strictly technical (e.g., semantic search, information retrieval, web analytics)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b3cdb9a0d02c23eeba887761b1351039d44da3f7db2c6f8886b96f1427615e2f": {
+    "paper_id": "https://openalex.org/W4390528749",
+    "title": "RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models",
+    "researcher_name": "Tong Zhang",
+    "researcher_openalex_author_id": "A5100378800",
+    "updated_at": "2026-02-20T20:44:16.951Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hallucination detection and benchmarking in retrieval-augmented language models, with no substantive connection to emotion, affective science, or psychological emotion processes.",
+      "evidence": [
+        "Interest topic is 'emotion', but paper's concepts and abstract emphasize trustworthiness, hallucination, NLP, and AI evaluation—not affective phenomena."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "36b2f286b0a02811619c4a631c52b680bd77b200d0c12a9f6c934eafd11c49d3": {
+    "paper_id": "https://openalex.org/W4393929472",
+    "title": "Towards Better Generalization in Open-Domain Question Answering by Mitigating Context Memorization",
+    "researcher_name": "Tong Zhang",
+    "researcher_openalex_author_id": "A5100378800",
+    "updated_at": "2026-02-20T20:44:16.976Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on generalization and memorization in open-domain question answering, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts include 'Memorization', 'Question answering', 'Artificial intelligence' — no emotion-related terms or themes appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0fb29b6cedbbc5e8495d62c02aaf69b638a7caaf2489fa8867d9d787908cec9e": {
+    "paper_id": "https://openalex.org/W2950804862",
+    "title": "QuaSE: Sequence Editing under Quantifiable Guidance.",
+    "researcher_name": "Tong Zhang",
+    "researcher_openalex_author_id": "A5100378800",
+    "updated_at": "2026-02-20T20:44:17.178Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on quantifiable sequence editing for outcome manipulation (e.g., review ratings, click-through rates) using disentangled latent factors; 'emotion' is not mentioned or implied in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Abstract makes no reference to emotion, affect, sentiment, or psychological states; outcome values are behavioral metrics (rating, CTR), not emotional constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3bd68631bb5e7a44834e105854c031bf807bf2982048f39f0ca36dda39543395": {
+    "paper_id": "https://openalex.org/W2569025259",
+    "title": "A Spectral Algorithm for Learning Hidden Markov Models",
+    "researcher_name": "Tong Zhang",
+    "researcher_openalex_author_id": "A5100378800",
+    "updated_at": "2026-02-20T20:44:17.245Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a theoretical computer science and machine learning work on spectral algorithms for learning Hidden Markov Models, with no connection to emotion, affect, psychology, or human-centered affective phenomena.",
+      "evidence": [
+        "Interest topic is 'emotion', but paper concepts include 'Hidden Markov model', 'Singular value decomposition', 'Algorithm', and 'Computer science' — all technical, non-affective domains."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "00df52562f955506560100fcd495d4d22cc820d71dbaa01c77725db5b8463c57": {
+    "paper_id": "https://openalex.org/W4252627625",
+    "title": "Data Sources for Prediction: Databases, Hybrid Data and the Web",
+    "researcher_name": "Tong Zhang",
+    "researcher_openalex_author_id": "A5100378800",
+    "updated_at": "2026-02-20T20:44:17.322Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper includes 'Sentiment analysis' as a core concept, which is a well-established subfield of affective computing and emotion-related NLP research; this directly aligns with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Sentiment analysis"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "emotion",
+        "affective computing",
+        "text mining"
+      ],
+      "research_directions": [
+        "Affective text analysis",
+        "Emotion detection in web content",
+        "Sentiment modeling"
+      ]
+    }
+  },
+  "5d98e485059311990368afb5ad2c723b91be100fcc66adc223067619dd67cbef": {
+    "paper_id": "https://openalex.org/W3092390915",
+    "title": "A Generalized Neural Tangent Kernel Analysis for Two-layer Neural Networks",
+    "researcher_name": "Tong Zhang",
+    "researcher_openalex_author_id": "A5100378800",
+    "updated_at": "2026-02-20T20:44:17.421Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a theoretical deep learning study focused on neural tangent kernels, optimization dynamics, and generalization bounds; it contains no emotion-related concepts, methods, or applications.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: 'Artificial neural network', 'Tangent', 'Kernel (algebra)', 'Layer (electronics)', etc. — all purely mathematical/technical, with zero affective or psychological terminology"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d7a07c3f9a26398b09c6bac58f72983d49900701dd93e7979551a17af2f2c993": {
+    "paper_id": "https://openalex.org/W2903718075",
+    "title": "Cross-Database Micro-Expression Recognition: A Benchmark",
+    "researcher_name": "Tong Zhang",
+    "researcher_openalex_author_id": "A5100378800",
+    "updated_at": "2026-02-20T20:44:18.357Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper focuses on micro-expression recognition, which is a core affective computing task directly tied to emotion inference from facial behavior; 'emotion' is explicitly listed as the researcher's interest topic.",
+      "evidence": [
+        "Title contains 'Micro-Expression Recognition'",
+        "Abstract states CDMER is 'one of recently emerging and interesting problem in micro-expression analysis'",
+        "Micro-expressions are involuntary, brief facial expressions linked to concealed or genuine emotions"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "affective computing",
+        "facial expression",
+        "domain adaptation"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware AI",
+        "nonverbal emotion analysis",
+        "cross-database generalization in affective sensing"
+      ]
+    }
   }
 }

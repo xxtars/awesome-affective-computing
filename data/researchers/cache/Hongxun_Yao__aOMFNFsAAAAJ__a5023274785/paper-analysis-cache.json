@@ -7696,5 +7696,221 @@
         "Computer vision for emotion"
       ]
     }
+  },
+  "3d7ddaacfd46aab0928a1b0b16c9bcaf5fae05d46f34d3b86843b09551eccf99": {
+    "paper_id": "https://openalex.org/W3178839554",
+    "title": "Robust object tracking based on sparse representation",
+    "researcher_name": "Hongxun Yao",
+    "researcher_openalex_author_id": "A5023274785",
+    "updated_at": "2026-02-20T20:30:17.831Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computer vision and object tracking using sparse representation, with no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts are purely technical, centered on tracking algorithms, sparse approximation, and computer vision."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b0875d381ddfb27f2fa8538d4e56396c63f551d05aa2fe98ab703d7c427d1646": {
+    "paper_id": "https://openalex.org/W2979511917",
+    "title": "Sketch-Specific Data Augmentation for Freehand Sketch Recognition",
+    "researcher_name": "Hongxun Yao",
+    "researcher_openalex_author_id": "A5023274785",
+    "updated_at": "2026-02-20T20:30:17.841Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sketch recognition and data augmentation techniques, with no mention of emotion, affective computing, or related psychological or behavioral constructs.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain no emotion-related terms or applications."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4db29bde9a5b10ad0236b7b30abde169109a0506851488ea90c11eaf947145a9": {
+    "paper_id": "https://openalex.org/W2981083813",
+    "title": "Toward 3D Object Reconstruction from Stereo Images",
+    "researcher_name": "Hongxun Yao",
+    "researcher_openalex_author_id": "A5023274785",
+    "updated_at": "2026-02-20T20:30:17.842Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on 3D object reconstruction from stereo images using computer vision and deep learning; no mention of emotion, affect, or related psychological/physiological constructs.",
+      "evidence": [
+        "Title: 'Toward 3D Object Reconstruction from Stereo Images'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c522c81a30be6db1632a53f5f56541bd7f5791d2f28dd4ea12e07f3d7efff44f": {
+    "paper_id": "https://openalex.org/W4245637357",
+    "title": "Vocabulary hierarchy optimization for effective and transferable retrieval",
+    "researcher_name": "Hongxun Yao",
+    "researcher_openalex_author_id": "A5023274785",
+    "updated_at": "2026-02-20T20:30:17.900Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on visual vocabulary hierarchy optimization for image retrieval and has no connection to emotion or affective computing.",
+      "evidence": [
+        "Abstract contains no mention of emotion, affect, sentiment, psychology, or related constructs; all concepts are computer vision / information retrieval focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f54b175eb50e69d1ce62e992162ee61bc6e9b7725944c481d59dd694b3a0c8e0": {
+    "paper_id": "https://openalex.org/W4298055122",
+    "title": "Local Histogram of Figure/Ground Segmentations for Dynamic Background Subtraction",
+    "researcher_name": "Hongxun Yao",
+    "researcher_openalex_author_id": "A5023274785",
+    "updated_at": "2026-02-20T20:30:17.914Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computer vision techniques for background subtraction and segmentation, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are strictly technical CV/AI topics; 'emotion' does not appear in title, venue, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a8b52be2a2059ba60d6adfe3237751921b90c519516a1d00bb5c7a7556267774": {
+    "paper_id": "https://openalex.org/W3149793578",
+    "title": "A PCA Based Visual DCT Feature Extraction Method for Lip-Reading",
+    "researcher_name": "Hongxun Yao",
+    "researcher_openalex_author_id": "A5023274785",
+    "updated_at": "2026-02-20T20:30:17.939Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on lip-reading feature extraction using PCA and DCT, with no mention of emotion recognition, affective computing, or emotional states.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are signal processing and pattern recognition for visual speech."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "72bff1b11f0e6b51dfc8275d346ff23da53ae3659efc5fb80f6b723576ab7b50": {
+    "paper_id": "https://openalex.org/W3034126769",
+    "title": "GRNet: Gridding Residual Network for Dense Point Cloud Completion",
+    "researcher_name": "Hongxun Yao",
+    "researcher_openalex_author_id": "A5023274785",
+    "updated_at": "2026-02-20T20:30:17.955Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on 3D point cloud completion using geometric deep learning techniques; no mention of emotion, affective computing, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Title and abstract exclusively discuss point cloud geometry, neural network architecture, and computer vision benchmarks."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6267854f1999ca5d5e88a98560522b94e73f86a49d963b1378669856f0009117": {
+    "paper_id": "https://openalex.org/W4253314985",
+    "title": "Visual tracking via weakly supervised learning from multiple imperfect oracles",
+    "researcher_name": "Hongxun Yao",
+    "researcher_openalex_author_id": "A5023274785",
+    "updated_at": "2026-02-20T20:30:17.981Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on visual tracking and weakly supervised learning, with no mention of emotion, affect, or related psychological or affective computing concepts.",
+      "evidence": [
+        "Concepts include 'Video tracking', 'Machine learning', 'Robustness', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cfde9c1e44258ee2e8a97b8a2849bae161e3d9b9b846c146801e71d403ccd665": {
+    "paper_id": "https://openalex.org/W2990407489",
+    "title": "SSAH: Semi-supervised Adversarial Deep Hashing with Self-paced Hard Sample Generation",
+    "researcher_name": "Hongxun Yao",
+    "researcher_openalex_author_id": "A5023274785",
+    "updated_at": "2026-02-20T20:30:18.141Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on semi-supervised adversarial deep hashing for image retrieval, with no mention of emotion, affect, or psychological/behavioral constructs related to affective computing.",
+      "evidence": [
+        "Abstract and concepts exclusively cover hashing, GANs, machine learning, and computer vision—no emotion-related terms or applications."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8e606f431578b9ad52ea9d7e5e58a2e36f38fcbd09dc3385a51e5423d2fb7f7e": {
+    "paper_id": "https://openalex.org/W3135982274",
+    "title": "Efficient Regional Memory Network for Video Object Segmentation",
+    "researcher_name": "Hongxun Yao",
+    "researcher_openalex_author_id": "A5023274785",
+    "updated_at": "2026-02-20T20:30:18.324Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video object segmentation using regional memory and optical flow, with no mention or conceptual link to emotion, affective computing, or psychological/behavioral emotion modeling.",
+      "evidence": [
+        "Abstract and concepts are exclusively computer vision/AI topics: 'Video Object Segmentation', 'Optical flow', 'Memory network', 'DAVIS dataset'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1fc561f2bb82f6a0615a4589845877b18eb1426b23a91452f8378603010af5a1": {
+    "paper_id": "https://openalex.org/W3152426041",
+    "title": "Genetic Algorithm Based Optimal Block Mapping Method for LSB Substitution",
+    "researcher_name": "Hongxun Yao",
+    "researcher_openalex_author_id": "A5023274785",
+    "updated_at": "2026-02-20T20:30:18.346Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on steganography and optimization of LSB substitution using genetic algorithms, with no mention or conceptual link to emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts contain only technical terms from computer science, image processing, and algorithms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8db123c7363f211cdb55444350ec25ddd364359048ac6786c16d3589a36f0170": {
+    "paper_id": "https://openalex.org/W2073104454",
+    "title": "Nonparametric Background Generation",
+    "researcher_name": "Hongxun Yao",
+    "researcher_openalex_author_id": "A5023274785",
+    "updated_at": "2026-02-20T20:30:18.473Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on nonparametric background modeling for computer vision, with no connection to human emotion, affective science, or psychological emotion processing.",
+      "evidence": [
+        "Concepts include 'Background subtraction', 'Nonparametric statistics', 'Pattern recognition (psychology)' — the latter refers to perceptual pattern recognition, not affective psychology; abstract contains no emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

@@ -27,72 +27,72 @@
         "weight": 0.98
       },
       {
-        "name": "emotion representation disentanglement",
+        "name": "cross-domain emotion understanding",
         "weight": 0.95
       },
       {
-        "name": "cross-domain affective representation learning",
-        "weight": 0.93
+        "name": "emotion representation disentanglement",
+        "weight": 0.92
       },
       {
         "name": "label-efficient and low-resource affective learning",
-        "weight": 0.91
-      },
-      {
-        "name": "personalized emotion modeling",
         "weight": 0.89
       },
       {
-        "name": "affective multimodal AI (including MLLMs, vision-language, audio-video)",
-        "weight": 0.87
+        "name": "personalized emotion modeling",
+        "weight": 0.86
       },
       {
-        "name": "emotion-aware computer vision",
-        "weight": 0.85
+        "name": "affective multimodal AI",
+        "weight": 0.83
+      },
+      {
+        "name": "causal and dynamic emotion modeling in dialogue",
+        "weight": 0.8
       }
     ],
-    "trend_summary": "Sicheng Zhao's research centers on advancing affective computing through multimodal, human-centered, and cognitively grounded frameworks. A dominant trend is the integration of emotion modeling with modern AI paradigms—especially disentangled representation learning, domain adaptation (source-free, open-vocabulary, unsupervised), and foundation-model-aware techniques (e.g., in-context learning for MLLMs). There is strong continuity in multimodal sentiment/emotion analysis (image-text-audio-video), but recent work increasingly emphasizes label efficiency, privacy-aware adaptation, causal/dynamic emotion modeling, fuzzy/uncertainty-aware reasoning, and clinical or socially impactful applications (e.g., parenting support, digital humans). The trajectory reflects a maturation from early image-centric emotion prediction toward holistic, robust, interpretable, and ethically aware affective AI systems bridging psychology, linguistics, vision, and human-computer interaction.",
+    "trend_summary": "Sicheng Zhao's research centers on advancing robust, human-centered affective AI—particularly through multimodal (vision, language, audio) emotion understanding grounded in psychological principles. A strong longitudinal thread is cross-domain adaptation and generalization (e.g., source-free, open-vocabulary, unsupervised), increasingly guided by disentanglement, information bottleneck, and causal reasoning. Recent work emphasizes efficiency (label-, data-, and demonstration-efficient learning), personalization (via personality, physiology, or user context), and responsible deployment (privacy, uncertainty, subjectivity, ethics). There is a clear evolution from early image-centric emotion prediction toward foundation-model-aware, dialogue- and healthcare-integrated, and psychologically informed affective systems.",
     "representative_papers": [
       {
         "title": "Multimodal Sentiment Analysis With Image-Text Interaction Network",
-        "why": "Highly cited (194) foundational work establishing cross-modal affective grounding; exemplifies core multimodal emotion analysis direction."
+        "why": "Highly cited foundational work (194 citations) establishing core architecture patterns for cross-modal affective grounding—exemplifies his long-standing leadership in multimodal emotion analysis."
       },
       {
         "title": "Unlocking the Emotional World of Visual Media: An Overview of the Science, Research, and Impact of Understanding Emotion",
-        "why": "Most cited paper (67) and comprehensive survey framing computational emotion modeling across disciplines, ethics, and subjectivity—defining his integrative vision."
+        "why": "Seminal high-impact survey (67 citations) synthesizing psychology, computer vision, and ethics—defines his integrative, multidisciplinary framing of emotion AI."
+      },
+      {
+        "title": "Dynamic Causal Disentanglement Model for Dialogue Emotion Detection",
+        "why": "Represents cutting-edge convergence of causality, dynamics, and disentanglement in conversational affect—highly cited (12) and conceptually rich."
       },
       {
         "title": "EmotionGAN",
-        "why": "Seminal 2018 paper introducing generative adversarial learning for unsupervised emotion transfer—pioneered affective domain adaptation in vision."
+        "why": "Early influential generative approach (75 citations) pioneering unsupervised emotion transfer—marks origin of his domain adaptation and generative affective modeling trajectory."
       },
       {
         "title": "Predicting Continuous Probability Distribution of Image Emotions in Valence-Arousal Space",
-        "why": "Early influential work (40 citations) establishing dimensional, probabilistic, and continuous emotion modeling—foundational to his distributional and subjectivity-aware approach."
+        "why": "Foundational probabilistic, dimensional emotion modeling (40 citations) bridging psychology and ML—established his focus on subjectivity and continuous affect representation."
       },
       {
-        "title": "SDRS: Sentiment-Aware Disentangled Representation Shifting for Multimodal Sentiment Analysis",
-        "why": "Represents current emphasis on disentanglement (2025, 5 citations); bridges sentiment-emotion semantics and cross-modal alignment with architectural innovation."
-      },
-      {
-        "title": "Bridge Then Begin Anew: Generating Target-Relevant Intermediate Model for Source-Free Visual Emotion Adaptation",
-        "why": "Exemplifies cutting-edge source-free, privacy-preserving adaptation (2025, 5 citations), addressing real-world deployment constraints."
+        "title": "Personalized Emotion Recognition by Personality-Aware High-Order Learning of Physiological Signals",
+        "why": "Key paper (78 citations) anchoring personalized, trait-informed affective modeling—demonstrates his consistent emphasis on individual variability."
       },
       {
         "title": "An Empirical Study on Configuring In-Context Learning Demonstrations for Unleashing MLLMs' Sentimental Perception Capability",
-        "why": "Highlights timely shift toward foundation models and human-in-the-loop affective reasoning (2025, 0 citations but high conceptual novelty)."
+        "why": "Signals timely pivot toward foundation models and human-in-the-loop affective reasoning—reflects current focus on efficient, controllable, bias-aware LLM-based emotion understanding."
       },
       {
-        "title": "Unveiling Maternity and Infant Care Conversations: A Chinese Dialogue Dataset for Enhanced Parenting Support",
-        "why": "Demonstrates applied, human-centered direction—clinical affective dialogue systems with culturally grounded, psychologically informed design (2024, 7 citations)."
+        "title": "Affective Image Content Analysis: Two Decades Review and New Perspectives",
+        "why": "Landmark review (157 citations) tracing evolution of visual affective computing—underscores his role as a field-shaping synthesizer and forward-looking theorist."
       }
     ]
   },
   "stats": {
     "analyzed_works_count": 225,
     "interesting_works_count": 60,
-    "new_works_count": 181,
+    "new_works_count": 19,
     "deduped_works_count": 225,
-    "ai_called_count": 181,
+    "ai_called_count": 19,
     "summary_recomputed": true
   },
   "works": [
@@ -243,10 +243,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '25: The 33rd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '25: The 33rd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -343,10 +343,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '25: The 33rd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '25: The 33rd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -458,10 +458,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2025 18th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics (CISP-BMEI)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2025 18th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics (CISP-BMEI)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -1602,10 +1602,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -1786,10 +1786,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -1937,10 +1937,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -3676,10 +3676,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -3934,10 +3934,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6292,10 +6292,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -7278,10 +7278,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2024 4th International Conference on Intelligent Power and Systems (ICIPS)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 4th International Conference on Intelligent Power and Systems (ICIPS)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -7475,10 +7475,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2024 4th International Conference on Intelligent Power and Systems (ICIPS)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 4th International Conference on Intelligent Power and Systems (ICIPS)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -7826,10 +7826,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2024 IEEE International Conference on Signal, Information and Data Processing (ICSIDP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE International Conference on Signal, Information and Data Processing (ICSIDP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -8413,10 +8413,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2024 17th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics (CISP-BMEI)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 17th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics (CISP-BMEI)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -8673,10 +8673,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '24: The 32nd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '24: The 32nd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -8855,10 +8855,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '24: The 32nd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '24: The 32nd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -9224,10 +9224,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2024 IEEE Nuclear Science Symposium (NSS), Medical Imaging Conference (MIC) and Room Temperature Semiconductor Detector Conference (RTSD)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE Nuclear Science Symposium (NSS), Medical Imaging Conference (MIC) and Room Temperature Semiconductor Detector Conference (RTSD)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -9601,10 +9601,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 7,
-      "primary_source": null,
+      "primary_source": "Thirty-Third International Joint Conference on Artificial Intelligence {IJCAI-24}",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Thirty-Third International Joint Conference on Artificial Intelligence {IJCAI-24}",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -9826,10 +9826,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 11,
-      "primary_source": null,
+      "primary_source": "2024 IEEE International Conference on Multimedia and Expo (ICME)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE International Conference on Multimedia and Expo (ICME)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -10285,10 +10285,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "ACM-TURC '24: ACM Turing Award Celebration Conference 2024",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ACM-TURC '24: ACM Turing Award Celebration Conference 2024",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -12073,10 +12073,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 15,
-      "primary_source": null,
+      "primary_source": "2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -12812,10 +12812,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 17,
-      "primary_source": null,
+      "primary_source": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -18346,10 +18346,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 26,
-      "primary_source": null,
+      "primary_source": "Human Perception of Visual Information",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Human Perception of Visual Information",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -19262,10 +19262,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 67,
-      "primary_source": null,
+      "primary_source": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -20199,10 +20199,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 19,
-      "primary_source": null,
+      "primary_source": "WWW '21: The Web Conference 2021",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "WWW '21: The Web Conference 2021",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -21450,10 +21450,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "High-Power Diode Laser Technology XIX",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "High-Power Diode Laser Technology XIX",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -22519,10 +22519,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 6,
-      "primary_source": null,
+      "primary_source": "GLOBECOM 2020 - 2020 IEEE Global Communications Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "GLOBECOM 2020 - 2020 IEEE Global Communications Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -23362,10 +23362,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 30,
-      "primary_source": null,
+      "primary_source": "MM '20: The 28th ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '20: The 28th ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -23682,10 +23682,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 21,
-      "primary_source": null,
+      "primary_source": "MM '20: The 28th ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '20: The 28th ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -24954,10 +24954,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 8,
-      "primary_source": null,
+      "primary_source": "2020 International Conference on Optical Network Design and Modeling (ONDM)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2020 International Conference on Optical Network Design and Modeling (ONDM)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -25546,318 +25546,6 @@
         "reason": "The paper focuses on 3D pose estimation and image-based 3D model retrieval using reinforcement learning and skeleton domain projection; no mention of emotion, affect, sentiment, or any affective computing concepts.",
         "evidence": [
           "Abstract contains no emotion-related terms; all concepts are computer vision/AI technical (pose, reinforcement learning, image retrieval, skeleton domain)."
-        ],
-        "keywords": [],
-        "research_directions": []
-      }
-    },
-    {
-      "id": "https://openalex.org/W2998705539",
-      "openalex_url": "https://openalex.org/W2998705539",
-      "title": "Multi-Source Distilling Domain Adaptation",
-      "publication_year": 2020,
-      "publication_date": "2020-04-03",
-      "doi": "https://doi.org/10.1609/aaai.v34i07.6997",
-      "doi_url": "https://doi.org/10.1609/aaai.v34i07.6997",
-      "type": "article",
-      "type_crossref": null,
-      "language": "en",
-      "is_retracted": false,
-      "is_paratext": false,
-      "cited_by_count": 204,
-      "primary_source": "Proceedings of the AAAI Conference on Artificial Intelligence",
-      "source": {
-        "id": "https://openalex.org/S4210191458",
-        "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
-        "type": "conference",
-        "issn_l": "2159-5399",
-        "is_in_doaj": false,
-        "host_organization_name": "Association for the Advancement of Artificial Intelligence",
-        "host_organization_lineage_names": [
-          "Association for the Advancement of Artificial Intelligence"
-        ]
-      },
-      "links": {
-        "openalex": "https://openalex.org/W2998705539",
-        "landing_page": "https://doi.org/10.1609/aaai.v34i07.6997",
-        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/download/6997/6851",
-        "primary_topic_openalex": "https://openalex.org/T11307",
-        "source_openalex": "https://openalex.org/S4210191458"
-      },
-      "concepts": [
-        "Source code",
-        "Multi-source",
-        "Computer science",
-        "Classifier (UML)",
-        "Domain adaptation",
-        "Data source",
-        "Artificial intelligence",
-        "Pattern recognition (psychology)"
-      ],
-      "abstract": "Deep neural networks suffer from performance decay when there is domain shift between the labeled source domain and unlabeled target domain, which motivates the research on domain adaptation (DA). Conventional DA methods usually assume that the labeled data is sampled from a single source distribution. However, in practice, labeled data may be collected from multiple sources, while naive application of the single-source DA algorithms may lead to suboptimal solutions. In this paper, we propose a novel multi-source distilling domain adaptation (MDDA) network, which not only considers the different distances among multiple sources and the target, but also investigates the different similarities of the source samples to the target ones. Specifically, the proposed MDDA includes four stages: (1) pre-train the source classifiers separately using the training data from each source; (2) adversarially map the target into the feature space of each source respectively by minimizing the empirical Wasserstein distance between source and target; (3) select the source training samples that are closer to the target to fine-tune the source classifiers; and (4) classify each encoded target feature by corresponding source classifier, and aggregate different predictions using respective domain weight, which corresponds to the discrepancy between each source and target. Extensive experiments are conducted on public DA benchmarks, and the results demonstrate that the proposed MDDA significantly outperforms the state-of-the-art approaches. Our source code is released at: https://github.com/daoyuan98/MDDA.",
-      "openalex_analysis": {
-        "primary_topic": {
-          "id": "https://openalex.org/T11307",
-          "name": "Domain Adaptation and Few-Shot Learning",
-          "score": 0.9926999807357788,
-          "subfield": "Artificial Intelligence",
-          "field": "Computer Science",
-          "domain": "Physical Sciences"
-        },
-        "topics": [
-          {
-            "id": "https://openalex.org/T11307",
-            "name": "Domain Adaptation and Few-Shot Learning",
-            "score": 0.9926999807357788,
-            "subfield": "Artificial Intelligence",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10515",
-            "name": "Cancer-related molecular mechanisms research",
-            "score": 0.9617000222206116,
-            "subfield": "Cancer Research",
-            "field": "Biochemistry, Genetics and Molecular Biology",
-            "domain": "Life Sciences"
-          }
-        ],
-        "concepts": [
-          {
-            "id": "https://openalex.org/C43126263",
-            "name": "Source code",
-            "score": 0.7804999351501465,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C2780665216",
-            "name": "Multi-source",
-            "score": 0.7376916408538818,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C41008148",
-            "name": "Computer science",
-            "score": 0.7240120768547058,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C95623464",
-            "name": "Classifier (UML)",
-            "score": 0.6678376793861389,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C2776434776",
-            "name": "Domain adaptation",
-            "score": 0.6376495361328125,
-            "level": 3
-          },
-          {
-            "id": "https://openalex.org/C2983685735",
-            "name": "Data source",
-            "score": 0.5831657648086548,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C154945302",
-            "name": "Artificial intelligence",
-            "score": 0.5553052425384521,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C153180895",
-            "name": "Pattern recognition (psychology)",
-            "score": 0.5531802177429199,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C36503486",
-            "name": "Domain (mathematical analysis)",
-            "score": 0.5524994134902954,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C2776145971",
-            "name": "Labeled data",
-            "score": 0.46798253059387207,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C2776401178",
-            "name": "Feature (linguistics)",
-            "score": 0.4410167336463928,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C124101348",
-            "name": "Data mining",
-            "score": 0.3680773377418518,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C33923547",
-            "name": "Mathematics",
-            "score": 0.12944656610488892,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C105795698",
-            "name": "Statistics",
-            "score": 0.07521983981132507,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C138885662",
-            "name": "Philosophy",
-            "score": 0,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C41895202",
-            "name": "Linguistics",
-            "score": 0,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C111919701",
-            "name": "Operating system",
-            "score": 0,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C134306372",
-            "name": "Mathematical analysis",
-            "score": 0,
-            "level": 1
-          }
-        ],
-        "keywords": [
-          {
-            "id": "https://openalex.org/keywords/source-code",
-            "name": "Source code",
-            "score": 0.7804999351501465
-          },
-          {
-            "id": "https://openalex.org/keywords/multi-source",
-            "name": "Multi-source",
-            "score": 0.7376916408538818
-          },
-          {
-            "id": "https://openalex.org/keywords/computer-science",
-            "name": "Computer science",
-            "score": 0.7240120768547058
-          },
-          {
-            "id": "https://openalex.org/keywords/classifier",
-            "name": "Classifier (UML)",
-            "score": 0.6678376793861389
-          },
-          {
-            "id": "https://openalex.org/keywords/domain-adaptation",
-            "name": "Domain adaptation",
-            "score": 0.6376495361328125
-          },
-          {
-            "id": "https://openalex.org/keywords/data-source",
-            "name": "Data source",
-            "score": 0.5831657648086548
-          },
-          {
-            "id": "https://openalex.org/keywords/artificial-intelligence",
-            "name": "Artificial intelligence",
-            "score": 0.5553052425384521
-          },
-          {
-            "id": "https://openalex.org/keywords/pattern-recognition",
-            "name": "Pattern recognition (psychology)",
-            "score": 0.5531802177429199
-          },
-          {
-            "id": "https://openalex.org/keywords/domain",
-            "name": "Domain (mathematical analysis)",
-            "score": 0.5524994134902954
-          },
-          {
-            "id": "https://openalex.org/keywords/labeled-data",
-            "name": "Labeled data",
-            "score": 0.46798253059387207
-          },
-          {
-            "id": "https://openalex.org/keywords/feature",
-            "name": "Feature (linguistics)",
-            "score": 0.4410167336463928
-          },
-          {
-            "id": "https://openalex.org/keywords/data-mining",
-            "name": "Data mining",
-            "score": 0.3680773377418518
-          },
-          {
-            "id": "https://openalex.org/keywords/mathematics",
-            "name": "Mathematics",
-            "score": 0.12944656610488892
-          },
-          {
-            "id": "https://openalex.org/keywords/statistics",
-            "name": "Statistics",
-            "score": 0.07521983981132507
-          }
-        ],
-        "sustainable_development_goals": [],
-        "open_access": {
-          "is_oa": true,
-          "oa_status": "diamond",
-          "oa_url": "https://ojs.aaai.org/index.php/AAAI/article/download/6997/6851",
-          "any_repository_has_fulltext": false
-        },
-        "citation_normalized_percentile": {
-          "value": 0.99193407,
-          "is_in_top_1_percent": true,
-          "is_in_top_10_percent": true
-        },
-        "fwci": 14.54494447,
-        "counts_by_year": [
-          {
-            "year": 2025,
-            "cited_by_count": 29
-          },
-          {
-            "year": 2024,
-            "cited_by_count": 42
-          },
-          {
-            "year": 2023,
-            "cited_by_count": 35
-          },
-          {
-            "year": 2022,
-            "cited_by_count": 33
-          },
-          {
-            "year": 2021,
-            "cited_by_count": 49
-          },
-          {
-            "year": 2020,
-            "cited_by_count": 15
-          },
-          {
-            "year": 2019,
-            "cited_by_count": 1
-          }
-        ],
-        "institutions_distinct_count": 10,
-        "countries_distinct_count": 2,
-        "referenced_works_count": 82
-      },
-      "analysis": {
-        "is_interesting": false,
-        "relevance_score": 0.1,
-        "confidence": 0.95,
-        "reason": "The paper focuses on domain adaptation in machine learning, with no mention of emotion, affect, sentiment, or any psychological or affective constructs.",
-        "evidence": [
-          "Concepts include 'Domain adaptation', 'Classifier', 'Pattern recognition (psychology)' — but the latter refers to perceptual/cognitive pattern recognition, not affective psychology."
         ],
         "keywords": [],
         "research_directions": []
@@ -26471,6 +26159,318 @@
           "multimodal sentiment transfer",
           "adversarial learning for emotion representation"
         ]
+      }
+    },
+    {
+      "id": "https://openalex.org/W2998705539",
+      "openalex_url": "https://openalex.org/W2998705539",
+      "title": "Multi-Source Distilling Domain Adaptation",
+      "publication_year": 2020,
+      "publication_date": "2020-04-03",
+      "doi": "https://doi.org/10.1609/aaai.v34i07.6997",
+      "doi_url": "https://doi.org/10.1609/aaai.v34i07.6997",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 204,
+      "primary_source": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "source": {
+        "id": "https://openalex.org/S4210191458",
+        "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "type": "conference",
+        "issn_l": "2159-5399",
+        "is_in_doaj": false,
+        "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+        "host_organization_lineage_names": [
+          "Association for the Advancement of Artificial Intelligence"
+        ]
+      },
+      "links": {
+        "openalex": "https://openalex.org/W2998705539",
+        "landing_page": "https://doi.org/10.1609/aaai.v34i07.6997",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/download/6997/6851",
+        "primary_topic_openalex": "https://openalex.org/T11307",
+        "source_openalex": "https://openalex.org/S4210191458"
+      },
+      "concepts": [
+        "Source code",
+        "Multi-source",
+        "Computer science",
+        "Classifier (UML)",
+        "Domain adaptation",
+        "Data source",
+        "Artificial intelligence",
+        "Pattern recognition (psychology)"
+      ],
+      "abstract": "Deep neural networks suffer from performance decay when there is domain shift between the labeled source domain and unlabeled target domain, which motivates the research on domain adaptation (DA). Conventional DA methods usually assume that the labeled data is sampled from a single source distribution. However, in practice, labeled data may be collected from multiple sources, while naive application of the single-source DA algorithms may lead to suboptimal solutions. In this paper, we propose a novel multi-source distilling domain adaptation (MDDA) network, which not only considers the different distances among multiple sources and the target, but also investigates the different similarities of the source samples to the target ones. Specifically, the proposed MDDA includes four stages: (1) pre-train the source classifiers separately using the training data from each source; (2) adversarially map the target into the feature space of each source respectively by minimizing the empirical Wasserstein distance between source and target; (3) select the source training samples that are closer to the target to fine-tune the source classifiers; and (4) classify each encoded target feature by corresponding source classifier, and aggregate different predictions using respective domain weight, which corresponds to the discrepancy between each source and target. Extensive experiments are conducted on public DA benchmarks, and the results demonstrate that the proposed MDDA significantly outperforms the state-of-the-art approaches. Our source code is released at: https://github.com/daoyuan98/MDDA.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T11307",
+          "name": "Domain Adaptation and Few-Shot Learning",
+          "score": 0.9926999807357788,
+          "subfield": "Artificial Intelligence",
+          "field": "Computer Science",
+          "domain": "Physical Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T11307",
+            "name": "Domain Adaptation and Few-Shot Learning",
+            "score": 0.9926999807357788,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10515",
+            "name": "Cancer-related molecular mechanisms research",
+            "score": 0.9617000222206116,
+            "subfield": "Cancer Research",
+            "field": "Biochemistry, Genetics and Molecular Biology",
+            "domain": "Life Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C43126263",
+            "name": "Source code",
+            "score": 0.7804999351501465,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2780665216",
+            "name": "Multi-source",
+            "score": 0.7376916408538818,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.7240120768547058,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C95623464",
+            "name": "Classifier (UML)",
+            "score": 0.6678376793861389,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2776434776",
+            "name": "Domain adaptation",
+            "score": 0.6376495361328125,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C2983685735",
+            "name": "Data source",
+            "score": 0.5831657648086548,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "name": "Artificial intelligence",
+            "score": 0.5553052425384521,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C153180895",
+            "name": "Pattern recognition (psychology)",
+            "score": 0.5531802177429199,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C36503486",
+            "name": "Domain (mathematical analysis)",
+            "score": 0.5524994134902954,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2776145971",
+            "name": "Labeled data",
+            "score": 0.46798253059387207,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2776401178",
+            "name": "Feature (linguistics)",
+            "score": 0.4410167336463928,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C124101348",
+            "name": "Data mining",
+            "score": 0.3680773377418518,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C33923547",
+            "name": "Mathematics",
+            "score": 0.12944656610488892,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C105795698",
+            "name": "Statistics",
+            "score": 0.07521983981132507,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C138885662",
+            "name": "Philosophy",
+            "score": 0,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C41895202",
+            "name": "Linguistics",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C111919701",
+            "name": "Operating system",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C134306372",
+            "name": "Mathematical analysis",
+            "score": 0,
+            "level": 1
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/source-code",
+            "name": "Source code",
+            "score": 0.7804999351501465
+          },
+          {
+            "id": "https://openalex.org/keywords/multi-source",
+            "name": "Multi-source",
+            "score": 0.7376916408538818
+          },
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.7240120768547058
+          },
+          {
+            "id": "https://openalex.org/keywords/classifier",
+            "name": "Classifier (UML)",
+            "score": 0.6678376793861389
+          },
+          {
+            "id": "https://openalex.org/keywords/domain-adaptation",
+            "name": "Domain adaptation",
+            "score": 0.6376495361328125
+          },
+          {
+            "id": "https://openalex.org/keywords/data-source",
+            "name": "Data source",
+            "score": 0.5831657648086548
+          },
+          {
+            "id": "https://openalex.org/keywords/artificial-intelligence",
+            "name": "Artificial intelligence",
+            "score": 0.5553052425384521
+          },
+          {
+            "id": "https://openalex.org/keywords/pattern-recognition",
+            "name": "Pattern recognition (psychology)",
+            "score": 0.5531802177429199
+          },
+          {
+            "id": "https://openalex.org/keywords/domain",
+            "name": "Domain (mathematical analysis)",
+            "score": 0.5524994134902954
+          },
+          {
+            "id": "https://openalex.org/keywords/labeled-data",
+            "name": "Labeled data",
+            "score": 0.46798253059387207
+          },
+          {
+            "id": "https://openalex.org/keywords/feature",
+            "name": "Feature (linguistics)",
+            "score": 0.4410167336463928
+          },
+          {
+            "id": "https://openalex.org/keywords/data-mining",
+            "name": "Data mining",
+            "score": 0.3680773377418518
+          },
+          {
+            "id": "https://openalex.org/keywords/mathematics",
+            "name": "Mathematics",
+            "score": 0.12944656610488892
+          },
+          {
+            "id": "https://openalex.org/keywords/statistics",
+            "name": "Statistics",
+            "score": 0.07521983981132507
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "diamond",
+          "oa_url": "https://ojs.aaai.org/index.php/AAAI/article/download/6997/6851",
+          "any_repository_has_fulltext": false
+        },
+        "citation_normalized_percentile": {
+          "value": 0.99193407,
+          "is_in_top_1_percent": true,
+          "is_in_top_10_percent": true
+        },
+        "fwci": 14.54494447,
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 29
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 42
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 35
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 33
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 49
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 15
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 1
+          }
+        ],
+        "institutions_distinct_count": 10,
+        "countries_distinct_count": 2,
+        "referenced_works_count": 82
+      },
+      "analysis": {
+        "is_interesting": false,
+        "relevance_score": 0.1,
+        "confidence": 0.95,
+        "reason": "The paper focuses on domain adaptation in machine learning, with no mention of emotion, affect, sentiment, or any psychological or affective constructs.",
+        "evidence": [
+          "Concepts include 'Domain adaptation', 'Classifier', 'Pattern recognition (psychology)' — but the latter refers to perceptual/cognitive pattern recognition, not affective psychology."
+        ],
+        "keywords": [],
+        "research_directions": []
       }
     },
     {
@@ -28015,10 +28015,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 11,
-      "primary_source": null,
+      "primary_source": "GLOBECOM 2019 - 2019 IEEE Global Communications Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "GLOBECOM 2019 - 2019 IEEE Global Communications Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -29119,10 +29119,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 68,
-      "primary_source": null,
+      "primary_source": "MM '19: The 27th ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '19: The 27th ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -29423,10 +29423,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 368,
-      "primary_source": null,
+      "primary_source": "2019 IEEE/CVF International Conference on Computer Vision (ICCV)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 IEEE/CVF International Conference on Computer Vision (ICCV)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -29718,10 +29718,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 61,
-      "primary_source": null,
+      "primary_source": "2019 IEEE/CVF International Conference on Computer Vision (ICCV)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 IEEE/CVF International Conference on Computer Vision (ICCV)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -30000,10 +30000,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 37,
-      "primary_source": null,
+      "primary_source": "2019 IEEE/CVF International Conference on Computer Vision (ICCV)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 IEEE/CVF International Conference on Computer Vision (ICCV)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -31963,10 +31963,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 23,
-      "primary_source": null,
+      "primary_source": "2019 IEEE International Conference on Multimedia and Expo (ICME)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 IEEE International Conference on Multimedia and Expo (ICME)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -32315,10 +32315,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 698,
-      "primary_source": null,
+      "primary_source": "2019 International Conference on Robotics and Automation (ICRA)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 International Conference on Robotics and Automation (ICRA)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -34339,10 +34339,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "GLOBECOM 2018 - 2018 IEEE Global Communications Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "GLOBECOM 2018 - 2018 IEEE Global Communications Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -34929,10 +34929,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 75,
-      "primary_source": null,
+      "primary_source": "MM '18: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '18: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -35254,10 +35254,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '18: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '18: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -36266,10 +36266,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 81,
-      "primary_source": null,
+      "primary_source": "Twenty-Seventh International Joint Conference on Artificial Intelligence {IJCAI-18}",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Twenty-Seventh International Joint Conference on Artificial Intelligence {IJCAI-18}",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -36605,10 +36605,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 61,
-      "primary_source": null,
+      "primary_source": "Twenty-Seventh International Joint Conference on Artificial Intelligence {IJCAI-18}",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Twenty-Seventh International Joint Conference on Artificial Intelligence {IJCAI-18}",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -36928,10 +36928,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 51,
-      "primary_source": null,
+      "primary_source": "Twenty-Seventh International Joint Conference on Artificial Intelligence {IJCAI-18}",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Twenty-Seventh International Joint Conference on Artificial Intelligence {IJCAI-18}",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -37302,10 +37302,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 13,
-      "primary_source": null,
+      "primary_source": "Twenty-Seventh International Joint Conference on Artificial Intelligence {IJCAI-18}",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Twenty-Seventh International Joint Conference on Artificial Intelligence {IJCAI-18}",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -37618,10 +37618,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 354,
-      "primary_source": null,
+      "primary_source": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -37946,10 +37946,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 39,
-      "primary_source": null,
+      "primary_source": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -38466,10 +38466,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2018 IEEE International Conference on Communications (ICC 2018)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2018 IEEE International Conference on Communications (ICC 2018)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -40923,10 +40923,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "2017 IEEE Global Communications Conference (GLOBECOM 2017)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2017 IEEE Global Communications Conference (GLOBECOM 2017)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -42426,10 +42426,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 35,
-      "primary_source": null,
+      "primary_source": "MM '17: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '17: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -43278,10 +43278,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 75,
-      "primary_source": null,
+      "primary_source": "Twenty-Sixth International Joint Conference on Artificial Intelligence",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Twenty-Sixth International Joint Conference on Artificial Intelligence",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -46446,10 +46446,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 114,
-      "primary_source": null,
+      "primary_source": "MM '16: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '16: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -46778,10 +46778,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "MM '16: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '16: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -47452,10 +47452,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "IGARSS 2016 - 2016 IEEE International Geoscience and Remote Sensing Symposium",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "IGARSS 2016 - 2016 IEEE International Geoscience and Remote Sensing Symposium",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -47722,10 +47722,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "2016 IEEE International Conference on Multimedia and Expo (ICME)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2016 IEEE International Conference on Multimedia and Expo (ICME)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -48979,10 +48979,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -49272,10 +49272,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "WSDM 2016: Ninth ACM International Conference on Web Search and Data Mining",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "WSDM 2016: Ninth ACM International Conference on Web Search and Data Mining",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -50348,10 +50348,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 40,
-      "primary_source": null,
+      "primary_source": "MM '15: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '15: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -50700,10 +50700,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "MM '15: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '15: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -51293,10 +51293,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 38,
-      "primary_source": null,
+      "primary_source": "2015 IEEE International Conference on Image Processing (ICIP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2015 IEEE International Conference on Image Processing (ICIP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -51555,10 +51555,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 6,
-      "primary_source": null,
+      "primary_source": "2015 IEEE International Conference on Image Processing (ICIP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2015 IEEE International Conference on Image Processing (ICIP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -51752,10 +51752,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 19,
-      "primary_source": null,
+      "primary_source": "ICIMCS '15: International Conference on Internet Multimedia Computing and Service",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICIMCS '15: International Conference on Internet Multimedia Computing and Service",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -52094,10 +52094,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "ICIMCS '15: International Conference on Internet Multimedia Computing and Service",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICIMCS '15: International Conference on Internet Multimedia Computing and Service",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -52415,10 +52415,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "ICIMCS '15: International Conference on Internet Multimedia Computing and Service",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICIMCS '15: International Conference on Internet Multimedia Computing and Service",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -52711,10 +52711,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "ICIMCS '15: International Conference on Internet Multimedia Computing and Service",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICIMCS '15: International Conference on Internet Multimedia Computing and Service",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -55218,10 +55218,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 116,
-      "primary_source": null,
+      "primary_source": "MM '14: 2014 ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '14: 2014 ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -55486,10 +55486,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 355,
-      "primary_source": null,
+      "primary_source": "MM '14: 2014 ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '14: 2014 ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -56538,10 +56538,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 22,
-      "primary_source": null,
+      "primary_source": "2014 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2014 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -58396,10 +58396,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 49,
-      "primary_source": null,
+      "primary_source": "MM '11: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '11: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -58716,10 +58716,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 10,
-      "primary_source": null,
+      "primary_source": "Graphics (ICIG)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Graphics (ICIG)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,

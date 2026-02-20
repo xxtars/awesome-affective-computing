@@ -51,40 +51,40 @@
         "weight": 0.65
       }
     ],
-    "trend_summary": "Shengping Zhang's research spans over two decades, evolving from foundational work in affective influences on economic behavior and online personality to cutting-edge, multimodal, real-time emotion-aware AI systems. A consistent thread is the integration of emotion modeling with perception, cognition, and behavior—applied across domains including digital humans, clinical mental health support, animal behavioral biomarkers, and human-computer interaction. Recent work emphasizes dynamic, modality-flexible, and clinically grounded affective synthesis and recognition, signaling a strong trajectory toward empathic, deployable AI.",
+    "trend_summary": "Shengping Zhang's research spans over two decades, evolving from foundational work in affective influences on behavior (e.g., finance, online personality) to cutting-edge, multimodal, real-time emotion-aware AI systems. A clear longitudinal trend emerges: integration of emotion modeling with perception (vision, audio, behavioral signals), generation (digital humans, animation), and application domains—especially clinical mental health support and robotics. Recent work emphasizes dynamic, adaptive, and real-time affective capabilities across modalities, reflecting a shift toward deployable, ethically grounded affective intelligence.",
     "representative_papers": [
       {
         "title": "REA-Listener: Real-Time Listening Head Generation with Dynamic Emotion Modeling and Flexible Modality Adaptation",
-        "why": "Exemplifies his current focus on real-time, multimodal, emotion-driven generative animation for human-AI interaction."
+        "why": "Exemplifies the convergence of real-time affective animation, multimodal adaptation, and dynamic emotion modeling—the most current and technically advanced direction in Zhang's portfolio."
       },
       {
         "title": "Research advancements on emotionally and intellectually integrated digital humans and robotics",
-        "why": "Synthesizes his integrative vision of cognitive-affective AI in embodied agents and clinical contexts."
+        "why": "Synthesizes cross-domain vision for affective-cognitive integration in embodied AI, highlighting clinical and robotic applications central to recent agenda."
       },
       {
         "title": "Introduction to the Special Issue on Multimodal Machine Learning for Human Behavior Analysis",
-        "why": "Highlights his longstanding leadership in multimodal affective behavior analysis and its machine learning foundations."
+        "why": "Foundational survey framing multimodal emotion recognition and behavioral signal processing as core methodological pillars for human-centered AI."
       },
       {
         "title": "Behavior Recognition in Mouse Videos using Contextual Features Encoded by Spatial-temporal Stacked Fisher Vectors",
-        "why": "Demonstrates early methodological innovation in computational affective science and cross-species emotion biomarker discovery."
+        "why": "Pioneering computational affective science work bridging animal models, vision-based behavioral biomarkers, and emotion assessment—demonstrating early methodological innovation in affective measurement."
       },
       {
         "title": "On the Undergraduates' Network Personality",
-        "why": "Represents his early exploration of affective computing in social media and digital identity formation."
+        "why": "Early exploration of affective computing in social media contexts, foreshadowing later interest in digital well-being and emotion-related personality in interactive environments."
       },
       {
         "title": "Behavioral Finance and Psychology",
-        "why": "Shows foundational interest in affective mechanisms underlying high-stakes human decision-making."
+        "why": "Earliest identified paper, establishing foundational interest in affective drivers of complex human decision-making—linking psychology, economics, and emotion regulation."
       }
     ]
   },
   "stats": {
     "analyzed_works_count": 242,
     "interesting_works_count": 6,
-    "new_works_count": 203,
+    "new_works_count": 18,
     "deduped_works_count": 242,
-    "ai_called_count": 203,
+    "ai_called_count": 18,
     "summary_recomputed": true
   },
   "works": [
@@ -451,10 +451,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '25: The 33rd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '25: The 33rd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -1517,10 +1517,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 22,
-      "primary_source": null,
+      "primary_source": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -1606,10 +1606,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 24,
-      "primary_source": null,
+      "primary_source": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -3942,10 +3942,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2024 4th International Conference on Mobile Networks and Wireless Communications (ICMNWC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 4th International Conference on Mobile Networks and Wireless Communications (ICMNWC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -5042,10 +5042,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 54,
-      "primary_source": null,
+      "primary_source": "SIGGRAPH '24: Special Interest Group on Computer Graphics and Interactive Techniques Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "SIGGRAPH '24: Special Interest Group on Computer Graphics and Interactive Techniques Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -5332,10 +5332,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "SIGGRAPH '24: Special Interest Group on Computer Graphics and Interactive Techniques Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "SIGGRAPH '24: Special Interest Group on Computer Graphics and Interactive Techniques Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -5547,10 +5547,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Applied Energy Innovation Institute (AEii)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Applied Energy Innovation Institute (AEii)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -5768,10 +5768,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 102,
-      "primary_source": null,
+      "primary_source": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -5968,10 +5968,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 67,
-      "primary_source": null,
+      "primary_source": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6197,10 +6197,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 86,
-      "primary_source": null,
+      "primary_source": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6465,10 +6465,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 38,
-      "primary_source": null,
+      "primary_source": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6794,10 +6794,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -10029,10 +10029,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 6,
-      "primary_source": null,
+      "primary_source": "ICMI '23: INTERNATIONAL CONFERENCE ON MULTIMODAL INTERACTION",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICMI '23: INTERNATIONAL CONFERENCE ON MULTIMODAL INTERACTION",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -10300,10 +10300,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 11,
-      "primary_source": null,
+      "primary_source": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -11106,10 +11106,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "2023 IEEE International Conference on Image Processing (ICIP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2023 IEEE International Conference on Image Processing (ICIP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -18720,10 +18720,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Epistemic Colonialism and the Transfer of Curriculum Knowledge across Borders",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Epistemic Colonialism and the Transfer of Curriculum Knowledge across Borders",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -19136,10 +19136,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 29,
-      "primary_source": null,
+      "primary_source": "MM '21: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '21: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -20053,289 +20053,6 @@
       }
     },
     {
-      "id": "https://openalex.org/W3175132347",
-      "openalex_url": "https://openalex.org/W3175132347",
-      "title": "Efficient Regional Memory Network for Video Object Segmentation",
-      "publication_year": 2021,
-      "publication_date": "2021-06-01",
-      "doi": "https://doi.org/10.1109/cvpr46437.2021.00134",
-      "doi_url": "https://doi.org/10.1109/cvpr46437.2021.00134",
-      "type": "article",
-      "type_crossref": null,
-      "language": "en",
-      "is_retracted": false,
-      "is_paratext": false,
-      "cited_by_count": 173,
-      "primary_source": null,
-      "source": {
-        "id": null,
-        "display_name": null,
-        "type": null,
-        "issn_l": null,
-        "is_in_doaj": null,
-        "host_organization_name": null,
-        "host_organization_lineage_names": []
-      },
-      "links": {
-        "openalex": "https://openalex.org/W3175132347",
-        "landing_page": "https://doi.org/10.1109/cvpr46437.2021.00134",
-        "pdf": null,
-        "primary_topic_openalex": "https://openalex.org/T10627",
-        "source_openalex": null
-      },
-      "concepts": [
-        "Computer science",
-        "Matching (statistics)",
-        "Frame (networking)",
-        "Artificial intelligence",
-        "Object (grammar)",
-        "Computer vision",
-        "Segmentation",
-        "Reference frame"
-      ],
-      "abstract": "Recently, several Space-Time Memory based networks have shown that the object cues (e.g. video frames as well as the segmented object masks) from the past frames are useful for segmenting objects in the current frame. However, these methods exploit the information from the memory by global-to-global matching between the current and past frames, which lead to mismatching to similar objects and high computational complexity. To address these problems, we propose a novel local-to-local matching solution for semi-supervised VOS, namely Regional Memory Network (RMNet). In RMNet, the precise regional memory is constructed by memorizing local regions where the target objects appear in the past frames. For the current query frame, the query regions are tracked and predicted based on the optical flow estimated from the previous frame. The proposed local-to-local matching effectively alleviates the ambiguity of similar objects in both memory and query frames, which allows the information to be passed from the regional memory to the query region efficiently and effectively. Experimental results indicate that the proposed RM-Net performs favorably against state-of-the-art methods on the DAVIS and YouTube-VOS datasets.",
-      "openalex_analysis": {
-        "primary_topic": {
-          "id": "https://openalex.org/T10627",
-          "name": "Advanced Image and Video Retrieval Techniques",
-          "score": 0.9998999834060669,
-          "subfield": "Computer Vision and Pattern Recognition",
-          "field": "Computer Science",
-          "domain": "Physical Sciences"
-        },
-        "topics": [
-          {
-            "id": "https://openalex.org/T10627",
-            "name": "Advanced Image and Video Retrieval Techniques",
-            "score": 0.9998999834060669,
-            "subfield": "Computer Vision and Pattern Recognition",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T11605",
-            "name": "Visual Attention and Saliency Detection",
-            "score": 0.9998000264167786,
-            "subfield": "Computer Vision and Pattern Recognition",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10331",
-            "name": "Video Surveillance and Tracking Methods",
-            "score": 0.9997000098228455,
-            "subfield": "Computer Vision and Pattern Recognition",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "concepts": [
-          {
-            "id": "https://openalex.org/C41008148",
-            "name": "Computer science",
-            "score": 0.818109929561615,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C165064840",
-            "name": "Matching (statistics)",
-            "score": 0.6448580622673035,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C126042441",
-            "name": "Frame (networking)",
-            "score": 0.6172422766685486,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C154945302",
-            "name": "Artificial intelligence",
-            "score": 0.6029991507530212,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C2781238097",
-            "name": "Object (grammar)",
-            "score": 0.5653990507125854,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C31972630",
-            "name": "Computer vision",
-            "score": 0.5636969804763794,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C89600930",
-            "name": "Segmentation",
-            "score": 0.4734644293785095,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C172849965",
-            "name": "Reference frame",
-            "score": 0.46178796887397766,
-            "level": 3
-          },
-          {
-            "id": "https://openalex.org/C165696696",
-            "name": "Exploit",
-            "score": 0.43809816241264343,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C30038468",
-            "name": "Memorization",
-            "score": 0.41729283332824707,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C153180895",
-            "name": "Pattern recognition (psychology)",
-            "score": 0.3277008831501007,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C76155785",
-            "name": "Telecommunications",
-            "score": 0,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C33923547",
-            "name": "Mathematics",
-            "score": 0,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C105795698",
-            "name": "Statistics",
-            "score": 0,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C38652104",
-            "name": "Computer security",
-            "score": 0,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C145420912",
-            "name": "Mathematics education",
-            "score": 0,
-            "level": 1
-          }
-        ],
-        "keywords": [
-          {
-            "id": "https://openalex.org/keywords/computer-science",
-            "name": "Computer science",
-            "score": 0.818109929561615
-          },
-          {
-            "id": "https://openalex.org/keywords/matching",
-            "name": "Matching (statistics)",
-            "score": 0.6448580622673035
-          },
-          {
-            "id": "https://openalex.org/keywords/frame",
-            "name": "Frame (networking)",
-            "score": 0.6172422766685486
-          },
-          {
-            "id": "https://openalex.org/keywords/artificial-intelligence",
-            "name": "Artificial intelligence",
-            "score": 0.6029991507530212
-          },
-          {
-            "id": "https://openalex.org/keywords/object",
-            "name": "Object (grammar)",
-            "score": 0.5653990507125854
-          },
-          {
-            "id": "https://openalex.org/keywords/computer-vision",
-            "name": "Computer vision",
-            "score": 0.5636969804763794
-          },
-          {
-            "id": "https://openalex.org/keywords/segmentation",
-            "name": "Segmentation",
-            "score": 0.4734644293785095
-          },
-          {
-            "id": "https://openalex.org/keywords/reference-frame",
-            "name": "Reference frame",
-            "score": 0.46178796887397766
-          },
-          {
-            "id": "https://openalex.org/keywords/exploit",
-            "name": "Exploit",
-            "score": 0.43809816241264343
-          },
-          {
-            "id": "https://openalex.org/keywords/memorization",
-            "name": "Memorization",
-            "score": 0.41729283332824707
-          },
-          {
-            "id": "https://openalex.org/keywords/pattern-recognition",
-            "name": "Pattern recognition (psychology)",
-            "score": 0.3277008831501007
-          }
-        ],
-        "sustainable_development_goals": [],
-        "open_access": {
-          "is_oa": false,
-          "oa_status": "closed",
-          "oa_url": null,
-          "any_repository_has_fulltext": false
-        },
-        "citation_normalized_percentile": {
-          "value": 0.99365861,
-          "is_in_top_1_percent": true,
-          "is_in_top_10_percent": true
-        },
-        "fwci": 15.94623872,
-        "counts_by_year": [
-          {
-            "year": 2025,
-            "cited_by_count": 17
-          },
-          {
-            "year": 2024,
-            "cited_by_count": 47
-          },
-          {
-            "year": 2023,
-            "cited_by_count": 55
-          },
-          {
-            "year": 2022,
-            "cited_by_count": 52
-          },
-          {
-            "year": 2021,
-            "cited_by_count": 2
-          }
-        ],
-        "institutions_distinct_count": 5,
-        "countries_distinct_count": 2,
-        "referenced_works_count": 65
-      },
-      "analysis": {
-        "is_interesting": false,
-        "relevance_score": 0.05,
-        "confidence": 0.95,
-        "reason": "The paper focuses on video object segmentation using regional memory and optical flow, with no mention or conceptual link to emotion, affective computing, or psychological/behavioral aspects of emotion.",
-        "evidence": [
-          "Abstract and concepts exclusively relate to computer vision, segmentation, and memory networks; 'emotion' does not appear in title, abstract, or listed concepts."
-        ],
-        "keywords": [],
-        "research_directions": []
-      }
-    },
-    {
       "id": "https://openalex.org/W3176161017",
       "openalex_url": "https://openalex.org/W3176161017",
       "title": "Distractor-Aware Fast Tracking via Dynamic Convolutions and MOT Philosophy",
@@ -20349,10 +20066,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 35,
-      "primary_source": null,
+      "primary_source": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -20662,6 +20379,289 @@
         "reason": "The paper focuses on object tracking in computer vision, with no conceptual or methodological connection to emotion or affective science.",
         "evidence": [
           "Concepts include 'Object detection', 'Tracking (education)', 'Artificial intelligence', and 'Association (psychology)' — the latter refers to cognitive association, not emotional association; no emotion-related terms appear in title, abstract, or concepts."
+        ],
+        "keywords": [],
+        "research_directions": []
+      }
+    },
+    {
+      "id": "https://openalex.org/W3175132347",
+      "openalex_url": "https://openalex.org/W3175132347",
+      "title": "Efficient Regional Memory Network for Video Object Segmentation",
+      "publication_year": 2021,
+      "publication_date": "2021-06-01",
+      "doi": "https://doi.org/10.1109/cvpr46437.2021.00134",
+      "doi_url": "https://doi.org/10.1109/cvpr46437.2021.00134",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 173,
+      "primary_source": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "source": {
+        "id": null,
+        "display_name": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "type": null,
+        "issn_l": null,
+        "is_in_doaj": null,
+        "host_organization_name": null,
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W3175132347",
+        "landing_page": "https://doi.org/10.1109/cvpr46437.2021.00134",
+        "pdf": null,
+        "primary_topic_openalex": "https://openalex.org/T10627",
+        "source_openalex": null
+      },
+      "concepts": [
+        "Computer science",
+        "Matching (statistics)",
+        "Frame (networking)",
+        "Artificial intelligence",
+        "Object (grammar)",
+        "Computer vision",
+        "Segmentation",
+        "Reference frame"
+      ],
+      "abstract": "Recently, several Space-Time Memory based networks have shown that the object cues (e.g. video frames as well as the segmented object masks) from the past frames are useful for segmenting objects in the current frame. However, these methods exploit the information from the memory by global-to-global matching between the current and past frames, which lead to mismatching to similar objects and high computational complexity. To address these problems, we propose a novel local-to-local matching solution for semi-supervised VOS, namely Regional Memory Network (RMNet). In RMNet, the precise regional memory is constructed by memorizing local regions where the target objects appear in the past frames. For the current query frame, the query regions are tracked and predicted based on the optical flow estimated from the previous frame. The proposed local-to-local matching effectively alleviates the ambiguity of similar objects in both memory and query frames, which allows the information to be passed from the regional memory to the query region efficiently and effectively. Experimental results indicate that the proposed RM-Net performs favorably against state-of-the-art methods on the DAVIS and YouTube-VOS datasets.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T10627",
+          "name": "Advanced Image and Video Retrieval Techniques",
+          "score": 0.9998999834060669,
+          "subfield": "Computer Vision and Pattern Recognition",
+          "field": "Computer Science",
+          "domain": "Physical Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10627",
+            "name": "Advanced Image and Video Retrieval Techniques",
+            "score": 0.9998999834060669,
+            "subfield": "Computer Vision and Pattern Recognition",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11605",
+            "name": "Visual Attention and Saliency Detection",
+            "score": 0.9998000264167786,
+            "subfield": "Computer Vision and Pattern Recognition",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10331",
+            "name": "Video Surveillance and Tracking Methods",
+            "score": 0.9997000098228455,
+            "subfield": "Computer Vision and Pattern Recognition",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.818109929561615,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C165064840",
+            "name": "Matching (statistics)",
+            "score": 0.6448580622673035,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C126042441",
+            "name": "Frame (networking)",
+            "score": 0.6172422766685486,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "name": "Artificial intelligence",
+            "score": 0.6029991507530212,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C2781238097",
+            "name": "Object (grammar)",
+            "score": 0.5653990507125854,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C31972630",
+            "name": "Computer vision",
+            "score": 0.5636969804763794,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C89600930",
+            "name": "Segmentation",
+            "score": 0.4734644293785095,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C172849965",
+            "name": "Reference frame",
+            "score": 0.46178796887397766,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C165696696",
+            "name": "Exploit",
+            "score": 0.43809816241264343,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C30038468",
+            "name": "Memorization",
+            "score": 0.41729283332824707,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C153180895",
+            "name": "Pattern recognition (psychology)",
+            "score": 0.3277008831501007,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C76155785",
+            "name": "Telecommunications",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C33923547",
+            "name": "Mathematics",
+            "score": 0,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C105795698",
+            "name": "Statistics",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C38652104",
+            "name": "Computer security",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C145420912",
+            "name": "Mathematics education",
+            "score": 0,
+            "level": 1
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.818109929561615
+          },
+          {
+            "id": "https://openalex.org/keywords/matching",
+            "name": "Matching (statistics)",
+            "score": 0.6448580622673035
+          },
+          {
+            "id": "https://openalex.org/keywords/frame",
+            "name": "Frame (networking)",
+            "score": 0.6172422766685486
+          },
+          {
+            "id": "https://openalex.org/keywords/artificial-intelligence",
+            "name": "Artificial intelligence",
+            "score": 0.6029991507530212
+          },
+          {
+            "id": "https://openalex.org/keywords/object",
+            "name": "Object (grammar)",
+            "score": 0.5653990507125854
+          },
+          {
+            "id": "https://openalex.org/keywords/computer-vision",
+            "name": "Computer vision",
+            "score": 0.5636969804763794
+          },
+          {
+            "id": "https://openalex.org/keywords/segmentation",
+            "name": "Segmentation",
+            "score": 0.4734644293785095
+          },
+          {
+            "id": "https://openalex.org/keywords/reference-frame",
+            "name": "Reference frame",
+            "score": 0.46178796887397766
+          },
+          {
+            "id": "https://openalex.org/keywords/exploit",
+            "name": "Exploit",
+            "score": 0.43809816241264343
+          },
+          {
+            "id": "https://openalex.org/keywords/memorization",
+            "name": "Memorization",
+            "score": 0.41729283332824707
+          },
+          {
+            "id": "https://openalex.org/keywords/pattern-recognition",
+            "name": "Pattern recognition (psychology)",
+            "score": 0.3277008831501007
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "citation_normalized_percentile": {
+          "value": 0.99365861,
+          "is_in_top_1_percent": true,
+          "is_in_top_10_percent": true
+        },
+        "fwci": 15.94623872,
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 17
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 47
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 55
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 52
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 2
+          }
+        ],
+        "institutions_distinct_count": 5,
+        "countries_distinct_count": 2,
+        "referenced_works_count": 65
+      },
+      "analysis": {
+        "is_interesting": false,
+        "relevance_score": 0.05,
+        "confidence": 0.95,
+        "reason": "The paper focuses on video object segmentation using regional memory and optical flow, with no mention or conceptual link to emotion, affective computing, or psychological/behavioral aspects of emotion.",
+        "evidence": [
+          "Abstract and concepts exclusively relate to computer vision, segmentation, and memory networks; 'emotion' does not appear in title, abstract, or listed concepts."
         ],
         "keywords": [],
         "research_directions": []
@@ -22270,10 +22270,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 960,
-      "primary_source": null,
+      "primary_source": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -25401,10 +25401,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2019 IEEE Visual Communications and Image Processing (VCIP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 IEEE Visual Communications and Image Processing (VCIP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -29316,10 +29316,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 16,
-      "primary_source": null,
+      "primary_source": "MM '18: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '18: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -30559,10 +30559,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2018 24th International Conference on Pattern Recognition (ICPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2018 24th International Conference on Pattern Recognition (ICPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -31531,10 +31531,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 13,
-      "primary_source": null,
+      "primary_source": "ICASSP 2018 - 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2018 - 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -34726,10 +34726,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 164,
-      "primary_source": null,
+      "primary_source": "2017 IEEE International Conference on Multimedia and Expo (ICME)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2017 IEEE International Conference on Multimedia and Expo (ICME)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -35754,10 +35754,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2017 Fifteenth IAPR International Conference on Machine Vision Applications (MVA)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2017 Fifteenth IAPR International Conference on Machine Vision Applications (MVA)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -36228,10 +36228,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 71,
-      "primary_source": null,
+      "primary_source": "2017 Data Compression Conference (DCC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2017 Data Compression Conference (DCC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -36549,10 +36549,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 30,
-      "primary_source": null,
+      "primary_source": "2017 Data Compression Conference (DCC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2017 Data Compression Conference (DCC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -37843,10 +37843,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "6th International Conference on Pattern Recognition Applications and Methods",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "6th International Conference on Pattern Recognition Applications and Methods",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -39353,10 +39353,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 740,
-      "primary_source": null,
+      "primary_source": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -41209,10 +41209,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2015 IEEE International Conference on Image Processing (ICIP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2015 IEEE International Conference on Image Processing (ICIP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -42236,10 +42236,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "ICMR '15: International Conference on Multimedia Retrieval",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICMR '15: International Conference on Multimedia Retrieval",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -44001,10 +44001,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2014 7th International Symposium on Telecommunications (IST)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2014 7th International Symposium on Telecommunications (IST)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -45847,10 +45847,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 104,
-      "primary_source": null,
+      "primary_source": "2013 20th IEEE International Conference on Image Processing (ICIP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2013 20th IEEE International Conference on Image Processing (ICIP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -46198,10 +46198,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 20,
-      "primary_source": null,
+      "primary_source": "2013 20th IEEE International Conference on Image Processing (ICIP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2013 20th IEEE International Conference on Image Processing (ICIP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -46486,10 +46486,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2013 20th IEEE International Conference on Image Processing (ICIP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2013 20th IEEE International Conference on Image Processing (ICIP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -47744,10 +47744,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2012 IEEE Fifth International Conference on Advanced Computational Intelligence (ICACI)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2012 IEEE Fifth International Conference on Advanced Computational Intelligence (ICACI)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -48384,10 +48384,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2012 2nd International Conference on Remote Sensing, Environment and Transportation Engineering (RSETE)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2012 2nd International Conference on Remote Sensing, Environment and Transportation Engineering (RSETE)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -50245,10 +50245,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 10,
-      "primary_source": null,
+      "primary_source": "2011 18th IEEE International Conference on Image Processing (ICIP 2011)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2011 18th IEEE International Conference on Image Processing (ICIP 2011)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -50551,10 +50551,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "2011 18th IEEE International Conference on Image Processing (ICIP 2011)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2011 18th IEEE International Conference on Image Processing (ICIP 2011)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -50858,10 +50858,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2011 18th IEEE International Conference on Image Processing (ICIP 2011)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2011 18th IEEE International Conference on Image Processing (ICIP 2011)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -51145,10 +51145,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "ICIMCS '11: The Third International Conference on Internet Multimedia Computing and Service",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICIMCS '11: The Third International Conference on Internet Multimedia Computing and Service",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -51436,10 +51436,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 31,
-      "primary_source": null,
+      "primary_source": "2011 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2011 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -52463,10 +52463,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "ICIMCS '10: The Second International Conference on Internet Multimedia Computing and Service",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICIMCS '10: The Second International Conference on Internet Multimedia Computing and Service",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -52759,10 +52759,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "ICIMCS '10: The Second International Conference on Internet Multimedia Computing and Service",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICIMCS '10: The Second International Conference on Internet Multimedia Computing and Service",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -53096,10 +53096,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2010 International Conference on Progress in Informatics and Computing (PIC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 International Conference on Progress in Informatics and Computing (PIC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -53341,10 +53341,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2010 Fifth International Conference on Internet Computing for Science and Engineering (ICICSE)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 Fifth International Conference on Internet Computing for Science and Engineering (ICICSE)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -53990,10 +53990,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2010 First International Conference on Pervasive Computing, Signal Processing and Applications (PCSPA 2010)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 First International Conference on Pervasive Computing, Signal Processing and Applications (PCSPA 2010)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -54317,10 +54317,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2010 IEEE International Conference on Multimedia and Expo (ICME)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 IEEE International Conference on Multimedia and Expo (ICME)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -55913,10 +55913,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "2010 International Conference on Intelligent Computation Technology and Automation (ICICTA)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 International Conference on Intelligent Computation Technology and Automation (ICICTA)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -56230,10 +56230,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 16,
-      "primary_source": null,
+      "primary_source": "2010 IEEE International Conference on Acoustics, Speech and Signal Processing",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 IEEE International Conference on Acoustics, Speech and Signal Processing",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -58218,10 +58218,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2009 International Conference on Image and Graphics (ICIG)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2009 International Conference on Image and Graphics (ICIG)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -58502,10 +58502,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2009 International Forum on Information Technology and Applications (IFITA)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2009 International Forum on Information Technology and Applications (IFITA)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -59271,10 +59271,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 41,
-      "primary_source": null,
+      "primary_source": "2008 19th International Conference on Pattern Recognition (ICPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2008 19th International Conference on Pattern Recognition (ICPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -59578,10 +59578,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 103,
-      "primary_source": null,
+      "primary_source": "2008 15th IEEE International Conference on Image Processing - ICIP 2008",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2008 15th IEEE International Conference on Image Processing - ICIP 2008",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -59876,10 +59876,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "11th Joint Conference on Information Sciences",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "11th Joint Conference on Information Sciences",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,

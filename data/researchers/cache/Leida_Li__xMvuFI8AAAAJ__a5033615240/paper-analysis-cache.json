@@ -5601,5 +5601,232 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "adbb9005a438b524b605dc347197ecb1ccd538427c2dbce92df4e5e1141bf968": {
+    "paper_id": "https://openalex.org/W3016039927",
+    "title": "MetaIQA: Deep Meta-learning for No-Reference Image Quality Assessment",
+    "researcher_name": "Leida Li",
+    "researcher_openalex_author_id": "A5033615240",
+    "updated_at": "2026-02-20T20:36:28.538Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on no-reference image quality assessment using meta-learning; 'emotion' is not mentioned or implied in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Abstract contains no reference to emotion, affect, perception, human judgment beyond quality assessment, or psychological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "72d2d5f9789bc7a31161cd266a2cb6025e048c95fabf9044dcace92d7e9f809a": {
+    "paper_id": "https://openalex.org/W4226120281",
+    "title": "Hierarchical Discrepancy Learning for Image Restoration Quality Assessment",
+    "researcher_name": "Leida Li",
+    "researcher_openalex_author_id": "A5033615240",
+    "updated_at": "2026-02-20T20:36:28.551Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on image restoration quality assessment using hierarchical discrepancy learning, with no indication of emotion or affective content in title, venue, or listed concepts.",
+      "evidence": [
+        "Concepts include 'Image quality', 'Artificial intelligence', and 'Computer science', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6e7bf3c930c99e6cf93214d8392f8a25bec00021582cfe91a907f0850e3d84d2": {
+    "paper_id": "https://openalex.org/W4313478262",
+    "title": "Table of Contents",
+    "researcher_name": "Leida Li",
+    "researcher_openalex_author_id": "A5033615240",
+    "updated_at": "2026-02-20T20:36:28.556Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper's title, venue, concepts, and abstract contain no mention of emotion, affect, or related psychological, computational, or signal-processing methods for emotion analysis.",
+      "evidence": [
+        "Abstract mentions computational imaging, model-based methods, and physics-informed deep learning—no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "093528f06093436be9d70a0d6f7ba7404666075b98e7f1dbc70fbdbb20f99e7a": {
+    "paper_id": "https://openalex.org/W3194573443",
+    "title": "StarVQA: Space-Time Attention for Video Quality Assessment",
+    "researcher_name": "Leida Li",
+    "researcher_openalex_author_id": "A5033615240",
+    "updated_at": "2026-02-20T20:36:28.580Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video quality assessment using space-time attention and Transformer architectures; no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are purely technical (Transformer, embedding, encoder, MOS regression)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8300d38d0b548f4daf9afb07124469077301302cb6c8f2cf2350e6ecfa110861": {
+    "paper_id": "https://openalex.org/W3005733124",
+    "title": "A novel colour image watermarking scheme based on Schur decomposition",
+    "researcher_name": "Leida Li",
+    "researcher_openalex_author_id": "A5033615240",
+    "updated_at": "2026-02-20T20:36:28.590Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical contribution to digital image watermarking using matrix decomposition; no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and the abstract focus on Schur decomposition, robustness, and digital watermarking—no emotion-related terms or methodologies."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bd2eacbf3a4a6bef6d4021719afc35cf368fc9d85ed548cf9f7160a25b4949b7": {
+    "paper_id": "https://openalex.org/W3048762196",
+    "title": "Cuid: A new study of perceived image quality and its subjective assessment",
+    "researcher_name": "Leida Li",
+    "researcher_openalex_author_id": "A5033615240",
+    "updated_at": "2026-02-20T20:36:28.689Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on image quality perception and subjective assessment in computer vision, with no mention of emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts emphasize perception, visual distortion, and algorithmic IQA—no reference to emotion, affect, valence, arousal, or emotional response."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1902500e2c172a99bd7c00c30007baf3d34ddd21783a71e78e5a4a6ab6bb3bba": {
+    "paper_id": "https://openalex.org/W4310233122",
+    "title": "Robust Depth Completion with Uncertainty-Driven Loss Functions",
+    "researcher_name": "Leida Li",
+    "researcher_openalex_author_id": "A5033615240",
+    "updated_at": "2026-02-20T20:36:28.971Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on depth completion, robust optimization, and uncertainty modeling in computer vision; no connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts include 'Robustness', 'Outlier', 'Pixel', 'LiDAR', 'Depth Completion' — all technical CV/AI topics with zero affective/emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3f0cc60cba80c61afed4f1a311afa7ef655c2db9a59926e1d04fe050e039eede": {
+    "paper_id": "https://openalex.org/W4224948517",
+    "title": "Personalized Image Aesthetics Assessment with Rich Attributes",
+    "researcher_name": "Leida Li",
+    "researcher_openalex_author_id": "A5033615240",
+    "updated_at": "2026-02-20T20:36:28.977Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on personalized image aesthetics assessment, not emotion or affective states; 'emotion' is not mentioned in title, abstract, or concepts.",
+      "evidence": [
+        "Interest topics specify 'emotion', but the paper's abstract and concepts center on aesthetics, subjectivity, annotations, and AI modeling—no reference to emotion, affect, sentiment, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ea72ae1459e910e054fd0468f4479e81ca216e1ab71d34e9adfe386868c7c9d3": {
+    "paper_id": "https://openalex.org/W3013118814",
+    "title": "Internal Generative Mechanism Driven Blind Quality Index for Deblocked Images",
+    "researcher_name": "Leida Li",
+    "researcher_openalex_author_id": "A5033615240",
+    "updated_at": "2026-02-20T20:36:29.076Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on image quality assessment for deblocked images using computational metrics and machine learning; no connection to emotion, affective science, or psychological emotion modeling is present.",
+      "evidence": [
+        "Concepts include 'Image quality', 'Computer vision', 'Distortion', 'Pattern recognition (psychology)' — but the latter refers to perceptual pattern recognition, not affective psychology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4739bd4cf98103ee8ddaa644b72b355007ab00888033d6ef5f26292fde59c371": {
+    "paper_id": "https://openalex.org/W3176106916",
+    "title": "A Circular-Structured Representation for Visual Emotion Distribution Learning",
+    "researcher_name": "Leida Li",
+    "researcher_openalex_author_id": "A5033615240",
+    "updated_at": "2026-02-20T20:36:30.822Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is explicitly focused on visual emotion analysis using label distribution learning, grounded in psychological theories of emotion, and directly aligns with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Title contains 'Visual Emotion Distribution Learning'",
+        "Abstract states: 'human emotions are ambiguous and subjective' and 'inspired by psychological theories'",
+        "Proposes an 'Emotion Circle' representation with emotion-specific attributes (polarity, type, intensity)"
+      ],
+      "keywords": [
+        "emotion classification",
+        "label distribution learning",
+        "visual emotion analysis",
+        "emotion representation",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion modeling",
+        "multidimensional emotion representation",
+        "psychologically grounded AI",
+        "distributional semantics for emotion"
+      ]
+    }
+  },
+  "6c1d55634feab94b75b2c745cb6b20445651122d01c761a7f1b65d91e7794f31": {
+    "paper_id": "https://openalex.org/W4288055288",
+    "title": "Seeking Subjectivity in Visual Emotion Distribution Learning",
+    "researcher_name": "Leida Li",
+    "researcher_openalex_author_id": "A5033615240",
+    "updated_at": "2026-02-20T20:36:31.049Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion modeling in visual stimuli using psychological theory (Object-Appraisal-Emotion model), explicitly focuses on subjectivity in emotion distribution, and aligns precisely with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Title contains 'Visual Emotion Distribution Learning'",
+        "Abstract states 'VEA aims to predict people's emotions towards different visual stimuli'",
+        "Cites cognitive psychology and the 'Object-Appraisal-Emotion' model"
+      ],
+      "keywords": [
+        "emotion distribution",
+        "subjectivity",
+        "visual emotion analysis",
+        "label distribution learning",
+        "affective memory",
+        "cognitive psychology"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion modeling",
+        "interpretable AI for emotion",
+        "psychologically grounded machine learning",
+        "crowdsourced emotion annotation"
+      ]
+    }
   }
 }

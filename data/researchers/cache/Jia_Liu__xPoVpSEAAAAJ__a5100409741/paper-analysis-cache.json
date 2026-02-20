@@ -22458,5 +22458,935 @@
         "Clinical assessment of emotion-related cognitive distortions"
       ]
     }
+  },
+  "74740cc75a79623720405d65e4617c5ebc7e1e7266fc70812f3f6e759bb61b6e": {
+    "paper_id": "https://openalex.org/W4413972746",
+    "title": "Discovery and mechanistic profiling of novel kokumi peptides from Wuding chicken soup",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:43.755Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on kokumi peptides and food science, with no apparent connection to emotion or affective processes.",
+      "evidence": [
+        "Title mentions 'kokumi peptides' and 'chicken soup', indicating food chemistry/biology focus"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "26e00dac4a4e91e49bacff4ec9fc7ccbb7ea7ceb7b19384ad378f0c321559462": {
+    "paper_id": "https://openalex.org/W4402267356",
+    "title": "Supplemental Material: Prediction of CO&lt;sub&gt;2&lt;/sub&gt; content in mid-ocean ridge basalts via a machine learning approach",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:43.836Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on geochemical prediction using machine learning and has no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Ridge, Basalt, Geology, Geochemistry — all unrelated to emotion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b36fffef6f903a75ab83fcbf1281ac39706a2f7b6411940fd4473060317a79b4": {
+    "paper_id": "https://openalex.org/W4400895988",
+    "title": "The Origin of Cognitive Modules for Face Processing: A Computational Evolutionary Perspective",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:43.912Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computational modeling of cognitive module emergence, specifically for face processing, with no mention of emotion, affect, or related constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, valence, arousal, mood, or emotional processing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c8c35214612dd0c225120d2d9d7296905e84a79d82ca149d6e6bfeea528e0f1b": {
+    "paper_id": "https://openalex.org/W4236919699",
+    "title": "Automatic lexical stress detection using acoustic features for computer-assisted language learning",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:43.928Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on lexical stress detection in speech for language learning, which is a phonological and technical NLP task, not emotion or affective computing.",
+      "evidence": [
+        "Concepts include Stress (linguistics), Speech recognition, NLP — no emotion-related concepts listed"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "32ff55b939caa809904203fb073abe139f6de595a29feda3ce5aae91686aed8c": {
+    "paper_id": "https://openalex.org/W4297163689",
+    "title": "Robust Domain Adaptation for Machine Reading Comprehension",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:43.961Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on domain adaptation and robustness in machine reading comprehension, with no mention of emotion, affect, or related psychological or affective computing concepts.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, mood, or human emotional processing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4d154f43233b2013945ecc70a8ad50472067ee385eb3a19bd1fffc9993e62af3": {
+    "paper_id": "https://openalex.org/W4387908623",
+    "title": "Reviewer #3 (Public Review): Body size as a metric for the affordable world",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:43.995Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on affordance perception, embodied cognition, and body size effects on action possibilities—not affective or emotion-related processes.",
+      "evidence": [
+        "No mention of emotion, affect, valence, arousal, mood, or related psychological constructs in title, concepts, or abstract."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c64ecab20e6823a5c240f68b6ae7bf1af717eae74017fa672b21936d89925a36": {
+    "paper_id": "https://openalex.org/W4387902934",
+    "title": "Reviewer #1 (Public Review): Body size as a metric for the affordable world",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.047Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on affordance perception, embodied cognition, and body-size-dependent action boundaries; 'emotion' is not mentioned in title, abstract, or concepts.",
+      "evidence": [
+        "No mention of emotion, affect, valence, arousal, or related psychological constructs in abstract or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d6ab4c828f5951beff7d77e5889054bc5773c8d45763fe4fb2dce43d0fa109b2": {
+    "paper_id": "https://openalex.org/W4285428843",
+    "title": "Bi-fidelity Evolutionary Multiobjective Search for Adversarially Robust Deep Neural Architectures",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.051Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on adversarial robustness and neural architecture search in deep learning, with no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical AI/ML optimization concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b2abf7b5e839b386e4e52e687dd1345536f13fef0c02b4f7e572e216807e2156": {
+    "paper_id": "https://openalex.org/W4391912434",
+    "title": "Data Distribution Dynamics in Real-World WiFi-Based Patient Activity Monitoring for Home Healthcare",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.067Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on WiFi-based activity monitoring and data distribution dynamics in home healthcare, with no mention of emotion, affective states, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; 'Psychology' in concepts is generic and not linked to affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "17468773b4f2b98e93ff6fc44eb36ff65e2f7c00f939c64744d444442f37794e": {
+    "paper_id": "https://openalex.org/W4391591146",
+    "title": "Integration of cognitive tasks into artificial general intelligence test for large models",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.070Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on cognitive science-inspired AGI testing frameworks and does not address emotion, affective processes, or related constructs.",
+      "evidence": [
+        "Interest topics are 'emotion', but the paper's concepts and abstract contain no mention of emotion, affect, sentiment, mood, or related psychological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "922b8973ca3d3cf74d16112df7b0c168c73ec4ec0a9dee34053a2bd62f86e3ba": {
+    "paper_id": "https://openalex.org/W3203243722",
+    "title": "Real-world size of objects serves as an axis of object space",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.114Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on object recognition, real-world size as a representational axis, and computational modeling in vision neuroscience; no mention of emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper abstract and concepts contain no emotion-related terms or affective processes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "03b9a11e96ab8fc02d57ac8bfca0a4404e6db6176d0405358790558969e62e1d": {
+    "paper_id": "https://openalex.org/W4387344983",
+    "title": "From Sensory to Perceptual Manifolds: The Twist of Neural Geometry",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.118Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on neural geometry, dimensionality expansion, and sensory-to-perceptual transformations using mathematical and computational models; no mention of emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, valence, arousal, mood, or emotional processing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f53a312fefc3665df3151b6b27acd35317353db6493741160d23e64aab0684c3": {
+    "paper_id": "https://openalex.org/W7117686777",
+    "title": "Additional file 1 of Changes in the estimated glucose disposal rate and incident cardiovascular disease in patients with cardiovascular–kidney–metabolic syndrome stages 0–3: a prospective cohort study in China",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.138Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on glucose disposal rate and cardiovascular disease incidence in metabolic syndrome, with no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Concepts are strictly clinical/medical (e.g., 'Diabetes mellitus', 'Prospective cohort study'); title and abstract contain no emotion-related terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "518aaec0f4f64cfe22e507fc7cce95c4968fa82b4afaee565853d308c5fce66b": {
+    "paper_id": "https://openalex.org/W4361235454",
+    "title": "Supplementary methods from PI-273, a Substrate-Competitive, Specific Small-Molecule Inhibitor of PI4KIIα, Inhibits the Growth of Breast Cancer Cells",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.153Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on a biochemical inhibitor targeting PI4KIIα in breast cancer research, with no conceptual or lexical connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Cancer', 'Small molecule', 'Chemistry'; no emotion-related terms appear in title, concepts, or abstract."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "887209388daa15381afc14e92de2b627a19c5de846dc5939f78565da62ac0bd8": {
+    "paper_id": "https://openalex.org/W4362510841",
+    "title": "Unsupervised Anomaly Detection and Localization of Machine Audio: A GAN-based Approach",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.167Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unsupervised anomaly detection in machine audio using GANs; no connection to human emotion, affective computing, or psychological/emotional states.",
+      "evidence": [
+        "All concepts and the abstract pertain to signal processing, generative models, and industrial fault detection—not emotion or affect."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "38e42861b42c88d077c8da0acd89fd64325efab9e90a1ca25342f852c838c035": {
+    "paper_id": "https://openalex.org/W4312835638",
+    "title": "Research and design of a digital twin-driven smart river basin platform",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.172Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on digital twin technology for river basin management, with no mention of emotion, affective computing, or psychological/behavioral aspects.",
+      "evidence": [
+        "All concepts and the abstract center on GIS, BIM, IoT, flood control, data mining, and visualization—none relate to emotion or affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8e9b7db27ab6f54f9b6d5cdaf93a3241eb0073b000641b2f98e403951a5d7ec9": {
+    "paper_id": "https://openalex.org/W4311593271",
+    "title": "Shortening the Biologics Clinical Timeline with a Novel Method for Generating Stable, High Producing Cell Pools and Clones",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.183Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on biologics drug development, cell line engineering, and process optimization—topics entirely unrelated to emotion or affective science.",
+      "evidence": [
+        "Title and abstract exclusively discuss GPEx® Lightning, CHO cell pools/clones, titer, glycosylation, and timeline reduction in drug development."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3843f40992300e5f45492a3e33ef4b478fc80c78a15479e1d6ccb0f1243dad4b": {
+    "paper_id": "https://openalex.org/W4385971449",
+    "title": "Inter-individual, hemispheric and sex variability of brain activations during numerosity processing",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.189Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on numerosity processing and inter-individual neuroanatomical variability, with no mention of emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively reference numerical cognition, fMRI, brain regions like IPS and ACC in a perceptual/mathematical context, not affective processing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bebabfb085dbb630f9631c6fef913cba5c87a600463580fbcf6a2887e92d9b24": {
+    "paper_id": "https://openalex.org/W4391947627",
+    "title": "Author Response: Body size as a metric for the affordable world",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.239Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on embodied cognition, affordance perception, and body size as a physical metric—not affective or emotional processes.",
+      "evidence": [
+        "Interest topics specify 'emotion', but paper concepts and abstract center on embodiment, metrics, and object affordances without mention of emotion, affect, valence, arousal, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "71590dc473f20c6a97c1614688337ba4a0164fb3602a41cb3f53dffcfc3af85b": {
+    "paper_id": "https://openalex.org/W4398192680",
+    "title": "STYLE: Improving Domain Transferability of Asking Clarification Questions in Large Language Model Powered Conversational Agents",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.247Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on domain transferability of clarification question strategies in conversational agents, with no mention or conceptual link to emotion, affect, or related psychological or affective computing constructs.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain no emotion-related terms or affective dimensions"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d2b12536e7e97756f3b449689c9ace5b507ee59a291700cd5425fefffc55aa46": {
+    "paper_id": "https://openalex.org/W4393252619",
+    "title": "Author Response: A stochastic world model on gravity for stability inference",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.249Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cognitive modeling of physical intuition (gravity, stability inference) using stochastic world models and reinforcement learning; no mention or conceptual link to emotion, affect, or affective processes.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract center on gravity modeling, stability inference, and computational cognition—not affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4bb1752afa2cdec235df1adb5dc44b82d962e71b70a97be213134a00e5f10b3e": {
+    "paper_id": "https://openalex.org/W4406731675",
+    "title": "Experience Replay Facilitates the Rapid Formation of Multi-Scale Hexagonal Patterns of Grid Cells",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.268Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computational neuroscience of grid cell pattern formation, with no mention or conceptual link to emotion or affective processes.",
+      "evidence": [
+        "Concepts are exclusively computational, geometric, and neurobiological (e.g., hexagonal tiling, grid cells, scale); 'emotion' does not appear in title, concepts, or abstract."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8e315c195018e7df84ac0a151a06e51607f01dec896ecbb3817b0de8c78dc282": {
+    "paper_id": "https://openalex.org/W7117556194",
+    "title": "Spatially Periodic Computation in the Entorhinal-Hippocampal Circuit During Navigation",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.359Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on spatial navigation, grid cell periodicity, and neural coding in the entorhinal-hippocampal circuit, with no mention of emotion, affective processing, or related psychological constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are neuroscientific and computational, centered on spatial cognition and neural periodicity."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a1c91ecfa1af1d606a32d8e9eceb919380bd0759b4444e05248e972046a336e2": {
+    "paper_id": "https://openalex.org/W3151298550",
+    "title": "Fully Distributed Verifiable Random Functions and their Application to Decentralised Random Beacons",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.379Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is in cryptography and distributed systems, focusing on verifiable random functions and decentralized beacons; no conceptual, methodological, or terminological overlap with emotion or affective science.",
+      "evidence": [
+        "All concepts listed—e.g., pseudorandomness, verifiable secret sharing, cryptographic primitives—are technical CS/cryptography terms with no semantic link to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "78af3d6c75d57ac2331d1e2dd514a143728406f45625f4edcfaa077c7cf60cd8": {
+    "paper_id": "https://openalex.org/W4393454920",
+    "title": "Data attached to an manuscript",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.431Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a data deposit for a cognitive neuroscience study on body-size affordance and object interaction, with no mention of emotion, affect, or related constructs in title, venue, concepts, or abstract.",
+      "evidence": [
+        "Abstract describes fMRI and behavioral data on 'BodySize_Affordance', focusing on congruency, object size, and action possibilities—not emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0d5c0d4dfdede943c4768bb0c92aa693e3cd4cccbc46f22cb0fe2daf062af0dd": {
+    "paper_id": "https://openalex.org/W3117599504",
+    "title": "FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.489Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on Byzantine-robust federated learning and trust bootstrapping in distributed AI systems, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: ['Computer science', 'Federated learning', 'Artificial intelligence', 'Machine learning'] — no overlap with affective/emotion-related domains"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "02ccfa5202b1e5ed7d1ecf4f41d1c5d706e37031a0235a4934f7693d284332d8": {
+    "paper_id": "https://openalex.org/W4361235345",
+    "title": "Supplementary tables from PI-273, a Substrate-Competitive, Specific Small-Molecule Inhibitor of PI4KIIα, Inhibits the Growth of Breast Cancer Cells",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.507Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a cancer pharmacology study focused on PI4KIIα inhibition and breast cancer cell proliferation; no mention or conceptual link to emotion, affect, or psychological/behavioral affective processes.",
+      "evidence": [
+        "All concepts and abstract content pertain to molecular oncology, kinase inhibitors, and xenograft models; 'emotion' does not appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e566d36e2c4b6743c752c882ecb31a64f18060104e87791c616fcb58529d852f": {
+    "paper_id": "https://openalex.org/W3123739596",
+    "title": "Multi-objective Search of Robust Neural Architectures against Multiple Types of Adversarial Attacks",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.527Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on adversarial robustness in deep neural networks and has no conceptual, methodological, or empirical connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: ['Adversarial system', 'Robustness (evolution)', 'Deep neural networks', ...] — all technical AI/ML terms with zero affective/emotion-related terminology"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d583ba85441b4fd49b60d6c4de1d2c5b63b9f1bfdccd612ace3ddeb6f15b752a": {
+    "paper_id": "https://openalex.org/W4393254026",
+    "title": "Body size as a metric for the affordable world",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.535Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on affordances, embodied cognition, and body-size-dependent perception of action possibilities, with no mention or conceptual engagement with emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Interest topics are 'emotion'; paper concepts include 'Affordance', 'Embodied cognition', 'Perception', 'Action', but no emotion-related terms appear in title, concepts, or abstract."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e01dbb867e8db21dd8dabd8e64097a26ed01c2400984fe460725315f6fa1dbfd": {
+    "paper_id": "https://openalex.org/W4361256941",
+    "title": "Supplementary figures from PI-273, a Substrate-Competitive, Specific Small-Molecule Inhibitor of PI4KIIα, Inhibits the Growth of Breast Cancer Cells",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.589Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a highly specialized cancer pharmacology study focused on PI4KIIα inhibition and breast cancer cell proliferation; no mention or conceptual link to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and abstract content pertain to molecular oncology, kinase inhibitors, and xenograft models; 'emotion' appears nowhere in metadata or abstract."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8e326b8bd7642e8c68cf369daacc22ae3f1b8c89f51c30c9a5caaa99bf162f4b": {
+    "paper_id": "https://openalex.org/W4396695542",
+    "title": "A stochastic world model on gravity for stability inference",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:44.635Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper investigates a stochastic world model of gravity for stability inference, focusing on perceptual and cognitive modeling of physical intuition; it does not address emotion, affect, or any affective/emotional processes.",
+      "evidence": [
+        "Interest topics are 'emotion'; paper concepts include 'Gravity model of trade', 'Stochastic modelling', 'Stability (learning theory)', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b56634165dc4b9e1d080799ff2992a081d83fd0f38074621481b3ea4b97cec7f": {
+    "paper_id": "https://openalex.org/W4401703562",
+    "title": "Social Presence in Online Live Learning Improves Learners’ Mentalizing: An Fmri Study",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:45.675Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper investigates social presence in online learning and its impact on mentalizing, a cognitive process deeply intertwined with emotion recognition and affective theory of mind; 'emotion' is explicitly listed as an interest topic of the researcher.",
+      "evidence": [
+        "Title links social presence to mentalizing",
+        "Researcher's interest topic is 'emotion'",
+        "Mentalization is a core construct in affective neuroscience and emotion regulation research"
+      ],
+      "keywords": [
+        "social presence",
+        "mentalizing",
+        "affective theory of mind",
+        "online live learning",
+        "fMRI"
+      ],
+      "research_directions": [
+        "Affective neuroscience of learning",
+        "Emotion-cognition interactions in digital education",
+        "Neural basis of empathy and mental state attribution"
+      ]
+    }
+  },
+  "9e21218548d6aae55f486cc8e55e839ad0e2ae662a93ee861271e2390ddf5f12": {
+    "paper_id": "https://openalex.org/W3098305100",
+    "title": "The face module emerged in a deep convolutional neural network selectively deprived of face experience",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:46.878Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on domain-specificity, nature versus nurture, and face processing in neural networks; 'emotion' is not mentioned in title, abstract, or concepts.",
+      "evidence": [
+        "Abstract contains no reference to emotion, affect, valence, arousal, or related psychological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ab410e26be41ee5c719887c68ce882f92d8cf0d8d3131fe5628b14a83a47d13d": {
+    "paper_id": "https://openalex.org/W3039161516",
+    "title": "Semantic relatedness emerges in deep convolutional neural networks designed for object recognition",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:46.932Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on semantic relatedness and hierarchical structure emergence in DCNNs for object recognition, with no mention of emotion, affect, or affective processes.",
+      "evidence": [
+        "Interest topics are 'emotion', but the paper's concepts and abstract contain no emotion-related terms or constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7f854a336763ee1b28330ffcfd0e8c9180975a2d23b6a0a51b18b24462eb260e": {
+    "paper_id": "https://openalex.org/W3039441992",
+    "title": "DNNBrain: a unifying toolbox for mapping deep neural networks and brains",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:47.030Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computational neuroscience tool development for mapping deep neural networks to brain activity, with no mention of emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Interest topics are 'emotion', but the paper's title, abstract, and concepts contain no emotion-related terms or themes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "abc40314c82e0bcb838fb23c9bd25cbd63da5148e68a73197c1050dfe5296735": {
+    "paper_id": "https://openalex.org/W2950592343",
+    "title": "Exploring a Unified Attention-Based Pooling Framework for Speaker Verification",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:47.030Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on attention-based pooling for speaker verification, with no mention of emotion, affect, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively concern speaker verification, speech recognition, and neural network pooling techniques."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5d5d9b04e9927e40e2874692c8b041d88ad036cd087d2822e2b571838814b414": {
+    "paper_id": "https://openalex.org/W2896091854",
+    "title": "Gene Expression Correlates of the Cortical Network Underlying Sentence Processing",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:47.133Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on gene expression correlates of sentence processing networks in neuroscience, with no mention of emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively reference language, cognition, neuroimaging, and genetics—not emotion or affective processes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1f9ea3c9975b5dac5a6c26f444e2f0a01de21dfe80023d9cfcf482be030720c1": {
+    "paper_id": "https://openalex.org/W4245163795",
+    "title": "IEEE Transactions on Cybernetics publication information",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:47.138Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a venue publication notice with no content related to emotion; metadata lists only technical domains unrelated to affective science.",
+      "evidence": [
+        "Title indicates it is 'publication information' for IEEE Transactions on Cybernetics, not a research article"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4efa538a3c0ace26ce8a2b082612cfbd19386e2e89bc76509c8353f8d737d840": {
+    "paper_id": "https://openalex.org/W3037023974",
+    "title": "Implementation-independent representation for deep convolutional neural networks and humans in processing faces",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:47.211Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computational and representational similarity between DCNNs and humans in face gender classification, with no mention of emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Interest topic is 'emotion', but paper's concepts and abstract center on representation, categorization, and neural network architecture—not affective processes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b44f2c6d450b2e3a065c9f954197c8d8d4444d4376c75b397dbb5880c2bbbb25": {
+    "paper_id": "https://openalex.org/W2950080652",
+    "title": "pRate: Anonymous Star Rating with Rating Secrecy.",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:47.214Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cryptographic rating schemes and security properties like secrecy and delegation, with no mention or conceptual link to emotion or affective science.",
+      "evidence": [
+        "Concepts include Reputation, Secrecy, Computer security, and Scheme (mathematics); no emotion-related terms present."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7b37b007c704a3bcf53064bf1af99078b48a5dea465169633ec836937b09f824": {
+    "paper_id": "https://openalex.org/W2797896074",
+    "title": "Speaker Embedding Extraction with Phonetic Information",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:47.219Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speaker embedding extraction using phonetic information for speaker recognition, with no mention of emotion, affect, or related psychological or affective computing concepts.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are in speech/speaker recognition and AI engineering."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e0c0bf69311d1cad3198eea3b1523f83bee0fa80e63e35cc42e582d357fb3ddd": {
+    "paper_id": "https://openalex.org/W4237754795",
+    "title": "International students and the Chinese academic library: A user survey at Beijing Normal University Library",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:47.272Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on library science, user surveys, and service quality for international students; 'emotion' is not addressed in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Abstract contains no mention of emotion, affect, feelings, sentiment, or related psychological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "84f71f8632789d6f198037bd7bc67202e39c201d1ca7d9ed74ba3ee11230ea75": {
+    "paper_id": "https://openalex.org/W2748623199",
+    "title": "異なる判別法による四川霾日の気候変動特性【JST・京大機械翻訳】",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:47.304Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on climate change characteristics of haze days in Sichuan using discriminant methods, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title mentions 'climate change characteristics of haze days' and 'discriminant methods', indicating atmospheric/climate science focus"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8d34e782681748ac18f37a029ec908213ccd3a5396467196e7621e9ae807f7a0": {
+    "paper_id": "https://openalex.org/W4242523009",
+    "title": "Cover Image",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:47.306Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on probabilistic brain mapping and scene-selective cortical regions, with no mention of emotion, affect, or related psychological constructs in title, concepts, or abstract.",
+      "evidence": [
+        "Abstract discusses scene perception, interindividual variability, and brain atlases—not emotion or affective processes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3a4bf263be85d46e7ba5b1904b6e5e7ecbe33151e192f20654243def018e8ca3": {
+    "paper_id": "https://openalex.org/W2972768970",
+    "title": "Byzantine-Resilient Stochastic Gradient Descent for Distributed Learning: A Lipschitz-Inspired Coordinate-wise Median Approach",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:47.367Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical contribution in distributed machine learning and Byzantine fault tolerance, with no connection to emotion, affect, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Title and abstract focus exclusively on stochastic gradient descent, Lipschitz continuity, and Byzantine resilience; no emotion-related terms or concepts appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "498215a14a6e2def74370d6d077ce117ad0ae74eadae975b843abe06f460b953": {
+    "paper_id": "https://openalex.org/W4230118945",
+    "title": "Downregulation of S100 Calcium Binding Protein A12 inhibits the growth of glioma cells",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:47.386Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular oncology and calcium-binding protein function in glioma; no connection to emotion or affective processes.",
+      "evidence": [
+        "Abstract and concepts exclusively concern cancer biology, cell proliferation, apoptosis, and S100A12 protein regulation."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f0d1075991d41c1fdf175577d65e0258a70635d223dbf9b06d58167c587d5edd": {
+    "paper_id": "https://openalex.org/W3037516161",
+    "title": "Hierarchical sparse coding of objects in deep convolutional neural networks",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:47.423Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on neural coding principles in deep convolutional neural networks and draws analogies to primate neurophysiology, but contains no mention of emotion, affect, sentiment, mood, or any affective/emotion-related constructs.",
+      "evidence": [
+        "Abstract discusses sparse coding, object categorization, and neural representations—no reference to emotion or affective processes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "36df9074b7b90473719b75439823d9a021d7b132e93a69278d597518412f23fe": {
+    "paper_id": "https://openalex.org/W3012521265",
+    "title": "Lattice based transcription loss for end-to-end speech recognition",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:47.634Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on speech recognition optimization using lattice-based transcription loss, with no mention or conceptual link to emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts exclusively concern speech recognition metrics (e.g., WER), CTC, discriminative models, and linguistic transcription—no emotion-related terms or methodologies."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f7e2e57c1a934cb457c387cc2c8330550ed4e92144d9563f019964dec4d4e887": {
+    "paper_id": "https://openalex.org/W2766192826",
+    "title": "Investigation of Frame Alignments for GMM-based Digit-prompted Speaker Verification",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:47.641Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speaker verification, frame alignment methods, and security against pass-phrase spoofing using KL divergence; no mention of emotion, affective states, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts exclusively concern speech recognition, speaker verification, HMM/DNN alignments, and computational security—no emotion-related terms or constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4d4f1ee867b55c1fff07ac7302a03e892c108bb1fbce3aedce77636d6601b35c": {
+    "paper_id": "https://openalex.org/W2940965765",
+    "title": "Latent Class Model with Application to Speaker Diarization",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:47.675Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speaker diarization using latent class models, i-vectors, PLDA, and SVM—core topics in speech processing and machine learning, with no mention or implication of emotion, affect, or related psychological/behavioral constructs.",
+      "evidence": [
+        "All concepts and methods are technical speech/speaker modeling; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2efddec831101328ea4ec038ddf5102e3e0c104940a3588e9798f718f1507daf": {
+    "paper_id": "https://openalex.org/W1832569112",
+    "title": "Differential Notch1 and Notch2 expression and frequent activation of Notch signaling in gastric cancers.",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T20:31:47.687Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper is a molecular oncology study focused on Notch signaling in gastric cancer; no connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Notch signaling pathway', 'Cancer research', 'Pathology'; no emotion-related terms in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

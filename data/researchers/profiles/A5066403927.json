@@ -43,56 +43,56 @@
         "weight": 0.86
       },
       {
-        "name": "facial expression analysis",
+        "name": "physiological measurement of emotion",
         "weight": 0.83
       },
       {
-        "name": "physiological measurement of emotion",
-        "weight": 0.8
+        "name": "social media sentiment analysis",
+        "weight": 0.79
       }
     ],
-    "trend_summary": "Su-Jing Wang's research centers on the computational modeling of *spontaneous, subtle, and concealed affective states*, with micro-expressions as the core behavioral biomarker. Her work bridges psychology, signal processing, and AI—emphasizing robust spotting-and-recognition pipelines, physiological validation (especially facial EMG), cross-modal fusion (vision + language + biosignals), and real-world generalization (in-the-wild, long videos, social media, clinical/security contexts). A strong longitudinal thread is database development (CASME series, MEGC challenges) and methodological rigor in low-sample, imbalanced, and psychologically grounded settings. Recent expansion includes LLM-based affective NLP, geospatial emotion mapping, and ethics-aware affective AI.",
+    "trend_summary": "Su-Jing Wang's research centers on the computational modeling of *spontaneous, subtle, and concealed affective states*, with micro-expression analysis as the dominant thread across two decades. Her work bridges psychology and AI—emphasizing physiological grounding (especially facial EMG), real-world robustness (in-the-wild spotting, long videos, ecological databases like CAS(ME)³), and multimodal integration (vision-language, vision-physiology). Recent evolution includes expanding into LLM-based affective NLP for mental health and public health monitoring, while maintaining core focus on nonverbal behavioral signals, cross-modal validation, and ethically grounded, psychologically informed AI.",
     "representative_papers": [
       {
-        "title": "CASME II: An Improved Spontaneous Micro-Expression Database and the Baseline Evaluation",
-        "why": "Foundational dataset paper (930+ citations); established gold-standard benchmark enabling reproducible, ecologically valid micro-expression research."
+        "title": "CAS(ME)<sup>3</sup>: A Third Generation Facial Spontaneous Micro-Expression Database with Depth Information and High Ecological Validity",
+        "why": "Landmark database work establishing high-fidelity, ecologically valid benchmarks—epitomizes her commitment to rigorous, psychology-grounded data infrastructure for micro-expression research."
       },
       {
         "title": "A Main Directional Mean Optical Flow Feature for Spontaneous Micro-Expression Recognition",
-        "why": "Highly influential feature engineering work (504+ citations); introduced biologically plausible motion modeling critical for detecting transient micro-movements."
+        "why": "Highly cited foundational method (504 citations) introducing directional optical flow for capturing subtle motion dynamics—core technical contribution shaping subsequent spatiotemporal modeling."
       },
       {
         "title": "MEGC2025: Micro-Expression Grand Challenge on Spot Then Recognize and Visual Question Answering",
-        "why": "Represents latest frontier—integrating micro-expression analysis with vision-language models, signaling shift toward contextual, explainable, and interactive affective AI."
+        "why": "Represents latest frontier: integrating micro-expression analysis with vision-language models, signaling strategic expansion into multimodal affective reasoning and explainable affective AI."
       },
       {
         "title": "Could Micro-Expressions Be Quantified? Electromyography Gives Affirmative Evidence",
-        "why": "Key cross-validation study linking behavioral micro-expressions to physiological ground truth (EMG), strengthening validity and enabling intensity quantification."
-      },
-      {
-        "title": "Dual-ATME: Dual-Branch Attention Network for Micro-Expression Recognition",
-        "why": "Highly cited (46) deep learning architecture explicitly designed for micro-expression spatiotemporal dynamics and attention to subtle cues."
+        "why": "Key cross-modal validation paper linking facial EMG to micro-expression intensity—exemplifies her integrative approach bridging physiology and computer vision for objective quantification."
       },
       {
         "title": "Social Media Analysis for Mental Health using Large Language Models",
-        "why": "Exemplifies strategic expansion into affective NLP and public health—leveraging LLMs for scalable, real-world emotion mining beyond facial signals."
+        "why": "Highlights timely pivot toward affective NLP and public health applications, demonstrating adaptability of core affective AI principles to textual, population-scale emotion sensing."
       },
       {
-        "title": "CAS(ME)^3: A Third Generation Facial Spontaneous Micro-Expression Database with Depth Information and High Ecological Validity",
-        "why": "Latest evolution of her database leadership—adds depth sensing and ecological validity, addressing key limitations in prior benchmarks."
+        "title": "Dual-ATME: Dual-Branch Attention Network for Micro-Expression Recognition",
+        "why": "Highly influential deep learning architecture (46 citations) advancing attention mechanisms for fine-grained temporal-spatial cue extraction—benchmark model in modern MER."
       },
       {
-        "title": "Electromyography-Based Intentional-Deception Behavior Analysis in an Interactive Social Context",
-        "why": "Highlights applied focus on high-stakes affective behavior (deception) using multimodal physiological + behavioral analysis in realistic interaction settings."
+        "title": "3D-CNN for Facial Micro- and Macro-expression Spotting on Long Video Sequences using Temporal Oriented Reference Frame",
+        "why": "Seminal work (50 citations) tackling real-world challenges—long videos, joint macro/micro spotting—pioneering temporal modeling for spontaneous affect detection."
+      },
+      {
+        "title": "CASME II: An Improved Spontaneous Micro-Expression Database and the Baseline Evaluation",
+        "why": "Foundational resource (930 citations) that catalyzed the field; reflects her enduring impact on standardization, reproducibility, and clinical/security applicability of affective computing."
       }
     ]
   },
   "stats": {
     "analyzed_works_count": 223,
     "interesting_works_count": 63,
-    "new_works_count": 180,
+    "new_works_count": 3,
     "deduped_works_count": 223,
-    "ai_called_count": 180,
+    "ai_called_count": 3,
     "summary_recomputed": true
   },
   "works": [
@@ -177,10 +177,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '25: The 33rd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '25: The 33rd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -394,10 +394,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Interspeech 2025",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Interspeech 2025",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -494,10 +494,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2025 IEEE International Conference on High Performance Computing and Communications (HPCC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2025 IEEE International Conference on High Performance Computing and Communications (HPCC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -1034,10 +1034,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Royal Society of Chemistry (RSC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Royal Society of Chemistry (RSC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -1449,10 +1449,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2025 10th International Conference on Big Data Analytics (ICBDA)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2025 10th International Conference on Big Data Analytics (ICBDA)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -3516,10 +3516,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "MM '24: The 32nd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '24: The 32nd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -3732,10 +3732,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2024 IEEE Frontiers in Education Conference (FIE)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE Frontiers in Education Conference (FIE)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -4230,10 +4230,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "Interspeech 2024",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Interspeech 2024",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -5691,10 +5691,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "CHI '24: CHI Conference on Human Factors in Computing Systems",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "CHI '24: CHI Conference on Human Factors in Computing Systems",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6614,10 +6614,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2024 9th International Conference on Big Data Analytics (ICBDA)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 9th International Conference on Big Data Analytics (ICBDA)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -9693,10 +9693,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 6,
-      "primary_source": null,
+      "primary_source": "MM '23: The 31st ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '23: The 31st ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -10048,10 +10048,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "MM '23: The 31st ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '23: The 31st ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -10654,10 +10654,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2023 IEEE Frontiers in Education Conference (FIE)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2023 IEEE Frontiers in Education Conference (FIE)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -10862,10 +10862,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "MM '23: The 31st ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '23: The 31st ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -11173,10 +11173,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2023 IEEE Frontiers in Education Conference (FIE)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2023 IEEE Frontiers in Education Conference (FIE)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -12627,10 +12627,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2023 IEEE 6th Eurasian Conference on Educational Innovation (ECEI)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2023 IEEE 6th Eurasian Conference on Educational Innovation (ECEI)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -14849,10 +14849,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 11,
-      "primary_source": null,
+      "primary_source": "MM '22: The 30th ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '22: The 30th ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -15773,10 +15773,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2022 3rd International Conference on Pattern Recognition and Machine Learning (PRML)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2022 3rd International Conference on Pattern Recognition and Machine Learning (PRML)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -19514,10 +19514,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 14,
-      "primary_source": null,
+      "primary_source": "MM '21: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '21: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -19799,10 +19799,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 7,
-      "primary_source": null,
+      "primary_source": "MM '21: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '21: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -20081,10 +20081,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "ICCPR '21: 2021 10th International Conference on Computing and Pattern Recognition",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICCPR '21: 2021 10th International Conference on Computing and Pattern Recognition",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -22095,10 +22095,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "eLife Sciences Publications, Ltd",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "eLife Sciences Publications, Ltd",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -24798,331 +24798,6 @@
       }
     },
     {
-      "id": "https://openalex.org/W3128621833",
-      "openalex_url": "https://openalex.org/W3128621833",
-      "title": "Spatio-temporal fusion for Macro- and Micro-expression Spotting in Long Video Sequences",
-      "publication_year": 2020,
-      "publication_date": "2020-11-01",
-      "doi": "https://doi.org/10.1109/fg47880.2020.00037",
-      "doi_url": "https://doi.org/10.1109/fg47880.2020.00037",
-      "type": "article",
-      "type_crossref": null,
-      "language": "en",
-      "is_retracted": false,
-      "is_paratext": false,
-      "cited_by_count": 74,
-      "primary_source": null,
-      "source": {
-        "id": null,
-        "display_name": null,
-        "type": null,
-        "issn_l": null,
-        "is_in_doaj": null,
-        "host_organization_name": null,
-        "host_organization_lineage_names": []
-      },
-      "links": {
-        "openalex": "https://openalex.org/W3128621833",
-        "landing_page": "https://doi.org/10.1109/fg47880.2020.00037",
-        "pdf": null,
-        "primary_topic_openalex": "https://openalex.org/T11439",
-        "source_openalex": null
-      },
-      "concepts": [
-        "Spotting",
-        "Artificial intelligence",
-        "Computer science",
-        "Pattern recognition (psychology)",
-        "Computer vision",
-        "Macro",
-        "Filter (signal processing)",
-        "Preprocessor"
-      ],
-      "abstract": "In this paper, we aim to construct a spotting framework automatically. It is still a great challenge to spot micro-expression(ME) intervals accurately due to short duration, low intensity, and shaking. Under the uncontrolled condition, the transformation is caused by head shaking. In order to remove the global movement caused by head shaking, we propose a simple yet effective method to disentangle local movement vector from the global optical flow field by the estimation of mean optical flow in the nose region. After preprocessing, we extract the completed specific pattern(SP) of ME in each region of interest(ROI). The pattern consists of two sub-patterns: magnitude and angle. However, influenced by frame rate and different intensities of micro- and macro- expressions, we propose to use a multi-scale filter to improve the ability to spot both micro- and macro-expressions. The spotting result performed on $CAS(ME)^{2}$ and SAMM shows that our proposed method outperforms the basline method.",
-      "openalex_analysis": {
-        "primary_topic": {
-          "id": "https://openalex.org/T11439",
-          "name": "Video Analysis and Summarization",
-          "score": 0.9991000294685364,
-          "subfield": "Computer Vision and Pattern Recognition",
-          "field": "Computer Science",
-          "domain": "Physical Sciences"
-        },
-        "topics": [
-          {
-            "id": "https://openalex.org/T11439",
-            "name": "Video Analysis and Summarization",
-            "score": 0.9991000294685364,
-            "subfield": "Computer Vision and Pattern Recognition",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10775",
-            "name": "Generative Adversarial Networks and Image Synthesis",
-            "score": 0.9969000220298767,
-            "subfield": "Computer Vision and Pattern Recognition",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10531",
-            "name": "Advanced Vision and Imaging",
-            "score": 0.9954000115394592,
-            "subfield": "Computer Vision and Pattern Recognition",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "concepts": [
-          {
-            "id": "https://openalex.org/C2779506182",
-            "name": "Spotting",
-            "score": 0.7991677522659302,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C154945302",
-            "name": "Artificial intelligence",
-            "score": 0.6818614602088928,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C41008148",
-            "name": "Computer science",
-            "score": 0.670737624168396,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C153180895",
-            "name": "Pattern recognition (psychology)",
-            "score": 0.5813940763473511,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C31972630",
-            "name": "Computer vision",
-            "score": 0.5588464140892029,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C166955791",
-            "name": "Macro",
-            "score": 0.5452104806900024,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C106131492",
-            "name": "Filter (signal processing)",
-            "score": 0.4946119487285614,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C34736171",
-            "name": "Preprocessor",
-            "score": 0.49199458956718445,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C126042441",
-            "name": "Frame (networking)",
-            "score": 0.47167715430259705,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C155542232",
-            "name": "Optical flow",
-            "score": 0.4523155093193054,
-            "level": 3
-          },
-          {
-            "id": "https://openalex.org/C204241405",
-            "name": "Transformation (genetics)",
-            "score": 0.4483345150947571,
-            "level": 3
-          },
-          {
-            "id": "https://openalex.org/C2781213101",
-            "name": "Keyword spotting",
-            "score": 0.4399353265762329,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C115961682",
-            "name": "Image (mathematics)",
-            "score": 0.12946867942810059,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C76155785",
-            "name": "Telecommunications",
-            "score": 0,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C185592680",
-            "name": "Chemistry",
-            "score": 0,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C104317684",
-            "name": "Gene",
-            "score": 0,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C199360897",
-            "name": "Programming language",
-            "score": 0,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C55493867",
-            "name": "Biochemistry",
-            "score": 0,
-            "level": 1
-          }
-        ],
-        "keywords": [
-          {
-            "id": "https://openalex.org/keywords/spotting",
-            "name": "Spotting",
-            "score": 0.7991677522659302
-          },
-          {
-            "id": "https://openalex.org/keywords/artificial-intelligence",
-            "name": "Artificial intelligence",
-            "score": 0.6818614602088928
-          },
-          {
-            "id": "https://openalex.org/keywords/computer-science",
-            "name": "Computer science",
-            "score": 0.670737624168396
-          },
-          {
-            "id": "https://openalex.org/keywords/pattern-recognition",
-            "name": "Pattern recognition (psychology)",
-            "score": 0.5813940763473511
-          },
-          {
-            "id": "https://openalex.org/keywords/computer-vision",
-            "name": "Computer vision",
-            "score": 0.5588464140892029
-          },
-          {
-            "id": "https://openalex.org/keywords/macro",
-            "name": "Macro",
-            "score": 0.5452104806900024
-          },
-          {
-            "id": "https://openalex.org/keywords/filter",
-            "name": "Filter (signal processing)",
-            "score": 0.4946119487285614
-          },
-          {
-            "id": "https://openalex.org/keywords/preprocessor",
-            "name": "Preprocessor",
-            "score": 0.49199458956718445
-          },
-          {
-            "id": "https://openalex.org/keywords/frame",
-            "name": "Frame (networking)",
-            "score": 0.47167715430259705
-          },
-          {
-            "id": "https://openalex.org/keywords/optical-flow",
-            "name": "Optical flow",
-            "score": 0.4523155093193054
-          },
-          {
-            "id": "https://openalex.org/keywords/transformation",
-            "name": "Transformation (genetics)",
-            "score": 0.4483345150947571
-          },
-          {
-            "id": "https://openalex.org/keywords/keyword-spotting",
-            "name": "Keyword spotting",
-            "score": 0.4399353265762329
-          },
-          {
-            "id": "https://openalex.org/keywords/image",
-            "name": "Image (mathematics)",
-            "score": 0.12946867942810059
-          }
-        ],
-        "sustainable_development_goals": [],
-        "open_access": {
-          "is_oa": false,
-          "oa_status": "closed",
-          "oa_url": null,
-          "any_repository_has_fulltext": false
-        },
-        "citation_normalized_percentile": {
-          "value": 0.9594236,
-          "is_in_top_1_percent": false,
-          "is_in_top_10_percent": true
-        },
-        "fwci": 4.93346394,
-        "counts_by_year": [
-          {
-            "year": 2025,
-            "cited_by_count": 17
-          },
-          {
-            "year": 2024,
-            "cited_by_count": 10
-          },
-          {
-            "year": 2023,
-            "cited_by_count": 21
-          },
-          {
-            "year": 2022,
-            "cited_by_count": 11
-          },
-          {
-            "year": 2021,
-            "cited_by_count": 14
-          },
-          {
-            "year": 2020,
-            "cited_by_count": 1
-          }
-        ],
-        "institutions_distinct_count": 7,
-        "countries_distinct_count": 1,
-        "referenced_works_count": 28
-      },
-      "analysis": {
-        "is_interesting": true,
-        "relevance_score": 0.95,
-        "confidence": 0.98,
-        "reason": "The paper focuses on spotting macro- and micro-expressions—direct behavioral manifestations of underlying emotions—and explicitly targets emotion-related facial dynamics, aligning tightly with the researcher's interest topic 'emotion'.",
-        "evidence": [
-          "Title contains 'Macro- and Micro-expression Spotting'",
-          "Abstract states goal is to spot micro-expression (ME) intervals, which are involuntary, brief facial expressions linked to concealed or intense emotions",
-          "Method addresses challenges specific to emotion expression detection (e.g., low intensity, short duration, head motion interference)"
-        ],
-        "keywords": [
-          "micro-expression",
-          "macro-expression",
-          "emotion recognition",
-          "facial expression spotting",
-          "spatio-temporal analysis",
-          "optical flow",
-          "pattern recognition"
-        ],
-        "research_directions": [
-          "affective computing",
-          "facial behavior analysis",
-          "emotion-based human-computer interaction",
-          "psychological signal processing",
-          "nonverbal emotion detection"
-        ]
-      }
-    },
-    {
       "id": "https://openalex.org/W3128811047",
       "openalex_url": "https://openalex.org/W3128811047",
       "title": "Spotting Macro-and Micro-expression Intervals in Long Video Sequences",
@@ -25136,10 +24811,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 55,
-      "primary_source": null,
+      "primary_source": "2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -25464,6 +25139,331 @@
       }
     },
     {
+      "id": "https://openalex.org/W3128621833",
+      "openalex_url": "https://openalex.org/W3128621833",
+      "title": "Spatio-temporal fusion for Macro- and Micro-expression Spotting in Long Video Sequences",
+      "publication_year": 2020,
+      "publication_date": "2020-11-01",
+      "doi": "https://doi.org/10.1109/fg47880.2020.00037",
+      "doi_url": "https://doi.org/10.1109/fg47880.2020.00037",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 74,
+      "primary_source": "2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020)",
+      "source": {
+        "id": null,
+        "display_name": "2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020)",
+        "type": null,
+        "issn_l": null,
+        "is_in_doaj": null,
+        "host_organization_name": null,
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W3128621833",
+        "landing_page": "https://doi.org/10.1109/fg47880.2020.00037",
+        "pdf": null,
+        "primary_topic_openalex": "https://openalex.org/T11439",
+        "source_openalex": null
+      },
+      "concepts": [
+        "Spotting",
+        "Artificial intelligence",
+        "Computer science",
+        "Pattern recognition (psychology)",
+        "Computer vision",
+        "Macro",
+        "Filter (signal processing)",
+        "Preprocessor"
+      ],
+      "abstract": "In this paper, we aim to construct a spotting framework automatically. It is still a great challenge to spot micro-expression(ME) intervals accurately due to short duration, low intensity, and shaking. Under the uncontrolled condition, the transformation is caused by head shaking. In order to remove the global movement caused by head shaking, we propose a simple yet effective method to disentangle local movement vector from the global optical flow field by the estimation of mean optical flow in the nose region. After preprocessing, we extract the completed specific pattern(SP) of ME in each region of interest(ROI). The pattern consists of two sub-patterns: magnitude and angle. However, influenced by frame rate and different intensities of micro- and macro- expressions, we propose to use a multi-scale filter to improve the ability to spot both micro- and macro-expressions. The spotting result performed on $CAS(ME)^{2}$ and SAMM shows that our proposed method outperforms the basline method.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T11439",
+          "name": "Video Analysis and Summarization",
+          "score": 0.9991000294685364,
+          "subfield": "Computer Vision and Pattern Recognition",
+          "field": "Computer Science",
+          "domain": "Physical Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T11439",
+            "name": "Video Analysis and Summarization",
+            "score": 0.9991000294685364,
+            "subfield": "Computer Vision and Pattern Recognition",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10775",
+            "name": "Generative Adversarial Networks and Image Synthesis",
+            "score": 0.9969000220298767,
+            "subfield": "Computer Vision and Pattern Recognition",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10531",
+            "name": "Advanced Vision and Imaging",
+            "score": 0.9954000115394592,
+            "subfield": "Computer Vision and Pattern Recognition",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C2779506182",
+            "name": "Spotting",
+            "score": 0.7991677522659302,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "name": "Artificial intelligence",
+            "score": 0.6818614602088928,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.670737624168396,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C153180895",
+            "name": "Pattern recognition (psychology)",
+            "score": 0.5813940763473511,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C31972630",
+            "name": "Computer vision",
+            "score": 0.5588464140892029,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C166955791",
+            "name": "Macro",
+            "score": 0.5452104806900024,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C106131492",
+            "name": "Filter (signal processing)",
+            "score": 0.4946119487285614,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C34736171",
+            "name": "Preprocessor",
+            "score": 0.49199458956718445,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C126042441",
+            "name": "Frame (networking)",
+            "score": 0.47167715430259705,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C155542232",
+            "name": "Optical flow",
+            "score": 0.4523155093193054,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C204241405",
+            "name": "Transformation (genetics)",
+            "score": 0.4483345150947571,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C2781213101",
+            "name": "Keyword spotting",
+            "score": 0.4399353265762329,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C115961682",
+            "name": "Image (mathematics)",
+            "score": 0.12946867942810059,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C76155785",
+            "name": "Telecommunications",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C185592680",
+            "name": "Chemistry",
+            "score": 0,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C104317684",
+            "name": "Gene",
+            "score": 0,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C199360897",
+            "name": "Programming language",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C55493867",
+            "name": "Biochemistry",
+            "score": 0,
+            "level": 1
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/spotting",
+            "name": "Spotting",
+            "score": 0.7991677522659302
+          },
+          {
+            "id": "https://openalex.org/keywords/artificial-intelligence",
+            "name": "Artificial intelligence",
+            "score": 0.6818614602088928
+          },
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.670737624168396
+          },
+          {
+            "id": "https://openalex.org/keywords/pattern-recognition",
+            "name": "Pattern recognition (psychology)",
+            "score": 0.5813940763473511
+          },
+          {
+            "id": "https://openalex.org/keywords/computer-vision",
+            "name": "Computer vision",
+            "score": 0.5588464140892029
+          },
+          {
+            "id": "https://openalex.org/keywords/macro",
+            "name": "Macro",
+            "score": 0.5452104806900024
+          },
+          {
+            "id": "https://openalex.org/keywords/filter",
+            "name": "Filter (signal processing)",
+            "score": 0.4946119487285614
+          },
+          {
+            "id": "https://openalex.org/keywords/preprocessor",
+            "name": "Preprocessor",
+            "score": 0.49199458956718445
+          },
+          {
+            "id": "https://openalex.org/keywords/frame",
+            "name": "Frame (networking)",
+            "score": 0.47167715430259705
+          },
+          {
+            "id": "https://openalex.org/keywords/optical-flow",
+            "name": "Optical flow",
+            "score": 0.4523155093193054
+          },
+          {
+            "id": "https://openalex.org/keywords/transformation",
+            "name": "Transformation (genetics)",
+            "score": 0.4483345150947571
+          },
+          {
+            "id": "https://openalex.org/keywords/keyword-spotting",
+            "name": "Keyword spotting",
+            "score": 0.4399353265762329
+          },
+          {
+            "id": "https://openalex.org/keywords/image",
+            "name": "Image (mathematics)",
+            "score": 0.12946867942810059
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "citation_normalized_percentile": {
+          "value": 0.9594236,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": true
+        },
+        "fwci": 4.93346394,
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 17
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 10
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 21
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 11
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 14
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 1
+          }
+        ],
+        "institutions_distinct_count": 7,
+        "countries_distinct_count": 1,
+        "referenced_works_count": 28
+      },
+      "analysis": {
+        "is_interesting": true,
+        "relevance_score": 0.95,
+        "confidence": 0.98,
+        "reason": "The paper focuses on spotting macro- and micro-expressions—direct behavioral manifestations of underlying emotions—and explicitly targets emotion-related facial dynamics, aligning tightly with the researcher's interest topic 'emotion'.",
+        "evidence": [
+          "Title contains 'Macro- and Micro-expression Spotting'",
+          "Abstract states goal is to spot micro-expression (ME) intervals, which are involuntary, brief facial expressions linked to concealed or intense emotions",
+          "Method addresses challenges specific to emotion expression detection (e.g., low intensity, short duration, head motion interference)"
+        ],
+        "keywords": [
+          "micro-expression",
+          "macro-expression",
+          "emotion recognition",
+          "facial expression spotting",
+          "spatio-temporal analysis",
+          "optical flow",
+          "pattern recognition"
+        ],
+        "research_directions": [
+          "affective computing",
+          "facial behavior analysis",
+          "emotion-based human-computer interaction",
+          "psychological signal processing",
+          "nonverbal emotion detection"
+        ]
+      }
+    },
+    {
       "id": "https://openalex.org/W3128516613",
       "openalex_url": "https://openalex.org/W3128516613",
       "title": "MEGC2020 - The Third Facial Micro-Expression Grand Challenge",
@@ -25477,10 +25477,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 35,
-      "primary_source": null,
+      "primary_source": "2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -25826,10 +25826,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 6,
-      "primary_source": null,
+      "primary_source": "2020 IEEE Frontiers in Education Conference (FIE)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2020 IEEE Frontiers in Education Conference (FIE)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -27318,10 +27318,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "ICCBDC '20: 2020 4th International Conference on Cloud and Big Data Computing",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICCBDC '20: 2020 4th International Conference on Cloud and Big Data Computing",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -29315,10 +29315,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 12,
-      "primary_source": null,
+      "primary_source": "2019 IEEE Frontiers in Education Conference (FIE)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 IEEE Frontiers in Education Conference (FIE)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -31519,10 +31519,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 170,
-      "primary_source": null,
+      "primary_source": "2019 14th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2019)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 14th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2019)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -33013,10 +33013,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "SIGSPATIAL '18: 26th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "SIGSPATIAL '18: 26th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -33323,10 +33323,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "SIGSPATIAL '18: 26th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "SIGSPATIAL '18: 26th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -33601,10 +33601,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2018 IEEE First International Conference on Artificial Intelligence and Knowledge Engineering (AIKE)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2018 IEEE First International Conference on Artificial Intelligence and Knowledge Engineering (AIKE)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -35192,10 +35192,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 61,
-      "primary_source": null,
+      "primary_source": "2018 13th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2018)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2018 13th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2018)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -35538,10 +35538,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 8,
-      "primary_source": null,
+      "primary_source": "2018 First Asian Conference on Affective Computing and Intelligent Interaction (ACII Asia)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2018 First Asian Conference on Affective Computing and Intelligent Interaction (ACII Asia)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -35817,10 +35817,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 24,
-      "primary_source": null,
+      "primary_source": "ICCDA 2018: 2018 The 2nd International Conference on Compute and Data Analysis",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICCDA 2018: 2018 The 2nd International Conference on Compute and Data Analysis",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -36444,10 +36444,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 13,
-      "primary_source": null,
+      "primary_source": "2018 IEEE 3rd International Conference on Big Data Analysis (ICBDA)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2018 IEEE 3rd International Conference on Big Data Analysis (ICBDA)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -39749,10 +39749,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 10,
-      "primary_source": null,
+      "primary_source": "2017 2nd International Conference on Image, Vision and Computing (ICIVC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2017 2nd International Conference on Image, Vision and Computing (ICIVC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -40461,10 +40461,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 8,
-      "primary_source": null,
+      "primary_source": "2017 IEEE 2nd International Conference on Big Data Analysis (ICBDA)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2017 IEEE 2nd International Conference on Big Data Analysis (ICBDA)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -45767,10 +45767,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 207,
-      "primary_source": null,
+      "primary_source": "2015 IEEE International Conference on Computer Vision Workshop (ICCVW)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2015 IEEE International Conference on Computer Vision Workshop (ICCVW)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -49369,10 +49369,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 142,
-      "primary_source": null,
+      "primary_source": "2014 22nd International Conference on Pattern Recognition (ICPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2014 22nd International Conference on Pattern Recognition (ICPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -49699,10 +49699,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "SIGMOD/PODS'14: International Conference on Management of Data",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "SIGMOD/PODS'14: International Conference on Management of Data",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -51650,10 +51650,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 14,
-      "primary_source": null,
+      "primary_source": "2013 IEEE 13th International Conference on Data Mining Workshops (ICDMW)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2013 IEEE 13th International Conference on Data Mining Workshops (ICDMW)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -52237,10 +52237,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 21,
-      "primary_source": null,
+      "primary_source": "KDD' 13: The 19th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "KDD' 13: The 19th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -53458,10 +53458,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 339,
-      "primary_source": null,
+      "primary_source": "2013 10th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2013)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2013 10th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2013)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -55923,10 +55923,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2011 First Asian Conference on Pattern Recognition (ACPR 2011)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2011 First Asian Conference on Pattern Recognition (ACPR 2011)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -59353,10 +59353,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 12,
-      "primary_source": null,
+      "primary_source": "GIS '10: 18th SIGSPATIAL International Conference on Advances in Geographic Information Systems",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "GIS '10: 18th SIGSPATIAL International Conference on Advances in Geographic Information Systems",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -59925,10 +59925,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2010 International Conference on Intelligent Computation Technology and Automation (ICICTA)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 International Conference on Intelligent Computation Technology and Automation (ICICTA)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -60245,10 +60245,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2010 2nd International Conference on Computer Engineering and Technology (ICCET)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 2nd International Conference on Computer Engineering and Technology (ICCET)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -60446,10 +60446,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2010 2nd International Conference on Computer Engineering and Technology",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 2nd International Conference on Computer Engineering and Technology",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -60767,10 +60767,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 7,
-      "primary_source": null,
+      "primary_source": "2010 Second International Conference on Multimedia and Information Technology",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 Second International Conference on Multimedia and Information Technology",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -61439,10 +61439,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2008 4th International Conference on Wireless Communications, Networking and Mobile Computing (WiCOM)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2008 4th International Conference on Wireless Communications, Networking and Mobile Computing (WiCOM)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -61755,10 +61755,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "2007 International Conference on Wireless Communications, Networking and Mobile Computing",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2007 International Conference on Wireless Communications, Networking and Mobile Computing",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,

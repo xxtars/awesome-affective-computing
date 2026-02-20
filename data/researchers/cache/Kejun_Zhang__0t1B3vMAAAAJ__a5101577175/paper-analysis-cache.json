@@ -3539,5 +3539,167 @@
         "fuzzy psychology in emotion representation"
       ]
     }
+  },
+  "a094ab84d38cccf0a68a88199b33509036c84a681f5725df7ef754bb1a5f9fb6": {
+    "paper_id": "https://openalex.org/W4308164773",
+    "title": "SDMuse: Stochastic Differential Music Editing and Generation via Hybrid Representation",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T20:35:47.644Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on stochastic differential equations and hybrid representations for music editing/generation; no mention of emotion, affect, or related psychological, behavioral, or affective computing concepts.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper abstract and concepts contain no emotion-related terms or affective dimensions."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "894704831c38cc670416b4e9aea6d29a000251bff704494a9c7d45629707aa93": {
+    "paper_id": "https://openalex.org/W2742286908",
+    "title": "都市設計競争力の要素に関する研究【Powered by NICT】",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T20:35:48.045Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "Title and concepts are unrelated to emotion; focus is on urban design competitiveness in engineering/computer science context.",
+      "evidence": [
+        "Title: '都市設計競争力の要素に関する研究' (Study on Elements of Urban Design Competitiveness)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e4bba34fa66b97089a8962804815437af7a3ae6c2189126f8250d1b531443fa5": {
+    "paper_id": "https://openalex.org/W4297760340",
+    "title": "Automatic Song Translation for Tonal Languages",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T20:35:48.091Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical challenges in song translation for tonal languages, with no mention of emotion, affect, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain no emotion-related terms or constructs"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cd34ba7f4999f13bf4a5afbccc1818791e6db710116b600254252a717cc971ec": {
+    "paper_id": "https://openalex.org/W3200682172",
+    "title": "TeleMelody: Lyric-to-Melody Generation with a Template-Based Two-Stage Method",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T20:35:48.379Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on lyric-to-melody generation using musical templates; no mention of emotion, affect, sentiment, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all concepts are technical music/AI features (melody, chord, rhythm, timbre, etc.)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e97d31c0d65b5fb2a10353d3ffb0b723485bfa15320a05d538aa1073b742b124": {
+    "paper_id": "https://openalex.org/W3200345197",
+    "title": "PDAugment: Data Augmentation by Pitch and Duration Adjustments for Automatic Lyrics Transcription",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T20:35:48.395Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on data augmentation for automatic lyrics transcription using pitch and duration adjustments; no mention of emotion, affective states, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts exclusively center on ASR, singing voice, music scores, syllables, and WER—no emotion-related terms or constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b71d85d8adc9bcfabc7b05bf0717cc40d64f57b554ad708d6a6ac7a97a87811d": {
+    "paper_id": "https://openalex.org/W3134714766",
+    "title": "Real-time sign language recognition based on video stream",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T20:35:48.401Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on real-time sign language recognition using computer vision and deep learning techniques, with no mention of emotion detection, affective computing, or emotional states.",
+      "evidence": [
+        "Abstract and concepts emphasize sign language, 3D-CNN, optical flow, HMM, and pattern recognition—none related to emotion or affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a39dc74c249e534d58af715b8eaad714f5d73913a873c7a89addccf484823e5a": {
+    "paper_id": "https://openalex.org/W3035707016",
+    "title": "UWSpeech: Speech to Speech Translation for Unwritten Languages",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T20:35:48.575Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speech-to-speech translation for unwritten languages using discrete tokenization and cross-lingual VQ-VAE; no mention of emotion, affective computing, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all technical focus is on speech translation, autoencoders, and BLEU evaluation."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3e7d8259218a0fc9a746107c9a67424faeae9abeac28f20fa5cf9c2a542be28f": {
+    "paper_id": "https://openalex.org/W3116834994",
+    "title": "DenoiSpeech: Denoising Text to Speech with Frame-Level Noise Modeling",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T20:35:48.581Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speech denoising and synthesis for technical robustness, with no mention of emotion, affect, sentiment, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts exclusively concern noise modeling, speech enhancement, and TTS architecture; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bb3d4bc56fe6c352c1fb1c89fd650209870a8e28cf1e32c3ad261887818ede2e": {
+    "paper_id": "https://openalex.org/W4221135447",
+    "title": "S3T: Self-Supervised Pre-training with Swin Transformer for Music Classification",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T20:35:48.663Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on self-supervised pre-training for music classification using Swin Transformer; no mention of emotion modeling, affective computing, or emotional content in music (e.g., emotion recognition, valence/arousal prediction, affective response).",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

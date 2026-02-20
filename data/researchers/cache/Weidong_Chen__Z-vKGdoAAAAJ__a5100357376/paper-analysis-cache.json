@@ -11386,5 +11386,311 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "b740168c7020a8aa0043d6df15e55420257c46b642f7f7c5e4c687106dd68ee7": {
+    "paper_id": "https://openalex.org/W4233604234",
+    "title": "Computation of Two-Dimensional Fourier Transforms for Noisy Band-Limited Signals",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T20:45:12.780Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is purely mathematical and signal-processing focused, with no connection to emotion, affect, psychology, or human behavior.",
+      "evidence": [
+        "All concepts and the abstract concern Fourier analysis, regularization, and numerical computation for band-limited signals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cf6ef8fc1e3c92eeedfeab77e9c4404d1dc926dd576e5088469d18731bba55f1": {
+    "paper_id": "https://openalex.org/W3123258752",
+    "title": "Optimal Learning Algorithms for Stochastic Inventory Systems with Random Capacities",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T20:45:12.790Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on stochastic inventory optimization and algorithms, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are purely technical: 'Stochastic Inventory Systems', 'Mathematical optimization', 'Artificial intelligence'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3746b5dff272f83906bd7d8e5a4e7cd896aae1e058debec35633b100376c42bc": {
+    "paper_id": "https://openalex.org/W2747206775",
+    "title": "天井ランドマークに基づく移動ロボットのための改良された屋内位置決めシステム【Powered by NICT】",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T20:45:12.801Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on an improved indoor positioning system for mobile robots using ceiling landmarks, with no mention or conceptual link to emotion or affective science.",
+      "evidence": [
+        "Title: 'Improved Indoor Positioning System for Mobile Robots Based on Ceiling Landmarks'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "13d1048d68490b5c12cddb8f5b77f57719cef6a725bf1ec3e492443dded38e36": {
+    "paper_id": "https://openalex.org/W4361890360",
+    "title": "Supplementary Data from Single-Cell Analysis Reveals EP4 as a Target for Restoring T-Cell Infiltration and Sensitizing Prostate Cancer to Immunotherapy",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T20:45:12.829Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on prostate cancer immunotherapy and T-cell infiltration; 'emotion' is not mentioned or implied in title, concepts, or abstract.",
+      "evidence": [
+        "Abstract states 'Supplementary methods, figure legends and tables' with no emotional or affective content."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5cd93b00c307be864cdf5fd417e3f55a04b4dc68b0ebe37d303f00688f806adf": {
+    "paper_id": "https://openalex.org/W4232699600",
+    "title": "Energy-Efficient Aggregation Control for Mobile Sensor Networks",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T20:45:12.861Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on energy-efficient aggregation and topology control in mobile sensor networks, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Wireless sensor network', 'Energy consumption', 'Topology control'; no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bf237ec68b3d7282580687e99f2c9112cde38e54bb2f88088d529863d03ba24b": {
+    "paper_id": "https://openalex.org/W3023079663",
+    "title": "INTELLIGENT CONTROL FOR ELECTRICAL POWER DISTRIBUTION SYSTEM",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T20:45:12.965Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on intelligent control systems for power distribution, with no conceptual or lexical overlap with emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Expert system', 'Intelligent control', 'Control engineering' — all technical and domain-specific to power systems and computer control."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b3ae1e42aac2215dadcf6d8be4e59e49c3082710905934a071c11b92b5ae221f": {
+    "paper_id": "https://openalex.org/W1971372495",
+    "title": "Herbal-T, enabling integration, interoperability, and reusability of Internet components",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T20:45:13.007Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on software architecture, interoperability, and Internet component integration; no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts are exclusively technical: 'Reusability', 'Interoperability', 'Java Applications', 'CORBA', 'active databases'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6358a7d30658920de35d26349a39970c9d04170baebe6d03b2a49668e6874412": {
+    "paper_id": "https://openalex.org/W4388059952",
+    "title": "Block-based test data adequacy measurement criteria and test complexity metrics",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T20:45:13.010Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is about software testing metrics and control flowgraph modeling; no connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Programming complexity', 'Cyclomatic complexity', 'Software', and 'Test (biology)' — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bfcec4c77962df8ab09e13d956930f73def8a2663f1247655fd6d0709f86aa58": {
+    "paper_id": "https://openalex.org/W2593877793",
+    "title": "An improved indoor localization system for mobile robots based on landmarks on the ceiling",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T20:45:13.047Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on indoor robot localization using infrared sensors and landmarks, with no mention or conceptual connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts contain only robotics, sensor fusion, and computer vision terms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6bf16e8a05fcf5431b4d3fad54b4135d28cbfbb8cbc17a5fc4d120a7fa10a8b3": {
+    "paper_id": "https://openalex.org/W2104078927",
+    "title": "On Some Results of Regular Digraphs as Coset Graphs and Their Applications",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T20:45:13.053Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a theoretical mathematics/computer science work on regular digraphs, coset graphs, and automorphism groups, with no conceptual or lexical connection to emotion or affective science.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are combinatorial/graph-theoretic."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0c839b74aab083bf1acaf5385da653ad69641a50147b0b0dbc1055c4893bd4b8": {
+    "paper_id": "https://openalex.org/W4361890577",
+    "title": "Supplementary Figures from Single-Cell Analysis Reveals EP4 as a Target for Restoring T-Cell Infiltration and Sensitizing Prostate Cancer to Immunotherapy",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T20:45:13.086Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is focused on cancer immunotherapy and molecular oncology, with no conceptual or lexical connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include prostate cancer, immunotherapy, oncology; abstract is placeholder text ('Supplementary Figures'); no mention of emotion, affect, psychology, or related domains."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "86d7a86c5d8ac59bf22d8f88fa263df94bcf62b58032ddec8f0eda008d6c5d3a": {
+    "paper_id": "https://openalex.org/W2594500643",
+    "title": "A novel occlusion-free active recognition algorithm for objects in clutter",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T20:45:13.119Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on active object recognition and occlusion handling in robotics, with no mention or conceptual link to emotion, affective computing, or related psychological or neuroscientific constructs.",
+      "evidence": [
+        "Abstract and concepts center on robotics, computer vision, occlusion, and sensor-based manipulation—no emotion-related terms or theories present."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "18e1c8c3c224d8bcb4cd8558f089fdd730f7f2b7055664e82df2a7cbe67f07af": {
+    "paper_id": "https://openalex.org/W3148157996",
+    "title": "Visual tracking of robots in uncalibrated environments",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T20:45:13.121Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on visual tracking control and adaptive robotics in uncalibrated environments, with no mention of emotion, affective states, or psychological constructs related to emotion.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes 'Psychology' but only as a broad category, not linked to affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "338087f341b9f2ab08fef3b563a6c92159df4980da0058fd8bcb55cb61ae5cd8": {
+    "paper_id": "https://openalex.org/W4221161189",
+    "title": "ROLL: Long-Term Robust LiDAR-based Localization With Temporary Mapping in Changing Environments",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T20:45:13.262Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is in robotics and autonomous navigation, focusing on LiDAR-based localization and mapping; no mention or conceptual link to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract pertain to odometry, SLAM, sensor fusion, and environmental robustness—no emotional, psychological, or affective terms or constructs appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1efaecce986fdb06bc7fcaf64eee82594bdc19d1a9924f646a67427b55125771": {
+    "paper_id": "https://openalex.org/W4298057286",
+    "title": "Design and Use of an Apparatus for Presenting Graspable Objects in 3D Workspace",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T20:45:13.319Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mechanical apparatus design for neurophysiological experiments involving reaching and grasping, with no mention of emotion, affective states, or psychological/behavioral emotion measures.",
+      "evidence": [
+        "Abstract and concepts exclusively reference kinematics, neural dynamics, motion capture, and brain-machine interfaces; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2374d14cf0e3910c3b8e30fe6689077223dae74f074d3dd7b9c4cad2ac6fefea": {
+    "paper_id": "https://openalex.org/W4391146191",
+    "title": "Robotic Manipulator‐Assisted Omnidirectional Augmented Reality for Endoluminal Intervention Telepresence",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T20:45:13.404Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on robotic telemedicine, omnidirectional AR/VR, and endoluminal intervention; no mention of emotion, affective computing, or related psychological or physiological constructs.",
+      "evidence": [
+        "Abstract and concepts emphasize technical aspects: robotic manipulator, augmented reality, endoscopic views, human-computer interaction — none reference emotion, affect, sentiment, or affective states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "44b020f5542b2d3530262cdc0aeba580578846929dfcf745b3ef4539a9e949b8": {
+    "paper_id": "https://openalex.org/W4361947597",
+    "title": "Data from Single-Cell Analysis Reveals EP4 as a Target for Restoring T-Cell Infiltration and Sensitizing Prostate Cancer to Immunotherapy",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T20:45:13.519Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is focused on cancer immunology and molecular targeting in prostate cancer, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract center on EP4 antagonism, T-cell infiltration, MDSCs, and immunotherapy—no mention of emotion, affect, psychology, neuroscience of emotion, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

@@ -31,68 +31,68 @@
         "weight": 0.94
       },
       {
-        "name": "Micro-expression analysis",
-        "weight": 0.91
+        "name": "Micro-expression detection and analysis",
+        "weight": 0.92
       },
       {
         "name": "Emotion-cognition interaction",
-        "weight": 0.88
+        "weight": 0.89
       },
       {
-        "name": "Nonverbal emotion inference",
-        "weight": 0.85
+        "name": "Nonverbal emotion analysis",
+        "weight": 0.86
       },
       {
-        "name": "Computational modeling of affective behavior",
-        "weight": 0.82
+        "name": "Emotion-aware AI",
+        "weight": 0.83
       },
       {
-        "name": "Cross-cultural emotion expression and judgment",
-        "weight": 0.79
+        "name": "Physiological basis of emotion",
+        "weight": 0.78
       }
     ],
-    "trend_summary": "Xiaolan Fu’s research centers on the intersection of affective science, computational methods, and neural mechanisms—particularly focused on micro-expressions, masked/emotionally ambiguous faces, and context-sensitive emotion perception. A strong interdisciplinary thread unites psychology, neuroscience, computer vision, and AI: she pioneers robust, ecologically valid affective datasets (e.g., CAS(ME)², CAS(ME)³, MFED, CFBD), develops deep learning models for micro-expression spotting/recognition (MESNet, SMEConvNet, TSW-FD), and investigates how emotion modulates core cognitive processes (agency, time perception, memory, attention, moral judgment). Recent work increasingly emphasizes multimodality (EMG, fNIRS, MEG), clinical translation (depression, trauma, deception), human-centered AI evaluation (e.g., EmotionHallucer), and sociocultural dimensions (masking, cross-race/cross-national trait inferences, pandemic-related affect).",
+    "trend_summary": "Xiaolan Fu's research centers on the computational and neuroscientific foundations of human emotion, with a dominant focus on automatic, fine-grained analysis of nonverbal affect—especially micro-expressions—using multimodal signals (facial dynamics, EMG, EEG, MEG, fNIRS). Her work bridges psychology, neuroscience, and AI: she pioneers robust affective signal processing methods (e.g., spatiotemporal CNNs, tensor-based features), builds foundational datasets (CASME series, CFBD, MFED), and investigates how emotion modulates core cognitive processes (memory, attention, time perception, agency, moral judgment). A strong translational thread runs through clinical applications (depression, trauma, deception detection), cross-cultural validation (Chinese vs. Western samples), and human-centered AI design—emphasizing ecological validity, physiological grounding, and psychological interpretability.",
     "representative_papers": [
       {
         "title": "CAS(ME)³: A Third Generation Facial Spontaneous Micro-Expression Database with Depth Information and High Ecological Validity",
-        "why": "Landmark dataset enabling high-fidelity, multimodal micro-expression research; reflects Fu’s leadership in ecological validity and infrastructure-building for affective computing."
+        "why": "Flagship dataset paper demonstrating leadership in ecological, multimodal affective data infrastructure—critical for advancing real-world micro-expression AI."
       },
       {
         "title": "MESNet: A Convolutional Neural Network for Spotting Multi-Scale Micro-Expression Intervals in Long Videos",
-        "why": "Highly cited (122) methodological breakthrough in deep learning for micro-expression spotting—exemplifies her integration of AI and nonverbal affect science."
+        "why": "Highly cited (122) methodological breakthrough in deep learning for micro-expression spotting, reflecting core technical contribution to affective computing."
       },
       {
         "title": "Decoding the temporal representation of facial expression in face-selective regions",
-        "why": "High-impact MEG study (15 citations) revealing time-resolved neural dynamics of emotion processing—bridges affective neuroscience and computational perception."
+        "why": "Key neuroimaging paper (15 citations) linking neural dynamics (MEG) to fine-grained emotion processing timelines—bridging neuroscience and computational models."
       },
       {
         "title": "Could Micro-Expressions Be Quantified? Electromyography Gives Affirmative Evidence",
-        "why": "Introduces objective, physiological validation (EMG) of micro-expression intensity—advances measurement rigor beyond subjective or visual-only approaches."
+        "why": "Seminal physiological validation (2 citations but high conceptual impact) establishing EMG as objective ground truth for micro-expression intensity—integrating psychophysiology and AI."
       },
       {
         "title": "Enhancing Face Perception Research with the Chinese Face and Body Dataset (CFBD)",
-        "why": "Key contribution to cross-cultural affective science, enabling systematic study of culture-specific emotion expression, context effects, and trait attribution."
-      },
-      {
-        "title": "EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models",
-        "why": "Represents cutting-edge direction: applying psychological theory to audit affective grounding in foundation models—signals shift toward responsible, cognition-informed AI."
+        "why": "Represents commitment to cross-cultural rigor and ecological diversity in affective stimuli, addressing critical bias gaps in global emotion AI."
       },
       {
         "title": "The sense of agency and the attribution of responsibility in human behavior",
-        "why": "Synthesizes affective neuroscience, philosophy of mind, and ethics—highlights her focus on emotion’s role in volition, moral judgment, and social accountability."
+        "why": "Exemplifies expansion into higher-order affective-cognitive constructs (agency, morality), showing theoretical depth beyond basic emotion recognition."
       },
       {
-        "title": "Social inclusion regulates the effect of social exclusion on adaptation to emotional conflict",
-        "why": "Demonstrates translational impact: identifying malleable social factors (inclusion) that buffer emotion-cognition disruption—relevant for interventions in developmental psychopathology."
+        "title": "EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models",
+        "why": "Cutting-edge work at AI frontier—introduces psychology-informed evaluation for affective hallucination in foundation models, signaling timely pivot toward responsible affective AI."
+      },
+      {
+        "title": "CASME II: An Improved Spontaneous Micro-Expression Database and the Baseline Evaluation",
+        "why": "Foundational (930 citations) resource that catalyzed the field; epitomizes her role in establishing standards, reproducibility, and benchmarking in affective computing."
       }
     ]
   },
   "stats": {
     "analyzed_works_count": 318,
     "interesting_works_count": 149,
-    "new_works_count": 273,
+    "new_works_count": 8,
     "deduped_works_count": 318,
-    "ai_called_count": 273,
+    "ai_called_count": 8,
     "summary_recomputed": true
   },
   "works": [
@@ -257,10 +257,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '25: The 33rd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '25: The 33rd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -4752,10 +4752,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "openRxiv",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "openRxiv",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -4950,10 +4950,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "The ECPH Encyclopedia of Psychology",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "The ECPH Encyclopedia of Psychology",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -5707,10 +5707,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "Technological Revolution and New Driving Forces for Global Sustainable Development",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Technological Revolution and New Driving Forces for Global Sustainable Development",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6712,10 +6712,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2023 International Annual Conference on Complex Systems and Intelligent Science (CSIS-IAC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2023 International Annual Conference on Complex Systems and Intelligent Science (CSIS-IAC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6978,10 +6978,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2023 International Annual Conference on Complex Systems and Intelligent Science (CSIS-IAC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2023 International Annual Conference on Complex Systems and Intelligent Science (CSIS-IAC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -8061,10 +8061,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Advances in Civil Engineering and Environmental Engineering, Volume 2",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Advances in Civil Engineering and Environmental Engineering, Volume 2",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -8365,10 +8365,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Advances in Civil Engineering and Environmental Engineering, Volume 2",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Advances in Civil Engineering and Environmental Engineering, Volume 2",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -8691,10 +8691,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Advances in Civil Engineering and Environmental Engineering, Volume 2",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Advances in Civil Engineering and Environmental Engineering, Volume 2",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -10895,10 +10895,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Ryerson University Library and Archives",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Ryerson University Library and Archives",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -11609,10 +11609,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 11,
-      "primary_source": null,
+      "primary_source": "MM '22: The 30th ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '22: The 30th ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -12494,10 +12494,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "openRxiv",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "openRxiv",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -15036,10 +15036,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "Springer Science and Business Media LLC",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Springer Science and Business Media LLC",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -15242,10 +15242,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Hindawi Limited",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Hindawi Limited",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -17390,10 +17390,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 6,
-      "primary_source": null,
+      "primary_source": "ASSETS '20: The 22nd International ACM SIGACCESS Conference on Computers and Accessibility",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ASSETS '20: The 22nd International ACM SIGACCESS Conference on Computers and Accessibility",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -39045,10 +39045,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2015 12th International Conference on Fuzzy Systems and Knowledge Discovery (FSKD)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2015 12th International Conference on Fuzzy Systems and Knowledge Discovery (FSKD)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -41889,10 +41889,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 142,
-      "primary_source": null,
+      "primary_source": "2014 22nd International Conference on Pattern Recognition (ICPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2014 22nd International Conference on Pattern Recognition (ICPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -50974,10 +50974,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 339,
-      "primary_source": null,
+      "primary_source": "2013 10th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2013)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2013 10th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2013)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -57044,10 +57044,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2011 Seventh International Conference on Natural Computation (ICNC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2011 Seventh International Conference on Natural Computation (ICNC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -61135,10 +61135,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2010 Chinese Control and Decision Conference (CCDC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 Chinese Control and Decision Conference (CCDC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -63824,10 +63824,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2009 IEEE International Conference on Systems, Man and Cybernetics - SMC",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2009 IEEE International Conference on Systems, Man and Cybernetics - SMC",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -66038,10 +66038,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 42,
-      "primary_source": null,
+      "primary_source": "2009 Fifth International Conference on Natural Computation",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2009 Fifth International Conference on Natural Computation",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -66658,10 +66658,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2009 Fifth International Conference on Natural Computation",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2009 Fifth International Conference on Natural Computation",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -66862,10 +66862,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2009 Fifth International Conference on Natural Computation",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2009 Fifth International Conference on Natural Computation",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -67176,10 +67176,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2009 Fifth International Conference on Natural Computation",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2009 Fifth International Conference on Natural Computation",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -67409,10 +67409,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 7,
-      "primary_source": null,
+      "primary_source": "Gesture Recognition (FG)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Gesture Recognition (FG)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -71502,10 +71502,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 16,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 40th Annual Hawaii International Conference on System Sciences",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 40th Annual Hawaii International Conference on System Sciences",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -74114,10 +74114,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "International Conference on Networking, International Conference on Systems and International Conference on Mobile Communications and Learning Technologies (ICNICONSMCL'06)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "International Conference on Networking, International Conference on Systems and International Conference on Mobile Communications and Learning Technologies (ICNICONSMCL'06)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -74420,10 +74420,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 39th Annual Hawaii International Conference on System Sciences (HICSS'06)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 39th Annual Hawaii International Conference on System Sciences (HICSS'06)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -75231,10 +75231,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "13th Annual IEEE International Symposium and Workshop on Engineering of Computer-Based Systems (ECBS'06)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "13th Annual IEEE International Symposium and Workshop on Engineering of Computer-Based Systems (ECBS'06)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -77207,10 +77207,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 17,
-      "primary_source": null,
+      "primary_source": "Third ACIS Int'l Conference on Software Engineering Research, Management and Applications (SERA'05)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Third ACIS Int'l Conference on Software Engineering Research, Management and Applications (SERA'05)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -81769,10 +81769,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Asia-Pacific Computer Human Interaction 1998 Meeting",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Asia-Pacific Computer Human Interaction 1998 Meeting",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -83783,10 +83783,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 197,
-      "primary_source": null,
+      "primary_source": "the SIGCHI conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "the SIGCHI conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -84106,10 +84106,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 11,
-      "primary_source": null,
+      "primary_source": "CHI '97 extended abstracts",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "CHI '97 extended abstracts",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,

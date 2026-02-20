@@ -4481,5 +4481,430 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "769a8f4b02247755d03635d78879df90edfdfb23bed975dd76dfc0959aa96aaa": {
+    "paper_id": "https://openalex.org/W3007938835",
+    "title": "Fine-grained Video-Text Retrieval with Hierarchical Graph Reasoning",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.141Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video-text retrieval using hierarchical graph reasoning and embedding techniques, with no mention of emotion, affect, sentiment, or any psychological or affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical/computer vision/NLP-focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "00e23c2d1f562f783e2769e36c780a6ded8caba906dc9e65fbcba9946c6a6491": {
+    "paper_id": "https://openalex.org/W2891852518",
+    "title": "iMakeup: Makeup Instructional Video Dataset for Fine-Grained Dense Video Captioning",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.141Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video captioning for makeup instruction, with no indication of emotion modeling, affective computing, or emotional content analysis.",
+      "evidence": [
+        "Title and concepts are centered on dense video captioning, multimedia, and computer vision—not emotion or affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "64365d7dac106b8c4929cff9605d4f207b60c5fbe68efcebad1f977d05e39955": {
+    "paper_id": "https://openalex.org/W3170929029",
+    "title": "Pre-Trained Models: Past, Present and Future",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.147Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on pre-trained models in AI, covering architecture, efficiency, and theory—no mention of emotion, affect, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical AI/ML topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4decf26ce34ebd408ef29a57f119b01ccf2a865fe90c8bb31a359c4e4c81a29c": {
+    "paper_id": "https://openalex.org/W2952674961",
+    "title": "Generating Video Descriptions with Topic Guidance",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.204Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video captioning with topic modeling and language generation; no mention of emotion, affect, sentiment, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain no emotion-related terms or affective computing elements."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "43d33308eb366a78e8ac446264c28081c6647e8ec79a93a96284be1375c45713": {
+    "paper_id": "https://openalex.org/W3093669695",
+    "title": "Sequence-to-sequence Singing Voice Synthesis with Perceptual Entropy Loss",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.209Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on singing voice synthesis and perceptual entropy loss derived from psycho-acoustics, not human emotion or affective states.",
+      "evidence": [
+        "Perceptual Entropy loss is based on a psycho-acoustic hearing model, not emotion modeling or affective computing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3a2b36f4f61c08ba4f9c7b6d951d258a84901d8154b9f7452f8bcc2f70bb033d": {
+    "paper_id": "https://openalex.org/W2946928227",
+    "title": "From Words to Sentences: A Progressive Learning Approach for Zero-resource Machine Translation with Visual Pivots",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.214Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on zero-resource machine translation using visual pivots and progressive learning; no mention of emotion, affect, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are in AI, NLP, and computer vision."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5c140953a1ec79a6ff48a7b48ec7dd835d78ffb724fe65d8e407b943e5d2bfe4": {
+    "paper_id": "https://openalex.org/W2899482754",
+    "title": "Session details: Deep-3 (Image Processing-Inpainting, Super-Resolution, Deblurring)",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.311Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on low-level computer vision tasks (inpainting, super-resolution, deblurring) with no mention or conceptual link to emotion or affective science.",
+      "evidence": [
+        "Concepts include only technical computer vision terms; 'emotion' does not appear in title, venue, concepts, or metadata."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "09a8758b74989ccdc43d925d8ab868b4e2b3efdc4c771299d61101fd6ffa9928": {
+    "paper_id": "https://openalex.org/W3189744569",
+    "title": "Question-controlled Text-aware Image Captioning",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.317Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on question-controlled, text-aware image captioning — a multimodal NLP/vision task — with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper abstract and concepts contain no emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "469d2eb04dc5c27df0b64193a68ca82cdbe95e5d7b40c972fdde1aabc5bed242": {
+    "paper_id": "https://openalex.org/W2951693736",
+    "title": "Adaptive Tag Selection for Image Annotation",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.318Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on adaptive tag selection for image annotation, with no mention of emotion, affect, sentiment, or any psychological or affective constructs.",
+      "evidence": [
+        "Concepts include Computer science, Annotation, Image (mathematics), Information retrieval — all technical/computer vision topics; abstract contains no emotion-related terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "270314b6ee4e9e9ca204a98fd2a148e20c47929aee7931dbd9df508457e24f96": {
+    "paper_id": "https://openalex.org/W3008585839",
+    "title": "Say As You Wish: Fine-grained Control of Image Caption Generation with Abstract Scene Graphs",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.384Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on controllable image caption generation using abstract scene graphs; no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Interest topics are 'emotion', but the paper's concepts and abstract center on computer vision, graph-based controllability, and semantics—not affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5c44a51b9aadbec73ca7cf85a4473f12df8544cebce2bf686c1627fbfdd32ba4": {
+    "paper_id": "https://openalex.org/W3194670101",
+    "title": "Product-oriented Machine Translation with Cross-modal Cross-lingual Pre-training",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.389Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on product-oriented machine translation using cross-modal (text+image) and cross-lingual pre-training; no mention of emotion, affective states, sentiment, or psychological constructs related to emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are technical NLP/computer vision terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c92df345a13671b545a511a04f3d5d8530463ea7fbb12adb87225e4712c98ab7": {
+    "paper_id": "https://openalex.org/W2951981074",
+    "title": "Detecting Violence in Video using Subclasses",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.410Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on violence detection in videos using subclass-based feature generalization and fusion, with no mention of emotion modeling, affective computing, or psychological/subjective emotional states.",
+      "evidence": [
+        "Abstract emphasizes motion features, dataset annotation, and AI fusion—no reference to emotion, affect, sentiment, or human emotional response."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b0832e35ace27a709181d4e821f044db317ae566f7a00af924e374419a62e2bf": {
+    "paper_id": "https://openalex.org/W3060039189",
+    "title": "Context-aware Goodness of Pronunciation for Computer-Assisted Pronunciation Training",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.441Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical improvements to pronunciation scoring in CAPT systems, with no mention of emotion, affective states, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "All concepts and the abstract center on acoustic modeling, phoneme transitions, duration modeling, and mispronunciation detection—none relate to emotion or affective computing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6b8543ff98712153710bf1b800f71287f72951bb02274e3c5212bc84c2f23a57": {
+    "paper_id": "https://openalex.org/W3168754461",
+    "title": "Towards Diverse Paragraph Captioning for Untrimmed Videos",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.444Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video paragraph captioning, temporal attention, and diversity in natural language generation for untrimmed videos; no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper concepts and abstract contain no emotion-related terms or affective modeling objectives."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3804812504fd41c61fae41fc070be34a8b2279414a4380b5ed6ef4ad1ead21dd": {
+    "paper_id": "https://openalex.org/W2968911761",
+    "title": "Unpaired Cross-lingual Image Caption Generation with Self-Supervised Rewards",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.449Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unpaired cross-lingual image caption generation using self-supervised rewards for fluency and visual relevancy; no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, valence, arousal, or human emotional response."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c473be326c0e14d44f002014883625e350719ccc2bc88e65d39aae055be126f5": {
+    "paper_id": "https://openalex.org/W3199829362",
+    "title": "Survey: Transformer based Video-Language Pre-training",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.453Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on transformer-based video-language pre-training, with no mention of emotion, affective computing, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, or human emotional states; all concepts are technical and centered on architecture, pre-training paradigms, and multimodal AI."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2886310792eae580ca8edfd255e40cef70d0c9a4f79177376028a3e0a8a3e338": {
+    "paper_id": "https://openalex.org/W2950280607",
+    "title": "Unsupervised Bilingual Lexicon Induction from Mono-lingual Multimodal Data",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.496Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unsupervised bilingual lexicon induction using multimodal (image + caption) data, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; concepts are centered on NLP, AI, lexicons, and multimodal representation."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d2056e25c94874cdbf30df14b136b7d27469da8ca57884abb906c817e028bfee": {
+    "paper_id": "https://openalex.org/W2949628562",
+    "title": "Video Captioning with Guidance of Multimodal Latent Topics",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.532Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video captioning using multimodal topic modeling and does not address emotion, affect, or any affective/emotional constructs.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper concepts and abstract contain no emotion-related terms (e.g., sentiment, affect, valence, arousal, emotion recognition, mood, psychological state)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "db836ca0ff1d7b2eceb8a93a426cacb78ba58a5f9ec07487041d69a11c6d51ac": {
+    "paper_id": "https://openalex.org/W2346786930",
+    "title": "Improving Image Captioning by Concept-based Sentence Reranking",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.601Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on image captioning using concept-based sentence reranking and does not address emotion, affect, or any affective computing concepts.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper concepts include 'Closed captioning', 'CNN-LSTM', 'METEOR', 'Flickr annotations' — all technical NLP/vision, no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1470e4ebf58c7347fa810d365bd6295d448cbd5ef18d76225c618745fd2136e3": {
+    "paper_id": "https://openalex.org/W3035385157",
+    "title": "Better Captioning with Sequence-Level Exploration",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:40.883Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sequence-level optimization for captioning tasks, addressing precision-recall trade-offs in AI-generated captions; no mention or conceptual link to emotion, affect, or affective computing.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper concepts include 'Closed captioning', 'Artificial intelligence', 'Machine learning', and evaluation metrics like 'Precision and recall'—all unrelated to affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6b9dea20d9e4de8b005f7a594ec6bfe1569cb6f5750b5b2557c3ad8dc3e9bf57": {
+    "paper_id": "https://openalex.org/W3178830508",
+    "title": "MMGCN: Multimodal Fusion via Deep Graph Convolution Network for Emotion Recognition in Conversation",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:42.219Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on emotion recognition in conversation, aligning directly with the researcher's interest topic 'emotion'; it is situated in affective computing and employs multimodal AI techniques to model emotional states in dialogue.",
+      "evidence": [
+        "Title contains 'Emotion Recognition in Conversation'",
+        "Abstract states: 'Emotion recognition in conversation (ERC) is a crucial component in affective dialogue systems'",
+        "Researcher's interest topic is 'emotion'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "affective computing",
+        "multimodal fusion",
+        "graph convolutional network",
+        "dialogue systems",
+        "ERC"
+      ],
+      "research_directions": [
+        "affective dialogue systems",
+        "multimodal emotion modeling",
+        "graph-based representation learning for emotion",
+        "speaker-aware emotion dynamics in conversation"
+      ]
+    }
+  },
+  "cb5664c3c3dfc51479e321694e4e8d2f6415b70415eeb10c6895f44a9f114e92": {
+    "paper_id": "https://openalex.org/W2952189695",
+    "title": "Multi-modal Conditional Attention Fusion for Dimensional Emotion Prediction",
+    "researcher_name": "Qin Jin",
+    "researcher_openalex_author_id": "A5009985839",
+    "updated_at": "2026-02-20T20:39:42.263Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses dimensional emotion prediction—a core affective computing task—and explicitly uses 'emotion' in its title and abstract; the proposed method (conditional attention fusion) is designed specifically for continuous emotion modeling.",
+      "evidence": [
+        "Title contains 'Dimensional Emotion Prediction'",
+        "Abstract states 'Continuous dimensional emotion prediction is a challenging task'",
+        "Uses AVEC2015 benchmark, a standard dataset for audio-visual emotion recognition"
+      ],
+      "keywords": [
+        "dimensional emotion",
+        "multi-modal fusion",
+        "valence prediction",
+        "LSTM-RNN",
+        "conditional attention",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion recognition",
+        "deep learning for emotion modeling",
+        "temporal emotion dynamics",
+        "attention mechanisms in affective AI"
+      ]
+    }
   }
 }

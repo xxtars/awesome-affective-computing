@@ -51,48 +51,48 @@
         "weight": 0.59
       }
     ],
-    "trend_summary": "Dong Zhang's research bridges affective science and applied AI, with a strong emphasis on multimodal (text, speech, physiological) emotion modeling and its real-world implications—from consumer behavior in hospitality and marketing to agricultural livelihood decisions in rural China. Early work centers on NLP-driven sentiment/emotion detection using attention, GNNs, and fuzzy logic; recent work expands into preference-aligned expressive speech generation and psychological mechanisms of poverty traps, indicating a maturing trajectory from technical affective modeling toward human-centered, domain-grounded affective intelligence.",
+    "trend_summary": "Dong Zhang's research centers on the intersection of affective science and AI-driven decision systems, with a strong longitudinal emphasis on multimodal emotion analysis—spanning text, speech, and physiological signals—and its application in real-world domains including marketing, rural development, and human-centered AI. Early work established foundations in fuzzy and computational sentiment modeling for decision support; mid-career contributions advanced graph- and attention-based multimodal emotion recognition; recent work expands into affective speech alignment, neuromarketing, and socio-economic implications of emotional mechanisms in poverty and agriculture—reflecting a convergent trend toward context-aware, human-aligned affective intelligence.",
     "representative_papers": [
       {
         "title": "Joint Multi-modal Aspect-Sentiment Analysis with Auxiliary Cross-modal Relation Detection",
-        "why": "Highly cited foundational work integrating vision, text, and audio for fine-grained affective understanding; exemplifies cross-modal integration and aspect-level sentiment modeling."
+        "why": "Highly cited (122) foundational paper integrating cross-modal affective signals with fine-grained aspect-level sentiment, exemplifying core methodology and impact."
       },
       {
         "title": "Modeling both Context- and Speaker-Sensitive Dependence for Emotion Detection in Multi-speaker Conversations",
-        "why": "Seminal contribution to speaker-aware, context-sensitive emotion detection in dialogue using graph neural networks—core to his NLP-affect pipeline."
+        "why": "Most cited paper (210) introducing speaker-aware, graph-based emotion modeling in dialogue—seminal for conversational affective computing."
       },
       {
         "title": "Psychological Poverty Traps in Rural Farm Households: Implications for Sustainable Agricultural Development and Rural Revitalization in China",
-        "why": "Represents his emerging interdisciplinary direction linking affective mechanisms (stress, emotion regulation) to socioeconomic development and policy-relevant behavioral traps."
+        "why": "Represents newest interdisciplinary expansion—bridging affective mechanisms with behavioral economics and rural policy, signaling strategic domain diversification."
       },
       {
         "title": "SpeechAlign: Aligning Speech Generation to Human Preferences",
-        "why": "Flagship 2024 work bridging affective speech synthesis with human-centered evaluation—demonstrates shift toward preference-aligned, expressive generative AI."
+        "why": "Flagship 2024 work on affective speech synthesis and preference-based prosody modeling, highlighting shift toward human-centered expressive AI evaluation."
       },
       {
         "title": "A Review of Data-Driven Techniques for Neuromarketing",
-        "why": "Synthesizes affective computing applications in marketing, highlighting neural/physiological emotion decoding—key for translational affective AI."
+        "why": "Synthesizes affective computing with neural/physiological data in marketing—a key integrative survey framing emerging applications in consumer neuroscience."
       },
       {
         "title": "The role of key online reviews in affecting online hotel booking: an empirical investigation",
-        "why": "Early high-impact empirical study linking review sentiment to real-world consumer behavior—anchors his affective decision-making line."
+        "why": "Early high-impact (32 citations) empirical study linking affective review content to behavioral outcomes in hospitality, anchoring applied affective decision research."
       },
       {
         "title": "Multi-modal Multi-label Emotion Recognition with Heterogeneous Hierarchical Message Passing",
-        "why": "Introduces graph-based dependency modeling for partial time-series emotion recognition—technical innovation in multimodal affective architecture."
+        "why": "Pioneering graph-based dependency modeling for partial time-series emotion recognition—technically influential in multimodal affective architectures."
       },
       {
         "title": "An extended TODIM method to rank products with online reviews under intuitionistic fuzzy environment",
-        "why": "Pioneering fusion of fuzzy logic, sentiment analysis, and multi-criteria decision theory—foundational for his affective recommender systems work."
+        "why": "Foundational contribution to fuzzy affective reasoning in recommender systems, establishing early methodological rigor in emotion-aware decision modeling."
       }
     ]
   },
   "stats": {
     "analyzed_works_count": 103,
     "interesting_works_count": 12,
-    "new_works_count": 57,
+    "new_works_count": 1,
     "deduped_works_count": 103,
-    "ai_called_count": 57,
+    "ai_called_count": 1,
     "summary_recomputed": true
   },
   "works": [
@@ -243,10 +243,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2025 23rd International Conference on Optical Communications and Networks (ICOCN)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2025 23rd International Conference on Optical Communications and Networks (ICOCN)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -797,10 +797,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2025 62nd ACM/IEEE Design Automation Conference (DAC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2025 62nd ACM/IEEE Design Automation Conference (DAC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -958,10 +958,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -1302,10 +1302,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "Findings of the Association for Computational Linguistics: NAACL 2025",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Findings of the Association for Computational Linguistics: NAACL 2025",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -2458,10 +2458,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2024 International Conference on Intelligent Robotics and Automatic Control (IRAC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 International Conference on Intelligent Robotics and Automatic Control (IRAC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -2864,10 +2864,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "International Conference on Advanced Image Processing Technology (AIPT 2024)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "International Conference on Advanced Image Processing Technology (AIPT 2024)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -3551,10 +3551,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Copernicus GmbH",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Copernicus GmbH",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -4203,10 +4203,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Copernicus GmbH",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Copernicus GmbH",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -4607,10 +4607,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Advances in Neural Information Processing Systems 37",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Advances in Neural Information Processing Systems 37",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -4680,10 +4680,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 19,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -4885,10 +4885,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 31,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6490,10 +6490,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 7,
-      "primary_source": null,
+      "primary_source": "2023 International Conference on Robotics and Automation in Industry (ICRAI)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2023 International Conference on Robotics and Automation in Industry (ICRAI)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6778,10 +6778,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 14,
-      "primary_source": null,
+      "primary_source": "Findings of the Association for Computational Linguistics: ACL 2023",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Findings of the Association for Computational Linguistics: ACL 2023",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -7858,10 +7858,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "International Heat Transfer Conference 17",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "International Heat Transfer Conference 17",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -8318,10 +8318,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2022 China Automation Congress (CAC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2022 China Automation Congress (CAC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -8634,10 +8634,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "International Conference on Cloud Computing, Performance Computing, and Deep Learning (CCPCDL 2022)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "International Conference on Cloud Computing, Performance Computing, and Deep Learning (CCPCDL 2022)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -13405,10 +13405,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2020 3rd International Conference on Control and Robots (ICCR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2020 3rd International Conference on Control and Robots (ICCR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -14026,10 +14026,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 60,
-      "primary_source": null,
+      "primary_source": "MM '20: The 28th ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '20: The 28th ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -14378,10 +14378,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2020 4th International Conference on Automation, Control and Robots (ICACR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2020 4th International Conference on Automation, Control and Robots (ICACR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -15261,10 +15261,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 9,
-      "primary_source": null,
+      "primary_source": "2019 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -16303,10 +16303,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 210,
-      "primary_source": null,
+      "primary_source": "Twenty-Eighth International Joint Conference on Artificial Intelligence {IJCAI-19}",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Twenty-Eighth International Joint Conference on Artificial Intelligence {IJCAI-19}",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -16673,10 +16673,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 9,
-      "primary_source": null,
+      "primary_source": "2019 IEEE International Conference on Multimedia and Expo (ICME)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 IEEE International Conference on Multimedia and Expo (ICME)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -22288,10 +22288,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2009 IEEE 8th International Conference on ASIC (ASICON)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2009 IEEE 8th International Conference on ASIC (ASICON)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -22851,10 +22851,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 90,
-      "primary_source": null,
+      "primary_source": "KDD08: The 14th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "KDD08: The 14th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -23209,10 +23209,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2008 International Conference on Electronic Packaging Technology &amp; High Density Packaging (ICEPT-HDP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2008 International Conference on Electronic Packaging Technology &amp; High Density Packaging (ICEPT-HDP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -23672,10 +23672,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "Multimedia and Expo, 2007 IEEE International Conference on",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Multimedia and Expo, 2007 IEEE International Conference on",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -24908,10 +24908,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 80,
-      "primary_source": null,
+      "primary_source": "2004 Conference on Computer Vision and Pattern Recognition Workshop",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2004 Conference on Computer Vision and Pattern Recognition Workshop",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -25240,10 +25240,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 20,
-      "primary_source": null,
+      "primary_source": "Proceedings 27th Annual International Computer Software and Applications Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings 27th Annual International Computer Software and Applications Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,

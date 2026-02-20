@@ -19,7 +19,7 @@
   "topic_summary": {
     "top_research_directions": [
       {
-        "name": "Cross-domain/cross-corpus emotion recognition",
+        "name": "Cross-domain and cross-corpus emotion recognition",
         "weight": 1
       },
       {
@@ -32,67 +32,67 @@
       },
       {
         "name": "Multimodal emotion analysis (audio-visual-physiological)",
-        "weight": 0.92
+        "weight": 0.93
       },
       {
         "name": "Robust and generalizable affective feature learning",
-        "weight": 0.89
+        "weight": 0.91
       },
       {
         "name": "Clinical affective computing for mental health assessment",
-        "weight": 0.86
+        "weight": 0.89
       },
       {
-        "name": "Graph neural networks for affective signal modeling",
-        "weight": 0.83
+        "name": "Affective speech processing (SER, emotional voice conversion)",
+        "weight": 0.87
       },
       {
-        "name": "Privacy-preserving and federated affective AI",
-        "weight": 0.78
+        "name": "Graph-based modeling of affective signals (GNNs for EEG/facial/AU)",
+        "weight": 0.85
       }
     ],
-    "trend_summary": "Wenming Zheng's research centers on robust, generalizable, and clinically meaningful affective computing—spanning speech, facial, physiological (especially EEG/fNIRS), and multimodal signals. A dominant theme is overcoming domain shift (cross-corpus, cross-speaker, cross-database, cross-view) via advanced domain adaptation, transfer learning, and invariant representation learning. His group pioneers graph-based deep models for neurophysiological emotion decoding, especially dynamic and adaptive GNNs for EEG. There is strong emphasis on subtle, real-world, and privacy-sensitive scenarios: micro-expressions 'in the wild', incomplete/noisy multimodal data, federated learning for behavioral biometrics, and clinical applications like depression and ASD screening. Methodologically, the work bridges neuroscience-inspired modeling (e.g., hemispheric asymmetry, causal graphs), interpretable deep learning, and practical AI constraints (e.g., zero-shot, source-free, unsupervised adaptation).",
+    "trend_summary": "Wenming Zheng's research centers on robust, generalizable, and clinically relevant affective computing—spanning signal processing, deep learning, and neuroscience. A dominant theme is overcoming domain shift across datasets, speakers, modalities, and populations (e.g., infants, elderly, ASD), achieved via advanced domain adaptation, transfer learning, and invariant representation learning. There is strong emphasis on physiological signals—especially EEG—with pioneering use of graph neural networks to model brain connectivity dynamics. Micro-expression recognition emerges as a signature niche, focusing on subtle, spontaneous, and real-world cues using magnification-aware, sparse, and uncertainty-aware architectures. Multimodality (audio-visual-physiological-fNIRS) and clinical translation (depression, autism, elderly mental health) are consistently integrated. Recent work increasingly incorporates privacy-preserving AI (federated learning), controllable generation (emotion intensity, voice conversion), and group-level/context-aware emotion modeling.",
     "representative_papers": [
       {
         "title": "EEG Emotion Recognition Using Dynamical Graph Convolutional Neural Networks",
-        "why": "Highly cited foundational paper (1377 citations) introducing dynamic graph CNNs for EEG—establishing a core methodological direction in his lab."
+        "why": "Highly cited foundational paper (1377 citations) introducing dynamic GNNs for EEG, establishing Zheng's leadership in neuroaffective graph modeling."
       },
       {
         "title": "GMSS: Graph-Based Multi-Task Self-Supervised Learning for EEG Emotion Recognition",
-        "why": "Landmark self-supervised framework (170 citations) enabling generalizable, label-efficient EEG emotion decoding—exemplifies his shift toward scalable, neurobiologically grounded pretraining."
+        "why": "Landmark self-supervised approach (170 citations) enabling generalizable, label-efficient EEG emotion decoding—exemplifies shift toward scalable, data-efficient neuroaffective AI."
       },
       {
-        "title": "Towards Federated Learning Driving Technology for Privacy-Preserving Micro-Expression Recognition",
-        "why": "Represents emerging focus on ethical, decentralized affective AI (9 citations, highest among federated papers), addressing real-world deployment constraints."
+        "title": "A Novel Bi-Hemispheric Discrepancy Model for EEG Emotion Recognition",
+        "why": "Seminal neuroscience-inspired architecture (326 citations) modeling hemispheric asymmetry, bridging computational models with affective neuroscience principles."
+      },
+      {
+        "title": "Progressive graph convolution network for EEG emotion recognition",
+        "why": "Highly influential (72 citations) progressive GNN framework demonstrating architectural innovation in spatiotemporal brain signal decoding."
       },
       {
         "title": "NaME: A Natural Micro-expression Dataset for Micro-expression Recognition in the Wild",
-        "why": "Introduces a major new benchmark (2025) targeting ecological validity—signaling strategic investment in naturalistic, context-aware affect datasets."
+        "why": "Represents strategic move toward ecological validity—introducing a large-scale, naturalistic micro-expression benchmark addressing long-standing 'lab vs. wild' gaps."
+      },
+      {
+        "title": "Towards Federated Learning Driving Technology for Privacy-Preserving Micro-Expression Recognition",
+        "why": "Highlights growing focus on ethical AI—applying federated learning to sensitive behavioral biometrics, balancing performance with privacy."
       },
       {
         "title": "Multi-Level Segment Fusion Based on Adaptive Time-Window Selection for Multimodal Personality-Aware Elderly Depression Detection",
-        "why": "Embodies clinical translation focus: multimodal, time-adaptive fusion for gerontechnology and mental health—integrating personality, behavior, and physiology."
+        "why": "Exemplifies clinical translation: integrating multimodal sensing, adaptive temporal modeling, and gerontechnology for real-world mental health screening."
       },
       {
         "title": "Speech Swin-Transformer: Exploring a Hierarchical Transformer with Shifted Windows for Speech Emotion Recognition",
-        "why": "Most cited recent SER paper (30 citations) showing adoption of modern architectures while retaining domain-specific design (hierarchical, temporal), reflecting methodological evolution."
-      },
-      {
-        "title": "Dynamical Causal Graph Neural Network for EEG Emotion Recognition",
-        "why": "Bridges causality and dynamics in neuroaffective modeling (1 citation but high conceptual novelty), indicating frontier exploration beyond correlation-based GNNs."
-      },
-      {
-        "title": "MaskFusionNet: A Dual-Stream Fusion Model With Masked Pre-Training Mechanism for rPPG Measurement",
-        "why": "Highlights expansion into contactless physiological sensing (16 citations, highest among rPPG papers), extending affective signal modalities beyond EEG/speech/faces."
+        "why": "Demonstrates methodological evolution—adopting vision-inspired transformers for speech, achieving high impact (30 citations) in SER architecture design."
       }
     ]
   },
   "stats": {
     "analyzed_works_count": 295,
     "interesting_works_count": 190,
-    "new_works_count": 250,
+    "new_works_count": 10,
     "deduped_works_count": 295,
-    "ai_called_count": 250,
+    "ai_called_count": 10,
     "summary_recomputed": true
   },
   "works": [
@@ -253,10 +253,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '25: The 33rd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '25: The 33rd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -367,10 +367,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '25: The 33rd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '25: The 33rd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -472,10 +472,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '25: The 33rd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '25: The 33rd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -840,10 +840,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Springer Science and Business Media LLC",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Springer Science and Business Media LLC",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -1058,10 +1058,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "openRxiv",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "openRxiv",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -1276,10 +1276,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2025 International Joint Conference on Neural Networks (IJCNN)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2025 International Joint Conference on Neural Networks (IJCNN)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -2894,10 +2894,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -3160,10 +3160,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6536,10 +6536,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "Interspeech 2024",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Interspeech 2024",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6694,10 +6694,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "Interspeech 2024",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Interspeech 2024",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6905,10 +6905,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "Interspeech 2024",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Interspeech 2024",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -8215,10 +8215,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2024 IEEE International Conference on Multimedia and Expo (ICME)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE International Conference on Multimedia and Expo (ICME)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -10265,266 +10265,6 @@
       }
     },
     {
-      "id": "https://openalex.org/W4392902646",
-      "openalex_url": "https://openalex.org/W4392902646",
-      "title": "Speech Swin-Transformer: Exploring a Hierarchical Transformer with Shifted Windows for Speech Emotion Recognition",
-      "publication_year": 2024,
-      "publication_date": "2024-03-18",
-      "doi": "https://doi.org/10.1109/icassp48485.2024.10447726",
-      "doi_url": "https://doi.org/10.1109/icassp48485.2024.10447726",
-      "type": "article",
-      "type_crossref": null,
-      "language": "en",
-      "is_retracted": false,
-      "is_paratext": false,
-      "cited_by_count": 30,
-      "primary_source": null,
-      "source": {
-        "id": null,
-        "display_name": null,
-        "type": null,
-        "issn_l": null,
-        "is_in_doaj": null,
-        "host_organization_name": null,
-        "host_organization_lineage_names": []
-      },
-      "links": {
-        "openalex": "https://openalex.org/W4392902646",
-        "landing_page": "https://doi.org/10.1109/icassp48485.2024.10447726",
-        "pdf": null,
-        "primary_topic_openalex": "https://openalex.org/T10667",
-        "source_openalex": null
-      },
-      "concepts": [
-        "Computer science",
-        "Transformer",
-        "Speech recognition",
-        "Spectrogram",
-        "Phrase",
-        "Utterance",
-        "Artificial intelligence",
-        "Natural language processing"
-      ],
-      "abstract": "Swin-Transformer has demonstrated remarkable success in computer vision by leveraging its hierarchical feature representation based on Transformer. In speech signals, emotional information is distributed across different scales of speech features, e. g., word, phrase, and utterance. Drawing above inspiration, this paper presents a hierarchical speech Transformer with shifted windows to aggregate multi-scale emotion features for speech emotion recognition (SER), called Speech Swin-Transformer. Specifically, we first divide the speech spectrogram into segment-level patches in the time domain, composed of multiple frame patches. These segment-level patches are then encoded using a stack of Swin blocks, in which a local window Transformer is utilized to explore local inter-frame emotional information across frame patches of each segment patch. After that, we also design a shifted window Transformer to compensate for patch correlations near the boundaries of segment patches. Finally, we employ a patch merging operation to aggregate segment-level emotional features for hierarchical speech representation by expanding the receptive field of Transformer from frame-level to segment-level. Experimental results demonstrate that our proposed Speech Swin-Transformer outperforms the state-of-the-art methods.",
-      "openalex_analysis": {
-        "primary_topic": {
-          "id": "https://openalex.org/T10667",
-          "name": "Emotion and Mood Recognition",
-          "score": 0.9998999834060669,
-          "subfield": "Experimental and Cognitive Psychology",
-          "field": "Psychology",
-          "domain": "Social Sciences"
-        },
-        "topics": [
-          {
-            "id": "https://openalex.org/T10667",
-            "name": "Emotion and Mood Recognition",
-            "score": 0.9998999834060669,
-            "subfield": "Experimental and Cognitive Psychology",
-            "field": "Psychology",
-            "domain": "Social Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10860",
-            "name": "Speech and Audio Processing",
-            "score": 0.9993000030517578,
-            "subfield": "Signal Processing",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10201",
-            "name": "Speech Recognition and Synthesis",
-            "score": 0.9970999956130981,
-            "subfield": "Artificial Intelligence",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "concepts": [
-          {
-            "id": "https://openalex.org/C41008148",
-            "name": "Computer science",
-            "score": 0.6757718920707703,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C66322947",
-            "name": "Transformer",
-            "score": 0.6397209167480469,
-            "level": 3
-          },
-          {
-            "id": "https://openalex.org/C28490314",
-            "name": "Speech recognition",
-            "score": 0.5934776663780212,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C45273575",
-            "name": "Spectrogram",
-            "score": 0.4195645749568939,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C2776224158",
-            "name": "Phrase",
-            "score": 0.4153633415699005,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C2775852435",
-            "name": "Utterance",
-            "score": 0.4141841232776642,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C154945302",
-            "name": "Artificial intelligence",
-            "score": 0.3959954082965851,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C204321447",
-            "name": "Natural language processing",
-            "score": 0.3295133113861084,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C153180895",
-            "name": "Pattern recognition (psychology)",
-            "score": 0.32888320088386536,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C127413603",
-            "name": "Engineering",
-            "score": 0.18227988481521606,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C165801399",
-            "name": "Voltage",
-            "score": 0,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C119599485",
-            "name": "Electrical engineering",
-            "score": 0,
-            "level": 1
-          }
-        ],
-        "keywords": [
-          {
-            "id": "https://openalex.org/keywords/computer-science",
-            "name": "Computer science",
-            "score": 0.6757718920707703
-          },
-          {
-            "id": "https://openalex.org/keywords/transformer",
-            "name": "Transformer",
-            "score": 0.6397209167480469
-          },
-          {
-            "id": "https://openalex.org/keywords/speech-recognition",
-            "name": "Speech recognition",
-            "score": 0.5934776663780212
-          },
-          {
-            "id": "https://openalex.org/keywords/spectrogram",
-            "name": "Spectrogram",
-            "score": 0.4195645749568939
-          },
-          {
-            "id": "https://openalex.org/keywords/phrase",
-            "name": "Phrase",
-            "score": 0.4153633415699005
-          },
-          {
-            "id": "https://openalex.org/keywords/utterance",
-            "name": "Utterance",
-            "score": 0.4141841232776642
-          },
-          {
-            "id": "https://openalex.org/keywords/artificial-intelligence",
-            "name": "Artificial intelligence",
-            "score": 0.3959954082965851
-          },
-          {
-            "id": "https://openalex.org/keywords/natural-language-processing",
-            "name": "Natural language processing",
-            "score": 0.3295133113861084
-          },
-          {
-            "id": "https://openalex.org/keywords/pattern-recognition",
-            "name": "Pattern recognition (psychology)",
-            "score": 0.32888320088386536
-          },
-          {
-            "id": "https://openalex.org/keywords/engineering",
-            "name": "Engineering",
-            "score": 0.18227988481521606
-          }
-        ],
-        "sustainable_development_goals": [],
-        "open_access": {
-          "is_oa": false,
-          "oa_status": "closed",
-          "oa_url": null,
-          "any_repository_has_fulltext": false
-        },
-        "citation_normalized_percentile": {
-          "value": 0.99438847,
-          "is_in_top_1_percent": true,
-          "is_in_top_10_percent": true
-        },
-        "fwci": 32.89312753,
-        "counts_by_year": [
-          {
-            "year": 2026,
-            "cited_by_count": 1
-          },
-          {
-            "year": 2025,
-            "cited_by_count": 19
-          },
-          {
-            "year": 2024,
-            "cited_by_count": 10
-          }
-        ],
-        "institutions_distinct_count": 7,
-        "countries_distinct_count": 3,
-        "referenced_works_count": 24
-      },
-      "analysis": {
-        "is_interesting": true,
-        "relevance_score": 0.95,
-        "confidence": 0.98,
-        "reason": "The paper explicitly focuses on speech emotion recognition (SER), directly aligning with the researcher's interest topic 'emotion'. The method is designed to model multi-scale emotional information in speech signals.",
-        "evidence": [
-          "Speech Emotion Recognition (SER) is the central task",
-          "Aggregates multi-scale emotion features",
-          "Title includes 'Speech Emotion Recognition'"
-        ],
-        "keywords": [
-          "speech emotion recognition",
-          "emotion",
-          "Swin-Transformer",
-          "hierarchical representation",
-          "spectrogram",
-          "multi-scale features"
-        ],
-        "research_directions": [
-          "affective computing",
-          "speech processing for emotion analysis",
-          "transformer architectures for affective signals",
-          "multilevel feature learning in SER"
-        ]
-      }
-    },
-    {
       "id": "https://openalex.org/W4392904630",
       "openalex_url": "https://openalex.org/W4392904630",
       "title": "PAVITS: Exploring Prosody-Aware VITS for End-to-End Emotional Voice Conversion",
@@ -10538,10 +10278,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 9,
-      "primary_source": null,
+      "primary_source": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -10815,6 +10555,528 @@
       }
     },
     {
+      "id": "https://openalex.org/W4392904649",
+      "openalex_url": "https://openalex.org/W4392904649",
+      "title": "Emotion-Aware Contrastive Adaptation Network for Source-Free Cross-Corpus Speech Emotion Recognition",
+      "publication_year": 2024,
+      "publication_date": "2024-03-18",
+      "doi": "https://doi.org/10.1109/icassp48485.2024.10446541",
+      "doi_url": "https://doi.org/10.1109/icassp48485.2024.10446541",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 4,
+      "primary_source": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "source": {
+        "id": null,
+        "display_name": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "type": null,
+        "issn_l": null,
+        "is_in_doaj": null,
+        "host_organization_name": null,
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4392904649",
+        "landing_page": "https://doi.org/10.1109/icassp48485.2024.10446541",
+        "pdf": null,
+        "primary_topic_openalex": "https://openalex.org/T10667",
+        "source_openalex": null
+      },
+      "concepts": [
+        "Computer science",
+        "Adaptation (eye)",
+        "Domain adaptation",
+        "Consistency (knowledge bases)",
+        "Artificial intelligence",
+        "Natural language processing",
+        "Class (philosophy)",
+        "Task (project management)"
+      ],
+      "abstract": "Cross-corpus speech emotion recognition (SER) aims to transfer emotional knowledge from a labeled source corpus to an unlabeled corpus. However, prior methods require access to source data during adaptation, which is unattainable in real-life scenarios due to data privacy protection concerns. This paper tackles a more practical task, namely source-free cross-corpus SER, where a pre-trained source model is adapted to the target domain without access to source data. To address the problem, we propose a novel method called emotion-aware contrastive adaptation network (ECAN). The core idea is to capture local neighborhood information between samples while considering the global class-level adaptation. Specifically, we propose a nearest neighbor contrastive learning to promote local emotion consistency among features of highly similar samples. Furthermore, relying solely on nearest neighborhoods may lead to ambiguous boundaries between clusters. Thus, we incorporate supervised contrastive learning to encourage greater separation between clusters representing different emotions, thereby facilitating improved class-level adaptation. Extensive experiments indicate that our proposed ECAN significantly outperforms state-of-the-art methods under the source-free cross-corpus SER setting on several speech emotion corpora.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T10667",
+          "name": "Emotion and Mood Recognition",
+          "score": 0.9994000196456909,
+          "subfield": "Experimental and Cognitive Psychology",
+          "field": "Psychology",
+          "domain": "Social Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10667",
+            "name": "Emotion and Mood Recognition",
+            "score": 0.9994000196456909,
+            "subfield": "Experimental and Cognitive Psychology",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10664",
+            "name": "Sentiment Analysis and Opinion Mining",
+            "score": 0.996999979019165,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10201",
+            "name": "Speech Recognition and Synthesis",
+            "score": 0.9860000014305115,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.8115919828414917,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C139807058",
+            "name": "Adaptation (eye)",
+            "score": 0.6491377949714661,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2776434776",
+            "name": "Domain adaptation",
+            "score": 0.5673090815544128,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C2776436953",
+            "name": "Consistency (knowledge bases)",
+            "score": 0.5577401518821716,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "name": "Artificial intelligence",
+            "score": 0.5562545657157898,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C204321447",
+            "name": "Natural language processing",
+            "score": 0.5426758527755737,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C2777212361",
+            "name": "Class (philosophy)",
+            "score": 0.4814719259738922,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2780451532",
+            "name": "Task (project management)",
+            "score": 0.4553868770599365,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C28490314",
+            "name": "Speech recognition",
+            "score": 0.39826634526252747,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C95623464",
+            "name": "Classifier (UML)",
+            "score": 0,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C162324750",
+            "name": "Economics",
+            "score": 0,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C121332964",
+            "name": "Physics",
+            "score": 0,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C187736073",
+            "name": "Management",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C120665830",
+            "name": "Optics",
+            "score": 0,
+            "level": 1
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.8115919828414917
+          },
+          {
+            "id": "https://openalex.org/keywords/adaptation",
+            "name": "Adaptation (eye)",
+            "score": 0.6491377949714661
+          },
+          {
+            "id": "https://openalex.org/keywords/domain-adaptation",
+            "name": "Domain adaptation",
+            "score": 0.5673090815544128
+          },
+          {
+            "id": "https://openalex.org/keywords/consistency",
+            "name": "Consistency (knowledge bases)",
+            "score": 0.5577401518821716
+          },
+          {
+            "id": "https://openalex.org/keywords/artificial-intelligence",
+            "name": "Artificial intelligence",
+            "score": 0.5562545657157898
+          },
+          {
+            "id": "https://openalex.org/keywords/natural-language-processing",
+            "name": "Natural language processing",
+            "score": 0.5426758527755737
+          },
+          {
+            "id": "https://openalex.org/keywords/class",
+            "name": "Class (philosophy)",
+            "score": 0.4814719259738922
+          },
+          {
+            "id": "https://openalex.org/keywords/task",
+            "name": "Task (project management)",
+            "score": 0.4553868770599365
+          },
+          {
+            "id": "https://openalex.org/keywords/speech-recognition",
+            "name": "Speech recognition",
+            "score": 0.39826634526252747
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "citation_normalized_percentile": {
+          "value": 0.86980208,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "fwci": 4.38575034,
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 3
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 1
+          }
+        ],
+        "institutions_distinct_count": 7,
+        "countries_distinct_count": 3,
+        "referenced_works_count": 30
+      },
+      "analysis": {
+        "is_interesting": true,
+        "relevance_score": 0.95,
+        "confidence": 0.98,
+        "reason": "The paper is explicitly focused on speech emotion recognition, aligns directly with the researcher's interest topic 'emotion', and introduces an emotion-aware adaptation method for cross-corpus SER.",
+        "evidence": [
+          "Title contains 'Emotion-Aware Contrastive Adaptation Network'",
+          "Abstract centers on 'speech emotion recognition (SER)' and 'emotion consistency'",
+          "Method (ECAN) explicitly models emotional class structure and local emotion consistency"
+        ],
+        "keywords": [
+          "speech emotion recognition",
+          "source-free domain adaptation",
+          "contrastive learning",
+          "emotion-aware modeling",
+          "cross-corpus adaptation"
+        ],
+        "research_directions": [
+          "affective computing",
+          "emotion representation learning",
+          "privacy-preserving affective AI",
+          "unsupervised/semi-supervised emotion recognition"
+        ]
+      }
+    },
+    {
+      "id": "https://openalex.org/W4392902646",
+      "openalex_url": "https://openalex.org/W4392902646",
+      "title": "Speech Swin-Transformer: Exploring a Hierarchical Transformer with Shifted Windows for Speech Emotion Recognition",
+      "publication_year": 2024,
+      "publication_date": "2024-03-18",
+      "doi": "https://doi.org/10.1109/icassp48485.2024.10447726",
+      "doi_url": "https://doi.org/10.1109/icassp48485.2024.10447726",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 30,
+      "primary_source": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "source": {
+        "id": null,
+        "display_name": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "type": null,
+        "issn_l": null,
+        "is_in_doaj": null,
+        "host_organization_name": null,
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4392902646",
+        "landing_page": "https://doi.org/10.1109/icassp48485.2024.10447726",
+        "pdf": null,
+        "primary_topic_openalex": "https://openalex.org/T10667",
+        "source_openalex": null
+      },
+      "concepts": [
+        "Computer science",
+        "Transformer",
+        "Speech recognition",
+        "Spectrogram",
+        "Phrase",
+        "Utterance",
+        "Artificial intelligence",
+        "Natural language processing"
+      ],
+      "abstract": "Swin-Transformer has demonstrated remarkable success in computer vision by leveraging its hierarchical feature representation based on Transformer. In speech signals, emotional information is distributed across different scales of speech features, e. g., word, phrase, and utterance. Drawing above inspiration, this paper presents a hierarchical speech Transformer with shifted windows to aggregate multi-scale emotion features for speech emotion recognition (SER), called Speech Swin-Transformer. Specifically, we first divide the speech spectrogram into segment-level patches in the time domain, composed of multiple frame patches. These segment-level patches are then encoded using a stack of Swin blocks, in which a local window Transformer is utilized to explore local inter-frame emotional information across frame patches of each segment patch. After that, we also design a shifted window Transformer to compensate for patch correlations near the boundaries of segment patches. Finally, we employ a patch merging operation to aggregate segment-level emotional features for hierarchical speech representation by expanding the receptive field of Transformer from frame-level to segment-level. Experimental results demonstrate that our proposed Speech Swin-Transformer outperforms the state-of-the-art methods.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T10667",
+          "name": "Emotion and Mood Recognition",
+          "score": 0.9998999834060669,
+          "subfield": "Experimental and Cognitive Psychology",
+          "field": "Psychology",
+          "domain": "Social Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10667",
+            "name": "Emotion and Mood Recognition",
+            "score": 0.9998999834060669,
+            "subfield": "Experimental and Cognitive Psychology",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10860",
+            "name": "Speech and Audio Processing",
+            "score": 0.9993000030517578,
+            "subfield": "Signal Processing",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10201",
+            "name": "Speech Recognition and Synthesis",
+            "score": 0.9970999956130981,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.6757718920707703,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C66322947",
+            "name": "Transformer",
+            "score": 0.6397209167480469,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C28490314",
+            "name": "Speech recognition",
+            "score": 0.5934776663780212,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C45273575",
+            "name": "Spectrogram",
+            "score": 0.4195645749568939,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2776224158",
+            "name": "Phrase",
+            "score": 0.4153633415699005,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2775852435",
+            "name": "Utterance",
+            "score": 0.4141841232776642,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "name": "Artificial intelligence",
+            "score": 0.3959954082965851,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C204321447",
+            "name": "Natural language processing",
+            "score": 0.3295133113861084,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C153180895",
+            "name": "Pattern recognition (psychology)",
+            "score": 0.32888320088386536,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C127413603",
+            "name": "Engineering",
+            "score": 0.18227988481521606,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C165801399",
+            "name": "Voltage",
+            "score": 0,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C119599485",
+            "name": "Electrical engineering",
+            "score": 0,
+            "level": 1
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.6757718920707703
+          },
+          {
+            "id": "https://openalex.org/keywords/transformer",
+            "name": "Transformer",
+            "score": 0.6397209167480469
+          },
+          {
+            "id": "https://openalex.org/keywords/speech-recognition",
+            "name": "Speech recognition",
+            "score": 0.5934776663780212
+          },
+          {
+            "id": "https://openalex.org/keywords/spectrogram",
+            "name": "Spectrogram",
+            "score": 0.4195645749568939
+          },
+          {
+            "id": "https://openalex.org/keywords/phrase",
+            "name": "Phrase",
+            "score": 0.4153633415699005
+          },
+          {
+            "id": "https://openalex.org/keywords/utterance",
+            "name": "Utterance",
+            "score": 0.4141841232776642
+          },
+          {
+            "id": "https://openalex.org/keywords/artificial-intelligence",
+            "name": "Artificial intelligence",
+            "score": 0.3959954082965851
+          },
+          {
+            "id": "https://openalex.org/keywords/natural-language-processing",
+            "name": "Natural language processing",
+            "score": 0.3295133113861084
+          },
+          {
+            "id": "https://openalex.org/keywords/pattern-recognition",
+            "name": "Pattern recognition (psychology)",
+            "score": 0.32888320088386536
+          },
+          {
+            "id": "https://openalex.org/keywords/engineering",
+            "name": "Engineering",
+            "score": 0.18227988481521606
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "citation_normalized_percentile": {
+          "value": 0.99438847,
+          "is_in_top_1_percent": true,
+          "is_in_top_10_percent": true
+        },
+        "fwci": 32.89312753,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 1
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 19
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 10
+          }
+        ],
+        "institutions_distinct_count": 7,
+        "countries_distinct_count": 3,
+        "referenced_works_count": 24
+      },
+      "analysis": {
+        "is_interesting": true,
+        "relevance_score": 0.95,
+        "confidence": 0.98,
+        "reason": "The paper explicitly focuses on speech emotion recognition (SER), directly aligning with the researcher's interest topic 'emotion'. The method is designed to model multi-scale emotional information in speech signals.",
+        "evidence": [
+          "Speech Emotion Recognition (SER) is the central task",
+          "Aggregates multi-scale emotion features",
+          "Title includes 'Speech Emotion Recognition'"
+        ],
+        "keywords": [
+          "speech emotion recognition",
+          "emotion",
+          "Swin-Transformer",
+          "hierarchical representation",
+          "spectrogram",
+          "multi-scale features"
+        ],
+        "research_directions": [
+          "affective computing",
+          "speech processing for emotion analysis",
+          "transformer architectures for affective signals",
+          "multilevel feature learning in SER"
+        ]
+      }
+    },
+    {
       "id": "https://openalex.org/W4392904575",
       "openalex_url": "https://openalex.org/W4392904575",
       "title": "Improving Speaker-Independent Speech Emotion Recognition using Dynamic Joint Distribution Adaptation",
@@ -10828,10 +11090,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 7,
-      "primary_source": null,
+      "primary_source": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -11180,10 +11442,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -11380,268 +11642,6 @@
       }
     },
     {
-      "id": "https://openalex.org/W4392904649",
-      "openalex_url": "https://openalex.org/W4392904649",
-      "title": "Emotion-Aware Contrastive Adaptation Network for Source-Free Cross-Corpus Speech Emotion Recognition",
-      "publication_year": 2024,
-      "publication_date": "2024-03-18",
-      "doi": "https://doi.org/10.1109/icassp48485.2024.10446541",
-      "doi_url": "https://doi.org/10.1109/icassp48485.2024.10446541",
-      "type": "article",
-      "type_crossref": null,
-      "language": "en",
-      "is_retracted": false,
-      "is_paratext": false,
-      "cited_by_count": 4,
-      "primary_source": null,
-      "source": {
-        "id": null,
-        "display_name": null,
-        "type": null,
-        "issn_l": null,
-        "is_in_doaj": null,
-        "host_organization_name": null,
-        "host_organization_lineage_names": []
-      },
-      "links": {
-        "openalex": "https://openalex.org/W4392904649",
-        "landing_page": "https://doi.org/10.1109/icassp48485.2024.10446541",
-        "pdf": null,
-        "primary_topic_openalex": "https://openalex.org/T10667",
-        "source_openalex": null
-      },
-      "concepts": [
-        "Computer science",
-        "Adaptation (eye)",
-        "Domain adaptation",
-        "Consistency (knowledge bases)",
-        "Artificial intelligence",
-        "Natural language processing",
-        "Class (philosophy)",
-        "Task (project management)"
-      ],
-      "abstract": "Cross-corpus speech emotion recognition (SER) aims to transfer emotional knowledge from a labeled source corpus to an unlabeled corpus. However, prior methods require access to source data during adaptation, which is unattainable in real-life scenarios due to data privacy protection concerns. This paper tackles a more practical task, namely source-free cross-corpus SER, where a pre-trained source model is adapted to the target domain without access to source data. To address the problem, we propose a novel method called emotion-aware contrastive adaptation network (ECAN). The core idea is to capture local neighborhood information between samples while considering the global class-level adaptation. Specifically, we propose a nearest neighbor contrastive learning to promote local emotion consistency among features of highly similar samples. Furthermore, relying solely on nearest neighborhoods may lead to ambiguous boundaries between clusters. Thus, we incorporate supervised contrastive learning to encourage greater separation between clusters representing different emotions, thereby facilitating improved class-level adaptation. Extensive experiments indicate that our proposed ECAN significantly outperforms state-of-the-art methods under the source-free cross-corpus SER setting on several speech emotion corpora.",
-      "openalex_analysis": {
-        "primary_topic": {
-          "id": "https://openalex.org/T10667",
-          "name": "Emotion and Mood Recognition",
-          "score": 0.9994000196456909,
-          "subfield": "Experimental and Cognitive Psychology",
-          "field": "Psychology",
-          "domain": "Social Sciences"
-        },
-        "topics": [
-          {
-            "id": "https://openalex.org/T10667",
-            "name": "Emotion and Mood Recognition",
-            "score": 0.9994000196456909,
-            "subfield": "Experimental and Cognitive Psychology",
-            "field": "Psychology",
-            "domain": "Social Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10664",
-            "name": "Sentiment Analysis and Opinion Mining",
-            "score": 0.996999979019165,
-            "subfield": "Artificial Intelligence",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10201",
-            "name": "Speech Recognition and Synthesis",
-            "score": 0.9860000014305115,
-            "subfield": "Artificial Intelligence",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "concepts": [
-          {
-            "id": "https://openalex.org/C41008148",
-            "name": "Computer science",
-            "score": 0.8115919828414917,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C139807058",
-            "name": "Adaptation (eye)",
-            "score": 0.6491377949714661,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C2776434776",
-            "name": "Domain adaptation",
-            "score": 0.5673090815544128,
-            "level": 3
-          },
-          {
-            "id": "https://openalex.org/C2776436953",
-            "name": "Consistency (knowledge bases)",
-            "score": 0.5577401518821716,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C154945302",
-            "name": "Artificial intelligence",
-            "score": 0.5562545657157898,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C204321447",
-            "name": "Natural language processing",
-            "score": 0.5426758527755737,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C2777212361",
-            "name": "Class (philosophy)",
-            "score": 0.4814719259738922,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C2780451532",
-            "name": "Task (project management)",
-            "score": 0.4553868770599365,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C28490314",
-            "name": "Speech recognition",
-            "score": 0.39826634526252747,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C95623464",
-            "name": "Classifier (UML)",
-            "score": 0,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C162324750",
-            "name": "Economics",
-            "score": 0,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C121332964",
-            "name": "Physics",
-            "score": 0,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C187736073",
-            "name": "Management",
-            "score": 0,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C120665830",
-            "name": "Optics",
-            "score": 0,
-            "level": 1
-          }
-        ],
-        "keywords": [
-          {
-            "id": "https://openalex.org/keywords/computer-science",
-            "name": "Computer science",
-            "score": 0.8115919828414917
-          },
-          {
-            "id": "https://openalex.org/keywords/adaptation",
-            "name": "Adaptation (eye)",
-            "score": 0.6491377949714661
-          },
-          {
-            "id": "https://openalex.org/keywords/domain-adaptation",
-            "name": "Domain adaptation",
-            "score": 0.5673090815544128
-          },
-          {
-            "id": "https://openalex.org/keywords/consistency",
-            "name": "Consistency (knowledge bases)",
-            "score": 0.5577401518821716
-          },
-          {
-            "id": "https://openalex.org/keywords/artificial-intelligence",
-            "name": "Artificial intelligence",
-            "score": 0.5562545657157898
-          },
-          {
-            "id": "https://openalex.org/keywords/natural-language-processing",
-            "name": "Natural language processing",
-            "score": 0.5426758527755737
-          },
-          {
-            "id": "https://openalex.org/keywords/class",
-            "name": "Class (philosophy)",
-            "score": 0.4814719259738922
-          },
-          {
-            "id": "https://openalex.org/keywords/task",
-            "name": "Task (project management)",
-            "score": 0.4553868770599365
-          },
-          {
-            "id": "https://openalex.org/keywords/speech-recognition",
-            "name": "Speech recognition",
-            "score": 0.39826634526252747
-          }
-        ],
-        "sustainable_development_goals": [],
-        "open_access": {
-          "is_oa": false,
-          "oa_status": "closed",
-          "oa_url": null,
-          "any_repository_has_fulltext": false
-        },
-        "citation_normalized_percentile": {
-          "value": 0.86980208,
-          "is_in_top_1_percent": false,
-          "is_in_top_10_percent": false
-        },
-        "fwci": 4.38575034,
-        "counts_by_year": [
-          {
-            "year": 2025,
-            "cited_by_count": 3
-          },
-          {
-            "year": 2024,
-            "cited_by_count": 1
-          }
-        ],
-        "institutions_distinct_count": 7,
-        "countries_distinct_count": 3,
-        "referenced_works_count": 30
-      },
-      "analysis": {
-        "is_interesting": true,
-        "relevance_score": 0.95,
-        "confidence": 0.98,
-        "reason": "The paper is explicitly focused on speech emotion recognition, aligns directly with the researcher's interest topic 'emotion', and introduces an emotion-aware adaptation method for cross-corpus SER.",
-        "evidence": [
-          "Title contains 'Emotion-Aware Contrastive Adaptation Network'",
-          "Abstract centers on 'speech emotion recognition (SER)' and 'emotion consistency'",
-          "Method (ECAN) explicitly models emotional class structure and local emotion consistency"
-        ],
-        "keywords": [
-          "speech emotion recognition",
-          "source-free domain adaptation",
-          "contrastive learning",
-          "emotion-aware modeling",
-          "cross-corpus adaptation"
-        ],
-        "research_directions": [
-          "affective computing",
-          "emotion representation learning",
-          "privacy-preserving affective AI",
-          "unsupervised/semi-supervised emotion recognition"
-        ]
-      }
-    },
-    {
       "id": "https://openalex.org/W4392903917",
       "openalex_url": "https://openalex.org/W4392903917",
       "title": "Multi-Source Unsupervised Transfer Components Learning for Cross-Domain Speech Emotion Recognition",
@@ -11655,10 +11655,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -12818,10 +12818,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "openRxiv",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "openRxiv",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -13058,10 +13058,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 6,
-      "primary_source": null,
+      "primary_source": "MM '23: The 31st ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '23: The 31st ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -13370,10 +13370,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '23: The 31st ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '23: The 31st ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -14265,10 +14265,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 16,
-      "primary_source": null,
+      "primary_source": "INTERSPEECH 2023",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "INTERSPEECH 2023",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -14475,10 +14475,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "INTERSPEECH 2023",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "INTERSPEECH 2023",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -14700,10 +14700,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "INTERSPEECH 2023",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "INTERSPEECH 2023",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -16274,10 +16274,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 13,
-      "primary_source": null,
+      "primary_source": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -16539,10 +16539,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 9,
-      "primary_source": null,
+      "primary_source": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -24926,10 +24926,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2021 6th International Conference on Integrated Circuits and Microsystems (ICICM)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2021 6th International Conference on Integrated Circuits and Microsystems (ICICM)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -25707,10 +25707,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 16,
-      "primary_source": null,
+      "primary_source": "2021 International Joint Conference on Neural Networks (IJCNN)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2021 International Joint Conference on Neural Networks (IJCNN)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -26801,10 +26801,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 57,
-      "primary_source": null,
+      "primary_source": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -27095,10 +27095,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 12,
-      "primary_source": null,
+      "primary_source": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -27687,10 +27687,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 21,
-      "primary_source": null,
+      "primary_source": "ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -31790,10 +31790,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 151,
-      "primary_source": null,
+      "primary_source": "MM '20: The 28th ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '20: The 28th ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -36934,10 +36934,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 39,
-      "primary_source": null,
+      "primary_source": "ICMI '19: INTERNATIONAL CONFERENCE ON MULTIMODAL INTERACTION",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICMI '19: INTERNATIONAL CONFERENCE ON MULTIMODAL INTERACTION",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -38868,10 +38868,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 19,
-      "primary_source": null,
+      "primary_source": "ICMR '19: International Conference on Multimedia Retrieval",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICMR '19: International Conference on Multimedia Retrieval",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -43450,10 +43450,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 13,
-      "primary_source": null,
+      "primary_source": "MM '18: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '18: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -43800,10 +43800,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 53,
-      "primary_source": null,
+      "primary_source": "MM '18: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '18: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -44101,10 +44101,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 73,
-      "primary_source": null,
+      "primary_source": "ICMI '18: INTERNATIONAL CONFERENCE ON MULTIMODAL INTERACTION",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICMI '18: INTERNATIONAL CONFERENCE ON MULTIMODAL INTERACTION",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -44436,10 +44436,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 15,
-      "primary_source": null,
+      "primary_source": "2018 25th IEEE International Conference on Image Processing (ICIP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2018 25th IEEE International Conference on Image Processing (ICIP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -45444,10 +45444,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 141,
-      "primary_source": null,
+      "primary_source": "Twenty-Seventh International Joint Conference on Artificial Intelligence {IJCAI-18}",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Twenty-Seventh International Joint Conference on Artificial Intelligence {IJCAI-18}",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -50573,10 +50573,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 38,
-      "primary_source": null,
+      "primary_source": "MM '17: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '17: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -51597,10 +51597,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 30,
-      "primary_source": null,
+      "primary_source": "2017 12th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2017)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2017 12th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2017)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -53007,10 +53007,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 41,
-      "primary_source": null,
+      "primary_source": "ICMI '16: INTERNATIONAL CONFERENCE ON MULTIMODAL INTERACTION",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICMI '16: INTERNATIONAL CONFERENCE ON MULTIMODAL INTERACTION",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -53359,10 +53359,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2016 10th International Symposium on Chinese Spoken Language Processing (ISCSLP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2016 10th International Symposium on Chinese Spoken Language Processing (ISCSLP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -56455,10 +56455,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 28,
-      "primary_source": null,
+      "primary_source": "2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -59433,10 +59433,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 14,
-      "primary_source": null,
+      "primary_source": "ICMI '15: INTERNATIONAL CONFERENCE ON MULTIMODAL INTERACTION",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICMI '15: INTERNATIONAL CONFERENCE ON MULTIMODAL INTERACTION",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -60257,10 +60257,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 11,
-      "primary_source": null,
+      "primary_source": "TENCON 2015 - 2015 IEEE Region 10 Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "TENCON 2015 - 2015 IEEE Region 10 Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -60480,10 +60480,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 6,
-      "primary_source": null,
+      "primary_source": "TENCON 2015 - 2015 IEEE Region 10 Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "TENCON 2015 - 2015 IEEE Region 10 Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -60832,10 +60832,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 15,
-      "primary_source": null,
+      "primary_source": "Interspeech 2015",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Interspeech 2015",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -61100,10 +61100,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 15,
-      "primary_source": null,
+      "primary_source": "2015 IEEE International Conference on Image Processing (ICIP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2015 IEEE International Conference on Image Processing (ICIP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -61452,10 +61452,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 6,
-      "primary_source": null,
+      "primary_source": "ICASSP 2015 - 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2015 - 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -61798,10 +61798,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 19,
-      "primary_source": null,
+      "primary_source": "Emotion Recognition",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Emotion Recognition",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -63338,10 +63338,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 6,
-      "primary_source": null,
+      "primary_source": "Interspeech 2014",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Interspeech 2014",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -63486,10 +63486,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 6,
-      "primary_source": null,
+      "primary_source": "2014 22nd International Conference on Pattern Recognition (ICPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2014 22nd International Conference on Pattern Recognition (ICPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -63834,10 +63834,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 39,
-      "primary_source": null,
+      "primary_source": "ICASSP 2014 - 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2014 - 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -67107,10 +67107,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 20,
-      "primary_source": null,
+      "primary_source": "ICASSP 2013 - 2013 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2013 - 2013 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -69749,10 +69749,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "2012 IEEE International Symposium on Circuits and Systems - ISCAS 2012",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2012 IEEE International Symposium on Circuits and Systems - ISCAS 2012",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -73604,10 +73604,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 65,
-      "primary_source": null,
+      "primary_source": "2009 IEEE 12th International Conference on Computer Vision (ICCV)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2009 IEEE 12th International Conference on Computer Vision (ICCV)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -74581,10 +74581,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2009 WRI World Congress on Software Engineering",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2009 WRI World Congress on Software Engineering",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -74888,10 +74888,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2009 WRI Global Congress on Intelligent Systems",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2009 WRI Global Congress on Intelligent Systems",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -76258,10 +76258,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 14,
-      "primary_source": null,
+      "primary_source": "2007 IEEE Conference on Computer Vision and Pattern Recognition",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2007 IEEE Conference on Computer Vision and Pattern Recognition",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -78700,10 +78700,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "18th International Conference on Pattern Recognition (ICPR'06)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "18th International Conference on Pattern Recognition (ICPR'06)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -81120,10 +81120,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "2004 IEEE International Conference on Acoustics, Speech, and Signal Processing",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2004 IEEE International Conference on Acoustics, Speech, and Signal Processing",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -83447,10 +83447,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2002 International Conference on Machine Learning and Cybernetics",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2002 International Conference on Machine Learning and Cybernetics",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,

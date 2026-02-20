@@ -3149,5 +3149,254 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "4dc166c6d4d3b11b10964b90d16bf7e19a9646c6d66bb0d822d5dde590c5c91b": {
+    "paper_id": "https://openalex.org/W2969502377",
+    "title": "EGNet:Edge Guidance Network for Salient Object Detection",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T20:35:02.933Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on salient object detection in computer vision, with no mention of emotion, affective computing, or psychological/emotional processes.",
+      "evidence": [
+        "Title and abstract exclusively address edge guidance and saliency in visual perception, not emotion-related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7333a4249aa6e4e053e938d168bc089118401ae8bf20fe0d1be9143871587264": {
+    "paper_id": "https://openalex.org/W3038249628",
+    "title": "BBS-Net: RGB-D Salient Object Detection with a Bifurcated Backbone Strategy Network",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T20:35:03.049Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on RGB-D salient object detection in computer vision, with no mention of emotion, affect, or related psychological or affective computing concepts.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords pertain to computer vision architecture and multimodal fusion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "08e006f207316413450f5dff9a13d6ab2ff4c510a27617f6af16b26e57990e5a": {
+    "paper_id": "https://openalex.org/W2997531716",
+    "title": "Re-Attention for Visual Question Answering",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T20:35:03.475Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on visual question answering and attention mechanisms in AI, with no mention of emotion, affect, or related psychological or affective computing concepts.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper concepts include 'Question answering', 'Computer science', 'Artificial intelligence', etc., with no affective/emotion-related terms in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bea40415d7bbf23ff8dbb797f31e093b98b66ba14ab9fd30186a04983118f815": {
+    "paper_id": "https://openalex.org/W3173358483",
+    "title": "Affective Image Content Analysis: Two Decades Review and New Perspectives",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T20:35:04.918Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is a comprehensive survey on affective image content analysis, directly aligned with the researcher's interest in 'emotion', and explicitly addresses emotion representation, recognition, prediction, and related challenges.",
+      "evidence": [
+        "Title: 'Affective Image Content Analysis: Two Decades Review and New Perspectives'",
+        "Abstract explicitly discusses emotion representation models, dominant emotion recognition, personalized emotion prediction, and emotion distribution learning",
+        "Keywords and concepts include 'affective', 'emotion', 'perception', 'artificial intelligence'"
+      ],
+      "keywords": [
+        "affective image content analysis",
+        "emotion recognition",
+        "emotion representation",
+        "affective gap",
+        "label noise",
+        "personalized emotion prediction",
+        "emotion distribution learning"
+      ],
+      "research_directions": [
+        "image content and context understanding",
+        "group emotion clustering",
+        "viewer-image interaction",
+        "learning from noisy data or few labels",
+        "perception subjectivity modeling"
+      ]
+    }
+  },
+  "43727d37afcb374bd812ff3d1255125266a04d6a365bfba92800c0629373d8d7": {
+    "paper_id": "https://openalex.org/W3100511888",
+    "title": "Curriculum CycleGAN for Textual Sentiment Domain Adaptation with Multiple Sources",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T20:35:05.578Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.97,
+      "reason": "The paper explicitly addresses textual sentiment analysis—a core affective/emotion-related task—and aligns directly with the researcher's stated interest in 'emotion'. It focuses on domain adaptation for sentiment classification, preserving sentiment semantics during transfer, and evaluates on user-generated emotional feedback (e.g., reviews/comments).",
+      "evidence": [
+        "Title contains 'Textual Sentiment Domain Adaptation'",
+        "Abstract states: 'Sentiment analysis of user-generated reviews or comments [...] can help enterprises to analyze the feedback from customers' — feedback inherently tied to emotion expression",
+        "Method preserves 'sentiment semantics' and targets 'sentiment classification'"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "emotion",
+        "domain adaptation",
+        "text classification",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective NLP",
+        "cross-domain emotion modeling",
+        "machine learning for emotion recognition",
+        "sentiment transfer learning"
+      ]
+    }
+  },
+  "d9dfbaba1fd34ade167ce042d24043ef9c0bdd42d43017528d04a1bb4cc04311": {
+    "paper_id": "https://openalex.org/W3086550980",
+    "title": "Emotion-Based End-to-End Matching Between Image and Music in Valence-Arousal Space",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T20:35:05.614Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is explicitly focused on emotion modeling and matching using the valence-arousal space, directly aligning with the researcher's interest topic 'emotion'. It proposes a method for cross-modal (image-music) emotion alignment grounded in affective science.",
+      "evidence": [
+        "Title contains 'Emotion-Based' and 'Valence-Arousal Space'",
+        "Abstract emphasizes 'emotion perceptions', 'continuous valence-arousal (VA) space', and 'single-modal emotion relationship'",
+        "Core contribution: CDCML for emotion-based cross-modal matching"
+      ],
+      "keywords": [
+        "emotion",
+        "valence-arousal",
+        "affective computing",
+        "cross-modal matching",
+        "embedding",
+        "multimodal learning"
+      ],
+      "research_directions": [
+        "affective multimodal learning",
+        "emotion representation in continuous space",
+        "end-to-end affective matching",
+        "valence-arousal modeling"
+      ]
+    }
+  },
+  "00a12a5064830f56e727c3fc04e19418fab90d0bca67b6a0fc3c5bfafea0357b": {
+    "paper_id": "https://openalex.org/W3109173618",
+    "title": "Emotional Semantics-Preserved and Feature-Aligned CycleGAN for Visual Emotion Adaptation",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T20:35:05.794Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on visual emotion analysis, including emotion distribution learning and dominant emotion classification, and incorporates 'emotional semantic consistency' as a core technical contribution — directly aligning with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Title contains 'Emotional Semantics-Preserved' and 'Visual Emotion Adaptation'",
+        "Abstract states: 'we focus on UDA in visual emotion analysis for both emotion distribution learning and dominant emotion classification'",
+        "Proposes 'dynamic emotional semantic consistency loss to preserve the emotion labels of the source images'"
+      ],
+      "keywords": [
+        "visual emotion analysis",
+        "emotion distribution learning",
+        "dominant emotion classification",
+        "emotional semantic consistency",
+        "CycleEmotionGAN++",
+        "unsupervised domain adaptation"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion recognition",
+        "domain adaptation for affective signals",
+        "semantic-preserving generative modeling in emotion AI"
+      ]
+    }
+  },
+  "c6dace6bab8a56c240bd9e8f14fb3e334be83054dc435470e16de5b600b894e5": {
+    "paper_id": "https://openalex.org/W3138014506",
+    "title": "Computational Emotion Analysis From Images: Recent Advances and Future Directions",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T20:35:05.866Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is explicitly focused on computational emotion analysis from images, directly aligning with the researcher's interest topic 'emotion'. It comprehensively covers psychological emotion models, emotion feature extraction, classification, and domain adaptation in an affective computing context.",
+      "evidence": [
+        "Title: 'Computational Emotion Analysis From Images: Recent Advances and Future Directions'",
+        "Abstract states: 'we aim to introduce image emotion analysis (IEA) from a computational perspective'",
+        "Interest topics include 'emotion' and paper centers on emotion representation, modeling, and analysis"
+      ],
+      "keywords": [
+        "image emotion analysis",
+        "affective computing",
+        "emotion representation",
+        "emotion classification",
+        "domain adaptation",
+        "computational psychology"
+      ],
+      "research_directions": [
+        "Emotion feature extraction from visual data",
+        "Supervised learning for emotion recognition",
+        "Cross-domain generalization in affective computing",
+        "Psychologically grounded emotion modeling",
+        "Benchmarking emotion datasets and evaluation protocols"
+      ]
+    }
+  },
+  "85a435033f66ffa8d30b659efa12181ae8840cc35b334b3be7f77b461ad88d33": {
+    "paper_id": "https://openalex.org/W3006737473",
+    "title": "An End-to-End Visual-Audio Attention Network for Emotion Recognition in User-Generated Videos",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T20:35:06.670Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on emotion recognition in user-generated videos, aligning directly with the researcher's stated interest topic 'emotion'. It proposes a novel end-to-end deep learning architecture (VAANet) specifically designed for multimodal (visual-audio) emotion classification, and uses emotion-specific constraints (polarity-emotion hierarchy) and benchmark emotion datasets (VideoEmotion-8, Ekman-6).",
+      "evidence": [
+        "Title contains 'Emotion Recognition in User-Generated Videos'",
+        "Abstract states 'Emotion recognition in user-generated videos plays an important role in human-centered computing'",
+        "Uses emotion-specific datasets: VideoEmotion-8 and Ekman-6"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "multimodal learning",
+        "attention mechanisms",
+        "user-generated videos",
+        "deep learning",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion analysis",
+        "end-to-end deep learning for affect",
+        "attention-based models in affective science",
+        "video-based emotion recognition"
+      ]
+    }
   }
 }

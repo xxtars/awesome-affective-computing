@@ -5064,5 +5064,89 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "a2fe3e76faf1e56e28dfef72d04df98eb2ce0af77395270a6bde9f7ba15ce4cc": {
+    "paper_id": "https://openalex.org/W3158745576",
+    "title": "Permeant Fluorescent Probes Visualize the Activation of SARM1 and Uncover an Anti-neurodegenerative Drug Candidate",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T20:43:33.481Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on SARM1 enzymatic activity, fluorescent probe chemistry, neuroprotection, and drug discovery—none of which involve emotion processing, affective science, or psychological/emotional mechanisms.",
+      "evidence": [
+        "Concepts include Chemistry, Fluorescence, Neuroprotection, Drug, Cell biology, Biophysics; no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "71af5337650dffec7f374e35d17b80cdd7c8ae86582f5133c7dd465bca264a67": {
+    "paper_id": "https://openalex.org/W4287181925",
+    "title": "3D-CNN for Facial Micro- and Macro-expression Spotting on Long Video Sequences using Temporal Oriented Reference Frame",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T20:43:35.104Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.97,
+      "reason": "The paper directly addresses facial micro- and macro-expression spotting—a core affective computing task grounded in emotion recognition—and aligns precisely with the researcher's stated interest in 'emotion'. The methodology targets temporal dynamics of expressive behavior, which is fundamental to emotion analysis in video.",
+      "evidence": [
+        "Title explicitly mentions 'Facial Micro- and Macro-expression Spotting'",
+        "Abstract states 'Facial expression spotting is the preliminary step for micro- and macro-expression analysis'",
+        "Researcher's interest topic is 'emotion', and facial expressions are canonical behavioral indicators of emotion"
+      ],
+      "keywords": [
+        "facial expression",
+        "micro-expression",
+        "macro-expression",
+        "emotion recognition",
+        "affective computing",
+        "3D-CNN",
+        "temporal modeling"
+      ],
+      "research_directions": [
+        "affective video analysis",
+        "spontaneous emotion detection",
+        "deep learning for subtle emotional cues",
+        "long-sequence temporal modeling in affective computing"
+      ]
+    }
+  },
+  "f00c2fd3d33c5ed0fd8a708327cb4dfc60bb32826593da5b58855d28436c323b": {
+    "paper_id": "https://openalex.org/W2998130166",
+    "title": "Spotting Macro- and Micro-expression Intervals in Long Video Sequences",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T20:43:35.681Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses facial expressions—both macro- and micro-expressions—which are well-established behavioral indicators of underlying emotions; the researcher's stated interest is 'emotion', and the work falls squarely within affective computing and emotion recognition.",
+      "evidence": [
+        "Title explicitly mentions 'Macro- and Micro-expression Intervals'",
+        "Abstract states the goal is spotting facial expressions in long videos for the Facial Micro-Expression Grand Challenge (MEGC 2020)",
+        "Micro- and macro-expressions are scientifically defined as brief, involuntary facial movements linked to emotional leakage"
+      ],
+      "keywords": [
+        "micro-expression",
+        "macro-expression",
+        "facial expression",
+        "emotion recognition",
+        "affective computing",
+        "optical flow",
+        "F1-score"
+      ],
+      "research_directions": [
+        "affective computing",
+        "facial behavior analysis",
+        "emotion-based human-computer interaction",
+        "biometric emotion detection"
+      ]
+    }
   }
 }

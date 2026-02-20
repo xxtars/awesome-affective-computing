@@ -4625,5 +4625,329 @@
         "online interpersonal communication and emotional well-being"
       ]
     }
+  },
+  "c0fba2636a7cd0ff4438d301e6c78f32fe77482f600fb339131fc4831152aa24": {
+    "paper_id": "https://openalex.org/W2951853472",
+    "title": "Convolutional Neural Networks based Intra Prediction for HEVC",
+    "researcher_name": "Shengping Zhang",
+    "researcher_openalex_author_id": "A5084025984",
+    "updated_at": "2026-02-20T20:40:39.536Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on HEVC intra prediction using CNNs for video compression; no connection to emotion or affective computing.",
+      "evidence": [
+        "Title and abstract exclusively address computer vision and video coding optimization."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b0875d381ddfb27f2fa8538d4e56396c63f551d05aa2fe98ab703d7c427d1646": {
+    "paper_id": "https://openalex.org/W2979511917",
+    "title": "Sketch-Specific Data Augmentation for Freehand Sketch Recognition",
+    "researcher_name": "Shengping Zhang",
+    "researcher_openalex_author_id": "A5084025984",
+    "updated_at": "2026-02-20T20:40:39.793Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sketch recognition and data augmentation techniques, with no mention of emotion, affective computing, or related psychological or behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are computer vision/machine learning focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "efc86626f05a4d4267484260e2794a771fa22bf9d676c9a1261ccdbf2000ee0b": {
+    "paper_id": "https://openalex.org/W2753359544",
+    "title": "Multi-layered Gesture Recognition with Kinect.",
+    "researcher_name": "Shengping Zhang",
+    "researcher_openalex_author_id": "A5084025984",
+    "updated_at": "2026-02-20T20:40:39.821Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on gesture recognition using Kinect and does not mention or imply emotion detection, affective computing, or any emotional correlates.",
+      "evidence": [
+        "Abstract contains no mention of emotion, affect, sentiment, or related constructs; all concepts are technical/computer vision oriented."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "89762624644630b5f09f617013c46575873ab3cf3dc323753d9d783b706687ff": {
+    "paper_id": "https://openalex.org/W2951430429",
+    "title": "Light Field Saliency Detection with Deep Convolutional Networks",
+    "researcher_name": "Shengping Zhang",
+    "researcher_openalex_author_id": "A5084025984",
+    "updated_at": "2026-02-20T20:40:39.863Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on light field saliency detection using CNNs, with no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are computer vision/AI technical"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ae4e297d4212b3c4f36422dad8162ed1349ac3761542d8a72824ce55ea8cf1f6": {
+    "paper_id": "https://openalex.org/W2798161872",
+    "title": "An efficient deep convolutional laplacian pyramid architecture for CS reconstruction at low sampling ratios",
+    "researcher_name": "Shengping Zhang",
+    "researcher_openalex_author_id": "A5084025984",
+    "updated_at": "2026-02-20T20:40:39.919Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on compressed sensing and deep learning for image reconstruction, with no mention of emotion, affect, or psychological/behavioral constructs.",
+      "evidence": [
+        "Title and abstract exclusively discuss CS reconstruction, Laplacian pyramid, convolutional neural networks, and signal sampling."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "663ab886e23936278f0774bcfef8dcff7af4879fc920c3dbe47674ef94ba57ab": {
+    "paper_id": "https://openalex.org/W2317906347",
+    "title": "Management of Rainfall Related Environmental Risks in Urban Area.",
+    "researcher_name": "Shengping Zhang",
+    "researcher_openalex_author_id": "A5084025984",
+    "updated_at": "2026-02-20T20:40:39.964Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental risk management related to rainfall, with no mention of emotion, affective processes, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively concern environmental science, risk management, and water systems; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9ced284f0aeb24bdd48aa68f3b96b5eddef372dd2d5c5776b7828e95e3c1c255": {
+    "paper_id": "https://openalex.org/W3011769966",
+    "title": "Siamese Box Adaptive Network for Visual Tracking",
+    "researcher_name": "Shengping Zhang",
+    "researcher_openalex_author_id": "A5084025984",
+    "updated_at": "2026-02-20T20:40:39.973Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is on visual object tracking using deep learning, with no mention or conceptual link to emotion or affective computing.",
+      "evidence": [
+        "Abstract and concepts focus exclusively on bounding box regression, FCN architecture, and tracking benchmarks; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4db29bde9a5b10ad0236b7b30abde169109a0506851488ea90c11eaf947145a9": {
+    "paper_id": "https://openalex.org/W2981083813",
+    "title": "Toward 3D Object Reconstruction from Stereo Images",
+    "researcher_name": "Shengping Zhang",
+    "researcher_openalex_author_id": "A5084025984",
+    "updated_at": "2026-02-20T20:40:40.003Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on 3D object reconstruction from stereo images, with no mention of emotion, affect, or related psychological, behavioral, or affective computing concepts.",
+      "evidence": [
+        "Title, abstract, and concepts are exclusively computer vision/AI-focused; 'emotion' does not appear in metadata or abstract."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "38b886992d3b2d0afc286acea9d221652466880b95f049c82d484ad83ab83d2e": {
+    "paper_id": "https://openalex.org/W2737380518",
+    "title": "Deep Networks for Compressed Image Sensing",
+    "researcher_name": "Shengping Zhang",
+    "researcher_openalex_author_id": "A5084025984",
+    "updated_at": "2026-02-20T20:40:40.012Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on compressed sensing and deep learning for image reconstruction, with no mention of emotion, affect, or psychological/behavioral constructs.",
+      "evidence": [
+        "Title, abstract, and concepts are exclusively technical: 'Compressed sensing', 'Image reconstruction', 'Deep networks', 'Sampling', 'Signal recovery'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c7f6378b0a484bc32d930bd48e9c2347ee77d68724dfa59badaa47a22dd76aa6": {
+    "paper_id": "https://openalex.org/W3203453088",
+    "title": "Long-Range Feature Propagating for Natural Image Matting",
+    "researcher_name": "Shengping Zhang",
+    "researcher_openalex_author_id": "A5084025984",
+    "updated_at": "2026-02-20T20:40:40.019Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on natural image matting and long-range feature propagation in computer vision, with no connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical CV/AI methods (e.g., alpha matte, pooling, trimap, feature propagation)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8e606f431578b9ad52ea9d7e5e58a2e36f38fcbd09dc3385a51e5423d2fb7f7e": {
+    "paper_id": "https://openalex.org/W3135982274",
+    "title": "Efficient Regional Memory Network for Video Object Segmentation",
+    "researcher_name": "Shengping Zhang",
+    "researcher_openalex_author_id": "A5084025984",
+    "updated_at": "2026-02-20T20:40:40.128Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video object segmentation using regional memory and optical flow, with no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts contain only computer vision, AI, and segmentation terms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "72bff1b11f0e6b51dfc8275d346ff23da53ae3659efc5fb80f6b723576ab7b50": {
+    "paper_id": "https://openalex.org/W3034126769",
+    "title": "GRNet: Gridding Residual Network for Dense Point Cloud Completion",
+    "researcher_name": "Shengping Zhang",
+    "researcher_openalex_author_id": "A5084025984",
+    "updated_at": "2026-02-20T20:40:40.172Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical computer vision/AI contribution on point cloud completion with no conceptual, methodological, or empirical connection to emotion or affective science.",
+      "evidence": [
+        "Title, abstract, and concepts exclusively concern geometric deep learning, 3D reconstruction, and algorithmic design; 'emotion' does not appear anywhere in the metadata."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "da31b550e67696912bbd057343ec5ec860c71ddd110cfaf1a6d18452ffa1292b": {
+    "paper_id": "https://openalex.org/W2293550517",
+    "title": "Computer Vision Cracks the Leaf Code (PNAS 2016): Extended Heat Map Outputs",
+    "researcher_name": "Shengping Zhang",
+    "researcher_openalex_author_id": "A5084025984",
+    "updated_at": "2026-02-20T20:40:40.191Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is about computer vision applied to leaf classification using heat maps and set-theoretic coding; no mention or implication of emotion, affective computing, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts focus exclusively on computer vision, AI, and botanical image analysis; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3ae07a3486819201a1143bf8da9c46a5c337b652c2f7b76a709f5c55a05b29cb": {
+    "paper_id": "https://openalex.org/W4385825399",
+    "title": "CaPhy: Capturing Physical Properties for Animatable Human Avatars",
+    "researcher_name": "Shengping Zhang",
+    "researcher_openalex_author_id": "A5084025984",
+    "updated_at": "2026-02-20T20:40:40.201Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on physics-based clothing simulation and 3D avatar reconstruction, with no mention of emotion, affective computing, or related psychological or behavioral constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical/computational (e.g., 'physics-based losses', 'cloth deformations', '3D-supervised training')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "19b5feb7abe4c9ea9ad72d21724d0c5c65fefbe9fea084a5f6078a1906ff619e": {
+    "paper_id": "https://openalex.org/W3136001526",
+    "title": "Continuous Prediction of Lower-Limb Kinematics From Multi-Modal Biomedical Signals",
+    "researcher_name": "Shengping Zhang",
+    "researcher_openalex_author_id": "A5084025984",
+    "updated_at": "2026-02-20T20:40:40.327Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on motor intent decoding, kinematics prediction, and exoskeleton control using biomedical signals like EMG and IMU; no mention of emotion, affective states, or psychological constructs.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: 'Kinematics, Exoskeleton, Gait, Artificial intelligence' — all biomechanical/neuroengineering"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3d7ddaacfd46aab0928a1b0b16c9bcaf5fae05d46f34d3b86843b09551eccf99": {
+    "paper_id": "https://openalex.org/W3178839554",
+    "title": "Robust object tracking based on sparse representation",
+    "researcher_name": "Shengping Zhang",
+    "researcher_openalex_author_id": "A5084025984",
+    "updated_at": "2026-02-20T20:40:40.334Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computer vision and object tracking using sparse representation; no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts are purely technical: 'sparse representation', 'object tracking', 'computer vision', 'pattern recognition (psychology)' — the latter refers to perceptual/cognitive pattern recognition, not affective psychology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9d55ec61e78e3936d03a6679531ee78e31c7869a9d273a39ba01f27461ece8a5": {
+    "paper_id": "https://openalex.org/W3157876224",
+    "title": "Distractor-Aware Fast Tracking via Dynamic Convolutions and MOT Philosophy",
+    "researcher_name": "Shengping Zhang",
+    "researcher_openalex_author_id": "A5084025984",
+    "updated_at": "2026-02-20T20:40:40.477Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computer vision-based object tracking, specifically distractor-aware video tracking using dynamic convolutions and MOT principles; no connection to emotion or affective science is present in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Concepts include 'Video tracking', 'Artificial intelligence', 'Association (psychology)' — but the latter refers to object association in tracking, not psychological emotion research."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1c92b5ad70feaaa9f59f8428845f2ff7149654a9ea29a7b64895c7466415efc5": {
+    "paper_id": "https://openalex.org/W3045665802",
+    "title": "Object-and-Action Aware Model for Visual Language Navigation",
+    "researcher_name": "Shengping Zhang",
+    "researcher_openalex_author_id": "A5084025984",
+    "updated_at": "2026-02-20T20:40:40.566Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on vision-and-language navigation, object-action disambiguation, and path optimization in AI robotics; no mention or conceptual link to emotion, affective computing, or human emotional states.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: Computer science, Object, Action, Natural language, AI, Viewpoints, Path, Orientation — all technical/computational, no affective/emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

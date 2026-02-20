@@ -3821,5 +3821,114 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "498235e58467dce89db50a9c8b2f89c30cfa1e3b02d0e43a11426bb688022c95": {
+    "paper_id": "https://openalex.org/W2981382721",
+    "title": "Towards Fine-Grained Prosody Control for Voice Conversion",
+    "researcher_name": "Zheng Lian",
+    "researcher_openalex_author_id": "A5001973434",
+    "updated_at": "2026-02-20T20:51:38.821Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on prosody control in voice conversion using acoustic features and embeddings, with no mention of emotion modeling, affective states, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper concepts and abstract center on prosody, intonation, stress, rhythm, and voice conversion—technical speech processing without affective/emotion linkage."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "11fc7338050bc1a168bd0db157dccf251e212d37bb85fa58f4ce306bd9d6bfff": {
+    "paper_id": "https://openalex.org/W4221149740",
+    "title": "GCNet: Graph Completion Network for Incomplete Multimodal Learning in Conversation",
+    "researcher_name": "Zheng Lian",
+    "researcher_openalex_author_id": "A5001973434",
+    "updated_at": "2026-02-20T20:51:40.041Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper explicitly addresses emotion as a core aspect of conversation understanding, aligns with the researcher's interest in 'emotion', and applies multimodal learning to emotion-aware conversational AI.",
+      "evidence": [
+        "Understanding conversation from emotion, content and other aspects also attracts increasing attention from researchers due to its widespread application in human-computer interaction.",
+        "To verify the effectiveness of our method, we conduct experiments on three benchmark conversational datasets."
+      ],
+      "keywords": [
+        "emotion",
+        "multimodal learning",
+        "conversational AI",
+        "graph neural network",
+        "incomplete modalities"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion recognition",
+        "conversation modeling",
+        "graph-based representation learning"
+      ]
+    }
+  },
+  "c0ad8ede61d42891e7886b40bd03f469e8bb15fd7c9fa07f2ebcda3e91174e48": {
+    "paper_id": "https://openalex.org/W4292218488",
+    "title": "Efficient Multimodal Transformer with Dual-Level Feature Restoration for Robust Multimodal Sentiment Analysis",
+    "researcher_name": "Zheng Lian",
+    "researcher_openalex_author_id": "A5001973434",
+    "updated_at": "2026-02-20T20:51:40.100Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses multimodal sentiment analysis, which is a core subfield of affective computing and emotion modeling; it explicitly targets emotion-related tasks (sentiment as proxy for valence/arousal) and aligns with the researcher's stated interest in 'emotion'.",
+      "evidence": [
+        "Title includes 'Multimodal Sentiment Analysis'",
+        "Abstract states: 'Multimodal Sentiment Analysis (MSA) has attracted increasing attention recently'",
+        "Sentiment analysis is widely accepted as an affective/emotion-related NLP task targeting emotional valence (positive/negative/neutral) and sometimes intensity"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "affective computing",
+        "multimodal learning",
+        "emotion recognition",
+        "robust AI"
+      ],
+      "research_directions": [
+        "affective multimodal AI",
+        "robust emotion modeling under missing modalities",
+        "transformer-based affective feature learning"
+      ]
+    }
+  },
+  "cbd3faea26eb95f82f4205ccb94b03c2747a492c51e4ab34a48a6da56cace87e": {
+    "paper_id": "https://openalex.org/W4221147463",
+    "title": "EmotionNAS: Two-stream Neural Architecture Search for Speech Emotion Recognition",
+    "researcher_name": "Zheng Lian",
+    "researcher_openalex_author_id": "A5001973434",
+    "updated_at": "2026-02-20T20:51:40.633Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is explicitly focused on speech emotion recognition, directly aligning with the researcher's interest topic 'emotion'. It introduces EmotionNAS—a neural architecture search framework specifically designed for emotion classification from speech—demonstrating strong topical and methodological relevance.",
+      "evidence": [
+        "Title contains 'EmotionNAS' and 'Speech Emotion Recognition'",
+        "Abstract states 'Speech emotion recognition (SER) is an important research topic in human-computer interaction'",
+        "Method targets emotion-specific modeling via two-stream feature fusion and NAS"
+      ],
+      "keywords": [
+        "speech emotion recognition",
+        "neural architecture search",
+        "affective computing",
+        "emotion classification",
+        "two-stream learning"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware AI",
+        "automated machine learning for affective tasks",
+        "multimodal emotion analysis"
+      ]
+    }
   }
 }

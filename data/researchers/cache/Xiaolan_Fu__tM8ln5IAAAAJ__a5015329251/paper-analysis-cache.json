@@ -7782,5 +7782,203 @@
         "Individual differences in emotional resilience during degraded communication"
       ]
     }
+  },
+  "ab9573a8936b0e524ea73a4c114922ec76a49e4b53d7fe5d0f1d21f2bf892b80": {
+    "paper_id": "https://openalex.org/W4245597429",
+    "title": "Issue Information",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T20:48:35.214Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "Paper title 'Issue Information' and listed concepts are generic, technical, and unrelated to emotion; abstract is empty and provides no affective content.",
+      "evidence": [
+        "Title: 'Issue Information'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a7f362de443c2dde6ddcf71c6f7b39f26b4872a9880ac31e1effb4431911a467": {
+    "paper_id": "https://openalex.org/W2791173600",
+    "title": "An Ontology Definition Framework for Model Driven Development",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T20:48:35.656Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on ontology definition frameworks for model-driven software development, with no mention of emotion, affect, or related psychological or affective constructs.",
+      "evidence": [
+        "Concepts include Computer science, Ontology, Semantics (computer science), Software engineering — all technical; abstract contains zero emotion-related terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "925ba8e1439190d9dd118cb2c4994d8f034c490db9a5e99da0cec47fcb412c1d": {
+    "paper_id": "https://openalex.org/W2416270756",
+    "title": "Cognitive and Neural Mechanisms of Probabilistic Category Learning",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T20:48:36.074Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cognitive and neural mechanisms of probabilistic category learning, with no mention of emotion, affect, or related constructs in title, abstract, or listed concepts.",
+      "evidence": [
+        "Abstract discusses cognitive strategies, brain regions (basal ganglia, medial temporal lobe, etc.), implicit/explicit processes—no reference to emotion, affect, valence, arousal, or emotional processing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5e2a81a1be9ead4379de752f78b59750ce8299cf83790c2bdc02dfd02af3412e": {
+    "paper_id": "https://openalex.org/W2413622429",
+    "title": "Scene Consistency Effect and Its Mechanisms",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T20:48:36.089Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on scene consistency effects in visual cognition and neural correlates (e.g., N390, PHC/PPA), with no mention of emotion, affective processing, or related constructs.",
+      "evidence": [
+        "Abstract discusses behavioral, ERP, and fMRI evidence for scene consistency but makes no reference to emotion, affect, valence, arousal, or affective neuroscience."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1497f725ca3ec286132a60f1e59a53e37d97e9918044a299c06a2d47bff09da7": {
+    "paper_id": "https://openalex.org/W3126034457",
+    "title": "Culture and media effects on group decision making under majority influence",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T20:48:37.898Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper explicitly includes 'Affect (linguistics)' as a core concept and investigates culturally mediated social influence processes that inherently involve emotional regulation, face concerns, and affective responses to majority pressure—aligning with emotion-related research in social and cultural psychology.",
+      "evidence": [
+        "Concepts include 'Affect (linguistics)'",
+        "Abstract discusses 'face' (a sociological concept deeply tied to emotion and self-presentation)",
+        "Study examines psychological mechanisms underlying conformity, which are affectively grounded"
+      ],
+      "keywords": [
+        "affect",
+        "emotion",
+        "face",
+        "social influence",
+        "cultural psychology",
+        "group decision-making"
+      ],
+      "research_directions": [
+        "Affective underpinnings of conformity and majority influence",
+        "Cross-cultural differences in emotion regulation during group tasks",
+        "Linguistic and sociocultural expression of affect in decision contexts"
+      ]
+    }
+  },
+  "4f15c4cb7e42280d072d0d67458eeb034ad676ecf89748cb36f8b04e6019e4ac": {
+    "paper_id": "https://openalex.org/W3125083597",
+    "title": "The impact of individualism - Collectivism, social presence, and group diversity on group decision making under majority influence",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T20:48:38.212Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.65,
+      "confidence": 0.82,
+      "reason": "The paper examines majority influence in group decision-making, which inherently involves social-emotional dynamics such as conformity pressure, dissent management, and affective responses to social presence and cultural identity; 'Affect (linguistics)' is explicitly listed as a concept, and the researcher's stated interest is 'emotion'.",
+      "evidence": [
+        "Concepts include 'Affect (linguistics)'",
+        "Researcher's interest topic is 'emotion'",
+        "Majority influence involves emotional responses like discomfort, resistance, or affiliation"
+      ],
+      "keywords": [
+        "affect",
+        "majority influence",
+        "social presence",
+        "cross-cultural emotion",
+        "group conformity",
+        "emotional response to dissent"
+      ],
+      "research_directions": [
+        "Emotion regulation in cross-cultural group decision-making",
+        "Affective mechanisms underlying majority influence",
+        "Cultural modulation of emotional reactions to social pressure",
+        "Linguistic and nonverbal affect cues in computer-mediated group influence"
+      ]
+    }
+  },
+  "92074ee00720c45334847775de9da47bec365aa7dab8f007fabf1b3bc4ff9985": {
+    "paper_id": "https://openalex.org/W4243953365",
+    "title": "Author response for \"Psychological model of representation, generation, and adjustion of belief for artificial general intelligence\"",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T20:48:38.418Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.9,
+      "reason": "The paper's title explicitly references a 'Psychological model' involving belief representation and adjustment in the context of artificial general intelligence, and the researcher's stated interest is 'emotion'. While 'emotion' is not directly named in the title or concepts, psychological models of belief dynamics in AGI often intersect with affective computing, emotion modeling, and cognitive-affective architectures—especially given the inclusion of 'Psychology' and 'Cognitive psychology' as core concepts.",
+      "evidence": [
+        "Title contains 'Psychological model' and 'belief' dynamics in AGI",
+        "Concepts include Psychology and Cognitive psychology",
+        "Researcher's declared interest topic is 'emotion'"
+      ],
+      "keywords": [
+        "psychological model",
+        "belief representation",
+        "artificial general intelligence",
+        "cognitive psychology",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective AI",
+        "Emotion-aware AGI architectures",
+        "Cognitive-affective modeling",
+        "Belief-emotion interaction in intelligent systems"
+      ]
+    }
+  },
+  "fc8d86999e2a94fc4a3ff44e87b185bf88f545751ef3cc355f05f7b0441cdd60": {
+    "paper_id": "https://openalex.org/W2382684965",
+    "title": "The Effect of Emotional Stimuli on Source Memory: Theoretical Models and Current Research",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T20:48:38.439Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly investigates the effect of emotional stimuli on source memory, aligning precisely with the researcher's interest topic 'emotion'. It engages core affective/emotion-related constructs including emotional arousal, valence (positive/negative emotions), and neural substrates like the amygdala.",
+      "evidence": [
+        "Title explicitly references 'Emotional Stimuli' and 'Source Memory'",
+        "Abstract defines 'Emotional stimuli' as stimuli that 'arouse positive or negative emotions'",
+        "Concepts include 'Emotional memory' and 'Amygdala', a key emotion-processing brain region"
+      ],
+      "keywords": [
+        "emotional stimuli",
+        "source memory",
+        "emotional memory",
+        "amygdala",
+        "attention narrowing theory",
+        "priority binding theory"
+      ],
+      "research_directions": [
+        "neural mechanisms of emotion-memory interactions",
+        "theoretical modeling of emotion effects on memory specificity",
+        "resolving contradictory findings in emotional source memory",
+        "cross-cultural studies on emotion and source monitoring"
+      ]
+    }
   }
 }

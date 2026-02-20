@@ -8330,5 +8330,263 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "d51d6f2fa610cbc1267372c9c75e22519c6e2e9f2f88baf82647523feaa2202a": {
+    "paper_id": "https://openalex.org/W2619930882",
+    "title": "Safety and Immunogenicity of the Merck Adenovirus Serotype 5 (MRKAd5) and MRKAd6 Human Immunodeficiency Virus Type 1 Trigene Vaccines Alone and in Combination in Healthy Adults",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T20:47:09.565Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on vaccine immunogenicity and HIV virology, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are entirely biomedical/immunological; 'emotion' is absent from all metadata fields."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6032a99fa8a72a81f2558994cb66a17ae7a3c0288775b3da9b63ec10012a16f4": {
+    "paper_id": "https://openalex.org/W3150251599",
+    "title": "Neural Articulated Radiance Field",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T20:47:09.686Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on 3D computer vision and neural radiance fields for articulated object modeling, with no connection to emotion or affective science.",
+      "evidence": [
+        "No mention of emotion, affect, psychology, sentiment, or related constructs in title, abstract, or concepts"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c523571a0e6def3d4367a54cd24843c786542ac0abcf50e6182079e8b5b8609f": {
+    "paper_id": "https://openalex.org/W2768872714",
+    "title": "Integral Human Pose Regression",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T20:47:09.735Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on human pose estimation using integral regression and heat maps; no mention of emotion, affect, or psychological/behavioral affective constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively concern computer vision, regression, differentiable functions, and 3D pose estimation"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4e07969f32663cd3759fb0f136a8b8f1e8e1ef5fc2a601db27992463cb3e5bb8": {
+    "paper_id": "https://openalex.org/W2951206572",
+    "title": "Deep Kinematic Pose Regression",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T20:47:09.780Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on kinematic pose estimation and 3D articulated body modeling, with no mention of emotion, affective states, or psychological/behavioral correlates.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords pertain to computer vision, robotics, and geometry."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c3ad6328857d5036b05636c4a81421e934ad0061695516f5d49704a477128b0d": {
+    "paper_id": "https://openalex.org/W3038815964",
+    "title": "Point-Set Anchors for Object Detection, Instance Segmentation and Pose Estimation",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T20:47:09.842Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on geometric computer vision techniques for object detection and pose estimation, with no mention of emotion, affect, psychological constructs, or related methodologies.",
+      "evidence": [
+        "Abstract and concepts contain only technical CV/AI terms like 'bounding box', 'pose estimation', 'segmentation'; no emotion-related keywords or context"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0511bcadcfb865828dc12885c7106a8534750e370a0573e6413565af6fc659d3": {
+    "paper_id": "https://openalex.org/W3042546157",
+    "title": "Detecting Human-Object Interactions with Action Co-occurrence Priors",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T20:47:09.921Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on human-object interaction detection using statistical co-occurrence priors and does not address emotion, affective states, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Concepts include 'Action recognition', 'Prior probability', 'Computer science'; no emotion-related terms in title, abstract, or concepts"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e448d312c34c8aedb2bdc5e6ce34efd8a25112f5276f596c7223dff88bfe9785": {
+    "paper_id": "https://openalex.org/W2950977907",
+    "title": "Towards 3D Human Pose Estimation in the Wild: a Weakly-supervised Approach",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T20:47:10.032Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on 3D human pose estimation using weakly-supervised learning and geometric constraints, with no mention of emotion, affective states, or related psychological or computational affective science concepts.",
+      "evidence": [
+        "Title and abstract contain no emotion-related terms; all concepts are computer vision/AI technical"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "94d6d3def8e3038a904408535e5d201bc983cbc8f678029736ab24b785258119": {
+    "paper_id": "https://openalex.org/W2604375920",
+    "title": "Compositional Human Pose Regression",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T20:47:10.046Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on human pose estimation using structural regression methods and contains no mention of emotion, affect, or related psychological, behavioral, or affective computing concepts.",
+      "evidence": [
+        "Abstract and concepts exclusively concern pose, regression, 3D estimation, and computer vision; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3daa0617da9b2d50f66ea9ff87929966744d9bd82d1241216d1455aa0b8ed884": {
+    "paper_id": "https://openalex.org/W2924658743",
+    "title": "Explicit Spatiotemporal Joint Relation Learning for Tracking Human Pose",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T20:47:10.121Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on human pose tracking using spatiotemporal joint relation learning and has no conceptual, methodological, or application-level connection to emotion or affective science.",
+      "evidence": [
+        "Interest topic is 'emotion', but paper concepts include computer vision, optical flow, and pose tracking—no mention of affect, sentiment, arousal, valence, or emotional states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "03abdc96867d3e89219e33bfe0f9ee8fed0eead2da1e7b283327c7f106deff9b": {
+    "paper_id": "https://openalex.org/W3043817001",
+    "title": "SRNet: Improving Generalization in 3D Human Pose Estimation with a Split-and-Recombine Approach",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T20:47:10.254Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on 3D human pose estimation and generalization via architectural design (SRNet), with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; all concepts are technical/computational (e.g., 'Generalization', 'Inference', 'Curse of dimensionality')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9e639bf4821b19250425a42261a713f4a8b53e14652b86209a9b98e42680109c": {
+    "paper_id": "https://openalex.org/W3203885900",
+    "title": "Learning Skeletal Graph Neural Networks for Hard 3D Pose Estimation",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T20:47:10.337Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on 3D pose estimation using graph neural networks and has no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper concepts include 'Pose', 'Graph', 'Artificial neural network', 'Machine learning' — all in computer vision/AI, with zero mention of affect, sentiment, emotion recognition, or related psychological or neuroscientific constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "714bc9064a22b088d96c658a231efb3a0bf8c886fe003f4e3c15b5cd7a3be020": {
+    "paper_id": "https://openalex.org/W4376456964",
+    "title": "Multi-hypergraph Neural Networks for Emotion Recognition in Multi-party Conversations",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T20:47:11.303Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper title explicitly includes 'Emotion Recognition' and targets multi-party conversations, directly aligning with the researcher's interest topic 'emotion'. The methodology (Multi-hypergraph Neural Networks) is applied to an affective computing task.",
+      "evidence": [
+        "Title: 'Multi-hypergraph Neural Networks for Emotion Recognition in Multi-party Conversations'",
+        "Interest topics: 'emotion'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "multi-party conversations",
+        "hypergraph neural networks",
+        "natural language processing",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Conversational AI",
+        "Graph neural networks for emotion analysis",
+        "Multimodal and contextual emotion modeling"
+      ]
+    }
+  },
+  "b59f8340af5c16741f135f76381a1af55a568dd319c5a530adda52d11aa71301": {
+    "paper_id": "https://openalex.org/W2888385155",
+    "title": "A Syntactically Constrained Bidirectional-Asynchronous Approach for Emotional Conversation Generation",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T20:47:11.782Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on emotional conversation generation, aligning directly with the researcher's interest topic 'emotion'. It introduces an emotion-aware model (E-SCBA) with dedicated mechanisms for integrating emotion keywords during decoding.",
+      "evidence": [
+        "Title contains 'Emotional Conversation Generation'",
+        "Abstract states the model 'gains a boost on both logic and emotion'",
+        "Proposed method is named 'E-SCBA' (Emotional Syntactically Constrained Bidirectional-Asynchronous)"
+      ],
+      "keywords": [
+        "emotion",
+        "emotional conversation generation",
+        "emotion keywords",
+        "affective NLP",
+        "sentiment-aware dialogue"
+      ],
+      "research_directions": [
+        "Affective natural language processing",
+        "Emotion-aware dialogue systems",
+        "Controllable text generation with affective constraints"
+      ]
+    }
   }
 }

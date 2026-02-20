@@ -12918,5 +12918,1283 @@
         "Feature importance in affective NLP"
       ]
     }
+  },
+  "0aea491648e60e84aefae9ae9c8395a25cfa534dc3cae2e724488dba131aa942": {
+    "paper_id": "https://openalex.org/W4225012116",
+    "title": "Adaptive Pseudo-Siamese Policy Network for Temporal Knowledge Prediction",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.177Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on temporal knowledge prediction using reinforcement learning and graph-based reasoning, with no mention of emotion, affect, sentiment, or any affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical AI/ML/database topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bb9920f2d98e5a9b35ae64f047171a04f49fa3c80e0d4abfbcabbb9c17a21e35": {
+    "paper_id": "https://openalex.org/W4384648007",
+    "title": "TST: Time-Sparse Transducer for Automatic Speech Recognition",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.243Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computational efficiency and architecture optimization for speech recognition, with no mention of emotion modeling, affective computing, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords pertain to ASR engineering and sparse computation."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0f0ccc0a70f8e011b1cbfcd1203c0b5298a5556c63c1a7155a5e41654eeac0c7": {
+    "paper_id": "https://openalex.org/W4320001909",
+    "title": "Spatial-Temporal Knowledge Graph Network for Event Prediction",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.254Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on spatial-temporal knowledge graphs and event prediction, with no explicit connection to emotion or affective computing in title, venue, or listed concepts.",
+      "evidence": [
+        "Concepts: Computer science, Graph, Data mining, Artificial intelligence, Theoretical computer science"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "41bd6d85a88e7580736c93627a4c98bc2d4406d961a9e86ea6b367ff46b52e32": {
+    "paper_id": "https://openalex.org/W4289785508",
+    "title": "Audio Deepfake Detection Based on a Combination of F0 Information and Real Plus Imaginary Spectrogram Features",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.256Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on audio deepfake detection using acoustic features (F0, spectrograms) and pattern recognition techniques; no mention of emotion modeling, affective computing, or emotional content analysis.",
+      "evidence": [
+        "Abstract and concepts emphasize technical speech processing, not emotion or affective signals"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1762b0113df40142a0ebb478fd4b5bdfddaf1dbb65ef976e689a7887b3211a19": {
+    "paper_id": "https://openalex.org/W4386080937",
+    "title": "Spatial Reconstructed Local Attention Res2Net with F0 Subband for Fake Speech Detection",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.290Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on fake speech detection using acoustic features (F0 subband) and deep learning architecture; no emotion modeling, affective computing, or psychological emotion analysis is present.",
+      "evidence": [
+        "Abstract and metadata contain no mention of emotion, affect, sentiment, or related psychological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0a16df81162d87abc34bdaad0bcc3069e3999d3a43df02f0d916e7f8c970b449": {
+    "paper_id": "https://openalex.org/W4386841360",
+    "title": "Residual Speaker Representation for One-Shot Voice Conversion",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.319Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on voice conversion robustness and timbre control using residual speaker representations; no mention of emotion, affective states, or affective computing.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are technical (timbre, robustness, speaker recognition, algorithm)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1650ed31f538c9b260457d9f61f4e236c9f4faa5884a26ebc8ca19e1c15cc60c": {
+    "paper_id": "https://openalex.org/W4402951280",
+    "title": "Utilizing Speaker Profiles for Impersonation Audio Detection",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.341Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on speaker identity, impersonation detection, and audio forensics—not emotion generation, recognition, or affective modeling.",
+      "evidence": [
+        "Interest topics are 'emotion', but the paper's core concepts are 'Computer science, Speech recognition' and tasks like fake audio/impersonation detection."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3c794dafaeb480fa31f85fdca9403378f63ad16f1269848c25b9153541685c5d": {
+    "paper_id": "https://openalex.org/W4386794079",
+    "title": "DGSD: Dynamical Graph Self-Distillation for EEG-Based Auditory Spatial Attention Detection",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.352Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on auditory spatial attention detection using EEG and graph neural networks, with no mention of emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; core focus is signal processing, graph CNNs, and attention decoding in multi-speaker environments."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c22a314089573ff1643ecce33fecc384e9088010add4104326251d17a9e4b96a": {
+    "paper_id": "https://openalex.org/W4399447942",
+    "title": "Genuine-Focused Learning using Mask AutoEncoder for Generalized Fake Audio Detection",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.354Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on fake audio detection using autoencoders and counterfactual reasoning, with no mention of emotion modeling, affective computing, or psychological emotion constructs.",
+      "evidence": [
+        "Abstract and concepts emphasize audio reconstruction, spoof detection, and deep learning—no emotion-related terms or affective phenomena."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4817a895ce10be4ef2724db07d82c051892598f8e7ae142b448138408f34aee1": {
+    "paper_id": "https://openalex.org/W4396761098",
+    "title": "Can Large Language Models Understand Uncommon Meanings of Common Words?",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.413Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on lexical semantics and LLM understanding of uncommon word meanings, with no stated or implied connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper concepts are Linguistics, Computer science, Natural language processing, Philosophy — none mention affect, emotion, sentiment, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5758db629eb04920351ba19d727fc9eb10291fabc7923bed18479accb5f3773a": {
+    "paper_id": "https://openalex.org/W4399510655",
+    "title": "TraceableSpeech: Towards Proactively Traceable Text-to-Speech with Watermarking",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.417Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on digital watermarking for TTS systems, with no mention of emotion modeling, affective computing, or any emotion-related signal processing or analysis.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related concepts; all technical terms pertain to watermarking, speech synthesis quality, and robustness against attacks."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "093312758534e3431035ba9b4bf00e5bb21c5c8c2a81c5a1ed39223907b84cc7": {
+    "paper_id": "https://openalex.org/W4378464970",
+    "title": "Detection of Cross-Dataset Fake Audio Based on Prosodic and Pronunciation Features",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.419Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on technical aspects of fake audio detection using prosodic and pronunciation features, with no mention of emotion modeling, affective computing, or emotional content analysis.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, or human emotional states; all concepts are signal-processing and AI generalization focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4b8979a93b2931cd9e99b20394a67087c1ee8e6080ebd09f39aeceabd55b5ffc": {
+    "paper_id": "https://openalex.org/W4309045040",
+    "title": "SceneFake: An Initial Dataset and Benchmarks for Scene Fake Audio Detection",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.423Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on audio forensics and fake acoustic scene detection, with no mention of emotion modeling, affective computing, or emotional content analysis.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, or human emotional states; concepts are limited to computer science, AI, and computer vision."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "445a98261b6a5ce1ce08a090ff05111e7e9e2d15d0d4fb04152022bcaa0849fe": {
+    "paper_id": "https://openalex.org/W4292957742",
+    "title": "Fully Automated End-to-End Fake Audio Detection",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.428Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on automated fake audio detection using speech representation and neural architecture search, with no mention of emotion modeling, affective computing, or emotional content analysis.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all technical focus is on spoof detection, wav2vec, DARTS, and EER performance."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ced6c23a46c2428baadfedec97bfc0965e50a1fc5efd1a0377d4d6ded2d88df2": {
+    "paper_id": "https://openalex.org/W4389911846",
+    "title": "What to Remember: Self-Adaptive Continual Learning for Audio Deepfake Detection",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.441Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on continual learning for audio deepfake detection, with no mention of emotion, affect, or affective processes.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper concepts include 'Forgetting', 'Machine learning', 'Audio deepfake detection' — all technical/computational, no affective or psychological emotion constructs"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "515f5674485f64c1261a81f068c07fd98d2b412d39842366e91a2e6e18e5045a": {
+    "paper_id": "https://openalex.org/W4387323188",
+    "title": "Fewer-token Neural Speech Codec with Time-invariant Codes",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.495Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on neural speech codec architecture optimization for TTS efficiency and quality, with no mention of emotion modeling, affective computing, or emotional speech processing.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, or psychological states; all concepts are technical (codec, tokens, invariance, TTS, reconstruction)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0d874486c7434f9f9f5bbba7d0222af559d68f299d6d40a9d82fe2bcf7e3e8c4": {
+    "paper_id": "https://openalex.org/W4403007419",
+    "title": "Does Current Deepfake Audio Detection Model Effectively Detect ALM-based Deepfake Audio?",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.501Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on deepfake audio detection using technical countermeasures against Audio Language Models, with no mention of emotion modeling, affective computing, or human emotional responses.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, or human emotional processing; concepts are strictly 'Computer science' and 'Speech recognition'."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5cd31e6d83335fdce018a4ee77dce284cf374b8d26bc28f3b0dbc554c39a795e": {
+    "paper_id": "https://openalex.org/W4317672098",
+    "title": "A systems biology approach uncovers novel disease mechanisms in age-related macular degeneration",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.590Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular systems biology and disease mechanisms in age-related macular degeneration, with no mention of emotion, affect, or psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts are strictly biomedical: 'Macular degeneration', 'Computational biology', 'Neuroscience' (in a pathological/structural sense), no affective terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "34d63c2f534f7e5ff82761cb3e9aa6f355184a51ad9d5a386a031fa8db185ba2": {
+    "paper_id": "https://openalex.org/W4320477027",
+    "title": "Text Enhancement for Paragraph Processing in End-to-End Code-switching TTS",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.594Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical aspects of code-switching TTS, including prosody stability and naturalness, with no mention of emotion modeling, affective computing, or emotional speech synthesis.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, or emotional prosody; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d905bdd6f1991bbde443ea0abf8a022c9863a9c470c4408f8dcd6164ddae0c4b": {
+    "paper_id": "https://openalex.org/W4403573483",
+    "title": "DARNet: Dual Attention Refinement Network with Spatiotemporal Construction for Auditory Attention Detection",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.606Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on auditory attention detection using EEG signals and neural network architecture design, with no mention of emotion, affective states, or related psychological constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; core concepts are 'auditory attention detection', 'EEG', 'spatiotemporal construction', and 'dual attention refinement'."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "eedb407ec9d40adfb815b209af4390b9f99ccab174a010e466a52f35542440a0": {
+    "paper_id": "https://openalex.org/W4288056111",
+    "title": "CFAD: A Chinese Dataset for Fake Audio Detection",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.673Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on fake audio detection, codecs, noise robustness, and speech forensics — all technical aspects of audio signal processing and AI security; no mention or conceptual link to emotion, affective computing, or human emotional states.",
+      "evidence": [
+        "Concepts include 'Audio signal', 'Codec', 'Speech recognition', 'Noise (video)', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e9b0c374b7acfed10c6fe40680b5170943c5f156c8b01173b39f38e29cd19b96": {
+    "paper_id": "https://openalex.org/W4399657460",
+    "title": "Codecfake: An Initial Dataset for Detecting LLM-based Deepfake Audio",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.677Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on deepfake audio detection using neural codecs and does not address emotion, affective computing, or any psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract contains no mention of emotion, affect, sentiment, or related constructs; all concepts are technical (LLM, vocoder, neural codec, ADD models)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "05c8e71b5d2e99ff424e69a04088028c6c52acb5f3857318330090ace28ddbb2": {
+    "paper_id": "https://openalex.org/W4378446151",
+    "title": "TO-Rawnet: Improving RawNet with TCN and Orthogonal Regularization for Fake Audio Detection",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.699Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on fake audio detection using signal processing and deep learning techniques, with no mention of emotion modeling, affective computing, or psychological/emotional aspects of speech.",
+      "evidence": [
+        "Abstract and concepts emphasize 'fake audio detection', 'Sinc-conv', 'TCN', 'ASVspoof', and 'regularization'—all technical signal/AI topics, not emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "43a5d4346eb3ad9447149b5cd5c47d9a3b3fc269bc342391a1bc2bced6f8b43c": {
+    "paper_id": "https://openalex.org/W4399447939",
+    "title": "Generalized Source Tracing: Detecting Novel Audio Deepfake Algorithm with Real Emphasis and Fake Dispersion Strategy",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.757Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on audio deepfake detection and algorithm attribution using signal processing and machine learning techniques; 'emotion' is not mentioned in title, abstract, or concepts, and no affective/emotion-related methodology or application is present.",
+      "evidence": [
+        "Concepts list contains no emotion-related terms; abstract discusses 'Real Emphasis and Fake Dispersion' in technical signal analysis context, not emotional expression or perception"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "424b93d128b495419569d522dc3354833d89dc360efa809542151c3341c5e8cd": {
+    "paper_id": "https://openalex.org/W4399511910",
+    "title": "PPPR: Portable Plug-in Prompt Refiner for Text to Audio Generation",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:23.768Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on text-to-audio generation and prompt refinement using large language models, with no mention of emotion modeling, affective computing, or emotional content in audio or text.",
+      "evidence": [
+        "Concepts include 'Spark plug', 'Plug-in', 'Computer science', 'Operating system'; abstract discusses Inception Score, AudioGen, and Chain-of-Thought verification—no emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cbd3faea26eb95f82f4205ccb94b03c2747a492c51e4ab34a48a6da56cace87e": {
+    "paper_id": "https://openalex.org/W4221147463",
+    "title": "EmotionNAS: Two-stream Neural Architecture Search for Speech Emotion Recognition",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:24.933Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on speech emotion recognition (SER), aligns with the researcher's stated interest in 'emotion', and centers its methodology (EmotionNAS) and evaluation on emotion-related tasks.",
+      "evidence": [
+        "Title contains 'Speech Emotion Recognition'",
+        "Abstract states 'SER is an important research topic in human-computer interaction'",
+        "Method name 'EmotionNAS' directly incorporates 'Emotion'"
+      ],
+      "keywords": [
+        "speech emotion recognition",
+        "neural architecture search",
+        "affective computing",
+        "two-stream learning",
+        "human-computer interaction"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware AI",
+        "automated machine learning for affective tasks",
+        "multimodal emotion analysis"
+      ]
+    }
+  },
+  "c458be48ad424ed4eb55816a35c06b0db6bd46e83db348c7975e75673c15fb13": {
+    "paper_id": "https://openalex.org/W4383473158",
+    "title": "MAE-DFER: Efficient Masked Autoencoder for Self-supervised Dynamic Facial Expression Recognition",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:25.234Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses dynamic facial expression recognition (DFER), a core affective computing task explicitly tied to emotion perception and modeling; the researcher's stated interest is 'emotion', and the work advances self-supervised learning for emotion-related visual behavior analysis.",
+      "evidence": [
+        "Title includes 'Dynamic Facial Expression Recognition'",
+        "Abstract states 'DFER is essential to the development of intelligent and empathetic machines'",
+        "Researcher's interest topic is 'emotion'"
+      ],
+      "keywords": [
+        "facial expression",
+        "emotion recognition",
+        "self-supervised learning",
+        "dynamic facial analysis",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective AI",
+        "emotion-aware computer vision",
+        "self-supervised representation learning for affect",
+        "facial motion modeling"
+      ]
+    }
+  },
+  "c3b6b41891535bccb9c3f09f3a5065fbe27780c1f94035eea91e6c6bf44ebfe3": {
+    "paper_id": "https://openalex.org/W4390528788",
+    "title": "SVFAP: Self-supervised Video Facial Affect Perceiver",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:25.676Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion-related facial affect analysis using self-supervised learning, aligning precisely with Jianhua Tao's stated interest in 'emotion'. It targets affective computing tasks including dimensional emotion recognition and dynamic facial expression recognition.",
+      "evidence": [
+        "Title explicitly includes 'Facial Affect Perceiver'",
+        "Abstract states downstream tasks include 'dimensional emotion recognition' and 'dynamic facial expression recognition'",
+        "Researcher's interest topic is 'emotion', and the paper's core focus is affect (i.e., emotion) perception from video"
+      ],
+      "keywords": [
+        "facial affect",
+        "emotion recognition",
+        "self-supervised learning",
+        "facial expression",
+        "dimensional emotion",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion representation learning",
+        "self-supervised affect modeling",
+        "video-based emotion analysis",
+        "facial expression understanding"
+      ]
+    }
+  },
+  "c0ad8ede61d42891e7886b40bd03f469e8bb15fd7c9fa07f2ebcda3e91174e48": {
+    "paper_id": "https://openalex.org/W4292218488",
+    "title": "Efficient Multimodal Transformer with Dual-Level Feature Restoration for Robust Multimodal Sentiment Analysis",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:25.817Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses multimodal sentiment analysis, which is a core subfield of affective computing and emotion modeling; the researcher's stated interest is 'emotion', and sentiment is a primary behavioral proxy for underlying emotional states.",
+      "evidence": [
+        "Title explicitly includes 'Multimodal Sentiment Analysis (MSA)'",
+        "Abstract states the goal is 'robust MSA' and discusses modeling affective signals across modalities (audio, visual, textual)",
+        "Researcher's interest topic is 'emotion', and sentiment analysis is a well-established emotion-related NLP/AI task"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "multimodal learning",
+        "emotion recognition",
+        "affective computing",
+        "feature restoration",
+        "robust AI"
+      ],
+      "research_directions": [
+        "affective multimodal fusion",
+        "robust emotion modeling under missing data",
+        "transformer-based affective representation learning"
+      ]
+    }
+  },
+  "2b661580a6c04cc96d634e7dfa4453f6aee4be35d00fb144f1d77925865aebea": {
+    "paper_id": "https://openalex.org/W4304194301",
+    "title": "An Overview of Affective Speech Synthesis and Conversion in the Deep Learning Era",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:25.955Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is explicitly focused on affective speech synthesis and conversion, directly aligning with Jianhua Tao's interest in 'emotion'; it centers on modeling and generating emotional expressivity in speech using deep learning.",
+      "evidence": [
+        "Title: 'An Overview of Affective Speech Synthesis and Conversion in the Deep Learning Era'",
+        "Abstract states: 'Affect, or expressivity, has the capacity to turn speech into a medium capable of conveying intimate thoughts, feelings, and emotions'",
+        "Concepts include: 'Feeling', 'Speech synthesis', 'Deep learning', 'Interpersonal communication'"
+      ],
+      "keywords": [
+        "affective speech synthesis",
+        "emotion recognition",
+        "speech conversion",
+        "expressive prosody",
+        "deep learning for emotion"
+      ],
+      "research_directions": [
+        "end-to-end emotional TTS systems",
+        "cross-speaker affective voice conversion",
+        "latent emotion representation learning",
+        "multimodal emotion grounding in speech"
+      ]
+    }
+  },
+  "8a15b39e55dc7c8ff181c20922278e61af57b3ebfe965d87c686ed778ded0431": {
+    "paper_id": "https://openalex.org/W3151243812",
+    "title": "FSR: Accelerating the Inference Process of Transducer-Based Models by Applying Fast-Skip Regularization",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.364Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computational optimization for transducer-based speech recognition models, with no mention of emotion, affect, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively concern inference acceleration, blank token prediction, regularization, and speech recognition performance."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7be36f38644922bbea1ca9c31cbcafeb5981386dfffb97ba9794bdbb5973e0bc": {
+    "paper_id": "https://openalex.org/W4300953324",
+    "title": "ADD 2022: the First Audio Deep Synthesis Detection Challenge",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.367Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on audio deepfake detection, a security and signal processing task, with no mention of emotion modeling, affective computing, or emotional content analysis.",
+      "evidence": [
+        "Abstract and concepts emphasize audio signal processing, speech recognition, and multimedia security—not emotion or affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4666ef82abefa19af29e1938b499647e55cc99be3e9dce42938772c253e28c74": {
+    "paper_id": "https://openalex.org/W3099726174",
+    "title": "Self-supervised Graph Representation Learning via Bootstrapping",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.473Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on self-supervised graph representation learning and bootstrapping techniques in deep learning; no mention of emotion, affect, or related psychological/linguistic modeling.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical ML/graph AI topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3da3d9c6d3017e5cd989c3dfeae9075bac73728b63916edfe98439b4ed75bd99": {
+    "paper_id": "https://openalex.org/W3182857999",
+    "title": "Multi-Level Graph Contrastive Learning",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.517Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on graph representation learning and self-supervised contrastive learning; no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; 'Pattern recognition (psychology)' is listed but not elaborated and is unrelated to affective science in context."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ec1e1fe80b444b7e884ea674f2cf59fa17bd4a7bded03064140e02a4f758b4dd": {
+    "paper_id": "https://openalex.org/W3024732798",
+    "title": "Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech Recognition",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.519Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on speech recognition architecture optimization and has no connection to emotion modeling, affective computing, or emotional signal processing.",
+      "evidence": [
+        "Abstract and concepts exclusively concern non-autoregressive transformers, CTC, inference speed, and speech recognition performance on AISHELL-1"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3cceae12ff11c9cf2763eba63a66b3d7b791b3c07b67b5cf4a68128a79d1b426": {
+    "paper_id": "https://openalex.org/W3097919625",
+    "title": "Decoupling Pronunciation and Language for End-to-end Code-switching Automatic Speech Recognition",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.530Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on code-switching ASR architecture and data efficiency, with no mention of emotion, affective computing, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, prosody, or emotional speech."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9393d9ab2c69d20a83c23c0fbaa2c4cb4d5b718ab9d025b20e26f36c4c76e5bd": {
+    "paper_id": "https://openalex.org/W3145776948",
+    "title": "Half-Truth: A Partially Fake Audio Detection Dataset",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.556Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on detecting partially fake audio for security/forensics, with no mention of emotion modeling, affective computing, or emotional content analysis.",
+      "evidence": [
+        "All concepts and the abstract center on audio spoofing, speech synthesis, detection benchmarks, and cybersecurity—not emotion, affect, or human emotional states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bb58066ad5b4d44c612dd3f85d8fdae51e97652cd6812d9ff8e870f6582e8e4a": {
+    "paper_id": "https://openalex.org/W4306180520",
+    "title": "A Residual Multi-Scale Convolutional Transformer Network with Chunk-level Log-Mel Spectrograms for Speech Emotion Recognition",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.568Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on Speech Emotion Recognition (SER), directly aligning with Jianhua Tao's stated interest in 'emotion'. It addresses core affective computing challenges: modeling arousal, valence, and dominance; handling emotional subjectivity and temporal dynamics; and improving robustness in emotion classification.",
+      "evidence": [
+        "Title contains 'Speech Emotion Recognition'",
+        "Abstract states 'we perform multidimensional SER, i.e., the prediction of arousal, valence, and dominance'",
+        "Abstract identifies 'human emotional expression' and 'subjective nature and continuity of emotion' as central challenges"
+      ],
+      "keywords": [
+        "speech emotion recognition",
+        "arousal",
+        "valence",
+        "dominance",
+        "log-mel spectrogram",
+        "emotion representation",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective speech processing",
+        "multidimensional emotion modeling",
+        "deep learning for emotion recognition",
+        "robust affective feature extraction",
+        "temporal modeling of emotion dynamics"
+      ]
+    }
+  },
+  "4115e8c99c5fc3e12fe43b295f9e3888369cb37128b8a763e81916f5ba656a26": {
+    "paper_id": "https://openalex.org/W4303470532",
+    "title": "CampNet: Context-Aware Mask Prediction for End-to-End Text-Based Speech Editing",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.609Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on text-based speech editing, prosody modeling, and speech synthesis—not emotion or affective computing.",
+      "evidence": [
+        "Concepts include speech recognition, speech synthesis, prosody, and context (computing), but no emotion-related terms; abstract discusses naturalness, editing operations, and speaker adaptation, not affective states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ec03bcf5fea6932c64660f04dbab194da78b6fbec5679d1bf0308bda402496a8": {
+    "paper_id": "https://openalex.org/W3023751411",
+    "title": "Listen Attentively, and Spell Once: Whole Sentence Generation via a Non-Autoregressive Architecture for Low-Latency Speech Recognition",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.618Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on low-latency speech recognition using a non-autoregressive architecture; no mention of emotion modeling, affective computing, or emotional content in speech.",
+      "evidence": [
+        "Abstract and concepts exclusively address speech recognition, latency, transformer architecture, and inference efficiency—no emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3b5d62a96bf50a77284b46c7b69a6532eb4898ef1da22ffcb2312b43b9753534": {
+    "paper_id": "https://openalex.org/W3102785448",
+    "title": "Deep Time Delay Neural Network for Speech Enhancement with Full Data Learning",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.628Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speech enhancement using deep TDNNs and full data learning, with no mention of emotion modeling, affective computing, or emotional content in speech.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical (TDNN, RNN, TIMIT, inference, speech enhancement)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c048e25417763175a20c4e0ea93569b38ecac36ab80eb4204dd68951717382eb": {
+    "paper_id": "https://openalex.org/W2992696780",
+    "title": "Synchronous Transformers for End-to-End Speech Recognition",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.654Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on architectural modifications to Transformers for online speech recognition, with no mention of emotion modeling, affective computing, or emotional content in speech.",
+      "evidence": [
+        "Abstract and concepts exclusively address synchronous encoding/decoding, speech recognition accuracy, and technical optimization—no emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ae8a33439ffa675afeaeb1f89c5609596423701180a635d5e1615ca926c8443c": {
+    "paper_id": "https://openalex.org/W4312091177",
+    "title": "Emotion Selectable End-to-End Text-based Speech Editing",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.666Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion modeling and control in speech synthesis, aligning precisely with Jianhua Tao's stated interest in 'emotion'. It introduces Emo-CampNet, an emotion-selectable end-to-end framework for text-based speech editing, with explicit focus on emotional attribute control, neutral content generation to isolate emotion, and emotion-specific data augmentation.",
+      "evidence": [
+        "Title contains 'Emotion Selectable' and 'Speech Editing'",
+        "Abstract states: 'adding emotional effect to the editing speech... to make the generated speech more expressive'",
+        "Abstract describes 'emotion attributes', 'neutral content generator' to remove original emotion, and 'emotional selectivity' as core contributions"
+      ],
+      "keywords": [
+        "emotion control",
+        "expressive speech synthesis",
+        "text-based speech editing",
+        "emotion-selectable model",
+        "neutral content generation",
+        "generative adversarial training",
+        "emotional data augmentation"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware speech synthesis",
+        "controllable TTS",
+        "speech editing with affective attributes",
+        "cross-speaker emotional voice conversion"
+      ]
+    }
+  },
+  "00e2eca6a8de8e2bd2d584de26f298411145fd8776c39c86451f1ae5f903f02a": {
+    "paper_id": "https://openalex.org/W3129868806",
+    "title": "Fast End-to-End Speech Recognition via Non-Autoregressive Models and Cross-Modal Knowledge Transferring from BERT",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.679Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speech recognition architecture optimization and cross-modal transfer learning from BERT, with no mention of emotion modeling, affective computing, or emotional content analysis.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; concepts are limited to speech recognition, autoregressive models, BERT, and inference efficiency."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c262751be6a106ab94fb0a4fb6cb3a8a3058bea667646dac0c9b538fd8d73cd8": {
+    "paper_id": "https://openalex.org/W3137236547",
+    "title": "Integrating Knowledge into End-to-End Speech Recognition from External Text-Only Data",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.734Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on end-to-end speech recognition, language modeling, and knowledge transfer from text-only data; no mention of emotion, affective computing, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are in ASR, NLP, and model architecture."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "92e11eea1cb5c6ec0e23839f7c998632227c8aa1a24cbcd7ad7a3d5bb1168dc4": {
+    "paper_id": "https://openalex.org/W4309086727",
+    "title": "Tucker decomposition-based Temporal Knowledge Graph Completion",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.736Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on temporal knowledge graph completion using Tucker decomposition, with no mention of emotion, affect, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract and concepts contain only technical AI/ML terms: 'Tucker decomposition', 'knowledge graph', 'link prediction', 'temporal datasets' — no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "021ae8860fad52f8f6c81d1def7439e0b7539fa17ccaeff9fb399ead723d5461": {
+    "paper_id": "https://openalex.org/W2959277750",
+    "title": "Learn Spelling from Teachers: Transferring Knowledge from Language Models to Sequence-to-Sequence Speech Recognition",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.780Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on knowledge distillation for speech recognition and language model integration, with no mention of emotion, affect, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are in ASR, NLP, and deep learning architecture."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b721b0d26f8a2a62609236cc8812cd06badaa575288e3ad618f970e6f6e85c95": {
+    "paper_id": "https://openalex.org/W2963462007",
+    "title": "Discriminative Learning for Monaural Speech Separation Using Deep Embedding Features",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.888Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on monaural speech separation using deep embedding and discriminative training, with no mention of emotion, affective computing, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, or human emotional states; all concepts are technical signal processing/AI topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "de9721cda4fe120d19ab4e6fb44e55e7b7dce13ba25efc0f47283c6a00b13fba": {
+    "paper_id": "https://openalex.org/W4254365061",
+    "title": "CTC regularized model adaptation for improving LSTM RNN based multi-accent Mandarin speech recognition",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.892Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speech recognition model adaptation for multi-accent Mandarin, with no mention of emotion, affect, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively address acoustic modeling, CTC regularization, LSTM-RNN, and accent adaptation—no emotion-related terms or objectives."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f41545063c04bdcd49e480142eb18705410bbf16037101611331c2e8e9fb170a": {
+    "paper_id": "https://openalex.org/W2359635669",
+    "title": "Modeling small-scale patterns in natural images by sequential eigenvalue problems in Sobolev spaces",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.938Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a mathematical image modeling work focused on Sobolev spaces and eigenvalue problems, with no mention or conceptual link to emotion, affect, or psychological/behavioral phenomena.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are mathematical/computational vision"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "64af93c55d7ed58bf27a4455d3dc3d26a43bdb2a0c0f573d22e832ca5808f1f9": {
+    "paper_id": "https://openalex.org/W3007948236",
+    "title": "Rnn-transducer with language bias for end-to-end Mandarin-English code-switching speech recognition",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.944Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on end-to-end speech recognition for Mandarin-English code-switching, with no mention of emotion, affective computing, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively concern speech recognition, language modeling, RNN-T, and code-switching; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c3c7443946a510789a913938a4abd30635c506538c18ca235eef8d4797c84f3b": {
+    "paper_id": "https://openalex.org/W3098930987",
+    "title": "Gated Recurrent Fusion with Joint Training Framework for Robust End-to-End Speech Recognition",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.965Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on robust speech recognition and distortion mitigation, with no mention of emotion, affect, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, or human emotional states; all concepts are technical (e.g., ASR, GRF, CER, SNR)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9ee867f2a3ff418e7a955c08c1f3fbd17fcd1fabfebd3c876a2fcd3d5a9892f2": {
+    "paper_id": "https://openalex.org/W4390926473",
+    "title": "Improving HMM-based Speech Synthesis by Reducing Over-smoothing Problems",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:26.990Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical improvements to HMM-based speech synthesis, specifically addressing over-smoothing in frequency/time domains and parameter training algorithms; no mention of emotion modeling, affective computing, or emotional prosody.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are purely signal processing and statistical modeling"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e991110054a78b9f1e0d41a0707a89668e6539861e886b9bebae465918e43780": {
+    "paper_id": "https://openalex.org/W2963965917",
+    "title": "Forward-Backward Decoding for Regularizing End-to-End TTS",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:27.072Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical improvements to end-to-end TTS robustness and naturalness via forward-backward decoding and regularization; no mention of emotion modeling, affective computing, or emotional speech synthesis.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all focus on decoding, autoregression, regularization, MOS evaluation for naturalness—not emotional expressivity."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "16ccdb3e544de5ac15b823718881cd8f263d2d6a321503bc3eefd756f7c86fe6": {
+    "paper_id": "https://openalex.org/W4232143362",
+    "title": "Pitch-scaled spectrum based excitation model for HMM-based Speech Synthesis",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:27.182Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical improvements to HMM-based speech synthesis, specifically excitation modeling and spectral parametrization; no mention of emotion recognition, affective computing, or emotional prosody modeling.",
+      "evidence": [
+        "Abstract discusses pitch-scaled spectrum, PCA, sigmoid fitting for aperiodic measures, and listening tests for sound quality—not emotional content or affective dimensions."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "11fc7338050bc1a168bd0db157dccf251e212d37bb85fa58f4ce306bd9d6bfff": {
+    "paper_id": "https://openalex.org/W4221149740",
+    "title": "GCNet: Graph Completion Network for Incomplete Multimodal Learning in Conversation",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:28.098Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper explicitly addresses emotion as a core dimension of conversation understanding, aligning directly with Jianhua Tao's interest in emotion; it focuses on multimodal learning in conversational contexts where emotion is a primary target modality.",
+      "evidence": [
+        "Understanding conversation from emotion, content and other aspects also attracts increasing attention from researchers",
+        "To verify the effectiveness of our method, we conduct experiments on three benchmark conversational datasets"
+      ],
+      "keywords": [
+        "emotion",
+        "multimodal learning",
+        "conversational AI",
+        "graph neural networks",
+        "incomplete modalities"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion recognition",
+        "conversational emotion modeling",
+        "graph-based representation learning for affect"
+      ]
+    }
+  },
+  "627c53d8f1c43bbae676d36985d724675cbb54cb8d88357b992bbc000697519e": {
+    "paper_id": "https://openalex.org/W4244141428",
+    "title": "Reconstruction of Partially Occluded Face by Fast Recursive PCA",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:28.830Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face reconstruction and occlusion removal using PCA; no mention of emotion modeling, affective computing, or emotional states.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all technical content pertains to geometric normalization, eigenfaces, and algorithmic efficiency."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8c8d2b29fad041ec191404f3e6dd14c6afd807fe4ddf0a8d539343d6906690f8": {
+    "paper_id": "https://openalex.org/W4300834568",
+    "title": "Data-driven importance analysis of linguistic and phonetic information",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:29.166Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "Title and metadata lack explicit emotion-related terms; 'emotion' is not mentioned in title, venue, concepts, or abstract, and ICSLP 2000 is a general speech processing venue.",
+      "evidence": [
+        "Title focuses on 'linguistic and phonetic information' without emotional context"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b05aee0256740eecec2c84e2138ceb091d109bc5215d2ec065907812d55b7343": {
+    "paper_id": "https://openalex.org/W2614003287",
+    "title": "Investigating deep neural network adaptation for generating exclamatory and interrogative speech in Mandarin",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:29.290Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper directly addresses emotion-related prosodic expression—specifically exclamatory and interrogative speech—which are linguistically and acoustically tied to affective states (e.g., surprise, urgency, curiosity) and fall under paralinguistic emotion modeling in speech synthesis.",
+      "evidence": [
+        "Focus on generating exclamatory and interrogative speech to improve expressiveness",
+        "Use of style-specific neural network layers to model distinct emotional prosodic patterns",
+        "Evaluation includes F0 (pitch) adaptation—a key acoustic correlate of emotion"
+      ],
+      "keywords": [
+        "emotion",
+        "expressive speech synthesis",
+        "prosody",
+        "F0 modulation",
+        "speech style adaptation",
+        "affective prosody"
+      ],
+      "research_directions": [
+        "Affective speech synthesis",
+        "Emotion-controllable TTS",
+        "Paralinguistic modeling in neural networks",
+        "Prosodic style transfer"
+      ]
+    }
+  },
+  "a3d2b9d34b35b3fadb61df8f4975abafa0acd381ff04e4199e11eb3e74c8e596": {
+    "paper_id": "https://openalex.org/W4390913055",
+    "title": "Prosody Modification on Mixed-language Speech Synthesis",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:29.574Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper addresses prosody modification in speech synthesis, and prosody is a well-established acoustic correlate of emotion in speech; the researcher's stated interest is 'emotion', and prosodic features (pitch range, duration) are directly used in affective computing for emotion expression and recognition.",
+      "evidence": [
+        "wider pitch range and the longer duration",
+        "Prosody modification model",
+        "natural prosody parameters"
+      ],
+      "keywords": [
+        "prosody",
+        "emotion",
+        "speech synthesis",
+        "pitch range",
+        "duration",
+        "affective prosody"
+      ],
+      "research_directions": [
+        "affective speech synthesis",
+        "emotion-related prosodic modeling",
+        "cross-lingual emotional prosody adaptation"
+      ]
+    }
+  },
+  "fe51fddd48a310e324d95a6b7158300227873754fb6b1d2bc80f1af574d982e9": {
+    "paper_id": "https://openalex.org/W2404598086",
+    "title": "Multi-source based acoustic model for speech synthesis.",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:29.713Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper explicitly addresses speech synthesis quality in 'various speaking mood', directly linking acoustic modeling to affective states (mood), aligning with emotion-related research.",
+      "evidence": [
+        "The model enhances the quality of speech synthesis in various speaking mood."
+      ],
+      "keywords": [
+        "speech synthesis",
+        "speaking mood",
+        "acoustic modeling",
+        "emotion",
+        "affective prosody"
+      ],
+      "research_directions": [
+        "Affective speech synthesis",
+        "Emotion-aware acoustic modeling",
+        "Prosodic modeling for emotional expression"
+      ]
+    }
+  },
+  "0a4965ab36f0f5fe357299cccd6d244f636f11baff25003b0eb7033edc5458a6": {
+    "paper_id": "https://openalex.org/W4390913101",
+    "title": "A Maximum Entropy Based Hierarchical Model for Automatic Prosodic Boundary Labeling in Mandarin",
+    "researcher_name": "Jianhua Tao",
+    "researcher_openalex_author_id": "A5112613657",
+    "updated_at": "2026-02-20T20:33:30.541Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.9,
+      "reason": "The paper addresses prosodic boundary labeling in Mandarin, which is closely tied to emotional prosody—prosodic features (e.g., pitch, duration, intensity) are primary acoustic correlates of emotion in speech; the researcher's stated interest is 'emotion', and prosody modeling is a core affective computing subfield.",
+      "evidence": [
+        "Modeling prosodic rhythm is of great importance for both speech synthesis and speech understanding",
+        "utilizes both text and acoustic features",
+        "prosodic boundary detection"
+      ],
+      "keywords": [
+        "prosody",
+        "emotion recognition",
+        "speech prosody",
+        "affective computing",
+        "Mandarin Chinese",
+        "maximum entropy"
+      ],
+      "research_directions": [
+        "Affective speech processing",
+        "Emotion-aware prosodic modeling",
+        "Computational paralinguistics",
+        "Automatic emotion recognition from speech"
+      ]
+    }
   }
 }

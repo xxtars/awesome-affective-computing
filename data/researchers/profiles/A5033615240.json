@@ -39,7 +39,7 @@
         "weight": 0.85
       },
       {
-        "name": "Cross-modal affective alignment (vision-language-emotion)",
+        "name": "Cross-modal affective alignment",
         "weight": 0.82
       },
       {
@@ -47,52 +47,52 @@
         "weight": 0.78
       },
       {
-        "name": "Personalized aesthetic and emotion modeling",
+        "name": "Personalized aesthetic modeling",
         "weight": 0.75
       }
     ],
-    "trend_summary": "Leida Li's research centers on bridging affective science and AI—specifically advancing multimodal, emotion-aware foundation models for image aesthetics and subjective perception. A strong longitudinal thread is the integration of psychological principles (e.g., emotion distribution, personality traits, cultural bias, interpretability) into computer vision and language models. Recent work (2023–2024) emphasizes human-centered evaluation benchmarks (e.g., AesBench), neuro- and psychology-inspired architectures (BMI-Net, SOLVER), and cross-modal affective alignment using VLP and LLMs—signaling a shift toward empathic, evaluable, and subjectively grounded multimodal AI.",
+    "trend_summary": "Leida Li's research centers on bridging affective science and AI—specifically, modeling subjective human perceptions (aesthetics, emotion, personality) through multimodal, psychologically informed, and human-centered computational frameworks. A strong longitudinal trend emerges: evolving from unimodal emotion/sentiment analysis (2019–2022) toward foundation-model-ready, vision-language-affective integration (2023–2024), with increasing emphasis on neuro-inspired architectures, expert-curated benchmarks (e.g., AesBench), explainability, and empathy-aligned evaluation. Cross-cutting themes include subjective trait extraction, culture- and personality-aware personalization, and rigorous grounding in affective psychology and neuroscience.",
     "representative_papers": [
       {
-        "title": "AesExpert: Towards Multi-modality Foundation Model for Image Aesthetics Perception",
-        "why": "Flagship 2024 paper introducing a foundation-model paradigm for aesthetics, unifying affective computing, multimodal perception, and human-centered evaluation."
-      },
-      {
-        "title": "BMI-Net: A Brain-inspired Multimodal Interaction Network for Image Aesthetic Assessment",
-        "why": "Highly cited (17) neuro-inspired architecture that grounds multimodal aesthetics in biological plausibility and subjective perception modeling."
+        "title": "Multimodal Sentiment Analysis With Image-Text Interaction Network",
+        "why": "Highly cited foundational work (194 citations) establishing cross-modal affective fusion for sentiment, setting early methodological precedent for later aesthetics-emotion integration."
       },
       {
         "title": "SOLVER: Scene-Object Interrelated Visual Emotion Reasoning Network",
-        "why": "Seminal 2021 work with high impact (54 citations); introduces graph-based, explainable, psychologically inspired reasoning for visual emotion—foundational to later affective vision models."
+        "why": "Seminal graph-based, psychologically inspired model for explainable visual emotion reasoning—introduces structured affective reasoning now extended to aesthetics assessment."
       },
       {
-        "title": "Multimodal Sentiment Analysis With Image-Text Interaction Network",
-        "why": "Most cited paper (194), establishing early cross-modal affective fusion framework linking NLP and CV for sentiment—a cornerstone for her later aesthetics-emotion work."
+        "title": "BMI-Net: A Brain-inspired Multimodal Interaction Network for Image Aesthetic Assessment",
+        "why": "Key neuro-inspired architecture linking brain mechanisms to subjective aesthetic judgment, exemplifying the convergence of neuroscience and computational aesthetics."
       },
       {
-        "title": "Personality-Assisted Multi-Task Learning for Generic and Personalized Image Aesthetics Assessment",
-        "why": "Key 2020 contribution linking personality traits to aesthetic preference, enabling personalized, affect-informed multimedia systems."
+        "title": "AesExpert: Towards Multi-modality Foundation Model for Image Aesthetics Perception",
+        "why": "Flagship 2024 paper defining the shift toward large-scale, expert-validated multimodal foundation models for aesthetics, integrating affective and perceptual priors."
       },
       {
         "title": "AesBench: An Expert Benchmark for Multimodal Large Language Models on Image Aesthetics Perception",
-        "why": "2024 benchmark defining rigorous, expert-validated evaluation standards for affective multimodal LLMs—reflecting maturation of the field she helped shape."
+        "why": "Introduces the first expert-curated benchmark explicitly designed to evaluate affective understanding in multimodal LLMs—critical for human-AI empathy alignment."
       },
       {
         "title": "Emotion-aware hierarchical interaction network for multimodal image aesthetics assessment",
-        "why": "2024 synthesis of emotion modeling, hierarchy, and multimodality—directly linking aesthetics assessment to fine-grained affective perception."
+        "why": "Exemplifies the core paradigm: jointly modeling aesthetics and emotion via hierarchical, multimodal interaction—directly unifying two central directions."
       },
       {
-        "title": "Seeking Subjectivity in Visual Emotion Distribution Learning",
-        "why": "Pioneering 2022 study addressing emotion subjectivity via crowdsourced annotation and distributional modeling—critical for robust, human-aligned affective AI."
+        "title": "Psychology Inspired Model for Hierarchical Image Aesthetic Attribute Prediction",
+        "why": "Early demonstration of interpretability through affective psychology, laying groundwork for psychologically grounded representation learning in later works."
+      },
+      {
+        "title": "Personality-Assisted Multi-Task Learning for Generic and Personalized Image Aesthetics Assessment",
+        "why": "Pivotal in establishing personality as a key modulator of aesthetic perception—enabling personalized, affectively aware multimedia systems."
       }
     ]
   },
   "stats": {
     "analyzed_works_count": 291,
     "interesting_works_count": 16,
-    "new_works_count": 248,
+    "new_works_count": 11,
     "deduped_works_count": 291,
-    "ai_called_count": 248,
+    "ai_called_count": 11,
     "summary_recomputed": true
   },
   "works": [
@@ -651,10 +651,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '25: The 33rd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '25: The 33rd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -751,10 +751,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '25: The 33rd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '25: The 33rd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -851,10 +851,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Cassyni",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Cassyni",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -2234,10 +2234,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2025 IEEE International Conference on Multimedia and Expo (ICME)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2025 IEEE International Conference on Multimedia and Expo (ICME)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -5888,10 +5888,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 18,
-      "primary_source": null,
+      "primary_source": "MM '24: The 32nd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '24: The 32nd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6169,10 +6169,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 7,
-      "primary_source": null,
+      "primary_source": "MM '24: The 32nd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '24: The 32nd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6395,10 +6395,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "MM '24: The 32nd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '24: The 32nd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6665,10 +6665,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "MM '24: The 32nd ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '24: The 32nd ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -8106,10 +8106,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 15,
-      "primary_source": null,
+      "primary_source": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -8285,10 +8285,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 17,
-      "primary_source": null,
+      "primary_source": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -12662,10 +12662,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 17,
-      "primary_source": null,
+      "primary_source": "MM '23: The 31st ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '23: The 31st ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -13005,10 +13005,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 6,
-      "primary_source": null,
+      "primary_source": "MM '23: The 31st ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '23: The 31st ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -13319,10 +13319,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 26,
-      "primary_source": null,
+      "primary_source": "MM '23: The 31st ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '23: The 31st ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -13573,10 +13573,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 14,
-      "primary_source": null,
+      "primary_source": "MM '23: The 31st ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '23: The 31st ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -15043,6 +15043,111 @@
       }
     },
     {
+      "id": "https://openalex.org/W4384832120",
+      "openalex_url": "https://openalex.org/W4384832120",
+      "title": "Table of Contents",
+      "publication_year": 2023,
+      "publication_date": "2023-07-01",
+      "doi": "https://doi.org/10.1109/msp.2023.3271044",
+      "doi_url": "https://doi.org/10.1109/msp.2023.3271044",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 0,
+      "primary_source": "IEEE Signal Processing Magazine",
+      "source": {
+        "id": "https://openalex.org/S120977877",
+        "display_name": "IEEE Signal Processing Magazine",
+        "type": "journal",
+        "issn_l": "1053-5888",
+        "is_in_doaj": false,
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ]
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4384832120",
+        "landing_page": "http://dx.doi.org/10.1109/msp.2023.3271044",
+        "pdf": "https://ieeexplore.ieee.org/ielx7/79/10188464/10188483.pdf",
+        "primary_topic_openalex": null,
+        "source_openalex": "https://openalex.org/S120977877"
+      },
+      "concepts": [
+        "Computer science",
+        "Table (database)",
+        "Database"
+      ],
+      "abstract": "",
+      "openalex_analysis": {
+        "primary_topic": null,
+        "topics": [],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.6307615637779236,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C45235069",
+            "name": "Table (database)",
+            "score": 0.590157687664032,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C77088390",
+            "name": "Database",
+            "score": 0.2078143060207367,
+            "level": 1
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.6307615637779236
+          },
+          {
+            "id": "https://openalex.org/keywords/table",
+            "name": "Table (database)",
+            "score": 0.590157687664032
+          },
+          {
+            "id": "https://openalex.org/keywords/database",
+            "name": "Database",
+            "score": 0.2078143060207367
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "bronze",
+          "oa_url": "https://ieeexplore.ieee.org/ielx7/79/10188464/10188483.pdf",
+          "any_repository_has_fulltext": false
+        },
+        "citation_normalized_percentile": null,
+        "fwci": null,
+        "counts_by_year": [],
+        "institutions_distinct_count": 72,
+        "countries_distinct_count": 1,
+        "referenced_works_count": 0
+      },
+      "analysis": {
+        "is_interesting": false,
+        "relevance_score": 0.1,
+        "confidence": 0.95,
+        "reason": "Paper title and metadata are generic; no emotion-related concepts or content indicated.",
+        "evidence": [
+          "Title: 'Table of Contents'"
+        ],
+        "keywords": [],
+        "research_directions": []
+      }
+    },
+    {
       "id": "https://openalex.org/W4384831931",
       "openalex_url": "https://openalex.org/W4384831931",
       "title": "Superresolution Image Reconstruction: Selective milestones and open problems",
@@ -15354,10 +15459,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "2023 IEEE International Conference on Multimedia and Expo (ICME)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2023 IEEE International Conference on Multimedia and Expo (ICME)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -15531,111 +15636,6 @@
         "reason": "The paper focuses on image aesthetics assessment using multimodal learning and aesthetic attributes, not human emotion or affective states.",
         "evidence": [
           "Interest topic is 'emotion', but paper's concepts and abstract center on 'aesthetics', 'computer vision', and 'attribute semantics', with no mention of emotion, affect, sentiment, or related psychological constructs."
-        ],
-        "keywords": [],
-        "research_directions": []
-      }
-    },
-    {
-      "id": "https://openalex.org/W4384832120",
-      "openalex_url": "https://openalex.org/W4384832120",
-      "title": "Table of Contents",
-      "publication_year": 2023,
-      "publication_date": "2023-07-01",
-      "doi": "https://doi.org/10.1109/msp.2023.3271044",
-      "doi_url": "https://doi.org/10.1109/msp.2023.3271044",
-      "type": "article",
-      "type_crossref": null,
-      "language": "en",
-      "is_retracted": false,
-      "is_paratext": false,
-      "cited_by_count": 0,
-      "primary_source": "IEEE Signal Processing Magazine",
-      "source": {
-        "id": "https://openalex.org/S120977877",
-        "display_name": "IEEE Signal Processing Magazine",
-        "type": "journal",
-        "issn_l": "1053-5888",
-        "is_in_doaj": false,
-        "host_organization_name": "Institute of Electrical and Electronics Engineers",
-        "host_organization_lineage_names": [
-          "Institute of Electrical and Electronics Engineers"
-        ]
-      },
-      "links": {
-        "openalex": "https://openalex.org/W4384832120",
-        "landing_page": "http://dx.doi.org/10.1109/msp.2023.3271044",
-        "pdf": "https://ieeexplore.ieee.org/ielx7/79/10188464/10188483.pdf",
-        "primary_topic_openalex": null,
-        "source_openalex": "https://openalex.org/S120977877"
-      },
-      "concepts": [
-        "Computer science",
-        "Table (database)",
-        "Database"
-      ],
-      "abstract": "",
-      "openalex_analysis": {
-        "primary_topic": null,
-        "topics": [],
-        "concepts": [
-          {
-            "id": "https://openalex.org/C41008148",
-            "name": "Computer science",
-            "score": 0.6307615637779236,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C45235069",
-            "name": "Table (database)",
-            "score": 0.590157687664032,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C77088390",
-            "name": "Database",
-            "score": 0.2078143060207367,
-            "level": 1
-          }
-        ],
-        "keywords": [
-          {
-            "id": "https://openalex.org/keywords/computer-science",
-            "name": "Computer science",
-            "score": 0.6307615637779236
-          },
-          {
-            "id": "https://openalex.org/keywords/table",
-            "name": "Table (database)",
-            "score": 0.590157687664032
-          },
-          {
-            "id": "https://openalex.org/keywords/database",
-            "name": "Database",
-            "score": 0.2078143060207367
-          }
-        ],
-        "sustainable_development_goals": [],
-        "open_access": {
-          "is_oa": true,
-          "oa_status": "bronze",
-          "oa_url": "https://ieeexplore.ieee.org/ielx7/79/10188464/10188483.pdf",
-          "any_repository_has_fulltext": false
-        },
-        "citation_normalized_percentile": null,
-        "fwci": null,
-        "counts_by_year": [],
-        "institutions_distinct_count": 72,
-        "countries_distinct_count": 1,
-        "referenced_works_count": 0
-      },
-      "analysis": {
-        "is_interesting": false,
-        "relevance_score": 0.1,
-        "confidence": 0.95,
-        "reason": "Paper title and metadata are generic; no emotion-related concepts or content indicated.",
-        "evidence": [
-          "Title: 'Table of Contents'"
         ],
         "keywords": [],
         "research_directions": []
@@ -29255,10 +29255,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 6,
-      "primary_source": null,
+      "primary_source": "MM '21: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '21: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -29558,10 +29558,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "MM '21: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '21: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -31411,10 +31411,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 39,
-      "primary_source": null,
+      "primary_source": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -35060,10 +35060,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 83,
-      "primary_source": null,
+      "primary_source": "MM '20: The 28th ACM International Conference on Multimedia",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '20: The 28th ACM International Conference on Multimedia",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -35380,10 +35380,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 12,
-      "primary_source": null,
+      "primary_source": "2020 IEEE International Conference on Image Processing (ICIP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2020 IEEE International Conference on Image Processing (ICIP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -36589,10 +36589,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 18,
-      "primary_source": null,
+      "primary_source": "2020 IEEE Conference on Multimedia Information Processing and Retrieval (MIPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2020 IEEE Conference on Multimedia Information Processing and Retrieval (MIPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -36907,10 +36907,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2020 IEEE Conference on Multimedia Information Processing and Retrieval (MIPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2020 IEEE Conference on Multimedia Information Processing and Retrieval (MIPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -37166,10 +37166,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 10,
-      "primary_source": null,
+      "primary_source": "2020 IEEE International Conference on Multimedia and Expo (ICME)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2020 IEEE International Conference on Multimedia and Expo (ICME)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -37483,10 +37483,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 386,
-      "primary_source": null,
+      "primary_source": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -39662,6 +39662,355 @@
       }
     },
     {
+      "id": "https://openalex.org/W4234516266",
+      "openalex_url": "https://openalex.org/W4234516266",
+      "title": "A novel colour image watermarking scheme based on Schur decomposition",
+      "publication_year": 2020,
+      "publication_date": "2020-01-01",
+      "doi": "https://doi.org/10.1504/ijes.2020.105277",
+      "doi_url": "https://doi.org/10.1504/ijes.2020.105277",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 8,
+      "primary_source": "International Journal of Embedded Systems",
+      "source": {
+        "id": "https://openalex.org/S204369148",
+        "display_name": "International Journal of Embedded Systems",
+        "type": "journal",
+        "issn_l": "1741-1068",
+        "is_in_doaj": false,
+        "host_organization_name": "Inderscience Publishers",
+        "host_organization_lineage_names": [
+          "Inderscience Publishers"
+        ]
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4234516266",
+        "landing_page": "https://doi.org/10.1504/ijes.2020.105277",
+        "pdf": null,
+        "primary_topic_openalex": "https://openalex.org/T10388",
+        "source_openalex": "https://openalex.org/S204369148"
+      },
+      "concepts": [
+        "Singular value decomposition",
+        "Schur decomposition",
+        "Watermark",
+        "Robustness (evolution)",
+        "Unitary matrix",
+        "Algorithm",
+        "Matrix decomposition",
+        "Digital watermarking"
+      ],
+      "abstract": "A novel colour image watermarking scheme based on Schur decomposition is proposed in this paper. By analysing the 3 × 3 unitary matrix U via Schur decomposition, the strong similarity relation between U2,1 and U3,1 is found. This relation will represent one kind of embedded watermark information, i.e., '1' or '0', and will be used to extract watermark from 3 × 3 unitary matrix U in the blind manner. Moreover, the proposed method requires lower computational complexity than other methods based on singular value decomposition (SVD) since Schur decomposition is only an intermediate step in SVD decomposition. In addition, the proposed method does not have the false-positive detection problem like that based on SVD. The experimental results show that the proposed scheme has better performance in terms of invisibility, robustness, capacity and real-time feature.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T10388",
+          "name": "Advanced Steganography and Watermarking Techniques",
+          "score": 0.9998000264167786,
+          "subfield": "Computer Vision and Pattern Recognition",
+          "field": "Computer Science",
+          "domain": "Physical Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10388",
+            "name": "Advanced Steganography and Watermarking Techniques",
+            "score": 0.9998000264167786,
+            "subfield": "Computer Vision and Pattern Recognition",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12707",
+            "name": "Vehicle License Plate Recognition",
+            "score": 0.9952999949455261,
+            "subfield": "Media Technology",
+            "field": "Engineering",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13579",
+            "name": "Image and Video Stabilization",
+            "score": 0.9764000177383423,
+            "subfield": "Computer Vision and Pattern Recognition",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C22789450",
+            "name": "Singular value decomposition",
+            "score": 0.9274144172668457,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C99383703",
+            "name": "Schur decomposition",
+            "score": 0.8325725793838501,
+            "level": 4
+          },
+          {
+            "id": "https://openalex.org/C164112704",
+            "name": "Watermark",
+            "score": 0.7430441975593567,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C63479239",
+            "name": "Robustness (evolution)",
+            "score": 0.5674930810928345,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C96214315",
+            "name": "Unitary matrix",
+            "score": 0.5324588418006897,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C11413529",
+            "name": "Algorithm",
+            "score": 0.5307640433311462,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C42355184",
+            "name": "Matrix decomposition",
+            "score": 0.5294427871704102,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C150817343",
+            "name": "Digital watermarking",
+            "score": 0.5142056941986084,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C2731191",
+            "name": "Schur complement",
+            "score": 0.5126110911369324,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C67820243",
+            "name": "Unitary state",
+            "score": 0.49325746297836304,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C106487976",
+            "name": "Matrix (chemical analysis)",
+            "score": 0.4696694314479828,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.4628230035305023,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C33923547",
+            "name": "Mathematics",
+            "score": 0.4499548077583313,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C109282560",
+            "name": "Singular value",
+            "score": 0.44502660632133484,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C50962388",
+            "name": "Invisibility",
+            "score": 0.4122803211212158,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C153180895",
+            "name": "Pattern recognition (psychology)",
+            "score": 0.3340446352958679,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C115961682",
+            "name": "Image (mathematics)",
+            "score": 0.3216268718242645,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "name": "Artificial intelligence",
+            "score": 0.28995174169540405,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C158693339",
+            "name": "Eigenvalues and eigenvectors",
+            "score": 0.07225948572158813,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C55493867",
+            "name": "Biochemistry",
+            "score": 0,
+            "level": 1
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/singular-value-decomposition",
+            "name": "Singular value decomposition",
+            "score": 0.9274144172668457
+          },
+          {
+            "id": "https://openalex.org/keywords/schur-decomposition",
+            "name": "Schur decomposition",
+            "score": 0.8325725793838501
+          },
+          {
+            "id": "https://openalex.org/keywords/watermark",
+            "name": "Watermark",
+            "score": 0.7430441975593567
+          },
+          {
+            "id": "https://openalex.org/keywords/robustness",
+            "name": "Robustness (evolution)",
+            "score": 0.5674930810928345
+          },
+          {
+            "id": "https://openalex.org/keywords/unitary-matrix",
+            "name": "Unitary matrix",
+            "score": 0.5324588418006897
+          },
+          {
+            "id": "https://openalex.org/keywords/algorithm",
+            "name": "Algorithm",
+            "score": 0.5307640433311462
+          },
+          {
+            "id": "https://openalex.org/keywords/matrix-decomposition",
+            "name": "Matrix decomposition",
+            "score": 0.5294427871704102
+          },
+          {
+            "id": "https://openalex.org/keywords/digital-watermarking",
+            "name": "Digital watermarking",
+            "score": 0.5142056941986084
+          },
+          {
+            "id": "https://openalex.org/keywords/schur-complement",
+            "name": "Schur complement",
+            "score": 0.5126110911369324
+          },
+          {
+            "id": "https://openalex.org/keywords/unitary-state",
+            "name": "Unitary state",
+            "score": 0.49325746297836304
+          },
+          {
+            "id": "https://openalex.org/keywords/matrix",
+            "name": "Matrix (chemical analysis)",
+            "score": 0.4696694314479828
+          },
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.4628230035305023
+          },
+          {
+            "id": "https://openalex.org/keywords/mathematics",
+            "name": "Mathematics",
+            "score": 0.4499548077583313
+          },
+          {
+            "id": "https://openalex.org/keywords/singular-value",
+            "name": "Singular value",
+            "score": 0.44502660632133484
+          },
+          {
+            "id": "https://openalex.org/keywords/invisibility",
+            "name": "Invisibility",
+            "score": 0.4122803211212158
+          },
+          {
+            "id": "https://openalex.org/keywords/pattern-recognition",
+            "name": "Pattern recognition (psychology)",
+            "score": 0.3340446352958679
+          },
+          {
+            "id": "https://openalex.org/keywords/image",
+            "name": "Image (mathematics)",
+            "score": 0.3216268718242645
+          },
+          {
+            "id": "https://openalex.org/keywords/artificial-intelligence",
+            "name": "Artificial intelligence",
+            "score": 0.28995174169540405
+          },
+          {
+            "id": "https://openalex.org/keywords/eigenvalues-and-eigenvectors",
+            "name": "Eigenvalues and eigenvectors",
+            "score": 0.07225948572158813
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "citation_normalized_percentile": {
+          "value": 0.63894394,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "fwci": 0.41986927,
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 2
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 2
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 2
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 1
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 1
+          }
+        ],
+        "institutions_distinct_count": 5,
+        "countries_distinct_count": 2,
+        "referenced_works_count": 0
+      },
+      "analysis": {
+        "is_interesting": false,
+        "relevance_score": 0.1,
+        "confidence": 0.95,
+        "reason": "The paper is a technical contribution to digital image watermarking using Schur decomposition; it contains no emotion-related concepts, methods, or applications.",
+        "evidence": [
+          "All concepts and the abstract focus on matrix decomposition, watermarking algorithms, and robustness—no mention of emotion, affect, psychology, or human factors."
+        ],
+        "keywords": [],
+        "research_directions": []
+      }
+    },
+    {
       "id": "https://openalex.org/W3003957020",
       "openalex_url": "https://openalex.org/W3003957020",
       "title": "Personality-Assisted Multi-Task Learning for Generic and Personalized Image Aesthetics Assessment",
@@ -40344,355 +40693,6 @@
         "reason": "The paper focuses on objective quality assessment of depth images for view synthesis, with no connection to human emotion, affective computing, or psychological/emotional responses.",
         "evidence": [
           "Abstract and concepts exclusively concern structural statistics, geometric distortion, and image quality metrics in computer vision/signal processing"
-        ],
-        "keywords": [],
-        "research_directions": []
-      }
-    },
-    {
-      "id": "https://openalex.org/W4234516266",
-      "openalex_url": "https://openalex.org/W4234516266",
-      "title": "A novel colour image watermarking scheme based on Schur decomposition",
-      "publication_year": 2020,
-      "publication_date": "2020-01-01",
-      "doi": "https://doi.org/10.1504/ijes.2020.105277",
-      "doi_url": "https://doi.org/10.1504/ijes.2020.105277",
-      "type": "article",
-      "type_crossref": null,
-      "language": "en",
-      "is_retracted": false,
-      "is_paratext": false,
-      "cited_by_count": 8,
-      "primary_source": "International Journal of Embedded Systems",
-      "source": {
-        "id": "https://openalex.org/S204369148",
-        "display_name": "International Journal of Embedded Systems",
-        "type": "journal",
-        "issn_l": "1741-1068",
-        "is_in_doaj": false,
-        "host_organization_name": "Inderscience Publishers",
-        "host_organization_lineage_names": [
-          "Inderscience Publishers"
-        ]
-      },
-      "links": {
-        "openalex": "https://openalex.org/W4234516266",
-        "landing_page": "https://doi.org/10.1504/ijes.2020.105277",
-        "pdf": null,
-        "primary_topic_openalex": "https://openalex.org/T10388",
-        "source_openalex": "https://openalex.org/S204369148"
-      },
-      "concepts": [
-        "Singular value decomposition",
-        "Schur decomposition",
-        "Watermark",
-        "Robustness (evolution)",
-        "Unitary matrix",
-        "Algorithm",
-        "Matrix decomposition",
-        "Digital watermarking"
-      ],
-      "abstract": "A novel colour image watermarking scheme based on Schur decomposition is proposed in this paper. By analysing the 3 × 3 unitary matrix U via Schur decomposition, the strong similarity relation between U2,1 and U3,1 is found. This relation will represent one kind of embedded watermark information, i.e., '1' or '0', and will be used to extract watermark from 3 × 3 unitary matrix U in the blind manner. Moreover, the proposed method requires lower computational complexity than other methods based on singular value decomposition (SVD) since Schur decomposition is only an intermediate step in SVD decomposition. In addition, the proposed method does not have the false-positive detection problem like that based on SVD. The experimental results show that the proposed scheme has better performance in terms of invisibility, robustness, capacity and real-time feature.",
-      "openalex_analysis": {
-        "primary_topic": {
-          "id": "https://openalex.org/T10388",
-          "name": "Advanced Steganography and Watermarking Techniques",
-          "score": 0.9998000264167786,
-          "subfield": "Computer Vision and Pattern Recognition",
-          "field": "Computer Science",
-          "domain": "Physical Sciences"
-        },
-        "topics": [
-          {
-            "id": "https://openalex.org/T10388",
-            "name": "Advanced Steganography and Watermarking Techniques",
-            "score": 0.9998000264167786,
-            "subfield": "Computer Vision and Pattern Recognition",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12707",
-            "name": "Vehicle License Plate Recognition",
-            "score": 0.9952999949455261,
-            "subfield": "Media Technology",
-            "field": "Engineering",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T13579",
-            "name": "Image and Video Stabilization",
-            "score": 0.9764000177383423,
-            "subfield": "Computer Vision and Pattern Recognition",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "concepts": [
-          {
-            "id": "https://openalex.org/C22789450",
-            "name": "Singular value decomposition",
-            "score": 0.9274144172668457,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C99383703",
-            "name": "Schur decomposition",
-            "score": 0.8325725793838501,
-            "level": 4
-          },
-          {
-            "id": "https://openalex.org/C164112704",
-            "name": "Watermark",
-            "score": 0.7430441975593567,
-            "level": 3
-          },
-          {
-            "id": "https://openalex.org/C63479239",
-            "name": "Robustness (evolution)",
-            "score": 0.5674930810928345,
-            "level": 3
-          },
-          {
-            "id": "https://openalex.org/C96214315",
-            "name": "Unitary matrix",
-            "score": 0.5324588418006897,
-            "level": 3
-          },
-          {
-            "id": "https://openalex.org/C11413529",
-            "name": "Algorithm",
-            "score": 0.5307640433311462,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C42355184",
-            "name": "Matrix decomposition",
-            "score": 0.5294427871704102,
-            "level": 3
-          },
-          {
-            "id": "https://openalex.org/C150817343",
-            "name": "Digital watermarking",
-            "score": 0.5142056941986084,
-            "level": 3
-          },
-          {
-            "id": "https://openalex.org/C2731191",
-            "name": "Schur complement",
-            "score": 0.5126110911369324,
-            "level": 3
-          },
-          {
-            "id": "https://openalex.org/C67820243",
-            "name": "Unitary state",
-            "score": 0.49325746297836304,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C106487976",
-            "name": "Matrix (chemical analysis)",
-            "score": 0.4696694314479828,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C41008148",
-            "name": "Computer science",
-            "score": 0.4628230035305023,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C33923547",
-            "name": "Mathematics",
-            "score": 0.4499548077583313,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C109282560",
-            "name": "Singular value",
-            "score": 0.44502660632133484,
-            "level": 3
-          },
-          {
-            "id": "https://openalex.org/C50962388",
-            "name": "Invisibility",
-            "score": 0.4122803211212158,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C153180895",
-            "name": "Pattern recognition (psychology)",
-            "score": 0.3340446352958679,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C115961682",
-            "name": "Image (mathematics)",
-            "score": 0.3216268718242645,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C154945302",
-            "name": "Artificial intelligence",
-            "score": 0.28995174169540405,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C158693339",
-            "name": "Eigenvalues and eigenvectors",
-            "score": 0.07225948572158813,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C55493867",
-            "name": "Biochemistry",
-            "score": 0,
-            "level": 1
-          }
-        ],
-        "keywords": [
-          {
-            "id": "https://openalex.org/keywords/singular-value-decomposition",
-            "name": "Singular value decomposition",
-            "score": 0.9274144172668457
-          },
-          {
-            "id": "https://openalex.org/keywords/schur-decomposition",
-            "name": "Schur decomposition",
-            "score": 0.8325725793838501
-          },
-          {
-            "id": "https://openalex.org/keywords/watermark",
-            "name": "Watermark",
-            "score": 0.7430441975593567
-          },
-          {
-            "id": "https://openalex.org/keywords/robustness",
-            "name": "Robustness (evolution)",
-            "score": 0.5674930810928345
-          },
-          {
-            "id": "https://openalex.org/keywords/unitary-matrix",
-            "name": "Unitary matrix",
-            "score": 0.5324588418006897
-          },
-          {
-            "id": "https://openalex.org/keywords/algorithm",
-            "name": "Algorithm",
-            "score": 0.5307640433311462
-          },
-          {
-            "id": "https://openalex.org/keywords/matrix-decomposition",
-            "name": "Matrix decomposition",
-            "score": 0.5294427871704102
-          },
-          {
-            "id": "https://openalex.org/keywords/digital-watermarking",
-            "name": "Digital watermarking",
-            "score": 0.5142056941986084
-          },
-          {
-            "id": "https://openalex.org/keywords/schur-complement",
-            "name": "Schur complement",
-            "score": 0.5126110911369324
-          },
-          {
-            "id": "https://openalex.org/keywords/unitary-state",
-            "name": "Unitary state",
-            "score": 0.49325746297836304
-          },
-          {
-            "id": "https://openalex.org/keywords/matrix",
-            "name": "Matrix (chemical analysis)",
-            "score": 0.4696694314479828
-          },
-          {
-            "id": "https://openalex.org/keywords/computer-science",
-            "name": "Computer science",
-            "score": 0.4628230035305023
-          },
-          {
-            "id": "https://openalex.org/keywords/mathematics",
-            "name": "Mathematics",
-            "score": 0.4499548077583313
-          },
-          {
-            "id": "https://openalex.org/keywords/singular-value",
-            "name": "Singular value",
-            "score": 0.44502660632133484
-          },
-          {
-            "id": "https://openalex.org/keywords/invisibility",
-            "name": "Invisibility",
-            "score": 0.4122803211212158
-          },
-          {
-            "id": "https://openalex.org/keywords/pattern-recognition",
-            "name": "Pattern recognition (psychology)",
-            "score": 0.3340446352958679
-          },
-          {
-            "id": "https://openalex.org/keywords/image",
-            "name": "Image (mathematics)",
-            "score": 0.3216268718242645
-          },
-          {
-            "id": "https://openalex.org/keywords/artificial-intelligence",
-            "name": "Artificial intelligence",
-            "score": 0.28995174169540405
-          },
-          {
-            "id": "https://openalex.org/keywords/eigenvalues-and-eigenvectors",
-            "name": "Eigenvalues and eigenvectors",
-            "score": 0.07225948572158813
-          }
-        ],
-        "sustainable_development_goals": [],
-        "open_access": {
-          "is_oa": false,
-          "oa_status": "closed",
-          "oa_url": null,
-          "any_repository_has_fulltext": false
-        },
-        "citation_normalized_percentile": {
-          "value": 0.63894394,
-          "is_in_top_1_percent": false,
-          "is_in_top_10_percent": false
-        },
-        "fwci": 0.41986927,
-        "counts_by_year": [
-          {
-            "year": 2025,
-            "cited_by_count": 2
-          },
-          {
-            "year": 2024,
-            "cited_by_count": 2
-          },
-          {
-            "year": 2023,
-            "cited_by_count": 2
-          },
-          {
-            "year": 2022,
-            "cited_by_count": 1
-          },
-          {
-            "year": 2021,
-            "cited_by_count": 1
-          }
-        ],
-        "institutions_distinct_count": 5,
-        "countries_distinct_count": 2,
-        "referenced_works_count": 0
-      },
-      "analysis": {
-        "is_interesting": false,
-        "relevance_score": 0.1,
-        "confidence": 0.95,
-        "reason": "The paper is a technical contribution to digital image watermarking using Schur decomposition; it contains no emotion-related concepts, methods, or applications.",
-        "evidence": [
-          "All concepts and the abstract focus on matrix decomposition, watermarking algorithms, and robustness—no mention of emotion, affect, psychology, or human factors."
         ],
         "keywords": [],
         "research_directions": []
@@ -42215,10 +42215,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 18,
-      "primary_source": null,
+      "primary_source": "2019 IEEE International Conference on Image Processing (ICIP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 IEEE International Conference on Image Processing (ICIP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -42521,10 +42521,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 23,
-      "primary_source": null,
+      "primary_source": "2019 IEEE International Conference on Multimedia and Expo (ICME)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 IEEE International Conference on Multimedia and Expo (ICME)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -46663,10 +46663,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "MM '18: ACM Multimedia Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "MM '18: ACM Multimedia Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -52317,10 +52317,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 24,
-      "primary_source": null,
+      "primary_source": "2017 IEEE International Conference on Image Processing (ICIP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2017 IEEE International Conference on Image Processing (ICIP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -53090,10 +53090,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 7,
-      "primary_source": null,
+      "primary_source": "2017 IEEE International Conference on Multimedia & Expo Workshops (ICMEW)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2017 IEEE International Conference on Multimedia & Expo Workshops (ICMEW)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -57849,10 +57849,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 15,
-      "primary_source": null,
+      "primary_source": "2016 IEEE International Conference on Image Processing (ICIP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2016 IEEE International Conference on Image Processing (ICIP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -59642,10 +59642,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 7,
-      "primary_source": null,
+      "primary_source": "2016 Eighth International Conference on Quality of Multimedia Experience (QoMEX)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2016 Eighth International Conference on Quality of Multimedia Experience (QoMEX)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -60181,10 +60181,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 7,
-      "primary_source": null,
+      "primary_source": "2016 IEEE International Symposium on Circuits and Systems (ISCAS)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2016 IEEE International Symposium on Circuits and Systems (ISCAS)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -61872,10 +61872,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 17,
-      "primary_source": null,
+      "primary_source": "2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -70384,10 +70384,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2013 Ninth International Conference on Intelligent Information Hiding and Multimedia Signal Processing (IIH-MSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2013 Ninth International Conference on Intelligent Information Hiding and Multimedia Signal Processing (IIH-MSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -70700,10 +70700,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2013 Ninth International Conference on Intelligent Information Hiding and Multimedia Signal Processing (IIH-MSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2013 Ninth International Conference on Intelligent Information Hiding and Multimedia Signal Processing (IIH-MSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -71632,10 +71632,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 34,
-      "primary_source": null,
+      "primary_source": "2012 World Congress on Information and Communication Technologies (WICT)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2012 World Congress on Information and Communication Technologies (WICT)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -75558,10 +75558,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 45,
-      "primary_source": null,
+      "primary_source": "2010 Fourth International Conference on Genetic and Evolutionary Computing (ICGEC 2010)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 Fourth International Conference on Genetic and Evolutionary Computing (ICGEC 2010)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -75948,10 +75948,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 8,
-      "primary_source": null,
+      "primary_source": "2010 Fourth International Conference on Genetic and Evolutionary Computing (ICGEC 2010)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 Fourth International Conference on Genetic and Evolutionary Computing (ICGEC 2010)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -76655,10 +76655,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2010 IEEE International Conference on Multimedia and Expo (ICME)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 IEEE International Conference on Multimedia and Expo (ICME)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -78355,10 +78355,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "2009 Fifth International Conference on Information Assurance and Security",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2009 Fifth International Conference on Information Assurance and Security",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -79851,10 +79851,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 6,
-      "primary_source": null,
+      "primary_source": "2008 Eighth International Conference on Intelligent Systems Design and Applications (ISDA)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2008 Eighth International Conference on Intelligent Systems Design and Applications (ISDA)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -80730,10 +80730,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 7,
-      "primary_source": null,
+      "primary_source": "2008 3rd International Conference on Innovative Computing Information and Control",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2008 3rd International Conference on Innovative Computing Information and Control",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,

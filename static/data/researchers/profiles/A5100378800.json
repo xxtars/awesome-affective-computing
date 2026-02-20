@@ -19,7 +19,7 @@
   "topic_summary": {
     "top_research_directions": [
       {
-        "name": "EEG-based emotion recognition and decoding",
+        "name": "EEG-based emotion recognition",
         "weight": 1
       },
       {
@@ -27,72 +27,72 @@
         "weight": 0.97
       },
       {
-        "name": "Graph neural networks for affective signal modeling",
-        "weight": 0.94
+        "name": "Multimodal emotion analysis (EEG, speech, text, face, gait, eye movement)",
+        "weight": 0.93
       },
       {
-        "name": "Multimodal emotion analysis (EEG, speech, text, vision, gait, eye movement)",
+        "name": "Graph neural networks for affective signal modeling",
         "weight": 0.91
       },
       {
-        "name": "Uncertainty-aware and robust affective modeling",
+        "name": "Uncertainty-aware and robust emotion modeling",
         "weight": 0.88
       },
       {
-        "name": "Clinical affective AI and mental health applications (depression, AD, addiction)",
+        "name": "Clinical affective AI and mental health applications (depression, Alzheimer’s, addiction)",
         "weight": 0.85
       },
       {
-        "name": "Affective natural language processing and dialogue systems",
+        "name": "Cross-subject and domain-adaptive affective modeling",
         "weight": 0.82
       },
       {
-        "name": "Cross-subject, cross-domain, and cross-cultural generalization in emotion AI",
+        "name": "Affective natural language processing and dialogue systems",
         "weight": 0.79
       }
     ],
-    "trend_summary": "Tong Zhang's research centers on rigorous, neurophysiologically grounded affective AI—especially EEG-driven emotion recognition—uniquely bridging deep learning innovation (notably graph neural networks, broad learning, and uncertainty-aware architectures) with clinical, interpretability, and multimodal rigor. A strong longitudinal emphasis exists on improving model generalizability across subjects, domains, and cultures, while increasingly integrating LLMs, causal/orthogonal representation learning, and computational psychiatry frameworks. The work consistently prioritizes not just accuracy but physiological plausibility, clinical utility, and human-centered explainability.",
+    "trend_summary": "Tong Zhang's research centers on rigorous, neurophysiologically grounded affective AI—especially EEG-driven emotion decoding—with strong emphasis on interpretability, multimodal fusion, and clinical translation. A dominant trend is the integration of graph neural networks with physiological signal modeling to capture brain functional connectivity, while consistently addressing real-world challenges: individual variability (via cross-subject/domain adaptation), annotation noise and subjectivity (via uncertainty modeling and crowdsourcing-aware architectures), and clinical validity (e.g., depression detection, neurodegenerative disorder biomarkers). Recent work increasingly bridges computational psychiatry and human-centered AI—leveraging LLMs, dynamic graphs, disentanglement, and orthogonal representation learning—not just for accuracy but for mechanistic insight and deployable trustworthiness.",
     "representative_papers": [
       {
-        "title": "Grop: Graph Orthogonal Purification Network for EEG Emotion Recognition",
-        "why": "Highest-cited paper (26 citations) exemplifying core themes: EEG-based emotion decoding, orthogonal graph representation learning, and robust neurophysiological feature purification."
+        "title": "GDDN: Graph Domain Disentanglement Network for Generalizable EEG Emotion Recognition",
+        "why": "Highly cited (53), exemplifies core synthesis of graph learning, domain generalization, and EEG-based affective modeling; addresses fundamental cross-subject transfer challenge."
       },
       {
-        "title": "GDDN: Graph Domain Disentanglement Network for Generalizable EEG Emotion Recognition",
-        "why": "Top-cited (53) work unifying graph modeling, domain adaptation, and generalizability—cornerstone of Zhang’s cross-subject EEG focus."
+        "title": "Grop: Graph Orthogonal Purification Network for EEG Emotion Recognition",
+        "why": "Highest citation count (26) among recent works, introduces orthogonal representation learning to isolate emotion-specific neural features—key for interpretability and robustness."
       },
       {
         "title": "CiABL: Completeness-Induced Adaptative Broad Learning for Cross-Subject Emotion Recognition With EEG and Eye Movement Signals",
-        "why": "Most cited (46) multimodal cross-subject method, highlighting integration of physiological signals and adaptive broad learning."
+        "why": "Top-cited paper (46) in multimodal cross-subject setting; pioneers adaptive broad learning for physiological signal fusion with interpretability focus."
       },
       {
-        "title": "Cross-Cultural Emotion Recognition With EEG and Eye Movement Signals Based on Multiple Stacked Broad Learning System",
-        "why": "Highly cited (61) demonstration of cross-cultural generalization using multimodal physiological signals—key trend in real-world deployment."
-      },
-      {
-        "title": "Fine-Grained Interpretability for EEG Emotion Recognition: Concat-Aided Grad-CAM and Systematic Brain Functional Network",
-        "why": "Seminal interpretability work (49 citations) linking model explanations to brain functional networks—defining contribution to explainable affective AI."
+        "title": "Hierarchical Dynamic Graph Convolutional Network With Interpretability for EEG-Based Emotion Recognition",
+        "why": "Foundational high-impact work (86 citations); established interpretable dynamic graph modeling of time-varying brain connectivity for emotion."
       },
       {
         "title": "Ugan: Uncertainty-Guided Graph Augmentation Network for EEG Emotion Recognition",
-        "why": "Highly cited (12) uncertainty-aware framework specifically designed for EEG variability—epitomizes robustness focus under individual differences."
+        "why": "Seminal uncertainty-aware framework (12 citations, high influence); integrates aleatoric uncertainty estimation directly into graph augmentation for robust decoding."
       },
       {
         "title": "ACM-GNN: Adaptive Cluster-Oriented Modularity Graph Neural Network for EEG Depression Detection",
-        "why": "Represents clinical translation focus: interpretable GNNs applied to depression detection using neuro-affective biomarkers."
+        "why": "Direct clinical translation—uses GNNs to extract neuro-affective biomarkers for major depressive disorder, bridging computational psychiatry and graph AI."
       },
       {
         "title": "Emotion Recognition in Conversation Based on a Dynamic Complementary Graph Convolutional Network",
-        "why": "Key multimodal dialogue paper (28 citations) showing integration of dynamic graph modeling with contextual, commonsense-augmented affect understanding."
+        "why": "Represents shift toward contextual, dialogue-level affect modeling using dynamic graphs; integrates commonsense and multimodal context for conversational emotion."
+      },
+      {
+        "title": "TFAGL: A Novel Agent Graph Learning Method Using Time-Frequency EEG for Major Depressive Disorder Detection",
+        "why": "Innovates time-frequency graph learning for clinical EEG; demonstrates how spectral-temporal graph structures improve diagnostic specificity in depression."
       }
     ]
   },
   "stats": {
     "analyzed_works_count": 345,
     "interesting_works_count": 58,
-    "new_works_count": 299,
+    "new_works_count": 18,
     "deduped_works_count": 345,
-    "ai_called_count": 299,
+    "ai_called_count": 18,
     "summary_recomputed": true
   },
   "works": [
@@ -110,10 +110,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Ninth International Conference on Computing, Control and Industrial Engineering (CCIE 2025)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Ninth International Conference on Computing, Control and Industrial Engineering (CCIE 2025)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -174,10 +174,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Ninth International Conference on Computing, Control and Industrial Engineering (CCIE 2025)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Ninth International Conference on Computing, Control and Industrial Engineering (CCIE 2025)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -669,10 +669,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Thirty-Fourth International Joint Conference on Artificial Intelligence {IJCAI-25}",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Thirty-Fourth International Joint Conference on Artificial Intelligence {IJCAI-25}",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -1288,10 +1288,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "The 4th International Conference on Optoelectronic Information and Functional Materials (OIFM 2025)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "The 4th International Conference on Optoelectronic Information and Functional Materials (OIFM 2025)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -2165,10 +2165,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2025 IEEE International Conference on Multimedia and Expo (ICME)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2025 IEEE International Conference on Multimedia and Expo (ICME)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -3629,10 +3629,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2025 4th International Symposium on Computer Applications and Information Technology (ISCAIT)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2025 4th International Symposium on Computer Applications and Information Technology (ISCAIT)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -5618,10 +5618,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6259,10 +6259,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -6777,10 +6777,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2024 International Conference on Image Processing, Computer Vision and Machine Learning (ICICML)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 International Conference on Image Processing, Computer Vision and Machine Learning (ICICML)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -7487,10 +7487,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2024 5th International Conference on Artificial Intelligence and Computer Engineering (ICAICE)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 5th International Conference on Artificial Intelligence and Computer Engineering (ICAICE)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -7835,10 +7835,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2024 8th International Conference on Electrical, Mechanical and Computer Engineering (ICEMCE)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 8th International Conference on Electrical, Mechanical and Computer Engineering (ICEMCE)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -8638,10 +8638,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2024 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -8911,10 +8911,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2024 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -9078,10 +9078,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2024 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -9309,10 +9309,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2024 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -10884,10 +10884,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -11648,10 +11648,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2024 IEEE 13th Data Driven Control and Learning Systems Conference (DDCLS)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE 13th Data Driven Control and Learning Systems Conference (DDCLS)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -11942,10 +11942,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2024 IEEE 13th Data Driven Control and Learning Systems Conference (DDCLS)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2024 IEEE 13th Data Driven Control and Learning Systems Conference (DDCLS)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -13012,10 +13012,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "Center for Scientific Research and Development in Higher Education Institutes, Ministry of Education",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Center for Scientific Research and Development in Higher Education Institutes, Ministry of Education",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -13786,10 +13786,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 17,
-      "primary_source": null,
+      "primary_source": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -15076,10 +15076,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -15262,10 +15262,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "Findings of the Association for Computational Linguistics: NAACL 2024",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Findings of the Association for Computational Linguistics: NAACL 2024",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -15554,10 +15554,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 36,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -15695,6 +15695,154 @@
         "reason": "The paper focuses on hallucination detection and trustworthiness in retrieval-augmented language models, with no mention or conceptual linkage to emotion, affective computing, or related psychological or behavioral constructs.",
         "evidence": [
           "Interest topics: 'emotion'; paper concepts: 'Computer science, Trustworthiness, Natural language processing, Artificial intelligence, Computer security'; abstract contains zero emotion-related terms or implications."
+        ],
+        "keywords": [],
+        "research_directions": []
+      }
+    },
+    {
+      "id": "https://openalex.org/W4401042338",
+      "openalex_url": "https://openalex.org/W4401042338",
+      "title": "R-Tuning: Instructing Large Language Models to Say ‘I Don’t Know’",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.18653/v1/2024.naacl-long.394",
+      "doi_url": "https://doi.org/10.18653/v1/2024.naacl-long.394",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 12,
+      "primary_source": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+      "source": {
+        "id": null,
+        "display_name": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+        "type": null,
+        "issn_l": null,
+        "is_in_doaj": null,
+        "host_organization_name": null,
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4401042338",
+        "landing_page": "https://doi.org/10.18653/v1/2024.naacl-long.394",
+        "pdf": "https://aclanthology.org/2024.naacl-long.394.pdf",
+        "primary_topic_openalex": "https://openalex.org/T13910",
+        "source_openalex": null
+      },
+      "concepts": [
+        "Computer science",
+        "Language model",
+        "Programming language",
+        "Natural language processing"
+      ],
+      "abstract": "Large language models (LLMs) have revolutionized numerous domains with their impressive performance but still face their challenges. A predominant issue is the propensity for these models to generate non-existent facts, a concern termed hallucination. Our research is motivated by the observation that previous instruction tuning methods force the model to complete a sentence no matter whether the model knows the knowledge or not. When the question is out of the parametric knowledge, it will try to make up something and fail to indicate when it lacks knowledge. In this paper, we present a new approach called Refusal-Aware Instruction Tuning (R-Tuning). This approach is formalized by first identifying the disparity in knowledge encompassed by pre-trained parameters compared to that of instruction tuning data. Then, we construct the refusal-aware data based on the knowledge intersection, to tune LLMs to refrain from responding to questions beyond its parametric knowledge. Experimental results demonstrate R-Tuning effectively improves a model’s ability to answer known questions and refrain from answering unknown questions. Furthermore, when tested on out-of-domain datasets, the refusal ability was found to be a meta-skill that could be generalized to other tasks. Further analysis surprisingly finds that learning the uncertainty results in better calibration and an improved ability to estimate the uncertainty than uncertainty-based testing.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T13910",
+          "name": "Computational and Text Analysis Methods",
+          "score": 0.8495000004768372,
+          "subfield": "General Social Sciences",
+          "field": "Social Sciences",
+          "domain": "Social Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T13910",
+            "name": "Computational and Text Analysis Methods",
+            "score": 0.8495000004768372,
+            "subfield": "General Social Sciences",
+            "field": "Social Sciences",
+            "domain": "Social Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.6544257402420044,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C137293760",
+            "name": "Language model",
+            "score": 0.4108913242816925,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C199360897",
+            "name": "Programming language",
+            "score": 0.36987215280532837,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C204321447",
+            "name": "Natural language processing",
+            "score": 0.2982332706451416,
+            "level": 1
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.6544257402420044
+          },
+          {
+            "id": "https://openalex.org/keywords/language-model",
+            "name": "Language model",
+            "score": 0.4108913242816925
+          },
+          {
+            "id": "https://openalex.org/keywords/programming-language",
+            "name": "Programming language",
+            "score": 0.36987215280532837
+          },
+          {
+            "id": "https://openalex.org/keywords/natural-language-processing",
+            "name": "Natural language processing",
+            "score": 0.2982332706451416
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://aclanthology.org/2024.naacl-long.394.pdf",
+          "any_repository_has_fulltext": null
+        },
+        "citation_normalized_percentile": {
+          "value": 0.99430723,
+          "is_in_top_1_percent": true,
+          "is_in_top_10_percent": true
+        },
+        "fwci": 45.16720164,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 1
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 8
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 3
+          }
+        ],
+        "institutions_distinct_count": 9,
+        "countries_distinct_count": 0,
+        "referenced_works_count": 0
+      },
+      "analysis": {
+        "is_interesting": false,
+        "relevance_score": 0.1,
+        "confidence": 0.95,
+        "reason": "The paper focuses on model uncertainty, hallucination mitigation, and refusal behavior in LLMs — technical aspects of reliability and calibration — with no mention or conceptual linkage to human emotion, affective states, or emotion-related phenomena.",
+        "evidence": [
+          "Abstract contains no emotion-related terms; all concepts are technical NLP/ML: 'hallucination', 'parametric knowledge', 'calibration', 'refusal-aware tuning'"
         ],
         "keywords": [],
         "research_directions": []
@@ -16184,154 +16332,6 @@
       }
     },
     {
-      "id": "https://openalex.org/W4401042338",
-      "openalex_url": "https://openalex.org/W4401042338",
-      "title": "R-Tuning: Instructing Large Language Models to Say ‘I Don’t Know’",
-      "publication_year": 2024,
-      "publication_date": "2024-01-01",
-      "doi": "https://doi.org/10.18653/v1/2024.naacl-long.394",
-      "doi_url": "https://doi.org/10.18653/v1/2024.naacl-long.394",
-      "type": "article",
-      "type_crossref": null,
-      "language": "en",
-      "is_retracted": false,
-      "is_paratext": false,
-      "cited_by_count": 12,
-      "primary_source": null,
-      "source": {
-        "id": null,
-        "display_name": null,
-        "type": null,
-        "issn_l": null,
-        "is_in_doaj": null,
-        "host_organization_name": null,
-        "host_organization_lineage_names": []
-      },
-      "links": {
-        "openalex": "https://openalex.org/W4401042338",
-        "landing_page": "https://doi.org/10.18653/v1/2024.naacl-long.394",
-        "pdf": "https://aclanthology.org/2024.naacl-long.394.pdf",
-        "primary_topic_openalex": "https://openalex.org/T13910",
-        "source_openalex": null
-      },
-      "concepts": [
-        "Computer science",
-        "Language model",
-        "Programming language",
-        "Natural language processing"
-      ],
-      "abstract": "Large language models (LLMs) have revolutionized numerous domains with their impressive performance but still face their challenges. A predominant issue is the propensity for these models to generate non-existent facts, a concern termed hallucination. Our research is motivated by the observation that previous instruction tuning methods force the model to complete a sentence no matter whether the model knows the knowledge or not. When the question is out of the parametric knowledge, it will try to make up something and fail to indicate when it lacks knowledge. In this paper, we present a new approach called Refusal-Aware Instruction Tuning (R-Tuning). This approach is formalized by first identifying the disparity in knowledge encompassed by pre-trained parameters compared to that of instruction tuning data. Then, we construct the refusal-aware data based on the knowledge intersection, to tune LLMs to refrain from responding to questions beyond its parametric knowledge. Experimental results demonstrate R-Tuning effectively improves a model’s ability to answer known questions and refrain from answering unknown questions. Furthermore, when tested on out-of-domain datasets, the refusal ability was found to be a meta-skill that could be generalized to other tasks. Further analysis surprisingly finds that learning the uncertainty results in better calibration and an improved ability to estimate the uncertainty than uncertainty-based testing.",
-      "openalex_analysis": {
-        "primary_topic": {
-          "id": "https://openalex.org/T13910",
-          "name": "Computational and Text Analysis Methods",
-          "score": 0.8495000004768372,
-          "subfield": "General Social Sciences",
-          "field": "Social Sciences",
-          "domain": "Social Sciences"
-        },
-        "topics": [
-          {
-            "id": "https://openalex.org/T13910",
-            "name": "Computational and Text Analysis Methods",
-            "score": 0.8495000004768372,
-            "subfield": "General Social Sciences",
-            "field": "Social Sciences",
-            "domain": "Social Sciences"
-          }
-        ],
-        "concepts": [
-          {
-            "id": "https://openalex.org/C41008148",
-            "name": "Computer science",
-            "score": 0.6544257402420044,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C137293760",
-            "name": "Language model",
-            "score": 0.4108913242816925,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C199360897",
-            "name": "Programming language",
-            "score": 0.36987215280532837,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C204321447",
-            "name": "Natural language processing",
-            "score": 0.2982332706451416,
-            "level": 1
-          }
-        ],
-        "keywords": [
-          {
-            "id": "https://openalex.org/keywords/computer-science",
-            "name": "Computer science",
-            "score": 0.6544257402420044
-          },
-          {
-            "id": "https://openalex.org/keywords/language-model",
-            "name": "Language model",
-            "score": 0.4108913242816925
-          },
-          {
-            "id": "https://openalex.org/keywords/programming-language",
-            "name": "Programming language",
-            "score": 0.36987215280532837
-          },
-          {
-            "id": "https://openalex.org/keywords/natural-language-processing",
-            "name": "Natural language processing",
-            "score": 0.2982332706451416
-          }
-        ],
-        "sustainable_development_goals": [],
-        "open_access": {
-          "is_oa": true,
-          "oa_status": "gold",
-          "oa_url": "https://aclanthology.org/2024.naacl-long.394.pdf",
-          "any_repository_has_fulltext": null
-        },
-        "citation_normalized_percentile": {
-          "value": 0.99430723,
-          "is_in_top_1_percent": true,
-          "is_in_top_10_percent": true
-        },
-        "fwci": 45.16720164,
-        "counts_by_year": [
-          {
-            "year": 2026,
-            "cited_by_count": 1
-          },
-          {
-            "year": 2025,
-            "cited_by_count": 8
-          },
-          {
-            "year": 2024,
-            "cited_by_count": 3
-          }
-        ],
-        "institutions_distinct_count": 9,
-        "countries_distinct_count": 0,
-        "referenced_works_count": 0
-      },
-      "analysis": {
-        "is_interesting": false,
-        "relevance_score": 0.1,
-        "confidence": 0.95,
-        "reason": "The paper focuses on model uncertainty, hallucination mitigation, and refusal behavior in LLMs — technical aspects of reliability and calibration — with no mention or conceptual linkage to human emotion, affective states, or emotion-related phenomena.",
-        "evidence": [
-          "Abstract contains no emotion-related terms; all concepts are technical NLP/ML: 'hallucination', 'parametric knowledge', 'calibration', 'refusal-aware tuning'"
-        ],
-        "keywords": [],
-        "research_directions": []
-      }
-    },
-    {
       "id": "https://openalex.org/W4403412448",
       "openalex_url": "https://openalex.org/W4403412448",
       "title": "Construction and application of English wisdom classroom based on artificial intelligence",
@@ -16497,10 +16497,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -17247,10 +17247,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "Third International Conference on Algorithms, High Performance Computing, and Artificial Intelligence (AHPCAI 2023)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Third International Conference on Algorithms, High Performance Computing, and Artificial Intelligence (AHPCAI 2023)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -17780,10 +17780,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2023 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -18491,10 +18491,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2023 International Conference on Intelligent Communication and Networking (ICN)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2023 International Conference on Intelligent Communication and Networking (ICN)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -20896,10 +20896,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "Thirty-Second International Joint Conference on Artificial Intelligence {IJCAI-23}",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Thirty-Second International Joint Conference on Artificial Intelligence {IJCAI-23}",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -21151,10 +21151,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2023 International Conference on Networking and Network Applications (NaNA)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2023 International Conference on Networking and Network Applications (NaNA)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -23399,10 +23399,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2023 8th International Conference on Computer and Communication Systems (ICCCS)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2023 8th International Conference on Computer and Communication Systems (ICCCS)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -27210,10 +27210,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 15,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -27526,10 +27526,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 53,
-      "primary_source": null,
+      "primary_source": "Findings of the Association for Computational Linguistics: EMNLP 2023",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Findings of the Association for Computational Linguistics: EMNLP 2023",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -27839,10 +27839,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -28931,10 +28931,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2022 18th International Conference on Mobility, Sensing and Networking (MSN)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2022 18th International Conference on Mobility, Sensing and Networking (MSN)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -30790,10 +30790,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2022 IEEE International Conference on Networking, Architecture and Storage (NAS)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2022 IEEE International Conference on Networking, Architecture and Storage (NAS)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -32939,10 +32939,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 6,
-      "primary_source": null,
+      "primary_source": "2022 IEEE/AIAA Transportation Electrification Conference and Electric Aircraft Technologies Symposium (ITEC+EATS)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2022 IEEE/AIAA Transportation Electrification Conference and Electric Aircraft Technologies Symposium (ITEC+EATS)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -36526,10 +36526,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 8,
-      "primary_source": null,
+      "primary_source": "Findings of the Association for Computational Linguistics: EMNLP 2022",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Findings of the Association for Computational Linguistics: EMNLP 2022",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -36851,10 +36851,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 8,
-      "primary_source": null,
+      "primary_source": "Findings of the Association for Computational Linguistics: EMNLP 2022",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Findings of the Association for Computational Linguistics: EMNLP 2022",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -37158,10 +37158,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 19,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 4th Workshop on NLP for Conversational AI",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 4th Workshop on NLP for Conversational AI",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -39049,10 +39049,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 5,
-      "primary_source": null,
+      "primary_source": "WUWNet'21: The 15th International Conference on Underwater Networks & Systems",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "WUWNet'21: The 15th International Conference on Underwater Networks & Systems",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -39217,10 +39217,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "WUWNet'21: The 15th International Conference on Underwater Networks & Systems",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "WUWNet'21: The 15th International Conference on Underwater Networks & Systems",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -39531,10 +39531,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "WUWNet'21: The 15th International Conference on Underwater Networks & Systems",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "WUWNet'21: The 15th International Conference on Underwater Networks & Systems",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -41229,10 +41229,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "ASME International",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ASME International",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -44534,10 +44534,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 29,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -45284,10 +45284,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "Third International Conference on Image, Video Processing and Artificial Intelligence",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Third International Conference on Image, Video Processing and Artificial Intelligence",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -45834,10 +45834,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "2020 IEEE 3rd International Conference on Information Systems and Computer Aided Education (ICISCAE)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2020 IEEE 3rd International Conference on Information Systems and Computer Aided Education (ICISCAE)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -49781,10 +49781,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 93,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -50451,10 +50451,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 50,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -50788,10 +50788,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 43,
-      "primary_source": null,
+      "primary_source": "Findings of the Association for Computational Linguistics: EMNLP 2020",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Findings of the Association for Computational Linguistics: EMNLP 2020",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -51277,10 +51277,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2019 International Conference on Security, Pattern Analysis, and Cybernetics (SPAC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 International Conference on Security, Pattern Analysis, and Cybernetics (SPAC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -53135,10 +53135,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 23,
-      "primary_source": null,
+      "primary_source": "2019 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -54135,10 +54135,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 11,
-      "primary_source": null,
+      "primary_source": "2019 IEEE International Conference on Systems, Man and Cybernetics (SMC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 IEEE International Conference on Systems, Man and Cybernetics (SMC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -55347,10 +55347,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 35,
-      "primary_source": null,
+      "primary_source": "2019 International Joint Conference on Neural Networks (IJCNN)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 International Joint Conference on Neural Networks (IJCNN)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -55615,10 +55615,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2019 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2019 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -57308,10 +57308,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 40,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -58955,10 +58955,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 42,
-      "primary_source": null,
+      "primary_source": "2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -59486,10 +59486,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 15,
-      "primary_source": null,
+      "primary_source": "2018 25th IEEE International Conference on Image Processing (ICIP)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2018 25th IEEE International Conference on Image Processing (ICIP)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -61197,10 +61197,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 14,
-      "primary_source": null,
+      "primary_source": "2018 Chinese Control And Decision Conference (CCDC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2018 Chinese Control And Decision Conference (CCDC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -62772,10 +62772,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 33,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -63098,6 +63098,245 @@
       }
     },
     {
+      "id": "https://openalex.org/W4235363435",
+      "openalex_url": "https://openalex.org/W4235363435",
+      "title": "Cross-lingual analysis of English and Chinese web search",
+      "publication_year": 2018,
+      "publication_date": "2018-01-01",
+      "doi": "https://doi.org/10.1504/ijwgs.2018.095663",
+      "doi_url": "https://doi.org/10.1504/ijwgs.2018.095663",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 0,
+      "primary_source": "International Journal of Web and Grid Services",
+      "source": {
+        "id": "https://openalex.org/S200047447",
+        "display_name": "International Journal of Web and Grid Services",
+        "type": "journal",
+        "issn_l": "1741-1106",
+        "is_in_doaj": false,
+        "host_organization_name": null,
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4235363435",
+        "landing_page": "https://doi.org/10.1504/ijwgs.2018.095663",
+        "pdf": null,
+        "primary_topic_openalex": "https://openalex.org/T13976",
+        "source_openalex": "https://openalex.org/S200047447"
+      },
+      "concepts": [
+        "Computer science",
+        "Semantic search",
+        "World Wide Web",
+        "Information retrieval",
+        "Web search query",
+        "Search engine",
+        "Search analytics",
+        "Context (archaeology)"
+      ],
+      "abstract": "There is a growing number of the non-English Web in recent years. So the language-dependent and user-based search paradigms are becoming increasingly important for search engines. Unfortunately, most of the works are available on web search analysis are still English-based. In order to understand the behavioural commonality and distinction of non-English users, we propose a framework for analysing the web search behaviours of users in a cross-lingual context. This framework is composed of 10 factors, which can be applied at the query level, session level and corpus level respectively. The integral employment of these factors could help us with characterising the user behaviour of web search, even in different languages, with regard to both statistical and semantic perspectives. This framework shows a better efficiency not only in revealing the commonality and distinction of web search, but also in informing the design of search paradigms in a cross-lingual scenario.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T13976",
+          "name": "Web visibility and informetrics",
+          "score": 0.891700029373169,
+          "subfield": "Information Systems",
+          "field": "Computer Science",
+          "domain": "Physical Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T13976",
+            "name": "Web visibility and informetrics",
+            "score": 0.891700029373169,
+            "subfield": "Information Systems",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10286",
+            "name": "Information Retrieval and Search Behavior",
+            "score": 0.8881000280380249,
+            "subfield": "Information Systems",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12016",
+            "name": "Web Data Mining and Analysis",
+            "score": 0.8525000214576721,
+            "subfield": "Information Systems",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.8173788189888,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C166423231",
+            "name": "Semantic search",
+            "score": 0.6771286129951477,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C136764020",
+            "name": "World Wide Web",
+            "score": 0.5956071615219116,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C23123220",
+            "name": "Information retrieval",
+            "score": 0.5414692163467407,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C164120249",
+            "name": "Web search query",
+            "score": 0.5259464383125305,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C97854310",
+            "name": "Search engine",
+            "score": 0.522657573223114,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C14838553",
+            "name": "Search analytics",
+            "score": 0.47783732414245605,
+            "level": 4
+          },
+          {
+            "id": "https://openalex.org/C2779343474",
+            "name": "Context (archaeology)",
+            "score": 0.4543116092681885,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C521815418",
+            "name": "Web search engine",
+            "score": 0.4487150013446808,
+            "level": 4
+          },
+          {
+            "id": "https://openalex.org/C2779182362",
+            "name": "Session (web analytics)",
+            "score": 0.4484022259712219,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C151730666",
+            "name": "Paleontology",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C86803240",
+            "name": "Biology",
+            "score": 0,
+            "level": 0
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.8173788189888
+          },
+          {
+            "id": "https://openalex.org/keywords/semantic-search",
+            "name": "Semantic search",
+            "score": 0.6771286129951477
+          },
+          {
+            "id": "https://openalex.org/keywords/world-wide-web",
+            "name": "World Wide Web",
+            "score": 0.5956071615219116
+          },
+          {
+            "id": "https://openalex.org/keywords/information-retrieval",
+            "name": "Information retrieval",
+            "score": 0.5414692163467407
+          },
+          {
+            "id": "https://openalex.org/keywords/web-search-query",
+            "name": "Web search query",
+            "score": 0.5259464383125305
+          },
+          {
+            "id": "https://openalex.org/keywords/search-engine",
+            "name": "Search engine",
+            "score": 0.522657573223114
+          },
+          {
+            "id": "https://openalex.org/keywords/search-analytics",
+            "name": "Search analytics",
+            "score": 0.47783732414245605
+          },
+          {
+            "id": "https://openalex.org/keywords/context",
+            "name": "Context (archaeology)",
+            "score": 0.4543116092681885
+          },
+          {
+            "id": "https://openalex.org/keywords/web-search-engine",
+            "name": "Web search engine",
+            "score": 0.4487150013446808
+          },
+          {
+            "id": "https://openalex.org/keywords/session",
+            "name": "Session (web analytics)",
+            "score": 0.4484022259712219
+          }
+        ],
+        "sustainable_development_goals": [
+          {
+            "id": "https://metadata.un.org/sdg/4",
+            "display_name": "Quality Education",
+            "score": 0.699999988079071
+          }
+        ],
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "citation_normalized_percentile": {
+          "value": 0.54208076,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "fwci": 0,
+        "counts_by_year": [],
+        "institutions_distinct_count": 5,
+        "countries_distinct_count": 2,
+        "referenced_works_count": 0
+      },
+      "analysis": {
+        "is_interesting": false,
+        "relevance_score": 0.1,
+        "confidence": 0.95,
+        "reason": "The paper focuses on cross-lingual web search behavior analysis and information retrieval engineering, with no mention of emotion, affect, or psychological constructs.",
+        "evidence": [
+          "Abstract and concepts contain no emotion-related terms; all concepts are technical (e.g., 'Semantic search', 'Information retrieval', 'Web search query')"
+        ],
+        "keywords": [],
+        "research_directions": []
+      }
+    },
+    {
       "id": "https://openalex.org/W2964302946",
       "openalex_url": "https://openalex.org/W2964302946",
       "title": "Modeling Localness for Self-Attention Networks",
@@ -63111,10 +63350,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 216,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -63626,245 +63865,6 @@
         "reason": "The paper is a technical contribution in algebraic geometry concerning Q-divisors on surfaces, with no conceptual, methodological, or terminological connection to emotion or affective science.",
         "evidence": [
           "All concepts and abstract content pertain to pure mathematics, specifically divisor theory and surface geometry."
-        ],
-        "keywords": [],
-        "research_directions": []
-      }
-    },
-    {
-      "id": "https://openalex.org/W4235363435",
-      "openalex_url": "https://openalex.org/W4235363435",
-      "title": "Cross-lingual analysis of English and Chinese web search",
-      "publication_year": 2018,
-      "publication_date": "2018-01-01",
-      "doi": "https://doi.org/10.1504/ijwgs.2018.095663",
-      "doi_url": "https://doi.org/10.1504/ijwgs.2018.095663",
-      "type": "article",
-      "type_crossref": null,
-      "language": "en",
-      "is_retracted": false,
-      "is_paratext": false,
-      "cited_by_count": 0,
-      "primary_source": "International Journal of Web and Grid Services",
-      "source": {
-        "id": "https://openalex.org/S200047447",
-        "display_name": "International Journal of Web and Grid Services",
-        "type": "journal",
-        "issn_l": "1741-1106",
-        "is_in_doaj": false,
-        "host_organization_name": null,
-        "host_organization_lineage_names": []
-      },
-      "links": {
-        "openalex": "https://openalex.org/W4235363435",
-        "landing_page": "https://doi.org/10.1504/ijwgs.2018.095663",
-        "pdf": null,
-        "primary_topic_openalex": "https://openalex.org/T13976",
-        "source_openalex": "https://openalex.org/S200047447"
-      },
-      "concepts": [
-        "Computer science",
-        "Semantic search",
-        "World Wide Web",
-        "Information retrieval",
-        "Web search query",
-        "Search engine",
-        "Search analytics",
-        "Context (archaeology)"
-      ],
-      "abstract": "There is a growing number of the non-English Web in recent years. So the language-dependent and user-based search paradigms are becoming increasingly important for search engines. Unfortunately, most of the works are available on web search analysis are still English-based. In order to understand the behavioural commonality and distinction of non-English users, we propose a framework for analysing the web search behaviours of users in a cross-lingual context. This framework is composed of 10 factors, which can be applied at the query level, session level and corpus level respectively. The integral employment of these factors could help us with characterising the user behaviour of web search, even in different languages, with regard to both statistical and semantic perspectives. This framework shows a better efficiency not only in revealing the commonality and distinction of web search, but also in informing the design of search paradigms in a cross-lingual scenario.",
-      "openalex_analysis": {
-        "primary_topic": {
-          "id": "https://openalex.org/T13976",
-          "name": "Web visibility and informetrics",
-          "score": 0.891700029373169,
-          "subfield": "Information Systems",
-          "field": "Computer Science",
-          "domain": "Physical Sciences"
-        },
-        "topics": [
-          {
-            "id": "https://openalex.org/T13976",
-            "name": "Web visibility and informetrics",
-            "score": 0.891700029373169,
-            "subfield": "Information Systems",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T10286",
-            "name": "Information Retrieval and Search Behavior",
-            "score": 0.8881000280380249,
-            "subfield": "Information Systems",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          },
-          {
-            "id": "https://openalex.org/T12016",
-            "name": "Web Data Mining and Analysis",
-            "score": 0.8525000214576721,
-            "subfield": "Information Systems",
-            "field": "Computer Science",
-            "domain": "Physical Sciences"
-          }
-        ],
-        "concepts": [
-          {
-            "id": "https://openalex.org/C41008148",
-            "name": "Computer science",
-            "score": 0.8173788189888,
-            "level": 0
-          },
-          {
-            "id": "https://openalex.org/C166423231",
-            "name": "Semantic search",
-            "score": 0.6771286129951477,
-            "level": 3
-          },
-          {
-            "id": "https://openalex.org/C136764020",
-            "name": "World Wide Web",
-            "score": 0.5956071615219116,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C23123220",
-            "name": "Information retrieval",
-            "score": 0.5414692163467407,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C164120249",
-            "name": "Web search query",
-            "score": 0.5259464383125305,
-            "level": 3
-          },
-          {
-            "id": "https://openalex.org/C97854310",
-            "name": "Search engine",
-            "score": 0.522657573223114,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C14838553",
-            "name": "Search analytics",
-            "score": 0.47783732414245605,
-            "level": 4
-          },
-          {
-            "id": "https://openalex.org/C2779343474",
-            "name": "Context (archaeology)",
-            "score": 0.4543116092681885,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C521815418",
-            "name": "Web search engine",
-            "score": 0.4487150013446808,
-            "level": 4
-          },
-          {
-            "id": "https://openalex.org/C2779182362",
-            "name": "Session (web analytics)",
-            "score": 0.4484022259712219,
-            "level": 2
-          },
-          {
-            "id": "https://openalex.org/C151730666",
-            "name": "Paleontology",
-            "score": 0,
-            "level": 1
-          },
-          {
-            "id": "https://openalex.org/C86803240",
-            "name": "Biology",
-            "score": 0,
-            "level": 0
-          }
-        ],
-        "keywords": [
-          {
-            "id": "https://openalex.org/keywords/computer-science",
-            "name": "Computer science",
-            "score": 0.8173788189888
-          },
-          {
-            "id": "https://openalex.org/keywords/semantic-search",
-            "name": "Semantic search",
-            "score": 0.6771286129951477
-          },
-          {
-            "id": "https://openalex.org/keywords/world-wide-web",
-            "name": "World Wide Web",
-            "score": 0.5956071615219116
-          },
-          {
-            "id": "https://openalex.org/keywords/information-retrieval",
-            "name": "Information retrieval",
-            "score": 0.5414692163467407
-          },
-          {
-            "id": "https://openalex.org/keywords/web-search-query",
-            "name": "Web search query",
-            "score": 0.5259464383125305
-          },
-          {
-            "id": "https://openalex.org/keywords/search-engine",
-            "name": "Search engine",
-            "score": 0.522657573223114
-          },
-          {
-            "id": "https://openalex.org/keywords/search-analytics",
-            "name": "Search analytics",
-            "score": 0.47783732414245605
-          },
-          {
-            "id": "https://openalex.org/keywords/context",
-            "name": "Context (archaeology)",
-            "score": 0.4543116092681885
-          },
-          {
-            "id": "https://openalex.org/keywords/web-search-engine",
-            "name": "Web search engine",
-            "score": 0.4487150013446808
-          },
-          {
-            "id": "https://openalex.org/keywords/session",
-            "name": "Session (web analytics)",
-            "score": 0.4484022259712219
-          }
-        ],
-        "sustainable_development_goals": [
-          {
-            "id": "https://metadata.un.org/sdg/4",
-            "display_name": "Quality Education",
-            "score": 0.699999988079071
-          }
-        ],
-        "open_access": {
-          "is_oa": false,
-          "oa_status": "closed",
-          "oa_url": null,
-          "any_repository_has_fulltext": false
-        },
-        "citation_normalized_percentile": {
-          "value": 0.54208076,
-          "is_in_top_1_percent": false,
-          "is_in_top_10_percent": false
-        },
-        "fwci": 0,
-        "counts_by_year": [],
-        "institutions_distinct_count": 5,
-        "countries_distinct_count": 2,
-        "referenced_works_count": 0
-      },
-      "analysis": {
-        "is_interesting": false,
-        "relevance_score": 0.1,
-        "confidence": 0.95,
-        "reason": "The paper focuses on cross-lingual web search behavior analysis and information retrieval engineering, with no mention of emotion, affect, or psychological constructs.",
-        "evidence": [
-          "Abstract and concepts contain no emotion-related terms; all concepts are technical (e.g., 'Semantic search', 'Information retrieval', 'Web search query')"
         ],
         "keywords": [],
         "research_directions": []
@@ -64569,10 +64569,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 24,
-      "primary_source": null,
+      "primary_source": "2017 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2017 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -65588,10 +65588,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 30,
-      "primary_source": null,
+      "primary_source": "2017 12th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2017)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2017 12th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2017)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -66001,6 +66001,85 @@
       }
     },
     {
+      "id": "https://openalex.org/W3107663985",
+      "openalex_url": "https://openalex.org/W3107663985",
+      "title": "非協力的ターゲット測距によるエコー受信システムの設計と解析【JST・京大機械翻訳】",
+      "publication_year": 2017,
+      "publication_date": "2017-01-01",
+      "doi": null,
+      "doi_url": null,
+      "type": "article",
+      "type_crossref": null,
+      "language": "ja",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 0,
+      "primary_source": "Yiqi Yibiao Xuebao",
+      "source": {
+        "id": "https://openalex.org/S4306535407",
+        "display_name": "Yiqi Yibiao Xuebao",
+        "type": "journal",
+        "issn_l": null,
+        "is_in_doaj": false,
+        "host_organization_name": null,
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W3107663985",
+        "landing_page": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201702268427884854",
+        "pdf": null,
+        "primary_topic_openalex": null,
+        "source_openalex": "https://openalex.org/S4306535407"
+      },
+      "concepts": [
+        "Computer science"
+      ],
+      "abstract": "",
+      "openalex_analysis": {
+        "primary_topic": null,
+        "topics": [],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.30918237566947937,
+            "level": 0
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.30918237566947937
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "citation_normalized_percentile": null,
+        "fwci": null,
+        "counts_by_year": [],
+        "institutions_distinct_count": 5,
+        "countries_distinct_count": 0,
+        "referenced_works_count": 0
+      },
+      "analysis": {
+        "is_interesting": false,
+        "relevance_score": 0.1,
+        "confidence": 0.95,
+        "reason": "The paper focuses on echo reception systems and non-cooperative target ranging, which is a technical topic in computer science and signal processing, with no apparent connection to emotion or affective science.",
+        "evidence": [
+          "Title mentions 'non-cooperative target ranging' and 'echo reception system'"
+        ],
+        "keywords": [],
+        "research_directions": []
+      }
+    },
+    {
       "id": "https://openalex.org/W2747989169",
       "openalex_url": "https://openalex.org/W2747989169",
       "title": "グリセロール発酵と脂肪酸鎖伸長によるカプロン酸と1,3 プロパンジオール共生産の熱力学的および生理学的研究【Powered by NICT】",
@@ -66285,85 +66364,6 @@
       }
     },
     {
-      "id": "https://openalex.org/W3107663985",
-      "openalex_url": "https://openalex.org/W3107663985",
-      "title": "非協力的ターゲット測距によるエコー受信システムの設計と解析【JST・京大機械翻訳】",
-      "publication_year": 2017,
-      "publication_date": "2017-01-01",
-      "doi": null,
-      "doi_url": null,
-      "type": "article",
-      "type_crossref": null,
-      "language": "ja",
-      "is_retracted": false,
-      "is_paratext": false,
-      "cited_by_count": 0,
-      "primary_source": "Yiqi Yibiao Xuebao",
-      "source": {
-        "id": "https://openalex.org/S4306535407",
-        "display_name": "Yiqi Yibiao Xuebao",
-        "type": "journal",
-        "issn_l": null,
-        "is_in_doaj": false,
-        "host_organization_name": null,
-        "host_organization_lineage_names": []
-      },
-      "links": {
-        "openalex": "https://openalex.org/W3107663985",
-        "landing_page": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201702268427884854",
-        "pdf": null,
-        "primary_topic_openalex": null,
-        "source_openalex": "https://openalex.org/S4306535407"
-      },
-      "concepts": [
-        "Computer science"
-      ],
-      "abstract": "",
-      "openalex_analysis": {
-        "primary_topic": null,
-        "topics": [],
-        "concepts": [
-          {
-            "id": "https://openalex.org/C41008148",
-            "name": "Computer science",
-            "score": 0.30918237566947937,
-            "level": 0
-          }
-        ],
-        "keywords": [
-          {
-            "id": "https://openalex.org/keywords/computer-science",
-            "name": "Computer science",
-            "score": 0.30918237566947937
-          }
-        ],
-        "sustainable_development_goals": [],
-        "open_access": {
-          "is_oa": false,
-          "oa_status": "closed",
-          "oa_url": null,
-          "any_repository_has_fulltext": false
-        },
-        "citation_normalized_percentile": null,
-        "fwci": null,
-        "counts_by_year": [],
-        "institutions_distinct_count": 5,
-        "countries_distinct_count": 0,
-        "referenced_works_count": 0
-      },
-      "analysis": {
-        "is_interesting": false,
-        "relevance_score": 0.1,
-        "confidence": 0.95,
-        "reason": "The paper focuses on echo reception systems and non-cooperative target ranging, which is a technical topic in computer science and signal processing, with no apparent connection to emotion or affective science.",
-        "evidence": [
-          "Title mentions 'non-cooperative target ranging' and 'echo reception system'"
-        ],
-        "keywords": [],
-        "research_directions": []
-      }
-    },
-    {
       "id": "https://openalex.org/W7124370032",
       "openalex_url": "https://openalex.org/W7124370032",
       "title": "Opportunities and challenges faced by nurses in background of big data",
@@ -66615,10 +66615,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 4,
-      "primary_source": null,
+      "primary_source": "2016 12th International Conference on Computational Intelligence and Security (CIS)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2016 12th International Conference on Computational Intelligence and Security (CIS)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -68424,10 +68424,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2016 2nd International Conference on Artificial Intelligence and Industrial Engineering (AIIE 2016)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2016 2nd International Conference on Artificial Intelligence and Industrial Engineering (AIIE 2016)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -69333,10 +69333,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2015 Seventh International Conference on Measuring Technology and Mechatronics Automation (ICMTMA)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2015 Seventh International Conference on Measuring Technology and Mechatronics Automation (ICMTMA)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -70267,10 +70267,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 777,
-      "primary_source": null,
+      "primary_source": "Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -71142,10 +71142,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 11,
-      "primary_source": null,
+      "primary_source": "2014 IEEE International Conference on Systems, Man and Cybernetics - SMC",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2014 IEEE International Conference on Systems, Man and Cybernetics - SMC",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -71473,10 +71473,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 1,
-      "primary_source": null,
+      "primary_source": "2014 IEEE International Conference on Signal Processing, Communications and Computing (ICSPCC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2014 IEEE International Conference on Signal Processing, Communications and Computing (ICSPCC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -72690,10 +72690,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "2013 International Conference on Fuzzy Theory and Its Applications (iFUZZY)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2013 International Conference on Fuzzy Theory and Its Applications (iFUZZY)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -76995,10 +76995,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2010 International Conference on Management and Service Science (MASS 2010)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2010 International Conference on Management and Service Science (MASS 2010)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -78262,10 +78262,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 9,
-      "primary_source": null,
+      "primary_source": "2009 International Conference on Machine Learning and Cybernetics (ICMLC)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2009 International Conference on Machine Learning and Cybernetics (ICMLC)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -78588,10 +78588,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2009 Asia-Pacific Conference on Information Processing, APCIP",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2009 Asia-Pacific Conference on Information Processing, APCIP",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -79589,10 +79589,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 2,
-      "primary_source": null,
+      "primary_source": "2008 IEEE International Conference on Multimedia and Expo (ICME)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2008 IEEE International Conference on Multimedia and Expo (ICME)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -82079,10 +82079,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 62,
-      "primary_source": null,
+      "primary_source": "2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'05)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'05)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -83053,10 +83053,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 222,
-      "primary_source": null,
+      "primary_source": "the 43rd Annual Meeting",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "the 43rd Annual Meeting",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -83360,10 +83360,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 65,
-      "primary_source": null,
+      "primary_source": "the 43rd Annual Meeting",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "the 43rd Annual Meeting",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -83706,10 +83706,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 60,
-      "primary_source": null,
+      "primary_source": "ICMI04: Sixth International Conference on Multimodal Interfaces 2004",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "ICMI04: Sixth International Conference on Multimodal Interfaces 2004",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -84036,10 +84036,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 24,
-      "primary_source": null,
+      "primary_source": "Interspeech 2004",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Interspeech 2004",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -84372,10 +84372,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 3,
-      "primary_source": null,
+      "primary_source": "Interspeech 2004",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "Interspeech 2004",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -84567,10 +84567,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 78,
-      "primary_source": null,
+      "primary_source": "KDD04: ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "KDD04: ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -85653,10 +85653,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 24,
-      "primary_source": null,
+      "primary_source": "1999 Asilomar Conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "1999 Asilomar Conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -85992,10 +85992,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 400,
-      "primary_source": null,
+      "primary_source": "the seventh conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "the seventh conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -86370,10 +86370,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 7,
-      "primary_source": null,
+      "primary_source": "the seventh conference",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "the seventh conference",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -86769,10 +86769,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 18,
-      "primary_source": null,
+      "primary_source": "GLSVLSI02: Great Lakes Symposium on VLSI",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "GLSVLSI02: Great Lakes Symposium on VLSI",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -87435,10 +87435,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 45,
-      "primary_source": null,
+      "primary_source": "the 39th Annual Meeting",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "the 39th Annual Meeting",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,
@@ -87719,10 +87719,10 @@
       "is_retracted": false,
       "is_paratext": false,
       "cited_by_count": 0,
-      "primary_source": null,
+      "primary_source": "6th International Conference on Spoken Language Processing (ICSLP 2000)",
       "source": {
         "id": null,
-        "display_name": null,
+        "display_name": "6th International Conference on Spoken Language Processing (ICSLP 2000)",
         "type": null,
         "issn_l": null,
         "is_in_doaj": null,

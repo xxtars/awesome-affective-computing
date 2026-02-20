@@ -25414,5 +25414,1521 @@
         "Integration of physiological (e.g., neurofeedback) and behavioral data for emotion tracking"
       ]
     }
+  },
+  "a30c50051f083ca52391d6f3b26d6ff2107f6d01e1e96bc82be060525b8aaa9c": {
+    "paper_id": "https://openalex.org/W4361257044",
+    "title": "Supplementary Materials and Methods, Tables and Figure legends from A20/TNFAIP3 Regulates the DNA Damage Response and Mediates Tumor Cell Resistance to DNA-Damaging Therapy",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:08.997Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on DNA damage response and cancer therapy resistance, with no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Abstract states it contains only supplementary materials, methods, tables, and figure legends for a cancer biology paper."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2358c1384c6cd3d14321b312b1c3d29a722c1717d59540f2f49ee7770d2f0abf": {
+    "paper_id": "https://openalex.org/W4361823463",
+    "title": "Data from &lt;i&gt;MYCN&lt;/i&gt;-Amplified Neuroblastoma Is Addicted to Iron and Vulnerable to Inhibition of the System Xc-/Glutathione Axis",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.028Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on iron metabolism, ferroptosis, and oncogenic vulnerability in neuroblastoma; no connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are biomedical/cancer-focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8cf43705b8c42136ee9d1ec0ae68bf53a7492e24ac281687dc89a09e4595809d": {
+    "paper_id": "https://openalex.org/W4362488142",
+    "title": "Supplementary Figures from Exploitation of Sulfated Glycosaminoglycan Status for Precision Medicine of Triplatin in Triple-Negative Breast Cancer",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.084Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cancer biology and precision medicine in triple-negative breast cancer, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are exclusively oncology- and biochemistry-related; abstract is empty placeholder text."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a5bb7e65c3461fcf29e6195880999c6d43dd466f9c8e1846e22129bb9d3c1c9a": {
+    "paper_id": "https://openalex.org/W4387947380",
+    "title": "Expression Syntax Information Bottleneck for Math Word Problems",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.223Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on math word problem solving using syntax-aware information bottleneck methods; no connection to emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "All concepts and the abstract center on expression syntax trees, information bottleneck, and mathematical reasoning—not emotion or affective phenomena."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4020d498867534f48cb2929aba600230a5738e151a67f27cf808bc7d82ab6ff9": {
+    "paper_id": "https://openalex.org/W4362533356",
+    "title": "Figure S5 from Pharmacologic Inhibition of SHP2 Blocks Both PI3K and MEK Signaling in Low-epiregulin HNSCC via GAB1",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.233Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cancer signaling pathways (SHP2, PI3K, MEK, epiregulin) in HNSCC and contains no emotion-related content.",
+      "evidence": [
+        "Abstract describes Western blot analysis of ErbB members; no mention of emotion, affect, or psychological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "54d661f876b2f4b92c3d00d1f54423ea927f5e9ce2e2628233442c2c7b4bef97": {
+    "paper_id": "https://openalex.org/W4362533017",
+    "title": "Table S1 from Pharmacologic Inhibition of SHP2 Blocks Both PI3K and MEK Signaling in Low-epiregulin HNSCC via GAB1",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.244Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cancer signaling pathways (SHP2, PI3K, MEK, epiregulin) in HNSCC and contains no emotion-related content or methodology.",
+      "evidence": [
+        "Abstract mentions only cell line data and SHP099 screen; concepts are all biomedical/cancer-focused"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5a242c53613dc0e261137dd9c8b78eddd3d5612b8ec619f18bcef0302a86f262": {
+    "paper_id": "https://openalex.org/W4361878144",
+    "title": "Figure S2 from &lt;i&gt;MYCN&lt;/i&gt;-Amplified Neuroblastoma Is Addicted to Iron and Vulnerable to Inhibition of the System Xc-/Glutathione Axis",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.257Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cancer biology, iron metabolism, and redox biochemistry in neuroblastoma; no connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts exclusively concern MYCN-amplified neuroblastoma, glutathione, system xc-, and cancer therapeutics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f1bf418d3c511deb8305a68f4809cab3ecc8b4b2c2a6874aa79c77d349940dee": {
+    "paper_id": "https://openalex.org/W4362488281",
+    "title": "Supplementary Figure 4 from Venetoclax-based Rational Combinations are Effective in Models of &lt;i&gt;MYCN&lt;/i&gt;-amplified Neuroblastoma",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.265Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a cancer pharmacology study focused on venetoclax in neuroblastoma models; no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Abstract describes mouse body weight changes in cancer drug trials; no mention of emotion, affect, cognition, or behavioral measures."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "fa0105d38e5301585995022cff6a5f176013020a50abc985358221525d545727": {
+    "paper_id": "https://openalex.org/W4362488329",
+    "title": "Supplementary Figure 1 from Venetoclax-based Rational Combinations are Effective in Models of &lt;i&gt;MYCN&lt;/i&gt;-amplified Neuroblastoma",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.266Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is focused on cancer pharmacology and drug synergy in neuroblastoma models, with no connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts exclusively involve venetoclax, BLISS synergy scoring, MYCN amplification, and cell viability assays in oncology context."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f43b78454becb8be218a7b01acb801bc3c7639521f18dc692d529ba97e1aba2a": {
+    "paper_id": "https://openalex.org/W4361235579",
+    "title": "Supplementary Figures 1-12 from A20/TNFAIP3 Regulates the DNA Damage Response and Mediates Tumor Cell Resistance to DNA-Damaging Therapy",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.288Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on DNA damage response and cancer therapy resistance, with no mention of emotion, affective science, or related psychological/physiological constructs.",
+      "evidence": [
+        "Concepts include DNA damage, cancer research, genetics, and cell biology; 'emotion' is absent from title, abstract, and concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f91d199147f7698b17f7335183be09e1a651e4e6795535728c01522e9659ab6f": {
+    "paper_id": "https://openalex.org/W4361878256",
+    "title": "Figure S1 from &lt;i&gt;MYCN&lt;/i&gt;-Amplified Neuroblastoma Is Addicted to Iron and Vulnerable to Inhibition of the System Xc-/Glutathione Axis",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.326Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on iron metabolism, ferroptosis, and cancer biology in neuroblastoma; no connection to emotion or affective science.",
+      "evidence": [
+        "Abstract mentions GPX4 inhibition, ferroptotic cell death, and MYCN-amplified neuroblastoma—no emotion-related terms or constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a0a6a51b54650c7dd7e971dda7975da2f99322669802092e5f693673704ec390": {
+    "paper_id": "https://openalex.org/W4362533280",
+    "title": "Figure S7 from Pharmacologic Inhibition of SHP2 Blocks Both PI3K and MEK Signaling in Low-epiregulin HNSCC via GAB1",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.330Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cancer signaling pathways and molecular pharmacology, with no mention or conceptual link to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts are exclusively biomedical: 'PI3K/AKT/mTOR pathway', 'Signal transduction', 'HNSCC', 'Epiregulin'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a18c4fc2e0e36c94cdcf9f4b55a3aab09c3a6701aef952386cbe2855a993d64a": {
+    "paper_id": "https://openalex.org/W4362614398",
+    "title": "Supplementary Data from Fibulin-3 Is Uniquely Upregulated in Malignant Gliomas and Promotes Tumor Cell Motility and Invasion",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.330Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cancer biology, specifically Fibulin-3's role in glioma motility and invasion, with no mention or conceptual link to emotion or affective processes.",
+      "evidence": [
+        "Abstract and concepts are exclusively biomedical/oncological; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "00883d328f29805719e36822182c75488da271fd7d179381c540a72cbb703afb": {
+    "paper_id": "https://openalex.org/W4362533271",
+    "title": "Figure S4 from Pharmacologic Inhibition of SHP2 Blocks Both PI3K and MEK Signaling in Low-epiregulin HNSCC via GAB1",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.353Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cancer signaling pathways and pharmacologic inhibition in HNSCC, with no mention of emotion, affective processes, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts are exclusively biomedical: SHP2, PI3K, MEK, epiregulin, signal transduction, cancer research."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9a1635f7faec85273118a9fc0c57a8c913d7e6e956e56d891d624f7c43ecb2fa": {
+    "paper_id": "https://openalex.org/W4362533080",
+    "title": "Figure S6 from Pharmacologic Inhibition of SHP2 Blocks Both PI3K and MEK Signaling in Low-epiregulin HNSCC via GAB1",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.358Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cancer signaling pathways and pharmacologic inhibition in HNSCC, with no mention of emotion, affective processes, or related psychological/physiological constructs.",
+      "evidence": [
+        "Abstract and concepts are exclusively molecular oncology and signal transduction; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "54ec72d757204d50e7a2410d8f5589deaef5d9b09b384011ef6f8f9d310297ab": {
+    "paper_id": "https://openalex.org/W4362486200",
+    "title": "Supplemental figures 1-3, Table 1 from Astrocyte Elevated Gene-1 Regulates β-Catenin Signaling to Maintain Glioma Stem-like Stemness and Self-Renewal",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.360Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on glioma stem cells, β-catenin signaling, and astrocyte elevated gene-1 in cancer biology; no mention or conceptual link to emotion or affective processes.",
+      "evidence": [
+        "All concepts and abstract content pertain to neuro-oncology and stem cell biology, with zero emotional or psychological terminology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "851ff5540483a50cc6d203b3b3dd155177738215fb1acad69317bd87963206bd": {
+    "paper_id": "https://openalex.org/W4362488258",
+    "title": "Data from Venetoclax-based Rational Combinations are Effective in Models of &lt;i&gt;MYCN&lt;/i&gt;-amplified Neuroblastoma",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.368Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is focused on cancer pharmacology and molecular oncology, with no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and the abstract center on venetoclax, MYCN-amplified neuroblastoma, BCL-2 inhibition, and combination therapies in pediatric oncology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9f74811835f8a25fad2b3ac0ce27eeccc6a4c10b24728c672481e70284a30e15": {
+    "paper_id": "https://openalex.org/W4362533065",
+    "title": "Figure S3 from Pharmacologic Inhibition of SHP2 Blocks Both PI3K and MEK Signaling in Low-epiregulin HNSCC via GAB1",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.397Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cancer signaling pathways and pharmacologic inhibition in HNSCC, with no mention or conceptual link to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts are exclusively biomedical: 'SHP2', 'PI3K', 'HNSCC', 'western blot', 'signal transduction'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c0cabd9cbf436a53cc06e6ce5e58f8660226c3672a646166be56ffb0c38a7035": {
+    "paper_id": "https://openalex.org/W4362488161",
+    "title": "Supplementary Figure 2 from Venetoclax-based Rational Combinations are Effective in Models of &lt;i&gt;MYCN&lt;/i&gt;-amplified Neuroblastoma",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.416Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a cancer biology study focused on venetoclax and neuroblastoma; 'emotion' appears only as a generic concept tag with no substantive connection to affective science.",
+      "evidence": [
+        "Abstract and title contain no emotion-related terms or methodologies; 'Psychology' in concepts is likely incidental and not affective/clinical psychology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f781800fd287653628e3143c551056ff4815acdf2658fbd5e883ab2857cc13d2": {
+    "paper_id": "https://openalex.org/W4362532911",
+    "title": "Figure S8 from Pharmacologic Inhibition of SHP2 Blocks Both PI3K and MEK Signaling in Low-epiregulin HNSCC via GAB1",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.441Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cancer signaling pathways (PI3K, MEK, SHP2) and pharmacologic inhibition in HNSCC; no connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts exclusively involve molecular oncology and signal transduction, with no mention of emotion, affect, psychology, or neuroscience."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c7a2455dd71cd9f3c02a728844bdf58d44ea578bdeb15fe447afa587be141bf9": {
+    "paper_id": "https://openalex.org/W4362488591",
+    "title": "Data from Exploitation of Sulfated Glycosaminoglycan Status for Precision Medicine of Triplatin in Triple-Negative Breast Cancer",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.450Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on cancer biology, platinum-based therapeutics, and biomarker-driven precision oncology; no mention or conceptual link to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and abstract content pertain to oncology, sGAG biochemistry, and TNBC treatment response—no emotion-related terms or mechanisms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d4f0d431f6690b0a27e99d1b5b8c126358ac4b8db364e09e61186d247f9618e6": {
+    "paper_id": "https://openalex.org/W4402168299",
+    "title": "Spatial Immunogenomic Patterns Associated with Lymph Node Metastasis in Lung Adenocarcinoma",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.454Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on spatial immunogenomics and lymph node metastasis in lung adenocarcinoma, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "All concepts (Metastasis, Oncology, Cancer research, etc.) are biomedical; 'emotion' does not appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "dfc1a29f88e83f10da09b8fa43959e31bbc6e883b314b7900a75a32cd3f18e08": {
+    "paper_id": "https://openalex.org/W4362533160",
+    "title": "Figure S9 from Pharmacologic Inhibition of SHP2 Blocks Both PI3K and MEK Signaling in Low-epiregulin HNSCC via GAB1",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.489Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cancer signaling pathways (PI3K, MEK, SHP2, GAB1) in HNSCC and has no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts are exclusively molecular oncology and signal transduction; 'emotion' does not appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6fd9b44c1acaff201bd16ff5e518210c60d99895f34c6cc3fc918269af28ab07": {
+    "paper_id": "https://openalex.org/W4362533162",
+    "title": "Figure S1 from Pharmacologic Inhibition of SHP2 Blocks Both PI3K and MEK Signaling in Low-epiregulin HNSCC via GAB1",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.541Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cancer signaling pathways and pharmacologic inhibition in HNSCC, with no mention or conceptual link to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts are exclusively biomedical: 'SHPI2', 'PI3K/AKT/mTOR pathway', 'HNSCC', 'signal transduction'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2b81da4be444dbf9cedea9bb8603b39bfdd8804091370c2be0aaade6fabf7767": {
+    "paper_id": "https://openalex.org/W4362533300",
+    "title": "Figure S10 from Pharmacologic Inhibition of SHP2 Blocks Both PI3K and MEK Signaling in Low-epiregulin HNSCC via GAB1",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.542Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cancer signaling pathways (PI3K, MAPK/ERK) and pharmacologic inhibition in HNSCC; no mention of emotion, affective processes, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts are exclusively biomedical, centered on SHP2, GAB1, epiregulin, and oncogenic signaling."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0daa5e654042b6f9b74859a2478e26b6d8a52ad11d8ca42ec680758282451319": {
+    "paper_id": "https://openalex.org/W4362533286",
+    "title": "Figure S2 from Pharmacologic Inhibition of SHP2 Blocks Both PI3K and MEK Signaling in Low-epiregulin HNSCC via GAB1",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.546Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cancer signaling pathways (PI3K, MEK, SHP2, GAB1) in HNSCC and has no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts exclusively concern molecular oncology and signal transduction; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a76a6d4d427200cac677d26a7ecc90c0b600c81a127604e46e0fa4fec6e64d12": {
+    "paper_id": "https://openalex.org/W4362488274",
+    "title": "Supplementary Figure 3 from Venetoclax-based Rational Combinations are Effective in Models of &lt;i&gt;MYCN&lt;/i&gt;-amplified Neuroblastoma",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.587Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper is a cancer pharmacology study focused on drug synergy in neuroblastoma; 'emotion' in the researcher's interest topics is not reflected in title, abstract, concepts, or venue.",
+      "evidence": [
+        "Abstract discusses Bliss synergy scores and cell viability assays in MYCN-amplified neuroblastoma models, with no mention of emotion, affect, psychology, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0d79aa24ed73b54d442b3b38dd830dcf5b2c4e193ef86b2d9ad617cca4d256e8": {
+    "paper_id": "https://openalex.org/W4362547370",
+    "title": "Data from Pharmacologic Inhibition of SHP2 Blocks Both PI3K and MEK Signaling in Low-epiregulin HNSCC via GAB1",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:09.726Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a cancer signaling study focused on SHP2 inhibition, PI3K/MEK pathways, and HNSCC biology; no mention or conceptual link to emotion, affective processes, or psychological/physiological correlates of emotion.",
+      "evidence": [
+        "All concepts and abstract content pertain to molecular oncology and signal transduction; 'emotion' appears nowhere in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "24c43d89891556874622b344d7e18f9ff00345f33bbf2a9d75254c5beb9dd73a": {
+    "paper_id": "https://openalex.org/W4402618168",
+    "title": "Are Large Language Models Possible to Conduct Cognitive Behavioral Therapy?",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:11.061Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.97,
+      "reason": "The paper explicitly investigates emotion-related evaluation (emotion tendency scoring) as a core component of assessing LLMs for CBT, directly aligning with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "For emotion tendency, we calculate the emotion tendency score of the CBT dialogue text generated by each model.",
+        "Researches on the recognition and intervention of emotional disorders using large language models (LLMs) have been validated..."
+      ],
+      "keywords": [
+        "emotion tendency",
+        "emotional disorders",
+        "affective evaluation",
+        "CBT and emotion",
+        "emotion recognition"
+      ],
+      "research_directions": [
+        "Affective computing in mental health",
+        "Emotion-aware AI therapy systems",
+        "Computational modeling of therapeutic emotion regulation",
+        "LLM-based affective intervention"
+      ]
+    }
+  },
+  "27100c17d47db361d499459eb4e1b34dfd923b2611896dbdc2a7f16a7bfb74e7": {
+    "paper_id": "https://openalex.org/W4402039182",
+    "title": "A Generalized Depression Recognition Framework Based on Cross-Center and Cross-Task Eeg Signals",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:11.065Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on depression recognition using EEG signals, which is a core affective/emotion-related research area—depression is a clinical emotional disorder, and EEG-based emotion/depression recognition falls squarely within affective computing and computational psychiatry.",
+      "evidence": [
+        "Title explicitly mentions 'Depression Recognition'",
+        "EEG signals are a standard modality in affective neuroscience and emotion recognition research"
+      ],
+      "keywords": [
+        "depression",
+        "emotion recognition",
+        "EEG",
+        "affective computing",
+        "mental health",
+        "cross-task learning",
+        "cross-center validation"
+      ],
+      "research_directions": [
+        "Affective brain-computer interfaces",
+        "Clinical emotion assessment using neurophysiological signals",
+        "Generalizable models for mental state recognition",
+        "Cross-domain transfer learning in affective computing"
+      ]
+    }
+  },
+  "123e0a25d0c74c13b6a15cce92aba8754f55090780e102030487ef71b91559c5": {
+    "paper_id": "https://openalex.org/W4396913457",
+    "title": "A Supervised Information Enhanced Multi-Granularity Contrastive Learning Framework for EEG Based Emotion Recognition",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:11.181Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on EEG-based emotion recognition, aligning directly with the researcher's interest topic 'emotion'. It introduces a novel framework (SICLEER) designed specifically for improving emotion detection from neural signals.",
+      "evidence": [
+        "Title contains 'EEG Based Emotion Recognition'",
+        "Abstract states 'improving emotion recognition effectiveness' and 'subtle EEG signal differences specific to emotion detection'",
+        "Researcher's interest topic is 'emotion'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "EEG",
+        "contrastive learning",
+        "multi-granularity learning",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective neuroscience",
+        "brain-computer interfaces for emotion detection",
+        "self-supervised learning in affective computing",
+        "interpretable AI for emotional states"
+      ]
+    }
+  },
+  "9ee6c19d6ca614c5d24863eef4f87cca3284f42065176187d8ef60cc6f9a323a": {
+    "paper_id": "https://openalex.org/W4391555906",
+    "title": "STAA-Net: A Sparse and Transferable Adversarial Attack for Speech Emotion Recognition",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:11.549Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly targets speech emotion recognition (SER), a core affective computing task, and explicitly engages with human emotion as the semantic target of recognition and adversarial manipulation.",
+      "evidence": [
+        "Title includes 'Speech Emotion Recognition'",
+        "Abstract states 'Speech contains rich information on the emotions of humans, and Speech Emotion Recognition (SER) has been an important topic in the area of human-computer interaction'",
+        "Evaluates on emotion-labeled datasets: DEMoS and IEMOCAP"
+      ],
+      "keywords": [
+        "speech emotion recognition",
+        "adversarial attack",
+        "emotion",
+        "affective computing",
+        "SER",
+        "emotional prosody"
+      ],
+      "research_directions": [
+        "robustness of affective AI systems",
+        "adversarial vulnerability in emotion modeling",
+        "privacy-preserving emotion recognition",
+        "transferable attacks on affective models"
+      ]
+    }
+  },
+  "4fe7540d87f918ef9141b2e20b26f0b153d7b1484953f026f4049c20b88ecb06": {
+    "paper_id": "https://openalex.org/W4361878335",
+    "title": "Supplementary Data from &lt;i&gt;MYCN&lt;/i&gt;-Amplified Neuroblastoma Is Addicted to Iron and Vulnerable to Inhibition of the System Xc-/Glutathione Axis",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:11.946Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on iron metabolism and redox biology in neuroblastoma, with no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Title and concepts are strictly biomedical/cancer-focused; abstract is empty placeholder."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3040d15c0d738d4e3012223b2c5f541f0b0bcf03759fd8232e80b8060cb99edc": {
+    "paper_id": "https://openalex.org/W4361933609",
+    "title": "Table S2 from Increased Synthesis of MCL-1 Protein Underlies Initial Survival of &lt;i&gt;EGFR&lt;/i&gt;-Mutant Lung Cancer to EGFR Inhibitors and Provides a Novel Drug Target",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.356Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is focused on molecular oncology and cancer drug resistance, with no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract concern EGFR-mutant lung cancer, MCL-1 protein, and drug targeting; no emotion-related terms or concepts present."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ae7a83f3389c86fe2f51e5e7eb23895f600a529f31512954dda971d6f8d9c891": {
+    "paper_id": "https://openalex.org/W4361878265",
+    "title": "Figure S7 from &lt;i&gt;MYCN&lt;/i&gt;-Amplified Neuroblastoma Is Addicted to Iron and Vulnerable to Inhibition of the System Xc-/Glutathione Axis",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.407Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on ferroptosis, iron metabolism, and cancer biology in neuroblastoma; no connection to emotion or affective science.",
+      "evidence": [
+        "Abstract mentions 'auranofin induces ferroptosis in vivo' and concepts are all biomedical/biochemical (e.g., Glutathione, Enzyme, Genetics)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5eb376d4ef7264e8c49a3a984f96454023554c3a15bfc3b2f6451274eded0ab6": {
+    "paper_id": "https://openalex.org/W4361940334",
+    "title": "Supplemental Figure 3 from Safety, Efficacy, and Biomarker Analysis of Toripalimab in Patients with Previously Treated Advanced Urothelial Carcinoma: Results from a Multicenter Phase II Trial POLARIS-03",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.417Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on oncology, biomarkers, and urothelial carcinoma treatment with toripalimab; no connection to emotion or affective science.",
+      "evidence": [
+        "Abstract mentions aristolochic acid mutational signature; no emotion-related terms or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f15a74693d42db64e78546a0ea1fb7ed81186fd4fddf1f0728c84f4f5ce3256f": {
+    "paper_id": "https://openalex.org/W4361933645",
+    "title": "Figure S1, Figure S2, Figure S3, Figure S4, Figure S5 and Figure S6 from Increased Synthesis of MCL-1 Protein Underlies Initial Survival of &lt;i&gt;EGFR&lt;/i&gt;-Mutant Lung Cancer to EGFR Inhibitors and Provides a Novel Drug Target",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.419Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is focused on cancer biology, EGFR signaling, apoptosis, and MCL-1 protein regulation — all mechanistic molecular oncology topics with no connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are biomedical/cancer-focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "118bf8aaa4811f400425ad8050a40ce3426f88a6876826f765b0a5804faa27d6": {
+    "paper_id": "https://openalex.org/W4361940216",
+    "title": "Supplemental Figure 2 from Safety, Efficacy, and Biomarker Analysis of Toripalimab in Patients with Previously Treated Advanced Urothelial Carcinoma: Results from a Multicenter Phase II Trial POLARIS-03",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.420Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper is a clinical oncology trial focused on cancer treatment efficacy and biomarkers, with no mention of emotion, affective processes, or psychological constructs.",
+      "evidence": [
+        "Abstract states 'CONSORT diagram for the Phase II study' and metadata lists only medical/oncological concepts"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bc084623402a0ceed1aea5692f6ea5b583c4ba62dbb84dcca6b7d46ab747c950": {
+    "paper_id": "https://openalex.org/W4361810798",
+    "title": "Supplemental Table S2 from Novel Paracrine Modulation of Notch–DLL4 Signaling by Fibulin-3 Promotes Angiogenesis in High-Grade Gliomas",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.473Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular oncology and angiogenesis signaling pathways, with no mention or conceptual link to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts are exclusively biomedical: Notch signaling, angiogenesis, glioma, paracrine signalling"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9ea478685ce06697ca96f5a89d532355e97d7008dea0c801766e0ff34e388d5d": {
+    "paper_id": "https://openalex.org/W4361933915",
+    "title": "Table S3 from Increased Synthesis of MCL-1 Protein Underlies Initial Survival of &lt;i&gt;EGFR&lt;/i&gt;-Mutant Lung Cancer to EGFR Inhibitors and Provides a Novel Drug Target",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.552Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper is focused on molecular oncology and drug resistance in EGFR-mutant lung cancer, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Abstract describes RNA-seq fold change of FBX7; concepts are strictly biomedical (cancer, pharmacology, mutant)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bf5e5e904c36daa7a5db9619c4d58ee24362e9fffc86b6ffd0de58afdfeabd60": {
+    "paper_id": "https://openalex.org/W4361934147",
+    "title": "Table S1 from Increased Synthesis of MCL-1 Protein Underlies Initial Survival of &lt;i&gt;EGFR&lt;/i&gt;-Mutant Lung Cancer to EGFR Inhibitors and Provides a Novel Drug Target",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.560Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular oncology, specifically MCL-1 protein synthesis in EGFR-mutant lung cancer and drug targeting; no connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts are exclusively cancer biology/pharmacology; 'emotion' is absent from title, abstract, and all listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c0bb50492e683efcd6157e38de2b13695c0a3d5d438c02039d85277e91624faf": {
+    "paper_id": "https://openalex.org/W4361940423",
+    "title": "Supplemental Table 1-3 from Safety, Efficacy, and Biomarker Analysis of Toripalimab in Patients with Previously Treated Advanced Urothelial Carcinoma: Results from a Multicenter Phase II Trial POLARIS-03",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.567Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a clinical oncology trial report focused on safety, efficacy, and biomarkers in urothelial carcinoma; no mention or implication of emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively pertain to medicine, oncology, clinical trials, and biomarkers."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2a89b8afdee855637763246c70916318d74aa15eb4374c49a528851fbc6cceaa": {
+    "paper_id": "https://openalex.org/W4361895132",
+    "title": "Supplementary Figure 2 from Fibulin-3 Promotes Glioma Growth and Resistance through a Novel Paracrine Regulation of Notch Signaling",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.567Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on fibulin-3, Notch signaling, and glioma biology with no mention of emotion, affective processes, or psychological/physiological correlates of emotion.",
+      "evidence": [
+        "Abstract and concepts are exclusively cancer biology and signal transduction related."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "210f25ec06f6bbe640660053996a20e2e2b6446e5615cd9170d4a9070b8f5d66": {
+    "paper_id": "https://openalex.org/W4361878334",
+    "title": "Figure S6 from &lt;i&gt;MYCN&lt;/i&gt;-Amplified Neuroblastoma Is Addicted to Iron and Vulnerable to Inhibition of the System Xc-/Glutathione Axis",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.572Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on iron metabolism, redox biology, and cancer therapeutics in neuroblastoma; no mention or conceptual link to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Abstract and title concern MYCN-amplified neuroblastoma, transferrin receptor, glutathione axis, and auranofin sensitivity—no emotion-related terms or mechanisms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "186bae6a95837f8fdf08033ff5d14ef4b04835f25139518448c370de1d40f993": {
+    "paper_id": "https://openalex.org/W4361961789",
+    "title": "Supplemental Figure 1 from Safety, Efficacy, and Biomarker Analysis of Toripalimab in Patients with Previously Treated Advanced Urothelial Carcinoma: Results from a Multicenter Phase II Trial POLARIS-03",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.661Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on oncology, biomarkers, and immunotherapy in urothelial carcinoma with no mention of emotion, affective processes, or psychological constructs.",
+      "evidence": [
+        "Abstract describes PD-L1 IHC staining antibody cross-correlation; concepts are strictly clinical/oncological."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c1325764781f66dcd3061db0f2f9a272fe82e94ad40d4c09a13e7f00fc6582ed": {
+    "paper_id": "https://openalex.org/W4361971767",
+    "title": "Figure S3 from &lt;i&gt;MYCN&lt;/i&gt;-Amplified Neuroblastoma Is Addicted to Iron and Vulnerable to Inhibition of the System Xc-/Glutathione Axis",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.702Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on iron metabolism, ferroptosis, and cancer pharmacology in neuroblastoma; no connection to emotion or affective science.",
+      "evidence": [
+        "Abstract mentions ferroptosis, auranofin, and MYCN-amplified neuroblastoma; no emotion-related terms or constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cad33eab9ef5c2d4f1f3649eeae2bbe40a3db16eae8a4d837b5a6793022cec10": {
+    "paper_id": "https://openalex.org/W4361810914",
+    "title": "Supplementary Table S1 from Novel Paracrine Modulation of Notch–DLL4 Signaling by Fibulin-3 Promotes Angiogenesis in High-Grade Gliomas",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.725Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular oncology and angiogenesis signaling in gliomas, with no mention or conceptual link to emotion, affective science, or psychological/physiological emotion processing.",
+      "evidence": [
+        "Abstract states only antibody usage for Western blotting and immunohistochemistry; concepts are all cancer biology-related."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d25e6a5a4edc23d9e96bd48142e8392510a6c2e504e40787ad009856e97c9915": {
+    "paper_id": "https://openalex.org/W4361878608",
+    "title": "Figure S4 from &lt;i&gt;MYCN&lt;/i&gt;-Amplified Neuroblastoma Is Addicted to Iron and Vulnerable to Inhibition of the System Xc-/Glutathione Axis",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.745Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on iron metabolism, epigenetic methylation, and redox biology in MYCN-amplified neuroblastoma — no mention or conceptual link to emotion, affective science, or psychological/physiological emotion mechanisms.",
+      "evidence": [
+        "Abstract describes SLC40A1 promoter methylation in neuroblastoma; concepts are all biomedical/cancer-focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "92b91f6160378289fbdc9b723878fb5dc216755640ca48360cb3a1eb49e2724a": {
+    "paper_id": "https://openalex.org/W4361873524",
+    "title": "Supplementary Figures S1-S9 from Astrocyte Elevated Gene-1 Interacts with Akt Isoform 2 to Control Glioma Growth, Survival, and Pathogenesis",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.761Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on molecular oncology, specifically AEG-1/Akt2 interactions in glioma pathogenesis, with no mention or conceptual link to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and abstract content pertain to cancer signaling pathways, protein interactions, and experimental oncology methods."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2f4d9c5c67f19ac8197b80ba196e72bdc1710534f188972a255ee6397224e68f": {
+    "paper_id": "https://openalex.org/W4361947754",
+    "title": "Data from Safety, Efficacy, and Biomarker Analysis of Toripalimab in Patients with Previously Treated Advanced Urothelial Carcinoma: Results from a Multicenter Phase II Trial POLARIS-03",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.799Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a clinical oncology trial focused on immunotherapy efficacy, safety, and biomarkers in urothelial carcinoma; no mention of emotion, affective processes, or psychological constructs.",
+      "evidence": [
+        "Abstract and metadata contain only medical, statistical, and oncological terms; 'emotion' does not appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "37af2c31b300b78c0200be6f2c30897d3bd958447be40b9c8f8493712e55929a": {
+    "paper_id": "https://openalex.org/W4319323448",
+    "title": "Uniform tensor clustering by jointly exploring sample affinities of various orders",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.799Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on tensor-based clustering methods using high-order affinities and mathematical products; no mention of emotion, affective computing, or psychological/physiological correlates of emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are from mathematical clustering and tensor algebra."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "99b6c3f7a36e92dd3208a1e88a640d0c4857a5c0eebfd87c156f5f30ade5282c": {
+    "paper_id": "https://openalex.org/W4361894880",
+    "title": "Supplementary Table 1 from Fibulin-3 Promotes Glioma Growth and Resistance through a Novel Paracrine Regulation of Notch Signaling",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.809Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on fibulin-3, Notch signaling, and glioma biology in cancer research; no mention or conceptual link to emotion, affective science, or psychological/physiological emotion mechanisms.",
+      "evidence": [
+        "Abstract describes antibodies list and paracrine Notch signaling in glioma; no emotion-related terms or constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a6c17fda668efeba854832531b9bf63b47ac2e7c374beed4af14ad9c0fc1d34e": {
+    "paper_id": "https://openalex.org/W4361934093",
+    "title": "Supplementary Figure Legends from Increased Synthesis of MCL-1 Protein Underlies Initial Survival of &lt;i&gt;EGFR&lt;/i&gt;-Mutant Lung Cancer to EGFR Inhibitors and Provides a Novel Drug Target",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.865Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular oncology and drug resistance in EGFR-mutant lung cancer, with no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Title and concepts are exclusively biomedical: 'MCL-1', 'EGFR-mutant lung cancer', 'EGFR inhibitors', 'drug target'; abstract is placeholder text ('Supplementary figure legends')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0a6e7ce00dbfbcbfd86b150215d97911c2adc72ae3167665a95efa5ebd2bc7df": {
+    "paper_id": "https://openalex.org/W4361878728",
+    "title": "Figure S5 from &lt;i&gt;MYCN&lt;/i&gt;-Amplified Neuroblastoma Is Addicted to Iron and Vulnerable to Inhibition of the System Xc-/Glutathione Axis",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.878Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cancer biology, iron metabolism, ferroptosis, and redox biochemistry in neuroblastoma; no affective or emotion-related content is present.",
+      "evidence": [
+        "Abstract discusses auranofin, iron, glutathione, ROS, and ferroptotic cell death—no mention of emotion, affect, psychology beyond the generic 'Psychology' concept tag."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "48c4f2105518a819fe0d6595e1cd4347d28d32e87e4a602fd489289300ccaf18": {
+    "paper_id": "https://openalex.org/W4361810934",
+    "title": "Supplemental Figures S1-S5 from Novel Paracrine Modulation of Notch–DLL4 Signaling by Fibulin-3 Promotes Angiogenesis in High-Grade Gliomas",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.910Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular oncology and angiogenesis signaling pathways, with no mention or conceptual link to emotion, affective processes, or psychological/physiological correlates of emotion.",
+      "evidence": [
+        "All concepts and abstract content pertain to cancer biology, Notch signaling, fibulin-3, and endothelial cell behavior—no emotion-related terms or mechanisms present."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a2fabba227db9bbf89944c70b9d3e11d3426a3508ff3210c1aef0802cf986ea4": {
+    "paper_id": "https://openalex.org/W4318718985",
+    "title": "Learning the Kalman Filter with Fine-Grained Sample Complexity",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:12.922Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on Kalman filtering, control theory, and sample complexity in linear dynamical systems; no mention of emotion, affective computing, or psychological/physiological emotion modeling.",
+      "evidence": [
+        "Abstract and concepts contain only technical control/signal processing terms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5ea86ece86259da5f188c151ace81943dd316b6adcca7242f664c9d5929c33cf": {
+    "paper_id": "https://openalex.org/W4361943989",
+    "title": "Data from Telomestatin Impairs Glioma Stem Cell Survival and Growth through the Disruption of Telomeric G-Quadruplex and Inhibition of the Proto-oncogene, &lt;i&gt;c-Myb&lt;/i&gt;",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:13.024Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular oncology, G-quadruplex biology, and glioma stem cell targeting; 'emotion' is not mentioned or implied in title, abstract, concepts, or venue.",
+      "evidence": [
+        "Interest topic 'emotion' has no semantic or contextual overlap with the paper's content on telomestatin, c-Myb, GSC apoptosis, and cancer therapeutics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3efe518a35c2b2a000fd9a578deac30fe2589b90708c1dd85d41f8bef45be0d7": {
+    "paper_id": "https://openalex.org/W4361946629",
+    "title": "Data from Increased Synthesis of MCL-1 Protein Underlies Initial Survival of &lt;i&gt;EGFR&lt;/i&gt;-Mutant Lung Cancer to EGFR Inhibitors and Provides a Novel Drug Target",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:13.200Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is focused on molecular oncology, drug resistance mechanisms in EGFR-mutant lung cancer, and MCL-1 protein regulation — with no conceptual, methodological, or terminological connection to emotion or affective science.",
+      "evidence": [
+        "Interest topic is 'emotion', but paper concepts include T790M, lung cancer, mTORC1, MCL-1, EGFR inhibitors — all biomedical/oncological."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "11d9a92c65a0e423907e51ade85004c4412452be1771cbdacc32ac982138441f": {
+    "paper_id": "https://openalex.org/W4293115587",
+    "title": "Research on carbon footprint reduction and smart pricing decision-making system of green energy consumption",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:14.036Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on carbon footprint reduction and smart pricing in green energy consumption, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Carbon footprint, Energy consumption, Environmental economics — all unrelated to emotion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "884e3bf429b90c31461df7b55a29efd836a5da5c5f9b0fcfdd4f01c44cf73117": {
+    "paper_id": "https://openalex.org/W4213223568",
+    "title": "Filterable Sample Consensus Based on Angle Variance for Pupil Segmentation",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:14.079Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on pupil segmentation using a geometric statistical method; no connection to emotion or affective science is evident from title, venue, or listed concepts.",
+      "evidence": [
+        "Title: 'Filterable Sample Consensus Based on Angle Variance for Pupil Segmentation'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ecad8daaa8b45a9d3ac016450794bd30d077a48affc65f55f5926f53b7f73503": {
+    "paper_id": "https://openalex.org/W3179605990",
+    "title": "SM-SGE: A Self-Supervised Multi-Scale Skeleton Graph Encoding Framework for Person Re-Identification",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:14.569Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on person re-identification using multi-scale skeleton graph encoding; no mention of emotion, affective computing, or psychological affective constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; concepts are purely computer vision/AI/skeleton modeling"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "21d69245d9b940fb67b625f76e96c4fef7ed4282a5cd88b60253dc780bb1019b": {
+    "paper_id": "https://openalex.org/W4310749568",
+    "title": "Data Augmentation for Depression Detection Using Skeleton-Based Gait Information",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:14.894Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper explicitly links skeleton-based gait analysis to depression detection and mentions applying augmentation techniques to both 'depression and emotion datasets', directly engaging with emotion-related behavioral biomarkers. Depression is a clinical affective disorder, and the work falls under affective computing and emotion-aware AI.",
+      "evidence": [
+        "applies augmentation techniques to depression and emotion datasets",
+        "aims to detect depression — a core affective/emotional disorder",
+        "uses gait as a behavioral proxy for emotional state"
+      ],
+      "keywords": [
+        "depression",
+        "emotion",
+        "affective computing",
+        "gait analysis",
+        "skeleton data",
+        "behavioral biomarkers"
+      ],
+      "research_directions": [
+        "affective computing",
+        "mental health monitoring",
+        "emotion recognition from movement",
+        "clinical AI for mood disorders"
+      ]
+    }
+  },
+  "dcf2f1882fe14fbc43da5a71b20e3ebcb6a4ef05d23638cb8f6f951bef7c5d04": {
+    "paper_id": "https://openalex.org/W3167097694",
+    "title": "Multi-Level Graph Encoding with Structural-Collaborative Relation Learning for Skeleton-Based Person Re-Identification",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:15.211Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on skeleton-based person re-identification using graph neural networks and relation learning; no emotion-related constructs, affective computing, or psychological affect measures are present.",
+      "evidence": [
+        "Abstract and concepts contain no emotion, affect, sentiment, arousal, valence, or related psychological or computational affective terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4704d660e6486884e19683dd65ac47ef9fa056914775b0a41f5961de800fa8f4": {
+    "paper_id": "https://openalex.org/W4223607933",
+    "title": "Every individual makes a difference: A trinity derived from linking individual brain morphometry, connectivity and mentalising ability",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:15.470Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper directly investigates mentalising ability—including understanding others' feelings—and links it to the amygdala, a core brain region for emotion processing; 'emotion' is explicitly part of the researcher's stated interest topics.",
+      "evidence": [
+        "Abstract states mentalising ability is 'indexed as the ability to understand others’ beliefs, feelings, intentions, thoughts and traits'",
+        "Amygdala is identified as a 'vital subcortical region of the social brain' and linked specifically to 'other-self mentalisation'",
+        "Researcher's interest topic is 'emotion', and 'feelings' is a core affective/emotion construct in mentalising"
+      ],
+      "keywords": [
+        "emotion",
+        "mentalising",
+        "amygdala",
+        "social cognition",
+        "affective neuroscience"
+      ],
+      "research_directions": [
+        "Affective neuroscience of social cognition",
+        "Individual differences in emotion-related mentalising",
+        "Neuroanatomical correlates of emotion understanding"
+      ]
+    }
+  },
+  "21fa2ed61702c3f3e6ea9a87a5f572058cee7f4f141089cabf58c06a00b59abc": {
+    "paper_id": "https://openalex.org/W3106061928",
+    "title": "Prototypical Contrast and Reverse Prediction: Unsupervised Skeleton Based Action Recognition",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:15.523Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unsupervised skeleton-based action recognition using contrastive learning and reverse prediction; no mention of emotion, affect, sentiment, or related psychological/physiological constructs.",
+      "evidence": [
+        "Title and abstract exclusively address action recognition, representation learning, and computer vision tasks."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "aa0fb6732aa9cfc1c6f93c52a86dbb9de5ba6c66ae778d5a3373b33c1235970a": {
+    "paper_id": "https://openalex.org/W2905492304",
+    "title": "Local Probabilistic Model for Bayesian Classification: a Generalized Local Classification Model",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:15.525Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on probabilistic modeling and Bayesian classification in local sample spaces, with no mention of emotion, affect, affective computing, or related psychological or neuroscientific constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are technical ML/statistics concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "47b6848369c438fba9c8c478c7be388cd14fa86ffe2ca8e37dba6d3d70c63d3c": {
+    "paper_id": "https://openalex.org/W2580670629",
+    "title": "Energy-efficient virtual network embedding in networks for cloud computing",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:15.541Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on energy-efficient virtual network embedding in cloud computing and contains no mention of emotion, affective science, psychology, or related constructs.",
+      "evidence": [
+        "All concepts and the abstract center on cloud infrastructure, virtualization, energy consumption, and optimization algorithms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f7c6a88eaebd73751953da5e164b7b645f2d7a42cdeaed30533c2803f149185a": {
+    "paper_id": "https://openalex.org/W3015268855",
+    "title": "Exchanging deep knowledge for fault diagnosis using ontologies",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:15.842Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on fault diagnosis using ontologies and knowledge representation in engineering systems, with no mention of emotion, affective computing, or psychological/physiological aspects of emotion.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are all technical/computational (e.g., 'Fault (geology)', 'Function (biology)', 'Ontologies')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "17c0e201f0b5caa4e56cd88affe9d032974cc2ad7771664507257160f8f136a5": {
+    "paper_id": "https://openalex.org/W3046406391",
+    "title": "Augmented Skeleton Based Contrastive Action Learning with Momentum LSTM for Unsupervised Action Recognition",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:15.901Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unsupervised action recognition from 3D skeleton data using contrastive learning and momentum LSTM; no mention of emotion, affect, sentiment, or any psychological/behavioral constructs related to affective states.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, valence, arousal, mood, or affective computing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e670450e911859e9618e5130722013484403708d5d607c14ebd391b88dfd79a6": {
+    "paper_id": "https://openalex.org/W4312514593",
+    "title": "Vigilance Estimation Using Truncated L1 Distance Kernel-Based Sparse Representation Regression with Physiological Signals",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:16.948Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper focuses on vigilance estimation using physiological signals, and vigilance (psychology) is a cognitive-affective state closely tied to emotional arousal, sustained attention, and fatigue—core constructs in affective science. The researcher's stated interest is 'emotion', and vigilance estimation often serves as a proxy or correlate for affective states like stress, drowsiness, or alertness in affective computing contexts.",
+      "evidence": [
+        "Concept includes 'Vigilance (psychology)'",
+        "Uses physiological signals—common modality in emotion recognition",
+        "Title implies affective/cognitive state estimation"
+      ],
+      "keywords": [
+        "vigilance",
+        "physiological signals",
+        "affective state estimation",
+        "sparse representation",
+        "regression"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Emotion recognition from biosignals",
+        "Cognitive-affective modeling",
+        "Psychophysiological signal processing"
+      ]
+    }
+  },
+  "6ee301b9beb525727841f0e8a2a149e4bcdb9dd0840d8c1c30c2a163feb3983e": {
+    "paper_id": "https://openalex.org/W2485861534",
+    "title": "An Improved EEG De-noising Approach in Electroencephalogram (EEG) for Home Care",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:17.545Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper explicitly links EEG alpha rhythm to detection of mental illness and depression, which are core affective/emotional states; it is positioned within mental health care and home-based emotional/psychological monitoring.",
+      "evidence": [
+        "alpha rhythm [...] can be used to detect the mental illness and depression",
+        "Mental health care is becoming an increasing concern in home care projects",
+        "Concepts include Psychology"
+      ],
+      "keywords": [
+        "emotion",
+        "depression",
+        "mental illness",
+        "alpha rhythm",
+        "EEG",
+        "mental health"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion recognition from EEG",
+        "remote mental health monitoring",
+        "biomarkers for depression",
+        "telehealth-based emotion assessment"
+      ]
+    }
+  },
+  "c0dd6eafcf1d323f3beb3a4cef61d044968dc2eeaffebde11d26927570273cfc": {
+    "paper_id": "https://openalex.org/W2931864154",
+    "title": "Facial expression awareness based on multi-scale permutation entropy of EEG",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:17.580Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly investigates emotion-related facial expressions (anger, happiness) using EEG-based affective computing methods, aligning precisely with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Abstract explicitly states analysis of 'angry' and 'happy' expression EEG signals",
+        "Title includes 'Facial expression awareness', a core affective computing task",
+        "MPE is applied to distinguish emotion-laden expressions grounded in affective neuroscience"
+      ],
+      "keywords": [
+        "emotion",
+        "facial expression",
+        "EEG",
+        "affective computing",
+        "permutation entropy",
+        "happiness",
+        "anger"
+      ],
+      "research_directions": [
+        "affective neuroscience",
+        "emotion recognition from physiological signals",
+        "EEG-based affective computing",
+        "multiscale entropy analysis for emotion"
+      ]
+    }
+  },
+  "7780aca081e62e5cf253e0d26ddaf9a1f62c730a0572b2df45a60008561dd48a": {
+    "paper_id": "https://openalex.org/W2743349409",
+    "title": "ヘロイン常用者の安静時EEGアルファ活性の非線形動的解析【Powered by NICT】",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:17.872Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper analyzes resting-state EEG alpha activity in heroin users using nonlinear dynamic methods, which is directly relevant to affective neuroscience and emotion regulation—heroin use profoundly alters emotional processing, and EEG alpha dynamics are well-established biomarkers of emotional states and arousal.",
+      "evidence": [
+        "Title mentions 'EEG alpha activity' and 'nonlinear dynamic analysis' in context of heroin users—a population with documented emotion dysregulation",
+        "Researcher's stated interest topic is 'emotion'"
+      ],
+      "keywords": [
+        "EEG",
+        "alpha rhythm",
+        "nonlinear dynamics",
+        "addiction",
+        "emotion regulation",
+        "affective neuroscience"
+      ],
+      "research_directions": [
+        "Computational modeling of emotion-related neural dynamics",
+        "Biomarkers of affective dysfunction in substance use disorders",
+        "Resting-state electrophysiology in clinical affective research"
+      ]
+    }
+  },
+  "5c50fa0db2625cbc0839c70c544f78b74ead66bfea4360874c19bd1e47af7c4b": {
+    "paper_id": "https://openalex.org/W2748157376",
+    "title": "Deep fusion of multi-channel neurophysiological signal for emotion recognition and monitoring",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:17.996Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion recognition using neurophysiological signals and deep learning, aligning precisely with the researcher's stated interest in 'emotion'.",
+      "evidence": [
+        "Title explicitly includes 'emotion recognition and monitoring'",
+        "Abstract states the goal is 'emotion recognition' in a 'trial-level emotion recognition task'",
+        "Experiments evaluate performance on emotional dimensions 'Valence and Arousal'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "neurophysiological signals",
+        "deep learning",
+        "convolutional neural network",
+        "recurrent neural network",
+        "valence",
+        "arousal",
+        "DEAP dataset"
+      ],
+      "research_directions": [
+        "affective computing",
+        "computational psychophysiology",
+        "multimodal emotion sensing",
+        "deep learning for affective signal processing"
+      ]
+    }
+  },
+  "cc8de8766151fe89a092386e1273f7a1594ff3372e58f0618edcdf46b09a4525": {
+    "paper_id": "https://openalex.org/W3135896864",
+    "title": "Morphologic and functional connectivity alterations in patients with major depressive disorder",
+    "researcher_name": "Bin Hu",
+    "researcher_openalex_author_id": "A5100380066",
+    "updated_at": "2026-02-20T20:22:18.515Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly investigates neural correlates of emotional dysregulation in major depressive disorder, explicitly linking structural and functional brain alterations to depressive symptom severity and anxiety level — core affective/emotion constructs aligned with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Abstract states: 'GMV in the rACC negatively correlated with the depressive symptom severity and anxiety level'",
+        "Conclusion notes findings 'could account for their dysfunctions on emotional regulation'",
+        "Interest topic 'emotion' matches key themes: emotional regulation, anxiety, depression, mood"
+      ],
+      "keywords": [
+        "emotion",
+        "emotional regulation",
+        "anxiety",
+        "depression",
+        "mood",
+        "affective neuroscience",
+        "rACC",
+        "limbic-cortical network"
+      ],
+      "research_directions": [
+        "neural basis of emotion dysregulation",
+        "brain imaging biomarkers for affective symptoms",
+        "structure-function relationships in mood disorders",
+        "rACC as a state marker for emotional distress"
+      ]
+    }
   }
 }

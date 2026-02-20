@@ -10200,5 +10200,662 @@
         "multimedia affective computing"
       ]
     }
+  },
+  "f88523a49009bdaa4ad717e83d14654ee01cf90d565411facb3f0bc16f540dc1": {
+    "paper_id": "https://openalex.org/W4210527547",
+    "title": "Introduction",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:48.683Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "No conceptual or topical overlap between 'emotion' and the paper's technical focus on electricity, power grids, and electrical engineering.",
+      "evidence": [
+        "Concepts: Electricity, Grid, Electric power transmission, Power grid, Electrical engineering"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "29278a2269f60e7dc77d62fe46b98b432a44fa8a184b539c3ed15844cbbcf798": {
+    "paper_id": "https://openalex.org/W2902333684",
+    "title": "PVRNet: Point-View Relation Neural Network for 3D Shape Recognition",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:48.712Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on 3D shape recognition using point clouds and multi-view fusion; no mention of emotion, affective computing, or psychological affective constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms or concepts"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8a14a95b80249a0f917270aa773d576ef1dd5d4189af3fcf30c55d65361143af": {
+    "paper_id": "https://openalex.org/W3020886074",
+    "title": "Conclusions and Future Work",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:48.737Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper title, venue, and listed concepts are unrelated to emotion; abstract is empty and no emotional or affective terms appear in metadata.",
+      "evidence": [
+        "Concepts: Work (physics), Computer science, History, Engineering, Mechanical engineering"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4ed7f54c5e86a3378720a36319711d0b7d457c1a62630781b86b83e59220de3e": {
+    "paper_id": "https://openalex.org/W4376608753",
+    "title": "Hypergraph Computation",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:48.780Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hypergraph theory and computation with no mention of emotion, affect, or related psychological, behavioral, or affective computing concepts.",
+      "evidence": [
+        "Abstract states objective is to explore 'theory and methods of hypergraph computation'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d41f84d92e998e8cde2e95005ebe04cbe4df4e798fe51181f311cb2aadc2cb92": {
+    "paper_id": "https://openalex.org/W4297411880",
+    "title": "EasyRec: An easy-to-use, extendable and efficient framework for building industrial recommendation systems",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:48.794Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on industrial recommender systems engineering, with no mention of emotion, affective computing, or related psychological or affective constructs.",
+      "evidence": [
+        "Interest topic is 'emotion', but paper concepts and abstract contain no emotion-related terms or methodologies."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "48494e53923c9fcc3b2253c46cd73152fe2f6d43dadd2c5351e67c0e5e720b17": {
+    "paper_id": "https://openalex.org/W2028285070",
+    "title": "Attribute-augmented semantic hierarchy",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:48.816Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "No mention of emotion, affect, or related psychological/behavioral constructs in title, venue, concepts, or abstract identifier; focus is on semantic hierarchy and image retrieval.",
+      "evidence": [
+        "Concepts: Computer science, Information retrieval, Semantic gap, Image retrieval"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a1a41b618d7fbddb056e323a8ed80726bc74b9a9117845971239cd3a18473060": {
+    "paper_id": "https://openalex.org/W2903429511",
+    "title": "Universal Perturbation Attack Against Image Retrieval",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:48.868Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on adversarial attacks against image retrieval systems, with no connection to emotion, affective computing, or human emotional states.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are in computer vision, security, and information retrieval."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f4acae09d9a629fcff58fb66180db212cb9a06e0e4c2d2d56e2a50c1f5fa1516": {
+    "paper_id": "https://openalex.org/W2951820681",
+    "title": "Hypergraph Neural Networks",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:48.870Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hypergraph neural networks for representation learning and has no conceptual, methodological, or application-level connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Hypergraph, Artificial intelligence, Convolutional neural network — none relate to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4bb04345e13985ebc141d8886032a830a44c21f51aa3e2fb1781c0bee0f1a46c": {
+    "paper_id": "https://openalex.org/W3152617586",
+    "title": "View-Guided Point Cloud Completion",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:48.900Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on point cloud completion using cross-modality fusion with images; no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical/computer vision/AI"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e3b679c0239b653936d0d3d1b2ce4f1b1b6cbdad6acb0fb394a3c20e43fc4670": {
+    "paper_id": "https://openalex.org/W4298357533",
+    "title": "Detecting Anatomical Landmarks for Fast Alzheimer’s Disease Diagnosis",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:48.934Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on anatomical landmark detection for Alzheimer's disease diagnosis using MRI and machine learning; no mention of emotion, affective processes, or related psychological constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, mood, sentiment, or affective neuroscience."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7b13e294ba18a16a9a9d6e5b920f6649b2eed39ab24a3658036972097b3ae5e8": {
+    "paper_id": "https://openalex.org/W4244092082",
+    "title": "Analysis and optimization of soft error tolerance strategies for real-time systems",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:48.943Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on soft error tolerance, real-time scheduling, and fault tolerance in embedded systems—topics entirely outside affective science or emotion research.",
+      "evidence": [
+        "Title and abstract contain no emotion-related terms; all concepts are in computer engineering and real-time systems."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "849f1d1a6e5dbb13b43526e7c055b63720debf6c562e486b35b67a035eb3ab44": {
+    "paper_id": "https://openalex.org/W4286224796",
+    "title": "3D Room Layout Estimation from a Cubemap of Panorama Image via Deep Manhattan Hough Transform",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:48.983Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on geometric 3D room layout estimation using computer vision and Hough transforms; no mention of emotion, affective computing, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are geometric/computer vision focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a8c48ad02e6306e099c770b10d97455350f61f1fe4bf16cda58a7104835f0fe3": {
+    "paper_id": "https://openalex.org/W4313300401",
+    "title": "Investigation on Selective Separation of Oxygen-Containing Compounds in Lignite and Sub-Bitumite",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:49.016Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on chemical separation of oxygen-containing compounds in coal, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are exclusively chemistry/environmental science/machine learning related; 'emotion' does not appear in title, venue, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e23c69c6d370a2e3e50e4bfa94a6599d5399c86f0be4ae3500ecd81349abc59a": {
+    "paper_id": "https://openalex.org/W4252624212",
+    "title": "An energy and deadline aware resource provisioning, scheduling and optimization framework for cloud systems",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:49.046Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on energy-efficient resource provisioning and deadline-aware scheduling in cloud computing, with no mention or conceptual connection to emotion, affective science, or human-centered affective phenomena.",
+      "evidence": [
+        "All concepts and the abstract center on cloud infrastructure optimization, virtual machines, scheduling, and energy efficiency."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cf0b4aef33ce54b3e95f0c97088c1c4871088ddfbe782a42f82d451dca4f9261": {
+    "paper_id": "https://openalex.org/W4232949054",
+    "title": "Issue Information",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:49.048Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a journal issue information page with no substantive content related to emotion; metadata and abstract focus exclusively on hematology, clinical oncology, and molecular diagnostics.",
+      "evidence": [
+        "Abstract contains only hematology-related clinical and molecular topics; no mention of emotion, affect, psychology, or behavioral measures."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6d5b629c1813a050bfcfde468fa07510e950f40b6f93bb9f7818ea05c04ab872": {
+    "paper_id": "https://openalex.org/W4402714720",
+    "title": "Hyper-YOLO: When Visual Object Detection Meets Hypergraph Computation",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:49.101Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hypergraph-enhanced object detection in computer vision, with no mention of emotion, affective computing, or related psychological, neurological, or human-centered constructs.",
+      "evidence": [
+        "Abstract and metadata contain only technical CV/AI concepts: hypergraph, object detection, YOLO, COCO, feature extraction"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4e0ee3d9af6bb312d09135564bee3d35c209be60e053fe2e87d3e7fe2c266646": {
+    "paper_id": "https://openalex.org/W4401040706",
+    "title": "Multi-Atlas Segmentation of Anatomical Brain Structures Using Hierarchical Hypergraph Learning",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:49.114Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical medical image segmentation using hypergraph learning and has no conceptual, methodological, or empirical connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts exclusively concern anatomical brain segmentation, AI, and MR imaging; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bf9ba23b93171eb8cf2305c1e1e2830ab40d1430f3be7e71b31dc46403051c6d": {
+    "paper_id": "https://openalex.org/W4243443556",
+    "title": "Genome-wide Variant-based Study of Genetic Effects with the Largest Neuroanatomic Coverage",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:49.140Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on genome-wide association studies of brain anatomy and genetics, with no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively concern genetics, neuroimaging, SNPs, and brain structure; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "daef99bbf4cbdfb4fbe14d7f36e736039d4baf4bdad18f468d7a8c0f29ee2f9e": {
+    "paper_id": "https://openalex.org/W4247620520",
+    "title": "When Amazon Meets Google",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:49.162Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on product visualization and multi-source image retrieval using Amazon and Google search engines, with no mention of emotion, affect, or related psychological or computational affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are technical (e.g., 'cluster analysis', 'search engine optimization', 'visualization')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a40c1c11887bde26f5ab782899b82ccb062f8822a4e439db5465e6a914c7f2e7": {
+    "paper_id": "https://openalex.org/W2950986637",
+    "title": "MeshNet: Mesh Neural Network for 3D Shape Representation",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:49.209Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on 3D mesh representation and neural network architecture for computer graphics/vision; no mention or implication of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical/computational (e.g., 'polygon mesh', 'point cloud', '3D shape classification')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "10bd13af187af79cc710649fa4d1a8cc1875e49bf62a020fa551b4b6b16b1211": {
+    "paper_id": "https://openalex.org/W4392756064",
+    "title": "Hyper-3DG: Text-to-3D Gaussian Generation via Hypergraph",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:49.244Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on text-to-3D generation using hypergraph-based Gaussian optimization, with no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical/computational (hypergraph, Gaussian, 3DGS, geometry, texture)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5c82acf539e0f3ab8be839e354a99ec23d5b0005301ed68dd1a0dd8948404dea": {
+    "paper_id": "https://openalex.org/W4401040721",
+    "title": "Identifying disease-related subnetwork connectome biomarkers by sparse hypergraph learning",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:49.264Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computational biology and neuroimaging biomarker discovery using hypergraph learning; no explicit connection to emotion or affective science is indicated in title, venue, or concepts.",
+      "evidence": [
+        "Concepts include 'Connectome', 'Hypergraph', 'Computational biology', but not 'emotion', 'affect', or related psychological constructs"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c6d1b5dc22b6307b86f6971b5e15ff21d27c0fc3e61cee3f8d2523ae1510af93": {
+    "paper_id": "https://openalex.org/W4403813694",
+    "title": "Neural-Polyptych: Content Controllable Painting Recreation for Diverse Genres",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:49.282Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on generative art, painting recreation, and computer vision techniques; no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes 'Art', 'Computer science', 'Mathematics', but not emotion, affect, sentiment, or related domains."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "252dcdfde7645d3644e3bfbb33d4237200b204e2ed42dfb8513f8917e1c288d7": {
+    "paper_id": "https://openalex.org/W3003985474",
+    "title": "Deep Multi-View Enhancement Hashing for Image Retrieval",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:49.311Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on deep multi-view hashing for image retrieval and contains no content related to emotion, affective computing, or psychological emotion modeling.",
+      "evidence": [
+        "Concepts include Hamming space, hash function, image retrieval, and pattern recognition (psychology) — the latter refers to perceptual/cognitive pattern recognition, not emotional processing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4bec8bebc6f65a833a05d23592e41fa69315ee392122db0cf233dd5871cf5f23": {
+    "paper_id": "https://openalex.org/W4246500046",
+    "title": "An energy-aware fault tolerant scheduling framework for soft error resilient cloud computing systems",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:49.329Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on fault tolerance, energy-aware scheduling, and soft error resilience in cloud computing systems, with no conceptual, methodological, or empirical connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: ['Computer science', 'Cloud computing', 'Fault tolerance', 'Energy consumption'] — zero overlap"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ae5cfd8ade3bc48f592e8c8c9d8f2e6d17ad0b62f9916be13a9e06266cd47ee9": {
+    "paper_id": "https://openalex.org/W4317940018",
+    "title": "CoBigICP: Robust and Precise Point Set Registration using Correntropy Metrics and Bidirectional Correspondence",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:49.330Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical computer vision/robotics method for point cloud registration with no conceptual, methodological, or application-level connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract focus exclusively on ICP variants, correntropy-based noise modeling, and geometric registration; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "afbaca2f742bc15c189de08cbf6844117b96ab52f097a5a6f8a45c9f4a362465": {
+    "paper_id": "https://openalex.org/W3125156236",
+    "title": "Individual differences in representational similarity of first and second languages in the bilingual brain",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:49.355Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on neural representation of bilingual language processing, with no mention or conceptual link to emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Interest topics are 'emotion'; paper concepts include 'Age of Acquisition', 'Neuroscience of multilingualism', 'Linguistics', but no emotion-related terms appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0f5a9c633000dda227da5ad178058fd8cdab881840cf03cdfd3e64d3160404e2": {
+    "paper_id": "https://openalex.org/W3014301534",
+    "title": "Attention-based Multi-modal Fusion Network for Semantic Scene Completion",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:49.378Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on semantic scene completion using multi-modal deep learning for 3D computer vision; no connection to emotion, affective computing, or psychological affect is present in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Concepts include 'Computer science', 'Artificial intelligence', 'Segmentation', 'Convolutional neural network'; no emotion-related terms appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d6bd903556f9a3257c1ac72d7aeb682197203f181c83730c6dbd071abdee8837": {
+    "paper_id": "https://openalex.org/W4307782668",
+    "title": "3D-OAE: Occlusion Auto-Encoders for Self-Supervised Learning on Point Clouds",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:49.455Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on self-supervised learning for point cloud representation using occlusion-based auto-encoding; no mention of emotion, affect, sentiment, or any psychological/behavioral constructs related to affective science.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical (e.g., 'point cloud', 'Transformer', 'inpainting', 'self-supervised learning')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "574420a08b9d944bbf8e8e65cad361ff5da31c30bc285a18bd1a91c874dc0cfd": {
+    "paper_id": "https://openalex.org/W4406191653",
+    "title": "Rethinking Adversarial Attacks in Reinforcement Learning from Policy Distribution Perspective",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:49.469Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on adversarial attacks in reinforcement learning using policy distribution metrics; no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: 'Adversarial system', 'Reinforcement learning', 'Distribution (mathematics)', 'Computer security' — all technical/CS-oriented, no affective/emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "dec0a1c5a1eb1c50bf320af43cf8fb7d4a5e5fc0f1fe4e168bad477d9e98232b": {
+    "paper_id": "https://openalex.org/W4366733669",
+    "title": "High-Fidelity and Freely Controllable Talking Head Video Generation",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:50.963Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper addresses controllable facial expression synthesis in talking head generation, which directly engages emotion-related visual cues (e.g., expressions as behavioral manifestations of emotion); 'emotion' is explicitly listed as a researcher interest, and expression control is a core affective computing task.",
+      "evidence": [
+        "free control over head pose and expression",
+        "motion-aware multi-scale feature alignment module",
+        "3D face model-based landmarks to model the motion"
+      ],
+      "keywords": [
+        "facial expression",
+        "affective computing",
+        "talking head",
+        "emotion synthesis",
+        "controllable generation"
+      ],
+      "research_directions": [
+        "Affective AI",
+        "Emotion-aware computer vision",
+        "Expressive human-avatar interaction",
+        "Multimodal emotion generation"
+      ]
+    }
+  },
+  "48f6b84d90c80de4ea3bdbfcfe470e9a2afef5bb69434cb35a9ec060e5163ef2": {
+    "paper_id": "https://openalex.org/W4403386064",
+    "title": "Exploring the Mechanism of Action of Huoermai Essential Oil for Plateau Insomnia Based on the Camp/Creb/Bdnf/Gabaergic Pathway",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:51.541Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper investigates Huoermai essential oil's effect on plateau insomnia, a condition strongly linked to emotional dysregulation (e.g., anxiety, stress), and explicitly references neurobiological pathways (CREB/BDNF/GABAergic) implicated in emotion processing and mood regulation.",
+      "evidence": [
+        "Title mentions 'plateau insomnia', a stress- and emotion-sensitive disorder",
+        "Pathway includes CREB and BDNF—well-established molecular mediators of emotional learning and affective disorders",
+        "GABAergic signaling is central to anxiety and emotional inhibition"
+      ],
+      "keywords": [
+        "insomnia",
+        "emotion",
+        "CREB",
+        "BDNF",
+        "GABAergic",
+        "neuroscience",
+        "affective neuroscience"
+      ],
+      "research_directions": [
+        "neurobiological basis of emotion-related sleep disorders",
+        "phytotherapeutic modulation of affective pathways",
+        "translational emotion research in high-altitude medicine"
+      ]
+    }
+  },
+  "49eee730ec40117cd24db44de7f7c93a487f3da4c3c6857aaf2ce5aefb82df66": {
+    "paper_id": "https://openalex.org/W2101935482",
+    "title": "A level-set method for skinning animated particle data",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:51.897Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is about geometric surface reconstruction from particle data using level-set optimization; no mention or conceptual link to emotion, affective computing, or psychological/behavioral modeling.",
+      "evidence": [
+        "Abstract and concepts focus exclusively on computer graphics, animation, skinning, and fluid simulation."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "95f1b142898f5baf44412d29819ed4ff182d531b5b742897b4a2bfb15f4b4113": {
+    "paper_id": "https://openalex.org/W2013700274",
+    "title": "Using explicit output comparisons for fault tolerant scheduling (FTS) on modern high-performance processors",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:51.973Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on fault-tolerant scheduling and hardware/software error detection in high-performance computing, with no conceptual or lexical connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract concern computer architecture, scheduling, and fault tolerance; 'emotion' does not appear and is semantically unrelated."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "82e7b68e790ac7c13193853dc94ce472186df89a9d8dc06be320fce338dea297": {
+    "paper_id": "https://openalex.org/W4254223013",
+    "title": "Video Summarization by Redundancy Removing and Content Ranking",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T20:50:52.020Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical video summarization methods (redundancy removal, content ranking, parsing) with no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all concepts are computer vision/information retrieval focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

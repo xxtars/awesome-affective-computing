@@ -26289,5 +26289,401 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "299d299d6e39a71c0da094d37ee2c0d42dd912721d74d16360b399ea4c2065e7": {
+    "paper_id": "https://openalex.org/W2792085542",
+    "title": "Broad learning system: Structural extensions on single-layer and multi-layer neural networks",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:19.627Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on structural and algorithmic extensions of neural networks for efficient classification, with no mention of emotion, affective computing, or related psychological or behavioral constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical ML/AI topics"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e19087deb1accbd116ae39dd86fdc2c3f98a9598c02f47ba5b75b64337a4c9b8": {
+    "paper_id": "https://openalex.org/W4224935990",
+    "title": "Broad Recommender System: An Efficient Nonlinear Collaborative Filtering Approach",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:19.645Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on collaborative filtering and recommender systems using Broad Learning System; no mention of emotion, affect, sentiment, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical ML/systems-oriented."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2328956073091612c54e74dbe0940c6733bdd82a252836b5586a1d1d75184163": {
+    "paper_id": "https://openalex.org/W4232408620",
+    "title": "Dynamics of a coupled double-cavity optical interference filter",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:19.699Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is in optical physics and signal processing; 'emotion' in the researcher's interests is unrelated to the technical content.",
+      "evidence": [
+        "Abstract discusses laser pulses, optical filters, and interference—no mention of affective science, psychology, or emotion modeling."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cf36b42211bedb51004e4c3e00748aa926d1c815fcc1ec1e71fe5af4e598e3c2": {
+    "paper_id": "https://openalex.org/W4288797369",
+    "title": "Geometry-Aware Generation of Adversarial Point Clouds",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:19.721Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on adversarial attacks on 3D point clouds using geometry-aware optimization; no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain no emotion-related terms or constructs"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6e5748dc514c91a7b753ae0587d0903193c0b4257d6ec0d648a52327b9e34c1c": {
+    "paper_id": "https://openalex.org/W3157234261",
+    "title": "Image guided Fuzzy C-means for image segmentation",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:19.746Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on image segmentation using a modified Fuzzy C-means algorithm with guided filtering; no mention of emotion, affective computing, or psychological/emotional processes.",
+      "evidence": [
+        "Abstract and concepts are exclusively technical/computer vision-oriented, with no emotional or affective terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "010828300befad73aeff1ff7b0b69a6c11ce4bad088ae6289603b8c31be1aaf9": {
+    "paper_id": "https://openalex.org/W4386053361",
+    "title": "Robust Temporal Link Prediction in Dynamic Complex Networks via Stable Gated Networks with Reinforcement Learning",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:19.758Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on temporal link prediction in dynamic networks using gated networks and reinforcement learning, with no mention or conceptual connection to emotion, affective computing, or human affective states.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical ML/networks/AI"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "32155aa7bd767b3e6b8f50e54f9104f8632ea58fd1b13d2df9c167947d54c250": {
+    "paper_id": "https://openalex.org/W4392867478",
+    "title": "Desigen: A Pipeline for Controllable Design Template Generation",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:19.784Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on controllable design template generation using diffusion models and Transformers, with no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are 'Pipeline (software)', 'Computer science', 'Programming language'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c7c3233de46990836246468a08420095cee761e583d25f4a88f8f3558a32abb6": {
+    "paper_id": "https://openalex.org/W4406213765",
+    "title": "Minimum Variance Weighted Broad Cascade Network Structure for Imbalanced Classification",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:19.791Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on imbalanced classification and network architecture optimization; no mention or conceptual link to emotion or affective science.",
+      "evidence": [
+        "Concepts include weighting, hyperplane, cascade, data mining — all technical ML/computer science terms with no affective/emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2f9aeb83e904e11981ab63eeddb4351b76cc9b1915b0d81ebf57c59e61531844": {
+    "paper_id": "https://openalex.org/W4378499187",
+    "title": "High-Similarity-Pass Attention for Single Image Super-Resolution",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:19.792Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on attention mechanisms for image super-resolution, with no connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract pertain to computer vision, deep learning, and signal processing; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ba97f6b47dcb40f61b3639a554a04eda7ea64fe8709392d3e569327bd80311fd": {
+    "paper_id": "https://openalex.org/W4390041336",
+    "title": "AI-Based Energy Transportation Safety: Pipeline Radial Threat Estimation Using Intelligent Sensing System",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:19.805Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on AI-based pipeline threat detection using optical fiber sensing and deep learning; no mention of emotion, affective computing, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are in safety-critical infrastructure monitoring and signal processing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e824e80a77be4a2932a9b1715febf3c247fa261888adaaa40d4f4704c9d6f65f": {
+    "paper_id": "https://openalex.org/W4396243915",
+    "title": "Spatial-frequency Dual-Domain Feature Fusion Network for Low-Light Remote Sensing Image Enhancement",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:19.817Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on low-light image enhancement for remote sensing using dual-domain (spatial and frequency) feature fusion; no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical/computer vision-focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2dd91f9a97f2b05e7ec19414f2791d77f7af9f0f1c5afcc212901dff7b4d9020": {
+    "paper_id": "https://openalex.org/W2971547961",
+    "title": "Multi Pseudo Q-learning Based Deterministic Policy Gradient for Tracking Control of Autonomous Underwater Vehicles",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:19.823Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on reinforcement learning for autonomous underwater vehicle control and contains no emotion-related content, despite the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "All concepts and the abstract pertain to control theory, RL algorithms, and robotics; no mention of affect, emotion, sentiment, or human factors."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "25d5677ab5da5c5ffeb9db23e6bafc0204f86cb22a8e093b0a0e8ddb04b3a399": {
+    "paper_id": "https://openalex.org/W4396819413",
+    "title": "FDCE-Net: Underwater Image Enhancement with Embedding Frequency and Dual Color Encoder",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:19.844Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on underwater image enhancement using frequency-domain and color-encoding techniques in computer vision; no connection to emotion, affective computing, or psychological/behavioral aspects of emotion is present.",
+      "evidence": [
+        "Abstract contains no mention of emotion, affect, sentiment, perception, cognition, or human response."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "80ea98bdc5220a20b100351251538ffd8ba612634e82f8ed54b9e2378f9f7bd7": {
+    "paper_id": "https://openalex.org/W7117988839",
+    "title": "MiMo-Audio: Audio Language Models are Few-Shot Learners",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:19.850Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on audio language models, few-shot learning, and speech/audio understanding/generation; 'emotion' is not mentioned in title, abstract, concepts, or implied by any technical content.",
+      "evidence": [
+        "Abstract contains no mention of emotion, affect, sentiment, or related psychological/linguistic constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d1e04e17c67be8edcd98b2dc8ee573e13f20c54536788c8df3dcf6144db07ae4": {
+    "paper_id": "https://openalex.org/W4226496732",
+    "title": "A Survey on Masked Facial Detection Methods and Datasets for Fighting Against COVID-19",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:19.876Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on masked facial detection for public health/safety during COVID-19, not emotion recognition or affective computing.",
+      "evidence": [
+        "Abstract explicitly states focus on 'masked facial detection', datasets, and AI methods for safety monitoring — no mention of emotion, affect, expression, sentiment, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "dd85fe8fd276d35ee93503a98be8d1e0f5ce407f5308aaea3282092f453ab47d": {
+    "paper_id": "https://openalex.org/W2946027549",
+    "title": "3DViewGraph: Learning Global Features for 3D Shapes from A Graph of Unordered Views with Attention",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:19.951Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on 3D shape analysis using graph-based view aggregation and attention mechanisms; no content relates to emotion, affective computing, or psychological affect.",
+      "evidence": [
+        "Concepts include 'Graph', 'Pooling', 'Pattern recognition (psychology)' — but the latter refers to perceptual pattern recognition, not emotional processing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8d4fdb8ad97f59bfb2908a3209fd61e747f37b815230bc07589dfa16077aee73": {
+    "paper_id": "https://openalex.org/W4408055138",
+    "title": "Adaptive Fuzzy Predefined Performance Control for Nonlinear Switched Interconnected Systems with Full-State Constraints and Actuator Faults",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:20.022Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on control theory, fuzzy logic, and fault-tolerant systems for nonlinear switched interconnected systems; no conceptual or methodological link to emotion or affective science is evident from metadata.",
+      "evidence": [
+        "Concepts include Control theory, Nonlinear system, Fuzzy logic, Actuator — all technical engineering topics with no affective/emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8e88bc38a8936dc61bcb52076b466b755b8b22fa29122e9bb2b60ac36a38af6b": {
+    "paper_id": "https://openalex.org/W3140431358",
+    "title": "Optimization of Sensor Locations and Sensitivity Analysis for Engine Health Monitoring Using Minimum Interference Algorithms",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:20.056Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sensor placement optimization and interference minimization in wireless sensor networks for engine health monitoring, with no mention or conceptual link to emotion, affective computing, or human emotional states.",
+      "evidence": [
+        "Abstract and concepts contain only engineering, control systems, and wireless communication terms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "79010f402bff28207175defd11f4340ce3a19d5462892105dc0a127c936fcdee": {
+    "paper_id": "https://openalex.org/W4366982272",
+    "title": "SAGE-GCN: Graph Convolutional Network Based on Self-adaptive Stable Gates for Link Prediction in Dynamic Complex Networks",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:20.076Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on graph neural networks and dynamic link prediction in complex networks, with no mention of emotion, affective computing, or related psychological, behavioral, or human-centered constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are technical/computational (e.g., adjacency matrix, GCN, stability, adversarial attacks)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a282c64ef65a78c1902cb00a31b970cf3ac41569ef71adadf1d72f4abd1e48ec": {
+    "paper_id": "https://openalex.org/W4388268457",
+    "title": "Multi-innovation-based online variable projection algorithm for a class of nonlinear models",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:20.158Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on numerical algorithms for nonlinear system identification and has no conceptual, methodological, or applied connection to emotion or affective science.",
+      "evidence": [
+        "Abstract contains no mention of emotion, affect, psychology, neuroscience, human behavior, or related domains; all concepts are mathematical/computational (e.g., 'variable projection', 'convergence', 'nonlinear system')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6373a9381f4aff22d2fcc990443d0122ce16457db3e194dbf1e009ec9c7d0c5f": {
+    "paper_id": "https://openalex.org/W3112756534",
+    "title": "Towards Uncovering the Intrinsic Data Structures for Unsupervised Domain Adaptation using Structurally Regularized Deep Clustering",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:20.166Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unsupervised domain adaptation, deep clustering, and structural regularization in computer vision tasks; no mention or conceptual link to emotion, affective computing, or psychological affective processes.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes 'Pattern recognition (psychology)' but this refers to perceptual/cognitive pattern recognition, not affective psychology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "02757f1bb7a350ef48ce5f49d0ae9f359532368f33a0e183610cc867ae8ec04e": {
+    "paper_id": "https://openalex.org/W4381300940",
+    "title": "Refining One-Class Representation: A Unified Transformer for Unsupervised Time-Series Anomaly Detection",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T20:25:20.187Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unsupervised time-series anomaly detection using transformers; no connection to emotion or affective science is indicated in title, venue, concepts, or metadata.",
+      "evidence": [
+        "Concepts include 'Anomaly detection', 'Transformer', and 'Pattern recognition (psychology)' — but the latter is a disambiguated term referring to cognitive psychology, not affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

@@ -7037,5 +7037,692 @@
         "psychology of art perception"
       ]
     }
+  },
+  "dda33fde787622ad29f1f2fb01a6731cd2d27502271bed4f3c83634256ee994f": {
+    "paper_id": "https://openalex.org/W4386556277",
+    "title": "Leveraging ASR Pretrained Conformers for Speaker Verification through Transfer Learning and Knowledge Distillation",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:29.740Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speaker verification and ASR model transfer, with no mention of emotion, affect, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical speech/AI engineering focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a245bfc203cd04f5c60e3e78285b73eab990f61c6b99f8dfa4ab4926e3541159": {
+    "paper_id": "https://openalex.org/W2955117875",
+    "title": "The DKU System for the Speaker Recognition Task of the 2019 VOiCES from a Distance Challenge",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:29.745Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speaker recognition using deep learning and signal processing techniques, with no mention of emotion, affect, or related psychological or behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively cover speaker verification, softmax loss, cosine similarity, and far-field speech processing"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "78bb582ce2bbf52a2b6027f717a39af671f52280bc1a976dc84d44490fde4a99": {
+    "paper_id": "https://openalex.org/W2954526560",
+    "title": "The DKU Replay Detection System for the ASVspoof 2019 Challenge: On Data Augmentation, Feature Representation, Classification, and Fusion",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:29.774Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on replay spoofing detection in speaker recognition, with no connection to emotion or affective science.",
+      "evidence": [
+        "Interest topic is 'emotion', but paper concepts and abstract exclusively address anti-spoofing, feature representation, and classification in speech security."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0d4c7942d6e204c1b6c2dbccf777df422869c70d0df53840b5f9e8d873065a55": {
+    "paper_id": "https://openalex.org/W3026574827",
+    "title": "Acoustic Word Embedding System for Code-Switching Query-by-example Spoken Term Detection",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:29.838Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on acoustic word embeddings and code-switching spoken term detection in speech recognition; no mention of emotion, affective computing, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, or human emotional states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "914f24d3c72e477b454b0362b58898d29ecde45c856c2bb1396370030c7f434e": {
+    "paper_id": "https://openalex.org/W2993443210",
+    "title": "HI-MIA : A Far-field Text-Dependent Speaker Verification Database and the Baselines",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:29.876Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speaker verification, microphone arrays, and database construction for far-field speech processing; no mention of emotion, affect, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all concepts are technical and signal-processing oriented."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "58cca2756461bf3089cda116d06791c29017a76e703eb841d1a917b3c622f753": {
+    "paper_id": "https://openalex.org/W2915073473",
+    "title": "Utterance-level end-to-end language identification using attention-based CNN-BLSTM",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:29.880Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on language identification using deep learning architectures for speech processing, with no mention of emotion, affect, sentiment, or related psychological or behavioral constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; all concepts are technical and centered on speech recognition and neural network architecture."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "34b47dcd9b699a6ee5720956fc4b520ab351dcbfd1da6c80edc7f2b1095f04f1": {
+    "paper_id": "https://openalex.org/W2974604594",
+    "title": "Two Birds, One Stone: A Simple, Unified Model for Text Generation from Structured and Unstructured Data",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:29.898Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on text generation from structured and unstructured data using seq2seq models; no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all listed concepts are technical NLP/systems topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "270cc79af41c9710e2ba4de3a5dd23781a21344ec6cf367ae3f40a7f784b86e2": {
+    "paper_id": "https://openalex.org/W4295680114",
+    "title": "The 2022 Far-field Speaker Verification Challenge: Exploring domain mismatch and semi-supervised learning under the far-field scenario",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:29.911Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on far-field speaker verification, domain mismatch, and semi-supervised learning in speech processing; no mention of emotion, affect, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, or human emotional states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4ab42256d4e40f12f7242e0039fbd83c120331589291323ff5a16cdcf6de6499": {
+    "paper_id": "https://openalex.org/W4387076232",
+    "title": "BiSinger: Bilingual Singing Voice Synthesis",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:29.930Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on bilingual singing voice synthesis and technical aspects of speech/singing modeling, with no mention of emotion, affective states, or emotional expression in singing.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, expressivity, or prosody beyond linguistic/phonetic representation."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "438bb4436cbee89b20350c6c39542e7090f636a8a604a3310c168bb665ac4478": {
+    "paper_id": "https://openalex.org/W3010474325",
+    "title": "Sams-Net: A Sliced Attention-based Neural Network for Music Source Separation",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:29.961Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on music source separation using attention-based neural networks and spectrogram analysis, with no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical signal processing/AI methods."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a13e491823b46900548fdc95f52498e8799e06f8e5b8c306c4d7a2e375200379": {
+    "paper_id": "https://openalex.org/W3003582230",
+    "title": "Within-sample variability-invariant loss for robust speaker recognition under noisy environments",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:29.962Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on robust speaker recognition under noise using invariant loss and embedding techniques, with no connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Speaker recognition', 'Utterance', 'Embedding', 'Invariant (physics)' — none relate to emotion or affective states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6621e912caaf3891ca5d4213aaca60a77715e53252f887d0f0c05a871eaff183": {
+    "paper_id": "https://openalex.org/W4294429788",
+    "title": "Wiggle: Physical Challenge-Response Verification of Vehicle Platooning",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:29.965Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on physical-layer security and challenge-response protocols for vehicle platooning, with no mention or conceptual connection to emotion, affective computing, or human emotional states.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain only technical terms from computer science, automotive systems, and cybersecurity."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "917be11eeb5d20225bb9e41541a1aa1b982df793980e32993507fc54e9de2cdd": {
+    "paper_id": "https://openalex.org/W4399795611",
+    "title": "Enhancing Voice Wake-Up for Dysarthria: Mandarin Dysarthria Speech Corpus Release and Customized System Design",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:29.991Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speech recognition for dysarthria, with no mention of emotion, affective states, or related psychological/physiological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively center on dysarthria, Mandarin speech corpus, wake-up word spotting, and technical system design—no emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "fce66380039e7230798ff43dfabe80f45e7d7a06480d8bd9fc49f5fff5fd063d": {
+    "paper_id": "https://openalex.org/W3024527148",
+    "title": "Domain Aware Training for Far-field Small-footprint Keyword Spotting",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:29.999Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on keyword spotting under far-field acoustic conditions using domain adaptation techniques in deep learning; no mention of emotion, affect, sentiment, or any psychological/behavioral constructs related to emotion.",
+      "evidence": [
+        "Abstract and concepts contain only speech recognition, CNN, domain adaptation, and keyword spotting—no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f2a888b8c2ec31d9288a137bdfd4f4e018e02f93cfcece4ca5e65c29cbbf5d3d": {
+    "paper_id": "https://openalex.org/W3007483572",
+    "title": "DIHARD II is Still Hard: Experimental Results and Discussions from the DKU-LENOVO Team",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:29.999Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speaker diarisation techniques in speech processing, with no mention of emotion, affect, or related psychological or affective computing concepts.",
+      "evidence": [
+        "All concepts and methods described—VAD, segmentation, speaker embedding, clustering—are technical components of speech diarisation, not emotion modeling or analysis."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "458002db977d7cacbd6f2f6989f91d503f560a3e0dc53545845fd87275d50e3a": {
+    "paper_id": "https://openalex.org/W2806010980",
+    "title": "Analysis of Length Normalization in End-to-End Speaker Verification System",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:30.016Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on technical aspects of speaker verification, specifically length normalization in deep neural networks, with no mention or conceptual link to emotion, affect, or psychological/behavioral dimensions of emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all concepts are in speech processing, AI, and signal normalization."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "60d774e52a07c1282ef789c1831a07dca5de3b24560e8377cdba6941f942fc4e": {
+    "paper_id": "https://openalex.org/W4293265156",
+    "title": "SIG-VC: A Speaker Information Guided Zero-shot Voice Conversion System for Both Human Beings and Machines",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:30.042Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical aspects of zero-shot voice conversion, speaker disentanglement, and spoofing speaker verification systems; no mention of emotion, affective states, or psychological/behavioral emotion modeling.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are exclusively in speech processing, security, and signal representation."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "569a563b34f7040128ff0f22a50eeedd7af4519f581c701f7522297f7bf25dd4": {
+    "paper_id": "https://openalex.org/W4386977406",
+    "title": "Semi-supervised News Discourse Profiling with Contrastive Learning",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:30.043Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on news discourse profiling and structural sentence categorization using contrastive learning; no mention of emotion, affect, sentiment, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract and concepts emphasize event structure, discourse profiling, and semi-supervised NLP—no emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5698e1a635ea36ed5f9e54df8613d17b036c20870b276db6205c40dd79d63286": {
+    "paper_id": "https://openalex.org/W3097276302",
+    "title": "An iterative framework for self-supervised deep speaker representation learning",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:30.053Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on self-supervised speaker representation learning and verification, with no mention of emotion, affect, or related psychological or behavioral constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, or prosody; concepts are strictly technical (e.g., embedding, contrastive loss, speaker verification)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "48dc8fe61bb3e053f5c57f8a11d33e3e8973d8e4e0e530c5c1824b7cbc7e7c2b": {
+    "paper_id": "https://openalex.org/W2953896208",
+    "title": "The DKU-SMIIP System for NIST 2018 Speaker Recognition Evaluation",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:30.066Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on speaker recognition technology and does not address emotion, affective computing, or any emotion-related signal processing or modeling.",
+      "evidence": [
+        "All concepts and the abstract pertain to speaker verification, embeddings, and backend modeling—no mention of emotion, affect, sentiment, or related psychological or paralinguistic phenomena."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0aee7781eee4016dcbbea957119f8ce987dfcff3cb57907c91d58acf2279a8e9": {
+    "paper_id": "https://openalex.org/W4309129407",
+    "title": "Low Pass Filtering and Bandwidth Extension for Robust Anti-spoofing Countermeasure Against Codec Variabilities",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:30.073Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical signal processing and anti-spoofing countermeasures in speaker verification, with no mention of emotion, affect, psychological states, or human affective behavior.",
+      "evidence": [
+        "All concepts and the abstract center on codec robustness, bandwidth extension, and spoofing detection—not emotion or affective computing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5a89eb786ccc3b4986da4d19aa8b940232a124e0e3c93234802b16645d8eecf7": {
+    "paper_id": "https://openalex.org/W4285483971",
+    "title": "Cross-Age Speaker Verification: Learning Age-Invariant Speaker Embeddings",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:30.080Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speaker verification and age-invariant representation learning, with no conceptual, methodological, or empirical connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and methods are in speech processing, biometrics, and adversarial representation learning; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "36be5fde54350d7b9465450e8bf4b58faf8f9830a75ef37c7a70924a34ae3960": {
+    "paper_id": "https://openalex.org/W4300427568",
+    "title": "Simple Attention Module based Speaker Verification with Iterative noisy label detection",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:30.100Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speaker verification, attention modules, and noisy label detection in deep learning—none of which relate to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Speaker verification', 'Convolutional neural network', 'Speech recognition'; no emotion-related concepts or terminology appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d6adbba52477b3f24ed3b94ba69a347246d4a5a10387d474e757b5621c923d47": {
+    "paper_id": "https://openalex.org/W4311997217",
+    "title": "Source Tracing: Detecting Voice Spoofing",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:30.104Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on voice spoofing detection and classification of technical pipeline attributes, with no mention or conceptual link to emotion, affective computing, or human emotional states.",
+      "evidence": [
+        "Concepts include 'Spoofing attack', 'Speech synthesis', 'Speech recognition'; no emotion-related terms appear in title, concepts, or abstract."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "be4036741e16674308d7388535cbcd97e678f21c32499a0603ffe5f020479e0c": {
+    "paper_id": "https://openalex.org/W3147595712",
+    "title": "Binary Neural Network for Speaker Verification",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:30.124Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computational efficiency techniques for speaker verification using binary neural networks, with no mention of emotion, affect, or related psychological or behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively address neural network optimization, quantization, pruning, and speaker verification performance metrics (e.g., EER) — no emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "00e83d8cb60bbefea37501af78b65b77462c57c08b6a1dd388174113612c31e0": {
+    "paper_id": "https://openalex.org/W4283328464",
+    "title": "Identifying Source Speakers for Voice Conversion based Spoofing Attacks on Speaker Verification Systems",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:30.139Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speaker identity, spoofing attacks, and voice conversion in speaker verification—no mention or conceptual link to emotion, affective computing, or emotional states.",
+      "evidence": [
+        "All concepts and the abstract center on speaker identity, spoofing, and speech signal manipulation; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "aae43de9ba16e232d5a8648648eb16387ff8d6dd61f9ccc37fb4ff46128c3f3d": {
+    "paper_id": "https://openalex.org/W4320085706",
+    "title": "The DKU-OPPO System for the 2022 Spoofing-Aware Speaker Verification Challenge",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:30.237Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speaker verification and spoofing countermeasures in speech processing, with no mention or conceptual link to emotion or affective computing.",
+      "evidence": [
+        "Concepts include 'Spoofing attack', 'Speaker verification', 'Embedding', 'Confusion'; no emotion-related terms appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "45480bc639c6195485cc3627159ecbecd025d8d80404b52694ecebd53b38a2c9": {
+    "paper_id": "https://openalex.org/W4285483798",
+    "title": "Online Target Speaker Voice Activity Detection for Speaker Diarization",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:30.273Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical aspects of speaker diarization and voice activity detection, with no mention or conceptual link to emotion, affect, or psychological states.",
+      "evidence": [
+        "Concepts include 'Speaker diarisation', 'Speech recognition', 'Embedding', 'Voice activity detection' — all signal-processing and machine learning topics; abstract contains no emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cd07cf478a7e2970d77748dcd94c0ae09c9224f706837eb6b84f451627bc732b": {
+    "paper_id": "https://openalex.org/W2889759593",
+    "title": "End-to-end Language Identification using NetFV and NetVLAD",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:30.289Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on language identification using neural encoding techniques and has no conceptual, methodological, or empirical connection to emotion or affective science.",
+      "evidence": [
+        "Interest topic is 'emotion'; paper concepts include 'Computer science', 'Pooling', 'Feature vector', 'NIST', with no mention of emotion, affect, sentiment, or related psychological or computational affective constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b1216996495cb2249e1a7ded97bef3dd87e70f2e6e9204a6213aa7666fad2de2": {
+    "paper_id": "https://openalex.org/W4387892042",
+    "title": "HSVRS: A Virtual Reality System of the Hide-and-Seek Game to Enhance Gaze Fixation Ability for Autistic Children",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:32.713Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper addresses emotion-related social communication deficits in autism, using personalized avatars (with face/voice manipulation) to increase emotional engagement and social attention—core affective processes. Though 'emotion' is not explicitly named in concepts or abstract, avatar personalization to resemble parents targets attachment and emotional familiarity, and gaze fixation in social contexts is tightly coupled with affective processing.",
+      "evidence": [
+        "Avatar customization to resemble parents (emotional familiarity/attachment cue)",
+        "Targeting social interaction deficits in ASD via gaze during human-like virtual interaction",
+        "Use of subjective parent questionnaires assessing behavioral/emotional responses"
+      ],
+      "keywords": [
+        "emotion",
+        "social attention",
+        "affective engagement",
+        "avatar personalization",
+        "autism",
+        "gaze fixation"
+      ],
+      "research_directions": [
+        "Affective computing in VR interventions",
+        "Emotionally adaptive interfaces for neurodevelopmental disorders",
+        "Gaze-mediated emotion recognition training",
+        "Parent-resembling avatars for therapeutic rapport"
+      ]
+    }
+  },
+  "991193e06a9354e189eda3acc9f26d43fa6494a4397f497be055a5da905be8e9": {
+    "paper_id": "https://openalex.org/W4387696373",
+    "title": "Assessing Joint Engagement Between Children With Autism Spectrum Disorder and Their Parents During The Home Intervention Sessions From the Expressive Language Aspect",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:32.750Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper assesses joint engagement—a construct deeply tied to emotional reciprocity and affective interaction—between children with ASD and their parents during home interventions, with explicit focus on expressive language as a behavioral proxy for emotional and social engagement.",
+      "evidence": [
+        "Evaluates Joint Engagement Rating Inventory (JERI), which measures mutual attention and affective coordination",
+        "Analyzes multimodal behavioral signals (audio-visual) to infer expressive language level, a key indicator of socio-emotional communication",
+        "Targets real-world parent-child interactions where emotion regulation, shared affect, and responsiveness are central"
+      ],
+      "keywords": [
+        "joint engagement",
+        "expressive language",
+        "affective interaction",
+        "parent-child dyad",
+        "autism spectrum disorder",
+        "behavioral signal processing"
+      ],
+      "research_directions": [
+        "Affective computing for clinical behavioral assessment",
+        "Automated emotion- and engagement-sensitive feedback in caregiver training",
+        "Multimodal modeling of socio-affective dynamics in developmental disorders"
+      ]
+    }
+  },
+  "88a1938ea0faebdce69717acab21a8dee4664feb37d27a8973fb48e9449f17d9": {
+    "paper_id": "https://openalex.org/W3021681208",
+    "title": "From Speaker Verification to Multispeaker Speech Synthesis, Deep Transfer with Feedback Constraint",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:32.950Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper explicitly mentions 'emotion' as a speech attribute that remains challenging to control in text-to-speech systems, and positions emotion alongside speaker identity and prosody as core target attributes—directly aligning with the researcher's interest topic 'emotion'. Although emotion is not the primary technical focus (the main contribution is speaker identity cloning via feedback constraint), its inclusion as a key unsolved dimension in multispeaker synthesis establishes clear affective relevance.",
+      "evidence": [
+        "accessing and controlling speech attributes such as speaker identity, prosody, and emotion in a text-to-speech system remains a challenge",
+        "This paper presents a system involving feedback constraint for multispeaker speech synthesis"
+      ],
+      "keywords": [
+        "emotion",
+        "prosody",
+        "speech synthesis",
+        "affective speech",
+        "text-to-speech"
+      ],
+      "research_directions": [
+        "Affective speech synthesis",
+        "Emotion controllability in TTS",
+        "Cross-task transfer for emotional voice modeling",
+        "Multidimensional speech attribute disentanglement"
+      ]
+    }
+  },
+  "5f6cd60f8945c7b1100e31f96f5fa972e64711bc10a29aa5d67524096df26f21": {
+    "paper_id": "https://openalex.org/W2198375114",
+    "title": "The SYSU System for the Interspeech 2015 Automatic Speaker Verification Spoofing and Countermeasures Challenge",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:33.071Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speaker verification spoofing detection and countermeasures using acoustic, phase, and phonetic features; no mention of emotion, affect, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, mood, or human emotional states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5bafedc4d9bf60cd372e4b07a30a5fa8f63a29d718354cc8866ec59431813440": {
+    "paper_id": "https://openalex.org/W2795465146",
+    "title": "A Novel Learnable Dictionary Encoding Layer for End-to-End Language Identification",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:33.166Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on language identification using a novel dictionary encoding layer in end-to-end AI systems; no mention of emotion, affect, or psychological/behavioral aspects of emotion processing.",
+      "evidence": [
+        "Title and abstract exclusively address language identification, encoding layers, CNNs, and NIST LRE tasks—no emotion-related concepts or terminology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b8002d39f0023b3b198decbd7ef664e6ae5323aaa741740040d71035c77daa51": {
+    "paper_id": "https://openalex.org/W2796898542",
+    "title": "Exploring the Encoding Layer and Loss Function in End-to-End Speaker and Language Recognition System",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:33.223Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speaker and language recognition systems, with technical emphasis on encoding layers, pooling mechanisms, and loss functions—none of which relate to human emotion or affective computing.",
+      "evidence": [
+        "Concepts include 'Speech recognition', 'Softmax function', 'Pooling', 'End-to-end principle'; no emotion-related terms in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "607603fdb9bb516aa71041d65c7d956f7adb4e2efee38a0c6b81a3114bfc7495": {
+    "paper_id": "https://openalex.org/W2609296554",
+    "title": "SphereFace: Deep Hypersphere Embedding for Face Recognition",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T20:38:33.310Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on geometric deep learning for face recognition using hypersphere embedding and angular margin loss; no connection to emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Concepts include 'Hypersphere', 'Convolutional neural network', 'Pattern recognition (psychology)' — but the latter refers to perceptual/cognitive pattern recognition, not affective psychology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }
