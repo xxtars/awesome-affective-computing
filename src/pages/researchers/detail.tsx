@@ -92,6 +92,14 @@ function normalizeVenueName(name: string | null | undefined) {
 function formatInstitutionCountry(value: string | null) {
   const raw = String(value || '').trim();
   if (!raw) return '-';
+  const alias: Record<string, string> = {
+    中国: 'China',
+    中华人民共和国: 'China',
+    英国: 'United Kingdom',
+    新西兰: 'New Zealand',
+    美国: 'United States',
+  };
+  if (alias[raw]) return alias[raw];
   if (/^[A-Za-z]{2}$/.test(raw)) {
     try {
       const display = new Intl.DisplayNames(['en'], {type: 'region'});

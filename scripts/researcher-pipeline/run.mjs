@@ -126,6 +126,22 @@ function countryNameFromCode(code) {
   }
 }
 
+function normalizeCountryNameToEnglish(value) {
+  const raw = String(value || "").trim();
+  if (!raw) return null;
+  if (/^[A-Za-z]{2}$/.test(raw)) return countryNameFromCode(raw);
+
+  const alias = {
+    "中国": "China",
+    "中华人民共和国": "China",
+    "英国": "United Kingdom",
+    "新西兰": "New Zealand",
+    "美国": "United States",
+  };
+  if (alias[raw]) return alias[raw];
+  return raw;
+}
+
 async function lookupCountryByInstitutionName(institutionName) {
   const query = String(institutionName || "").trim();
   if (!query) return null;
@@ -144,8 +160,12 @@ async function lookupCountryByInstitutionName(institutionName) {
   if (!res.ok) return null;
   const payload = await res.json();
   const first = Array.isArray(payload) ? payload[0] : null;
+  const countryCode = first?.address?.country_code;
+  if (typeof countryCode === "string" && countryCode.trim()) {
+    return countryNameFromCode(countryCode);
+  }
   const country = first?.address?.country;
-  return typeof country === "string" && country.trim() ? country.trim() : null;
+  return normalizeCountryNameToEnglish(country);
 }
 
 async function resolveInstitutionCountryName({
@@ -156,7 +176,12 @@ async function resolveInstitutionCountryName({
   const key = normalizeInstitutionKey(institutionName);
   if (!key) return null;
   if (Object.prototype.hasOwnProperty.call(institutionCountryCache, key)) {
-    return institutionCountryCache[key] || null;
+    const normalizedCached = normalizeCountryNameToEnglish(institutionCountryCache[key]);
+    if (normalizedCached !== institutionCountryCache[key]) {
+      institutionCountryCache[key] = normalizedCached;
+      await saveJson(institutionCountryCachePath, institutionCountryCache);
+    }
+    return normalizedCached;
   }
 
   let resolved = null;
@@ -169,9 +194,9 @@ async function resolveInstitutionCountryName({
     resolved = null;
   }
 
-  institutionCountryCache[key] = resolved;
+  institutionCountryCache[key] = normalizeCountryNameToEnglish(resolved);
   await saveJson(institutionCountryCachePath, institutionCountryCache);
-  return resolved;
+  return institutionCountryCache[key];
 }
 
 async function fetchAuthorProfile(authorId) {
@@ -825,7 +850,7 @@ async function run() {
     });
     nextResearcherProfile.affiliation.last_known_institution = selectedInstitution;
     nextResearcherProfile.affiliation.last_known_country =
-      countryFromInstitution ||
+      normalizeCountryNameToEnglish(countryFromInstitution) ||
       countryNameFromCode(authorProfile.last_known_institutions?.[0]?.country_code) ||
       null;
 
