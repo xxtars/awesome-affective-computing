@@ -157,5 +157,342 @@
     ],
     "keywords": [],
     "research_directions": []
+  },
+  "0cd8353ee3e48c74d74f2cf842058b825a8a6be4a64ce2684a087a897382fa8f": {
+    "is_interesting": true,
+    "relevance_score": 0.92,
+    "confidence": 0.97,
+    "reason": "The paper directly addresses emotion-related challenges—specifically 'Emotional Ambiguity'—in the context of depression detection, aligning precisely with the researcher's interest in 'emotion'. It proposes a novel method (AFR) for recalibrating emotional features to disentangle transient emotions from stable affective states, demonstrating deep engagement with emotion representation, interpretation, and computational modeling.",
+    "evidence": [
+      "Introduces and formalizes 'Emotional Ambiguity' as a core problem in affective computing",
+      "Uses adaptive recalibration of emotional features to enhance depression-relevant signals",
+      "Explicitly distinguishes transient emotional expressions from stable depressive symptoms"
+    ],
+    "keywords": [
+      "emotion",
+      "emotional ambiguity",
+      "affective computing",
+      "feature recalibration",
+      "depression detection"
+    ],
+    "research_directions": [
+      "computational modeling of emotion",
+      "emotion-symptom disentanglement",
+      "audio-visual affect analysis",
+      "robust emotion representation"
+    ]
+  },
+  "31abff2f149db6da8d26ee3cc90c3dc9723b41cca6f0c5c5b03ef2564d0b9b71": {
+    "is_interesting": false,
+    "relevance_score": 0.1,
+    "confidence": 0.95,
+    "reason": "The paper focuses on photorealistic subject-driven image editing using diffusion models, with emphasis on disentangled control and attention mechanisms. None of the provided metadata (title, concepts, or abstract) mention emotion, affective computing, sentiment, facial expression, or any related psychological or affective constructs. Emotion is not inferable from the listed concepts such as 'Diffusion', 'Image editing', or 'Computer vision' in this context.",
+    "evidence": [
+      "Title contains no emotion-related terms",
+      "Concepts list includes no affective or psychological terms",
+      "Abstract is empty and provides no additional semantic clues"
+    ],
+    "keywords": [],
+    "research_directions": []
+  },
+  "7c5158d2707ace7ee1188726dfac0b0fa437fe08deac95d02e4e5574be804272": {
+    "is_interesting": true,
+    "relevance_score": 0.85,
+    "confidence": 0.92,
+    "reason": "The paper focuses on sentiment recognition—a core computational proxy for emotion—using multimodal (image-text) data in a semi-supervised setting, directly aligning with the researcher's interest in emotion. Sentiment analysis is widely used in affective computing to model emotional valence and intensity.",
+    "evidence": [
+      "Title contains 'Sentiment Recognition'",
+      "Concepts include 'Sentiment analysis' and 'Natural language processing'",
+      "Concept 'Pattern recognition (psychology)' suggests affective/behavioral relevance"
+    ],
+    "keywords": [
+      "sentiment analysis",
+      "emotion recognition",
+      "multimodal learning",
+      "semi-supervised learning"
+    ],
+    "research_directions": [
+      "affective computing",
+      "multimodal emotion understanding",
+      "weakly supervised affective modeling"
+    ]
+  },
+  "91ad64ae5b42d21bac7c6cc66aafe61a4b8c3a67da7571fb6a6ae2b25add7958": {
+    "is_interesting": false,
+    "relevance_score": 0.05,
+    "confidence": 0.95,
+    "reason": "The paper focuses on medical image segmentation using multi-scale cross-axis attention, with no indication of emotion-related content in title, venue, concepts, or available metadata. Emotion is not among the listed concepts, and the domain is computer vision/AI for medical imaging, which is orthogonal to affective computing or emotion analysis.",
+    "evidence": [
+      "Title mentions 'Medical Image Segmentation' and 'Multi-scale Cross-axis Attention'",
+      "Concepts list includes 'Computer vision', 'Image segmentation', 'Scale (ratio)' — no emotion-related terms",
+      "Abstract is empty, providing no counterevidence"
+    ],
+    "keywords": [],
+    "research_directions": []
+  },
+  "dd5f615e4b6728ba274d0f46d642631112121400f0d51177ea0b2a85094840d3": {
+    "is_interesting": false,
+    "relevance_score": 0.1,
+    "confidence": 0.95,
+    "reason": "The paper focuses on concealed dense prediction (CDP) in computer vision—specifically tasks involving occluded or camouflaged object detection and segmentation in domains like agriculture and industry. There is no mention of emotion, affective computing, sentiment analysis, human emotional states, or any related psychological, linguistic, or multimodal emotion modeling concepts in the title, abstract, or metadata.",
+    "evidence": [
+      "Title: 'Deep Learning in Concealed Dense Prediction'",
+      "Abstract emphasizes 'concealed targets', 'fine-grained representations', 'agriculture, industry', and 'CvpINST/CvpAgent' for visual perception",
+      "No emotion-related terms (e.g., affect, sentiment, arousal, valence, facial expression, emotion recognition) appear in the provided text"
+    ],
+    "keywords": [],
+    "research_directions": []
+  },
+  "1ea9a75cbcb6b74207bfdfc3a46d96b913a854d81bc50b5ac45793b4053347e7": {
+    "is_interesting": false,
+    "relevance_score": 0.05,
+    "confidence": 0.98,
+    "reason": "The paper focuses on stochastic lot-sizing, joint replenishment, and operations research heuristics—topics entirely unrelated to emotion or affective science. None of the concepts, abstract content, or metadata suggest any connection to emotional processes, sentiment analysis, affective computing, or human emotion modeling.",
+    "evidence": [
+      "Title mentions 'lot-sizing' and '(R, S) policy'",
+      "Concepts include 'Mathematical optimization', 'Operations research', 'Heuristic'",
+      "Abstract discusses 'safety stock', 'replenishment cycle', and 'LS-RS heuristic'"
+    ],
+    "keywords": [],
+    "research_directions": []
+  },
+  "b980b045618dbfd8edd829dd5ca21bbb7e09ccf6c663e22857b3ab830624a49f": {
+    "is_interesting": true,
+    "relevance_score": 0.92,
+    "confidence": 0.95,
+    "reason": "The paper's title explicitly references 'emotionally ... integrated digital humans and robotics', directly aligning with the researcher's interest in 'emotion'. The inclusion of Psychology and Cognitive science among the concepts further supports emotional processing as a core component.",
+    "evidence": [
+      "Title contains 'emotionally ... integrated'",
+      "Concepts include 'Psychology' and 'Cognitive science'",
+      "Focus on digital humans/robotics implies affective computing or emotion modeling"
+    ],
+    "keywords": [
+      "emotion",
+      "digital humans",
+      "affective computing",
+      "cognitive-emotional integration"
+    ],
+    "research_directions": [
+      "Affective human-robot interaction",
+      "Emotion modeling in AI agents",
+      "Psychologically grounded digital humans"
+    ]
+  },
+  "8a618851e18b61bc0e17a10d4882a47f74b553a48683e76ffbc6a3ff4733ecb4": {
+    "is_interesting": true,
+    "relevance_score": 0.85,
+    "confidence": 0.92,
+    "reason": "The paper focuses on sentiment analysis in Korean using multimodal (text and speech) features, which is closely related to emotion recognition—a core subfield of sentiment analysis. Emotion is a primary semantic dimension underlying sentiment, and multimodal approaches (especially incorporating speech prosody) are widely used for emotion detection.",
+    "evidence": [
+      "Title explicitly mentions 'Sentiment Analysis'",
+      "Incorporates speech modality—strongly associated with emotional expression",
+      "Published in IEEE Transactions on Multimedia, a venue covering affective computing and multimodal emotion/sentiment modeling"
+    ],
+    "keywords": [
+      "sentiment analysis",
+      "emotion recognition",
+      "multimodal learning",
+      "speech prosody",
+      "Korean language"
+    ],
+    "research_directions": [
+      "Affective multimodal fusion",
+      "Low-resource language emotion analysis",
+      "Cross-modal feature learning for affect"
+    ]
+  },
+  "7564e98576784f8f9f6f8fa4e998944ac3ad601dbce64673acdc8a28d7d7e6c1": {
+    "is_interesting": false,
+    "relevance_score": 0.05,
+    "confidence": 0.95,
+    "reason": "The paper focuses on image restoration using frequency-domain prompting and transformers, with no indication of emotion-related content in title, venue, or listed concepts; 'emotion' is absent from all provided metadata.",
+    "evidence": [
+      "Title contains no emotion-related terms",
+      "Concepts list includes only technical CS/vision terms (e.g., 'Transformer', 'Image restoration')",
+      "Venue ('Lecture notes in computer science') is general CS, not affective computing or psychology"
+    ],
+    "keywords": [],
+    "research_directions": []
+  },
+  "1fc8dae3f60c02e58166bb535799303d9f1b5d08e7ba10fb6cf81372d61dcd50": {
+    "is_interesting": true,
+    "relevance_score": 0.92,
+    "confidence": 0.95,
+    "reason": "The paper explicitly focuses on emotion distillation in the context of sticker response selection, directly aligning with the researcher's interest in 'emotion'. The title and concepts confirm integration of emotion modeling within AI/ML systems.",
+    "evidence": [
+      "Title contains 'Emotion Distillation'",
+      "Concepts include 'Cognitive psychology' and 'Psychology'",
+      "Task is emotion-aware response selection (sticker selection)"
+    ],
+    "keywords": [
+      "emotion",
+      "distillation",
+      "response selection",
+      "affective computing"
+    ],
+    "research_directions": [
+      "affective AI",
+      "emotion-aware dialogue systems",
+      "knowledge distillation for affective modeling"
+    ]
+  },
+  "d9867cb80047f85296ffcf1159229018282fb4b1694d3af1a5a63f93f796e4d6": {
+    "is_interesting": false,
+    "relevance_score": 0.05,
+    "confidence": 0.98,
+    "reason": "The paper focuses on geometric correspondence pruning, graph-based consistency mining, and feature matching in computer vision tasks; it contains no mention of emotion, affective computing, psychological emotion modeling, or related concepts.",
+    "evidence": [
+      "Title centers on 'Two-View Correspondence Pruning' and 'Neighbor Consistency Mining'",
+      "Abstract discusses spatial/feature consistency, k-nearest neighbors, outlier removal for geometry estimation",
+      "Concepts list includes 'Pattern recognition (psychology)' but only as a technical term in computer vision context—not emotional or affective pattern recognition"
+    ],
+    "keywords": [],
+    "research_directions": []
+  },
+  "7421f1362ef159eb2c72d517fef8282a3925404bad487da02cad79e7368d12c8": {
+    "is_interesting": true,
+    "relevance_score": 0.95,
+    "confidence": 0.98,
+    "reason": "The paper title explicitly references 'Image Emotion Detection', directly aligning with the researcher's interest in 'emotion'. The term 'Dimensional Emotion' indicates a fine-grained, continuous-valued emotion modeling approach—consistent with modern affective computing—and the context of 'low-resource dataset' and 'two-stage training' suggests methodological relevance to AI-driven emotion analysis.",
+    "evidence": [
+      "Title contains 'Image Emotion Detection'",
+      "Focus on 'Dimensional' emotion (valence-arousal or similar continuous models)",
+      "Published in IEEE Transactions on Cognitive and Developmental Systems—a venue covering affective and cognitive AI"
+    ],
+    "keywords": [
+      "emotion detection",
+      "dimensional emotion",
+      "image emotion",
+      "affective computing",
+      "low-resource learning"
+    ],
+    "research_directions": [
+      "Affective computer vision",
+      "Emotion representation learning",
+      "Efficient training for affective models"
+    ]
+  },
+  "832f71b41a05e272b0e40a25e004335e37ebf540866a3ba22dc2e3b0f36793a9": {
+    "is_interesting": false,
+    "relevance_score": 0.05,
+    "confidence": 0.95,
+    "reason": "The paper focuses on real-time semantic segmentation using image complexity priors and feature refinement; none of the provided metadata (title, concepts, or abstract) mention emotion, affective computing, psychological states, or related constructs. 'Pattern recognition (psychology)' in concepts is a misaligned term—here it likely refers to computer vision pattern recognition, not emotional perception.",
+    "evidence": [
+      "Title centers on semantic segmentation and feature refinement",
+      "Concepts list includes 'Image segmentation', 'Artificial intelligence', 'Computer science'—no emotion-related terms",
+      "Abstract is empty, providing no additional emotional context"
+    ],
+    "keywords": [],
+    "research_directions": []
+  },
+  "5fa18438360bdd5050ff0928d61f43496725ddf06b7624cef2789d73fbc9b606": {
+    "is_interesting": false,
+    "relevance_score": 0.1,
+    "confidence": 0.95,
+    "reason": "The paper focuses on image restoration using adaptive sparse transformers and attentive feature refinement, with no indication of emotion-related content in title, venue, concepts, or abstract. None of the listed concepts (e.g., computer vision, transformer, pattern recognition in psychology) pertain to emotion processing, affective computing, or psychological emotion modeling.",
+    "evidence": [
+      "Title mentions 'Image Restoration' and 'Transformer', not emotion",
+      "Concepts include 'Computer vision', 'Image restoration', 'Pattern recognition (psychology)' — the latter refers to perceptual pattern detection, not emotion",
+      "Abstract is empty, providing no counterevidence"
+    ],
+    "keywords": [],
+    "research_directions": []
+  },
+  "1e1889306785c8718963332c5a2598d455ed879a1bce3aa37a7e040ea7ffb955": {
+    "is_interesting": false,
+    "relevance_score": 0.1,
+    "confidence": 0.95,
+    "reason": "The paper's metadata contains no mention of emotion, affect, psychology, or related concepts; all listed concepts are mathematical, statistical, and computer vision–oriented (e.g., diffusion, extrapolation, distribution), with no semantic or contextual link to emotion research.",
+    "evidence": [
+      "Concepts list contains no emotion-related terms",
+      "Title focuses on video prediction via distribution extrapolation",
+      "Abstract is empty, providing no additional emotional or affective content"
+    ],
+    "keywords": [],
+    "research_directions": []
+  },
+  "b4fe984e218644a4570ca77a8cf229015de865bf83d79e4794ecc30db5ad2dd3": {
+    "is_interesting": false,
+    "relevance_score": 0.1,
+    "confidence": 0.95,
+    "reason": "The paper's title, concepts, and metadata show no explicit or implicit connection to emotion; all listed domains (diffusion models, computer vision, physics, thermodynamics) are unrelated to affective computing or emotional analysis.",
+    "evidence": [
+      "Title mentions 'camouflaged images' and 'latent background knowledge retrieval-augmented diffusion'",
+      "Concepts include 'Diffusion', 'Computer vision', 'Physics', 'Thermodynamics'",
+      "No emotion-related terms appear in title, concepts, or available metadata"
+    ],
+    "keywords": [],
+    "research_directions": []
+  },
+  "78f0040ea3252e8ba8bc366f1b17a2c82749176ed3a93820f7b03e027a9840a5": {
+    "is_interesting": true,
+    "relevance_score": 0.92,
+    "confidence": 0.95,
+    "reason": "The paper title explicitly includes 'Affective', a direct synonym for 'emotion' in affective computing and psychology, and the method (Masked Affective Representation Learning) targets emotion-related representation learning. The technique—Masked Temporal Distribution Distillation—suggests modeling temporal dynamics of affective states, aligning strongly with emotion research in AI.",
+    "evidence": [
+      "Title contains 'Masked Affective RepresenTation Learning'",
+      "'Affective' is a canonical term for emotion in computational affective science",
+      "Method name implies learning representations tied to emotional states over time"
+    ],
+    "keywords": [
+      "affective",
+      "emotion",
+      "representation learning",
+      "distillation",
+      "temporal dynamics"
+    ],
+    "research_directions": [
+      "affective computing",
+      "emotion representation learning",
+      "self-supervised learning for affect"
+    ]
+  },
+  "cbe6d0304d1d22cb338523a1bc773e3f36fcadb975e9cbb3a0fda1f1f0ca6b28": {
+    "is_interesting": false,
+    "relevance_score": 0.15,
+    "confidence": 0.92,
+    "reason": "The paper focuses on nighttime image flare removal using synthetic data and an adaptive focus module in computer vision; none of its core contributions, methods, or evaluated concepts relate to emotion, affective science, psychology of emotion, or emotion-related applications.",
+    "evidence": [
+      "Abstract centers on flare synthesis and optical artifact removal",
+      "Concepts list includes 'Psychology' only as a broad, non-specific tag—not linked to emotion",
+      "No mention of emotional states, sentiment, affective computing, or human emotion processing in title, abstract, or described methodology"
+    ],
+    "keywords": [],
+    "research_directions": []
+  },
+  "d75c90a965524b4b833d72652cc7cba0815c23c3ecf3ac7873c475ce5a3fce2d": {
+    "is_interesting": false,
+    "relevance_score": 0.05,
+    "confidence": 0.98,
+    "reason": "The paper focuses exclusively on image deblurring using polar-coordinate transformer architectures; there is no mention of emotion, affective computing, psychological states, sentiment, or any related concepts in the title, abstract, or listed concepts.",
+    "evidence": [
+      "Title: 'Spread Your Wings: A Radial Strip Transformer for Image Deblurring'",
+      "Abstract centers on motion modeling (translation/rotation) for blur restoration",
+      "Concepts list includes only computer vision and image processing terms — no emotion-related terms"
+    ],
+    "keywords": [],
+    "research_directions": []
+  },
+  "541dd2b6635769d6553d3727b3938f998816ae24df34f7dc72343e830ace445d": {
+    "is_interesting": true,
+    "relevance_score": 0.95,
+    "confidence": 0.98,
+    "reason": "The paper directly addresses emotion perception—specifically, recognizing human emotions from gait—using affective computing methods aligned with the researcher's interest in 'emotion'. It is published in IEEE Transactions on Affective Computing, a top-tier venue for emotion-related AI research, and explicitly models emotional state (posture stream) and emotional intensity (movement stream).",
+    "evidence": [
+      "Title explicitly links gait to emotion perception",
+      "Published in IEEE Transactions on Affective Computing (2024)",
+      "Abstract states 'recognize emotions from two views' and uses 'affective knowledge' and 'emotional state/intensity'"
+    ],
+    "keywords": [
+      "emotion recognition",
+      "affective computing",
+      "gait analysis",
+      "graph convolutional network"
+    ],
+    "research_directions": [
+      "emotion perception from non-verbal behavior",
+      "multimodal affective signal modeling",
+      "deep learning for affective states"
+    ]
   }
 }
