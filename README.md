@@ -43,6 +43,25 @@ Seed format:
 
 Seed can include multiple researchers and is designed for incremental expansion.
 
+### Data sources and priority
+
+- Seed fields:
+  - `name`: manual seed input
+  - `openalex_author_id`: manual seed input, primary ID for pipeline collection
+  - `orcid`: manual seed input (optional); if missing, may be inferred from OpenAlex author record at runtime
+  - `google_scholar`: manual seed input (optional)
+- Institution:
+  - Priority: ORCID affiliation -> Google Scholar profile affiliation -> OpenAlex first institution
+- Institution country:
+  - Priority: geocoding result from chosen institution name -> OpenAlex institution country code fallback
+- Directions / keywords:
+  - Source: AI-generated from title/abstract/concepts and affective-topic prompt
+  - Note: may contain errors, omissions, or interpretation bias
+- Venue:
+  - Priority: OpenAlex primary source -> DOI/Crossref resolution -> DOI prefix heuristic fallback
+- Author order on Papers page:
+  - Source: OpenAlex authorship order (`work.authorships`)
+
 ### Environment variables
 
 - `QWEN_API_KEY`: required unless using `--skip-ai`
@@ -105,7 +124,8 @@ node scripts/researcher-pipeline/run.mjs --full-refresh
 ### Affiliation rule
 
 - If `orcid` exists in seed and ORCID record is available, use ORCID affiliation first.
-- If ORCID is missing/unavailable, pipeline falls back to OpenAlex first institution.
+- If ORCID affiliation is missing, pipeline tries Google Scholar profile affiliation.
+- If Google Scholar is missing/unavailable, pipeline falls back to OpenAlex first institution.
 - Researcher country is resolved from institution name via geocoding and normalized to English country names.
 - This rule is practical but heuristic, and may not always be real-time or correct.
 

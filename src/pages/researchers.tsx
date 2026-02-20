@@ -57,6 +57,15 @@ function uniqueSorted(values: string[]) {
   return Array.from(new Set(values.filter(Boolean))).sort((a, b) => a.localeCompare(b));
 }
 
+function splitInstitutionNames(value: string | null | undefined) {
+  const raw = String(value || '').trim();
+  if (!raw) return [];
+  return raw
+    .split(/[;；]|\\s\\|\\s/g)
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
 function splitNameParts(fullName: string) {
   const parts = String(fullName || '')
     .trim()
@@ -117,7 +126,11 @@ export default function ResearchersPage(): ReactNode {
   );
   const universityOptions = useMemo(
     () =>
-      uniqueSorted(profile.researchers.map((researcher) => researcher.affiliation.last_known_institution || '')),
+      uniqueSorted(
+        profile.researchers.flatMap((researcher) =>
+          splitInstitutionNames(researcher.affiliation.last_known_institution),
+        ),
+      ),
     [],
   );
   const activeInitialOptions = useMemo(() => {
@@ -146,17 +159,18 @@ export default function ResearchersPage(): ReactNode {
       const familyInitial = getNameInitial(nameParts.familyName);
       const givenInitial = getNameInitial(nameParts.givenName);
       const institutionCountry = formatInstitutionCountry(researcher.affiliation.last_known_country);
+      const institutions = splitInstitutionNames(researcher.affiliation.last_known_institution);
       const countryMatch =
         countryFilter === 'All' || institutionCountry === countryFilter;
       const universityMatch =
-        universityFilter === 'All' || (researcher.affiliation.last_known_institution || '') === universityFilter;
+        universityFilter === 'All' || institutions.includes(universityFilter);
       const selectedInitial = initialAxis === 'family' ? familyInitial : givenInitial;
       const initialMatch = nameInitialFilter === 'All' || selectedInitial === nameInitialFilter;
       const keywordMatch =
         keyword.length === 0 ||
         researcher.identity.name.toLowerCase().includes(keyword) ||
         institutionCountry.toLowerCase().includes(keyword) ||
-        (researcher.affiliation.last_known_institution || '').toLowerCase().includes(keyword) ||
+        institutions.join(' ').toLowerCase().includes(keyword) ||
         formatTopDirections(researcher).toLowerCase().includes(keyword);
 
       return countryMatch && universityMatch && initialMatch && keywordMatch;
@@ -180,8 +194,9 @@ export default function ResearchersPage(): ReactNode {
           <Heading as="h1">Researchers</Heading>
           <p>Generated at: {formatDateOnly(profile.generated_at)}</p>
           <p className={styles.note}>
-            Institution is shown by priority rule: ORCID first, otherwise OpenAlex first institution. Country is
-            resolved from institution name (geocoding lookup) and displayed as full country name.
+            Institution is shown by priority rule: ORCID first, then Google Scholar, otherwise OpenAlex first
+            institution. Country is resolved from institution name (geocoding lookup) and displayed as full country
+            name.
           </p>
 
           {profile.researchers.length === 0 ? (

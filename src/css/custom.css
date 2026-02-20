@@ -28,3 +28,30 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.footer .footer__links .footer__col:first-child {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer .footer-footnote p {
+  margin: 0 0 0.35rem;
+  line-height: 1.55;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.footer .footer-footnote p:first-child {
+  margin-bottom: 0.45rem;
+  color: #fff;
+}
+
+@media (min-width: 997px) {
+  .footer .footer__links .footer__col:not(:first-child) {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}

@@ -275,6 +275,32 @@ async function fetchOrcidAffiliation(orcid) {
   return pickOrcidAffiliationFromRecord(record);
 }
 
+function decodeHtmlEntities(text) {
+  return String(text || "")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .trim();
+}
+
+async function fetchGoogleScholarAffiliation(googleScholarUrl) {
+  const urlValue = String(googleScholarUrl || "").trim();
+  if (!urlValue) return null;
+  const res = await fetch(urlValue, {
+    headers: {
+      "User-Agent": "Mozilla/5.0 (compatible; awesome-affective-computing-researcher-pipeline/1.0)",
+    },
+  });
+  if (!res.ok) return null;
+  const html = await res.text();
+  const match = html.match(/<div[^>]*class="gsc_prf_il"[^>]*>([\s\S]*?)<\/div>/i);
+  if (!match?.[1]) return null;
+  const cleaned = decodeHtmlEntities(match[1].replace(/<[^>]+>/g, " ").replace(/\s+/g, " "));
+  return cleaned || null;
+}
+
 function normalizeDoi(doiValue) {
   const raw = String(doiValue || "").trim();
   if (!raw) return "";
@@ -961,6 +987,8 @@ async function run() {
   const legacyOutput = (await loadJson(legacyMonolithPath, null)) || null;
   const institutionCountryCachePath = path.join(args.cache, "institution-country-cache.json");
   const institutionCountryCache = (await loadJson(institutionCountryCachePath, {})) || {};
+  const scholarAffiliationCachePath = path.join(args.cache, "scholar-affiliation-cache.json");
+  const scholarAffiliationCache = (await loadJson(scholarAffiliationCachePath, {})) || {};
   const doiVenueCachePath = path.join(args.cache, "doi-venue-cache.json");
   const doiVenueCache = (await loadJson(doiVenueCachePath, {})) || {};
   const previousIndexResearchers =
@@ -1173,10 +1201,32 @@ async function run() {
     } catch {
       orcidAffiliation = { institution: null, country: null };
     }
+    const scholarKey = getScholarUserId(researcher.google_scholar) || String(researcher.google_scholar || "").trim();
+    let scholarAffiliation = null;
+    if (scholarKey) {
+      if (Object.prototype.hasOwnProperty.call(scholarAffiliationCache, scholarKey)) {
+        scholarAffiliation = scholarAffiliationCache[scholarKey] || null;
+      } else {
+        try {
+          scholarAffiliation = await fetchGoogleScholarAffiliation(researcher.google_scholar);
+        } catch {
+          scholarAffiliation = null;
+        }
+        scholarAffiliationCache[scholarKey] = scholarAffiliation || null;
+        await saveJson(scholarAffiliationCachePath, scholarAffiliationCache);
+      }
+    }
     const selectedInstitution =
       orcidAffiliation.institution ||
+      scholarAffiliation ||
       authorProfile.last_known_institutions?.[0]?.display_name ||
       null;
+    nextResearcherProfile.affiliation.source =
+      orcidAffiliation.institution
+        ? "orcid"
+        : scholarAffiliation
+        ? "google_scholar"
+        : "openalex";
     const countryFromInstitution = selectedInstitution
       ? await resolveInstitutionCountryName({
           institutionName: selectedInstitution,

@@ -57,17 +57,29 @@ export default function Home(): ReactNode {
           <section className={styles.section}>
             <Heading as="h2">What You&apos;ll Find</Heading>
             <ul className={styles.list}>
-              <li>Identity-based researcher tracking with OpenAlex author linkage.</li>
-              <li>Per-paper affective-related classification and extracted directions/keywords.</li>
+              <li>Identity-based researcher tracking with OpenAlex as primary ID, enriched by optional ORCID/Google Scholar.</li>
+              <li>Per-paper affective-related classification and AI-generated directions/keywords.</li>
               <li>Per-researcher cache and incremental updates for scalable maintenance.</li>
+            </ul>
+          </section>
+
+          <section className={styles.section}>
+            <Heading as="h2">Data Sources & Priority</Heading>
+            <ul className={styles.list}>
+              <li>Seed fields: `name`, `openalex_author_id`, `orcid` (optional), `google_scholar` (optional).</li>
+              <li>Institution priority: ORCID affiliation → Google Scholar profile affiliation → OpenAlex first institution.</li>
+              <li>Institution country: geocoding result from institution name, with OpenAlex country code as fallback.</li>
+              <li>Directions/keywords: AI-generated from OpenAlex metadata + abstract; may contain errors.</li>
+              <li>Venue: OpenAlex primary source first, then DOI/Crossref resolution fallback.</li>
             </ul>
           </section>
 
           <section className={styles.section}>
             <Heading as="h2">Workflow</Heading>
             <ul className={styles.list}>
-              <li>Edit identity records in `data/researchers/researcher.seed.json`.</li>
+              <li>Maintain seed records in `data/researchers/researcher.seed.json` with `name/openalex_author_id/orcid/google_scholar`.</li>
               <li>Run pipeline incrementally (supports per-name runs, concurrency, and frequent checkpoint saves).</li>
+              <li>Institution resolution follows ORCID → Google Scholar → OpenAlex priority.</li>
               <li>Review outputs in Researchers/Papers pages and manually verify critical records.</li>
             </ul>
           </section>

@@ -95,16 +95,14 @@ const config: Config = {
           title: 'Disclaimer',
           items: [
             {
-              html: 'Most content is AI-assisted collection/analysis with personal summary and curation.',
-            },
-            {
-              html: 'The researcher list is continuously updated and is not a ranking or complete coverage.',
-            },
-            {
-              html: 'Outputs may contain mistakes, outdated information, omissions, or interpretation bias.',
-            },
-            {
-              html: 'Please verify critical details with official paper pages, publisher records, Google Scholar, and OpenAlex.',
+              html: `
+                <div class="footer-footnote">
+                  <p>Most content is AI-assisted collection/analysis with personal summary and curation.</p>
+                  <p>The researcher list is continuously updated and is not a ranking or complete coverage.</p>
+                  <p>Outputs may contain mistakes, outdated information, omissions, or interpretation bias.</p>
+                  <p>Please verify critical details with official paper pages, publisher records, Google Scholar, and OpenAlex.</p>
+                </div>
+              `,
             },
           ],
         },
