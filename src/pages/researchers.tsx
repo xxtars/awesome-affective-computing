@@ -195,7 +195,6 @@ export default function ResearchersPage(): ReactNode {
             <>
               <section className={styles.filters}>
                 <div className={styles.filterHeader}>
-                  <span className={styles.filterTitle}>Name Initial</span>
                   <button className={styles.resetBtn} onClick={resetFilters} type="button">
                     Reset Filters
                   </button>
@@ -226,25 +225,28 @@ export default function ResearchersPage(): ReactNode {
                 </label>
 
                 <div className={styles.initialBarWrap}>
-                  <div className={styles.axisSwitch}>
-                    <button
-                      className={`${styles.axisBtn} ${initialAxis === 'family' ? styles.axisBtnActive : ''}`}
-                      onClick={() => {
-                        setInitialAxis('family');
-                        setNameInitialFilter('All');
-                      }}
-                      type="button">
-                      Family
-                    </button>
-                    <button
-                      className={`${styles.axisBtn} ${initialAxis === 'given' ? styles.axisBtnActive : ''}`}
-                      onClick={() => {
-                        setInitialAxis('given');
-                        setNameInitialFilter('All');
-                      }}
-                      type="button">
-                      Given
-                    </button>
+                  <div className={styles.initialTopRow}>
+                    <span className={styles.initialLabel}>Name Initial</span>
+                    <div className={styles.axisSwitch}>
+                      <button
+                        className={`${styles.axisBtn} ${initialAxis === 'family' ? styles.axisBtnActive : ''}`}
+                        onClick={() => {
+                          setInitialAxis('family');
+                          setNameInitialFilter('All');
+                        }}
+                        type="button">
+                        Family
+                      </button>
+                      <button
+                        className={`${styles.axisBtn} ${initialAxis === 'given' ? styles.axisBtnActive : ''}`}
+                        onClick={() => {
+                          setInitialAxis('given');
+                          setNameInitialFilter('All');
+                        }}
+                        type="button">
+                        Given
+                      </button>
+                    </div>
                   </div>
                   <div className={styles.initialBar}>
                     <button
@@ -290,7 +292,9 @@ export default function ResearchersPage(): ReactNode {
                     </Heading>
 
                     <p className={styles.meta}>
-                      {researcher.affiliation.last_known_institution || '-'}
+                      <span className={styles.institutionText} title={researcher.affiliation.last_known_institution || '-'}>
+                        {researcher.affiliation.last_known_institution || '-'}
+                      </span>
                     </p>
 
                     <p className={styles.meta}>
