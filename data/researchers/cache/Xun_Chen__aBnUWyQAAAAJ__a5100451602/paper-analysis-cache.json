@@ -370,5 +370,545 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "a9f399dba8918b4d5bd485cb7f73c994995e09a719541255a48bfcac61fe87f6": {
+    "paper_id": "https://openalex.org/W4407779115",
+    "title": "A review of modelling and data analysis methods for accelerated test",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:07.669Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on accelerated testing methods in reliability engineering, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title: 'A review of modelling and data analysis methods for accelerated test'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a106a62c27eeee13b5ad6b844787cb7c7d276dee9243899449fe29f300cf4cc3": {
+    "paper_id": "https://openalex.org/W4413099423",
+    "title": "Performance evaluation of an oval solar receiver for safe and efficient ultra-high temperature operation",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:07.874Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on thermal engineering and ultra-high temperature solar receiver design, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title mentions 'oval solar receiver', 'safe and efficient ultra-high temperature operation' — domain is applied thermal/mechanical engineering"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "939626ca7fea5d8e6ef756377f075dad558baa0cbd4cc0882cd79cdb666c0239": {
+    "paper_id": "https://openalex.org/W4415048598",
+    "title": "Enhancing Tip-Over Stability of Mobile Robots via Active Mass Redistribution Strategy",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:07.886Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on robotic stability and mechanical control, with no mention or conceptual link to emotion, affective computing, or human emotional states.",
+      "evidence": [
+        "Title and abstract exclusively discuss tip-over stability, mass redistribution, and dynamic modeling of mobile robots."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9326dd9f1d5ea05074d0fd00fd32dd12b2cca1662e89c4eb9d8b58e59eb24b2c": {
+    "paper_id": "https://openalex.org/W4410421969",
+    "title": "Data augmentation using masked principal component representation for deep learning-based SSVEP-BCIs",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:07.922Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on data augmentation for SSVEP-BCIs using principal component analysis; no mention of emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain no emotion-related terms or affective neuroscience context."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "292165324e0458e80b66f8df77a647e50c08125bc1fe6a701386434e28143750": {
+    "paper_id": "https://openalex.org/W4416962635",
+    "title": "MGMAP-Net: A Multi-Graph Modality-Aware Network for Enhanced Fluid Intelligence Prediction Using Multimodal Brain Connectivity",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:07.934Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on fluid intelligence prediction using multimodal brain connectivity, with no mention of emotion, affective processes, or related psychological constructs.",
+      "evidence": [
+        "Abstract exclusively discusses fluid intelligence, functional/structural connectivity, and predictive modeling—no emotion-related terms or concepts appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a11f8526737dc414385591b314db26d6c8f2593c22dea94e3b5ca89a98eb0512": {
+    "paper_id": "https://openalex.org/W4411232174",
+    "title": "ICFusion: Multimodal Image Fusion via Invertible Feature Enhancement and Cross-Modal Feature Balance",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:07.934Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multimodal image fusion using invertible networks and cross-modal feature balancing; no mention of emotion, affect, psychological states, or affective computing.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are technical computer vision/AI topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "152e5b07477658c72210b43e3219d3df46abe42f2522cc1ddedaabeab8707bd8": {
+    "paper_id": "https://openalex.org/W4410972585",
+    "title": "Research progress in predicting the conversion from mild cognitive impairment to Alzheimer’s disease via multimodal MRI and artificial intelligence",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.027Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on neuroimaging, AI-based prediction of MCI-to-AD conversion, and clinical neuroscience — not emotion or affective processes.",
+      "evidence": [
+        "No mention of emotion, affect, mood, valence, arousal, or related psychological constructs in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7fc568e6f2082f724d1755cf31c2a7621b86d77ac69d351e5d1cc1a4796a3e15": {
+    "paper_id": "https://openalex.org/W4414199215",
+    "title": "zkVC: Fast Zero-Knowledge Proof for Private and Verifiable Computing",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.028Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is on zero-knowledge proofs and cryptographic optimization for verifiable computing; no connection to emotion, affective science, psychology, or related domains.",
+      "evidence": [
+        "Title and abstract focus exclusively on zkSNARKs, matrix multiplication optimization, and cryptographic verification."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cdb2c8acd92da5c02b568cacce331c1dcfb2a2055bdcf8be9ad3530d7edcbb85": {
+    "paper_id": "https://openalex.org/W4411969340",
+    "title": "Emphysema: an ignored radiologic sign of diffuse alveolar hemorrhage",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.055Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a clinical radiology study focused on emphysema as a radiologic sign in diffuse alveolar hemorrhage; no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Title and abstract contain no emotion-related terms; all concepts are medical/radiological"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cd09d29c44e3d9f892ac90de9cefef7eb3ca16abbdb40933b68306f1c4a2ae3f": {
+    "paper_id": "https://openalex.org/W4410985563",
+    "title": "EEGCMCNet: A Hybrid Network for Sleep-Stage Classification",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.057Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sleep-stage classification using EEG signal processing and deep learning architecture; no mention of emotion, affective states, or related psychological/physiological constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; concepts are technical (AI, EEG, sleep staging, capsule networks)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d20229ce98db748967e4008535e5d7abd0f7eb1a18981d92c614efd5cea00eb1": {
+    "paper_id": "https://openalex.org/W4408330822",
+    "title": "Ultra-Stretchable Polymer Fibers Anchored with a Triple-Level Self-Assembled Conductive Network for Wide-Range Strain Detection",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.080Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on materials science and stretchable electronics for strain sensing, with no conceptual, methodological, or application-level connection to emotion or affective processes.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: 'Materials science', 'Stretchable electronics', 'Composite material', etc."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5b7e2494b6404b5405e5eac58e879215731f1d2d278bbc1ac57ba777e2e57d23": {
+    "paper_id": "https://openalex.org/W4412079963",
+    "title": "IR-MFGL: Image-Represented Magnetic Field Global Localization in Repetitive Environments",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.082Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is in robotics and magnetic field-based localization; no connection to emotion or affective science.",
+      "evidence": [
+        "Title, abstract, and concepts exclusively concern magnetic field imaging, pose estimation, and autonomous navigation."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "09abc95c69fa0e872fcca74bfe8cc0bb9770b36a39eeb4d555eef7020f5c9849": {
+    "paper_id": "https://openalex.org/W4415143737",
+    "title": "UniLGL: Learning Uniform Place Recognition for FOV-limited/Panoramic LiDAR Global Localization",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.098Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is in robotics and LiDAR-based localization, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract focus exclusively on uniform place recognition and global localization using LiDAR; no mention of emotion, affect, psychology, neuroscience, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "963e80890377e0f5d5654a7d8b4b8d91e8a75f97c79b45ca3d5c0f45139a2480": {
+    "paper_id": "https://openalex.org/W4411143107",
+    "title": "Deep-Learning-Based PET Parallax Error Correction: A 2-D Simulation and Phantom Study",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.098Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on deep learning for PET parallax error correction in medical imaging physics, with no conceptual, methodological, or application-level connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract pertain to medical physics, AI-based image reconstruction, and hardware/software optimization for PET scanners."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "64b5f9968df0d78fccedb3739e020cd22ef9da21ae4da5bd9fcaa568a3d6e57a": {
+    "paper_id": "https://openalex.org/W4407942625",
+    "title": "Effects of Roasting Process on Sensory Qualities, Color, Physicochemical Components, and Identification of Key Aroma Compounds in Hubei Strip-Shaped Green Tea",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.102Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sensory qualities of tea in terms of aroma chemistry and physicochemical analysis, not human emotion, affective response, or psychological/emotional mechanisms.",
+      "evidence": [
+        "Abstract emphasizes volatile compounds, ROAV, GC-O, and aroma profiling—not emotion measurement, affective evaluation, or emotional response."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "dc2ce5496b8ce2100ecfc4303d2f18f28cdd762add2eefc8eba88b598258b221": {
+    "paper_id": "https://openalex.org/W4416540907",
+    "title": "SoK: Can Fully Homomorphic Encryption Support General AI Computation? A Functional and Cost Analysis",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.156Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on fully homomorphic encryption and AI computation efficiency, with no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Title and abstract exclusively discuss FHE, AI workloads, privacy-preserving computation, and benchmarking—no mention of emotion, affect, sentiment, or related human factors."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "db687b776b9f412e4a005ae25cb68ded522edc5afbbaaf9679353511ee625c72": {
+    "paper_id": "https://openalex.org/W4409917099",
+    "title": "RIOG: Rectify-to-Match Gradient for Source-Free Domain Adaptive Medical Image Segmentation",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.189Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on source-free domain adaptation for medical image segmentation, with no conceptual, methodological, or application-level connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics are 'emotion'; paper concepts include 'Image segmentation', 'Medical imaging', 'Computer vision' — all technical and non-affective."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5fed99820c232fc7e96f57d8633786975f230b937af0859b2afa781e3c5f0524": {
+    "paper_id": "https://openalex.org/W4413147035",
+    "title": "MNE-SLAM: Multi-Agent Neural SLAM for Mobile Robots",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.214Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on multi-agent neural SLAM for mobile robots, with no mention of emotion, affective computing, or any psychological, behavioral, or human-centered affective constructs.",
+      "evidence": [
+        "All concepts and abstract content pertain to robotics, AI, computer vision, and SLAM—no emotion-related terms or applications appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e6dc6ee41d6d00888b586010947a52c93e8bdc9743313eff75f0e72332f141db": {
+    "paper_id": "https://openalex.org/W4409917274",
+    "title": "Enhancing SEEG-Based Speech Decoding via Convolutional Encoder-Decoder and Scale-Recursive Reconstructor",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.231Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on SEEG-based speech decoding using deep learning architectures; no mention of emotion, affective states, or emotional processing in title, concepts, or abstract.",
+      "evidence": [
+        "Abstract discusses speech decoding, neural signal processing, and vocoding—no reference to emotion, affect, valence, arousal, or related psychological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9fd3cc92418dcfe7f92f5e9d020133a4d424169d5d5657f290be9081b054e60e": {
+    "paper_id": "https://openalex.org/W4408357957",
+    "title": "A Global–Local Fusion Model Exploring Temporal–Spatial Dependence for Multimodal Hand Gesture Recognition",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.251Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multimodal hand gesture recognition using sEMG and accelerometer signals for prosthetics and human-machine interaction; no mention of emotion, affective states, or related psychological/physiological correlates.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords pertain to signal processing, fusion architectures, and gesture recognition."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5664998c86b1ab2d91587c3954c46d360962cfc269620b2518e299fa64405ad4": {
+    "paper_id": "https://openalex.org/W4409565360",
+    "title": "GPX2 inhibition enhances antitumor efficacy of lenvatinib via promoting immunogenic cell death in hepatocellular carcinoma",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.257Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cancer biology and immunogenic cell death in hepatocellular carcinoma, with no indication of emotion-related constructs, affective processes, or psychological/behavioral emotion mechanisms.",
+      "evidence": [
+        "Concepts are strictly biomedical: 'Hepatocellular carcinoma', 'Lenvatinib', 'Apoptosis', 'Oncology'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "55d0466a6c09fd50f45c60028e8d0547120a2b904b03ec610a96fdcba5b8a7cb": {
+    "paper_id": "https://openalex.org/W4406207668",
+    "title": "Performance Evaluation of New PET/CT DigitMI 930",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.297Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical performance evaluation of a PET/CT imaging system, focused on physical metrics (resolution, sensitivity, TOF, etc.) with no mention of emotion, affective states, psychological constructs, or human emotional response.",
+      "evidence": [
+        "Abstract contains only quantitative imaging physics metrics and clinical detection performance; no emotion-related terms or concepts appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "08c57bd40b062318ee455ac635f6c0f6a1e0687b7c035c27b006e2729ab26622": {
+    "paper_id": "https://openalex.org/W4406094201",
+    "title": "Data Distillation for Sleep Stage Classification",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.363Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on data distillation for sleep stage classification using EEG data, with no mention of emotion, affective states, or related psychological/physiological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively reference technical ML/AI methods (distillation, clustering, gradient matching) and biomedical signal processing (sleep staging, EEG), with zero emotional or affective terminology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3758857041e8f985afff424733793a4f5c5e986807cf4bd7cf019d270e58072e": {
+    "paper_id": "https://openalex.org/W4411640161",
+    "title": "Semantic-Guided Diffusion Sampling: A Generalized Strategy for Enhancing Object Segmentation Oriented Multimodal Image Fusion",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.428Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on diffusion models, multimodal image fusion, and semantic-guided sampling for object segmentation — no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics are 'emotion'; paper concepts include 'Image segmentation', 'Image fusion', 'Computer vision', with zero mention of emotion, affect, sentiment, or related psychological/physiological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f6f6e7e25e7bb265b1b414b607321d80b8fc8d3e0ee86ebde414a4e77b870a85": {
+    "paper_id": "https://openalex.org/W4410372652",
+    "title": "Development and characterization of a temporal dispersive chromatic confocal microscopy for enhancing real-time three-dimensional cornea imaging",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.430Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical optics/imaging method development focused on corneal microscopy; no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and abstract content pertain to optical engineering, confocal microscopy, and ophthalmic imaging—no mention of emotion, affect, cognition, behavior, or related domains."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "910a20c0ed578c3c46ec8a4c1b13e953df164c4a8992893b01737f9f589e5f44": {
+    "paper_id": "https://openalex.org/W4406164213",
+    "title": "Active source-free domain adaptation for intracranial EEG classification via neighborhood uncertainty and diversity",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.474Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on domain adaptation for intracranial EEG classification using technical machine learning methods; 'emotion' is not indicated in title, venue, concepts, or abstract.",
+      "evidence": [
+        "Concepts include 'Electroencephalography', 'Domain adaptation', and 'Artificial intelligence', but no emotion-related terms such as affect, valence, arousal, sentiment, or emotion recognition."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0efed3f0a53b155397384e56f027b5749f0781679df939b1c63e50c36e20be8e": {
+    "paper_id": "https://openalex.org/W4409018899",
+    "title": "Multi-Contrast MRI Arbitrary-Scale Super-Resolution via Dynamic Implicit Network",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.551Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on MRI image super-resolution using dynamic implicit networks and has no conceptual, methodological, or application-level connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: 'Contrast (vision)', 'Image resolution', 'Algorithm', 'Artificial intelligence', 'Physics' — all technical/computational medical imaging terms with zero affective/emotion-related terminology or context"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "720c13ddfc740efe51c36c94bd87c72af8da2d6ec01bef25423e87c84729e972": {
+    "paper_id": "https://openalex.org/W4408218133",
+    "title": "Correction: Chen et al. Mandarin Recognition Based on Self-Attention Mechanism with Deep Convolutional Neural Network (DCNN)-Gated Recurrent Unit (GRU). Big Data Cogn. Comput. 2024, 8, 195",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.600Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on Mandarin speech recognition using DCNN-GRU and self-attention; no mention of emotion, affect, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Concepts include 'Convolutional neural network', 'Mandarin Chinese', 'Natural language processing' — all technical NLP/speech recognition terms; 'emotion' is absent from title, concepts, and abstract context."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7b4ddf038235103d81b71fa7bb276ea8d5b84828c4ed2972b44fe1544b97a8f3": {
+    "paper_id": "https://openalex.org/W4410759534",
+    "title": "Reducing calibration efforts of SSVEP-BCIs by shallow fine-tuning-based transfer learning",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.653Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical optimization of SSVEP-BCIs using transfer learning and calibration reduction, with no mention or conceptual link to emotion, affective states, or affective neuroscience.",
+      "evidence": [
+        "Concepts are exclusively technical: 'Computer science', 'Brain–computer interface', 'Transfer learning', 'Electroencephalography'; 'emotion' is absent from title, venue, and concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "895f67179e17bb2f4da4921adf657946fbe47a9e8e6de7638777e1f7aa1a31eb": {
+    "paper_id": "https://openalex.org/W4409631206",
+    "title": "Abstract 5649: Potentiation of AKR1C3- and P53-dependent AST-3424 activity via PUMA-mediated degradation of Rad51",
+    "researcher_name": "Xun Chen",
+    "researcher_openalex_author_id": "A5100451602",
+    "updated_at": "2026-02-20T15:18:08.682Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular oncology, DNA repair mechanisms, and pharmacological activation of a prodrug in cancer therapy; 'emotion' is not addressed in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Interest topics: emotion; Paper concepts include AKR1C3, P53, RAD51, PUMA, DNA damage — all biomedical/oncological, with no affective or psychological terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

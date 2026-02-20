@@ -434,5 +434,763 @@
         "Contrastive learning for affective representation"
       ]
     }
+  },
+  "f97b78449908413b2dd52058f7e20f77ba635323d93cc708ba6697f6f75895d6": {
+    "paper_id": "https://openalex.org/W4406613861",
+    "title": "Crosslinking ionic oligomers sol-gel synthesis of porous amorphous magnesium hydroxide and its application in Pb2+ adsorption",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:47.683Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on inorganic materials synthesis and heavy metal adsorption, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Concepts are exclusively chemistry/materials-science related: Magnesium, Adsorption, Amorphous solid, Ionic bonding, Porosity"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5349c2b55fca295f18f9411490141fc9572f72769ec62f475fa2e9c885f8e898": {
+    "paper_id": "https://openalex.org/W4402968401",
+    "title": "Wi-Pulmo: Commodity WiFi Can Capture Your Pulmonary Function Without Mouth Clinging",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:48.115Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on contact-free pulmonary function monitoring using WiFi signals; no mention of emotion, affective states, or psychological constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0a4ea724937582474dce3b7fd75ea24fe607632f251da75a344315eea9d41508": {
+    "paper_id": "https://openalex.org/W4408592579",
+    "title": "A Multilingual Dataset (MultiMWP) and Benchmark for Math Word Problem Generation",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:48.160Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on math word problem generation, multilingual NLP, and benchmarking—no connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical/computational."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "af41a976cfd63918725d250366e4eea7173208737f444899e4676b67eec7be86": {
+    "paper_id": "https://openalex.org/W4415008039",
+    "title": "Enhanced Thermal Conductivity and Leakage Resistance of Microparticle Impregnated Composite Phase Change Materials",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:48.327Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on thermal conductivity and leakage resistance of composite phase change materials, which is unrelated to emotion or affective science.",
+      "evidence": [
+        "Title: Enhanced Thermal Conductivity and Leakage Resistance of Microparticle Impregnated Composite Phase Change Materials"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ae8914a57d171cfb95b57d406c3808be1ae165d27eb8066d65cbdd67582c6347": {
+    "paper_id": "https://openalex.org/W4403723553",
+    "title": "Application of Improved Finite set Predictive Control in Three-Level Inverter",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:48.404Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is on predictive control of power inverters in electrical engineering; no connection to human emotion, affective science, or psychology.",
+      "evidence": [
+        "Title and abstract focus exclusively on finite-set model predictive control, THD reduction, and grid-connected inverter performance."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "91a1c851ad3d3bf7d74e9be732c150963ae9ad9db84ca9fb98c6e1082ee6adc9": {
+    "paper_id": "https://openalex.org/W4405429634",
+    "title": "Target-Oriented WiFi Sensing for Respiratory Healthcare: From Indiscriminate Perception to In-Area Sensing",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:48.560Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on WiFi-based respiratory sensing and motion interference mitigation using beamforming; 'emotion' is not mentioned or implied in title, abstract, concepts, or technical scope.",
+      "evidence": [
+        "Abstract discusses respiration sensing, beamforming, and motion interference—no reference to emotion, affect, or psychological states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7847e9d633d375772dfdfd54022f6c0afa65851fca91e32a72981d719aad7e22": {
+    "paper_id": "https://openalex.org/W4406901377",
+    "title": "Prior Knowledge Distillation Network for Face Super-Resolution",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:48.574Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face super-resolution and knowledge distillation in computer vision; 'emotion' is not indicated in title, concepts, or abstract, and 'Face' here refers to the sociological concept—not facial emotion expression.",
+      "evidence": [
+        "Concepts include 'Face (sociological concept)', not facial affect or emotion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "11412cb15f996e2f257d233a79dfb804c58362afa02ea32da89400fb94342bcb": {
+    "paper_id": "https://openalex.org/W4400351035",
+    "title": "KeystrokeSniffer: An Off-the-Shelf Smartphone Can Eavesdrop on Your Privacy From Anywhere",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:48.641Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on acoustic side-channel attacks for keystroke eavesdropping, with no mention or conceptual link to emotion, affective computing, or psychological states.",
+      "evidence": [
+        "Abstract and metadata contain only security, privacy, and signal processing terms; 'emotion' does not appear and is unrelated to the methodology or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "21451ed5ef7290a1e5017565eedb2e37ae6653282192cd160f964342d957f219": {
+    "paper_id": "https://openalex.org/W4400836659",
+    "title": "Reliability Analysis of Surrounding Rock Stability in Hydraulic Tunnels Based on Fuzzy Random Theory",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:48.648Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on geotechnical engineering and fuzzy random reliability modeling for rock stability; no connection to human emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and the abstract pertain to hydraulic tunnels, rock mass stability, fuzziness/randomness in engineering systems, not affective/emotion-related domains."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a4184040d09446afebd79466fa32db6dbad83ff495f879e2a4514903f7bfc5d0": {
+    "paper_id": "https://openalex.org/W4414404667",
+    "title": "Structure-Guided Diffusion Transformer for Low-Light Image Enhancement",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:48.670Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on low-light image enhancement using diffusion transformers and structural priors, with no mention of emotion, affect, psychological states, or human affective responses.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are computer vision and deep learning focused (e.g., 'wavelet transform', 'texture enhancement', 'noise prediction')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f2118ccd553b09ad9cc13abb149b83d2b75c3bdbd911ef67afd6bd0050d76e6b": {
+    "paper_id": "https://openalex.org/W4390787316",
+    "title": "MultiURNet for 3D seismic fault attributes fusion detection combined with PCA",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:48.687Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on seismic fault detection using neural networks and PCA, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Seismic attribute', 'Principal component analysis', 'Artificial neural network' — all domain-specific to geophysics/computer vision, not psychology or affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6507b04f825e48ee0586a821fb89d31b22c4757445604523ccdf5c3e7767ff98": {
+    "paper_id": "https://openalex.org/W4400656927",
+    "title": "CoMix: Confronting with Noisy Label Learning with Co-training Strategies on Textual Mislabeling",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:48.696Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on robustness to label noise in text classification using co-training and interpolation techniques; no mention of emotion, affect, sentiment, or related psychological or linguistic constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all concepts are technical ML/NLP topics (e.g., overfitting, noise, co-training, text classification)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0644257d786d4931a782909fd6bbfbc3a8d99be80fcf7b1da5577b77f84a0205": {
+    "paper_id": "https://openalex.org/W4393149622",
+    "title": "Aleth-NeRF: Illumination Adaptive NeRF with Concealing Field Assumption",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:48.825Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on illumination modeling and neural rendering in computer graphics, with no conceptual, methodological, or empirical connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics are 'emotion'; paper concepts include 'Field (mathematics)', 'Computer science', 'Physics', etc., but no emotion-related terms appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cd2280dbc7c09a451bc2af3b1f14f545a25a58b9bed61003b3bd091d3811d07f": {
+    "paper_id": "https://openalex.org/W4406542508",
+    "title": "LSSMask: a lightweight semantic segmentation network for dynamic object",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:49.094Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on lightweight semantic segmentation for dynamic objects in computer vision, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Segmentation, Computer vision, Pattern recognition (psychology) — but 'Pattern recognition (psychology)' here is likely a misaligned DBLP concept tag, not evidence of affective content; no emotion-related terms appear in title, venue, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "93b19758c9a5371f03fdb452059d711412b568af615b47a526ed231a3f443a7a": {
+    "paper_id": "https://openalex.org/W4403999379",
+    "title": "Joint Multi-cue Learning for Emotion Recognition in Human-Computer Interaction",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:49.589Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on emotion recognition in human-computer interaction, directly aligning with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Title: 'Joint Multi-cue Learning for Emotion Recognition in Human-Computer Interaction'",
+        "Concepts include 'Emotion recognition' and 'Human–computer interaction'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "human-computer interaction",
+        "multi-cue learning",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Multimodal emotion analysis",
+        "Human-centered AI",
+        "Pattern recognition in affective science"
+      ]
+    }
+  },
+  "ac2ecc5d7b171c17db8370c3e9f90238e6d80e558bf369f58ea08cd0735ce2da": {
+    "paper_id": "https://openalex.org/W4406781963",
+    "title": "BSGM: Psychological State Analysis Method Based on Deep Learning and Stock Market Dynamic Data Augmentation",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:49.860Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper's title explicitly links psychological state analysis with deep learning, and 'psychological state' is closely aligned with emotion research; 'emotion' is the researcher's sole stated interest topic.",
+      "evidence": [
+        "Title contains 'Psychological State Analysis Method'",
+        "Researcher's interest topic is 'emotion'",
+        "Psychological state is a core construct in affective science"
+      ],
+      "keywords": [
+        "psychological state",
+        "emotion",
+        "deep learning",
+        "affective computing",
+        "stock market sentiment"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion recognition from behavioral/financial data",
+        "multimodal emotion analysis",
+        "AI for mental state inference"
+      ]
+    }
+  },
+  "1cf2f17e4a33c9997cf609b3118a15cc6b683f7db4b6021aaada0a90a030178d": {
+    "paper_id": "https://openalex.org/W4390168417",
+    "title": "Attention and Relative Distance Alignment for Low-Resolution Facial Expression Recognition",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:49.914Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper focuses on facial expression recognition—a core affective computing task—and explicitly references 'emotion' via 'facial expression', which is a primary behavioral indicator of emotion. The title and concepts confirm alignment with emotion-related research.",
+      "evidence": [
+        "Title contains 'Facial Expression Recognition'",
+        "Interest topic is 'emotion'",
+        "Facial expression is a canonical modality for emotion inference in Affective Science"
+      ],
+      "keywords": [
+        "facial expression",
+        "emotion recognition",
+        "affective computing",
+        "low-resolution vision",
+        "attention mechanisms"
+      ],
+      "research_directions": [
+        "Affective computer vision",
+        "Emotion-aware AI systems",
+        "Robust affect recognition under degraded input conditions"
+      ]
+    }
+  },
+  "6def02d56f5405f448703548f3def135e8da1d4831cadbd989f75eafe9a9cee6": {
+    "paper_id": "https://openalex.org/W4410773809",
+    "title": "ABAW7 Challenge: A Facial Affect Recognition Approach Based on Transformer Encoder and Multilayer Perceptron",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:50.094Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on facial affect recognition, which is a core subfield of emotion research in AI and psychology; the title directly references 'Affect Recognition' and aligns with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Title: 'ABAW7 Challenge: A Facial Affect Recognition Approach Based on Transformer Encoder and Multilayer Perceptron'",
+        "Interest topics: 'emotion'"
+      ],
+      "keywords": [
+        "facial affect recognition",
+        "emotion recognition",
+        "transformer encoder",
+        "multilayer perceptron",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "facial expression analysis",
+        "deep learning for emotion recognition",
+        "multimodal affect recognition"
+      ]
+    }
+  },
+  "eb78f55afc4a653b891dd171623d615158540c72f2bec584fc6053e72b94af40": {
+    "paper_id": "https://openalex.org/W4399045859",
+    "title": "SCBG: Semantic-Constrained Bidirectional Generation for Emotional Support Conversation",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:50.483Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly targets emotional support conversation, directly aligning with the researcher's interest in 'emotion'; it addresses emotion-related goals (consolation, alleviating emotional distress) and uses emotion-laden concepts throughout.",
+      "evidence": [
+        "Title contains 'Emotional Support Conversation'",
+        "Abstract states ESC task aims to deliver 'consolation, encouragement, and advice to individuals undergoing emotional distress'",
+        "Concepts include 'Consolation' and 'Human–computer interaction' in affective context"
+      ],
+      "keywords": [
+        "emotional support",
+        "consolation",
+        "emotional distress",
+        "affective dialogue",
+        "emotion-aware generation"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware conversational AI",
+        "mental health support systems",
+        "emotion modeling in dialogue",
+        "human-centered affective interaction"
+      ]
+    }
+  },
+  "e2eb1dcffae2eeda4a547a02396dbd5e08fdfde95da409f2955e807950c78c77": {
+    "paper_id": "https://openalex.org/W4390166461",
+    "title": "ASM: Adaptive Sample Mining for In-The-Wild Facial Expression Recognition",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:50.603Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on facial expression recognition in-the-wild, which is a core computational task in affective science and emotion research; 'emotion' is explicitly listed as the researcher's interest topic, and key concepts like 'Facial expression' and 'Expression (computer science)' directly align with emotion-related AI research.",
+      "evidence": [
+        "Title contains 'Facial Expression Recognition'",
+        "Concepts include 'Facial expression' and 'Expression (computer science)'",
+        "Researcher's interest topic is 'emotion'"
+      ],
+      "keywords": [
+        "facial expression",
+        "emotion recognition",
+        "in-the-wild",
+        "adaptive sample mining",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "computational emotion analysis",
+        "robust facial behavior understanding",
+        "AI for mental health and human-computer interaction"
+      ]
+    }
+  },
+  "aafdaace1d6dd02520ef1314de5aecbd47f9e3efe8a448002c1c80b51a6b413c": {
+    "paper_id": "https://openalex.org/W4390263698",
+    "title": "Hypergraph Neural Network for Emotion Recognition in Conversations",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:50.639Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on emotion recognition in conversations, directly aligning with the researcher's interest topic 'emotion'. The methodology, evaluation, and problem framing are all centered on affective computing within NLP.",
+      "evidence": [
+        "Title: 'Hypergraph Neural Network for Emotion Recognition in Conversations'",
+        "Abstract states: 'Modeling conversational context is an essential step for emotion recognition in conversations.'",
+        "Interest topic 'emotion' matches the core task of the paper."
+      ],
+      "keywords": [
+        "emotion recognition",
+        "conversational emotion",
+        "affective computing",
+        "hypergraph neural network",
+        "context modeling"
+      ],
+      "research_directions": [
+        "Affective Natural Language Processing",
+        "Context-Aware Emotion Modeling",
+        "Graph-Based Methods for Affect Analysis",
+        "Multimodal and Conversational Emotion Recognition"
+      ]
+    }
+  },
+  "7ff277413b8d471b37e3c11457b60d792639b727cec5d8c7efafe847fa30cdce": {
+    "paper_id": "https://openalex.org/W4400490445",
+    "title": "WR-Former: Vision Transformer with Weight Reallocation Module for Robust Facial Expression Recognition",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:50.880Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on facial expression recognition, a core subfield of affective computing that directly models human emotion from visual cues; the researcher's interest topic 'emotion' aligns precisely with this application domain.",
+      "evidence": [
+        "Title explicitly mentions 'Facial Expression Recognition'",
+        "Abstract states the goal is robust recognition of facial expressions — a canonical emotion-related perceptual task",
+        "Concepts include 'Facial expression', 'Facial expression recognition', and 'Pattern recognition (psychology)' — linking computation to affective science"
+      ],
+      "keywords": [
+        "facial expression recognition",
+        "emotion recognition",
+        "affective computing",
+        "vision transformer",
+        "weight reallocation",
+        "robust FER"
+      ],
+      "research_directions": [
+        "affective computer vision",
+        "deep learning for emotion analysis",
+        "attention mechanisms in affective modeling",
+        "robustness in emotion recognition systems"
+      ]
+    }
+  },
+  "e410a7b9fa0b767a34eb41d2e0fa78673b31cab01a84cd591b2388c2c06bbacc": {
+    "paper_id": "https://openalex.org/W4396941868",
+    "title": "Temporal Gated Face Alignment Network for Camera-Based Physiological Sensing",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:51.007Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper focuses on physiological sensing from facial video, which is commonly used to infer affective states (e.g., stress, arousal, emotion) despite 'emotion' not appearing explicitly in metadata; 'face alignment' and 'physiological sensing' are established precursors to emotion recognition in affective computing.",
+      "evidence": [
+        "Title includes 'Camera-Based Physiological Sensing', a well-known modality for inferring emotion-related autonomic responses (e.g., heart rate variability, skin conductance proxies)",
+        "Interest topic is 'emotion'; physiological sensing + face alignment is a standard pipeline in affective computing research"
+      ],
+      "keywords": [
+        "physiological sensing",
+        "face alignment",
+        "affective computing",
+        "emotion recognition",
+        "computer vision for affect"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Remote photoplethysmography (rPPG)",
+        "Facial behavior analysis",
+        "Emotion-aware AI systems"
+      ]
+    }
+  },
+  "2def46badbbdf1f19d67dead5a33f5d71f0fb4bdd4a0448d83d69395f340c0da": {
+    "paper_id": "https://openalex.org/W4403780583",
+    "title": "FacialPulse: An Efficient RNN-based Depression Detection via Temporal Facial Landmarks",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:51.064Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses depression detection—a clinically significant affective/emotional disorder—using temporal facial expression dynamics, aligning precisely with the researcher's interest in 'emotion'. It explicitly models emotion-related behavioral cues (facial landmarks over time) to infer affective state.",
+      "evidence": [
+        "Title includes 'Depression Detection' — a core affective disorder",
+        "Abstract states goal is detecting depression via 'temporal facial expressions' and 'facial landmarks', which are established behavioral proxies for emotion/affect",
+        "Concepts include 'Facial expression', a canonical emotion-related modality"
+      ],
+      "keywords": [
+        "depression",
+        "facial expression",
+        "affective computing",
+        "temporal dynamics",
+        "emotion recognition",
+        "mental health"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware AI",
+        "clinical emotion assessment",
+        "behavioral biomarkers of affect",
+        "deep learning for mental health"
+      ]
+    }
+  },
+  "4451023fecf7aa751b795bf11f9dafa22d9290a50272fe4e7e6ad1d0a3dc4e38": {
+    "paper_id": "https://openalex.org/W4389610042",
+    "title": "AST-GCN: Augmented Spatial Temporal Graph Convolutional Neural Network for Gait Emotion Recognition",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:51.153Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on gait-based emotion recognition, directly aligning with the researcher's interest topic 'emotion'. It proposes a novel deep learning model (AST-GCN) designed to extract discriminative emotional features from human gait, with methodological innovations targeting emotion-specific joint dynamics and implicit emotional connections.",
+      "evidence": [
+        "Title contains 'Gait Emotion Recognition'",
+        "Abstract states 'gait emotion recognition (DL-GER)' as the core task",
+        "Method addresses 'emotion-related joint movements' and 'implicit connection relations related to emotions'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "gait analysis",
+        "skeleton-based emotion",
+        "graph convolutional network",
+        "affective computing",
+        "human motion and emotion"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion recognition from nonverbal behavior",
+        "deep learning for affective signal processing",
+        "multimodal emotion analysis",
+        "computer vision for emotion"
+      ]
+    }
+  },
+  "2392be9d7e6962316eea409425d36a2fd7ce591029b35f399e29c522273116c4": {
+    "paper_id": "https://openalex.org/W4405092684",
+    "title": "Facial Expression Recognition With Vision Transformer Using Fused Shifted Windows",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:51.202Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.98,
+      "confidence": 0.99,
+      "reason": "The paper is directly focused on facial expression recognition as a proxy for emotion recognition, aligns with the researcher's interest in 'emotion', is published in IEEE Transactions on Affective Computing, and explicitly links facial expressions to affective information.",
+      "evidence": [
+        "Title mentions 'Facial Expression Recognition' and uses architecture designed for affective cues",
+        "Abstract states: 'Facial expressions contain massive affective information'",
+        "Venue: IEEE Transactions on Affective Computing (top-tier affective computing journal)"
+      ],
+      "keywords": [
+        "facial expression recognition",
+        "emotion recognition",
+        "affective computing",
+        "vision transformer",
+        "regions of interest",
+        "affective information"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware AI",
+        "computer vision for mental state inference",
+        "transformer-based affect modeling"
+      ]
+    }
+  },
+  "f87a2e631026f1eb0db0edc09f0ea83633f1a1478508b67614b31bf54b382de8": {
+    "paper_id": "https://openalex.org/W4412444986",
+    "title": "UniEmoX: Cross-Modal Semantic-Guided Large-Scale Pretraining for Universal Scene Emotion Perception",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:51.240Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is explicitly focused on emotion perception, grounded in psychological theory, and develops a large-scale pretraining framework (UniEmoX) and dataset (Emo8) for universal scene emotion analysis — directly aligning with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Title contains 'Universal Scene Emotion Perception'",
+        "Abstract states 'Visual emotion analysis holds significant research value in both computer vision and psychology'",
+        "Concepts include 'Emotion recognition' and 'Perception'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "visual emotion analysis",
+        "cross-modal pretraining",
+        "scene emotion perception",
+        "affective computing",
+        "CLIP distillation",
+        "masked image modeling"
+      ],
+      "research_directions": [
+        "affective computer vision",
+        "psychologically-informed AI",
+        "multimodal emotion understanding",
+        "large-scale affective pretraining",
+        "emotion dataset construction"
+      ]
+    }
+  },
+  "e9e28e91dd21e7340acf57ccf06ad82952858811af457313333aba0ee6ee9183": {
+    "paper_id": "https://openalex.org/W4404914624",
+    "title": "PsycoLLM: Enhancing LLM for Psychological Understanding and Evaluation",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:51.341Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper focuses on enhancing LLMs for psychological understanding and evaluation, with explicit emphasis on mental health, counseling, and case analysis—domains intrinsically tied to human emotion, affective states, and emotional regulation. Although 'emotion' is not the sole keyword, psychological assessment and mental health evaluation fundamentally rely on affective/emotion-related constructs.",
+      "evidence": [
+        "Abstract states the model targets 'psychological understanding and evaluation' in mental health contexts",
+        "Benchmark includes 'case analysis' grounded in real-world psychological cases involving emotional and behavioral symptoms",
+        "Training data incorporates multi-turn dialogues derived from psychological counseling scenarios, which are inherently emotion-laden"
+      ],
+      "keywords": [
+        "emotion",
+        "mental health",
+        "psychological assessment",
+        "affective computing",
+        "counseling",
+        "case analysis"
+      ],
+      "research_directions": [
+        "Affective NLP",
+        "Clinical AI",
+        "Emotion-aware LLMs",
+        "Computational psychology",
+        "Mental health technology"
+      ]
+    }
+  },
+  "96b074dd94c7673d524782dafa44c4c1aa0a174abe08d588243f0d4c2cbbca56": {
+    "paper_id": "https://openalex.org/W4403713300",
+    "title": "AMTN: Attention-Enhanced Multimodal Temporal Network for Humor Detection",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:51.441Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "Humor detection is closely tied to affective states and emotional responses; the paper's focus on cross-cultural humor detection using multimodal temporal modeling aligns with emotion-related computational research, especially in affective computing and sentiment/humor as emotional phenomena.",
+      "evidence": [
+        "Title explicitly references humor detection, a well-established affective/emotion-related task",
+        "Abstract notes cross-cultural context, which implicates emotion perception and expression variability",
+        "Task (MuSe-Humor) is part of the Multimodal Sentiment Analysis and Humor Detection challenge, where humor is treated as an affective phenomenon"
+      ],
+      "keywords": [
+        "humor detection",
+        "affective computing",
+        "multimodal emotion analysis",
+        "cross-cultural affect",
+        "attention mechanisms",
+        "temporal modeling"
+      ],
+      "research_directions": [
+        "Affective multimodal learning",
+        "Computational humor and emotion",
+        "Cross-cultural affective signal processing",
+        "Temporal dynamics in emotion recognition"
+      ]
+    }
+  },
+  "f4acb8da9cab0820b016e0aa1d9c6bbe062932a0d4cf91edae6a930eb7a1e5c4": {
+    "paper_id": "https://openalex.org/W4391893171",
+    "title": "EmoDamp: A Model for Speaker Emotion Inference in Dialogues with Bidirectional Emotion Damping Mechanism",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T15:14:52.090Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is explicitly focused on speaker emotion inference in dialogues, directly aligning with the researcher's interest topic 'emotion'. It introduces a novel model (EmoDamp) grounded in psychological theories and targets core affective computing tasks: emotion detection, recognition, contagion, and damping—strongly matching affective/emotion-related research.",
+      "evidence": [
+        "Title contains 'Speaker Emotion Inference' and 'Bidirectional Emotion Damping Mechanism'",
+        "Abstract states 'Emotion analysis in conversation has been a popular research topic' and emphasizes 'emotion generation mechanism', 'emotion transfer', and 'emotion contagion'",
+        "Concepts include 'Emotion recognition', 'Emotion detection', and 'Inference' — all central to affective science"
+      ],
+      "keywords": [
+        "emotion inference",
+        "emotion damping",
+        "dialogue emotion",
+        "emotion contagion",
+        "BED Net",
+        "CRF for emotion modeling"
+      ],
+      "research_directions": [
+        "affective computing",
+        "conversational AI with emotion modeling",
+        "psychologically-inspired NLP",
+        "emotion dynamics in dialogue",
+        "commonsense-augmented emotion prediction"
+      ]
+    }
   }
 }

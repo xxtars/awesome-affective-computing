@@ -519,5 +519,821 @@
         "Multimodal affective perception (face/object/scene)"
       ]
     }
+  },
+  "587620434212f87e74d4fbe9d9b3ed21df345bc1f48d61f61eadff33bb03ae5a": {
+    "paper_id": "https://openalex.org/W4401171880",
+    "title": "Clean affinity matrix induced hyper-Laplacian regularization for unsupervised multi-view feature selection",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:19.851Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mathematical regularization and feature selection in multi-view learning, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title contains no emotion-related terms; concepts are purely technical (e.g., Laplacian matrix, feature selection, AI)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "82e9621b2d80051b6d8e54ad59b015a3872a85849bfbb98a4eebb1cd367be0d4": {
+    "paper_id": "https://openalex.org/W4401691672",
+    "title": "Adaptive Multi-Scale Iterative Optimized Video Object Segmentation Based on Correlation Enhancement",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:19.959Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video object segmentation using multi-scale optimization and correlation enhancement, with no mention of emotion, affective computing, or related psychological/physiological signals.",
+      "evidence": [
+        "Title and abstract exclusively address computer vision, segmentation, and iterative optimization; no emotion-related terms or concepts appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2a2c3dcf7b9c1f22a243254ae450dff314d48114b652b72b38c052a930ef1646": {
+    "paper_id": "https://openalex.org/W4405023073",
+    "title": "Decoding SSVEP Via Calibration-Free TFA-Net: A Novel Network Using Time-Frequency Features",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:20.057Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on SSVEP decoding using a calibration-free deep learning model for BCIs, with no mention of emotion recognition, affective computing, or emotional states.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; concepts are centered on signal processing, CNNs, and BCI efficiency."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7317dc68c94f0739da9d70de08d1969118bfdc7dd25aa5e90537d6e019079003": {
+    "paper_id": "https://openalex.org/W4395041783",
+    "title": "Comprehensive multi-view self-representations for clustering",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:20.063Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multi-view subspace clustering, representation learning, and optimization techniques with no mention of emotion, affect, psychological constructs, or affective computing.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are mathematical/computational (e.g., coefficient matrix, Schatten p-norm, cluster analysis)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2f55e1ff7df889c3239202b5e0d849361f1f118629e8c012e8c766649b1ff844": {
+    "paper_id": "https://openalex.org/W4401358194",
+    "title": "Novel Sinusoidal Signal Assisted Multivariate Variational Mode Decomposition Combined With Task-Related Component Analysis for Enhancing SSVEP-Based BCI Performance",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:20.124Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on signal processing and classification methods for SSVEP-based BCIs, with no mention of emotion, affect, or affective states.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; concepts are technical (e.g., 'filter bank', 'TRCA', 'SSVEP')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f5404697f1c6264026589479832b99c550a10e7211c79493be90a03eef39083d": {
+    "paper_id": "https://openalex.org/W4399373692",
+    "title": "Wasserstein Discriminant Dictionary Learning for Graph Representation",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:20.203Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on graph representation learning using Wasserstein metrics and dictionary learning, with no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts include 'Artificial intelligence', 'Graph', 'Dictionary learning', but no affective/emotion-related terms in title, abstract, or concepts"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4ae3e8b59d2b0c96f177fe9d0e7eb851dd6f71dff3f08b1f164affaa667ecd0b": {
+    "paper_id": "https://openalex.org/W4403824283",
+    "title": "High-order correlation preserved multi-view unsupervised feature selection",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:20.332Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multi-view unsupervised feature selection using high-order correlation; no explicit connection to emotion or affective computing is indicated in title, venue, concepts, or metadata.",
+      "evidence": [
+        "Concepts include 'Feature selection', 'Machine learning', and 'Pattern recognition (psychology)' — but the latter refers to psychological pattern recognition broadly, not emotion-specific modeling."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a9db05ffe445ef5f68011017f3af4c9aec27ac91f588c1712d70d288a7af5801": {
+    "paper_id": "https://openalex.org/W4402167723",
+    "title": "Convolutional Transformer-Based Cross Subject Model for SSVEP-Based BCI Classification",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:20.349Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on SSVEP-based BCI classification using transformer and convolutional architectures for cross-subject generalization; no mention of emotion, affective states, or affective computing.",
+      "evidence": [
+        "Interest topics are 'emotion', but the paper's concepts and abstract center on brain-computer interfaces, signal processing, and domain generalization for SSVEP classification."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "15ce4fb4909cb58e7cdb6e6ce81fe2b9b78e36b519d0ee7d8a818b18a8acf48a": {
+    "paper_id": "https://openalex.org/W4405850538",
+    "title": "Weighted tensor-based consistent anchor graph learning for multi-view clustering",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:20.530Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multi-view clustering using tensor and graph learning techniques, with no explicit connection to emotion or affective science in title, venue, or listed concepts.",
+      "evidence": [
+        "Concepts include 'Cluster analysis', 'Tensor', 'Graph', 'Artificial intelligence' — all technical/computational; 'Pattern recognition (psychology)' is listed but refers to the psychology subfield broadly, not emotion-specific pattern recognition"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b05406ccc3099db569a80c174ebaa61955f25066fc98b867224c92e7957bcfdf": {
+    "paper_id": "https://openalex.org/W4402111363",
+    "title": "Towards Realistic Emotional Voice Conversion using Controllable Emotional Intensity",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:20.791Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper title explicitly centers on emotional voice conversion with controllable emotional intensity, directly aligning with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Title: 'Towards Realistic Emotional Voice Conversion using Controllable Emotional Intensity'"
+      ],
+      "keywords": [
+        "emotional voice conversion",
+        "emotional intensity",
+        "affective computing",
+        "speech synthesis",
+        "emotion modeling"
+      ],
+      "research_directions": [
+        "Affective speech processing",
+        "Controllable emotion generation in TTS",
+        "Emotion intensity quantification and modulation"
+      ]
+    }
+  },
+  "287510267b29bcf23e98a80246741f9653055992bdd8385302b08b4ba9c8190f": {
+    "paper_id": "https://openalex.org/W4402112306",
+    "title": "Confidence-aware Hypothesis Transfer Networks for Source-Free Cross-Corpus Speech Emotion Recognition",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:20.985Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on speech emotion recognition, directly aligning with the researcher's interest topic 'emotion'. The title and concepts confirm affective computing relevance.",
+      "evidence": [
+        "Title contains 'Speech Emotion Recognition'",
+        "Concepts include 'Emotion recognition'"
+      ],
+      "keywords": [
+        "speech emotion recognition",
+        "source-free transfer learning",
+        "cross-corpus adaptation",
+        "confidence-aware modeling",
+        "hypothesis transfer"
+      ],
+      "research_directions": [
+        "affective computing",
+        "speech-based emotion analysis",
+        "domain adaptation in emotion recognition",
+        "source-free unsupervised transfer learning"
+      ]
+    }
+  },
+  "3187c2b955e569b9ced9e2496f63d4a760c38969c0c9a720c6970cce0151f79d": {
+    "paper_id": "https://openalex.org/W4404853020",
+    "title": "Missing Customized Distillation Network for Incomplete Multimodal Sentiment Analysis",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:21.312Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper focuses on multimodal sentiment analysis, which is a core subfield of affective computing and directly aligned with emotion-related research.",
+      "evidence": [
+        "Title contains 'Multimodal Sentiment Analysis'",
+        "Interest topics explicitly include 'emotion'",
+        "Sentiment analysis is a well-established proxy and application domain for emotion modeling in AI"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "multimodal learning",
+        "emotion recognition",
+        "distillation",
+        "incomplete data"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Multimodal emotion understanding",
+        "Robust affective modeling under data scarcity",
+        "Knowledge distillation for emotion-aware systems"
+      ]
+    }
+  },
+  "ee19e21bfcecd266af5663d23ce0bda3815a85b09be8ca5c5e2a4273ec5a2c39": {
+    "paper_id": "https://openalex.org/W4400275690",
+    "title": "MaskFusionNet: A Dual-Stream Fusion Model With Masked Pre-Training Mechanism for rPPG Measurement",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:21.376Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.92,
+      "reason": "The paper explicitly links rPPG measurement to emotion analysis in its abstract, and the researcher's stated interest is 'emotion'; the method aims to improve robustness for downstream affective applications including emotion analysis.",
+      "evidence": [
+        "rPPG has considerable significance in areas such as disease diagnosis and emotion analysis.",
+        "Researcher's interest topic is 'emotion'."
+      ],
+      "keywords": [
+        "rPPG",
+        "emotion analysis",
+        "remote photoplethysmography",
+        "masked pre-training",
+        "heart rate estimation"
+      ],
+      "research_directions": [
+        "affective computing",
+        "physiological signal-based emotion recognition",
+        "robust multimodal sensing for affect"
+      ]
+    }
+  },
+  "397918fed9e5ea3596d4c2902020474c60adcfb2dabe1324d77cfcb7c19c5c9f": {
+    "paper_id": "https://openalex.org/W4396506367",
+    "title": "Adaptive Dual-Space Network With Multigraph Fusion for EEG-Based Emotion Recognition",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:21.563Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on EEG-based emotion recognition, directly aligning with the researcher's interest topic 'emotion'; it proposes a novel network architecture specifically designed for affective computing tasks.",
+      "evidence": [
+        "Title contains 'EEG-Based Emotion Recognition'",
+        "Abstract states the goal is to improve emotion recognition from EEG signals",
+        "Method addresses emotion-related brain connectivity and individual differences in emotional response"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "EEG",
+        "affective computing",
+        "multigraph fusion",
+        "dual-space learning"
+      ],
+      "research_directions": [
+        "affective neuroscience",
+        "brain-computer interfaces for emotion",
+        "adaptive graph neural networks",
+        "individualized emotion modeling"
+      ]
+    }
+  },
+  "58747c5ff0f255541bab278dd03bed1e1f4553914fce7d609650a897ffcd5e5c": {
+    "paper_id": "https://openalex.org/W4404350088",
+    "title": "Multi-modal Speech Emotion Recognition via Feature Distribution Adaptation Network",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:21.590Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses speech emotion recognition—a core affective computing task—and explicitly aligns multimodal features to improve emotion representation, fully matching the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Title contains 'Speech Emotion Recognition'",
+        "Abstract states 'tackle the challenging multi-modal speech emotion recognition problem'",
+        "Concepts include 'Emotion recognition' and 'Psychology'"
+      ],
+      "keywords": [
+        "speech emotion recognition",
+        "multimodal learning",
+        "feature distribution adaptation",
+        "transfer learning",
+        "cross-attention"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion analysis",
+        "deep transfer learning for emotion",
+        "facial-audio emotion fusion"
+      ]
+    }
+  },
+  "5571efdfdcd5016a330e3ae97eff23036f7ae070051f425c71de524e05c9a933": {
+    "paper_id": "https://openalex.org/W4408245045",
+    "title": "Decoupled Doubly Contrastive Learning for Cross-Domain Facial Action Unit Detection",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:21.622Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper focuses on facial action unit (AU) detection, which is a core computational method for inferring underlying emotional states from facial expressions; AU detection is widely used in affective computing and emotion recognition research.",
+      "evidence": [
+        "facial action unit (AU) detection",
+        "cross-domain AU detection",
+        "semantically aligned AU representation"
+      ],
+      "keywords": [
+        "facial action units",
+        "affective computing",
+        "emotion recognition",
+        "domain adaptation",
+        "contrastive learning",
+        "feature disentanglement"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Emotion-aware AI",
+        "Cross-domain affective signal modeling",
+        "Interpretable facial behavior analysis"
+      ]
+    }
+  },
+  "5a5e2bb52579e85d2366c2e5fae7f76ddaab1a381956681a0fa701567f92e8ec": {
+    "paper_id": "https://openalex.org/W4407128773",
+    "title": "Decoupled Multi-Perspective Fusion for Speech Depression Detection",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:21.836Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly models 'emotion' as one of five core acoustic features for depression detection, is published in IEEE Transactions on Affective Computing, and aligns directly with affective computing goals of inferring psychological states from behavioral signals.",
+      "evidence": [
+        "Abstract states: 'extracts five key features of voiceprint, emotion, pause, energy, and tremor based on the multi-perspective clinical manifestations'",
+        "Published in IEEE Transactions on Affective Computing",
+        "Focus on speech-based detection of depression — a clinically significant affective disorder"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "affective computing",
+        "depression detection",
+        "speech analysis",
+        "multimodal fusion",
+        "graph attention network"
+      ],
+      "research_directions": [
+        "Affective speech processing",
+        "Clinical affective computing",
+        "Interpretable AI for mental health",
+        "Multi-perspective feature fusion in affective sensing"
+      ]
+    }
+  },
+  "9d95660339fd4fe2bf0f3426d6b327ffc45f4484f559699c0df1b9254f44faf2": {
+    "paper_id": "https://openalex.org/W4403918653",
+    "title": "Common Discriminative Latent Space Learning for Cross-Domain Speech Emotion Recognition",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:21.988Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses speech emotion recognition (SER), a core affective computing task, and explicitly targets cross-domain emotion modeling using discriminative latent space learning—strongly aligned with 'emotion' as the researcher's stated interest topic.",
+      "evidence": [
+        "Title contains 'Speech Emotion Recognition'",
+        "Abstract states 'Cross-domain speech emotion recognition (SER) has received increasing attention'",
+        "Method (CDLSL) is designed specifically to improve discriminability of emotion features across domains"
+      ],
+      "keywords": [
+        "speech emotion recognition",
+        "cross-domain learning",
+        "latent space learning",
+        "discriminative modeling",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion representation learning",
+        "cross-domain transfer for emotion recognition",
+        "discriminative feature learning for affect"
+      ]
+    }
+  },
+  "ba95836af768e7bbe6048f4dcc4262eb5fba57bcc2e4bec47863db9eb43f0a6c": {
+    "paper_id": "https://openalex.org/W4415594172",
+    "title": "Towards Identity-Independent Facial Action Unit Detection: Integrating Decoupled 3D Geometry with Textural Features",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:22.122Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses facial action unit (AU) detection—a core computational task in affective computing—explicitly aiming to improve robustness for emotion-related facial behavior analysis by decoupling identity from AU-relevant features.",
+      "evidence": [
+        "Title mentions 'Facial Action Unit Detection', a foundational method for inferring emotions from facial expressions",
+        "Published in IEEE Transactions on Affective Computing",
+        "Abstract emphasizes learning AU-related features independent of identity, critical for generalizable emotion recognition"
+      ],
+      "keywords": [
+        "facial action units",
+        "affective computing",
+        "emotion recognition",
+        "3D morphable model",
+        "geometric decoupling",
+        "graph neural network"
+      ],
+      "research_directions": [
+        "identity-invariant affective feature learning",
+        "multimodal (geometric + textural) fusion for AU detection",
+        "generalizable facial expression analysis"
+      ]
+    }
+  },
+  "de73fe74e1c0bb8f478ec2b2760b201388cfcbf574c04bb49584f065303f1ad3": {
+    "paper_id": "https://openalex.org/W4402112152",
+    "title": "Hierarchical Distribution Adaptation for Unsupervised Cross-corpus Speech Emotion Recognition",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:22.141Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper's title explicitly mentions 'Speech Emotion Recognition', directly aligning with the researcher's interest topic 'emotion'. The concept list includes 'Emotion recognition' as a top-level concept, and related domains (speech recognition, psychology, neuroscience) further support affective computing relevance.",
+      "evidence": [
+        "Title: 'Hierarchical Distribution Adaptation for Unsupervised Cross-corpus Speech Emotion Recognition'",
+        "Concepts include 'Emotion recognition', 'Psychology', 'Neuroscience'"
+      ],
+      "keywords": [
+        "speech emotion recognition",
+        "cross-corpus adaptation",
+        "unsupervised learning",
+        "affective computing",
+        "emotion classification"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion analysis",
+        "domain adaptation in emotion recognition",
+        "unsupervised transfer learning for affective signals"
+      ]
+    }
+  },
+  "0bf43dcef162e92c429b6afe893149d035d1f69538343eaba118f0dd0aeda765": {
+    "paper_id": "https://openalex.org/W4415624406",
+    "title": "Coupled Sparse Subspace Alignment-Based Domain Adaptation for Speech Emotion Recognition",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:22.180Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on speech emotion recognition (SER), a core affective computing task, and directly addresses emotion-related challenges in cross-domain settings under the researcher's stated interest topic 'emotion'.",
+      "evidence": [
+        "Title contains 'Speech Emotion Recognition'",
+        "Abstract states 'Speech emotion recognition (SER) is crucial for human–computer interaction (HCI)'",
+        "Method (CSSA) is designed specifically to improve SER performance across domains with emotional guidance via pseudolabel matrix"
+      ],
+      "keywords": [
+        "speech emotion recognition",
+        "domain adaptation",
+        "affective computing",
+        "sparse subspace alignment",
+        "cross-domain learning"
+      ],
+      "research_directions": [
+        "affective signal processing",
+        "emotion-aware human-computer interaction",
+        "robust emotion modeling under domain shift",
+        "unsupervised/semi-supervised emotion recognition"
+      ]
+    }
+  },
+  "b75c0bb64f58cd78251c9dd5b42f03d9b733c4883cf676affeeb530f9ab13bfc": {
+    "paper_id": "https://openalex.org/W4414956229",
+    "title": "Feature Evaluation and Joint Interaction for Audio-Visual Emotion Recognition",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:22.368Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.99,
+      "reason": "The paper is explicitly focused on emotion recognition, aligns directly with the researcher's stated interest topic 'emotion', and contributes to affective computing through audio-visual multimodal modeling.",
+      "evidence": [
+        "Title contains 'Audio-Visual Emotion Recognition'",
+        "Abstract states 'Automatic emotion recognition has attracted significant attention' and evaluates on emotion-specific datasets (DFEW, AFEW, Ekman6)",
+        "Method targets challenges inherent in real-world affective computing (e.g., interference, modality imbalance, dynamic feature quality)"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "multimodal learning",
+        "audio-visual fusion",
+        "feature evaluation",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion analysis",
+        "robust emotion recognition in-the-wild",
+        "feature quality assessment for affective signals"
+      ]
+    }
+  },
+  "31c46e202d6ca63657428c081e85fa18e5b1f6bc6da13648744b8a1acb1abb7c": {
+    "paper_id": "https://openalex.org/W4414871582",
+    "title": "Adaptive Key Role Guided Hierarchical Relation Inference for Enhanced Group-level Emotion Recognition",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:22.495Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on group-level emotion recognition, aligns with the researcher's stated interest in 'emotion', is published in IEEE Transactions on Affective Computing (a top-tier affective computing venue), and employs affective modeling techniques centered on emotional dynamics in social groups.",
+      "evidence": [
+        "Title contains 'Group-level Emotion Recognition'",
+        "Venue: IEEE Transactions on Affective Computing",
+        "Abstract emphasizes 'enhanced group-level emotion recognition (GER)' and 'conveying group-level emotions'"
+      ],
+      "keywords": [
+        "group-level emotion recognition",
+        "affective computing",
+        "hierarchical relation inference",
+        "key role identification",
+        "multi-branch interaction"
+      ],
+      "research_directions": [
+        "affective behavior analysis in groups",
+        "relational modeling for emotion",
+        "scene-aware affective representation learning",
+        "robust emotion recognition under social context"
+      ]
+    }
+  },
+  "821d79f0119a473da76cdb6706cfe0cdbf23e80fc27ff3b81d8bfb2114478282": {
+    "paper_id": "https://openalex.org/W4402703221",
+    "title": "A Survey of Deep Learning for Group-level Emotion Recognition",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:22.596Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is directly focused on group-level emotion recognition—a core subfield of affective computing—and aligns precisely with the researcher's stated interest in 'emotion'. It surveys deep learning methods specifically for modeling and recognizing emotions at the group level, integrating psychological and neuroscientific perspectives.",
+      "evidence": [
+        "Title explicitly includes 'Group-level Emotion Recognition'",
+        "Abstract states GER is 'an important area in analyzing human behavior' and emphasizes emotion diversity/dynamics",
+        "Concepts include 'Emotion recognition', 'Psychology', 'Cognitive psychology', and 'Neuroscience'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "group-level emotion",
+        "deep learning",
+        "affective computing",
+        "behavioral analysis"
+      ],
+      "research_directions": [
+        "deep learning for collective affect modeling",
+        "multimodal group emotion datasets",
+        "dynamic emotion propagation in groups",
+        "interpretable neural models for emotion",
+        "cross-cultural group emotion recognition"
+      ]
+    }
+  },
+  "06367d2cf852009c54a2880adf43cb2c94d817b0a9c02e40a97d9b5b6b5b5379": {
+    "paper_id": "https://openalex.org/W4402980039",
+    "title": "A Novel Decoupled Prototype Completion Network for Incomplete Multimodal Emotion Recognition",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:22.694Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is explicitly focused on multimodal emotion recognition, directly aligning with the researcher's stated interest in 'emotion'. It introduces a novel method for handling missing modalities in emotion recognition tasks, with core contributions centered on improving emotion classification accuracy and distribution consistency in affective computing.",
+      "evidence": [
+        "Title contains 'Incomplete Multimodal Emotion Recognition'",
+        "Abstract repeatedly references 'Emotion Recognition (MER)', 'distribution-consistent modality', and uses datasets (CMU-MOSI, IEMOCAP) standard for affective computing",
+        "Concepts include 'Emotion recognition' as a top-level concept"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "multimodal learning",
+        "prototype learning",
+        "modality completion",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Multimodal human-computer interaction",
+        "Robust emotion modeling under data scarcity",
+        "Representation learning for affective signals"
+      ]
+    }
+  },
+  "2920d74e6954793fa2697a7e18035d5c17d94cf18847af9aa1266825192b5abe": {
+    "paper_id": "https://openalex.org/W4406058602",
+    "title": "Temporal Label Hierachical Network for Compound Emotion Recognition",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:22.759Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on compound emotion recognition, aligns with the researcher's stated interest in 'emotion', and employs affective computing techniques grounded in psychological constructs (e.g., valence-arousal) and AI methods for temporal emotion modeling.",
+      "evidence": [
+        "Title contains 'Compound Emotion Recognition'",
+        "Abstract states 'emotion recognition has attracted more attention' and targets 'compound emotion recognition that occurred commonly in practical application'",
+        "Method uses 'valence arousal of various complex emotions' and 'coarse-to-fine classification framework in the label space'"
+      ],
+      "keywords": [
+        "compound emotion",
+        "temporal emotion modeling",
+        "valence-arousal",
+        "affective computing",
+        "emotion recognition",
+        "label hierarchy"
+      ],
+      "research_directions": [
+        "Affective AI",
+        "Multimodal emotion analysis",
+        "Psychologically-informed machine learning",
+        "Temporal dynamics of emotion"
+      ]
+    }
+  },
+  "6694450475902e97e22a284baf7eeae27aa594957fe10fb052d03a0b1b81a691": {
+    "paper_id": "https://openalex.org/W4395659653",
+    "title": "Multi-scale 3D-CRU for EEG emotion recognition*",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:22.780Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.98,
+      "confidence": 0.99,
+      "reason": "The paper explicitly focuses on EEG-based emotion recognition, aligning directly with the researcher's interest topic 'emotion'. It proposes a novel deep learning architecture (3D-CRU) specifically designed to extract discriminative emotional features from neurophysiological signals.",
+      "evidence": [
+        "Title contains 'EEG emotion recognition'",
+        "Abstract states 'goal of extracting more discriminative emotion feature from EEG signals'",
+        "Evaluates performance on emotion-labeled datasets DEAP and SEED"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "EEG",
+        "affective computing",
+        "3D-CNN",
+        "GRU",
+        "valence",
+        "arousal",
+        "DEAP",
+        "SEED"
+      ],
+      "research_directions": [
+        "affective neuroscience",
+        "biomedical signal processing",
+        "deep learning for emotion classification",
+        "multimodal affective computing",
+        "neuroadaptive interfaces"
+      ]
+    }
+  },
+  "83ff566e70cc5d58acb766688697d240a42b3292b852bfae5c6dd333e11b06fa": {
+    "paper_id": "https://openalex.org/W4399527282",
+    "title": "Controllable Multi-Speaker Emotional Speech Synthesis With an Emotion Representation of High Generalization Capability",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:22.792Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.98,
+      "confidence": 0.99,
+      "reason": "The paper is directly focused on emotional speech synthesis with explicit emphasis on emotion representation, controllability, and generalization—core themes aligned with the researcher's interest in 'emotion'. It is published in IEEE Transactions on Affective Computing, a premier venue for affective computing research.",
+      "evidence": [
+        "Title explicitly contains 'Emotional Speech Synthesis' and 'Emotion Representation'",
+        "Venue: IEEE Transactions on Affective Computing",
+        "Abstract emphasizes 'emotion embedding', 'emotion category and intensity control', and 'emotion recognition/classification' concepts"
+      ],
+      "keywords": [
+        "emotional speech synthesis",
+        "emotion embedding",
+        "emotion controllability",
+        "emotion generalization",
+        "affective computing",
+        "multi-speaker synthesis"
+      ],
+      "research_directions": [
+        "affective speech synthesis",
+        "emotion representation learning",
+        "controllable affective generation",
+        "cross-speaker emotion transfer"
+      ]
+    }
+  },
+  "c392154a1cc3b60d14ed695df011079405f16b34c8947c253ed739565bd9d44c": {
+    "paper_id": "https://openalex.org/W4404238578",
+    "title": "Towards Domain-Specific Cross-Corpus Speech Emotion Recognition Approach",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:22.798Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is explicitly focused on speech emotion recognition, directly aligning with the researcher's interest topic 'emotion'. It proposes a novel method (AKTLR) specifically designed for cross-corpus emotion recognition, with empirical validation on standard emotion corpora and emphasis on emotion-discriminative features.",
+      "evidence": [
+        "Title contains 'Speech Emotion Recognition'",
+        "Abstract repeatedly emphasizes 'emotion-discriminative features', 'cross-corpus SER', and evaluation on EmoDB/eNTERFACE/CASIA — established emotion corpora",
+        "Concepts include 'Emotion recognition' as a top-level concept"
+      ],
+      "keywords": [
+        "speech emotion recognition",
+        "cross-corpus transfer",
+        "emotion-discriminative features",
+        "acoustic knowledge",
+        "transfer subspace learning"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multidomain emotion modeling",
+        "robust emotion recognition under distribution shift",
+        "interpretable feature selection for emotion"
+      ]
+    }
+  },
+  "9998e2e799fe2dc5d93fd70e0ba45a8e9d681950a61df228c896e60870596033": {
+    "paper_id": "https://openalex.org/W4393217352",
+    "title": "Layer-Adapted Implicit Distribution Alignment Networks for Cross-Corpus Speech Emotion Recognition",
+    "researcher_name": "Wenming Zheng",
+    "researcher_openalex_author_id": "A5029771864",
+    "updated_at": "2026-02-20T15:15:22.854Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on speech emotion recognition (SER), directly aligning with the researcher's interest topic 'emotion'. It introduces a novel method (LIDAN) specifically designed to improve cross-corpus emotion classification robustness, with core components (IDA, LIDA) engineered for emotion-discriminative feature learning.",
+      "evidence": [
+        "Title contains 'Speech Emotion Recognition'",
+        "Abstract states 'address the challenge of cross-corpus speech emotion recognition (SER)'",
+        "Concepts include 'Emotion recognition' as a top-level concept"
+      ],
+      "keywords": [
+        "speech emotion recognition",
+        "domain adaptation",
+        "implicit distribution alignment",
+        "cross-corpus learning",
+        "emotion-discriminative features"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion analysis",
+        "unsupervised domain adaptation for affective signals",
+        "robust emotion recognition across datasets"
+      ]
+    }
   }
 }

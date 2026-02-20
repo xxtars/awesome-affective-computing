@@ -409,5 +409,612 @@
         "unsupervised emotion adaptation"
       ]
     }
+  },
+  "e750f6071d667bb1a128beb250f3c184d454fcb8c868ba04bdfff5898a6b5f62": {
+    "paper_id": "https://openalex.org/W4406802533",
+    "title": "Multi-unmanned ground vehicle formation and motion planning based on graph and fluid disturbance algorithm under external disturbances",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:10.781Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on control theory, motion planning, and robotics for unmanned ground vehicles; 'emotion' is not mentioned or implied in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "No mention of emotion, affect, sentiment, or psychological constructs in any metadata field"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ce97f4610baba9f434a1d13c2276f1f3fe8615423f4ea2fa22bbdb4877d344d1": {
+    "paper_id": "https://openalex.org/W4408667390",
+    "title": "Insufficient task description can impair in-context learning: A study from information perspective",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:10.835Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on in-context learning and information-theoretic analysis of task descriptions, with no explicit or implicit connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics specify 'emotion', but paper concepts include AI, task, context, information fusion—none emotion-related"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "fdc64603673a80a309c18b6f8f72c8b41affefec3b4c38cb7b23ff1f7a411f0d": {
+    "paper_id": "https://openalex.org/W4405969487",
+    "title": "Multi-source domain adaptation for panoramic semantic segmentation",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:10.896Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on domain adaptation for panoramic semantic segmentation, a computer vision task with no explicit connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include computer vision, segmentation, and domain adaptation; 'Psychology' appears as a broad concept but lacks emotional/affective context."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2824fcbfbf3d706750d2694e381966e76b8403f2ffe1c97dd514f9d3cbd4baf0": {
+    "paper_id": "https://openalex.org/W4408145788",
+    "title": "Cable defect diagnosis based on multi-scale composite-dynamic supervised contrast network",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:10.924Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cable defect diagnosis using deep learning and contrastive learning for signal processing; no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Abstract discusses TMR sensors, partial discharge signals, PRPD maps, and fault diagnosis—no emotion-related constructs or terminology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "232fac2443f5b9e129eed36de290fa31628940bfbaf49c4b2e9ac03358bc9ace": {
+    "paper_id": "https://openalex.org/W4411951394",
+    "title": "Challenges and progress of object detection technology in open environments",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:10.976Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on object detection in open environments, with no mention of emotion, affect, or related psychological, behavioral, or affective computing concepts.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical (e.g., 'domain shift', 'incremental learning', 'robustness')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1451024eb00e1b2a7fdd3e1aea584bce6264ed1651c1d3be930801ec5b410039": {
+    "paper_id": "https://openalex.org/W4406526575",
+    "title": "Mixed Attention and Channel Shift Transformer for Efficient Action Recognition",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.023Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on efficient action recognition using transformer architectures and channel shift operations, with no mention of emotion, affect, sentiment, or any affective computing concepts.",
+      "evidence": [
+        "Abstract and concepts exclusively cover action recognition, transformer models, computational efficiency, and video processing—no emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d64996b23bcdd0dba935d8961b7d34f3bf5efb276bb4911885bae167c882c8a2": {
+    "paper_id": "https://openalex.org/W4415820816",
+    "title": "DAR-Prompt: Dynamic Regulation in Prompt Tuning for Multi-Label Zero-Shot Learning",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.041Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on prompt tuning, class imbalance mitigation, and gradient regularization in multi-label zero-shot learning; no mention of emotion, affect, sentiment, or related psychological or computational affective science concepts.",
+      "evidence": [
+        "Abstract contains no emotion-related terms or tasks; core contributions are algorithmic and optimization-focused for vision classification."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "676ac0579ae5a262f7953d947b1bf0cd6af3dc0258c30836f2b0919b703b64df": {
+    "paper_id": "https://openalex.org/W4406903228",
+    "title": "Spatio-Temporal Attention for Text-Video Retrieval",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.054Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on spatio-temporal attention mechanisms for text-video retrieval and contains no mention of emotion, affect, sentiment, or any affective constructs in title, abstract, or listed concepts.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are purely technical: 'Video retrieval', 'Information retrieval', 'Multimedia'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "94878a084954ee71fd62600f58249110d28822ab3f170a40f3c267b039e879fc": {
+    "paper_id": "https://openalex.org/W4411120062",
+    "title": "Mitigating Hallucinations in Multi-modal Large Language Models via Image Token Attention-Guided Decoding",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.055Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mitigating hallucinations in multi-modal LLMs using image token attention-guided decoding, with no mention or conceptual link to emotion, affective computing, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Concepts include 'Decoding methods', 'Modal', 'Algorithm', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ec777a94545b4d6ce1b6ee82a2929ee224deb5d6e31792d00f1366b05cf911b6": {
+    "paper_id": "https://openalex.org/W4408146451",
+    "title": "Novel multi-scale lightweight network cable defect diagnosis based on adaptive pruning",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.057Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on lightweight neural network design for cable defect diagnosis using adaptive pruning and edge computing; no mention of emotion, affective computing, or related psychological/physiological constructs.",
+      "evidence": [
+        "Title and abstract exclusively address fault diagnosis, pruning, multi-scale convolution, and edge computing in high-voltage cables."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8a2f7698dc1fef02046b31c5f8e6540eb8f2e4524352a6e263caa5bd48b63101": {
+    "paper_id": "https://openalex.org/W4417284021",
+    "title": "LLaVA-MLB: Mitigating and Leveraging Attention Bias for Training-Free Video LLMs",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.076Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on attention bias mitigation and leveraging in video LLMs, with no mention or conceptual connection to emotion, affect, or related psychological, computational, or multimodal affective phenomena.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; topics are purely architectural/attention-based for video understanding."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5bb7c258ee85ce9cc09beed1a0a642197cfedc926f564ef8a2e9604356c77b5e": {
+    "paper_id": "https://openalex.org/W4408355406",
+    "title": "Gaussian Constrained Diffeomorphic Deformation Network for Panoramic Semantic Segmentation",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.081Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on geometric image deformation and domain adaptation for panoramic semantic segmentation; no mention of emotion, affect, sentiment, or any psychological/behavioral constructs related to affective science.",
+      "evidence": [
+        "All concepts and methods are computer vision/AI-focused: diffeomorphism, Gaussian kernels, segmentation, domain adaptation."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "82ea39783b9f2a5abdc36aa951e0c1f4e1730a1584a1599a0942fb8ac4b1872a": {
+    "paper_id": "https://openalex.org/W4417257992",
+    "title": "DiscoVLA: Discrepancy Reduction in Vision, Language, and Alignment for Parameter-Efficient Video-Text Retrieval",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.082Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on parameter-efficient video-text retrieval and discrepancy reduction in vision, language, and alignment; no mention of emotion, affect, sentiment, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; core concepts are vision-language alignment, video-text retrieval, and model adaptation."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4a6d92987281540c8b75cfa267cd86551f4860aa6cd9ace0f1d2352166addf5e": {
+    "paper_id": "https://openalex.org/W4408974112",
+    "title": "Adversarial temporal sentence grounding by learning from external data",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.083Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on adversarial temporal sentence grounding, a task in natural language processing and computer vision alignment, with no explicit or implied connection to emotion or affective computing.",
+      "evidence": [
+        "Concepts include 'Adversarial system', 'Natural language processing', 'Machine learning' — none relate to emotion or affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "dc27ae701d33289e1df09c8a202a250295b14280725090b4880e55fea7107ec4": {
+    "paper_id": "https://openalex.org/W4414695304",
+    "title": "Advancing Reliable Test-Time Adaptation of Vision-Language Models under Visual Variations",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.105Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on test-time adaptation of vision-language models under visual distribution shifts, with no mention of emotion, affect, sentiment, or related psychological or computational affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; core concepts are entropy, cache-based adaptation, distribution calibration, and visual variations."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4c86a003d0db2c807878c10c2a9fc3ab5feb75e5b170f72803aba01445fe0bf0": {
+    "paper_id": "https://openalex.org/W4417283153",
+    "title": "FastVID: Dynamic Density Pruning for Fast Video Large Language Models",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.142Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computational efficiency and token pruning for video large language models, with no mention of emotion, affect, sentiment, or any psychological/behavioral constructs related to affective science.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; core concepts are 'token pruning', 'FLOPs', 'temporal structure', 'video understanding'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2a29608a03c6e9b319da273e207e326763570e2913629c656a6820c67b5aa8c9": {
+    "paper_id": "https://openalex.org/W4405469751",
+    "title": "From Easy to Hard: Progressive Active Learning Framework for Infrared Small Target Detection with Single Point Supervision",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.142Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on infrared small target detection using active learning and single-point supervision; no mention of emotion, affect, sentiment, or any psychological/behavioral affective constructs.",
+      "evidence": [
+        "All concepts and the abstract pertain to computer vision, machine learning, and infrared imaging—no affective or emotion-related terms appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7a7ea60d7c51ef11d89d868374f7ea3814aa1347261fdb8ab7a6104f10baef37": {
+    "paper_id": "https://openalex.org/W4404851265",
+    "title": "Large Language Model Enhanced Logic Tensor Network for Stance Detection",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.159Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on stance detection using logic tensor networks and LLMs, with no explicit connection to emotion modeling, affective computing, or affective science.",
+      "evidence": [
+        "Interest topics specify 'emotion', but paper concepts are purely technical: AI, NLP, tensor mathematics, and stance detection—no affective/emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f365a984a99af2c20c2b3367ee920ac7a7c2b7298f403df28169af70608b8d87": {
+    "paper_id": "https://openalex.org/W4404988635",
+    "title": "HEIE: MLLM-Based Hierarchical Explainable AIGC Image Implausibility Evaluator",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.203Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on AIGC image implausibility evaluation, explainability, and multimodal reasoning—not emotion or affective computing.",
+      "evidence": [
+        "Interest topics are 'emotion', but the paper's concepts and abstract center on image quality assessment, heatmap prediction, and MLLM-based reasoning without any mention of emotion, affect, sentiment, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3bb7dbfe772424ceb35cbadad36455bf28deaceb82d80f46d0e9c2fb53bf0dab": {
+    "paper_id": "https://openalex.org/W4409367190",
+    "title": "Feature Denoising Diffusion Model for Blind Image Quality Assessment",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.272Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical feature denoising for image quality assessment using diffusion models; no engagement with emotion constructs, affective states, or psychological emotion modeling.",
+      "evidence": [
+        "Abstract and concepts emphasize 'feature denoising', 'diffusion', 'image quality', and 'human perception' in a low-level perceptual/technical sense—not affective or emotional processing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e7d1b92037d697b307475e84c339b72840539e7b82538c394dd01a5ce68154a6": {
+    "paper_id": "https://openalex.org/W4408300204",
+    "title": "Study on Self‐Healing Technology of Epoxy Resin for Insulator Core Rods",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.279Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on materials science and engineering aspects of self-healing epoxy resins for electrical insulators, with no conceptual, methodological, or empirical connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and abstract content pertain to microcapsules, UV curing, mechanical/electrical damage repair, and polymer insulation—no emotion-related terms or constructs appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d245c63f4a5a7cae1852ff67ad1ca0c3aff99a0a5c30e1ad83303f5849b26ece": {
+    "paper_id": "https://openalex.org/W4409678579",
+    "title": "Effect of compound glycyrrhizin combined with fractional CO2 laser on the improvement of skin lesions and skin barrier function in rosacea",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.283Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on dermatological treatment of rosacea and skin barrier function; 'emotion' appears only as a minor contextual mention (psychological factors) with no analysis, measurement, or modeling of affective states.",
+      "evidence": [
+        "'Psychological factors' are listed as one of several complex causes of rosacea, but no emotion-related constructs, methods, or outcomes are studied."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "61205a5d61dc190c59b5a321ad8dd8e2224410b6a587d909ae39947dbbb70aca": {
+    "paper_id": "https://openalex.org/W4414229233",
+    "title": "Source-Free Object Detection With Detection Transformer",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.375Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on source-free object detection with Detection Transformers and contains no emotion-related concepts, methods, or applications.",
+      "evidence": [
+        "Abstract mentions 'object detection', 'DETR', 'feature reweighting', 'contrastive learning', and 'self-training'—all computer vision/ML topics; no mention of emotion, affect, sentiment, or related psychological or affective computing constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "76561e952de4bd9c8e3e311d38ec39da60ea27e43082b05ff35b2cd8bc2986af": {
+    "paper_id": "https://openalex.org/W4409129229",
+    "title": "Cross-Modality Prompts: Few-Shot Multi-Label Recognition With Single-Label Training",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.530Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on few-shot multi-label recognition using cross-modality prompts, with no explicit connection to emotion or affective computing in title, venue, concepts, or available metadata.",
+      "evidence": [
+        "Concepts include 'Multi-label classification', 'Modality (human–computer interaction)', and 'Artificial intelligence', but none mention emotion, affect, sentiment, or related psychological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a62fa837144b894e8fd656be7ae1882f474d58edb96b916cded830865bbe5a4d": {
+    "paper_id": "https://openalex.org/W4405284100",
+    "title": "Multi-source multi-modal domain adaptation",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:11.677Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper's title and concepts focus on domain adaptation across modalities, with no explicit mention of emotion, affect, or psychological constructs related to affective computing; 'Psychology' in concepts is too broad and not linked to emotion in context.",
+      "evidence": [
+        "Concepts include 'Computer science', 'Domain adaptation', 'Modal', but no emotion-related terms like 'affect', 'sentiment', 'emotion recognition', or 'affective computing'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f59e4a09c161ebad76abd3ac8591578554f656d2f8b130eeb2e5ec62771b9eb2": {
+    "paper_id": "https://openalex.org/W4414372614",
+    "title": "Emotional Conflict Adaptation for Multimodal Sentiment Analysis",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:12.320Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper title explicitly contains 'Emotional Conflict Adaptation' and 'Multimodal Sentiment Analysis', both of which are core affective computing topics directly aligned with the researcher's stated interest in 'emotion'.",
+      "evidence": [
+        "Title: 'Emotional Conflict Adaptation for Multimodal Sentiment Analysis'"
+      ],
+      "keywords": [
+        "emotional conflict",
+        "sentiment analysis",
+        "multimodal emotion",
+        "affective adaptation",
+        "emotion regulation (computational)"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion recognition",
+        "emotion dynamics",
+        "conflict-driven emotion modeling",
+        "sentiment-emotion interaction"
+      ]
+    }
+  },
+  "6cdbbaf5c339dfa1ead9bc68526087716ce439e0d4d9cadb8c1003187ca8e89f": {
+    "paper_id": "https://openalex.org/W4405626237",
+    "title": "Bridge then Begin Anew: Generating Target-relevant Intermediate Model for Source-free Visual Emotion Adaptation",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:12.616Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses visual emotion recognition (VER) and introduces a source-free domain adaptation method specifically for emotion-related tasks, aligning precisely with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Title explicitly includes 'Visual Emotion Adaptation'",
+        "Abstract defines VER as 'understanding humans' emotional reactions toward different visual stimuli'",
+        "Problem motivation centers on challenges inherent to emotion annotation (subjectivity, ambiguity)"
+      ],
+      "keywords": [
+        "visual emotion recognition",
+        "source-free domain adaptation",
+        "emotion adaptation",
+        "domain bridging",
+        "intermediate model generation"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware AI",
+        "privacy-preserving affective modeling",
+        "cross-domain emotion transfer"
+      ]
+    }
+  },
+  "943188f4f41acdec69ab8863dd9877cf319d9d5ca9b06fc5c5793f2bbfaef390": {
+    "paper_id": "https://openalex.org/W4408346012",
+    "title": "Open-Vocabulary Visual Emotion Adaptation via Prompt Learning",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:12.993Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses visual emotion recognition using psychological emotion models and prompt learning for open-vocabulary adaptation — aligning precisely with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Title explicitly includes 'Visual Emotion Adaptation'",
+        "Abstract states goal is 'open-vocabulary visual emotion UDA' and leverages 'psychological emotion models'",
+        "Core contribution (DSEP) unifies emotion labels into a common space using ensemble prompting grounded in emotion theory"
+      ],
+      "keywords": [
+        "visual emotion recognition",
+        "open-vocabulary adaptation",
+        "prompt learning",
+        "psychological emotion models",
+        "unsupervised domain adaptation"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware AI",
+        "cross-domain emotion understanding",
+        "human-centered emotion modeling",
+        "multimodal emotion analysis"
+      ]
+    }
+  },
+  "806b705bdc06f7de35f824849e65a0901d523223d3c1daa326ff968aa89a8f60": {
+    "paper_id": "https://openalex.org/W4407213255",
+    "title": "SDRS: Sentiment-Aware Disentangled Representation Shifting for Multimodal Sentiment Analysis",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:13.674Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is explicitly focused on sentiment analysis—a core affective/emotion-related task—and is published in IEEE Transactions on Affective Computing, a top-tier venue dedicated to emotion and affective computing. The method (SDRS) centers on disentangling sentiment-specific representations, directly aligning with emotion modeling.",
+      "evidence": [
+        "Title contains 'Sentiment-Aware' and targets 'Multimodal Sentiment Analysis'",
+        "Published in IEEE Transactions on Affective Computing",
+        "Abstract states goal is 'affective understanding of user-generated videos'"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "affective computing",
+        "multimodal representation",
+        "emotion representation",
+        "disentangled learning"
+      ],
+      "research_directions": [
+        "affective multimodal learning",
+        "emotion representation disentanglement",
+        "cross-modal affective alignment",
+        "sentiment-aware neural architectures"
+      ]
+    }
+  },
+  "5df1381f0b34b233052650c32744c1f90b52324575fee3a1f7c6ecf5479caa17": {
+    "paper_id": "https://openalex.org/W4408349673",
+    "title": "Research advancements on emotionally and intellectually integrated digital humans and robotics",
+    "researcher_name": "Sicheng Zhao",
+    "researcher_openalex_author_id": "A5051149140",
+    "updated_at": "2026-02-20T15:08:13.710Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on emotion-integrated digital humans and robotics, with core themes including emotional mechanism modeling, multimodal affective-cognitive fusion, personalized emotional representation, and interactive emotional content generation — all directly aligned with 'emotion' as the researcher's stated interest topic.",
+      "evidence": [
+        "Title contains 'emotionally and intellectually integrated'",
+        "Abstract emphasizes 'emotional understanding', 'personalized response', 'brain-cognition-driven emotional mechanism', and 'affective intelligence technology'",
+        "Concepts include Psychology and Human–computer interaction, supporting affective computing context"
+      ],
+      "keywords": [
+        "emotion",
+        "affective computing",
+        "emotional intelligence",
+        "digital human",
+        "multimodal emotion modeling",
+        "human-robot interaction"
+      ],
+      "research_directions": [
+        "Emotion-cognition integration in AI",
+        "Multimodal affective modeling",
+        "Personalized emotional response systems",
+        "Affective human-computer interaction",
+        "Emotion-aware robotics"
+      ]
+    }
   }
 }

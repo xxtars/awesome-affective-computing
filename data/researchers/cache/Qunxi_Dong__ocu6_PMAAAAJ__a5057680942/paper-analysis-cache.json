@@ -490,5 +490,733 @@
         "emotion modeling"
       ]
     }
+  },
+  "5a8f5e324de0670d141ff288e8c85024cb481c3e7d5f65f7cac4e178323107df": {
+    "paper_id": "https://openalex.org/W4392488921",
+    "title": "DECIDER: A Dual-System Rule-Controllable Decoding Framework for Language Generation",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:06.767Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cognitive dual-process theory and rule-based constrained decoding for LLMs, with no mention or conceptual linkage to emotion, affect, or affective science.",
+      "evidence": [
+        "Interest topic is 'emotion', but paper's concepts and abstract center on logic, cognition, decoding methods, and AI—no affective/emotion-related terms or constructs appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e37e6c30440154589c907d3352c3d3837f54e9bf570495a3f9f42cf02415e07c": {
+    "paper_id": "https://openalex.org/W3131127151",
+    "title": "Predicting future cognitive decline with hyperbolic stochastic coding",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:06.817Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on predicting cognitive decline using mathematical and AI-based coding methods; 'emotion' is not indicated in title, venue, concepts, or abstract.",
+      "evidence": [
+        "Concepts include Cognition, Cognitive decline, Artificial intelligence, Mathematics — no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "22e1449e4915c23e35d244f2c8890b0e8955adbc38c292844ef9e5af6c6731ab": {
+    "paper_id": "https://openalex.org/W4388626915",
+    "title": "Learning Representations from Heart Sound: A Comparative Study on Shallow and Deep Models",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:06.908Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on heart sound classification using AI models and has no connection to emotion or affective computing.",
+      "evidence": [
+        "All concepts and the abstract center on biomedical signal processing, machine learning benchmarks, and cardiac diagnostics—not emotion recognition or affective states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "edc69ce84c85cc80b2daaf3a27969ac94b739875245bce7c7475687213aa0d1b": {
+    "paper_id": "https://openalex.org/W3133186380",
+    "title": "Conflict processing networks: A directional analysis of stimulus-response compatibilities using MEG",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:07.130Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on conflict processing, executive functions, and directional neural connectivity using MEG — core topics in cognitive neuroscience, not affective/emotion science.",
+      "evidence": [
+        "No mention of emotion, affect, valence, arousal, mood, or emotion-related constructs in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b28eaaf386fdf1392b02f14bbb2afbc2c0e369009d8042c418fa6c28b1fbad6c": {
+    "paper_id": "https://openalex.org/W4362454096",
+    "title": "Classification of Alzheimer's disease based on hippocampal multivariate morphometry statistics",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:07.143Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hippocampal morphometry and AI-based classification of Alzheimer's disease; no mention of emotion, affective processes, or related psychological/physiological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords pertain to neuroimaging, statistics, and neurodegenerative disease diagnosis."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "82e1cd11a77cb42618159ada053eea541a940a21aaba0955517fbd0cd273d78e": {
+    "paper_id": "https://openalex.org/W3022443684",
+    "title": "Integrating Convolutional Neural Networks and Multi-Task Dictionary Learning for Cognitive Decline Prediction with Longitudinal Images",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:07.148Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cognitive decline prediction in Alzheimer's disease using CNNs and multi-task dictionary learning; no mention of emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Abstract and metadata exclusively reference cognition, neuroimaging, MMSE, ADAS-Cog — all clinical cognitive metrics, not emotional or affective measures."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e132284519e6379422cacbe5ec07d4cbffe13405056e9a4604d95e423d01b7ed": {
+    "paper_id": "https://openalex.org/W4386495275",
+    "title": "An FFT-Based DC Offset Compensation and I/Q Imbalance Correction Algorithm for Bioradar Sensors",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:07.165Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a technical signal processing algorithm for bioradar hardware calibration, with no conceptual, methodological, or applied connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract focus on FFT, DC offset, I/Q imbalance, demodulation, and SNR improvement in cardiopulmonary signal acquisition."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "84526b1fcd172896b042d0be1c6a61a3848f3313400ab97059771cc6dae74f96": {
+    "paper_id": "https://openalex.org/W4321484081",
+    "title": "Risk Prediction of Alzheimer’s Disease Conversion in Mild Cognitive Impaired Population Based on Brain Age Estimation",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:07.175Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on brain age estimation and Alzheimer's disease risk prediction in mild cognitive impairment; no mention of emotion, affective processes, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords pertain to neuroimaging, dementia, and clinical risk modeling."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "aa8a1fad2fcc25136765a11fe0b973f6c67bd41b537cf9fd62de9460fef76fda": {
+    "paper_id": "https://openalex.org/W4391242892",
+    "title": "Physiological Electrosignal Asynchronous Acquisition Technology: Insight and Perspectives",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:07.176Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is an editorial introduction to a journal issue, not a research article on emotion; 'emotion' appears only as generic positive sentiment words (pride, enthusiasm) in rhetorical context.",
+      "evidence": [
+        "Abstract is a journal editorial announcing TCSS 2024 volume, with no empirical or theoretical treatment of emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e02720560885cf972a8b4bd57daf0ed7907747bb85662960b94611b7779ffd6e": {
+    "paper_id": "https://openalex.org/W4297231521",
+    "title": "Genetic influences on the shape of brain ventricular and subcortical structures",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:07.210Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on genetic influences on brain structure shape, with no mention of emotion, affective processes, or emotion-related constructs.",
+      "evidence": [
+        "Abstract and concepts emphasize genetics, brain morphometry, and neuropsychiatric disorders (e.g., schizophrenia, ADHD) but do not reference emotion, affect, mood, or related psychological mechanisms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cee04387448b5079c22216bd74ad6f67bc9d3a74589620bb4b8ff5d2855c2732": {
+    "paper_id": "https://openalex.org/W3192654745",
+    "title": "Predicting Brain Amyloid Using Multivariate Morphometry Statistics, Sparse Coding, and Correntropy: Validation in 1,101 Individuals From the ADNI and OASIS Databases",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:07.245Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on neuroimaging-based prediction of amyloid pathology in Alzheimer's disease using computational methods; no mention or conceptual link to emotion, affective processes, or related psychological constructs.",
+      "evidence": [
+        "Abstract and metadata emphasize biomarkers, MRI, sparse coding, and Alzheimer's disease — no emotion-related terms or affective neuroscience concepts"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "55d7df27a73bf0fe6b80be4ca6263832532d8614c96cf960653b226c3d105702": {
+    "paper_id": "https://openalex.org/W3093983570",
+    "title": "Developing univariate neurodegeneration biomarkers with low-rank and sparse subspace decomposition",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:07.281Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computational neuroimaging biomarkers for neurodegeneration, with no indication of emotion or affective processing in title, venue, concepts, or stated interests.",
+      "evidence": [
+        "Concepts include 'Neurodegeneration', 'Alzheimer's Disease Neuroimaging Initiative', 'Cognitive decline' — all clinical/neurological, not affective"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a038ebde0a42320272a2e3b8fae45d91860de06ebf09d35975f62bb625f17b3c": {
+    "paper_id": "https://openalex.org/W3171948477",
+    "title": "Tetrahedral spectral feature-Based bayesian manifold learning for grey matter morphometry: Findings from the Alzheimer’s disease neuroimaging initiative",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:07.358Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computational neuroimaging and Bayesian manifold learning for grey matter morphometry in Alzheimer's disease, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Interest topic is 'emotion', but all listed concepts (e.g., neuroimaging, machine learning, brain morphometry) are technical/computational and domain-specific to medical image analysis."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d2e53afc68a6384aaee949d77439ee0c5bcd6f8b28d76b0bc713ec84b58c7b79": {
+    "paper_id": "https://openalex.org/W4387717514",
+    "title": "Deep Fusion of Multi-Template Using Spatio-Temporal Weighted Multi-Hypergraph Convolutional Networks for Brain Disease Analysis",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:07.529Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computational neuroimaging methods for brain disease classification (MCI, ASD) using multi-template hypergraph convolutional networks; no mention of emotion, affective states, or psychological constructs related to emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all concepts are technical/computational or clinical (e.g., rs-fMRI, hypergraph, MCI, ASD)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "031d062e0f58ca100ba4d144a245ed6451a86c5acd74f24922ce5ae368d91572": {
+    "paper_id": "https://openalex.org/W3216362361",
+    "title": "Federated Morphometry Feature Selection for Hippocampal Morphometry Associated Beta-Amyloid and Tau Pathology",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:07.530Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on neuroimaging biomarkers for Alzheimer's pathology (Aβ/tau) and hippocampal atrophy, with no mention of emotion, affective processing, or related psychological constructs.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper concepts and abstract exclusively cover neuroimaging, hippocampal subregions, amyloid/tau pathology, and federated learning for morphometry."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f6073e88191e4455fb5393be56ba67f054008eccb51413072295b6f2f3d4f229": {
+    "paper_id": "https://openalex.org/W4388430545",
+    "title": "Correlation Studies of Hippocampal Morphometry and Plasma NFL Levels in Cognitively Unimpaired Subjects",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:07.825Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on neuroimaging biomarkers (plasma NFL, hippocampal morphometry) in preclinical Alzheimer's disease and has no conceptual or methodological engagement with emotion, affect, or affective processes.",
+      "evidence": [
+        "Interest topic is 'emotion', but paper concepts include Hippocampal formation, Neuroscience, Medicine — all clinical/neuroanatomical, with zero mention of emotion, affect, mood, valence, arousal, or related psychological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8fb763bfff519f7663a1a3aa0e9c20805d0a044d08b05af72616f1c99efc7a12": {
+    "paper_id": "https://openalex.org/W4385076760",
+    "title": "Artificial intelligence in psychiatry research, diagnosis, and therapy",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:08.375Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper focuses on AI applications in psychiatry, which inherently involves emotion-related conditions (e.g., depression, autism spectrum disorder) and psychological interventions; 'emotion' is explicitly listed as the researcher's interest topic.",
+      "evidence": [
+        "Interest topics: emotion",
+        "Concepts include Depression, Major depressive disorder, Psychological intervention, Psychology, Autism spectrum disorder"
+      ],
+      "keywords": [
+        "emotion",
+        "depression",
+        "psychological intervention",
+        "AI in mental health",
+        "affective disorders"
+      ],
+      "research_directions": [
+        "AI-driven emotion recognition in clinical psychiatry",
+        "Computational modeling of affective symptoms",
+        "Emotion-focused digital therapeutics"
+      ]
+    }
+  },
+  "626bb855e84cb7e0abfe062c558019d1aac7d8a9aba6a2c3e575bc670042bf1b": {
+    "paper_id": "https://openalex.org/W4391562800",
+    "title": "Effective hyper-connectivity network construction and learning: Application to major depressive disorder identification",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:08.607Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper focuses on major depressive disorder (MDD) identification using neuroimaging and machine learning, and MDD is a core clinical affective/emotion-related disorder; 'emotion' is explicitly listed as the researcher's interest topic.",
+      "evidence": [
+        "Title mentions 'major depressive disorder identification'",
+        "Researcher's interest topic is 'emotion'",
+        "MDD is a canonical affective disorder in psychiatry and emotion science"
+      ],
+      "keywords": [
+        "major depressive disorder",
+        "emotion regulation",
+        "affective neuroscience",
+        "fMRI",
+        "hyper-connectivity network"
+      ],
+      "research_directions": [
+        "Affective disorder biomarker discovery",
+        "Emotion-related brain network modeling",
+        "AI-driven affective state classification"
+      ]
+    }
+  },
+  "a99d243b1596e1f9b59eefed371aa4e976548a6916ac8079faf14c1393717ce1": {
+    "paper_id": "https://openalex.org/W4309166667",
+    "title": "Exploring the Intrinsic Features of EEG Signals via Empirical Mode Decomposition for Depression Recognition",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:08.834Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.97,
+      "reason": "The paper directly addresses depression—a core affective/emotional disorder—and explicitly links EEG-based biomarkers to emotional impairment, aligning with 'emotion' as a stated interest topic.",
+      "evidence": [
+        "Abstract states: 'Depression is a severe psychiatric illness that causes emotional and cognitive impairment'",
+        "Abstract emphasizes impact on 'feelings and well-being'",
+        "Researcher's interest topic is 'emotion', and depression is a canonical clinical emotion-related condition"
+      ],
+      "keywords": [
+        "depression",
+        "emotion",
+        "EEG",
+        "affective disorder",
+        "emotional impairment"
+      ],
+      "research_directions": [
+        "affective neuroscience",
+        "computational psychiatry",
+        "emotion recognition from neurophysiological signals",
+        "biomarkers for mood disorders"
+      ]
+    }
+  },
+  "4f70186ebe91fde4b7604a8fb33bbb6367db3149f4a6e11b1f0fdfcc73ce27ce": {
+    "paper_id": "https://openalex.org/W4378365100",
+    "title": "A Study of Major Depressive Disorder Based on Resting-State Multilayer EEG Function Network",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:08.985Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper investigates Major Depressive Disorder (MDD), a clinical condition intrinsically tied to affective/emotional dysfunction, and explicitly links network-level EEG biomarkers to depressive symptoms — directly engaging emotion-related psychopathology and affective neuroscience.",
+      "evidence": [
+        "Results showed [...] these network properties were significantly correlated with depressive symptoms.",
+        "Interest topics: emotion",
+        "Concepts include Psychology, Neuroscience, and Major depressive disorder"
+      ],
+      "keywords": [
+        "depression",
+        "affective disorder",
+        "emotional dysfunction",
+        "resting-state EEG",
+        "functional connectivity",
+        "affective neuroscience"
+      ],
+      "research_directions": [
+        "affective brain network modeling",
+        "computational psychiatry",
+        "emotion-related biomarker discovery",
+        "multilayer neuroimaging of mood disorders"
+      ]
+    }
+  },
+  "5e6292871b50463b0d4b5397f2af6be3bc10e2fcb3bbc0c2288a14fdccc364f9": {
+    "paper_id": "https://openalex.org/W4362650919",
+    "title": "When Traditional Chinese Medicine Meets AI: A Novel Depression Treatment Paradigm based on Transcutaneous Vagus Nerve Stimulation",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:09.100Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses depression—a core affective/emotional disorder—and employs real-time neurophysiological (EEG) assessment of emotional state changes in response to intervention, aligning tightly with emotion research.",
+      "evidence": [
+        "Title explicitly references 'Depression Treatment'",
+        "Abstract states goal is 'real-time evaluation of depression symptoms' using prefrontal EEG",
+        "Researcher's interest topic is 'emotion', and depression is a canonical clinical affective condition"
+      ],
+      "keywords": [
+        "depression",
+        "emotion",
+        "EEG",
+        "vagus nerve stimulation",
+        "affective neuroscience",
+        "real-time assessment"
+      ],
+      "research_directions": [
+        "affective computing in clinical psychiatry",
+        "neurophysiological biomarkers of emotion",
+        "AI-driven emotion regulation interventions",
+        "translational emotion research"
+      ]
+    }
+  },
+  "238e95804f3bccda3194082a5fd92c532d767dc1a98eac445ac2a89c096536e2": {
+    "paper_id": "https://openalex.org/W4364302344",
+    "title": "Depression Recognition From EEG Signals Using an Adaptive Channel Fusion Method via Improved Focal Loss",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:09.160Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses depression—a core affective/emotional disorder—using EEG to recognize emotional/cognitive dysfunction, aligning precisely with 'emotion' as a stated interest topic.",
+      "evidence": [
+        "Abstract states: 'Depression is a serious and common psychiatric disease characterized by emotional and cognitive dysfunction.'",
+        "Title explicitly names 'Depression Recognition', a clinical affective condition.",
+        "Researcher's interest topic is 'emotion', and depression is a canonical emotion-related disorder in psychology and affective neuroscience."
+      ],
+      "keywords": [
+        "depression",
+        "emotion",
+        "affective computing",
+        "EEG",
+        "mental health",
+        "emotional dysfunction"
+      ],
+      "research_directions": [
+        "affective brain-computer interfaces",
+        "computational psychiatry",
+        "emotion recognition from physiological signals",
+        "AI for mental health diagnosis"
+      ]
+    }
+  },
+  "feb8e6934c827964a12613038b79f2f09a0135bc44ce4ea082b48421bfe3c5f0": {
+    "paper_id": "https://openalex.org/W4366996109",
+    "title": "Clustering-Fusion Feature Selection Method in Identifying Major Depressive Disorder Based on Resting State EEG Signals",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:09.406Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper investigates electrophysiological biomarkers for Major Depressive Disorder (MDD), a clinical condition fundamentally rooted in affective/emotional dysfunction; the abstract explicitly links identified neural features (e.g., long-distance parietal-occipital connections) to 'depressive symptoms', directly tying the work to emotion-related pathology.",
+      "evidence": [
+        "'significantly correlate with depressive symptoms'",
+        "'Major Depressive Disorder'",
+        "'affective/emotional dysfunction is central to MDD diagnosis and pathophysiology' (domain knowledge)"
+      ],
+      "keywords": [
+        "depression",
+        "emotional symptoms",
+        "affective disorder",
+        "neuropsychiatric biomarkers",
+        "EEG",
+        "mood disorders"
+      ],
+      "research_directions": [
+        "Affective neuroscience",
+        "Clinical emotion research",
+        "Computational psychiatry",
+        "Affective biomarker discovery",
+        "Emotion-related brain network analysis"
+      ]
+    }
+  },
+  "0fc1b1572b75b8fdd27dd473b86e5c1b07c9519ba9abb918e0609ce187302d6e": {
+    "paper_id": "https://openalex.org/W4384161829",
+    "title": "A Multiview Sparse Dynamic Graph Convolution-Based Region-Attention Feature Fusion Network for Major Depressive Disorder Detection",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:09.539Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper directly addresses emotion-related clinical assessment—major depressive disorder (MDD)—using neurophysiological signals (EEG) linked to emotional status, and explicitly states that temporal/spectral/time-frequency EEG features characterize 'emotional status of patients'. This aligns tightly with 'emotion' as a core interest topic.",
+      "evidence": [
+        "mentions 'emotional status of patients' in abstract",
+        "focuses on MDD detection—a canonical affective/emotion disorder",
+        "uses EEG, a well-established modality for affective neuroscience"
+      ],
+      "keywords": [
+        "emotion",
+        "major depressive disorder",
+        "EEG",
+        "affective computing",
+        "mental health",
+        "graph neural networks",
+        "feature fusion",
+        "attention mechanisms"
+      ],
+      "research_directions": [
+        "affective neuroscience",
+        "clinical emotion recognition",
+        "AI for mental health",
+        "multimodal affective signal processing",
+        "neuroadaptive systems"
+      ]
+    }
+  },
+  "f673e9d7f5b0d939b1d7d5efd19e9b0fd1888e93d7249949a22d75678b7d7bc6": {
+    "paper_id": "https://openalex.org/W4387728793",
+    "title": "Fine‐grained features characterize hippocampal and amygdaloid change pattern in Parkinson's disease and discriminate cognitive‐deficit subtype",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:09.545Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.88,
+      "reason": "The paper investigates amygdala morphology in Parkinson's disease with cognitive impairment; the amygdala is a core neural substrate for emotion processing, and the researcher's stated interest is 'emotion', establishing strong conceptual relevance despite the paper's primary framing as neuroscience/neurodegeneration.",
+      "evidence": [
+        "Amygdala is explicitly analyzed for structural changes linked to cognitive-deficit subtypes",
+        "Researcher's interest topic is 'emotion', and the amygdala is a well-established hub for emotional processing and regulation"
+      ],
+      "keywords": [
+        "amygdala",
+        "emotion",
+        "Parkinson's disease",
+        "cognitive impairment",
+        "neuroimaging",
+        "morphometry"
+      ],
+      "research_directions": [
+        "affective neuroscience",
+        "emotion-cognition interactions in neurodegeneration",
+        "amygdala-based biomarkers for affective dysfunction in PD",
+        "structural correlates of emotional processing deficits"
+      ]
+    }
+  },
+  "d6d7ec866f62b7368e3cb221699326264fd2014bea668f2327722708a43c4e46": {
+    "paper_id": "https://openalex.org/W4298126178",
+    "title": "Psychological Field Versus Physiological Field: From Qualitative Analysis to Quantitative Modeling of the Mental Status",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:09.619Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper explicitly addresses 'mental status' and contrasts 'psychological field' with 'physiological field', situated within applied psychology and computational social systems—core domains for modeling emotion-related states. The researcher's stated interest in 'emotion' aligns with psychological modeling of affective states.",
+      "evidence": [
+        "Title includes 'Psychological Field Versus Physiological Field' and 'Quantitative Modeling of the Mental Status'",
+        "Abstract frames the work around mental status modeling in IEEE TCSS—a venue publishing on affect-aware computational social systems",
+        "Concepts include Psychology, Applied psychology, and Social science—disciplines central to emotion research"
+      ],
+      "keywords": [
+        "mental status",
+        "psychological field",
+        "quantitative modeling",
+        "applied psychology",
+        "computational social systems"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Computational psychology",
+        "Emotion modeling",
+        "Quantitative analysis of affective states"
+      ]
+    }
+  },
+  "dd20db95a458b70f564a1145e26cf94de6d4f17635aa10293e6b4be26ff43259": {
+    "paper_id": "https://openalex.org/W4220701811",
+    "title": "Fundamentals of Computational Psychophysiology: Theory and Methodology",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:09.639Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper explicitly addresses computational psychophysiology, a field intrinsically linked to emotion measurement and modeling via physiological signals (e.g., ECG, EEG, GSR), and the researcher's stated interest is 'emotion', which aligns strongly with affective psychophysiology.",
+      "evidence": [
+        "Title includes 'Computational Psychophysiology'; psychophysiology is a core methodology for objective emotion assessment",
+        "Abstract frames the work around fundamentals of computational psychophysiology — theory and methodology",
+        "Concepts include Psychology, Cognitive science, and Artificial intelligence — all commonly applied in affective computing"
+      ],
+      "keywords": [
+        "psychophysiology",
+        "emotion recognition",
+        "computational affective science",
+        "physiological signals",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective psychophysiology",
+        "Emotion modeling from biosignals",
+        "Computational methods for emotion inference",
+        "Interdisciplinary emotion research bridging psychology and AI"
+      ]
+    }
+  },
+  "978519eb560ef65c2f23e42306a63fa14f64f3ae1aa02c43bc062499e6650d74": {
+    "paper_id": "https://openalex.org/W4365443062",
+    "title": "Every individual makes a difference: A trinity derived from linking individual brain morphometry, connectivity and mentalising ability",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:09.925Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper directly investigates mentalising ability, which explicitly includes 'feelings' as a core component, and identifies amygdala-linked 'other-self mentalisation'—a process inherently tied to affective/emotional inference. The researcher's stated interest in 'emotion' aligns with this affective dimension of mentalising.",
+      "evidence": [
+        "Abstract states mentalising is 'the ability to understand others' beliefs, feelings, intentions, thoughts and traits'",
+        "Abstract notes 'other-self mentalisation shows a closer link with the amygdala', a key emotion-processing region",
+        "Researcher's interest topic is explicitly 'emotion'"
+      ],
+      "keywords": [
+        "mentalising",
+        "emotions",
+        "amygdala",
+        "social cognition",
+        "affective neuroscience"
+      ],
+      "research_directions": [
+        "neural basis of emotion attribution",
+        "individual differences in affective mentalising",
+        "amygdala morphology and emotional understanding",
+        "multimodal brain-behavior mapping of emotion-related cognition"
+      ]
+    }
+  },
+  "8bcb2cc75dcc5b3d4292b449b5143250267cdd411afb3e61f6c0d7a612b180ab": {
+    "paper_id": "https://openalex.org/W4383112473",
+    "title": "The Three-Lead EEG Sensor: Introducing an EEG-Assisted Depression Diagnosis System Based on Ant Lion Optimization",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:09.978Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.97,
+      "reason": "The paper directly addresses depression diagnosis using EEG—a core modality in affective computing—and explicitly references 'affective computing' in the abstract; depression is a clinical affective/emotional disorder, and the researcher's interest topic 'emotion' encompasses related psychopathological states.",
+      "evidence": [
+        "Abstract states: 'With the development of affective computing and Artificial Intelligence (AI) technologies, Electroencephalogram (EEG)-based depression detection methods have emerged.'",
+        "Depression is a canonical affective disorder grounded in emotion dysregulation, aligning with 'emotion' as an interest topic.",
+        "Concepts include Psychology, Psychiatry, and Pattern recognition (psychology), all relevant to affective science."
+      ],
+      "keywords": [
+        "depression",
+        "affective computing",
+        "EEG",
+        "emotion regulation",
+        "mental health",
+        "biomarkers"
+      ],
+      "research_directions": [
+        "affective neuroscience",
+        "clinical affective computing",
+        "wearable emotion sensing",
+        "AI-assisted psychiatric diagnosis"
+      ]
+    }
+  },
+  "8eea1ec7e3702dad0ca9ceaad1287516dc16e7f8ccdc02d44f212119f26acd5e": {
+    "paper_id": "https://openalex.org/W4386025684",
+    "title": "A Novel Intelligence Evaluation Framework: Exploring the Psychophysiological Patterns of Gifted Students",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T15:17:10.839Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper investigates psychophysiological patterns—including EEG-based neural correlates—linked to cognitive traits in gifted students; while 'emotion' is not the central focus, it falls under the broader affective/emotion-related domain via psychophysiology, which encompasses emotion-regulation, arousal, and affective neurodynamics often captured in EEG (e.g., frontal asymmetry, CDB as a proxy for emotional/cognitive engagement). The researcher's stated interest in 'emotion' aligns with this affective neuroscience angle.",
+      "evidence": [
+        "mentions 'psychophysiological data' as core input to the intelligence evaluation framework",
+        "analyzes 'chaos degree of the brain (CDB)', a nonlinear EEG metric associated with emotional and cognitive state variability",
+        "targets real-time sensing and interaction contexts where affective states influence performance (e.g., education)"
+      ],
+      "keywords": [
+        "psychophysiology",
+        "EEG",
+        "affective neuroscience",
+        "cognitive-affective biomarkers",
+        "neuroelectrical activity"
+      ],
+      "research_directions": [
+        "Affective computing in educational assessment",
+        "Emotion-cognition interface in high-ability populations",
+        "Physiological markers of affective engagement in learning"
+      ]
+    }
   }
 }

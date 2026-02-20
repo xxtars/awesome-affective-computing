@@ -371,5 +371,545 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "2846845e4ba2550719c835b4f05ccd497e172d5856c97644815e8c3a8ea7a0ec": {
+    "paper_id": "https://openalex.org/W4398224458",
+    "title": "Long-term navigation for autonomous robots based on spatio-temporal map prediction",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.528Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on robot navigation and spatio-temporal map prediction, with no indication of emotion or affective science content.",
+      "evidence": [
+        "Concepts include robotics, motion planning, and AI—no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f1745bdc0d6e42a8ee2ab4ee681a74295ee69205b4e296f33752b96df8cf9be4": {
+    "paper_id": "https://openalex.org/W4407403274",
+    "title": "Denoising Diffusion Probabilistic Imputation Model for Tabular Data",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.563Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on tabular data imputation using diffusion models; no mention of emotion, affect, psychology, or related constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical/ML/statistical."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6874cbfa8ec632027117220bd879440c673bb79b35b6b9f83f3f1a4979f4ad51": {
+    "paper_id": "https://openalex.org/W4403127036",
+    "title": "Whale Algorithm-Based Optimization of Orderly Charging Strategies for Electrical Vehicles",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.601Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on optimization of EV charging strategies using a bio-inspired algorithm; no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain no emotion-related terms or themes"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8c125b2aef5681ae305ee2d866a1281c3b2c7040b1cec517071b74e337aa1164": {
+    "paper_id": "https://openalex.org/W4396853710",
+    "title": "Enhancing Energy Harvesting Efficiency of Flapping Wings with Leading-Edge Magnus Effect Cylinder",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.676Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is focused on fluid dynamics, energy harvesting, and aeromechanics of flapping wings; no connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and abstract content pertain to mechanical engineering and biomimetic aerodynamics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "dbcdfc44662ce855355e756ec795edf6711e4409b592cf23172f65744754fd65": {
+    "paper_id": "https://openalex.org/W4408717839",
+    "title": "Covalent Organic Frameworks for Water Sorption: The Importance of Framework Physical Stability",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.701Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on materials science and physical stability of covalent organic frameworks for water sorption; no connection to emotion or affective processes.",
+      "evidence": [
+        "All concepts and abstract content pertain to sorption, framework stability, and environmental/materials engineering."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "115384069adf7c3afb45f24c58eb74e4b6e9011166e2c4c87560132a244763f1": {
+    "paper_id": "https://openalex.org/W4405257128",
+    "title": "Biomimetic Strategies of Slip Sensing, Perception, and Protection in Prosthetic Hand Grasp",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.776Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on biomimetic slip sensing, perception, and reflex-based motor control in prosthetic hands; 'emotion' is not addressed in title, concepts, or abstract.",
+      "evidence": [
+        "Abstract contains no mention of emotion, affect, mood, sentiment, or related psychological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "410c292e3e932010f67f5f259c008143aadf5e5f2bb72297525b6f9a9e39893e": {
+    "paper_id": "https://openalex.org/W4396542545",
+    "title": "Dexterity Comparison and Analysis of Multi-Contact-Aided Continuum Manipulators",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.784Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on robotic dexterity, structural design, and kinematic modeling of continuum manipulators for surgical applications; no mention or implication of emotion, affective computing, or human emotional states.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are engineering/robotics-focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cb61a9eb814cc120e79990f59fa6ee651e663cd17e50cecdb7fd2089fcdd8060": {
+    "paper_id": "https://openalex.org/W4398765113",
+    "title": "Distribution Network Planning Method Considering Uncertain Fuzzy Load",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.787Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on mathematical optimization and fuzzy logic for distribution network planning under uncertain loads; no connection to human emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and the abstract center on fuzzy mathematics, power systems, and computational optimization—no emotion-related terms or methodologies present."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "07e15cb5abd9fd93724eb41c9694336f056775363b518bed85f6ebda4527f4b5": {
+    "paper_id": "https://openalex.org/W4414798735",
+    "title": "Incremental Joint Learning of Depth, Pose, and Implicit Scene Representation on Monocular Camera in Large-Scale Scenes",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.797Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on computer vision, robotics, and geometric scene reconstruction; no conceptual, methodological, or empirical connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract exclusively address depth estimation, pose tracking, and implicit scene representation in large-scale robotics environments."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ab88a908bd2e35862a370bdfd34f597f128f257f20fb88ad247c41518f93af0a": {
+    "paper_id": "https://openalex.org/W4396515083",
+    "title": "The survey of one-stage anchor-free real-time object detection algorithms",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.810Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses exclusively on computer vision, specifically one-stage anchor-free object detection algorithms; no content relates to emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Title and abstract contain no emotion-related terms; all concepts are technical CV/AI topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e7e45c98eaf4ed2e57c24ad16f9f22150badaf1d314e8270d77a85214a68b39c": {
+    "paper_id": "https://openalex.org/W4408521319",
+    "title": "Aggregation Method for Controllable Resources of Distributed Energy Storage in Distribution Areas Based on Edge Controllers",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.835Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is in electrical engineering and energy systems, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract focus on distributed energy storage, edge control, and optimization; 'emotion' does not appear anywhere in metadata or abstract."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ad411c7177d95cd645c8cb355e3aa6b71dafb9e475c3be57394fa63c266adc0c": {
+    "paper_id": "https://openalex.org/W4402487718",
+    "title": "Byzantine-Robust Multimodal Federated Learning Framework for Intelligent Connected Vehicle",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.873Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on Byzantine-robust federated learning for intelligent connected vehicles, with no mention or conceptual link to emotion, affective computing, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain no emotion-related terms or themes"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "72d143ad0c6dbc82f23523857010d7f7310fbbee65ce854ad69ab35dc3ca295b": {
+    "paper_id": "https://openalex.org/W4392796638",
+    "title": "A Steerable Cross-Axis Notched Continuum Manipulator for Endobronchial Intervention",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.891Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a technical robotics/medical device engineering study with no conceptual, methodological, or applied connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract focus exclusively on mechanical design, modeling, and clinical application of a continuum manipulator for endobronchial intervention."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "58c21b570e6a7ff331a46257d5663a7c6a45add0fb92d89f38b59722de8ad642": {
+    "paper_id": "https://openalex.org/W4404627675",
+    "title": "Submillimeter fiber robots capable of decoupled macro-micro motion for endoluminal manipulation",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.914Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on submillimeter fiber robots for endoluminal medical intervention, with no mention of emotion, affective computing, or psychological/behavioral aspects.",
+      "evidence": [
+        "Abstract and concepts are exclusively engineering/medical robotics-focused; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ff94a98ed94e617131cd9ac1870ce281113d791e2a5c7be69cbb60ae4517c6ab": {
+    "paper_id": "https://openalex.org/W4390871510",
+    "title": "Body Contact Estimation of Continuum Robots With Tension-Profile Sensing of Actuation Fibers",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.923Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mechanical modeling and sensing for body contact estimation in continuum robots, with no mention of emotion, affective states, or psychological/physiological correlates of emotion.",
+      "evidence": [
+        "Abstract and concepts contain only robotics, mechanics, and sensing terms; 'emotion' does not appear anywhere in metadata or abstract."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ed452db32c4c4b814d065c60101e1af8c1a9f0a60074294e1fc27fe5e1ac06bc": {
+    "paper_id": "https://openalex.org/W4406983285",
+    "title": "Synergistic Effects of Neogambogic Acid and Almonertinib in Enhancing the Sensitivity of Non-Small Cell Lung Cancer to Almonertinib: Mechanistic Insights",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.933Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on oncology, pharmacology, and cancer cell sensitivity mechanisms; no connection to emotion or affective science is indicated by title, venue, concepts, or metadata.",
+      "evidence": [
+        "Concepts: Sensitivity (control systems), Lung cancer, Chemistry, Cell, Cancer, Cancer research, Biology, Biophysics"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d7a7422b4fa1df3461bddf72b39092686a98c95686a75add5877f49dce641d34": {
+    "paper_id": "https://openalex.org/W4406914501",
+    "title": "Farnesoid X Receptor Attenuates the Tumorigenicity of Liver Cancer Stem Cells by Inhibiting STAT3 Phosphorylation",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.934Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular oncology and liver cancer stem cell regulation via FXR/STAT3 signaling; no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and abstract content pertain to cancer biology, receptor signaling, and stemness—not emotion or affective processes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0beb5ece7ff66feb9abedf1e31ff035db18b6f11ccfa0a98b712e61e3687939f": {
+    "paper_id": "https://openalex.org/W4405561794",
+    "title": "Efficacy of Temporal Interference Electrical Stimulation for Spinal Cord Injury Rehabilitation: A Case Series",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.947Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on neuromodulation and motor/sensory rehabilitation for spinal cord injury; no mention of emotion, affective processes, or psychological/behavioral emotion-related outcomes.",
+      "evidence": [
+        "Abstract emphasizes motor strength, sensory perception, functional independence, and pain reduction—not emotional states, regulation, or affective neuroscience."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2c97c6f4c622b71fa5d72cbb9e98a189ebaf6c639d808562f03e1f6fd2a67890": {
+    "paper_id": "https://openalex.org/W4406491561",
+    "title": "Neuromorphic compliant control facilitates human-prosthetic performance for hand grasp functions",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.998Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on neuromorphic control for prosthetic grasping; 'emotion' is not addressed in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Post-task survey mentions 'subjective confidence' and 'burden', but these are cognitive/ergonomic metrics, not affective/emotional constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "fd5d20a4675416208e80cf85259ee4e3406b9c0c04499eda6d9cd3ef4487e9b0": {
+    "paper_id": "https://openalex.org/W4402321741",
+    "title": "lncRNA H19 facilitates vascular neointima formation by targeting miR-125a-3p/FLT1 axis",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:22.999Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular mechanisms of vascular neointima formation and restenosis, with no connection to emotion or affective processes.",
+      "evidence": [
+        "Abstract and concepts exclusively involve lncRNA, miRNA, VSMC biology, and cardiovascular pathology; 'emotion' is absent from title, abstract, concepts, and venue scope."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a665f15eb11cf63f2ae92210a73c9235fefacb8314764534a25f8a0f14cd8665": {
+    "paper_id": "https://openalex.org/W4395671345",
+    "title": "Machine learning and new insights for breast cancer diagnosis",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:23.009Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on machine learning applications in breast cancer diagnosis using medical imaging; no mention of emotion, affective computing, or related psychological/physiological constructs.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain only clinical, radiological, and AI/ML terms—no affective or emotional dimensions."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f48a4cf001804ac82d70ef52fb0e7b6c4fc9d8b4671d0ae9ce3b2fa11bdf5ee6": {
+    "paper_id": "https://openalex.org/W4413361325",
+    "title": "Object Detection in VHR Optical Remote Sensing Image: A Review",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:23.051Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on object detection in remote sensing imagery and contains no mention of emotion, affective computing, or related psychological, neurological, or human-centered constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively cover computer vision, remote sensing, and AI for geospatial analysis; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "197561d69c440435791f4fee0fffa1c044fac81416dce95f9a8c7b58c6702c66": {
+    "paper_id": "https://openalex.org/W4406808497",
+    "title": "Fusion of EEG and EMG signals for detecting pre-movement intention of sitting and standing in healthy individuals and patients with spinal cord injury",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:23.080Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on motor intention detection for rehabilitation using EEG-EMG fusion, with no mention of emotion, affective states, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively center on motor control, brain-computer interfaces, spinal cord injury, and signal processing; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "96686309f9fb9b19d382f9fc26a698e19b551733586c9fd8b164536f0588d7d7": {
+    "paper_id": "https://openalex.org/W4405909420",
+    "title": "An Image Denoising Method Based on Swin Transformer V2 and U-Net Architecture",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:23.202Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on image denoising using Swin Transformer V2 and U-Net; no content relates to emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Concepts include 'Image denoising', 'Transformer', 'Computer vision'; 'Pattern recognition (psychology)' is a misaligned concept tag and not substantiated in abstract or title."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "aeacb0e5c07129958ce8b675d4411f63f1b8d2380548139f0bb457e1d211282b": {
+    "paper_id": "https://openalex.org/W4414581441",
+    "title": "Optimization-Based Trajectory Planning for Tractor-Trailer Vehicles on Curvy Roads: A Progressively Increasing Sampling Number Method",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:23.265Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is purely focused on optimization-based trajectory planning for tractor-trailer vehicles, with no mention or conceptual connection to emotion, affective science, psychology, human factors, or any emotion-related constructs.",
+      "evidence": [
+        "Title and abstract contain only robotics, control theory, and numerical optimization terminology; 'emotion' does not appear and is semantically unrelated to all described methods and concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1b7efe5575d26bd30320b4462163d41b405ea072a2a898810e9286f8331f89e7": {
+    "paper_id": "https://openalex.org/W4391811495",
+    "title": "Development of a suspended intelligent detection system for pipe culverts",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:23.346Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on civil and marine engineering, robotics, and 3D reconstruction for pipe culvert inspection; no mention of emotion, affective computing, or psychological/behavioral constructs.",
+      "evidence": [
+        "Concepts include 'Culvert', 'Robot', 'Civil engineering', 'Drainage'; abstract discusses detection efficiency, adaptability, and modeling accuracy—no emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f147d13384f6b1bd97131541ca358a0774878ecd1e90a2180a642481fedac3d7": {
+    "paper_id": "https://openalex.org/W4405849874",
+    "title": "Identification and Functional Analysis of miRNAs in Extracellular Vesicles of Semen Plasma from High- and Low-Fertility Boars",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:23.353Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular biomarkers of boar fertility using miRNA analysis in extracellular vesicles; no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and methods are biomedical/biological (e.g., miR-26a, HMGA1, sperm viability, semen quality) with zero mention of emotion, affect, mood, behavior, or neuroscience of emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "dd02ec08d786ce3ea546653b591f3217d6b3fcf3706a325023794f23b5791dcb": {
+    "paper_id": "https://openalex.org/W4404262184",
+    "title": "Fault diagnosis in hydropower units based on chaotic Kepler optimization algorithm-enhanced BiLSTM model",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:23.429Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on fault diagnosis in hydropower units using optimization algorithms and BiLSTM; no connection to emotion or affective science is indicated by title, venue, concepts, or metadata.",
+      "evidence": [
+        "Concepts include 'Kepler', 'Hydropower', 'Fault (geology)', 'Optimization algorithm' — all technical/engineering terms with no affective/emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "05660a21368bcf24be013b7789a1fe81a251b2a06c7a885c56b15fd19ef8942c": {
+    "paper_id": "https://openalex.org/W4404959668",
+    "title": "Karyoptosis as a novel type of UVB-induced regulated cell death",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:23.471Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on a novel form of regulated cell death (karyoptosis) in cell biology, with no conceptual, methodological, or terminological connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and abstract content pertain to nuclear membrane integrity, chromatin dynamics, UVB-induced cell death, and molecular mechanisms in cancer biology—none reference emotion, affect, psychology, neuroscience of feeling, or related domains."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "682c415cf1f365becedeb0b8b1d5f298f496e9ed7cb450df854cc78834e05c2c": {
+    "paper_id": "https://openalex.org/W4407354548",
+    "title": "NeSLAM: Neural Implicit Mapping and Self-Supervised Feature Tracking With Depth Completion and Denoising",
+    "researcher_name": "Weidong Chen",
+    "researcher_openalex_author_id": "A5100357376",
+    "updated_at": "2026-02-20T15:18:23.641Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on neural implicit mapping, depth completion, denoising, and camera tracking in SLAM — all core computer vision and robotics topics with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Interest topic is 'emotion', but paper's concepts include 'Artificial neural network', 'Computer vision', 'Noise reduction', and 'Tracking' — none relate to affective computing, emotion modeling, or psychological affect."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

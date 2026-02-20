@@ -376,5 +376,557 @@
         "corpus development for affective AI"
       ]
     }
+  },
+  "dd775b36be28d94ab7c6b6bfcb40480511999f37af154321e220f9b6bdcc40b9": {
+    "paper_id": "https://openalex.org/W4412056976",
+    "title": "Item Difficulty Modeling Using Fine-tuned Small and Large Language Models",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:48.462Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computational modeling of item difficulty in educational assessments using language models; no mention of emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1ec7c42fbbcb687578cd5838e033fdfb43870971b152e0074dbbd427eac8cb9a": {
+    "paper_id": "https://openalex.org/W4404827355",
+    "title": "Research on the Talent Training Model for Medical Imaging Technology Professionals that Integrates \"Post Course Competition and Certification\" Under the Background of Artificial Intelligence",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:48.862Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on AI-driven curriculum reform, certification, and competition in medical imaging education; no mention of emotion, affective processes, or psychological constructs.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f44b9e44f9e1b925a4d918bee07a826f774f21c7c74a08d1a8516dd5cb52c192": {
+    "paper_id": "https://openalex.org/W4405869118",
+    "title": "An efficient action proposal processing approach for temporal action detection",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:48.873Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on temporal action detection in computer vision, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Action (physics), Computer science, Artificial intelligence, Quantum mechanics, Physics — none relate to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e3537b6107f3c377c6e9246eb5b1bacf677569560bb383dea903f4263fa688e6": {
+    "paper_id": "https://openalex.org/W4417137942",
+    "title": "Accelerating the Discovery of Binary Interconnect Materials: A Graph Neural Network and Diversity Ranking Workflow",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:48.919Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on materials science and machine learning for interconnect material discovery, with no apparent connection to emotion or affective processes.",
+      "evidence": [
+        "Title mentions 'Graph Neural Network' and 'Binary Interconnect Materials', indicating computational materials science domain."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "455c54fc5d84488d485d7026e8d83d869e00723d392068f817dbb465c6ba37a4": {
+    "paper_id": "https://openalex.org/W4409687838",
+    "title": "Advancing Can Network Security Through Rbm-Based Synthetic Attack Data Generation for Intrusion Detection Systems",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:48.936Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on network security and synthetic data generation for intrusion detection, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Intrusion detection system', 'Network security', 'Computer security' — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d7fe1fcc6bbd6dce2fc836999df983b31ca989be2e1db39c97820d54e296aa1f": {
+    "paper_id": "https://openalex.org/W4404788220",
+    "title": "Location-Guided Head Pose Estimation for Fisheye Image",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:48.988Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on head pose estimation from fisheye images using computer vision and deep learning; no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical/computer vision focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b8c51d2ec8e423161921d977f0ff2babd9e09ef42c2683bfb7e43233d711ea89": {
+    "paper_id": "https://openalex.org/W4405316960",
+    "title": "Diff-PC: Identity-preserving and 3D-aware controllable diffusion for zero-shot portrait customization",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.029Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on diffusion-based portrait customization and identity preservation in computer vision; no mention or conceptual link to emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Concepts: Shot, Personalization, Zero, Computer science, Portrait, Identity, Diffusion, Art history"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "40f5e4da688294fc26b504a614069fc845ad3bd56e3abfafc2be87e24bfb03b1": {
+    "paper_id": "https://openalex.org/W4412944558",
+    "title": "ATLAS: Agent Tuning via Learning Critical Steps",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.029Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "No mention of emotion, affect, or related psychological/behavioral constructs in title, concepts, or available metadata; concepts are technical/computational or natural science domains.",
+      "evidence": [
+        "Concepts: Atlas (anatomy), Computer science, Artificial intelligence, Geology, Paleontology"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b6dc1e317ded3668d672cff520c1cf438dff2c1001d48c1c0991f5a7b29617d5": {
+    "paper_id": "https://openalex.org/W4416451789",
+    "title": "Multi-Channel Sequence-to-Sequence Neural Diarization: Experimental Results for The MISP 2025 Challenge",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.053Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speaker diarization using multi-channel audio processing and sequence-to-sequence modeling, with no mention of emotion, affect, or related psychological or linguistic constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, or human emotional states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c7d44b5943fc4a21928baa31ca40711b46547efbe21ef38f88b262b9b76db406": {
+    "paper_id": "https://openalex.org/W4408001087",
+    "title": "Low model-dependent sensor placement method for water distribution networks using adaptive attributed graph clustering",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.081Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sensor placement in water distribution networks using graph clustering and AI methods, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are entirely engineering/computer science focused; 'emotion' does not appear in title, venue, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8b4eafbaac7968d8cd2e023bf6d95b7e7450adcc5750b59147591399209717b6": {
+    "paper_id": "https://openalex.org/W4411019679",
+    "title": "Assessing the Expressive Language Levels of Autistic Children in Home Intervention",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.092Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on automated assessment of expressive language levels in autistic children using multimodal signal processing; 'emotion' is not mentioned or implied in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "No mention of emotion, affect, sentiment, or related constructs in abstract or concepts"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b8e8a98a057e944ca478715aa8fcb148eeb5c7a71a569370d20fb504d5e29493": {
+    "paper_id": "https://openalex.org/W4409258784",
+    "title": "Operational boundaries and characteristics of refrigerated warehouse under off-design working conditions",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.113Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on refrigerated warehouse engineering under off-design conditions, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Warehouse, Mechanical engineering, Environmental science — all technical/engineering domains; 'emotion' is absent from title, concepts, and abstract (empty)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6c63e941995f224cc2c286b061eafe1bc20c831fb43a8e832ad8bc7bf52a1f54": {
+    "paper_id": "https://openalex.org/W4413145630",
+    "title": "HiFi-Portrait: Zero-shot Identity-preserved Portrait Generation with High-fidelity Multi-face Fusion",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.171Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical aspects of identity-preserved portrait generation using diffusion models and face geometry; no mention of emotion, affect, sentiment, or psychological constructs.",
+      "evidence": [
+        "Concepts list contains 'Portrait', 'Face', 'Identity', 'Computer science', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "73ae9a0c9106a958862e3bb5e9e65bde629ac1b3cab30d8a8ed90077ee993fd2": {
+    "paper_id": "https://openalex.org/W4415337213",
+    "title": "UniF$^2$ace: A Unified Fine-grained Face Understanding and Generation Model",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.203Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unified face understanding and generation with technical innovations in diffusion modeling and architecture; 'emotion' is not mentioned or implied in title, abstract, or stated contributions.",
+      "evidence": [
+        "Abstract contains no mention of emotion, affect, sentiment, expression, or related psychological or perceptual constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "fe1c40392191179fa447f9857d7446e4f29bf6a874951481013f9947e646a266": {
+    "paper_id": "https://openalex.org/W4405709441",
+    "title": "Lightweight Language Model for Speech Synthesis: Attempts and Analysis",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.231Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on lightweight language models for speech synthesis, with no mention of emotion modeling, affective computing, or emotional prosody.",
+      "evidence": [
+        "Concepts include 'Speech synthesis', 'Language model', 'Natural language processing'; abstract discusses architecture optimization and zero-shot TTS, not emotion-related features."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8da437e3bc52b8c884e21dc4d934bd7134c5fc934356575f6c67990f391eabf7": {
+    "paper_id": "https://openalex.org/W4410081320",
+    "title": "Universal Speaker Embedding Free Target Speaker Extraction and Personal Voice Activity Detection",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.253Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speaker extraction and voice activity detection using technical speech processing methods, with no indication of emotion or affective content in title, venue, concepts, or metadata.",
+      "evidence": [
+        "Concepts include 'Speaker verification', 'Speech recognition', 'Embedding', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f68009d92db0c12e8d2b2626032e510703aac960e7287c0a20be1f3cb7e7e7d0": {
+    "paper_id": "https://openalex.org/W4406125348",
+    "title": "Research on Qwen-Based Text Summarization and Q&amp;A System for Government Decision Support",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.279Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on text summarization and Q&A systems for government decision support using Qwen; no mention of emotion, affect, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Concepts include Automatic summarization, Government (linguistics), Computer science, Natural language processing, Linguistics, Philosophy — none are emotion-related."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "dc45d8eb734207f251de67a5abbee60370cdd519dc9e760ea2e7b09b555624c8": {
+    "paper_id": "https://openalex.org/W4417097405",
+    "title": "Diarization-Aware Multi-Speaker Automatic Speech Recognition via Large Language Models",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.302Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical ASR and speaker diarization, with no mention of emotion, affect, sentiment, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; core concepts are 'diarization', 'ASR', 'LLMs', 'overlapped speech', 'transcription'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1692641107f90c0cc19751eef93bb2e59c2913f076896adbb939c476e13eda91": {
+    "paper_id": "https://openalex.org/W4404411180",
+    "title": "Harvesting Physical-Layer Randomness in Millimeter Wave Bands",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.305Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on physical-layer randomness extraction for wireless security in mmWave bands, with no conceptual, methodological, or terminological connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract concern telecommunications, cryptography, and signal propagation—no mention of emotion, affect, psychology, neuroscience, or human-centered constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4ad1f9cf00277b8258062c15719a034d14ba8d42a6cea0fa2469a007f2795739": {
+    "paper_id": "https://openalex.org/W4414565133",
+    "title": "AnomalyPainter: Vision-Language-Diffusion Synergy for Zero-Shot Realistic and Diverse Industrial Anomaly Synthesis",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.320Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on industrial anomaly synthesis using vision-language-diffusion models and texture libraries; no mention of emotion, affect, sentiment, or psychological/behavioral aspects.",
+      "evidence": [
+        "Title and abstract contain no emotion-related terms; core concepts are realism, diversity, anomaly detection, diffusion models, and industrial imaging."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "66706e34e6f82ad46b11256c1596fd9af70a58f2e7211d1872bb26c0f08a056a": {
+    "paper_id": "https://openalex.org/W4411119698",
+    "title": "RuleR: Improving LLM Controllability by Rule-based Data Recycling",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.321Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on LLM controllability and rule-based data recycling, with no mention of emotion, affect, or related psychological/linguistic constructs in the metadata or abstract.",
+      "evidence": [
+        "Concepts include Controllability, Ruler, Computer science, Mathematics, Physics, Quantum mechanics — none are emotion-related."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "77c71b119e137545f1c4e430d08a9254208d01214ec4e66c830c16bee54ead53": {
+    "paper_id": "https://openalex.org/W4409327710",
+    "title": "Exploring Multimodal Embeddings for Text and Impact on Language Processing",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.325Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.85,
+      "reason": "The paper's title and concepts focus on multimodal embeddings and language processing without explicit mention of emotion or affective constructs; abstract is empty and provides no supporting evidence.",
+      "evidence": [
+        "Title contains no emotion-related terms; concepts list includes NLP, AI, linguistics, but not emotion, affect, psychology, or related domains."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "739dfb6da35226cfd15d331e60b569d7ed3a8439efbec31d7860317779870b9f": {
+    "paper_id": "https://openalex.org/W4410146009",
+    "title": "An Automatic Laryngoscopic Image Segmentation System Based on SAM Prompt Engineering: From Glottis Annotation to Vocal Fold Segmentation",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.374Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on laryngoscopic image segmentation for vocal fold analysis, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Glottis, Vocal folds, Image segmentation, Artificial intelligence — all biomedical/computer vision topics; 'emotion' does not appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "82fdaff2a180f3a63a3f5e5f5ce2646e86f78f5cf535c368eb14db8701b5438b": {
+    "paper_id": "https://openalex.org/W4411446736",
+    "title": "Sequence-to-Sequence Neural Diarization With Automatic Speaker Detection and Representation",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.398Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speaker diarization, voice activity detection, and speaker embedding learning—technical problems in speech processing and AI, with no mention of emotion, affect, sentiment, or psychological affective states.",
+      "evidence": [
+        "Concepts include 'Speaker diarisation', 'Speech recognition', 'Artificial intelligence', but no affective/emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7eb121994b71cac9c4d250f78c9864a442e62e4cc4f8710e3edc518e165acd6a": {
+    "paper_id": "https://openalex.org/W4412895820",
+    "title": "Consistencydet: A Few-Step Denoising Framework for Object Detection Using the Consistency Model",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.401Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on object detection and denoising in computer vision using consistency models; no emotional or affective content is indicated in title, venue, concepts, or metadata.",
+      "evidence": [
+        "Concepts include 'Computer vision', 'Image denoising', 'Consistency (knowledge bases)' — all technical AI/CS topics with no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "248b50d8e949a979d34d383100848340d723e40c8d556acf03dc028b43ccafef": {
+    "paper_id": "https://openalex.org/W4413188229",
+    "title": "Multi-Input Multi-Output Target-Speaker Voice Activity Detection for Unified, Flexible, and Robust Audio-Visual Speaker Diarization",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.498Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical audio-visual speaker diarization and voice activity detection, with no mention of emotion, affect, sentiment, or any psychological/behavioral constructs related to emotion.",
+      "evidence": [
+        "Abstract and concepts exclusively cover speech processing, speaker recognition, and diarisation; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c0e0e2e61f1ea07c37e0ea39cf07d5f708c3d186788db62b2a714f70385309d9": {
+    "paper_id": "https://openalex.org/W4406713626",
+    "title": "Biomechanical application research on cognitive health management in the elderly based on data analysis and intelligent coordination in the age of artificial intelligence",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.591Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on biomechanical modeling, AI-driven health prediction, and elderly care systems; 'emotion' is not mentioned or implied in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Abstract contains no reference to emotion, affect, mood, sentiment, or related psychological constructs; concepts list includes 'Psychology' but in the context of cognitive health, not affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1b5b5c8eb665492e6c8a499d02278faba74f3a833477064818c39e06badeb5dd": {
+    "paper_id": "https://openalex.org/W4411544557",
+    "title": "Enhancing the Robustness of Speech Anti-Spoofing Countermeasures through Joint Optimization and Transfer Learning",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.600Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speech anti-spoofing, robustness under noise/reverberation, and transfer learning—none of which relate to emotion or affective computing.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain no emotion-related terms (e.g., affect, sentiment, arousal, valence, emotional speech, prosody for emotion)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "753c112d9f8bbdce815c5b4dbf021bb41890e7b8a192c6a259c7ad884ac176b9": {
+    "paper_id": "https://openalex.org/W4408955674",
+    "title": "Therapeutic Efficacy of a Modified Ketogenic Diet in Autism Spectrum Disorder: A Randomized Controlled Trial",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:49.616Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on clinical intervention for autism using a modified ketogenic diet; 'emotion' is not addressed in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Abstract discusses ASD symptoms (social communication deficits, repetitive behaviors), comorbidities (epilepsy, GI disorders), and dietary intervention—no mention of emotion, affect, affective processing, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8722d5a4677ac3424fca36673ce858ade6ac6b9662edfff95e17311205a1b84b": {
+    "paper_id": "https://openalex.org/W4405673428",
+    "title": "Personality analysis based on multi-characteristic EEG signals",
+    "researcher_name": "Ming Li",
+    "researcher_openalex_author_id": "A5100351449",
+    "updated_at": "2026-02-20T15:20:50.194Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper focuses on personality analysis using EEG signals, and personality is strongly linked to emotion in psychology and affective neuroscience; 'emotion' is explicitly listed as the researcher's interest topic.",
+      "evidence": [
+        "Interest topics: emotion",
+        "Concepts: Personality, Cognitive psychology, Psychology"
+      ],
+      "keywords": [
+        "emotion",
+        "personality",
+        "EEG",
+        "affective computing",
+        "cognitive psychology"
+      ],
+      "research_directions": [
+        "Affective neuroscience",
+        "Emotion recognition from neural signals",
+        "Personality-emotion modeling",
+        "Biomedical signal processing for affective states"
+      ]
+    }
   }
 }

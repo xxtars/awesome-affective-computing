@@ -373,5 +373,566 @@
         "emotion-mediated behavioral traps in rural development"
       ]
     }
+  },
+  "ac0c23fbfe11ebfa06b895fb8d3dd33db5ab24059047ea91563c70e92c3b7fee": {
+    "paper_id": "https://openalex.org/W4416010149",
+    "title": "APSQ: Additive Partial Sum Quantization with Algorithm-Hardware Co-Design",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:56.628Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on hardware-aware quantization for DNN accelerators, with no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract exclusively discuss PSUM quantization, model compression, and energy efficiency in AI hardware."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b301278d7932fa85eab3f98bdb8d2cdc696846d4e3e33b56bdd5d23acf539690": {
+    "paper_id": "https://openalex.org/W4280512411",
+    "title": "Correction to: Measuring political and economic uncertainty: a supervised computational linguistic approach",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.026Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on political and economic uncertainty measurement using computational linguistics, with no mention of emotion or affective constructs.",
+      "evidence": [
+        "Title explicitly references 'political and economic uncertainty', not emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1d8270b7851b7bdce19a2f74a8ab15d3df845371c723151917d3e82adaa4dcb3": {
+    "paper_id": "https://openalex.org/W4283766400",
+    "title": "Characteristics and optimation of heat pipe radiator for space nuclear propulsion spacecraft",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.078Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on thermal management engineering for nuclear propulsion spacecraft, with no conceptual or lexical connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include radiator, heat pipe, spacecraft, nuclear engineering — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b2930c2ef96d1764d9eaa2bd857d000df14cfbc25b45d0e3d90aca34a6d284ee": {
+    "paper_id": "https://openalex.org/W4376457218",
+    "title": "Performance Analysis and Optimization of Heat Pipe-Based Radiator for Space Fission Power System Thermal Management",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.117Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on thermal management in space fission power systems, with no conceptual or lexical connection to emotion or affective science.",
+      "evidence": [
+        "All concepts are engineering/physics-related: radiator, heat pipe, thermal conductivity, etc."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0957eb0b5d224aac9d43b342998b9fc0d30af9815dc0d48ec88491a50f966b76": {
+    "paper_id": "https://openalex.org/W4292875400",
+    "title": "Performance analysis and optimization of heat pipe-based radiator for space nuclear power system",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.195Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on thermal engineering for space nuclear power systems, with no conceptual or lexical overlap with emotion or affective science.",
+      "evidence": [
+        "Concepts include radiator, heat pipe, coolant, and spacecraft—entirely unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a78edbca5d05c910ccd94f9edffb547ea9ab2d04ac2bd3c730204ab2959d0fbf": {
+    "paper_id": "https://openalex.org/W4288420696",
+    "title": "Investigation on entropy generation and flow characteristics of 7-pin sodium cooled wrapped-wire fuel bundle",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.203Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on thermodynamics and fluid mechanics of nuclear fuel bundles, with no conceptual or lexical overlap with emotion or affective science.",
+      "evidence": [
+        "Concepts include Mechanics, Thermodynamics, Reynolds number, Turbulence — all unrelated to emotion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "32c299de2ff21633381bedf7446e2956d92d6243680641b10ee407ab944c6e03": {
+    "paper_id": "https://openalex.org/W4320037957",
+    "title": "Resource Modeling and Capability Assessment for Space-Based Information System",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.225Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on space-based information systems and resource modeling, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Information system', 'Resource', 'Data mining', and 'Space (punctuation)' — none relate to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7cb7e1570cd86ef99c1aff90b9f0c482a7de6115aa66994ffa1606bc505fff18": {
+    "paper_id": "https://openalex.org/W4392781068",
+    "title": "Unleashing Network Potentials for Semantic Scene Completion",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.242Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on semantic scene completion in 3D computer vision, with no mention of emotion, affect, or related psychological, linguistic, or behavioral constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, mood, or human emotional response."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2393b83fe67fdb2249fba0a4ebba83ddb29142da4149bf267f3c6174048df8a9": {
+    "paper_id": "https://openalex.org/W4402672034",
+    "title": "AnyGPT: Unified Multimodal LLM with Discrete Sequence Modeling",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.273Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multimodal large language models and discrete sequence modeling, with no mention of emotion, affect, or related psychological/behavioral constructs in the provided metadata.",
+      "evidence": [
+        "Concepts: Computer science, Sequence (biology), Artificial intelligence, Chemistry, Biochemistry"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "dc840d8ea63af51acb7ef079124081e9bc04742eaa8be3b52f6ac3f7f968a4f5": {
+    "paper_id": "https://openalex.org/W4362659347",
+    "title": "Real-Time Plant Recognition and Crop Row Navigation for Autonomous Precision Agricultural Sprayer Robot",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.296Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on computer vision, robotics, and precision agriculture for plant recognition and spraying control; no mention of emotion, affective computing, or related psychological/physiological constructs.",
+      "evidence": [
+        "Title and abstract exclusively address agricultural robotics, visual servoing, and spray system control"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0fc92d398174fc7691ec51783e4ac0709d9d35a13f7279423d6eb55d8dbc9f66": {
+    "paper_id": "https://openalex.org/W4324119686",
+    "title": "A Method of Extracting Corner Features from Laser Point Cloud Data",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.313Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on geometric feature extraction from LiDAR point clouds for robotics, with no mention of emotion, affect, or psychological/behavioral constructs.",
+      "evidence": [
+        "Concepts include 'Point cloud', 'Lidar', 'Corner detection'; abstract discusses outlier removal and geometric boundary analysis"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c5105c913d4c6ed8ae610ce0784e2d1329296cf40d8efa7306d3bb7e9e1e9e29": {
+    "paper_id": "https://openalex.org/W4391271997",
+    "title": "SpeechGPT-Gen: Scaling Chain-of-Information Speech Generation",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.338Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speech generation architecture and information decoupling, with no mention of emotion, affect, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, prosody (as emotional cue), or affective computing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "33430007555d3ba244f907984ab0b5bdb48f9e7f49ec22557096947404d3283b": {
+    "paper_id": "https://openalex.org/W4353034331",
+    "title": "Scalable Computer Interactive Teaching System Based on Large Scale Multimedia Data Analysis",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.373Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on scalable multimedia data analysis for computer-aided teaching systems, with no mention of emotion, affective computing, or psychological/behavioral aspects of learning.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain no emotion-related terms or methodologies."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "fa39c25eaff46a785d1d7bf36acc68a7b8bcaff4eadf4ed4d79a7dea665830c7": {
+    "paper_id": "https://openalex.org/W4394000028",
+    "title": "Comment on egusphere-2024-575",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.376Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is an environmental science study on volatile organic compounds and air pollution, with no connection to emotion or affective processes.",
+      "evidence": [
+        "Abstract focuses exclusively on VOC monitoring, PM2.5, source apportionment (industrial/vehicular emissions), and policy-related pollution changes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "37c011e01b98c2b824597b1ed1be342502da52dd1e214cb32785c02d1138370b": {
+    "paper_id": "https://openalex.org/W4391987647",
+    "title": "Building a Hierarchical Architecture and Communication Model for the Quantum Internet",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.380Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is exclusively focused on quantum internet architecture and entanglement protocols, with no conceptual, methodological, or empirical connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and abstract content pertain to quantum networking, distributed/hierarchical architecture, entanglement distribution, and routing algorithms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f24add6d8413310fecf6399e9f2f283f8012314890de7b52cab7c1d834a85576": {
+    "paper_id": "https://openalex.org/W4402671847",
+    "title": "GroundingGPT: Language Enhanced Multi-modal Grounding Model",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.399Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multi-modal grounding and language-enhanced computer vision/NLP integration, with no mention of emotion, affect, or related psychological/linguistic constructs in metadata or abstract.",
+      "evidence": [
+        "Concepts include 'Modal', 'Natural language processing', 'Ground', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "74839e76dd32fa617fbc0fde05827d1233a50f722db77eec7206013015dac974": {
+    "paper_id": "https://openalex.org/W4385570101",
+    "title": "DUB: Discrete Unit Back-translation for Speech Translation",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.441Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speech translation and discrete unit representation for bridging modality gaps; no mention of emotion, affective computing, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively cover speech translation, machine translation, discrete units, and NLP—no emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ac34387122000a2f388aeae7d1404d85a1dbfdd2180685c47d95dec03574639b": {
+    "paper_id": "https://openalex.org/W4392591175",
+    "title": "Supplementary material to \"The variations of VOCs based on the policy change of Omicron in polluted winter in traffic-hub city, China\"",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.450Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental science, specifically VOC variations related to Omicron policy changes in a Chinese traffic-hub city; no connection to emotion or affective processes.",
+      "evidence": [
+        "Title mentions VOCs, Omicron policy, pollution, and traffic-hub city — all environmental/epidemiological topics"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4b61061b2065075db39870aae5a31a5a9fc7a32dbe5f2a5505519c7bb76db8d7": {
+    "paper_id": "https://openalex.org/W4229022650",
+    "title": "FedMix: Mixed Supervised Federated Learning for Medical Image Segmentation",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.482Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on federated learning for medical image segmentation with mixed supervision levels; no mention of emotion, affect, or psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and metadata contain only technical ML/computer vision terms; 'emotion' does not appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2ef3d2e9bda24db57259c273f82637545356242b8ee281b293e81b8260cd4814": {
+    "paper_id": "https://openalex.org/W4386384714",
+    "title": "SpeechTokenizer: Unified Speech Tokenizer for Speech Large Language Models",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.497Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speech tokenization and language modeling for speech synthesis and recognition, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Interest topics are 'emotion', but the paper's abstract, concepts, and title exclusively address technical aspects of speech representation and large language models."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4f61d1c1c2f306c6c668c10bd6b2b01814ee8dc3a797ad8170be50badc1dc6ed": {
+    "paper_id": "https://openalex.org/W4389985728",
+    "title": "INVESTIGATION ON SECONDARY FLOW AND THERMAL IRREVERSIBILITY OF LBE IN THE REACTOR FUEL ASSEMBLY",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.525Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on nuclear engineering, fluid dynamics, and thermodynamics in lead-bismuth eutectic (LBE) coolant systems—no conceptual or methodological link to emotion or affective science.",
+      "evidence": [
+        "Title explicitly references 'secondary flow' and 'thermal irreversibility' in reactor fuel assembly"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "03f514e5eecd2c4fe8389640827487212656d217df588ee4c4fffc1bba0b614d": {
+    "paper_id": "https://openalex.org/W4376278050",
+    "title": "RETRACTED ARTICLE: Design of computer interactive teaching system by using feature extraction algorithm and multimedia technology",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.562Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computer interactive teaching systems using feature extraction and multimedia technology, with no mention of emotion or affective computing in title, venue, concepts, or abstract.",
+      "evidence": [
+        "Title contains no emotion-related terms; concepts list includes 'Multimedia' and 'Feature extraction' but not emotion, affect, sentiment, or related terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a0c8d7a0fbbe3393b1fa1d157260c6ae09d8dd029637d18df49a15ed079cbeee": {
+    "paper_id": "https://openalex.org/W4311209627",
+    "title": "Effect of Heat Flux Distribution on Entropy Generation and Irreversibility of Lead-Bismuth Eutectic (LBE) Forced Convective Heat Transfer",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.587Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on thermodynamic irreversibility and heat transfer in lead-bismuth eutectic fluid, with no conceptual or lexical connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Heat flux', 'Thermodynamics', 'Convective heat transfer' — all domain-specific to thermal engineering."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2bcefeae600477d55185e392d28b7e2e7d398ed1379035a9f9336208f16ae3de": {
+    "paper_id": "https://openalex.org/W4393336216",
+    "title": "Genetic Quantization-Aware Approximation for Non-Linear Operations in Transformers",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.603Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on hardware-efficient quantization and algorithmic approximation of non-linear operations in Transformers, with no connection to emotion, affective computing, or psychological/behavioral modeling.",
+      "evidence": [
+        "All concepts and the abstract center on transformer optimization, quantization, hardware efficiency, and numerical approximation—no emotion-related terms or methodologies appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "eed36d85a80cfe3e8820feb4fd99b0ed069c6f62a7e980bfe5d47f0269859015": {
+    "paper_id": "https://openalex.org/W4377143197",
+    "title": "SpeechGPT: Empowering Large Language Models with Intrinsic Cross-Modal Conversational Abilities",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.653Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multi-modal LLM architecture and speech-language integration, with no mention of emotion, affect, sentiment, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all listed concepts are technical/computational (e.g., 'Modal', 'Natural language processing', 'Artificial intelligence')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5881615c612f0d4001657329d867e4fce0be928c5ec4d3927cf3bcf7e73330a5": {
+    "paper_id": "https://openalex.org/W4305042272",
+    "title": "Label-only membership inference attack based on the transferability of adversarial sample",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:57.762Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on membership inference attacks in machine learning, specifically leveraging adversarial sample transferability; no connection to emotion, affect, or affective computing is present in title, concepts, or abstract.",
+      "evidence": [
+        "Concepts include 'Computer science', 'Adversarial system', 'Machine learning', 'Attack model' — all technical/security-oriented; no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a85660c00e8bd7ec2a204034c6437fecdd3f3d407f915ddd32437aac8636c89b": {
+    "paper_id": "https://openalex.org/W4381054367",
+    "title": "What online review features really matter? An explainable deep learning approach for hotel demand forecasting",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:58.027Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on hotel demand forecasting using online review features (expertise, sentiment, popularity, novelty) and deep learning architecture; 'sentiment' is used instrumentally as a predictive feature, not as an affective/emotion phenomenon under study.",
+      "evidence": [
+        "Sentiment is treated as one component (ESPN framework) for demand prediction, not analyzed for its emotional or affective structure, dynamics, or psychological implications."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "584f855bff1c2c5c58290f5002080db55f4df1b28bda7de2cae77ee3ec391040": {
+    "paper_id": "https://openalex.org/W4403370459",
+    "title": "UnifiedMLLM: Enabling Unified Representation for Multi-modal Multi-tasks With Large Language Model",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:58.039Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unified multi-modal task representation and architecture for large language models, with no mention of emotion, affect, sentiment, or any affective/emotion-related constructs in title, abstract, or listed concepts.",
+      "evidence": [
+        "Concepts include 'Modal', 'Representation (politics)', 'Computer science', etc., but no emotion-related terms; abstract discusses task routing, reasoning, and multi-modal generalization without emotional or affective content."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6fa1f7b7e45554323d0706e513b5f6eacf40202d01ec58da3ffc31622e407306": {
+    "paper_id": "https://openalex.org/W4415797742",
+    "title": "SpeechAlign: Aligning Speech Generation to Human Preferences",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:58.425Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.9,
+      "reason": "The paper title explicitly references 'Human Preferences', which in speech generation contexts frequently encompasses affective dimensions such as naturalness, expressiveness, and emotional appropriateness—core aspects of emotion research in human-computer interaction and affective computing.",
+      "evidence": [
+        "Title: 'SpeechAlign: Aligning Speech Generation to Human Preferences'"
+      ],
+      "keywords": [
+        "speech generation",
+        "human preferences",
+        "affective alignment",
+        "emotion-aware synthesis"
+      ],
+      "research_directions": [
+        "affective speech synthesis",
+        "preference-based modeling of emotional prosody",
+        "human-centered evaluation of expressive speech"
+      ]
+    }
+  },
+  "f14c67e7a5606b0b4bdc8be4734b1621a176a33379aac7749f3df8a32fe5e766": {
+    "paper_id": "https://openalex.org/W4317937232",
+    "title": "A Review of Data-Driven Techniques for Neuromarketing",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T15:19:59.225Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper reviews data-driven techniques in neuromarketing, a field that inherently involves measuring and interpreting emotional responses (e.g., via EEG, fMRI, facial coding) to marketing stimuli; 'emotion' is a core construct in neuromarketing theory and practice.",
+      "evidence": [
+        "Interest topics include 'emotion'",
+        "Concepts include Psychology and Neuroscience — disciplines central to affective science",
+        "Neuromarketing explicitly relies on emotion measurement and modeling"
+      ],
+      "keywords": [
+        "emotion",
+        "neuromarketing",
+        "affective neuroscience",
+        "consumer emotion",
+        "psychophysiology"
+      ],
+      "research_directions": [
+        "Affective computing in marketing contexts",
+        "Emotion decoding from neural/physiological signals",
+        "Data-driven modeling of emotional response to advertisements"
+      ]
+    }
   }
 }

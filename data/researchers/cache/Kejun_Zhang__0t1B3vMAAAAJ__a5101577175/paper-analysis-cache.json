@@ -398,5 +398,651 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "3f2725b6c9a131c5164b39549c82e2739879c6fa8cc65315cd71ac0a17450259": {
+    "paper_id": "https://openalex.org/W4415784250",
+    "title": "In situ Crystal Structure Growth and Control for Enhancing Comprehensive Performance in Ultra‐High Nickel‐Layered Lithium Cathodes",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:17.462Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is in materials chemistry and battery electrochemistry, with no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract focus exclusively on lithium cathode crystal structure, Li+ transport, and electrochemical performance."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2e0d443276ac572f5afc725296e1ad70dd7f7ce4e4cb425dc53402f7e7016e16": {
+    "paper_id": "https://openalex.org/W4403620084",
+    "title": "Risk of Text Backdoor Attacks Under Dataset Distillation",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:18.198Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on text backdoor attacks and dataset distillation in AI security, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Backdoor, Computer security, Artificial intelligence — no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b37fda30c590a3fdc74b5929945aa973a3deff9932dbf09594fa2271bc130a6c": {
+    "paper_id": "https://openalex.org/W4405893367",
+    "title": "Modulated co-precipitation-assisted synthesis of uniformly aluminum-doped lithium cobalt oxide for high-voltage lithium-ion battery cathodes",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:18.281Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is in materials science and battery chemistry, with no conceptual or lexical connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are exclusively focused on inorganic synthesis, lithium-ion batteries, and doping chemistry."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b15f7fbca48b3a92b66c85d3a5d963fb99653a50aa7488a34a30bbbe2d656619": {
+    "paper_id": "https://openalex.org/W4413093189",
+    "title": "VRCL: A Discrimination Detection Method for Multilingual and Multimodal Information",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:18.323Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on discrimination detection in multilingual and multimodal information, with no mention of emotion, affect, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Title and abstract emphasize 'discrimination detection', not emotion or affective processes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8ec55f914c9aa65a1456abbfa398814219d9015e50c4a0e803d27ce6bb2d7de5": {
+    "paper_id": "https://openalex.org/W4404088528",
+    "title": "ArchiTone: A LEGO-Inspired Gamified System for Visualized Music Education",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:18.435Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on gamified music education and visualized music theory learning; no mention of emotion modeling, affective computing, emotional response measurement, or affective interaction.",
+      "evidence": [
+        "Abstract emphasizes engagement and learning effectiveness, not emotional states or affective mechanisms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b44ec5196f6bd736879018dace11e28ea0b91dbf885c9f6198fb41835345f659": {
+    "paper_id": "https://openalex.org/W4396769546",
+    "title": "Researching the Influence of Rural University Campuses on Rural Economic Development: Evidence from Chinese Counties between 2001 and 2020",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:18.450Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on economic impacts of rural university campuses and contains no emotion-related constructs, methods, or variables.",
+      "evidence": [
+        "All concepts and the abstract center on economic growth, regional development, and socioeconomics; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a40191a2562bb3268bb30afcfc747feccfb7b2f4834730c7664c7388b37766e0": {
+    "paper_id": "https://openalex.org/W4403576087",
+    "title": "Exploring Optimal Combinations: The Impact of Sequential Multimodal Inspirational Stimuli in Design Concepts on Creativity",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:18.463Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multimodal stimuli sequences and creativity in design ideation, with no mention of emotion, affective states, or related constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are cognitive/technical (e.g., creativity, modalities, AI, HCI)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bdf9570712d72bc0be0518d682d0a778cef99d646fedbc9c3bc0753839877dd2": {
+    "paper_id": "https://openalex.org/W4405003716",
+    "title": "Synergistic Enhancement of Cathode Performance through the Introduction of Oxygen Vacancies in the P2/P3 Mixed Phase",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:18.580Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is in materials science and electrochemistry, focusing on oxygen vacancies and phase transitions in battery cathodes; no connection to human emotion or affective processes.",
+      "evidence": [
+        "All concepts and abstract content pertain to sodium-ion battery materials engineering, with zero mention of emotion, affect, psychology, neuroscience, or related domains."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7c1829277800b8bfec408e82c267cdc67c96a1d6431996a57781bf26b75535f0": {
+    "paper_id": "https://openalex.org/W4404118069",
+    "title": "An intelligent font generation system based on stroke inference, mitigating production labor and enhancing design experience",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:18.599Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on intelligent font generation and stroke-based inference for design efficiency, with no explicit or implicit connection to emotion, affective computing, or psychological/emotional processes.",
+      "evidence": [
+        "Interest topics specify 'emotion', but paper concepts and title center on font generation, stroke inference, and production efficiency."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "22f55e644164a442f156e978a59a5ffcd658828b58c293be3b530ee891bdef8e": {
+    "paper_id": "https://openalex.org/W4411271532",
+    "title": "Multi-Task Diffusion Model for Simultaneous Text and Image Inpainting",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:18.610Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical aspects of multi-task diffusion models for text and image inpainting, with no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; 'Pattern recognition (psychology)' is a coincidental concept label, not indicative of affective content."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e77f677d36c8a486fa51d518535c565bd76374bcce22e952729b02d8d50af067": {
+    "paper_id": "https://openalex.org/W4400611200",
+    "title": "SaMoye: Zero-shot Singing Voice Conversion Model Based on Feature Disentanglement and Enhancement",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:18.611Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on singing voice conversion, feature disentanglement, and zero-shot modeling in speech/audio processing; 'emotion' is not mentioned or implied in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "No mention of emotion, affect, sentiment, or related psychological/behavioral constructs in abstract or concepts"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1a3061622f0650c326b71909f2d3179f4c3ca4669970fa91d98e4bee86012ace": {
+    "paper_id": "https://openalex.org/W4401991034",
+    "title": "The WuShu Database for Cursive Script Character and Style Recognition",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:18.644Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cursive script character and style recognition in Chinese calligraphy, with no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts emphasize character recognition, AI, NLP, and visual arts—no emotion-related terms or constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "40704a0ad859a0732507e36213cc34358d5cf3ae0a590a626f2f242923876dcb": {
+    "paper_id": "https://openalex.org/W4411272127",
+    "title": "A New Strategy to Reduce Design Fixation: Presenting Virtual Model Text to Designers in a Mixed Sequential Manner",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:18.704Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on design fixation mitigation using stimulus timing and modality in HCI/design cognition, with no mention of emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes 'Human–computer interaction' and 'Computer science' but omits affective science, psychology, or emotion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1ad81b10e06faeea567c1b5966c1ea4b990c9122f547dfd014c5fb16ca6ba50f": {
+    "paper_id": "https://openalex.org/W4403627727",
+    "title": "The Toilet Revolution Empowers Rural Revitalization based on a Health Perspective",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:18.730Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on public health, rural development, and infrastructure policy; 'emotion' is not addressed in title, abstract, concepts, or stated research scope.",
+      "evidence": [
+        "Concepts list includes Psychology but no emotion-related terms; abstract discusses health service expenditure and sanitary toilet construction, with no mention of affect, emotion, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "599de861c765b61340003dae9d8e61020c6ead9d8bea05c403c7dfe261242740": {
+    "paper_id": "https://openalex.org/W4402449438",
+    "title": "Guest editorial: AI for computational audition—sound and music processing",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:18.754Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on AI for computational audition and technical aspects of sound/music processing, with no explicit mention of emotion or affective computing in metadata or abstract.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper concepts are technical (e.g., speech recognition, acoustics, multimedia) and lack affective/emotion-related terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d04769a34f156cb78c62b78dbc352425af9a156572b3bb36502fce5659b34077": {
+    "paper_id": "https://openalex.org/W4391899937",
+    "title": "MuChin: A Chinese Colloquial Description Benchmark for Evaluating Language Models in the Field of Music",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:18.801Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on music description benchmarking for multimodal LLMs and does not address emotion, affective states, or affective computing.",
+      "evidence": [
+        "Interest topics are 'emotion', but the paper's abstract, concepts, and methodology center on music information retrieval, natural language processing, and benchmark construction—not emotion modeling, sentiment analysis, or affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d29cf115098a775c22cd9afdf90168def231b541a4cf0dd75fdf5bb2b6afffce": {
+    "paper_id": "https://openalex.org/W4405783648",
+    "title": "SongGLM: Lyric-to-Melody Generation with 2D Alignment Encoding and Multi-Task Pre-Training",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:18.829Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on lyric-to-melody generation using alignment encoding and multi-task pre-training; no mention of emotion, affective states, sentiment, or psychological constructs related to emotion.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes 'Natural language processing', 'Artificial intelligence', 'Encoding', but not emotion, sentiment, affect, or related domains."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c17992fdccd88a07bdd7fe3c653ff94fb376ba3ce80cbe10de3afcdc5228df43": {
+    "paper_id": "https://openalex.org/W4405360414",
+    "title": "Adversarial Transformer-Based Anomaly Detection for Multivariate Time Series",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:18.850Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on adversarial transformer-based anomaly detection for industrial multivariate time series, with no mention of emotion, affect, sentiment, or any psychological/behavioral constructs related to affective science.",
+      "evidence": [
+        "Abstract and concepts contain only technical terms: 'anomaly detection', 'Transformer', 'time series', 'industrial systems'; no emotion-related keywords or context."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "dfc7cef6eed3d9977e40812a8cadf246fe1c2852f962ca0fe21897614c896ec4": {
+    "paper_id": "https://openalex.org/W4390833602",
+    "title": "End-to-end Learnable Clustering for Intent Learning in Recommendation",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:19.012Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on intent learning and clustering for recommendation systems, with no mention of emotion, affect, sentiment, or any affective/emotion-related constructs.",
+      "evidence": [
+        "Interest topics are 'emotion', but the paper's title, abstract, concepts, and methodology center exclusively on intent modeling, clustering, and recommendation—no emotional or affective variables, measures, or theories are referenced."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8b850cb9951f435124a78939b45aa978aed786450eef2e12b6b7c4a4dbb6391d": {
+    "paper_id": "https://openalex.org/W4402352654",
+    "title": "Video Visual Relation Detection Based on Trajectory Fusion",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:19.019Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video visual relation detection using trajectory fusion and computer vision techniques, with no mention or conceptual link to emotion, affective computing, or psychological/behavioral affective phenomena.",
+      "evidence": [
+        "Concepts include 'Computer vision', 'Trajectory', 'Fusion', 'Relation (database)' — all technical CV/AI terms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2942ed579354aed25726f5b09c77335ce9a1be7477b73fda98391308aef57207": {
+    "paper_id": "https://openalex.org/W4401727539",
+    "title": "An Efficient Cross-Modal Privacy-Preserving Image–Text Retrieval Scheme",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:19.043Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on privacy-preserving cross-modal retrieval using encryption and indexing techniques, with no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper concepts include 'Encryption', 'Cloud computing', 'Information retrieval', and 'Scheme (mathematics)' — all technical/computer science topics unrelated to affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "23a340039da8f80bb614b1a0f386de1bcbe34db2ba2abf0cac3c908c29e77589": {
+    "paper_id": "https://openalex.org/W4401933653",
+    "title": "An efficient authentication scheme syncretizing physical unclonable function and revocable biometrics in Industrial Internet of Things",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:19.115Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cryptographic authentication, biometrics security, and IoT systems; no connection to emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Concepts include 'Biometrics', 'Physical unclonable function', 'Computer security', 'Internet of Things'; no emotion-related terms in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5f26baf3a13fac77db7ccbfe044062d314c29591b33bc5fb8ca783e1e9c3fea0": {
+    "paper_id": "https://openalex.org/W4401991255",
+    "title": "Popular Hooks: A Multimodal Dataset of Musical Hooks for Music Understanding and Generation",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:20.276Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly includes 'emotion' as a core annotated attribute in its multimodal music dataset and conducts emotion recognition and emotion-conditioned music generation—directly aligning with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "detailed annotations of high-level musical attributes such as ... emotion",
+        "leverage a pre-trained multimodal music emotion recognition framework for automatic emotion labeling",
+        "explore emotion-conditioned music generation baselines"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "emotion annotation",
+        "affective computing",
+        "music emotion",
+        "multimodal emotion"
+      ],
+      "research_directions": [
+        "Affective music generation",
+        "Multimodal emotion modeling",
+        "Emotion-aware AI for creative arts",
+        "Dataset curation for affective computing"
+      ]
+    }
+  },
+  "e374b811088f43c8f92094db0e5e0fe6e8b372cd030beee80752f0d68869675e": {
+    "paper_id": "https://openalex.org/W4403365371",
+    "title": "SoundScape: A Human-AI Co-Creation System Making Your Memories Heard",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:20.358Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper centers on sound-based memory creation, explicitly linking auditory experience to emotional and mnemonic processes; 'emotion' is a stated interest of the researcher and aligns with psychological and affective dimensions of memory and soundscape design.",
+      "evidence": [
+        "Sound plays a significant role in human memory",
+        "enhancing the atmosphere of their works",
+        "Concepts include Psychology"
+      ],
+      "keywords": [
+        "emotion",
+        "memory",
+        "soundscape",
+        "affective computing",
+        "human-AI co-creation",
+        "user experience"
+      ],
+      "research_directions": [
+        "Affective sound design",
+        "Emotionally resonant memory technologies",
+        "AI-mediated affective expression",
+        "Psychology-informed HCI"
+      ]
+    }
+  },
+  "ecce82984f5b44541b79ecaeb68b654935b2fb5f4017a857ba218a87a7c55cfe": {
+    "paper_id": "https://openalex.org/W4403864654",
+    "title": "Generative Artificial Intelligence Enhances Sudden Moments of Inspiration among Novice Designers",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:20.460Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper examines how generative AI influences 'sudden moments of inspiration'—a psychological and affective phenomenon closely tied to emotional experience (e.g., awe, insight joy, flow)—and explicitly targets novice designers' subjective, time-sensitive cognitive-affective states.",
+      "evidence": [
+        "'Sudden moments of inspiration are pivotal in the design process', implying affect-laden cognitive-emotional events",
+        "Focus on novice designers' experiential response to AI, suggesting affective engagement"
+      ],
+      "keywords": [
+        "inspiration",
+        "affective experience",
+        "design cognition",
+        "human-AI interaction",
+        "emotional response"
+      ],
+      "research_directions": [
+        "Affective computing in creative tools",
+        "Emotion-aware AI for design support",
+        "Psychological impact of generative AI on creative flow"
+      ]
+    }
+  },
+  "494c2c2dc9ede6d6789aebd195ee92adf890f5a3c3d30767eb47bbe2a527e311": {
+    "paper_id": "https://openalex.org/W4392351252",
+    "title": "Survey Paper on A Facial Expression-Based Music Recommendation System",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:20.603Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion recognition via facial expressions as the core mechanism for music recommendation, aligning precisely with the researcher's interest topic 'emotion'. It integrates affective computing, human-computer interaction, and personalized systems grounded in emotional states.",
+      "evidence": [
+        "System determines user's emotion through facial expressions",
+        "Music recommendations are explicitly based on the user's 'state of mind'",
+        "Abstract emphasizes mood-based interaction and emotion-driven automation"
+      ],
+      "keywords": [
+        "facial expression",
+        "emotion recognition",
+        "affective computing",
+        "music recommendation",
+        "mood-based system",
+        "computer vision for emotion"
+      ],
+      "research_directions": [
+        "Affective recommender systems",
+        "Multimodal emotion sensing (vision-based)",
+        "Real-time mood-aware personalization",
+        "Human-centered AI for emotional well-being"
+      ]
+    }
+  },
+  "d994f935b2559cfbc25ba16cd3efae9ccc90ed4d7c4e6eca98b2dfa5874205ca": {
+    "paper_id": "https://openalex.org/W4414361098",
+    "title": "AI-Assisted Human-Pet Artistic Musical Co-Creation for Wellness Therapy",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:20.613Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion-related outcomes (anxiety reduction, pleasure enhancement, emotional investment) in a therapeutic context, aligning precisely with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Results demonstrate significant enhancements in pleasure and creative satisfaction",
+        "Significant reduction in participants' anxiety levels",
+        "Leveraging pet vocal timbres to enhance emotional investment"
+      ],
+      "keywords": [
+        "emotion",
+        "anxiety",
+        "pleasure",
+        "emotional investment",
+        "wellness therapy",
+        "affective response"
+      ],
+      "research_directions": [
+        "affective computing in human-animal interaction",
+        "emotion-aware AI music systems",
+        "therapeutic affective co-creation",
+        "psychophysiological impact of AI-mediated artistic expression"
+      ]
+    }
+  },
+  "ee9e375668cc12532fada321141032b0cdd885697e92990e572d3cc958c6c74e": {
+    "paper_id": "https://openalex.org/W4403585934",
+    "title": "MetaBGM: Dynamic Soundtrack Transformation For Continuous Multi-Scene Experiences With Ambient Awareness And Personalization",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:20.670Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper addresses dynamic soundtrack generation responsive to user states and environmental contexts, which implicitly involves affective modeling (e.g., adapting music to user emotion inferred from interaction/state data), aligning with emotion-related HCI and personalization research.",
+      "evidence": [
+        "'real-time user interactions' and 'user state data' imply affective or emotional state inference",
+        "ambient awareness and personalization in multimodal affective computing contexts",
+        "background music adaptation is a well-established emotion regulation and affective feedback mechanism"
+      ],
+      "keywords": [
+        "affective computing",
+        "emotion-aware personalization",
+        "adaptive soundtrack",
+        "human-computer interaction",
+        "ambient awareness"
+      ],
+      "research_directions": [
+        "Affective multimedia generation",
+        "Emotion-sensitive interactive systems",
+        "Context-aware affective audio synthesis",
+        "Real-time affective state inference from interaction data"
+      ]
+    }
+  },
+  "33aba560fce4a8d5fce08f52d9b6a133bdb31108020bf9e428210ecdf4b831d4": {
+    "paper_id": "https://openalex.org/W4400376734",
+    "title": "MuDiT &amp; MuSiT: Alignment with Colloquial Expression in Description-to-Song Generation",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:20.844Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper addresses alignment between colloquial human expression and AI-generated music, with explicit emphasis on satisfying human auditory expectations — a domain intrinsically tied to affective response, emotional resonance, and subjective perception, aligning with 'emotion' as a core interest topic.",
+      "evidence": [
+        "focuses on aligning generated content with colloquial human expressions",
+        "ultimate goal of creating songs that accurately satisfy human auditory expectations",
+        "facilitating better resonance with human auditory expectation"
+      ],
+      "keywords": [
+        "affective alignment",
+        "emotional resonance",
+        "auditory expectation",
+        "colloquial expression",
+        "human-centered generation"
+      ],
+      "research_directions": [
+        "Affective computing in generative music",
+        "Emotion-aware multimodal AI",
+        "Human-AI alignment through expressive language",
+        "Psychological modeling of musical preference"
+      ]
+    }
+  },
+  "53fd332fb72605bc80fd7edec8fd46dd549cec82af9986d08b9a9e7e89a820aa": {
+    "paper_id": "https://openalex.org/W4403722087",
+    "title": "REMAST: Real-Time Emotion-Based Music Arrangement With Soft Transition",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T15:20:21.217Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.99,
+      "reason": "The paper is explicitly focused on real-time emotion-driven music generation, directly aligning with the researcher's interest topic 'emotion'. It is published in IEEE Transactions on Affective Computing and centers on emotion recognition, classification, and affective coherence—core themes in affective computing.",
+      "evidence": [
+        "Title contains 'Real-Time Emotion-Based Music Arrangement'",
+        "Published in IEEE Transactions on Affective Computing",
+        "Concepts include 'Emotion recognition', 'Emotion classification', and 'Psychology'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "affective computing",
+        "music therapy",
+        "real-time emotion adaptation",
+        "emotion classification",
+        "affective music generation"
+      ],
+      "research_directions": [
+        "Affective human-computer interaction",
+        "Emotion-aware multimedia systems",
+        "Computational musicology",
+        "Affective signal processing"
+      ]
+    }
   }
 }

@@ -554,5 +554,770 @@
         "Cross-personal affective alignment in interaction"
       ]
     }
+  },
+  "c7671840aa4cca0a6e4d8f4aac826e9c55c8134474874613e172e4a0b3478c8f": {
+    "paper_id": "https://openalex.org/W4323032949",
+    "title": "The Functional Brain Network of Subcortical and Cortical Regions Underlying Time Estimation: An Functional MRI Study",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:37.644Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on time estimation and functional brain networks, with no explicit or implied connection to emotion despite the researcher's interest in emotion.",
+      "evidence": [
+        "Title and concepts center on time perception, fMRI, and cognition—not affective processes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5c5badfef337e2385987b5c767bdd1a3cd97dcdcc1ec89984adbaac85a6a17ec": {
+    "paper_id": "https://openalex.org/W4406283341",
+    "title": "Meta-cognition",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:37.658Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper's title 'Meta-cognition' and listed concepts (Cognition, Psychology, Cognitive science, Neuroscience) are broadly cognitive rather than specifically affective/emotion-related; no abstract or emotion-linked terms provided.",
+      "evidence": [
+        "Title: Meta-cognition"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9821d10b7f79052b0cb326d35d7f4cbe2a24223f56e48e0f7dc75edef149554f": {
+    "paper_id": "https://openalex.org/W4403680455",
+    "title": "Technological Revolution and New Driving Forces for Global Sustainable Development",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:37.711Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technological revolution and sustainable development, with no mention of emotion or affective constructs in title, concepts, or available metadata.",
+      "evidence": [
+        "Concepts: Sustainable development, Development (topology), Political science, Mathematics, Mathematical analysis, Law"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7bdc7e71f188c9b4e2fca3d2d6fa5f68fc1c561aaef303f29f338e8904c4f896": {
+    "paper_id": "https://openalex.org/W4307827400",
+    "title": "Aging, Culture, and Memory for Categorically Processed Information",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:37.891Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cultural and age-related differences in categorization and memory processes, with no mention of emotion, affect, or related constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all listed concepts (e.g., Categorization, Working memory, Cognitive psychology) are cognition-focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "83f97f211ab429f1eb9ccb8b77535cdc6529a29c60d1323854d6449a434fa207": {
+    "paper_id": "https://openalex.org/W4396699274",
+    "title": "How mind wandering influences motor control: The modulating role of movement difficulty",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:37.930Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on mind wandering's modulatory effect on motor control and neural oscillations, with no direct engagement with emotion constructs, affective states, or emotion-related mechanisms.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "81c583e5e67de80fa6a9e16362fc29344457169924e1979ca19e02fb2c548897": {
+    "paper_id": "https://openalex.org/W4378977927",
+    "title": "Word Familiarity Modulates the Interference Effects of Mind Wandering on Semantic and Reafferent Information Processing",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:37.973Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on mind wandering's modulation by word familiarity and its neural effects on semantic and motor reafferent processing; 'emotion' is not mentioned or implied in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Abstract contains no mention of emotion, affect, valence, arousal, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0bdaffb99fa02a7f22255642e4249ba594dae43ed8aef6e4d14184ed0c487df5": {
+    "paper_id": "https://openalex.org/W4318472626",
+    "title": "Screening of Ochratoxin a mimotopes in phage random 7-peptide library",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:38.002Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on immunoassay development and peptide mimotope screening for mycotoxin detection, with no connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract pertain to analytical chemistry, immunology, and toxicology; 'emotion' does not appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "dba0445abf08d5dd7d8c3bf380a440b783d51dc56d6e524abd964b8662e84cab": {
+    "paper_id": "https://openalex.org/W4308186265",
+    "title": "Multisensory transfer effects in implicit and explicit category learning",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:38.026Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.85,
+      "reason": "The paper focuses on multisensory transfer and category learning in cognitive psychology, with no explicit or implicit connection to emotion or affective processes.",
+      "evidence": [
+        "Concepts list contains no emotion-related terms (e.g., affect, valence, arousal, mood, empathy) and centers on modalities, implicit learning, and cognitive transfer."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ee9a3754fe81735d7e31d2016c9e8bffe2da910237785f2009d9f07a177a64a4": {
+    "paper_id": "https://openalex.org/W4318472699",
+    "title": "Selection of Zearalenone mimic epitope peptides by phage display",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:38.057Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical immunology study focused on mycotoxin detection using phage display; no connection to emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively concern zearalenone, epitopes, monoclonal antibodies, and immunoassays—no emotion-related terms or contexts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5747e84723d4be638a803410e15e6c03417a6959568691ae26a33e0dca4ed7f5": {
+    "paper_id": "https://openalex.org/W4392842719",
+    "title": "The impact of facial attractiveness on economic decision-making",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:38.171Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on facial attractiveness and economic decision-making, with no mention of emotion, affective processes, or related psychological constructs such as valence, arousal, mood, or emotional regulation.",
+      "evidence": [
+        "Abstract discusses attractiveness biases, economic models, stereotypes, and cognitive processes like attention and memory—but never references emotion, affect, feelings, or emotional mechanisms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "873e00980ce91bf8f723149d2ab13fdff9f33ac8936d302b6c8228b8beac0af7": {
+    "paper_id": "https://openalex.org/W4386026821",
+    "title": "A longitudinal resource for population neuroscience of school-age children and adolescents in China",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:38.216Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper describes a longitudinal resource for population neuroscience in children and adolescents, with no explicit mention of emotion or affective processes in the title, venue, or listed concepts.",
+      "evidence": [
+        "Concepts include 'Psychology', 'Neuroscience', 'Cognition', but none are emotion-specific; 'emotion' is absent from all provided metadata."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0e61d0fbddab44e1bd0534a13f0afa5709bf237cbf69e5cabe40e881d55bb3be": {
+    "paper_id": "https://openalex.org/W4318472718",
+    "title": "Screening of aflatoxin B1 cyclic heptapeptide mimotope antigen",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:38.273Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on biochemical detection methods for aflatoxin B1 using phage display and mimotope screening, with no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and abstract content pertain to immunology, toxicology, and peptide engineering; 'emotion' appears only in the researcher's interest topics, not in the paper."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "84286292fe923832815eda978b3594c18600562fba8647d3ae5eb37114d7ff46": {
+    "paper_id": "https://openalex.org/W4401205010",
+    "title": "Parallel Spatiotemporal Network to Recognize Micro-Expression",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:38.834Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on recognizing micro-expressions, which are brief, involuntary facial expressions directly linked to underlying emotions; 'emotion' is explicitly listed as an interest topic of the researcher.",
+      "evidence": [
+        "Title: 'Parallel Spatiotemporal Network to Recognize Micro-Expression'",
+        "Researcher's interest topics include 'emotion'"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "facial expression",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Emotion AI",
+        "Behavioral neuroscience",
+        "Human-computer interaction"
+      ]
+    }
+  },
+  "1942978db08e37b48bc03215b06b224972f3e25680704970543be984d1be68d3": {
+    "paper_id": "https://openalex.org/W4392267353",
+    "title": "The role of self-related information in the sense of agency",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:39.180Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper focuses on the sense of agency, which is closely tied to self-related affective and emotional processing; 'emotion' is explicitly listed as an interest topic of the researcher, and agency research frequently intersects with emotion regulation, attribution of emotional outcomes, and embodied affect.",
+      "evidence": [
+        "Interest topics: emotion",
+        "Concepts: Sense of agency, Psychology of self, Self"
+      ],
+      "keywords": [
+        "sense of agency",
+        "self-related information",
+        "emotion",
+        "psychology of self"
+      ],
+      "research_directions": [
+        "Affective neuroscience of agency",
+        "Emotional modulation of self-agency judgments",
+        "Interoceptive and emotional contributions to volition"
+      ]
+    }
+  },
+  "0745001b46220a1e3e8a08d6f53fc20415abe7beef644fa0e9992658300c5a6e": {
+    "paper_id": "https://openalex.org/W4388312536",
+    "title": "Decoding the temporal representation of facial expression in face-selective regions",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:39.429Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly investigates temporal neural decoding of facial expressions—an established proxy for emotion perception—and includes specific emotion categories (Disgust, Sadness) among its core concepts.",
+      "evidence": [
+        "Concepts include 'Facial expression', 'Disgust', 'Sadness', 'Psychology'",
+        "Title explicitly references 'facial expression' decoding in emotion-relevant brain regions"
+      ],
+      "keywords": [
+        "facial expression",
+        "emotion perception",
+        "disgust",
+        "sadness",
+        "face-selective regions",
+        "temporal dynamics"
+      ],
+      "research_directions": [
+        "affective neuroscience",
+        "emotion decoding from neural signals",
+        "time-resolved emotion processing",
+        "MEG-based affective cognition"
+      ]
+    }
+  },
+  "eea9a73b6e571f8ba52886520e59def692f578c0a0e2e10d85c38f37c3713a41": {
+    "paper_id": "https://openalex.org/W4403411616",
+    "title": "Expected Negative Outcomes Enhance the Sense of Agency and Motivate Behavioral Change",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:39.574Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper's title explicitly links 'Expected Negative Outcomes'—a core affective/emotional antecedent—to 'Sense of Agency' and 'Behavioral Change', both well-studied in emotion-cognition interaction literature; 'emotion' is a declared interest topic of the author.",
+      "evidence": [
+        "Title: 'Expected Negative Outcomes Enhance the Sense of Agency and Motivate Behavioral Change'",
+        "Researcher's stated interest topic: 'emotion'"
+      ],
+      "keywords": [
+        "emotion",
+        "negative outcomes",
+        "sense of agency",
+        "behavioral change",
+        "affective anticipation"
+      ],
+      "research_directions": [
+        "Affective influences on agency attribution",
+        "Emotion-driven behavioral regulation",
+        "Cognitive-affective mechanisms of motivation"
+      ]
+    }
+  },
+  "27eb81534349705bacf617b89cc5d466563a3131e544876f2b436aff8a8567ff": {
+    "paper_id": "https://openalex.org/W4392201469",
+    "title": "Communication with Surprise – Computational Principles of Goal Signaling in Novel Human Interactions",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:39.656Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper centrally investigates 'surprise' as an emotion-related cognitive mechanism, linking it to physiological (pupil dilation) and neural responses tied to expectancy violations — core constructs in affective science and emotion research.",
+      "evidence": [
+        "'information-theoretic surprise' explains Receiver’s physiological and neural responses",
+        "significant correlation with pupil diameter (indicator of cognitive effort and emotional arousal)",
+        "neural activity in brain areas related to expectancy violations"
+      ],
+      "keywords": [
+        "surprise",
+        "emotion",
+        "expectancy violation",
+        "physiological response",
+        "affective neuroscience"
+      ],
+      "research_directions": [
+        "Computational modeling of emotion-driven communication",
+        "Neurophysiological correlates of surprise in human interaction",
+        "Affective mechanisms in tacit and language-free communication"
+      ]
+    }
+  },
+  "732c5b88cfbe5531a25b89929bb1f2cf82d7eb2fe1cda9e735f0922eaad527b9": {
+    "paper_id": "https://openalex.org/W4390280502",
+    "title": "Recognition of Masked Facial Expressions Based on Transfer Learning and Data Augmentation",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:39.791Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses recognition of facial expressions that mask underlying emotions, aligning with 'emotion' as a core interest topic; it explicitly links masked expressions to deception and real emotional states.",
+      "evidence": [
+        "Title mentions 'Recognition of Masked Facial Expressions'",
+        "Abstract states the goal is recognizing expressions that 'mask their real emotions'",
+        "Abstract concludes the method provides 'a possible method for the recognition of deception and lies', which is emotion-adjacent affective behavior"
+      ],
+      "keywords": [
+        "facial expression",
+        "emotion recognition",
+        "masked expression",
+        "deception detection",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Emotion-aware AI",
+        "Nonverbal emotion inference",
+        "Deception and affect modeling"
+      ]
+    }
+  },
+  "03ba026261f3511d77fa2e95e162f06fd759588eac52d61858a461d44c7710f4": {
+    "paper_id": "https://openalex.org/W4376851742",
+    "title": "Electromyography-Based Intentional-Deception Behavior Analysis in an Interactive Social Context: Statistical Analysis and Machine Learning",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:39.917Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper analyzes intentional-deception behavior using electromyography in a social context, which inherently involves emotional and affective processes such as guilt, fear of detection, or social anxiety; 'emotion' is explicitly listed as an interest topic of the author.",
+      "evidence": [
+        "Title includes 'Intentional-Deception Behavior Analysis in an Interactive Social Context'",
+        "Author's stated interest topic is 'emotion'",
+        "Concepts include Psychology, Social psychology, and Cognitive psychology — all closely tied to affective science"
+      ],
+      "keywords": [
+        "deception",
+        "electromyography",
+        "social context",
+        "affective response",
+        "intentional behavior"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Emotion recognition from physiological signals",
+        "Social emotion dynamics in deception",
+        "Machine learning for affective state inference"
+      ]
+    }
+  },
+  "7bfbbcad3bba1310f9c15b81b809920336653b62a1f45027dd556bebd4de6726": {
+    "paper_id": "https://openalex.org/W4379058801",
+    "title": "Synchronized or not: Developmental characteristics of basic facial expression recognition in infants",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:39.921Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly investigates infant recognition of basic facial expressions as emotional signals, explicitly linking facial expressions to emotion perception, development, and valence—core aspects of affective science.",
+      "evidence": [
+        "Abstract states: '面部表情是通过眼部、口部等肌肉动作传递出来的情绪信号' (Facial expressions are emotional signals conveyed via eye/mouth muscle actions)",
+        "Abstract emphasizes developmental trajectory of emotion perception vs. understanding, and differential processing of positive/negative valence expressions"
+      ],
+      "keywords": [
+        "emotion",
+        "facial expression",
+        "emotion recognition",
+        "infant development",
+        "emotional valence",
+        "affective development"
+      ],
+      "research_directions": [
+        "Affective neuroscience in infancy",
+        "Developmental emotion perception",
+        "Cross-modal emotion processing",
+        "Early emotion-cognition interactions"
+      ]
+    }
+  },
+  "10175b83bbde12d393c1c4bc8c29b3b36d751308bde993e30c0756537361d4b5": {
+    "paper_id": "https://openalex.org/W4390280394",
+    "title": "Recognition of Masked Facial Expressions Based on Convolutional Neural Networks and Data Augmentation",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:39.983Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion inference through facial expression recognition, specifically focusing on masked expressions that conceal underlying affective states — aligning precisely with 'emotion' as a core interest topic.",
+      "evidence": [
+        "Title explicitly references 'Masked Facial Expressions' and links to emotion inference (e.g., 'identify deception and lies')",
+        "Abstract states the goal is recognizing expressions that conceal 'real emotions'",
+        "Concepts include 'Facial expression recognition', a well-established affective computing subfield"
+      ],
+      "keywords": [
+        "facial expression recognition",
+        "masked emotions",
+        "affective computing",
+        "emotion inference",
+        "deception detection"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion recognition from visual cues",
+        "AI for psychological signal interpretation",
+        "robust affective behavior analysis under occlusion"
+      ]
+    }
+  },
+  "36f8d9114d67aae3d5fe593a134fc80cea6100c26fed1aff3466447cb064bd77": {
+    "paper_id": "https://openalex.org/W4386232460",
+    "title": "Common Intentional Binding Effects Across Different Sensory Modalities in Voluntary Actions",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:40.175Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper investigates intentional binding—a phenomenon linked to the sense of agency and self-attribution of actions—which is deeply tied to affective and emotional processing in cognitive and social neuroscience, especially given the researcher's stated interest in 'emotion'.",
+      "evidence": [
+        "Title mentions 'intentional binding', a well-established paradigm in agency research that interfaces with emotion, self-awareness, and affective evaluation of action outcomes",
+        "Concepts include 'Psychology', 'Cognitive psychology', and 'Neuroscience'—domains where emotion-related mechanisms underlie intentional binding effects"
+      ],
+      "keywords": [
+        "intentional binding",
+        "sense of agency",
+        "voluntary action",
+        "emotion-cognition interaction",
+        "self-attribution"
+      ],
+      "research_directions": [
+        "Affective neuroscience of agency",
+        "Emotional modulation of temporal perception",
+        "Emotion and causal attribution in voluntary action"
+      ]
+    }
+  },
+  "91f3fb1fddf764ff7b15857acf07a170b6af2e06e64d3d0d1588e792624500f1": {
+    "paper_id": "https://openalex.org/W4389580683",
+    "title": "The temporal effect of uncertain context on the perceptual processing of painful and non-painful stimulation",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:40.308Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper investigates how uncertain context modulates perceptual processing of painful and non-painful stimulation, directly engaging emotion-related mechanisms—pain perception is tightly linked to affective/emotional processing, and contextual uncertainty is a well-established modulator of emotional response and appraisal.",
+      "evidence": [
+        "Title explicitly references 'uncertain context' and 'painful stimulation', both central to affective neuroscience; venue 'Biological Psychology' frequently publishes emotion and affective processing research; concept 'Perception' intersects with affective science in pain and threat contexts"
+      ],
+      "keywords": [
+        "pain perception",
+        "affective context",
+        "uncertainty",
+        "emotion modulation",
+        "event-related potential",
+        "sensory-affective integration"
+      ],
+      "research_directions": [
+        "Affective modulation of sensory processing",
+        "Neural correlates of emotional uncertainty",
+        "Pain as an emotion-laden experience",
+        "Context-dependent affective appraisal"
+      ]
+    }
+  },
+  "ab692f60a0334f4d7d66cd86c600f9d4b8f0e6451d918c081ea5db97f2685d0b": {
+    "paper_id": "https://openalex.org/W4392513668",
+    "title": "Social inclusion regulates the effect of social exclusion on adaptation to emotional conflict",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:40.484Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly investigates emotion-related cognitive processes—specifically 'emotion conflict adaptation'—and how social inclusion/exclusion modulates it, aligning precisely with the researcher's interest topic 'emotion'. The abstract, title, and concepts all center on emotional regulation, affective conflict, and psychological mechanisms of emotion processing.",
+      "evidence": [
+        "Title explicitly contains 'emotion conflict adaptation'",
+        "Abstract repeatedly uses 'emotion conflict adaptation', 'self-emotion regulation theory', and discusses modulation of emotional responses by social context",
+        "Concepts include 'Social psychology', 'Psychology', and the core phenomenon is affective in nature"
+      ],
+      "keywords": [
+        "emotion conflict",
+        "emotion regulation",
+        "social exclusion",
+        "social inclusion",
+        "cognitive control",
+        "affective adaptation"
+      ],
+      "research_directions": [
+        "affective neuroscience",
+        "social-emotional cognition",
+        "emotion-cognition interaction",
+        "intervention for emotion-related social stress"
+      ]
+    }
+  },
+  "c490e01d7003135750ff3fdcbd9e8a2cda657bd255e1dfaf031be536f7096d2e": {
+    "paper_id": "https://openalex.org/W4396763044",
+    "title": "The association between childhood maltreatment and internet addiction: A three-level meta-analysis",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:40.588Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper examines childhood maltreatment—a well-established antecedent of emotion dysregulation—and its association with internet addiction, a behavioral disorder frequently linked to affective coping mechanisms; 'emotion' is explicitly listed as the researcher's interest topic, and the psychological mechanisms underlying the association (e.g., emotional avoidance, distress tolerance) are central to affective science.",
+      "evidence": [
+        "Researcher's stated interest topic: 'emotion'",
+        "Childhood maltreatment is robustly associated with altered emotion processing and regulation",
+        "Internet addiction is theorized in literature as a maladaptive emotion regulation strategy"
+      ],
+      "keywords": [
+        "emotion regulation",
+        "childhood maltreatment",
+        "internet addiction",
+        "affective dysregulation",
+        "psychological distress"
+      ],
+      "research_directions": [
+        "Emotion regulation deficits in behavioral addictions",
+        "Developmental affective pathways from trauma to compulsive digital use",
+        "Cross-cultural emotion socialization and risk for internet-related disorders"
+      ]
+    }
+  },
+  "5a5fb4962e71582d1dd66f8e2bc42f6e7fa33d68275740996d9b0acd17346e36": {
+    "paper_id": "https://openalex.org/W4386691098",
+    "title": "Sense of agency in the context of COVID-19 pandemic",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:40.629Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper's title and concepts indicate a psychological investigation into 'sense of agency' during the emotionally charged, high-stress context of the COVID-19 pandemic — a setting strongly associated with affective responses (e.g., anxiety, loss of control). Although 'emotion' is not explicitly listed in concepts, 'Social psychology' and 'Perception' are closely linked to emotion research, and 'context' here is inherently affect-laden.",
+      "evidence": [
+        "Title: 'Sense of agency in the context of COVID-19 pandemic'",
+        "Concepts include: Social psychology, Perception, Context, Coronavirus disease 2019 (COVID-19)"
+      ],
+      "keywords": [
+        "sense of agency",
+        "pandemic psychology",
+        "affective context",
+        "social stress",
+        "perceived control"
+      ],
+      "research_directions": [
+        "Affective consequences of diminished agency",
+        "Emotion regulation under pandemic-related uncertainty",
+        "Social-psychological determinants of emotional resilience"
+      ]
+    }
+  },
+  "5b4e3836807e4a92e1a685f23a50cfabe36b4a82bd912d4dd61a8c84e9e638c1": {
+    "paper_id": "https://openalex.org/W4362601700",
+    "title": "Acute psychosocial stress weakens the sense of agency in healthy adults",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:40.886Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly investigates how acute psychosocial stress—a potent emotion-inducing condition—affects the sense of agency, explicitly linking emotional arousal (e.g., via SAM, cortisol, EDA) to subjective feeling and volitional control. 'Emotion' is a core interest topic of the researcher, and the study centers on affective mechanisms.",
+      "evidence": [
+        "Abstract states: 'Emotional context seems to alter the strength of sense of agency'",
+        "Methods include Self-Assessment Manikin (SAM) — a standard emotion measurement tool",
+        "Results conclude: 'acute psychosocial stress with intense emotional arousal weakened the sense of agency'"
+      ],
+      "keywords": [
+        "emotion",
+        "arousal",
+        "feeling",
+        "psychosocial stress",
+        "sense of agency",
+        "Trier Social Stress Test"
+      ],
+      "research_directions": [
+        "affective neuroscience",
+        "emotion-cognition interaction",
+        "stress and volition",
+        "implicit measures of emotional experience",
+        "embodied emotion and agency"
+      ]
+    }
+  },
+  "39c69e57f6c39218cdaccb931cbebfc0a7853ac881964d676809f034e2ec1544": {
+    "paper_id": "https://openalex.org/W4395081474",
+    "title": "The role of arousal in the estimation of time‐to‐collision of threatening stimuli",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:40.964Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper directly investigates the role of arousal—a core dimension of emotion—in perceptual timing under threat, aligning precisely with the researcher's stated interest in 'emotion'. It experimentally disentangles arousal from valence in emotional processing, a central issue in affective science.",
+      "evidence": [
+        "Title explicitly references 'arousal' and 'threatening stimuli'",
+        "Abstract states 'the effect of arousal on TTC estimation remains unclear' and tests arousal as a key independent variable",
+        "Researcher's interest topic is 'emotion', and arousal is a fundamental, empirically validated component of emotion (e.g., in circumplex models)"
+      ],
+      "keywords": [
+        "arousal",
+        "emotion",
+        "threat perception",
+        "time-to-collision",
+        "valence-arousal dissociation"
+      ],
+      "research_directions": [
+        "Affective neuroscience of time perception",
+        "Dimensional models of emotion (arousal vs. valence)",
+        "Perceptual biases in emotional contexts",
+        "Survival-related affective cognition"
+      ]
+    }
+  },
+  "76072a6b0d4f65b1245be292fca1875efbc2448bef99c5024b5c3b657ddd421c": {
+    "paper_id": "https://openalex.org/W4376621737",
+    "title": "Association between childhood maltreatment and empathy: A three-level meta-analytic review",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:41.675Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.97,
+      "reason": "The paper directly investigates the relationship between childhood maltreatment and empathy, with explicit focus on emotional components (e.g., empathic concern, personal distress) and affective processing — core constructs within emotion research. The researcher's stated interest in 'emotion' aligns strongly with the paper’s emphasis on affective empathy and emotion-related outcomes.",
+      "evidence": [
+        "Abstract explicitly analyzes 'empathic concern' (r = -0.148) and 'personal distress' (r = 0.153), both well-established affective/emotion-laden empathy subcomponents",
+        "Moderation analyses distinguish cognitive vs. emotional empathy, with significant effects found specifically in affective domains",
+        "Childhood maltreatment is a major environmental predictor of emotion regulation and affective development"
+      ],
+      "keywords": [
+        "empathy",
+        "affective empathy",
+        "emotional development",
+        "childhood maltreatment",
+        "empathic concern",
+        "personal distress"
+      ],
+      "research_directions": [
+        "Affective neuroscience of empathy",
+        "Emotion dysregulation following early adversity",
+        "Developmental psychopathology of emotion processing",
+        "Interventions targeting affective empathy in trauma-exposed populations"
+      ]
+    }
+  },
+  "53af9dba0433175cef45613471a8ddbdb31e835e2d54b928601f22b04defe293": {
+    "paper_id": "https://openalex.org/W4416285281",
+    "title": "Action Unit Enhance Dynamic Facial Expression Recognition",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T15:12:41.773Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion recognition through dynamic facial expressions, explicitly leveraging Action Units (AUs) — a well-established biometric proxy for underlying emotional states — and ties its methodology to emotion-related challenges like label imbalance in emotion datasets.",
+      "evidence": [
+        "Title includes 'Dynamic Facial Expression Recognition', a core affective computing task",
+        "Abstract states the work integrates 'AU-expression knowledge' — AUs are standardized, emotion-linked facial muscle movements (e.g., AU12 for smile, AU4 for frown)",
+        "Mentions 'data label imbalance issues in established dynamic expression datasets' — a known challenge in emotion classification due to uneven distribution of emotion categories (e.g., more 'happy' than 'contempt' samples)"
+      ],
+      "keywords": [
+        "facial expression recognition",
+        "action units",
+        "emotion recognition",
+        "dynamic expression",
+        "AU loss",
+        "label imbalance"
+      ],
+      "research_directions": [
+        "affective computing",
+        "facial behavior analysis",
+        "emotion-aware AI",
+        "imbalanced learning in affective datasets"
+      ]
+    }
   }
 }

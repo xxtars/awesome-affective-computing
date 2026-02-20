@@ -358,5 +358,545 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "8c3e03e0406e761eb037e9f303f11afbf75d966aea22c3b467120345fa04f850": {
+    "paper_id": "https://openalex.org/W4411276343",
+    "title": "Potential effect of key aroma-active compounds identified from fried white mushrooms (Agaricus bisporus L.) on saltiness perception",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:38.557Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on aroma compounds and saltiness perception in food science, with no stated or implied connection to emotion or affective processes.",
+      "evidence": [
+        "Title mentions 'saltiness perception' and 'aroma-active compounds', not emotional responses"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "451aa09581dc4fd9555483393bd888f162ae709ee36e705c90254ae23118a39c": {
+    "paper_id": "https://openalex.org/W4411105647",
+    "title": "Deep learning for automated grading of radiographic sacroiliitis",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:38.709Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on AI-based medical image grading for sacroiliitis, with no mention of emotion, affective computing, or psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts are strictly clinical, radiological, and engineering-oriented."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "64a35ab7c4f5729c1d51231f3473537e2017ed672843d8ad8c6f5d71b1a48dc6": {
+    "paper_id": "https://openalex.org/W4411730908",
+    "title": "HGTL: A hypergraph transfer learning framework for survival prediction of ccRCC",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:38.710Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hypergraph transfer learning for cancer survival prediction, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: 'Hypergraph, Artificial intelligence, Transfer of learning, Medical Image Analysis'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f5eb27c7633e4e7bd460ca5c595f0ff05b3cc6c3edecd4ea24005d2fe0086445": {
+    "paper_id": "https://openalex.org/W4412490381",
+    "title": "Patient rights and consent form language about intraoperative audiovisual recording",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:38.734Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on medical ethics, readability of consent forms, and surgical policy—not emotion or affective processes.",
+      "evidence": [
+        "Concepts include 'Readability', 'Informed consent', 'Logistic regression', and 'Medicine'; no emotion-related concepts present."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f65428ddf05bd629b40ff350e8f7c98a4297bffbf319eb751d23c3dcd8539498": {
+    "paper_id": "https://openalex.org/W4410301375",
+    "title": "Decoding the flavor of traditional Chinese stir-fried pork cuisine: Development of a sensory wheel and exploration of the relationship between sensory attributes and aroma compounds",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:38.736Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sensory analysis of food flavor and aroma chemistry, with no indication of emotion, affect, or psychological/behavioral responses to stimuli.",
+      "evidence": [
+        "Title emphasizes sensory wheel, aroma compounds, and food science—not emotional or affective constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "afbe684fe2b7c3a200102fb134c37ce8cda671f251513b6546ec8c19be52a96b": {
+    "paper_id": "https://openalex.org/W4413184991",
+    "title": "Ascovirus suppresses feeding and growth in Spodoptera litura larvae by targeting the neuropeptide F",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:38.769Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on virology, entomology, and neuropeptide-mediated physiological suppression in insects; 'emotion' is not relevant to insect larval feeding/growth regulation.",
+      "evidence": [
+        "Concepts are strictly biological/ecological; no affective or psychological terms present"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9e41776d4feaf448d6bef1091caecead347f616390712a0a2224f6f212cbd64f": {
+    "paper_id": "https://openalex.org/W4412791364",
+    "title": "Study on preparation and piezoresistive characteristics of TVS-modified polymer-derived SiBCN ceramics",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:38.769Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on materials science and piezoresistive properties of ceramics, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Materials science, Ceramic, Piezoresistive effect — all unrelated to emotion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "41a282210b319a04893517ecbf795be9c3256b663d8793937b012ffcff6036aa": {
+    "paper_id": "https://openalex.org/W4410933751",
+    "title": "RGB-D Visual Perception for Occluded Scenes via Event Camera",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:38.797Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on RGB-D visual perception and event cameras for occluded scenes, which falls under computer vision and sensor fusion—not affective science or emotion research.",
+      "evidence": [
+        "Concepts include computer vision, perception, and event cameras; no emotion-related terms present"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "217b1c10e70caf8750160492ac9b723b583132ee6ce6d03c7305bc1014b38b98": {
+    "paper_id": "https://openalex.org/W4413926262",
+    "title": "ERetinex: Event Camera Meets Retinex Theory for Low-Light Image Enhancement",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:38.800Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on low-light image enhancement using event cameras and Retinex theory, with no connection to emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are computer vision/image processing focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9f4593e024a126f22cda9f3ca05e549d8bd03ef29468b2631f8992e119c2c980": {
+    "paper_id": "https://openalex.org/W4412987007",
+    "title": "Fuzzy Adaptive Chaos Genetic Algorithm for Target Assignment System",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:38.826Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on optimization algorithms for military target assignment and contains no mention of emotion, affect, psychology, or human-centered affective phenomena.",
+      "evidence": [
+        "Abstract discusses weapon-target assignment, fuzzy adaptive chaos genetic algorithm, and convergence rate—no emotion-related terms or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d3d18955a1a66db9133cc39bc6ea196526abb785577dd57961552a99f35a68e3": {
+    "paper_id": "https://openalex.org/W4412396478",
+    "title": "Metformin and Time to Sustained Recovery in Adults With COVID-19",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:38.846Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a clinical trial on metformin for COVID-19 recovery; 'emotion' is not addressed in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "No mention of emotion, affect, mood, psychological states, or related constructs in the abstract or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "71249873707e1f11ace1caaf97adcb2bc9ea968916c319405058bec1449c480f": {
+    "paper_id": "https://openalex.org/W4409287760",
+    "title": "Hyper-RAG: Combating LLM Hallucinations Using Hypergraph-Driven Retrieval-Augmented Generation",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:38.848Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mitigating LLM hallucinations using hypergraph-based RAG for medical and technical domains; no mention of emotion, affective computing, sentiment, or psychological constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; concepts are purely computational/mathematical."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3022933cb7171bf47093a9ea9cb44d0cac0ebaa73a2627e6a4a028b0cd51a18f": {
+    "paper_id": "https://openalex.org/W4410309417",
+    "title": "Exploring the dosimetric advantages of a novel multi-modality radiotherapy platform in prostate cancer",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:38.866Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on dosimetric advantages of a radiotherapy platform for prostate cancer, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include prostate cancer, radiation therapy, medical physics — all clinical/technical; 'emotion' is absent from title, venue, and concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "de90a70dc333cf047cb41834e38d0cc8d789e6d0dfaa1c60dcf757dbe29b772f": {
+    "paper_id": "https://openalex.org/W4409661832",
+    "title": "High-resolution synthetic aperture imaging method and benchmark based on event-frame fusion",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:38.891Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on synthetic aperture imaging, event-frame fusion, and superresolution in computer vision and AI; no conceptual or terminological overlap with emotion or affective science.",
+      "evidence": [
+        "Concepts: Benchmark, Computer science, Frame, Event, Artificial intelligence, Superresolution, Computer vision, Fusion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "783d65b3ac27d3c8f45dc66dfd8a65d0ec3ca6096a1796b12e8331ab998d49a2": {
+    "paper_id": "https://openalex.org/W4412465138",
+    "title": "SpaMGAN: Multi-view graph augmentation network for spatial domain identification in spatial transcriptomics",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:38.913Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on spatial transcriptomics, graph-based data augmentation, and domain identification in computational biology—no conceptual or methodological link to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are exclusively technical/computational (e.g., 'Graph', 'Spatial transcriptomics', 'Data mining')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e0105d855926146d006730a35e63d4536c4f31baba1c23024dcbde85bb783a6d": {
+    "paper_id": "https://openalex.org/W4409108734",
+    "title": "Molecular pathways and diagnosis in spatially resolved Alzheimer’s hippocampal atlas",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:38.977Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular pathways and spatial brain mapping in Alzheimer's disease, with no explicit or implied connection to emotion or affective processes.",
+      "evidence": [
+        "Concepts include hippocampal formation, brain mapping, and anatomy—no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d923a11ab5a031a55177a184b514516ef77ff952fab7678f1c8684a628322f0e": {
+    "paper_id": "https://openalex.org/W4408936316",
+    "title": "Robust Deep Reinforcement Learning in Robotics via Adaptive Gradient-Masked Adversarial Attacks",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:38.997Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on robustness of deep reinforcement learning in robotics using adversarial attacks; no mention or conceptual link to emotion, affective computing, or human affective states.",
+      "evidence": [
+        "Concepts include 'Reinforcement learning', 'Adversarial system', 'Robotics'; none relate to emotion or affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "283e829ff0cd805956d9d28b67ebd1ea67112db994ff73a9bd73342a9859a77c": {
+    "paper_id": "https://openalex.org/W4415181414",
+    "title": "Uncovering Hidden Violent Tendencies in LLMs: A Demographic Analysis via Behavioral Vignettes",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:38.997Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on violent behavior detection and demographic bias in LLMs, not emotion generation, recognition, or affective processes.",
+      "evidence": [
+        "Interest topic is 'emotion', but paper centers on violent tendencies and behavioral vignettes, with no mention of emotion modeling, affective states, or sentiment."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b9033b0ea1f22067e7606aaa852a96088bd98add31077e0f39d8ae0fb2b9ea2c": {
+    "paper_id": "https://openalex.org/W4416102656",
+    "title": "Diff$^2$I2P: Differentiable Image-to-Point Cloud Registration with Diffusion Prior",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:39.021Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on differentiable cross-modal registration between images and point clouds using diffusion models; no connection to emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Title and abstract contain no emotion-related terms; core concepts are geometric registration, diffusion priors, and differentiable optimization."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c0a074e3516da915753ccfa3420573f8208e90cf8cdda05217febbb48de805d5": {
+    "paper_id": "https://openalex.org/W4416852267",
+    "title": "SoftHGNN: Soft Hypergraph Neural Networks for General Visual Recognition",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:39.036Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hypergraph neural networks for visual recognition and does not address emotion, affective computing, or any psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Title and abstract contain no emotion-related terms; core concepts are 'soft hyperedges', 'visual recognition', 'high-order semantics', and 'neural networks'."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "933053fd087d5e0824b419d3f18a442c6de57637759e7dd4e7e2286a4ca9054d": {
+    "paper_id": "https://openalex.org/W4411665999",
+    "title": "Addressing Challenges in Educating ESL Learners with Autism: Reviewing Effective Strategies for Language Acquisition",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:39.050Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on language acquisition strategies for ESL learners with autism, with no explicit mention or conceptual engagement with emotion, affective processes, or emotion-related constructs.",
+      "evidence": [
+        "Abstract and concepts emphasize autism, pedagogy, language acquisition, and psychology—but not emotion, affect, or related affective science terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c57e4013df556da9b3e63567e8c3a1ad9fa68c261d5c091e6db6198b143b1401": {
+    "paper_id": "https://openalex.org/W4411933098",
+    "title": "Solvent-free thermoplastic foaming for superelastic graphene monoliths",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:39.077Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on solvent-free thermoplastic foaming and superelastic graphene monoliths, which falls squarely within materials science and engineering, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts: Materials science, Thermoplastic, Graphene, Composite material, Chemical engineering, Nanotechnology, Engineering"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "87dc4c12c525eca6ba815bca03367b4c369743ab47b76fd4b621767bec20fbc8": {
+    "paper_id": "https://openalex.org/W4413270006",
+    "title": "FLASH radiotherapy at a crossroads: a bibliometric perspective on progress and challenges",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:39.083Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a bibliometric analysis of FLASH radiotherapy, focused on research trends and collaboration patterns in oncology and medical physics; no connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Medical physics', 'Bibliometrics', 'Web of science'; no emotion-related terms in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "07a16b0c819afdaa241e50e21657d769044fe944227e484806f2018bb5cd9633": {
+    "paper_id": "https://openalex.org/W4409560728",
+    "title": "Hypergraph Foundation Model for Brain Disease Diagnosis",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:39.093Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hypergraph foundation models for brain disease diagnosis using fMRI data; no mention of emotion, affective processing, or related psychological/physiological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively reference brain disease diagnosis, hypergraphs, AI, medicine, and pathology—no emotion-related terms or affective neuroscience concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "49fa36a6c787fd092f814356c45cadad8a73b8436dfd5efadc9d9cace418a06a": {
+    "paper_id": "https://openalex.org/W4413785853",
+    "title": "Hypergraph-Based High-Order Correlation Analysis for Large-Scale Long-Tailed Data Classification",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:39.105Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on high-order correlation modeling for long-tailed data classification using hypergraphs and computational optimization; no mention of emotion, affective states, sentiment, or psychological affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes 'Pattern recognition (psychology)' but in a technical/computational context, not affective psychology"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "712fbb1638e17a283a51ef49f4d5eaf835179423fc781347920cc04731ada25a": {
+    "paper_id": "https://openalex.org/W4413127301",
+    "title": "Metformin on the Presence of COVID-19 Symptoms Over 6 Months: The ACTIV-6 Randomized Clinical Trial",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:39.154Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on clinical outcomes of metformin for post-acute COVID-19 symptoms, with no mention of emotion, affect, psychological states, or related constructs.",
+      "evidence": [
+        "Abstract and concepts contain only biomedical/clinical terms (e.g., 'Metformin', 'Randomized controlled trial', 'Long COVID'); no emotion-related keywords or measures."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "048885c2947bb4afbdf50ceb84c514e13fd3ecac9efe88a49062b8e15a64420b": {
+    "paper_id": "https://openalex.org/W4414683749",
+    "title": "Memory-Augmented Incomplete Multimodal Survival Prediction via Cross-Slide and Gene-Attentive Hypergraph Learning",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:39.272Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multimodal survival prediction in oncology using pathology and genomic data, with no mention of emotion, affective processes, or related psychological/physiological constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are biomedical/computational (e.g., 'survival prediction', 'hypergraph learning', 'TCGA', 'FFPE slides')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "08c63b8ceaeac1f8c104e1e8f39be9d515016d3939af02b0871b94cb8971ed45": {
+    "paper_id": "https://openalex.org/W4409119483",
+    "title": "Protein succinylome analysis identifies citrate synthase as a central regulator of osteoclast metabolic activity",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:39.303Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on protein succinylation, mitochondrial metabolism, and osteoclast differentiation; no mention of emotion, affective processes, or psychological/behavioral correlates.",
+      "evidence": [
+        "All concepts and abstract content are biochemical/molecular: 'Succinylation', 'TCA cycle', 'Citrate synthase', 'RANKL', 'SIRT5', 'osteoclastogenesis'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6de7242e5f90835a21013558ec471dd62f132518696169bd8ba301b93fa5f045": {
+    "paper_id": "https://openalex.org/W4409129741",
+    "title": "Inter-Intra Hypergraph Computation for Survival Prediction on Whole Slide Images",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:39.358Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on hypergraph-based computational methods for survival prediction from histopathology images, with no conceptual, methodological, or application-level connection to emotion or affective science.",
+      "evidence": [
+        "Interest topic is 'emotion', but paper concepts include Hypergraph, Computer vision, Survival prediction, and Pattern recognition (psychology) — used here in the technical/computational sense, not affective psychology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7a9805c05058512e1da14d3145c808c6c65551765679eb170e5e7799a24c83af": {
+    "paper_id": "https://openalex.org/W4411949718",
+    "title": "Kernelized Hypergraph Neural Networks",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T15:08:39.373Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hypergraph neural networks and kernelized aggregation for structural data learning, with no mention of emotion, affect, psychology beyond the generic term 'pattern recognition (psychology)' in concepts — which here refers to computational pattern recognition, not affective science.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all technical content pertains to hypergraph modeling, aggregation functions, and mathematical stability."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

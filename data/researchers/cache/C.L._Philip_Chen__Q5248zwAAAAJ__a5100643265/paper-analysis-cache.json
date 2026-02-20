@@ -358,5 +358,559 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "49408897e354127ad5d2f6ac0b488099e57ef454cb63813248ef885e1936ae48": {
+    "paper_id": "https://openalex.org/W7128304889",
+    "title": "Triple-Stage Collaborative Optimization Method for Cross-Regional Data Centers Considering Optimal Coalition Matching",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:50.994Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on optimization methods for data centers and coalition matching, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts are entirely technical: optimization, matching, smart grid, stochastic optimization"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5b6dc0f99181aebee658de923464ae4ad17c3876d1fe5d580f7a45376e1bde3c": {
+    "paper_id": "https://openalex.org/W7124457080",
+    "title": "Analysis on the Transient Synchronization Stability of a Wind Farm with Multiple PLL-Based PMSGs",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.039Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is in power systems engineering, focusing on transient synchronization stability of wind farms with PMSGs; no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract exclusively discuss control theory, stability analysis, and wind generator dynamics"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "455bafb2782eb784e809c5e81a3138c4df11dc5211e88ebb1f64f0933ef36566": {
+    "paper_id": "https://openalex.org/W7119105484",
+    "title": "MSdiff: multi-scale diffusion model for image deblurring",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.075Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on image deblurring using a multi-scale diffusion model, which falls under computer vision and image restoration—domains unrelated to emotion or affective science.",
+      "evidence": [
+        "Concepts: Deblurring, Computer vision, Image restoration, Diffusion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cafffbf734a6a70de653645f42cde402a40a179295756627fd9d11cb89cfe85d": {
+    "paper_id": "https://openalex.org/W7130393823",
+    "title": "Improved rehydration characteristic of micellar casein powder by electrostatic spray drying",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.117Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on food chemistry and engineering techniques to improve micellar casein rehydration; no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract contain no emotion-related terms; all concepts are physicochemical and process-oriented."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2600637964e7226410cfc4efbf256cce9877b425c8be9ce420f0b408cec14274": {
+    "paper_id": "https://openalex.org/W7128909939",
+    "title": "Human umbilical cord mesenchymal stem cell derived small extracellular vesicles accelerate diabetic wound healing by reprogramming fibroblast subpopulations and delivering pro-regenerative cargos",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.132Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on stem cell-derived vesicles and diabetic wound healing, with no conceptual or lexical connection to emotion or affective science.",
+      "evidence": [
+        "All concepts are biomedical: Fibroblast, Wound healing, Mesenchymal stem cell, etc."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a7cf5ad6e7341da8d72f5c1313b4f33e9bb61980923937e7b28f4158c539b5ef": {
+    "paper_id": "https://openalex.org/W7128007135",
+    "title": "Modulating the coordination environment of Co for enhanced near-infrared photothermal catalytic biomass conversion",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.172Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on photothermal catalytic biomass conversion using cobalt-based materials; no connection to emotion or affective science is evident from title, venue, or listed concepts.",
+      "evidence": [
+        "Concepts include Catalysis, Photothermal therapy, Chemistry — all unrelated to emotion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a320834697a1feaba112bf0e08f4cdce8899fcf441d4af38a229b3a5bef779c5": {
+    "paper_id": "https://openalex.org/W7128618485",
+    "title": "Near-Optimal Distributed Control of Automated Manufacturing Systems With Assembly Operations Using Petri Nets",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.194Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on distributed control, Petri nets, and liveness analysis in automated manufacturing systems; no mention of emotion, affective computing, or related psychological or human-centered constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are formal methods/control theory"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0f43f844b0546efea097166ac5c7b297801ddc170ee2bc651d3b33e6fd644fba": {
+    "paper_id": "https://openalex.org/W7127085191",
+    "title": "DCP-Guided One-Shot Remote Sensing Image Dehazing via Self-Supervised Redegradation Model",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.209Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on remote sensing image dehazing using physical priors and self-supervised learning; no connection to emotion, affective computing, or human affective states.",
+      "evidence": [
+        "Title and abstract contain no emotion-related terms; concepts are all technical/computer vision focused"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8462d88196c560992586cad64f5ea4596d96cf87e29dfc4c7e5f9fecdcd1cab1": {
+    "paper_id": "https://openalex.org/W7119007701",
+    "title": "Research on Control Strategy of Lower Limb Exoskeleton Robots: A Review",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.248Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on control strategies for lower limb exoskeleton robots in rehabilitation; no mention of emotion, affective computing, or psychological/subjective states.",
+      "evidence": [
+        "All concepts and abstract content relate to engineering, control systems, and physical rehabilitation—not emotion or affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9dcddd7ceb46362b79a04a4165fde030660cda2400a3922b0fa79060a611d49c": {
+    "paper_id": "https://openalex.org/W7124443746",
+    "title": "A Multimodal Sensor-Integrated Lower Limb Exoskeleton With Digital Twin Framework for Real-Time Gait Rehabilitation",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.262Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on biomechanical sensing, real-time control, and digital twin frameworks for gait rehabilitation; no mention of emotion, affective states, or psychological/subjective user experience.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are engineering/clinical rehabilitation focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d67ec85441aa4d5f394d3f930fbc29242c9d2218a7a264c8f885c7d20d5a73ac": {
+    "paper_id": "https://openalex.org/W7124451720",
+    "title": "Multiple Global Change Stressors Boost Soil Greenhouse Gas Emissions Worldwide",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.262Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on soil greenhouse gas emissions and global environmental change, with no connection to human emotion, affective science, or psychological/emotional processes.",
+      "evidence": [
+        "All concepts and the abstract concern climate science, biogeochemistry, and ecosystem responses—not emotion or affective phenomena."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8bd749d30dac650780fda40f15af6f6fe0cd3f15b4fd8a556d36856e414fc1c3": {
+    "paper_id": "https://openalex.org/W7118823392",
+    "title": "Clinical outcomes of endovascular treatment for acute basilar artery occlusion patients with extremely severe symptoms",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.294Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a clinical neurology study focused on endovascular treatment outcomes in severe stroke patients; 'emotion' is not addressed in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "No mention of emotion, affect, mood, psychological states, or related constructs in abstract or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f79146621b53fd3ad22f989a33406ad8108dd85993e5b738186906a418da9032": {
+    "paper_id": "https://openalex.org/W7118757863",
+    "title": "Enhancing optical performance of Micro-LEDs in near-eye displays via microlens-assisted light management",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.330Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on optical engineering and materials science for Micro-LED displays, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Concepts: Microlens, Optics, Brightness, Materials science, Curvature, Fabrication, Broadband, Refractive index"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0b2b8e26b4173838aac884f5d7e94fef78765653ad1eb238dd87b559a3c50fba": {
+    "paper_id": "https://openalex.org/W7124857954",
+    "title": "Machine learning-based prediction of phenanthrene accumulation and toxicity in earthworms across soils",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.378Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental chemistry and bioaccumulation of a pollutant in earthworms, with no conceptual or methodological link to emotion or affective science.",
+      "evidence": [
+        "Concepts: Phenanthrene, Soil water, Environmental chemistry, Bioaccumulation, Environmental science, Earthworm, Pollutant, Chemistry"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a8b3f59440baea0d7f049f425d72b41a3921045cc965bc3e2b4bca0c5df2bc9b": {
+    "paper_id": "https://openalex.org/W7127370682",
+    "title": "Machine Learning-Guided Design of High-Entropy FeCoCrMnCu Layered Double Hydroxides for Efficient Oxygen Evolution in Alkaline Media",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.413Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on materials science and electrocatalysis for oxygen evolution; no conceptual or methodological link to emotion or affective science.",
+      "evidence": [
+        "Concepts are exclusively chemistry/engineering-related: 'Layered double hydroxides', 'Catalysis', 'Oxygen evolution', 'Materials science'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "30b363e409a7b02c3f76ea065eb7a71b5ae6b91417f87426079a5327152fd8f6": {
+    "paper_id": "https://openalex.org/W7126040677",
+    "title": "Rainfall Amount Forecast Using GNSS-PWV Based on Machine Learning Fusion Strategy and the Constraint of Rainfall Event",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.416Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on rainfall forecasting using GNSS-PWV and machine learning techniques; no connection to emotion, affective science, or psychological/behavioral aspects of emotion is present.",
+      "evidence": [
+        "All concepts and abstract content pertain to meteorology, remote sensing, and AI-driven weather prediction."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7a1217dc2c6c11862d7ab0b24629fc1f8071cc27ae2fa9bb6bc18f98c170708a": {
+    "paper_id": "https://openalex.org/W7118180137",
+    "title": "Catalytic Cleavage of the C–O Bonds in Diphenyl Ether over a High-Performance Ni–Ru Bimetallic Solid Superacid Catalyst",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.469Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is in catalytic chemistry and biomass conversion, with no conceptual, methodological, or terminological connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and abstract content pertain to hydrogenolysis, catalyst design, and lignin depolymerization—no emotion-related terms or constructs present."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3bdb1b06e0464a77a593c37eb9a54c870d5d10583d475510efacd445d7405b9c": {
+    "paper_id": "https://openalex.org/W7124467091",
+    "title": "A prediction model of silent brain infarction constructed based on ultrasonic features of carotid plaques and resistance of intracranial blood flow",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.491Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on clinical prediction modeling for silent brain infarction using ultrasonic and hemodynamic biomarkers; no connection to emotion or affective processes.",
+      "evidence": [
+        "Abstract and concepts exclusively pertain to neurology, cardiology, and ultrasound imaging; 'emotion' is absent from title, abstract, and all listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4d6d0edaf1b2c374abdf76cadd30d67ebbe5bb7b0108e8e6507977402521a7dc": {
+    "paper_id": "https://openalex.org/W7128308348",
+    "title": "MDANet: A Lightweight Multi-Task Dynamic Adaptive Network for Real-Time Visual Perception in Autonomous Driving",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.573Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on real-time visual perception and adaptive control for autonomous driving, with no indication of emotion modeling, affective computing, or human emotional states in the title, venue, or listed concepts.",
+      "evidence": [
+        "Concepts: Computer vision, Perception, Adaptive control, Vehicle dynamics — all technical and domain-specific to intelligent transportation, not affective science"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "aecabe0e172c3856289ced6d27a7ced535e52341af377063177d1fefec224e6c": {
+    "paper_id": "https://openalex.org/W7127429424",
+    "title": "A New Method to Monitor Flood Dynamics Using GPS Dual-Frequency CNR and a Strength-Based Threshold Constraint Strategy",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.598Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on GPS signal processing and flood monitoring using carrier-to-noise ratio analysis; no connection to emotion, affective computing, or psychological/behavioral affective phenomena.",
+      "evidence": [
+        "All concepts and methods are geospatial, remote sensing, and signal processing–related; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a1c07c5f13096be12c141897feedfd8292276a8cf3beb646226cf1a94cd0e471": {
+    "paper_id": "https://openalex.org/W7124446733",
+    "title": "Engineering Pseudo‐c/a Twin Boundaries in Super‐Tetragonal BiFeO <sub>3</sub> for Domain‐Wall Nanoelectronics",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.616Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on ferroelectric domain walls, materials science, and nanoelectronics in BiFeO3 thin films; no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and abstract content pertain to condensed matter physics and functional materials, with zero mention of emotion, affect, psychology, neuroscience, or human behavior."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0a0d0f6f83680c5366eea9cacd16f74d2026d3ba50e05ab7c127e71f66e40afd": {
+    "paper_id": "https://openalex.org/W7125713166",
+    "title": "An Explainable Machine Learning Model for Predicting Early Sensory Improvement after Carpal Tunnel Release",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.618Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on predicting sensory improvement after carpal tunnel release using machine learning; no connection to emotion or affective science is indicated in title, venue, concepts, or metadata.",
+      "evidence": [
+        "Concepts include only clinical and technical terms: 'Carpal tunnel syndrome', 'Sensory system', 'Machine learning', etc.; 'emotion' is absent."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b221e5af3bb3eaac32e582c842616e7e6641d2ce706f336ed973c81ca82fbcfc": {
+    "paper_id": "https://openalex.org/W7124967739",
+    "title": "Comprehensive metabolic profiling across five lifespan stages in murine hippocampus and cortex reveals sex-related variation in age-related cognitive decline",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.636Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on metabolic profiling and sex-related variation in age-related cognitive decline in murine brain regions, with no explicit or implicit connection to emotion or affective processes.",
+      "evidence": [
+        "Concepts are entirely metabolic/biological (e.g., glycolysis, citric acid cycle, metabolomics); 'emotion' does not appear in title, concepts, or implied scope."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9f643f4a2cc18a409bd2a741ce2f3708a0996acec40f5c9ff91429ec82e50042": {
+    "paper_id": "https://openalex.org/W7118981867",
+    "title": "Thermally Driven Solid-Phase Ion Exchange for In Situ Transition from Heterocore–Shell to Alloy Nanostructures",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.674Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a materials chemistry study focused on thermally driven ion exchange and nanostructure transformation; no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and methods are from physical chemistry and nanomaterials science: 'Ionic bonding', 'Diffusion', 'Nanostructure', 'Phase-field simulations', 'in situ electron microscopy'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "dbe359e25c67aca845009f153cf37e5f0964ce7858df0f7ce97eacc5dde1e67e": {
+    "paper_id": "https://openalex.org/W7124537673",
+    "title": "Optimizing typhoon wave height forecasting with LSTM model using SWAN-BP model output and TCWiSE synthetic typhoons",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.679Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on typhoon wave height forecasting using AI models and oceanographic/meteorological simulation; no connection to human emotion or affective science.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: 'Typhoon', 'Significant wave height', 'SWAN-BP', 'TCWiSE' — all domain-specific to physical oceanography and AI-driven environmental modeling"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "673e72332e65c720b685fea2f24b25b81a9be0be0d734ce67d763e0a56c099d6": {
+    "paper_id": "https://openalex.org/W7118730461",
+    "title": "A Non-Contact Electrostatic Potential Sensor Based on Cantilever Micro-Vibration for Surface Potential Measurement of Insulating Components",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.708Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical engineering study on electrostatic potential sensing for high-voltage insulation monitoring; 'emotion' in the researcher's interest topics appears to be coincidental and unrelated to the paper's content.",
+      "evidence": [
+        "Concept 'Compensation (psychology)' is listed but only appears as a nominal term in the context of distance correction modeling, not psychological or affective compensation."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5bacc763fd12932a085508db7c4aa55eed6d7e0ce960acc857e180477c4fc94f": {
+    "paper_id": "https://openalex.org/W7129503189",
+    "title": "Accurate pulmonary nodule detection via progressive multi-scale networks and geometric constraint refinement",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.746Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on pulmonary nodule detection using AI-based computer vision techniques; no content relates to emotion, affective computing, or psychological affect.",
+      "evidence": [
+        "Concepts include 'False positive paradox', 'Object detection', 'Segmentation', and 'Artificial intelligence' — all medical imaging/AI domains; no emotion-related terms appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6fa57d62fa43811f809a2f8d25634f60d0d9fbd80b25d89d07f446df82846ff8": {
+    "paper_id": "https://openalex.org/W7128316226",
+    "title": "FPGA Implementation of an <i>n</i> -Dimensional Discrete Hyperchaotic Map Pseudorandom Number Generator Using Jacobian Matrix and Modulo Operations",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:51.784Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on FPGA implementation of a hyperchaotic pseudorandom number generator using mathematical operations; no connection to emotion, affective computing, or human-centered affective phenomena is indicated.",
+      "evidence": [
+        "Concepts include only technical terms like 'FPGA', 'Jacobian matrix', 'modulo', and 'pseudorandom number generator'; 'emotion' does not appear in title, concepts, or metadata."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ae39f27eaf0e86b186340551b37abe76b2d1829f1580261fdcedc9fc183f9e20": {
+    "paper_id": "https://openalex.org/W7127435374",
+    "title": "Comprehensive diagnosis and individualized treatment of multiple primary lung cancer: A case report",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:52.073Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a clinical case report on multiple primary lung cancer, focusing on radiological, histopathological, and genomic diagnostics and chemotherapy treatment; it contains no mention of emotion, affective processes, psychological states, or related constructs.",
+      "evidence": [
+        "Abstract and metadata exclusively reference medical concepts: 'Lung cancer', 'Pemetrexed', 'PET-CT', 'chemotherapy', 'multidisciplinary diagnosis' — no emotion-related terms or implications."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "21f5de325b0902c7b134265a63e370b7aba32bded913d5cef9a4f3ad5d5a243d": {
+    "paper_id": "https://openalex.org/W7119061109",
+    "title": "Maternal psychological distress on delayed onset of lactation II: A meta-analysis",
+    "researcher_name": "C.L. Philip Chen",
+    "researcher_openalex_author_id": "A5100643265",
+    "updated_at": "2026-02-20T15:16:54.828Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.97,
+      "reason": "The paper directly investigates maternal psychological distress—including anxiety, depression, and fatigue—as predictors of a physiological outcome (delayed onset of lactation II), with explicit focus on emotion-adjacent clinical constructs central to affective science.",
+      "evidence": [
+        "Concepts include 'Anxiety', 'Depression (economics)', 'Distress', 'Psychological distress'",
+        "Abstract reports odds ratios for postpartum anxiety (OR=2.83) and depression (OR=2.30) linked to DOLII",
+        "Title and background explicitly frame 'maternal psychological distress' as the primary exposure variable"
+      ],
+      "keywords": [
+        "anxiety",
+        "depression",
+        "psychological distress",
+        "postpartum mental health",
+        "emotion regulation",
+        "affective states"
+      ],
+      "research_directions": [
+        "Linking discrete affective states (e.g., anxiety vs. depression) to neuroendocrine mechanisms in lactation",
+        "Longitudinal modeling of emotion dynamics during perinatal transition and lactation onset",
+        "Intervention studies targeting emotion regulation to improve lactation outcomes",
+        "Cross-cultural validation of affective risk factors for DOLII"
+      ]
+    }
   }
 }

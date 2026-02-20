@@ -387,5 +387,592 @@
         "Cross-sectional affective phenotyping in autism caregiving"
       ]
     }
+  },
+  "1a913909059e46c92468154cd03839a47db167cd81007173e59b351954240b13": {
+    "paper_id": "https://openalex.org/W4408347228",
+    "title": "Study on the effects of vacuum heat treatment on the physical, mechanical, and chemical properties of <i>Dalbergia latifolia</i> Roxb wood",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.285Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on vacuum heat treatment effects on wood properties, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are exclusively materials science/wood engineering related; 'emotion' is absent from all metadata."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3c27d5d9da3f15bf34db2271cc53b1010a038c40f4c6fce9d3075f3b9c6a5f8e": {
+    "paper_id": "https://openalex.org/W4406752674",
+    "title": "Development of a Multi-channel Wireless Wearable Muscle Oxygen Monitoring Device",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.288Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hardware development for muscle oxygen monitoring and has no apparent connection to emotion or affective computing.",
+      "evidence": [
+        "Title mentions 'muscle oxygen monitoring device', with concepts limited to wearable computing, wireless systems, and embedded systems."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8ad688314cc50e3397ed6cac6fe32f1096a2ae53f5e4182d572e3bb31dec10c7": {
+    "paper_id": "https://openalex.org/W4409474206",
+    "title": "Biomimetic Robotics and Intelligence: A Survey",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.380Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on biomimetic robotics and intelligence without any mention of emotion, affective computing, or related psychological/physiological constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, mood, or human emotional processing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b95330e8deea0f868582abb26d861bab5cf011ca894e962262184b5bb0c5a6bb": {
+    "paper_id": "https://openalex.org/W4410118271",
+    "title": "Snippet-Aware Transformer With Multiple Action Elements for Skeleton-Based Action Segmentation",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.420Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on skeleton-based action segmentation using Transformers and does not address emotion modeling, affective computing, or any emotion-related signal processing or interpretation.",
+      "evidence": [
+        "Title and abstract contain no mention of emotion, affect, sentiment, or related psychological/physiological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "be2e14c3beed28e052a4d1e7d425ba035a18141b34f3a34c75cf8f233404968c": {
+    "paper_id": "https://openalex.org/W4414732298",
+    "title": "Author response for \"Seed crystal/&lt;scp&gt;MgCl&lt;/scp&gt;&lt;sub&gt;2&lt;/sub&gt;‐assisting synthesis hierarchical zeolite &lt;scp&gt;ZSM&lt;/scp&gt;‐5 in the absence of organic templates\"",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.424Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper concerns materials chemistry synthesis of zeolite ZSM-5 and contains no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title describes MgCl2-assisted synthesis of hierarchical zeolite ZSM-5 without organic templates"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "422406d5afdf767f1f90760058cf1362d2207e0e2474a8fed2da35c54544fd2f": {
+    "paper_id": "https://openalex.org/W4414902826",
+    "title": "Text-Derived Relational Graph-Enhanced Network for Skeleton-Based Action Segmentation",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.511Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on skeleton-based action segmentation using relational graphs and contrastive learning with text-derived supervision, with no mention of emotion modeling, affective states, or affective computing.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, mood, or psychological states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "eff2f48b64c00389541dc1f883631399895ffcb2f2c69cc80824da4d7a2ca2ee": {
+    "paper_id": "https://openalex.org/W4409653354",
+    "title": "[Measurement of radial artery diameter by optical coherence tomography via distal radial access].",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.524Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a clinical biomedical study focused on radial artery anatomy and measurement using optical coherence tomography; it contains no mention of emotion, affect, psychological states, or related constructs.",
+      "evidence": [
+        "The abstract and concepts exclusively concern vascular anatomy, imaging technology, and biometric analysis."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3c9f9794be14254831836c4e96193630c970bb6972f66700aadd9902281c86e5": {
+    "paper_id": "https://openalex.org/W4407372002",
+    "title": "Onboard Operational Safety Filter for a Quadrotor in an Environment With Dynamic Obstacles",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.531Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on safety filtering, motion prediction, and control systems for quadrotors in dynamic environments, with no mention of emotion, affective computing, or human emotional states.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are robotics, control theory, and signal processing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "30f41710e17e414376fd4a0ab066d33758a5bec9645dd32ac7bca301c7d5f8bd": {
+    "paper_id": "https://openalex.org/W4413980777",
+    "title": "Mechatronic Design and Implementation of a Mirrored Lower Limb Exoskeleton for Multi-joint Isokinetic Muscle Training*",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.550Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mechatronic design, isokinetic muscle training, and rehabilitation engineering; no mention of emotion, affective computing, or psychological/behavioral affective constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, mood, or human affective states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8fcd0d6d4cdf15d2e2f84ddfdc17d444b4f0b712d529752714214ce3cf2b4f0e": {
+    "paper_id": "https://openalex.org/W4411055139",
+    "title": "On the Passive Virtual Viscous Element Injection Method for Elastic Joint Robots",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.587Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on robotics control engineering, specifically virtual viscous element injection for elastic joint robots; no mention of emotion, affect, human affective states, or related psychological/physiological constructs.",
+      "evidence": [
+        "Title and abstract exclusively address mechanical dynamics, passivity, impedance control, and robotics engineering concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "705cecadfc8c0d8a878ab0536cd253feaf272b688d2b35b385f844844dbfb5b6": {
+    "paper_id": "https://openalex.org/W4412404223",
+    "title": "SIMSL: A Semantic Instance-Based Multisensor Fusion Localization System for Challenging Dynamic and Degraded Environments",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.600Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on sensor fusion and localization in robotics/industrial electronics, with no mention of emotion, affective computing, or related psychological, physiological, or AI-affective modeling concepts.",
+      "evidence": [
+        "Title and abstract exclusively address multisensor fusion localization, semantic mapping, and Bayesian filtering for industrial environments."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d688029121934a020d21af1d19bd9874c3421543b6e2f4fbd53c8f97791e84ad": {
+    "paper_id": "https://openalex.org/W4410027409",
+    "title": "Post-Stroke Corticomuscular Coupling Assessment Based on Bilateral Cerebral Hemisphere Difference",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.601Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on corticomuscular coupling and motor function assessment post-stroke, with no mention of emotion, affective states, or affective neuroscience concepts.",
+      "evidence": [
+        "Abstract and concepts emphasize motor control, stroke rehabilitation, and neurophysiological signal analysis—not emotion or affective processing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3b9a17b7027fa59653325c12ef7b3a4e9e194ca99e88cfa01b7a56e5cdcc3506": {
+    "paper_id": "https://openalex.org/W4413979196",
+    "title": "A Human-Centered Prototype of a 3-DOF Upper Rehabilitation Exoskeleton with Multi-Objective Optimization",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.636Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mechanical design, multi-objective optimization, and simulation of a rehabilitation exoskeleton; no mention of emotion, affective computing, or psychological/subjective user states.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords pertain to robotics, rehabilitation engineering, and optimization."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e1859ccb2f172093d9457c5b77bb5f6fa1f50d8d873ca5ceaf3f7f95cc14f698": {
+    "paper_id": "https://openalex.org/W4408182673",
+    "title": "Iris Geometric Transformation Guided Deep Appearance-Based Gaze Estimation",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.640Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on gaze estimation using iris geometric transformations and computer vision techniques, with no mention of emotion, affective states, or related psychological or affective computing concepts.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords pertain to gaze, geometry, and deep learning in vision."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a352f1aaf80067b0d0bea166f3a125aabc1cee409cb97117f5b51e1eb569adde": {
+    "paper_id": "https://openalex.org/W4410491838",
+    "title": "Online 4D Ultrasound-Guided Robotic Tracking Enables 3D Ultrasound Localization Microscopy With Large Tissue Displacements",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.711Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on ultrasound-guided robotic tracking and super-resolution imaging under tissue motion; no connection to emotion, affective computing, or psychological/behavioral affective processes.",
+      "evidence": [
+        "All concepts and the abstract concern biomedical imaging, robotics, and signal processing—no mention of emotion, affect, sentiment, or human emotional states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c5caffafe71a55d6c7d79cb1ba3ec368ef72f32b694a40fed5804bdec428b556": {
+    "paper_id": "https://openalex.org/W4408727734",
+    "title": "Uncertainty Driven Sampling to Handle Intra-class Imbalance Part Segmentation in Wheat",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.731Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on uncertainty-driven sampling and 3D point cloud segmentation for wheat plant parts, with no connection to human emotion, affective computing, or psychological emotion modeling.",
+      "evidence": [
+        "All concepts and methods are in computer vision, AI, and agricultural sensing; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "acbd5c3f351c9e71f0e2678397fd10c0d7943768bfb6bd4e71e899764f89be31": {
+    "paper_id": "https://openalex.org/W4410852687",
+    "title": "Intelligent Navigation and Localization System for Indoor Dynamic Environments via Semantic Dimension Chain Knowledge Base Model",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.756Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on navigation, localization, and knowledge-based path planning in dynamic indoor environments; no mention of emotion, affective computing, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical/computational (e.g., SDC-KBM, SGPP, real-time localization)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e3f2d3af18515272de2825f5de293d9ed7c0cf7b59d1a4edb0efcb0fee8f58e9": {
+    "paper_id": "https://openalex.org/W4411576046",
+    "title": "<i>In situ</i> capture and value-added utilization of CO<sub>2</sub> from flue gas using an ionic liquid polymer supported Zn catalyst",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.768Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on CO2 capture and catalytic conversion using ionic liquid polymers, with no connection to emotion, affective science, or human-centered affective phenomena.",
+      "evidence": [
+        "All concepts and the abstract pertain to chemical engineering, catalysis, and materials science; 'emotion' does not appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "658f76967b2cdaa3b4d36f40ff175372b701e93f74cd223dead1da6fef646167": {
+    "paper_id": "https://openalex.org/W4406890849",
+    "title": "Dual-Modal Gesture Recognition Using Adaptive Weight Hierarchical Soft Voting Mechanism",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.787Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on dual-modal gesture recognition using sEMG and ultrasound, with no mention of emotion, affect, affective computing, or related psychological/physiological constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, mood, or affective states; all concepts are technical and centered on gesture recognition and signal fusion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "924552d68904869aacbab6a9467854f6d41c945780d86bc418716770485f6b98": {
+    "paper_id": "https://openalex.org/W4406752713",
+    "title": "A Neuromorphic Tactile Perception System Based on Spiking Neural Network for Texture Recognition",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.788Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on neuromorphic tactile perception and texture recognition using spiking neural networks, with no explicit connection to human emotion, affective computing, or emotional processing.",
+      "evidence": [
+        "Concepts include 'Neuromorphic engineering', 'Spiking neural network', 'Texture (cosmology)', 'Computer vision' — none are emotion-related."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "40e74990a8ece471efcac410784aed6437663b7313728bc730bf9969a8368570": {
+    "paper_id": "https://openalex.org/W4406890411",
+    "title": "Design of a Savitzky-Golay Filter-Based vEMG-FES System",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.791Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on signal processing for vEMG-FES systems in neurorehabilitation, with no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical (e.g., Savitzky-Golay filter, FES, vEMG, neuroplasticity)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e312acabe56a671959e148178588cd91dae3f7b0879fe47a5cb2a51db4a797b8": {
+    "paper_id": "https://openalex.org/W4412347293",
+    "title": "Facile Synthesis of Zeolite Beta with Hierarchical Micromesoporosity Promoted by Citric Acid: Strategy and Working Mechanism",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:28.836Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is in materials chemistry/catalysis, focusing on zeolite synthesis and mesopore formation; no connection to emotion, affective science, or human affective processes.",
+      "evidence": [
+        "Title and abstract exclusively discuss citric acid-assisted zeolite Beta synthesis, catalytic esterification, and micromesoporous mechanism"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d845c42466637f1676d3335372abc4cd2ce94d1127ba4b3544d501158b762d8d": {
+    "paper_id": "https://openalex.org/W4408280749",
+    "title": "A Wearable Multisensor Fusion System for Neuroprosthetic Hand",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:29.233Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sensor fusion for motor intention decoding in neuroprosthetics, with no mention of emotion, affective states, or related psychological/physiological correlates.",
+      "evidence": [
+        "Abstract and concepts exclusively emphasize gesture recognition, sEMG, ultrasound, IMU, and embedded systems; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "34f872b84fece7edfcf7d8451637068edd2693cde932cda9205a88e15d3df2f2": {
+    "paper_id": "https://openalex.org/W4410186535",
+    "title": "Skeleton-Based Online Action Detection with Temporal Enhancement",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:29.268Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on skeleton-based action detection and temporal enhancement in computer vision/AI, with no explicit connection to emotion modeling, affective computing, or psychological affective processes.",
+      "evidence": [
+        "Concepts include Skeleton, Computer science, Action (physics), Artificial intelligence, Pattern recognition (psychology) — but 'Pattern recognition (psychology)' here likely refers to perceptual/cognitive pattern recognition, not affective pattern recognition; no emotion-related concepts listed."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9a9bf534ea79c6726aa85b7130718c40ec088b069909907c808a71ced6a14315": {
+    "paper_id": "https://openalex.org/W4406322272",
+    "title": "Early Screening of Autism in Toddlers via Express-Needs-With-Pointing Protocol",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:29.268Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on objective behavioral quantification for autism screening using pointing behavior detection; 'emotion' is not mentioned in title, abstract, or concepts, and no affective/emotion-related constructs (e.g., facial expression, valence, arousal, emotion recognition) are addressed.",
+      "evidence": [
+        "Abstract emphasizes 'pointing behavior', 'gaze estimation', and 'forearm orientation'—all motor/social-communicative metrics, not emotion-related measures."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ef5d5db646794627dd65f437ccece14e23f531a854e162fe9650b8828dcb4ad5": {
+    "paper_id": "https://openalex.org/W4409723769",
+    "title": "Multiscale Skeleton-Based Temporal Action Segmentation Using Hierarchical Temporal Modeling and Prediction Ensemble",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:29.285Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on skeleton-based temporal action segmentation using multiscale modeling and ensemble prediction; no mention of emotion, affect, sentiment, or any affective/emotion-related constructs in title, concepts, or abstract.",
+      "evidence": [
+        "Concepts include 'Skeleton', 'Segmentation', 'Pattern recognition (psychology)' — but this refers to perceptual/cognitive pattern recognition, not affective psychology; abstract discusses action segmentation, confidence calibration for motion, not emotional states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3c267dc67e06ba3be9bd322d57c9a055ea60ea560caae4f776e01b2adc104c4b": {
+    "paper_id": "https://openalex.org/W4410186686",
+    "title": "Decoupled Representation with Multimodal Prompts for Emotion Recognition in Conversation",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:30.169Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on emotion recognition in conversation, directly aligning with the researcher's interest topic 'emotion'. The title, venue, and listed concepts all reinforce affective computing relevance.",
+      "evidence": [
+        "Title: 'Decoupled Representation with Multimodal Prompts for Emotion Recognition in Conversation'",
+        "Concepts include 'Emotion recognition', 'Psychology', 'Natural language processing', 'Speech recognition'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "multimodal prompts",
+        "conversation",
+        "affective computing",
+        "representation learning"
+      ],
+      "research_directions": [
+        "Affective multimodal AI",
+        "Emotion-aware dialogue systems",
+        "Representation learning for affective states",
+        "Psychologically-informed NLP"
+      ]
+    }
+  },
+  "6511c051c20aed66c099b6b2522d37920e8d382f65858ab06dd4bd0dcee6eac0": {
+    "paper_id": "https://openalex.org/W4406610834",
+    "title": "Exploring Eye-Tracking Based Biomarkers to Assess Cognitive Abilities in Autistic Children: A Feasibility Study",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:30.694Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper explicitly includes 'emotion recognition' as one of the three core cognitive abilities assessed via eye-tracking biomarkers, directly aligning with the researcher's interest in 'emotion'. The methodology and experimental design are grounded in affective processing, and emotion recognition is treated as a measurable cognitive-emotional construct.",
+      "evidence": [
+        "The study encompasses three cognitive abilities: pairing and categorization, emotion recognition, and social interaction.",
+        "Eye-tracking features are correlated with clinical cognitive assessments, including those involving emotion recognition tasks."
+      ],
+      "keywords": [
+        "emotion recognition",
+        "affective biomarkers",
+        "eye tracking",
+        "autism",
+        "cognitive assessment"
+      ],
+      "research_directions": [
+        "Affective computing in clinical populations",
+        "Emotion-related behavioral biomarkers",
+        "Multimodal assessment of emotion processing in neurodevelopmental disorders"
+      ]
+    }
+  },
+  "34c4595d0c02788b48df89bfddf43bbed5a816f2ce238dcbf97e95f47229adf8": {
+    "paper_id": "https://openalex.org/W4411171868",
+    "title": "A Dual-Fatigue Speed Guidance Model for Isokinetic Training: Cognitive and sEMG-Based Physiological Fatigue Approach",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:31.024Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.88,
+      "reason": "The paper explicitly integrates cognitive fatigue perception—a construct closely tied to affective and emotional states—with physiological metrics in a rehabilitation context; 'emotion' is a stated interest of the researcher, and cognitive fatigue overlaps significantly with affective regulation, subjective experience, and psychological constructs listed in concepts.",
+      "evidence": [
+        "Cognitive fatigue perception is integrated with physiological metrics using the Borg RPE scale—a validated self-report measure of perceived exertion that has strong affective/emotional valence",
+        "Concepts include Psychology and Cognition, and the abstract emphasizes subjective perception alongside objective sEMG-derived indices"
+      ],
+      "keywords": [
+        "cognitive fatigue",
+        "Borg RPE scale",
+        "affective perception",
+        "subjective exertion",
+        "emotion-cognition interaction"
+      ],
+      "research_directions": [
+        "Affective computing in rehabilitation",
+        "Emotion-aware adaptive training systems",
+        "Physiological-affective modeling for personalized therapy"
+      ]
+    }
+  },
+  "f1d7ba85bfeb7447a025f984c0c7824d74374fd09cd24b6dd64ce3429a2d4d62": {
+    "paper_id": "https://openalex.org/W4408858382",
+    "title": "Cortico-Ocular Coupling Analysis for Developmental and Behavioral Disorders: A Review",
+    "researcher_name": "Honghai Liu",
+    "researcher_openalex_author_id": "A5085867312",
+    "updated_at": "2026-02-20T15:11:32.970Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper reviews cortico-ocular coupling analysis for developmental and behavioral disorders, with explicit inclusion of 'social functioning' and 'attention'—domains tightly linked to emotion processing—and is authored by Honghai Liu, whose stated interest is 'emotion'. While 'emotion' is not a primary keyword in the abstract, the functional domains covered (e.g., social functioning) are core affective neuroscience constructs, and COC analysis serves as a potential biomarker for affective dysregulation in DBDs.",
+      "evidence": [
+        "Neural substrates and evocation paradigms are categorized by functional domains including 'social functioning', which is intrinsically emotion-related",
+        "Author's declared interest topic is 'emotion', and the paper addresses behavioral disorders where emotional dysregulation is a hallmark (e.g., ASD, ADHD)",
+        "COC analysis targets biomarkers for assessment of DBDs—many of which involve affective processing deficits"
+      ],
+      "keywords": [
+        "cortico-ocular coupling",
+        "developmental disorders",
+        "social functioning",
+        "biomarkers",
+        "affective neuroscience",
+        "emotion regulation"
+      ],
+      "research_directions": [
+        "Affective biomarker discovery using multimodal neurophysiology",
+        "Emotion-related neural-oculomotor coupling in atypical development",
+        "Computational modeling of emotion-linked attentional mechanisms"
+      ]
+    }
   }
 }

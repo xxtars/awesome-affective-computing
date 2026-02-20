@@ -381,5 +381,572 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "b25a457597bf3748a9b2ac579a47c5a22403ffbe4a7aebab5d57531fe7c139b3": {
+    "paper_id": "https://openalex.org/W4412944869",
+    "title": "Beyond Frameworks: Unpacking Collaboration Strategies in Multi-Agent Systems",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:47.871Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on collaboration strategies in multi-agent systems, with no explicit or implied connection to emotion or affective science.",
+      "evidence": [
+        "Concepts list contains no emotion-related terms; title and metadata emphasize systems engineering and management"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6db7d6e4c9fe67ee7a670cd4247005707d20c0349171dafa63c9304722ecb5a2": {
+    "paper_id": "https://openalex.org/W4414856280",
+    "title": "CrossICL: Cross-Task In-Context Learning via Unsupervised Demonstration Transfer",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:47.928Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on in-context learning, cross-task demonstration transfer, and NLP task alignment—none of which relate to emotion or affective computing.",
+      "evidence": [
+        "Abstract contains no mention of emotion, affect, sentiment, or related psychological or linguistic constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e9290c166f99ed02a7e71c4efde6e4b3e7a5ffbee310b005a56c6c34b60a8032": {
+    "paper_id": "https://openalex.org/W4416035165",
+    "title": "FroM: Frobenius Norm-Based Data-Free Adaptive Model Merging",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.100Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper's title and metadata indicate a focus on model merging using Frobenius norm, which is a technical machine learning method unrelated to emotion or affective science.",
+      "evidence": [
+        "Title: 'FroM: Frobenius Norm-Based Data-Free Adaptive Model Merging'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "af948ca74bf2b5ad31eef9ae6374d7e74fc144d0f6837e81223a1fd6ea2c252a": {
+    "paper_id": "https://openalex.org/W4407806427",
+    "title": "NLP-AKG: Few-Shot Construction of NLP Academic Knowledge Graph Based on LLM",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.101Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on knowledge graph construction for NLP academic literature using LLMs, with no mention of emotion, affect, sentiment, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d805112ea4f5bfe76e01eb3e46618effb2323ca70b5d2a669f303c81350db827": {
+    "paper_id": "https://openalex.org/W4414848326",
+    "title": "Improved Diffusion-based Generative Model with Better Adversarial Robustness",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.102Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on adversarial robustness and distributional mismatch in diffusion-based generative models, with no mention of emotion, affect, sentiment, or any psychological/behavioral constructs related to emotion.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; topics are purely technical ML/robustness"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bd896851be96f0c960fc3d865b77575f64af24a45e27f28a6777ae78e7068d80": {
+    "paper_id": "https://openalex.org/W4408360319",
+    "title": "Review on the sources, distribution and treatment of per- and polyfluoroalkyl substances in global groundwater",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.119Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental chemistry and groundwater contamination by per- and polyfluoroalkyl substances, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Groundwater, Environmental chemistry, Chemistry, Geology — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6fefd698a8f4226b919eab70e80565fc5d35358a0a7816019ef9a170b2db8fc6": {
+    "paper_id": "https://openalex.org/W4412945241",
+    "title": "CLAIM: Mitigating Multilingual Object Hallucination in Large Vision-Language Models with Cross-Lingual Attention Intervention",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.124Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mitigating object hallucination in vision-language models via cross-lingual attention intervention; 'emotion' is not indicated in title, concepts, or available metadata.",
+      "evidence": [
+        "Concepts include Computer science, AI, NLP, Computer vision, Linguistics — no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d26349e3d15fe6bb60d0b6bceb38d5f657551bac8beed615f4f5aba03a57f456": {
+    "paper_id": "https://openalex.org/W4408518813",
+    "title": "Technical research on positional offset correction and spectrum restoration of gamma energy channels using a CeBr3 detector",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.126Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical gamma-ray detector calibration and signal processing, with no conceptual or lexical overlap with emotion or affective science.",
+      "evidence": [
+        "Concepts are exclusively physics/engineering-related: 'Detector', 'Energy spectrum', 'Offset (computer science)', 'Radiation Physics and Chemistry'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "22c6e2fa2b6bf45da13647a501540fce73ae06f7df979f467b889ea56d11a1d4": {
+    "paper_id": "https://openalex.org/W4412888797",
+    "title": "Self-Critique Guided Iterative Reasoning for Multi-hop Question Answering",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.127Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on iterative reasoning and question answering in AI, with no mention or conceptual link to emotion, affect, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Concepts include 'Question answering', 'Artificial intelligence', 'Computer science' — none are emotion-related."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "45ce65335c6a7fe4a0775e5c74a658a60b57a0feda698b808a381a07d3b08180": {
+    "paper_id": "https://openalex.org/W4412945369",
+    "title": "Investigating and Enhancing the Robustness of Large Multimodal Models Against Temporal Inconsistency",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.128Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on robustness of large multimodal models against temporal inconsistency, with no mention of emotion, affect, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Concepts include Robustness, Computer science, Artificial intelligence, Biochemistry, Chemistry, Gene — none are emotion-related."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f0b9f296768873af1cb17f768663315fd2109ca451c9a1346a89a27f3a22fe54": {
+    "paper_id": "https://openalex.org/W4412945049",
+    "title": "Com2 : A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.141Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on causal-guided commonsense reasoning benchmarks for LLMs, with no explicit or implied connection to emotion or affective science.",
+      "evidence": [
+        "Concepts list contains no emotion-related terms; title and metadata emphasize causal reasoning, commonsense knowledge, and benchmarking."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d025288aa6cc00501d3041a3671e921ece62587a611975216f40cc25743c5e88": {
+    "paper_id": "https://openalex.org/W4411120015",
+    "title": "Exploring Large Language Models for Effective Rumor Detection on Social Media",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.148Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on rumor detection using large language models, with no mention of emotion, affect, or related psychological or linguistic constructs in the provided metadata.",
+      "evidence": [
+        "Concepts list includes 'Rumor', 'Social media', 'Natural language processing', etc., but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d4e92becc2a574da2ebf935618edbf868f1b2d9f53c50266d08d6a35a387554b": {
+    "paper_id": "https://openalex.org/W4416452319",
+    "title": "Benchmarking and Pushing the Multi-Bias Elimination Boundary of LLMs via Causal Effect Estimation-guided Debiasing",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.158Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on bias elimination in LLMs using causal effect estimation, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; topics are strictly algorithmic debiasing and causal inference."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "db07f25024be4c4ffd523f1e30997254a3f35009edacf8c3955ed8a237107535": {
+    "paper_id": "https://openalex.org/W4412945089",
+    "title": "Analyzing the Rapid Generalization of SFT via the Perspective of Attention Head Activation Patterns",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.176Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on attention head activation patterns and rapid generalization in SFT (supervised fine-tuning), which falls under AI/ML model behavior analysis—not emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Artificial intelligence', 'Generalization', 'Attention head', with no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4c7fdda6e1e8f6aaa277e341c6cfa803d1a4bfbb783b8f6d994fe6f77f7b3ead": {
+    "paper_id": "https://openalex.org/W4407808058",
+    "title": "Interaction between oligomeric cationic quaternary ammonium surfactant and green surfactant alkyl polyglycoside",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.192Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on surfactant chemistry and physical interactions between synthetic organic compounds, with no indication of emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Concepts are exclusively chemical/physical: 'Pulmonary surfactant', 'Cationic polymerization', 'Organic chemistry', etc."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "08514adf7847a650d6964a3c56f24eb4689f68f60d470af90d29bfa3b8d6876c": {
+    "paper_id": "https://openalex.org/W4412945085",
+    "title": "Improving Contextual Faithfulness of Large Language Models via Retrieval Heads-Induced Optimization",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.196Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on improving contextual faithfulness of LLMs via retrieval-augmented optimization, with no mention or conceptual link to emotion, affective computing, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Concepts: Computer science, Natural language processing, Artificial intelligence, Language model, Information retrieval"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8d59844931f5e94ffe6eea1addf171b2f16da028b573b69d10f44fc6d353db26": {
+    "paper_id": "https://openalex.org/W4416042777",
+    "title": "MA-GTS: A Multi-Agent Framework for Solving Complex Graph Problems in Real-World Applications",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.242Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on graph theory problem-solving using multi-agent LLM frameworks, with no mention of emotion, affect, sentiment, or any psychological/behavioral constructs related to affective science.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; topics are graph representation, algorithm selection, and LLM-based reasoning."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f84b5e9ed5af4e0e7f03efbc6f3c8bce8fa2cd6931b84f56fc5afd5382e23543": {
+    "paper_id": "https://openalex.org/W4409347835",
+    "title": "Enhancing Non-English Capabilities of English-Centric Large Language Models Through Deep Supervision Fine-Tuning",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.283Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multilingual capability enhancement of LLMs via deep supervision fine-tuning, with no mention of emotion, affective states, sentiment, or related psychological constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes 'Psychology' but in a general context, not affective psychology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "885bfb80bad50c26f7f8d3cce83d253b01b8226a6194a2d8192961d8fb034c17": {
+    "paper_id": "https://openalex.org/W4406786644",
+    "title": "Enhancing surface/interface activity and wettability <i>via</i> trimeric surfactant-containing mixtures",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.313Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on surfactant topology, interfacial physics, and materials wettability—topics in physical chemistry and chemical engineering—with no connection to human emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively reference surfactants, interfaces, wetting, and materials science"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "07a7c96902a30f94ca5e63ad8e0e0af2b1d6bfb2628f24d594f52edc5675f0d4": {
+    "paper_id": "https://openalex.org/W4412888028",
+    "title": "Natural Logic at the Core: Dynamic Rewards for Entailment Tree Generation",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.317Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on entailment tree generation using natural logic and reinforcement learning, with no mention of emotion, affect, or psychological/linguistic emotion modeling.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes 'Natural language processing' and 'Artificial intelligence' but no affective/emotion concepts"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "013239c696a78865d5c9ae95c14b3aaf5888fb991eb5192098c5b6378842eb00": {
+    "paper_id": "https://openalex.org/W4406855514",
+    "title": "Multimodal machine learning enables AI chatbot to diagnose ophthalmic diseases and provide high-quality medical responses",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.332Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on medical diagnosis and AI chatbot performance in ophthalmology, with no indication of emotion modeling, affective computing, or emotion-related analysis.",
+      "evidence": [
+        "Interest topics specify 'emotion', but paper concepts and title emphasize medical diagnosis, AI, and chatbots—not affective states or emotional processing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6ffa92ba3c96f78dc1fbc60f961eb13a314550a443d680bf12989807339a59ab": {
+    "paper_id": "https://openalex.org/W4412945156",
+    "title": "Beyond Similarity: A Gradient-based Graph Method for Instruction Tuning Data Selection",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.350Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on graph-based instruction tuning data selection in AI, with no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Concepts include Graph, Similarity, Artificial intelligence, Data mining — all technical/computational; 'emotion' does not appear in title, concepts, or abstract context."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "479d6544b77e06700cda505c4ab2554431955ea8fb87cbd200b2f8e68b89118f": {
+    "paper_id": "https://openalex.org/W4414581413",
+    "title": "How Does Sequence Modeling Architecture Influence Base Capabilities of Pre-trained Language Models? Exploring Key Architecture Design Principles to Avoid Base Capabilities Degradation",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.378Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sequence modeling architecture design principles and base capabilities of pre-trained language models, with no mention of emotion, affect, sentiment, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; core focus is on 'base capabilities', 'sequence modeling architectures', and 'self-attention mechanism'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a006a0479d6f2edebebcaa277ad8440a861ec8e82015939fed8d8b7d83aeaa5b": {
+    "paper_id": "https://openalex.org/W4412886678",
+    "title": "AnRe: Analogical Replay for Temporal Knowledge Graph Forecasting",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.401Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on temporal knowledge graph forecasting using analogical replay, with no mention of emotion, affect, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Title and concepts are strictly technical: 'Knowledge graph', 'Artificial intelligence', 'Theoretical computer science'; no emotion-related terms in metadata or abstract snippet."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "277e07330def7c33463352e817bf2654bbee92bc31a285b8db79d7cbfd4c4c2c": {
+    "paper_id": "https://openalex.org/W4409366011",
+    "title": "Cross-Lingual Text-Rich Visual Comprehension: An Information Theory Perspective",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.440Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cross-lingual vision-language alignment and mutual information optimization for text-rich visual comprehension, with no mention of emotion, affect, sentiment, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; 'Psychology' and 'Cognitive science' appear only as broad disciplinary tags, not applied to affective phenomena."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f971f1d1b13a2009eae5f3673d9e85a19d8edbfad84c64caae5095cb03e34a01": {
+    "paper_id": "https://openalex.org/W4406158141",
+    "title": "Brain and Cognitive Science Inspired Deep Learning: A Comprehensive Survey",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.441Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on brain and cognitive science inspiration for deep learning, with no mention of emotion, affect, or related constructs in title, concepts, or abstract.",
+      "evidence": [
+        "Interest topics specify 'emotion', but paper's concepts and abstract emphasize cognition, neuroscience, and AI—without any reference to emotion, affect, sentiment, or related psychological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1c5b5519e322d4ab1a42f0a55da7aaa96178de2731d3215f34f8f6589eb02a14": {
+    "paper_id": "https://openalex.org/W4408257229",
+    "title": "Relation Inquiry: A Novel Synchronous Joint Extractor for Entities and Relations",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.488Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on entity-relation extraction in database and information retrieval contexts, with no indication of emotion or affective computing in title, venue, concepts, or metadata.",
+      "evidence": [
+        "Concepts include 'Extractor', 'Relation (database)', 'Information retrieval', and 'Data mining' — all technical NLP/database topics, not affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0e643a73c1557fc3cc807103fc7ccb01482ba3073aaabccec9996b3950355948": {
+    "paper_id": "https://openalex.org/W4412944828",
+    "title": "CC-Tuning: A Cross-Lingual Connection Mechanism for Improving Joint Multilingual Supervised Fine-Tuning",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:48.663Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cross-lingual model tuning and multilingual NLP architecture, with no mention of emotion, affect, sentiment, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Title and abstract emphasize 'Cross-Lingual Connection Mechanism' and 'Joint Multilingual Supervised Fine-Tuning' — technical NLP engineering, not affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "806b705bdc06f7de35f824849e65a0901d523223d3c1daa326ff968aa89a8f60": {
+    "paper_id": "https://openalex.org/W4407213255",
+    "title": "SDRS: Sentiment-Aware Disentangled Representation Shifting for Multimodal Sentiment Analysis",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:50.698Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is explicitly focused on affective computing and sentiment analysis, directly aligning with the researcher's interest in 'emotion'. It is published in IEEE Transactions on Affective Computing, a top-tier venue dedicated to emotion- and affect-related research.",
+      "evidence": [
+        "Title contains 'Sentiment-Aware' and targets 'Multimodal Sentiment Analysis'",
+        "Published in IEEE Transactions on Affective Computing",
+        "Abstract emphasizes 'affective understanding' and disentanglement of 'sentiment-specific' features"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "affective computing",
+        "multimodal sentiment",
+        "representation disentanglement",
+        "emotion modeling"
+      ],
+      "research_directions": [
+        "affective multimodal learning",
+        "emotion representation learning",
+        "cross-modal affective alignment",
+        "disentangled affective features"
+      ]
+    }
+  },
+  "061e107d63bd07d9b4b62e1648a8e77edac431639a647d48f9ce7ad4656825d3": {
+    "paper_id": "https://openalex.org/W4409992418",
+    "title": "Generalizing to Unseen Speakers: Multimodal Emotion Recognition in Conversations With Speaker Generalization",
+    "researcher_name": "Bing Qin",
+    "researcher_openalex_author_id": "A5017671620",
+    "updated_at": "2026-02-20T15:10:51.324Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is explicitly focused on multimodal emotion recognition with speaker generalization, directly aligning with the researcher's interest topic 'emotion'. It is published in IEEE Transactions on Affective Computing—a premier venue for affective/emotion-related computing—and all core contributions (prototype graph, contrastive learning, uncertainty-based generalization) serve emotion classification in conversational contexts.",
+      "evidence": [
+        "Title contains 'Multimodal Emotion Recognition in Conversations'",
+        "Venue: IEEE Transactions on Affective Computing",
+        "Concepts include 'Emotion recognition', 'Emotion classification', 'Psychology'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "multimodal learning",
+        "speaker generalization",
+        "affective computing",
+        "contrastive learning",
+        "uncertainty modeling"
+      ],
+      "research_directions": [
+        "Affective multimodal fusion",
+        "Generalizable emotion modeling",
+        "Speaker-agnostic affective analysis",
+        "Prototype-based representation learning for emotions"
+      ]
+    }
   }
 }

@@ -358,5 +358,558 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "dc27ae701d33289e1df09c8a202a250295b14280725090b4880e55fea7107ec4": {
+    "paper_id": "https://openalex.org/W4414695304",
+    "title": "Advancing Reliable Test-Time Adaptation of Vision-Language Models under Visual Variations",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:08.677Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on test-time adaptation of vision-language models under visual distribution shifts, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; core concepts are entropy, cache-based adaptation, distribution calibration, and visual variations."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f705e091ddf23860c2c8d13306dd99cbe428a6b3530aff0c00a28ce767401490": {
+    "paper_id": "https://openalex.org/W4416036526",
+    "title": "DSMoE: Matrix-Partitioned Experts with Dynamic Routing for Computation-Efficient Dense LLMs",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:08.703Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computation-efficient dense LLMs using matrix-partitioned experts and dynamic routing, with no mention or conceptual link to emotion or affective science.",
+      "evidence": [
+        "Title and abstract contain no emotion-related terms or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5682b02441723e5e8815850b5d682e1bacc19b972ae7ecc7ab68c0c7b1a4b4f3": {
+    "paper_id": "https://openalex.org/W4416035718",
+    "title": "Temporal Scaling Law for Large Language Models",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:08.711Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper's title and metadata focus on temporal scaling laws for large language models, a topic in LLM theory and empirical evaluation, with no indication of emotion or affective science content.",
+      "evidence": [
+        "Title: 'Temporal Scaling Law for Large Language Models'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "84f7c1952008287627c3ff9dd82335a857ab240e2a5e974dc1316a9a0720f7a0": {
+    "paper_id": "https://openalex.org/W4407381415",
+    "title": "Scaling laws for two-metallic spheres in a head-on collision",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:08.735Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper concerns classical mechanics and collision physics of metallic spheres, with no conceptual or lexical connection to emotion or affective science.",
+      "evidence": [
+        "Concepts: Collision, Scaling law, SPHERES, Classical mechanics, Physics"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "006f2caa317ea05c23cae18767ecb8c8ab5e97733e95c5a85f68cf86ea33b25b": {
+    "paper_id": "https://openalex.org/W4407759863",
+    "title": "Finedeep: Mitigating Sparse Activation in Dense LLMs via Multi-Layer Fine-Grained Experts",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:08.783Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on architectural optimization of dense LLMs to mitigate sparse activation, with no mention of emotion, affect, psychology, or related domains.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are layer (electronics), business, nanotechnology, materials science"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "26f573d2b10f571fee3e6f0795d55d7e35a749bc3ef7c70fca3c3b0c91c6163f": {
+    "paper_id": "https://openalex.org/W4405101982",
+    "title": "VCP-CLIP: A Visual Context Prompting Model for Zero-Shot Anomaly Segmentation",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:08.787Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on zero-shot anomaly segmentation in computer vision using visual context prompting; no connection to emotion or affective science is indicated by title, venue, concepts, or metadata.",
+      "evidence": [
+        "Title and concepts are exclusively technical/computer vision-oriented with no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "79d532bbe5181ab5c9e1510309d8478c960688f52bc1095e0a798a660e2eb355": {
+    "paper_id": "https://openalex.org/W4416034123",
+    "title": "Fast Quiet-STaR: Thinking Without Thought Tokens",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:08.820Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "Title and metadata show no semantic or conceptual connection to emotion or affective science; 'Quiet-STaR' refers to a reasoning optimization technique in LLMs, unrelated to affective computing.",
+      "evidence": [
+        "Title: 'Fast Quiet-STaR: Thinking Without Thought Tokens'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7a3b9e62d3e052338e1f219d3aa17450520390905234a986079f13cbe1a58a19": {
+    "paper_id": "https://openalex.org/W4405078778",
+    "title": "Quantized Prompt for Efficient Generalization of Vision-Language Models",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:08.826Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on quantized prompting for vision-language model generalization, with no explicit connection to emotion or affective science in title, venue, or listed concepts.",
+      "evidence": [
+        "Concepts include computer vision, natural language processing, and generalization—no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "62a92b1e07e0c52271a68f21f439ac60a65ecdc684cbf3fe892b808c1322966d": {
+    "paper_id": "https://openalex.org/W4408352241",
+    "title": "LBPE: Long-token-first Tokenization to Improve Large Language Models",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:08.844Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on tokenization optimization for large language models and contains no mention of emotion, affect, sentiment, or any related psychological or affective constructs.",
+      "evidence": [
+        "Abstract and concepts are exclusively technical: BPE, token length, language modeling, lexical analysis, NLP"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7edcd68acab1073a71beba6da4681df2aa68a6e47f8c69421eb6602e0c4f513b": {
+    "paper_id": "https://openalex.org/W4412404417",
+    "title": "LScAD: A Large–Small Model Collaboration Framework for Unsupervised Industrial Anomaly Detection",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:08.851Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unsupervised industrial anomaly detection using large-small model collaboration; no mention of emotion, affective computing, or psychological/behavioral constructs related to emotion.",
+      "evidence": [
+        "All concepts and the abstract center on computer vision, anomaly detection, and domain adaptation in industrial settings."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6508b633a3d05d503b414ef2724c92ce6898b13d2c24971042a6577f168646ff": {
+    "paper_id": "https://openalex.org/W4405143199",
+    "title": "Domain knowledge boosted adaptation: Leveraging vision-language models for multi-source domain adaptation",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:08.975Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.85,
+      "reason": "The paper focuses on domain adaptation using vision-language models, with no explicit connection to emotion or affective science in title, venue, or listed concepts.",
+      "evidence": [
+        "Interest topics include 'emotion', but paper concepts list 'Computer science', 'Domain adaptation', 'Artificial intelligence', etc., with no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "94878a084954ee71fd62600f58249110d28822ab3f170a40f3c267b039e879fc": {
+    "paper_id": "https://openalex.org/W4411120062",
+    "title": "Mitigating Hallucinations in Multi-modal Large Language Models via Image Token Attention-Guided Decoding",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:08.980Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mitigating hallucinations in multi-modal LLMs using attention-guided decoding, with no mention or conceptual link to emotion, affective computing, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Concepts list contains no emotion-related terms; title and abstract context is technical NLP/ML safety"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8a2f7698dc1fef02046b31c5f8e6540eb8f2e4524352a6e263caa5bd48b63101": {
+    "paper_id": "https://openalex.org/W4417284021",
+    "title": "LLaVA-MLB: Mitigating and Leveraging Attention Bias for Training-Free Video LLMs",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:08.996Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on attention bias mitigation and leveraging in video LLMs, with no mention or conceptual link to emotion, affective computing, or human emotional states.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; topics are purely technical: 'attention bias', 'token compression', 'video understanding', 'LLMs'."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2997fd4b4628eb242076c3a2e7d67fee49a60b2ed6009686674c6172090cc568": {
+    "paper_id": "https://openalex.org/W4405956688",
+    "title": "YOLO-UniOW: Efficient Universal Open-World Object Detection",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:09.023Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on open-world object detection in computer vision, with no mention of emotion, affective computing, or related psychological or linguistic constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical (e.g., 'CLIP latent space', 'out-of-distribution objects', 'APr')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d64996b23bcdd0dba935d8961b7d34f3bf5efb276bb4911885bae167c882c8a2": {
+    "paper_id": "https://openalex.org/W4415820816",
+    "title": "DAR-Prompt: Dynamic Regulation in Prompt Tuning for Multi-Label Zero-Shot Learning",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:09.030Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on prompt tuning, class imbalance mitigation, and gradient regularization in multi-label zero-shot learning; no mention of emotion, affect, sentiment, or related psychological or computational affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; core concepts are prompt tuning, class imbalance, contrastive regularization, and zero-shot classification."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "676ac0579ae5a262f7953d947b1bf0cd6af3dc0258c30836f2b0919b703b64df": {
+    "paper_id": "https://openalex.org/W4406903228",
+    "title": "Spatio-Temporal Attention for Text-Video Retrieval",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:09.090Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on spatio-temporal attention mechanisms for text-video retrieval and contains no mention of emotion, affect, sentiment, or any affective/emotion-related constructs in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are purely technical (video retrieval, multimedia, information retrieval)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6149d9c611671d6293fdcd0bcc13aac71a43d85fc2625630aabd7f15b8591120": {
+    "paper_id": "https://openalex.org/W4405907339",
+    "title": "Hyper-YOLO: When Visual Object Detection Meets Hypergraph Computation",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:09.098Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on object detection architecture using hypergraph computation, with no mention of emotion, affective science, or related psychological/physiological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively cover computer vision, hypergraphs, YOLO variants, and feature representation—no emotion-related terms or methodologies."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a3d030a941bb358541f157d64ef43f540dd4f3fc705f207d1d8ec12ec51573fa": {
+    "paper_id": "https://openalex.org/W4405254927",
+    "title": "Breaking the Stage Barrier: A Novel Single-Stage Approach to Long Context Extension for Large Language Models",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:09.157Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on long-context extension for LLMs using a technical positional encoding method; no mention of emotion, affect, sentiment, or any psychological/behavioral affective constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; all concepts are technical (e.g., RoPE, HARPE, context length, pretraining stages)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "61205a5d61dc190c59b5a321ad8dd8e2224410b6a587d909ae39947dbbb70aca": {
+    "paper_id": "https://openalex.org/W4414229233",
+    "title": "Source-Free Object Detection With Detection Transformer",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:09.160Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on source-free object detection and transformer-based computer vision architecture adaptation, with no mention of emotion, affect, sentiment, or related psychological or affective computing concepts.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all technical content pertains to DETR, feature reweighting, contrastive learning, and domain adaptation in object detection."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "be61dab9c0bdee23bfcd997fd91176fd45a3cf86e98169755f682778477da69f": {
+    "paper_id": "https://openalex.org/W4409348049",
+    "title": "Scaffold-BPE: Enhancing Byte Pair Encoding for Large Language Models with Simple and Effective Scaffold Token Removal",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:09.196Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on tokenization optimization in NLP, specifically addressing frequency imbalance in Byte Pair Encoding; no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all listed concepts are technical/computational (e.g., 'Scaffold', 'Byte', 'Encoding (memory)', 'Computer science')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4f0610ab99dfbde7a76edc9100a5927e19c0f4b1a5d7bcfe68595b86930eb1a1": {
+    "paper_id": "https://openalex.org/W4407123607",
+    "title": "UniAttn: Reducing Inference Costs via Softmax Unification for Post-Training LLMs",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:09.220Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computational efficiency in LLM inference via Softmax unification and has no conceptual, methodological, or empirical connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Softmax function, Unification, Inference, AI, neural networks — none relate to emotion, affect, psychology, or human-centered affective modeling."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "337395f4407d9be40c007d19d5884dd1cf39ac5487b7d03d26bca4b1ebec2fa5": {
+    "paper_id": "https://openalex.org/W4417068765",
+    "title": "LSNet: See Large, Focus Small",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:09.226Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on lightweight vision network architecture design, specifically a novel convolutional operator for efficiency and performance trade-offs; no mention of emotion, affect, sentiment, or any psychological/behavioral affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; core concepts are 'lightweight networks', 'LS convolution', 'vision transformers', 'computational efficiency'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4c86a003d0db2c807878c10c2a9fc3ab5feb75e5b170f72803aba01445fe0bf0": {
+    "paper_id": "https://openalex.org/W4417283153",
+    "title": "FastVID: Dynamic Density Pruning for Fast Video Large Language Models",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:09.280Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on computational efficiency and token pruning for video large language models, with no mention of emotion, affective computing, or related psychological, neurological, or human-centered constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical (e.g., 'token pruning', 'FLOPs', 'temporal context', 'video LLMs')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0e1369e001b531380bad2f4bc3f42846be80d6f8cb86940c8fbfd111265033be": {
+    "paper_id": "https://openalex.org/W4412886837",
+    "title": "Extending LLM Context Window with Adaptive Grouped Positional Encoding: A Training-Free Method",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:09.309Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on extending LLM context windows using a positional encoding technique, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Computer science', 'Artificial intelligence', 'Encoding (memory)', 'Window (computing)' — all technical AI/ML topics; 'emotion' is absent from title, concepts, and abstract (which is empty)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8b5f1026ee7690d277c2b1d5395d860c9dc5697c0a414a8b6f05cc8c024ac332": {
+    "paper_id": "https://openalex.org/W4411119384",
+    "title": "CartesianMoE: Boosting Knowledge Sharing among Experts via Cartesian Product Routing in Mixture-of-Experts",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:09.356Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on Mixture-of-Experts architecture and Cartesian product routing for knowledge sharing in machine learning; no mention or conceptual link to emotion, affective science, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Concepts include 'Boosting', 'Cartesian product', 'Knowledge sharing', 'Machine learning' — all technical CS/ML terms with no affective/emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ced9e46b6426526c8d65645b4756472bdad67b29ae4da8b7ff439704f7302563": {
+    "paper_id": "https://openalex.org/W4405253575",
+    "title": "[CLS] Token Tells Everything Needed for Training-free Efficient MLLMs",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:09.411Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on training-free visual token compression in multimodal large language models, with no mention or conceptual link to emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all listed concepts are technical/computational (e.g., 'Computer science', 'Security token', 'CLs upper limits')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "82ea39783b9f2a5abdc36aa951e0c1f4e1730a1584a1599a0942fb8ac4b1872a": {
+    "paper_id": "https://openalex.org/W4417257992",
+    "title": "DiscoVLA: Discrepancy Reduction in Vision, Language, and Alignment for Parameter-Efficient Video-Text Retrieval",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:09.421Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on parameter-efficient video-text retrieval and discrepancy reduction across vision, language, and alignment modalities; no mention of emotion, affect, sentiment, or related psychological or computational affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; core concepts are vision-language alignment, CLIP adaptation, video-text retrieval"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a62fa837144b894e8fd656be7ae1882f474d58edb96b916cded830865bbe5a4d": {
+    "paper_id": "https://openalex.org/W4405284100",
+    "title": "Multi-source multi-modal domain adaptation",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:09.429Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.85,
+      "reason": "The paper's title, venue, and listed concepts focus on domain adaptation and multimodal AI techniques, with no explicit or implied connection to emotion or affective science; 'Psychology' in concepts is generic and not linked to emotion in context.",
+      "evidence": [
+        "Concepts include 'Domain adaptation', 'Artificial intelligence', 'Modal', but not 'emotion', 'affect', 'sentiment', or related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6d1e0c10b07093785d7a86a7d5fc926c567aacf8e1c1668c68c9ded5977c898a": {
+    "paper_id": "https://openalex.org/W4408564107",
+    "title": "Toward Realistic Hierarchical Object Detection: Problem, Benchmark, and Solution",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:09.547Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on hierarchical object detection in computer vision, with no conceptual, methodological, or empirical connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts include 'Object detection', 'Benchmark', 'Artificial intelligence', but no mention of emotion, affect, psychology (beyond 'Pattern recognition (psychology)' as a disambiguated term unrelated to affect), or affective computing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "806b705bdc06f7de35f824849e65a0901d523223d3c1daa326ff968aa89a8f60": {
+    "paper_id": "https://openalex.org/W4407213255",
+    "title": "SDRS: Sentiment-Aware Disentangled Representation Shifting for Multimodal Sentiment Analysis",
+    "researcher_name": "Guiguang Ding",
+    "researcher_openalex_author_id": "A5057732142",
+    "updated_at": "2026-02-20T15:11:11.391Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is explicitly focused on affective computing and sentiment analysis — a core subfield of emotion research — and is published in the top-tier venue IEEE Transactions on Affective Computing. The methodology centers on disentangling sentiment-specific representations, directly aligning with 'emotion' as a stated interest topic.",
+      "evidence": [
+        "Title contains 'Sentiment-Aware' and 'Multimodal Sentiment Analysis'",
+        "Published in IEEE Transactions on Affective Computing (2025)",
+        "Abstract emphasizes 'affective understanding' and 'sentiment-specific features'"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "affective computing",
+        "multimodal representation",
+        "emotion recognition",
+        "disentangled representation"
+      ],
+      "research_directions": [
+        "affective multimodal learning",
+        "emotion representation disentanglement",
+        "cross-modal sentiment fusion",
+        "latent-space affective shifting"
+      ]
+    }
   }
 }

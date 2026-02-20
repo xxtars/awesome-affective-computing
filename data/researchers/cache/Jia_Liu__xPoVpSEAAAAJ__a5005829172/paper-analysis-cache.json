@@ -358,5 +358,545 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "34ba008429619a1d50c8b05b734dd89128524b63114bd202eddd48e6112f28cc": {
+    "paper_id": "https://openalex.org/W7116556077",
+    "title": "Static Magnetic Field Treatments Affect the Light-Induced Germination of Dormant Paulownia elongata Seed",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:15.849Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on plant seed germination physiology and magnetic field effects in botany/horticulture; 'emotion' is unrelated to the content.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms or psychological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b277f2738ae08f39186cf237ad4e7f6e1164eb1e3c83ec266a0071ca53115a4a": {
+    "paper_id": "https://openalex.org/W4411992706",
+    "title": "Determination of 15 per- and Polyfluoroalkyl substances in hydrophyte using ultrasonic extraction-ultra performance liquid chromatography tandem mass spectrometry",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:15.982Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on analytical chemistry methods for detecting environmental pollutants in plants; no connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are exclusively chemical/analytical (e.g., chromatography, mass spectrometry, ultrasonic extraction)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bb1fef2b3877a9f16618c06a2a9ec2ed04771b0af7ab50a37d6356eb694f8a38": {
+    "paper_id": "https://openalex.org/W4415171600",
+    "title": "Dynamic Monitoring of Fluid Migration in Rocks Using Optical Fiber Coupled with NMR Technology",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.052Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on geophysical fluid monitoring using optical fiber and NMR technology, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title explicitly references 'Fluid Migration in Rocks' and 'NMR Technology', indicating geophysics/engineering domain"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "deed45d123749e591523630e42b8578c0e089459454a613f37222832bb47dfa2": {
+    "paper_id": "https://openalex.org/W4410108995",
+    "title": "An unconventional case: endoscopic removal of a migrated intrauterine device perforating the rectum",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.067Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a clinical case report in general surgery/endoscopy, focusing on device migration and surgical intervention; no connection to emotion or affective science.",
+      "evidence": [
+        "Title describes endoscopic removal of a migrated intrauterine device perforating the rectum"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "06dcfa7368579d11f25f91f48870846eb69a7d1185601dfe8cfca75629bf320f": {
+    "paper_id": "https://openalex.org/W4410932840",
+    "title": "Big Pharma and Monopoly Capital",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.083Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on political economy, monopoly capitalism, and pharmaceutical industry structures, with no mention or conceptual engagement with emotion, affect, psychology, or related constructs.",
+      "evidence": [
+        "Concepts include Monopoly, Capital, Neoclassical economics, Political economy — none relate to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "78fdb2f1b0224d3375ec679a1f0416c86d473b9df133c127e2fb355db60837da": {
+    "paper_id": "https://openalex.org/W4408162345",
+    "title": "Characteristics of Cerebral Autoregulation After Mechanical Thrombectomy and Its Relationship With Prognosis",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.120Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cerebral autoregulation, stroke physiology, and clinical prognosis metrics; no mention of emotion, affective processes, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively involve neurovascular physiology, clinical stroke outcomes, and statistical modeling—no emotion-related terms or measures."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7ff308f54fb7b28982b9c673ff828524394a3db8c55fee3e48935d37601d79e9": {
+    "paper_id": "https://openalex.org/W4408504214",
+    "title": "The linker of T cells to B cells: Tfc cells and Autoimmune Diseases",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.136Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on immunology, T/B cell interactions, and autoimmune disease mechanisms; no affective or emotion-related content is present in title, concepts, or abstract.",
+      "evidence": [
+        "Interest topic 'emotion' has no lexical, conceptual, or contextual overlap with the paper's content."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9b08955327b1fb373574e1b0d410ba5b7619f6105951451c115a364c2019573a": {
+    "paper_id": "https://openalex.org/W4409644876",
+    "title": "Ultrasound-Assisted extraction and purification of polysaccharides from Boschniakia rossica: Structural Characterization and antioxidant potential",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.150Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on chemical extraction, structural characterization, and antioxidant activity of polysaccharides; no mention of emotion, affective processes, or psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively concern chemistry, biochemistry, ultrasound technology, and antioxidant assays."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2ab2a39e25f0d0e17bbf36e04c12ad32d85d5fc4e1cb787877f20187eca6eabe": {
+    "paper_id": "https://openalex.org/W4407238209",
+    "title": "Development of ASGR-Mediated Hepatocyte-Targeting Cytotoxic Drug Conjugates with CTSB-Cleavable Linkers Incorporating Succinimide and Succinic Acid Monoamide",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.153Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on hepatocyte-targeted drug conjugates, linker chemistry, and antitumor efficacy—no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively concern medicinal chemistry, cytotoxic drugs, and ASGR/CTSB mechanisms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d2b4164f97448497134b90b7f02ebd0274d12df20610e2b86ae7d46c4ba13a3f": {
+    "paper_id": "https://openalex.org/W4403318846",
+    "title": "Predicting Food–Drug Interactions between Piperine and CYP3A4 Substrate Drugs Using PBPK Modeling",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.219Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on pharmacokinetic modeling of piperine-drug interactions, with no connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract concern CYP3A4 inhibition, PBPK modeling, and food-drug interactions—no emotion-related terms or constructs appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9dede30484192e8cc7e9285a69daf33c7c393ba99eea80f552d8c86e73d7ee91": {
+    "paper_id": "https://openalex.org/W4411627517",
+    "title": "Fine structural design of 3βHSD1 inhibitors for prostate cancer therapy",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.235Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a computational medicinal chemistry study focused on enzyme inhibitor design for prostate cancer therapy; no content relates to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and abstract text pertain to biochemistry, pharmacology, and oncology; 'emotion' appears nowhere in metadata or abstract."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6df3c99133c6843dcaf9ef15e54222d4d1b66c074c26a3b1049ba549f0e2e28e": {
+    "paper_id": "https://openalex.org/W7116277228",
+    "title": "Steroidal Saponin Ypsilandra thibetica Induces Apoptosis in Colorectal Carcinoma Cells through the Mitochondrion-Dependent Reactive Oxygen Species Pathway",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.245Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on biochemical mechanisms of cancer cell apoptosis induced by a steroidal saponin, with no mention or conceptual link to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Concepts include Reactive oxygen species, Apoptosis, Cancer research, and Signal transduction — all biomedical, not affective"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "89d2d579623139206da3b09ddd7e2aab53ed95c13096543740b9a239e8707cf1": {
+    "paper_id": "https://openalex.org/W4405428272",
+    "title": "Diazonium-based derivatization for enhanced detection of phosphorylated metabolites by LC-MS in cells",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.266Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on analytical chemistry techniques for detecting phosphorylated metabolites, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Concepts are exclusively technical: Chemistry, Derivatization, Chromatography, Metabolite, Phosphorylation, Mass spectrometry, Biochemistry"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "60b0a1a2144e7f78826e48358fdf2f2e3d0543d295f7faa8c5635f3355732222": {
+    "paper_id": "https://openalex.org/W4409994669",
+    "title": "Effect of bacterial solution to cementation solution ratio on dust suppression effect of microbial dust suppressant and mechanism analysis",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.269Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on microbial dust suppression, cementation chemistry, and environmental engineering—no connection to emotion or affective science.",
+      "evidence": [
+        "Title mentions 'dust suppression', 'bacterial solution', 'cementation', and 'mechanism analysis'—all technical/engineering concepts unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d0715bdad45c2a657a68bff4928fdd08c683f9fb8855602ad5e9fb8d52313d19": {
+    "paper_id": "https://openalex.org/W4412166896",
+    "title": "Study on the Screening of Anti‐Osteoporosis Components in Processed Epimedium‐Based on Spectrum‐Effect Analysis",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.282Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on pharmacological screening of anti-osteoporosis compounds in Epimedium using chemical analysis, cell/zebrafish models, and network pharmacology; no mention of emotion, affective processes, or psychological constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are biomedical/pharmacological."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8bc5cf023bb7ca6c3dcf0c3d7fdc82ba2fee7e8b26ca7070ed1abca043aa029d": {
+    "paper_id": "https://openalex.org/W4406214115",
+    "title": "Prediction of Proteolysis-Targeting Chimeras Retention Time Using XGBoost Model Incorporated with Chromatographic Conditions",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.289Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on computational prediction of chromatographic retention time for PROTACs using machine learning; no connection to emotion, affect, or psychological/behavioral affective processes.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: 'Chemistry', 'Machine learning', 'Molecular descriptor', 'Liquid chromatography'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5e25897e73bec60bee8fb978516a41bf8ddf7a588599b57c01fe1d317e8a46df": {
+    "paper_id": "https://openalex.org/W4408573236",
+    "title": "New perspective: Bench to bedside evidence of the role of CD8+ T cells in Alzheimer’s disease：a systemic review",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.298Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on CD8+ T cell immunology in Alzheimer's disease, with no mention of emotion, affective processes, or related psychological constructs.",
+      "evidence": [
+        "All concepts and abstract content pertain to neuroimmunology, CNS infiltration, T cell subsets, and AD pathology—no affective/emotion terms present."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4b59ca3f841133f7af58762d1edaa71442564620040d4a0b7a0ad07e5631fdef": {
+    "paper_id": "https://openalex.org/W4409503108",
+    "title": "Comprehensive Metabolite Profiling in Single-Cell Systems via Dual-Modal MALDI-Mass Spectrometry Imaging",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.319Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on analytical chemistry and spatial metabolomics techniques, with no conceptual, methodological, or empirical connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts exclusively concern MALDI-MSI, metabolite profiling, and single-cell chemistry; 'emotion' does not appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9681d512d6321eacaa22caff227ef8201a5172853dea6e52e982d7bb1e90923c": {
+    "paper_id": "https://openalex.org/W4405632820",
+    "title": "The assessment study of the airport operation compatibility for the new aircraft design",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.322Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on airport infrastructure compatibility and engineering safety margins for new aircraft design, with no mention of emotion, affective processes, or psychological constructs.",
+      "evidence": [
+        "Concepts include Runway, Aeronautics, Systems engineering; abstract discusses quantitative/qualitative analysis of airport facilities and safety operating margins"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6825a54aaecabaabd53de50d3ba3c6d4bb2c2e3931aa3a94242759d4b685ac0e": {
+    "paper_id": "https://openalex.org/W4403931106",
+    "title": "Quantitative analysis of methylmalonic acid in human plasma by LC-MS/MS after derivatization",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.329Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on analytical chemistry and biochemistry methods for quantifying methylmalonic acid in plasma; no connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are exclusively technical/chemical: 'LC-MS/MS', 'derivatization', 'methylmalonic acid', 'quantitative analysis (chemistry)'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e430e7fa628d0b2c8defcb7dafb62229a70826175481e6448a1dad4313f6dced": {
+    "paper_id": "https://openalex.org/W4405140460",
+    "title": "Identification of a new variant allele of &lt;i&gt;CaGLK&lt;/i&gt; that is responsible for white color fruit and development of a functional marker based on this variation in pepper",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.330Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a plant genetics study focused on fruit color variation in pepper, with no connection to human emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Title and abstract exclusively discuss CaGLK allele, SNP, splicing, horticulture, and breeding; no emotion-related terms or concepts appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "715170dad3d159f77f8bc2fc00f722afb2cd44316bb08de41802fc42cb979f3d": {
+    "paper_id": "https://openalex.org/W4407897477",
+    "title": "CAR-T AND autoimmune diseases in nervous system",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.405Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on CAR-T therapy for autoimmune diseases of the nervous system; no mention of emotion, affective processes, or psychological/behavioral dimensions of emotion.",
+      "evidence": [
+        "Concepts include Nervous system, Immunology, Autoimmune disease — all biomedical; abstract discusses immune modulation, neurotoxicity, and clinical neurology, not emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3f2959600c1d1689335b39f482c444c623263f3e33304ac3e8d714f7d80624ce": {
+    "paper_id": "https://openalex.org/W4406474457",
+    "title": "Magnetofluidic-Assisted Portable Automated Microfluidic Devices for Protein Detection",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.406Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on magnetofluidic microdevice engineering for protein detection and has no conceptual, methodological, or application-level connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract center on analytical chemistry, microfluidics, and biosensing—no mention of emotion, affect, psychology, neuroscience, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2ee84bb948c02963af65a1f6013aa22f5440ccd923f9feb0d723ad8fad60efe3": {
+    "paper_id": "https://openalex.org/W4409403930",
+    "title": "Advances in Sampling and Analytical Techniques for Single‐Cell Metabolomics: Exploring Cellular Heterogeneity",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.408Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on technical methodologies in single-cell metabolomics and has no conceptual, methodological, or empirical connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract exclusively reference metabolomics, sampling techniques, mass spectrometry, and cellular heterogeneity; no mention of emotion, affect, psychology, neuroscience of emotion, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "27e98a40976b3d9a3d2e016aedd5d1604628c68448010f2a58fe96ca8e05a37c": {
+    "paper_id": "https://openalex.org/W4404473438",
+    "title": "Sodium oligomannate disrupts the adherence of Ribhigh bacteria to gut epithelia to block SAA-triggered Th1 inflammation in 5XFAD transgenic mice",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.473Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on gut microbiota, bacterial adhesion, and neuroinflammation in a transgenic Alzheimer's mouse model; no mention or conceptual link to emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Title and concepts are strictly biomedical: 'Gut flora', 'Inflammation', 'Genetically modified mouse', 'Bacterial adhesin'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "65b6bcc0d2560ee6ada2e032e96ea1dbceb36387f7d9f5cb929ff91a8a679404": {
+    "paper_id": "https://openalex.org/W4405048341",
+    "title": "Efficacy and Safety of Decitabine Combined with FB3 As Conditional Regimen for Elderly/Frail Acute Myeloid Leukemia Patient with Allo-HSCT",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.524Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a clinical oncology study focused on chemotherapy regimens and transplantation protocols for elderly AML patients; no mention or implication of emotion, affective processes, or psychological constructs.",
+      "evidence": [
+        "All concepts and abstract content pertain to hematology, pharmacology, and transplant medicine; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b6ea465e7ec1c160e19df3c7cf17ef7dc1c2c734e395ad534cd24a359fc56751": {
+    "paper_id": "https://openalex.org/W4412061852",
+    "title": "Plastic Film Mulching Is a Key Strategy for Coping With Cultivated Land Loss and Driving Green Agricultural Development in the Loess Plateau",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.726Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on agricultural engineering, land-use change, and green development in the Loess Plateau; 'Coping (psychology)' appears as a generic concept tag but is not substantively engaged with emotion or affective processes.",
+      "evidence": [
+        "'Coping (psychology)' is listed among concepts but absent from title, abstract, and methodology; no discussion of emotion, affect, psychological states, or subjective experience."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "203a89c900345271cca73a8b0466e2193766202f0da444160a3b976e663250e8": {
+    "paper_id": "https://openalex.org/W4405739980",
+    "title": "Mechanistic insights into SIRT7 and EZH2 regulation of cisplatin resistance in bladder cancer cells",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.734Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular mechanisms of cisplatin resistance in bladder cancer, involving SIRT7 and EZH2—topics firmly in oncology and epigenetics, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Bladder cancer', 'EZH2', 'Cisplatin', 'Cancer cell'—all biomedical/oncological, no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "54ad4748ec03c632186c31da57c567b99c81cd0de6514d8b1920bfac1ba159c0": {
+    "paper_id": "https://openalex.org/W4408652710",
+    "title": "Progress of Immunotherapies on Parkinson's disease",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.859Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on immunotherapies for Parkinson's disease, with no mention of emotion, affective processes, or related psychological/physiological constructs.",
+      "evidence": [
+        "All concepts and abstract content center on neurodegeneration, immunology, α-synuclein, clinical trials, and motor/non-motor symptoms—non-motor here refers to autonomic, sleep, or cognitive features, not emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a75b54aaa79ea368de400b3ab25c52afa7a8bce41bd36c5fda62497e153bf028": {
+    "paper_id": "https://openalex.org/W4409092684",
+    "title": "The Role of Ferroptosis in Osteoporosis and Advances in Chinese Herbal Interventions",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5005829172",
+    "updated_at": "2026-02-20T15:10:16.894Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on ferroptosis, bone biology, and Chinese herbal pharmacology in osteoporosis — all biomedical mechanisms with no conceptual or empirical link to emotion or affective processes.",
+      "evidence": [
+        "Interest topics are 'emotion'; paper concepts include 'Oxidative stress', 'Bone remodeling', 'PI3K/AKT/mTOR pathway', but none relate to affective science, psychology, neuroscience of emotion, or emotion regulation."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

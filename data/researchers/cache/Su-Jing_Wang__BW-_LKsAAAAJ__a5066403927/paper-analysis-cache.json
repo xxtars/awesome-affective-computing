@@ -481,5 +481,683 @@
         "real-world generalization of emotion models"
       ]
     }
+  },
+  "6d00ce03dd2db9861751b7007a8ecb8ce4c49992ccc400c074983bd707ae6029": {
+    "paper_id": "https://openalex.org/W4400884493",
+    "title": "Phthalate monoesters accumulation in residential indoor dust and influence factors",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.005Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental chemistry and pollutant accumulation in indoor dust, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title explicitly concerns phthalate monoesters and environmental factors, not human emotion or psychological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8339bf45f16372710895961fd902ae7596bf4b84475cb27614458bdbc25d2232": {
+    "paper_id": "https://openalex.org/W4390940097",
+    "title": "A method for denoising active source seismic data via Fourier transform and spectrum reconstruction",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.027Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on seismic signal denoising using Fourier transform and spectrum reconstruction, with no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract exclusively discuss geophysical signal processing, not emotion or affective phenomena."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4c2869b5eb175deecb2eb23cbdc67f3e55a8b15b1a36c6eca6e5de7e6903900d": {
+    "paper_id": "https://openalex.org/W4390368972",
+    "title": "Multi-source exposure and health risks of phthalates among university students in Northeastern China",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.058Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental exposure and health risks of phthalates, with no indication of emotion-related content.",
+      "evidence": [
+        "Concepts are exclusively toxicology and environmental health related; 'emotion' does not appear in title, concepts, or metadata."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "501b2727d0ce8e9da03f60d5809c18ddf800947a17abc99962cc5eda9b3f894f": {
+    "paper_id": "https://openalex.org/W4391806782",
+    "title": "Comprehensive study on air-quality impacts from chemical plant flare emissions under planned or emergency shutdown operations†",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.074Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental science and air pollution from industrial operations, with no apparent connection to emotion or affective processes.",
+      "evidence": [
+        "Concepts include Environmental science, Flare, Air pollution, Ozone — all unrelated to emotion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "724c83077e02a8e0a14043c2c20d44185d2aaf658a20408197dab5e89e78db21": {
+    "paper_id": "https://openalex.org/W4391734894",
+    "title": "The effects of cadmium-copper stress on the accumulation of antibiotic-resistance genes in soil and pakchoi leaves",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.160Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental toxicology and antibiotic resistance gene accumulation under heavy metal stress, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title explicitly concerns cadmium-copper stress and antibiotic-resistance genes in soil and plants"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f20104e8107a0072525b1bc25c430f877d3faa52b7e5c47469417248aaa6d183": {
+    "paper_id": "https://openalex.org/W4403150673",
+    "title": "Tissue-specific distribution and fatty acid content of PFAS in the northern Bohai Sea fish: Risk-benefit assessment of legacy PFAS and emerging alternatives",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.218Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental toxicology, PFAS distribution in fish, and risk-benefit assessment—topics unrelated to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are exclusively environmental/chemical risk-focused; no mention of emotion, affect, psychology, or neuroscience."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ece4c693aca0e484b87f04680edb5ef3a3f1cb120d1e2bc9e8abb9035d1643cb": {
+    "paper_id": "https://openalex.org/W4389633753",
+    "title": "Long-Term and Real-Time High-Speed Underwater Wireless Optical Communications in Deep Sea",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.269Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on underwater wireless optical communication engineering, with no mention of emotion, affective computing, or psychological/behavioral aspects.",
+      "evidence": [
+        "Title and abstract exclusively discuss UWOC system performance, bitrate, depth, PSNR, BER, and oceanographic telemetry"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c160df2bb0c8b254909ddc2c1ee9c33defa38cd3a41be3d990f581acae4120d4": {
+    "paper_id": "https://openalex.org/W4400019861",
+    "title": "Enhanced immobilization of cadmium and lead in contaminated soil using calcium alginate-modified HAP biochar: Improvements in soil health and microbial diversity",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.270Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental remediation of heavy metal-contaminated soil using biochar, with no connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are exclusively environmental/chemical: 'cadmium', 'biochar', 'soil contamination', 'environmental remediation'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "935ac7e86bc333ab044db2ad3e7b9a449451c6808cd12eb47e1d0c970ae0bd88": {
+    "paper_id": "https://openalex.org/W4389687587",
+    "title": "Comprehensive assessment of phthalates in indoor dust across China between 2007 and 2019: Benefits from regulatory restrictions",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.274Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental chemistry and regulatory impact of phthalates in indoor dust, with no connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Phthalate', 'Environmental chemistry', 'China', 'Environmental health' — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6e1f5df9f8dfbf9400c922b6c64f76f836752b69139940f6adcfe64c3f3e8c74": {
+    "paper_id": "https://openalex.org/W4402111486",
+    "title": "CDSD: Chinese Dysarthria Speech Database",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.280Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on a speech database for dysarthria, a motor speech disorder, with no indication of emotion modeling, affective computing, or emotional content analysis.",
+      "evidence": [
+        "Concepts include Dysarthria, Speech recognition, Database, Medicine — none relate to emotion or affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4ea04e0f524686b6f84bc0d4175877c22397118702941521de033f95c7e975ab": {
+    "paper_id": "https://openalex.org/W4390606982",
+    "title": "Comparative Study of Several Educational Robotics to Introduce Engineering and Computing Concepts for Middle School and High School Students",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.321Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on educational robotics for teaching engineering and computing concepts; no mention of emotion, affective processes, or related psychological constructs.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper abstract and concepts center on robotics, education, and STEM engagement without affective/emotion-related measures or theory."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a5ce8e7baf08b3f760516fba4019fce0a41e4a645786d5351cccd23b4e9c8090": {
+    "paper_id": "https://openalex.org/W4388007429",
+    "title": "Exposure estimates of parabens from personal care products compared with biomonitoring data in human hair from Northeast China",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.341Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a toxicological and environmental exposure study focused on parabens in human hair; no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Title and abstract exclusively address chemical exposure, biomonitoring, and endocrine-disrupting compounds."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3736b61892c7897768aceb621460b05641282305fb6f6afdca60b3cb3f3ddfbb": {
+    "paper_id": "https://openalex.org/W4398206645",
+    "title": "Seismic noise in South China Sea: High-quality time-frequency analysis from 0.01 to 125 Hz",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.475Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on seismic noise analysis in ocean acoustics and seismology, with no connection to human emotion, affective computing, or psychological/emotional processes.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract exclusively concern geophysics, acoustics, and signal processing of seismic data."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c51f47fb8103717c0e164039957fabc26936610f1b229ad68e35f15f6cd4207b": {
+    "paper_id": "https://openalex.org/W4390887388",
+    "title": "Single and mixture toxicity of cadmium and copper to swim bladder in early life stages of Japanese medaka (Oryzias latipes)",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.517Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on metal toxicity to fish embryonic development, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Cadmium, Copper, Toxicity, Embryo, Oryzias — all toxicology/environmental health terms; 'emotion' is absent from title, venue, and concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "beeee7bda28b72f8628b22413f7c3535f0ea52bd1482544d8bc0de4329807ef9": {
+    "paper_id": "https://openalex.org/W4396833397",
+    "title": "“Can It Be Customized According to My Motor Abilities?”: Toward Designing User-Defined Head Gestures for People with Dystonia",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.533Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on motor-impaired interaction design, gesture customization for dystonia, and HCI usability—not emotion generation, recognition, or affective states.",
+      "evidence": [
+        "Abstract emphasizes motor abilities, head/facial gestures for command input, and universal interaction design; no mention of emotion, affect, valence, arousal, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1b40fb7b876bdea7b0a7f909529bdaa119bef4c24cf4c13dbe8e3836427abc67": {
+    "paper_id": "https://openalex.org/W4395447495",
+    "title": "Exploration the interaction of cadmium and copper toxic effects in pakchoi (Brassica chinensis L) roots through combinatorial transcriptomic and weighted gene co-expression network analysis",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.668Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on plant toxicology and transcriptomic analysis of heavy metal stress in pakchoi, with no connection to human or animal emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Concepts include 'Cadmium', 'Transcriptome', 'Brassica', 'WRKY protein domain' — all biological/toxicological, not affective"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1d00641deba886028e08679870d17447f464c72aba2bac0a647720c2897c17b1": {
+    "paper_id": "https://openalex.org/W4388039254",
+    "title": "Individual and combined effects of phthalate metabolites on eczema in the United States population",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.674Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on epidemiological analysis of phthalate metabolites and eczema, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include only biomedical and statistical terms (e.g., 'Phthalate', 'Odds ratio', 'Logistic regression'); 'emotion' does not appear in title, concepts, or implied context."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "de9f13847da1985d9b23b89003eb06fe369cc762d366207a0cf32e76fe926b9c": {
+    "paper_id": "https://openalex.org/W4401364089",
+    "title": "Artificial Intelligence for Early Detection of Pediatric Eye Diseases Using Mobile Photos",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.751Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on AI-based medical image analysis for pediatric eye disease detection; no mention of emotion, affective processes, or related psychological constructs beyond generic inclusion of 'Psychology' and 'Developmental psychology' as broad concepts.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms, tasks, measures, or theoretical frameworks; primary focus is clinical diagnosis using deep learning on mobile photos."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b68fae27cf5f8449a5bd61729d5792bfa1847bf88d8afd19cea9b44bbfd204d6": {
+    "paper_id": "https://openalex.org/W4401314107",
+    "title": "Association between plant microbiota and cadmium uptake under the influence of microplastics with different particle sizes",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.771Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on plant-microbe interactions, cadmium uptake, and microplastic effects in soil microbiology and environmental botany — no connection to human emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and methods are environmental/biological: rhizosphere, microplastics, cadmium, 16S rRNA sequencing, bacterial community assembly"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "180de3c0d9cf6a79e517c6bd20ef4fdfb24013eace54d3905980dedbfb3331cf": {
+    "paper_id": "https://openalex.org/W4400983827",
+    "title": "Southwestward Expansion of the Pacific Sleeper Shark’s (Somniosus pacificus) Known Distribution into the South China Sea",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:09.875Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a marine biology and biogeography study focused on shark distribution, deep-sea ecology, and oceanographic observation; it contains no affective, emotional, or psychological content related to human or animal emotion.",
+      "evidence": [
+        "All concepts and the abstract concern physical geography, species distribution, feeding behavior (observed objectively), and conservation implications—no mention of emotion, affect, sentiment, perception, or subjective experience."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "84286292fe923832815eda978b3594c18600562fba8647d3ae5eb37114d7ff46": {
+    "paper_id": "https://openalex.org/W4401205010",
+    "title": "Parallel Spatiotemporal Network to Recognize Micro-Expression",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:10.437Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on micro-expression recognition, which is a core topic in affective computing and emotion research; 'emotion' is explicitly listed as the researcher's interest topic.",
+      "evidence": [
+        "Title: 'Parallel Spatiotemporal Network to Recognize Micro-Expression'",
+        "Researcher's interest topics: 'emotion'"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "affective computing",
+        "spatiotemporal modeling"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Facial expression analysis",
+        "Emotion-aware AI",
+        "Psychophysiological signal interpretation"
+      ]
+    }
+  },
+  "cdc03126dfac70016c14db358fd52487c9a406433defd9b4ee5c81872c92fb2b": {
+    "paper_id": "https://openalex.org/W4400263742",
+    "title": "Micro-Expression Recognition Using Dual-View Self-Supervised Contrastive Learning with Intensity Perception",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:10.588Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on micro-expression recognition, a core affective computing task directly tied to emotion inference from subtle facial behavior; 'emotion' is explicitly listed as the researcher's interest topic.",
+      "evidence": [
+        "Title contains 'Micro-Expression Recognition'",
+        "Researcher's interest topic is 'emotion'",
+        "Micro-expressions are involuntary, brief facial expressions revealing concealed emotions"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "affective computing",
+        "contrastive learning",
+        "intensity perception"
+      ],
+      "research_directions": [
+        "affective AI",
+        "facial expression analysis",
+        "self-supervised learning for emotion",
+        "subtle emotion detection"
+      ]
+    }
+  },
+  "fe7140fc53f86beb088aba75d084014f56132e224cadd8a0816fe77040dad9a1": {
+    "paper_id": "https://openalex.org/W4415333775",
+    "title": "MEGC2025: Micro-Expression Grand Challenge on Spot Then Recognize and Visual Question Answering",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:10.759Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion-related phenomena—specifically, facial micro-expressions, which are involuntary, emotion-linked facial movements—and aligns precisely with the researcher's stated interest in 'emotion'.",
+      "evidence": [
+        "Facial micro-expressions (MEs) are defined as 'involuntary movements of the face that occur spontaneously when a person experiences an emotion'",
+        "The challenge tasks (ME-STR and ME-VQA) focus on detecting and interpreting emotion-critical nonverbal cues"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "facial expression",
+        "affective computing",
+        "spot-then-recognize",
+        "visual question answering"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion analysis",
+        "AI for emotion inference",
+        "vision-language models in affective science"
+      ]
+    }
+  },
+  "e1fd17df057dc8a0827b573ed539136bf117bc8e0e2c37fb1e21c0c6493efb9f": {
+    "paper_id": "https://openalex.org/W4387968479",
+    "title": "MEGC2023: ACM Multimedia 2023 ME Grand Challenge",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:11.219Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses facial micro-expressions, which are involuntary, emotion-linked facial movements; it is explicitly framed around emotion detection and analysis under affective computing constraints.",
+      "evidence": [
+        "Facial micro-expressions (MEs) are involuntary movements of the face that occur spontaneously when a person experiences an emotion",
+        "ME and macro-expression (MaE) spotting task",
+        "cross-cultural long-video test set for emotion-related facial behavior analysis"
+      ],
+      "keywords": [
+        "facial micro-expressions",
+        "emotion recognition",
+        "affective computing",
+        "facial expression spotting",
+        "cross-cultural emotion analysis"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Emotion-aware AI",
+        "Behavioral biometrics",
+        "Multimodal emotion analysis",
+        "Micro-expression detection in real-world video"
+      ]
+    }
+  },
+  "587412133c3c6c67544da3b01f182f9d7031fd122c2050abc89040f8dfb8583c": {
+    "paper_id": "https://openalex.org/W4387760781",
+    "title": "Simple but Effective In-the-wild Micro-Expression Spotting Based on Head Pose Segmentation",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:11.720Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses micro-expression analysis, which is a core subfield of affective computing and emotion recognition; it explicitly links micro-expressions to 'true feelings' and emotion concealment, aligning with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Micro-expressions may occur in high-stake situations when people attempt to conceal or suppress their true feelings.",
+        "Interest topics: emotion",
+        "Title includes 'Micro-Expression Spotting', a well-established emotion-related task in affective science."
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "affective computing",
+        "facial expression",
+        "in-the-wild analysis",
+        "head pose",
+        "spotting"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware AI",
+        "nonverbal behavior analysis",
+        "real-world affect detection",
+        "robust facial affect analysis"
+      ]
+    }
+  },
+  "15f2d2ad36a6ee0e4ded104f45b51c63eb55c255fe66b6fcaa932e6470617d07": {
+    "paper_id": "https://openalex.org/W4388270038",
+    "title": "Cross-modal analysis of facial EMG in micro-expressions and data annotation algorithm",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:11.770Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion-related phenomena—micro-expressions—which are involuntary, brief facial expressions revealing concealed emotions; it uses facial EMG to study their physiological correlates and annotation, aligning precisely with 'emotion' as a core interest topic.",
+      "evidence": [
+        "Title explicitly mentions 'micro-expressions', a well-established affective behavioral marker",
+        "Abstract states the goal is to solve data annotation challenges for micro-expressions, driven by their emotional significance",
+        "Researcher's interest topic is 'emotion', and micro-expression analysis is a canonical subfield of affective science"
+      ],
+      "keywords": [
+        "micro-expressions",
+        "facial EMG",
+        "emotion annotation",
+        "affective computing",
+        "cross-modal learning"
+      ],
+      "research_directions": [
+        "affective signal processing",
+        "automated emotion labeling",
+        "physiological correlates of emotion",
+        "self-supervised learning for affective data"
+      ]
+    }
+  },
+  "0f12f9a0c0f9dde15445a25c69918219ef50c0eb5697d0ed8983fb7f4d33ab80": {
+    "paper_id": "https://openalex.org/W4401113750",
+    "title": "Sentiment Analysis and Emotion Detection of COVID-19 Geo-Tagged Twitter Data",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:11.789Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion detection and emotional distress in the context of a global health crisis, aligning precisely with the researcher's interest topic 'emotion'. It employs computational methods to analyze affective states from real-world social media data.",
+      "evidence": [
+        "Title explicitly includes 'Emotion Detection'",
+        "Abstract focuses on 'emotional distress', 'anxiety', 'stress', 'depression', and 'mental health'",
+        "Concepts include 'Emotion detection' and 'Emotion recognition'"
+      ],
+      "keywords": [
+        "emotion detection",
+        "sentiment analysis",
+        "emotional distress",
+        "anxiety",
+        "mental health",
+        "NLP",
+        "social media analysis"
+      ],
+      "research_directions": [
+        "Affective computing for public health monitoring",
+        "Geospatial emotion mapping using social media",
+        "Machine learning for real-time mental health assessment",
+        "Crisis-related emotion dynamics modeling"
+      ]
+    }
+  },
+  "c4daa6e00a961f3bc41c3adadc961529d6274695c2657a9bfd9989524ec98344": {
+    "paper_id": "https://openalex.org/W4388192102",
+    "title": "A Perifacial EMG Acquisition System for Facial-Muscle-Movement Recognition",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:12.012Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper focuses on perifacial EMG acquisition for facial-muscle-movement recognition, which is directly relevant to emotion inference since facial muscle movements (e.g., smiles, frowns) are key behavioral correlates of affective states; the abstract explicitly links EMG signals to psychotherapy and human–computer interaction—domains where emotion recognition is central.",
+      "evidence": [
+        "EMG signals have great application value in psychotherapy and human–computer interaction",
+        "recognition of five facial movements using wearable perifacial EMG",
+        "interest topics include 'emotion' and the researcher's work targets affective signal acquisition"
+      ],
+      "keywords": [
+        "facial EMG",
+        "emotion recognition",
+        "wearable biosensors",
+        "facial muscle activity",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "biosignal-based emotion inference",
+        "wearable emotion sensing",
+        "human-computer interaction with emotional feedback"
+      ]
+    }
+  },
+  "1db54af0a21bca3eb123a9356207a48dac0542142b00e57e5479f7c85e24fc84": {
+    "paper_id": "https://openalex.org/W4387967977",
+    "title": "FME '23: 3rd Facial Micro-Expression Workshop",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:12.054Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is directly focused on micro-expressions — fleeting, involuntary facial movements that reveal genuine underlying emotions — and explicitly situates itself within affective computing, with emphasis on emotion recognition, deception detection, and ethical use of emotion-related face data.",
+      "evidence": [
+        "Micro-expressions are described as 'facial movements that are extremely short and not easily detected, which often reflect the genuine emotions of individuals'",
+        "Workshop aims to foster consensus on 'micro-expression standards within affective computing'",
+        "Topics include 'abnormal emotion recognition', 'deception detection', and 'ethical conversations when using face data'"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "affective computing",
+        "facial expression",
+        "deception detection",
+        "emotion annotation"
+      ],
+      "research_directions": [
+        "affective signal processing",
+        "ethics in affective AI",
+        "low-resource emotion modeling",
+        "cross-cultural micro-expression analysis",
+        "clinical emotion assessment"
+      ]
+    }
+  },
+  "d8b36eeb719775462ffae16e0c4829d5085be7915ca6a4a3085839ac89efffd1": {
+    "paper_id": "https://openalex.org/W4402952918",
+    "title": "Could Micro-Expressions be Quantified? Electromyography Gives Affirmative Evidence",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T15:13:12.400Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly investigates micro-expressions as objective physiological indicators of concealed emotions using EMG, aligning precisely with the researcher's interest in 'emotion'. It advances emotion quantification through biophysical measurement and introduces a public emotion-related database (CASMEMG).",
+      "evidence": [
+        "Title explicitly links micro-expressions to 'concealed emotions'",
+        "Abstract states MEs 'reveal concealed emotions' and are 'key behavioral cues for social interaction'",
+        "Proposes EMG-based metric (MVC%) to quantify emotional expression intensity"
+      ],
+      "keywords": [
+        "micro-expressions",
+        "emotion quantification",
+        "facial electromyography",
+        "concealed emotion",
+        "MVC%",
+        "CASMEMG"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion recognition from physiological signals",
+        "biometric measurement of emotion",
+        "nonverbal emotion analysis",
+        "micro-expression detection and modeling"
+      ]
+    }
   }
 }

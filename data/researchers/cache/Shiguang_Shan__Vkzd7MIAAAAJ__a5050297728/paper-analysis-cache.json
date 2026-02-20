@@ -368,5 +368,596 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "acd82d4b2e4eb8491c0480586baa02c3a2ad172e0e7f4955644be94cd7cea507": {
+    "paper_id": "https://openalex.org/W4414893824",
+    "title": "ProtInvTree: Deliberate Protein Inverse Folding with Reward-guided Tree Search",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.382Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on protein inverse folding using tree search and language models; no connection to emotion, affect, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Title, abstract, and concepts contain no emotion-related terms or methodologies."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2628408bffa932290c5f085273e981252f59b3445fd01b1b5f3e9c90ddfd6865": {
+    "paper_id": "https://openalex.org/W4413344258",
+    "title": "Unsupervised Gaze Representation Learning by Switching Features",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.516Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unsupervised gaze estimation and representation learning, with no mention of emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain 'Gaze', 'Feature learning', 'Computer vision', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b70a17878f74d3f41fe2370afa078cf00a581658dc427510a08d23096f518089": {
+    "paper_id": "https://openalex.org/W4413438386",
+    "title": "An Examination of the Effects of Abandoning the Symbolic Definition of Gender Through Apparel in Accordance with Contemporary Gender Theories",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.527Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on gender expression through apparel and sociocultural critique of gender norms; 'emotion' is not addressed in title, abstract, or listed concepts.",
+      "evidence": [
+        "Abstract contains no mention of emotion, affect, feeling, mood, or related psychological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "fc9b3cf7dcc28afc0dcd6b67748430bfb2e5d9c1b093af50179ec88caff40830": {
+    "paper_id": "https://openalex.org/W4413147708",
+    "title": "UniPose: A Unified Multimodal Framework for Human Pose Comprehension, Generation and Editing",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.546Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on human pose comprehension, generation, and editing using multimodal LLMs; no mention of emotion modeling, affective computing, or emotional states.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, or psychological states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2b9baa3bd0fd1db4bd07d66c6e758c1f524a1936c6504d28109197875f616af7": {
+    "paper_id": "https://openalex.org/W4415035379",
+    "title": "Plan-R1: Safe and Feasible Trajectory Planning as Language Modeling",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.558Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on autonomous driving trajectory planning using language modeling and reinforcement learning techniques; no mention of emotion, affective computing, or psychological/behavioral aspects of human emotion.",
+      "evidence": [
+        "Title and abstract exclusively address safety, feasibility, and rule alignment in autonomous driving planning."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "23db434a44267b3fb9984b68e9a90255c96c501b946dfa10e294d17b931121a7": {
+    "paper_id": "https://openalex.org/W4413018187",
+    "title": "Dynamic Visual Speaking Patterns: You Are the Way You Speak",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.562Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on speaker recognition and forgery detection using dynamic visual patterns, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Interest topics are 'emotion', but the paper's abstract contains zero emotion-related terms or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6281e0a66c679b9ab55e52b3b0b81438a8b13f6d975041e45e86174bdc8a79ba": {
+    "paper_id": "https://openalex.org/W4413110877",
+    "title": "PIT: A Plug-and-Play Image Translator for Making Off-the-Shelf Models Adapt to Corruptions",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.565Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on robustness of vision models to image corruptions via plug-and-play translation; no connection to emotion or affective computing.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain no emotion-related terms, tasks, or methodologies."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b1ca970eb71ee76242c573e4ab239c714a289eccc6030954a813fcb8e043c096": {
+    "paper_id": "https://openalex.org/W4417149977",
+    "title": "REVAL: A Comprehension Evaluation on Reliability and Values of Large Vision-Language Models",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.604Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on reliability, safety, ethics, and robustness of vision-language models, with no mention of emotion, affect, sentiment, or related psychological constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, feeling, sentiment, mood, or emotional processing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "16b62b266f23ce5cb0cb13e757e075143c07e95abbc9e9c8fa35765f32fe7b2a": {
+    "paper_id": "https://openalex.org/W4416404482",
+    "title": "A Survey of Multimodal Hallucination Evaluation and Detection",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.658Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multimodal hallucination evaluation and detection in MLLMs, with no mention or conceptual link to emotion, affective computing, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, expression, or human emotional states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8f42bd000ce712fe4723e6ad08d5665fd6db84c716d52f91b2785fee9d1846af": {
+    "paper_id": "https://openalex.org/W4415202840",
+    "title": "Trigger without Trace: Towards Stealthy Backdoor Attack on Text-to-Image Diffusion Models",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.670Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on stealthy backdoor attacks in text-to-image diffusion models, with no mention of emotion, affect, or any psychological, behavioral, or affective computing concepts.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, facial expression, physiology, or human emotional response."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7ea7023464a850b9dc0bcf3676b2b460479bcb5b6c3c5c59aab2529fc6734b7d": {
+    "paper_id": "https://openalex.org/W4413786056",
+    "title": "StylizedGS: Controllable Stylization for 3D Gaussian Splatting",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.697Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on 3D neural style transfer and geometric stylization using Gaussian Splatting, with no mention of emotion, affective computing, or psychological/emotional modeling.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain no emotion-related terms or affective dimensions"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "db46d6325ad6f94754db002804b0a4b3d58ea36c9b6ff65286569a39f6468487": {
+    "paper_id": "https://openalex.org/W4409050809",
+    "title": "EfficientMT: Efficient Temporal Adaptation for Motion Transfer in Text-to-Video Diffusion Models",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.715Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on motion transfer in text-to-video diffusion models and contains no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts exclusively center on motion, diffusion models, computer vision, and optimization—no emotion-related terms or constructs appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5274e6b410c36cdabd4606671e056606893f256701575063a016251b51e1e3dd": {
+    "paper_id": "https://openalex.org/W4408100581",
+    "title": "Clothes-Changing Person Re-Identification With Feasibility-Aware Intermediary Matching",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.716Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on person re-identification under clothing changes using feature matching and intermediary selection; no mention of emotion, affective computing, or psychological/behavioral affective signals.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; core topics are computer vision, multimedia, and biometric identification."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f5548c38c1ba417a56022c38c4375f5c17c5a6d1a11486d723fafdebae329198": {
+    "paper_id": "https://openalex.org/W4407309352",
+    "title": "G2PDiffusion: Cross-Species Genotype-to-Phenotype Prediction via Evolutionary Diffusion",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.736Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on computational biology and genotype-to-phenotype prediction using diffusion models; no connection to emotion, affective science, or psychological/behavioral states.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are in genetics, evolution, and AI for biology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9bcc5cf6132f3ec9c6d2db93bc84e1dcb05700ee9c66c96bdb8d1e5b4e63eaac": {
+    "paper_id": "https://openalex.org/W4413010347",
+    "title": "Dual-Branch Partial Annotation Learning for Facial Attributes Recognition",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.768Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on facial attribute recognition using partial annotation learning, with no mention of emotion detection, affective computing, or emotional states.",
+      "evidence": [
+        "Abstract and concepts list 'Facial recognition system', 'Annotation', 'Pattern recognition (psychology)' but omit emotion, affect, valence, arousal, or related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "915bd34656cc6edb25baed8b163d3c8ca83e3c39269cf056079afed9656c2142": {
+    "paper_id": "https://openalex.org/W4414857661",
+    "title": "un$^2$CLIP: Improving CLIP's Visual Detail Capturing Ability via Inverting unCLIP",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.773Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on improving CLIP's visual detail capture using generative model inversion; no mention of emotion, affect, or related psychological, computational, or multimodal affective constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, facial expression, arousal, valence, or affective computing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "44005f845da5e7cbbcc89e9d91d77f9e8b0a42f2fc4d247fb27b712a803bc463": {
+    "paper_id": "https://openalex.org/W4413147223",
+    "title": "Face Forgery Video Detection via Temporal Forgery Cue Unraveling",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.849Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face forgery video detection using temporal cue analysis in computer vision and security; no mention of emotion, affective states, or psychological constructs related to emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical (e.g., 'forgery detection', 'feature extraction', 'computer security')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7b3ad534fa4e883f02e6821fdf0fb69719b63065d020f506c6007a9b12eb9f25": {
+    "paper_id": "https://openalex.org/W4407764329",
+    "title": "MATS: An Audio Language Model under Text-only Supervision",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.851Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on audio-language modeling under text-only supervision, with no mention of emotion, affect, or related psychological, behavioral, or computational affective science concepts.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms or tasks (e.g., emotion recognition, sentiment, affective computing, valence/arousal, etc.)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "21324aaef1e54afd608dfa9d6f9d73fc4a7c8a320c3dd199a38eccc5d8e4b243": {
+    "paper_id": "https://openalex.org/W4409262022",
+    "title": "Precise Integral in NeRFs: Overcoming the Approximation Errors of Numerical Quadrature",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.876Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on mathematical precision in NeRF volume rendering integrals using Taylor expansion and numerical quadrature correction; no connection to emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Concepts: Quadrature (astronomy), Numerical integration, Applied mathematics, Mathematics, Mathematical analysis, Physics, Optics"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "795f13305af67fea254209a097ac76043c4937d06c027a8507f4e561babf64c6": {
+    "paper_id": "https://openalex.org/W4407949534",
+    "title": "Instance-Consistent Fair Face Recognition",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.899Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on fairness in face recognition, with no mention of emotion modeling, affective computing, or psychological/emotional aspects of facial expression or perception.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical (e.g., FPR, TPR, softmax loss, fairness metrics)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9a89c36e7bbdf623eed00572dee6b0afa1952c00cfdc7e70ef0d91e17f5b884a": {
+    "paper_id": "https://openalex.org/W4408389027",
+    "title": "Inference Calibration of Vision-Language Foundation Models for Zero-Shot and Few-Shot Learning",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.949Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "No mention of emotion, affect, or related psychological/behavioral constructs in title, venue, or listed concepts; focus is on vision-language model calibration for zero/few-shot learning.",
+      "evidence": [
+        "Concepts: Shot (pellet), Zero (linguistics), Inference, One shot, Artificial intelligence, Calibration, Computer science, Foundation (evidence)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "befe26b0c6a54d28742c511ab05fe38fac4cb6f030102ba78330b4e97e4d50d2": {
+    "paper_id": "https://openalex.org/W4409883414",
+    "title": "Confidence Aware Learning for Reliable Face Anti-Spoofing",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:55.997Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on confidence estimation and reliability in face anti-spoofing, not on human emotion perception, expression, or affective computing.",
+      "evidence": [
+        "Abstract and concepts emphasize spoofing attacks, liveness detection, Gaussian modeling, and Mahalanobis distance — no mention of emotion, affect, valence, arousal, or related psychological or affective constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f8ffd1834f9185568e17e040c7fa71291923b7f46808999f961cb65998cf8f83": {
+    "paper_id": "https://openalex.org/W4417299402",
+    "title": "Dynamic Attention Analysis for Backdoor Detection in Text-to-Image Diffusion Models",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:56.019Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on backdoor detection in diffusion models using dynamic attention analysis, with no mention of emotion, affect, psychological states, or related constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; core concepts are 'backdoor attacks', 'cross-attention maps', 'Frobenius norm', 'dynamical systems', and 'graph-based state equation'."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "74986eeac1feb561f6c574be536a7d734b1ff130c8874587f49c71cafeb6eedb": {
+    "paper_id": "https://openalex.org/W4414992357",
+    "title": "HumanPCR: Probing MLLM Capabilities in Diverse Human-Centric Scenes",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:56.037Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on evaluating multimodal large language models in human-centric visual understanding tasks (perception, comprehension, reasoning), with no mention of emotion recognition, affective computing, or emotional states.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, feeling, or psychological states; 'mind modeling' refers to theory-of-mind reasoning, not emotion processing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "238c1943ac15447d07c63f7b6913312b63b2450995deef324c2f52300172ee7d": {
+    "paper_id": "https://openalex.org/W4415306987",
+    "title": "DIVE: Inverting Conditional Diffusion Models for Discriminative Tasks",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:56.112Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on adapting diffusion models for discriminative tasks like object detection and classification, with no mention of emotion, affect, or any affective computing concepts.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; core contributions are in gradient-based discrete optimization and Bayes' rule application for detection/classification."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b1506f0113ca993f6f5c9d734a6bb814ea2f726bea89503fd3d10a19b6ac1efb": {
+    "paper_id": "https://openalex.org/W4410398994",
+    "title": "Leveraging face-prior knowledge for general face representation learning",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:56.366Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on face representation learning and leverages 'face-prior knowledge', but no explicit mention of emotion, affect, or related psychological/behavioral constructs appears in title, venue, concepts, or available metadata.",
+      "evidence": [
+        "Interest topics include 'emotion', but paper concepts list 'Facial recognition system', 'Computer vision', and 'Pattern recognition (psychology)' — none of which inherently imply affective/emotion analysis without further context."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2977cfbb9406e02fbe4a668f1fdaa541240e6f2e933a612de8918a330b1160d7": {
+    "paper_id": "https://openalex.org/W4410349225",
+    "title": "Exp-VQA: Fine-grained facial expression analysis via visual question answering",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:56.793Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on fine-grained facial expression analysis using visual question answering, directly aligning with emotion-related research since facial expressions are primary behavioral indicators of emotion.",
+      "evidence": [
+        "Title: 'Exp-VQA: Fine-grained facial expression analysis via visual question answering'",
+        "Concepts include 'Facial expression' and 'Pattern recognition (psychology)'"
+      ],
+      "keywords": [
+        "facial expression",
+        "emotion recognition",
+        "visual question answering",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective AI",
+        "Multimodal emotion analysis",
+        "Interpretable emotion understanding via language grounding"
+      ]
+    }
+  },
+  "89ba2f1c3f62fc0b5784bbaed6b30a14a096f147bf8b1ca2f160aa5a4e33ed78": {
+    "paper_id": "https://openalex.org/W4413277779",
+    "title": "Leveraging Eye Movement for Instructing Robust Video-Based Facial Expression Recognition",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:58.153Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion recognition through facial expressions and eye movement signals, aligning precisely with the researcher's interest in 'emotion'. It is published in IEEE Transactions on Affective Computing and explicitly focuses on affective computing tasks including robust emotion and expression recognition.",
+      "evidence": [
+        "Venue: IEEE Transactions on Affective Computing",
+        "Concepts include 'Emotion recognition', 'Facial expression', 'Expression (computer science)'",
+        "Abstract emphasizes 'multimodal Emotion Recognition' and 'robust predictions on downstream facial expression datasets'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "facial expression recognition",
+        "eye movement",
+        "affective computing",
+        "VFER",
+        "multimodal learning"
+      ],
+      "research_directions": [
+        "affective multimodal sensing",
+        "robust affective behavior analysis",
+        "physiological signal-augmented emotion recognition",
+        "real-world deployable affective AI"
+      ]
+    }
+  },
+  "c088b978903d9145b62b816be831f0f255a5368d3fb92eb662d191dd75259ef1": {
+    "paper_id": "https://openalex.org/W4409095596",
+    "title": "Multi-View Facial Expressions Analysis of Autistic Children in Social Play",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:58.617Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly investigates facial expressions as affective/emotional indicators in autistic children, aligning precisely with 'emotion' as a core interest topic; it is published in IEEE TAC, uses affect quantification methods (temporally accumulated distribution of basic expressions, multiscale entropy), and targets objective emotion analysis.",
+      "evidence": [
+        "Title explicitly references 'Facial Expressions Analysis'",
+        "Published in IEEE Transactions on Affective Computing",
+        "Uses 'quantified features' to assess 'affect status' and 'dynamic complexity of facial expressions'"
+      ],
+      "keywords": [
+        "facial expression",
+        "affect recognition",
+        "emotion quantification",
+        "autism spectrum disorder",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective behavior analysis in neurodevelopmental disorders",
+        "multi-view affect sensing",
+        "objective emotion assessment for clinical diagnosis",
+        "temporal dynamics of emotional expression"
+      ]
+    }
+  },
+  "e1bea8248dbf21a2af3c0e209915a6b794ac013ac3ace629f0e57b408cfcccad": {
+    "paper_id": "https://openalex.org/W4414760724",
+    "title": "Evaluating Cognitive-Behavioral Fixation via Multimodal User Viewing Patterns on Social Media",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T15:13:59.624Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper investigates cognitive-behavioral fixation—a psychological construct closely tied to emotional regulation, affective feedback loops, and emotion-driven engagement on social media—using multimodal behavioral patterns; 'emotion' is explicitly listed as a core interest of the author, and fixation phenomena are well-established in affective science as linked to emotional valence, reward sensitivity, and mood-congruent attention.",
+      "evidence": [
+        "Researcher's stated interest topic is 'emotion'",
+        "Cognitive-behavioral fixation is theorized and empirically associated with affective states (e.g., anxiety, rumination, compulsive reward-seeking)",
+        "Social media viewing patterns analyzed include affectively salient behaviors (e.g., dwell time on emotionally charged content, re-engagement with negative/positive stimuli)"
+      ],
+      "keywords": [
+        "cognitive-behavioral fixation",
+        "affective engagement",
+        "social media emotion",
+        "multimodal affect analysis",
+        "rumination",
+        "digital affective behavior"
+      ],
+      "research_directions": [
+        "Computational modeling of emotion-driven user behavior",
+        "Affective computing for mental health risk detection",
+        "Multimodal emotion inference from implicit behavioral signals",
+        "Ethical AI for affective well-being on social platforms"
+      ]
+    }
   }
 }

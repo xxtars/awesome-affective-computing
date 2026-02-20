@@ -496,5 +496,703 @@
         "Multiturn conversational affect analysis"
       ]
     }
+  },
+  "8a3d7d8c9af2169963ca3bae8047a349ea0cefb24cfd4294102c25dd1b849899": {
+    "paper_id": "https://openalex.org/W4390962891",
+    "title": "SAPT: A Shared Attention Framework for Parameter-Efficient Continual Learning of Large Language Models",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:46.069Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on continual learning, parameter-efficient tuning, and catastrophic forgetting in large language models, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all listed concepts are technical ML/AI topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "de58f41446ba3d9dbe7bc8f67b944e077a7601c5cecc1b019059afc5314ae85a": {
+    "paper_id": "https://openalex.org/W3198831926",
+    "title": "Exploring Sequential and Collaborative Contexts for Next Point-of-Interest Recommendation",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:46.158Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on point-of-interest recommendation using sequential and collaborative contexts, with no indication of emotion or affective modeling in title, venue, concepts, or metadata.",
+      "evidence": [
+        "Concepts include 'Point of interest', 'Information retrieval', 'Graph', and 'Similarity', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5946a8805723e69c45b9b86017d25c32795a4beeed85b676c13a2477767123aa": {
+    "paper_id": "https://openalex.org/W2578354947",
+    "title": "Neural personalized response generation as domain adaptation",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:46.676Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on neural response generation and domain adaptation in chatbots, with no explicit mention or conceptual linkage to emotion or affective processes.",
+      "evidence": [
+        "Concepts list includes 'Chatbot', 'Personalization', 'Conversation', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0930412e36a2a90a3c60ba60116c41ef93a4451a5d9c86a2cd4d0d01ac73eb7f": {
+    "paper_id": "https://openalex.org/W4210833311",
+    "title": "A multi-attribute decision making approach based on information extraction for real estate buyer profiling",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:46.686Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on real estate buyer profiling using multi-attribute decision making and information extraction, with no mention or conceptual link to emotion or affective processes.",
+      "evidence": [
+        "Concepts include 'Real estate', 'Data mining', 'Machine learning', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5f91d4d9085644ce3ebc79df9d029f9a94cb44598acd7fef45d7d631fd76bd42": {
+    "paper_id": "https://openalex.org/W2892428709",
+    "title": "Collective entity linking: a random walk-based perspective",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:46.709Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on collective entity linking using random walks and graph theory, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Entity linking', 'Random walk', 'Graph', 'Theoretical computer science'; no emotion-related terms present."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "24b23a66154a31191079533c3515fd17f86dfd6a5210b3f96ff7b1ba28a850bd": {
+    "paper_id": "https://openalex.org/W2904787467",
+    "title": "Exploring Answer Stance Detection with Recurrent Conditional Attention",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:46.740Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on stance detection in question-answer pairs using a recurrent attention model; no mention of emotion, affect, sentiment, or related psychological constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; concepts are strictly NLP/ML technical."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5bfca02b4ff8170e8235c65763922385f3676b997c14b1553b95d291df442c55": {
+    "paper_id": "https://openalex.org/W3208971629",
+    "title": "Knowledge Enhanced Target-Aware Stance Detection on Tweets",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:46.751Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on stance detection, a task in natural language processing, with no explicit mention or conceptual linkage to emotion or affective states.",
+      "evidence": [
+        "Title contains no emotion-related terms; concepts list includes NLP and AI but no affective/emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f3f135690b03e5726e31849b40d70bc9f100746202db39f8eda856daf48a52e8": {
+    "paper_id": "https://openalex.org/W3096555677",
+    "title": "Analysis of Drug Use based on Grey Prediction Model",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:46.796Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on grey prediction modeling and socio-economic factor analysis of drug use, with no mention of emotion, affective processes, or psychological states.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are computational, medical, or public health oriented."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "311a3699eecde71a5a775815f32a5721fb718f344de88599622c827444543931": {
+    "paper_id": "https://openalex.org/W2952331773",
+    "title": "Hierarchical Attention based Neural Network for Explainable Recommendation",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:46.829Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hierarchical attention networks for explainable recommendation systems and does not address emotion, affective computing, or any psychological/subjective emotional constructs.",
+      "evidence": [
+        "Abstract and concepts mention 'preference', 'recommender system', 'attention network', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5f3ac854045a6d656dc15e821259fb22f251463e5dc7a8c38377bab03d7d1ef1": {
+    "paper_id": "https://openalex.org/W4200035048",
+    "title": "FRAGAN-VSR: Frame-Recurrent Attention Generative Adversarial Network for Video Super-Resolution",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:46.846Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video super-resolution using generative adversarial and recurrent neural networks, with no mention of emotion, affect, sentiment, or any psychological/behavioral constructs related to affective science.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical CV/AI topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "24b724beb629427d6b037d30e0c627cc9e7a77183db336d5c5a51ed53a7928bb": {
+    "paper_id": "https://openalex.org/W2886493354",
+    "title": "A syntactic path-based hybrid neural network for negation scope detection",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:46.904Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on negation scope detection using syntactic paths and neural networks, with no mention or conceptual link to emotion or affective computing.",
+      "evidence": [
+        "Concepts include 'Negation', 'Scope (computer science)', 'Convolutional neural network' — all technical NLP/ML topics unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cf878c3aa6b76bf8d3cd6b4a9061e7b0e561c21d9b04720b3e6eb0d46ec6e7c5": {
+    "paper_id": "https://openalex.org/W4375958680",
+    "title": "Improving Cross-Task Generalization with Step-by-Step Instructions",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:47.009Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on instruction tuning, task decomposition, and cross-task generalization in language models; no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical (e.g., 'Generalization', 'Language model', 'Task decomposition')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b8bb19e4a3bc447694ed46efe78324dca0278c1ddb459422ac2fcc6106b086ab": {
+    "paper_id": "https://openalex.org/W3201270297",
+    "title": "Hierarchical and Multi-Resolution Preference Modeling for Next POI Recommendation",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:47.015Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on preference modeling for POI recommendation using hierarchical and multi-resolution techniques; no mention of emotion, affect, sentiment, or related psychological constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical (e.g., 'preference', 'spatiotemporal', 'hierarchical category')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1f2304a3b4ae84a6dde712958a423f5fbcc91a8753761836311c21f97f33ac06": {
+    "paper_id": "https://openalex.org/W3202213953",
+    "title": "Characterizing amino acids and acyl carnitines in amniotic fluid by liquid chromatography-tandem mass spectrometry.",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:47.018Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on analytical chemistry methods for metabolite profiling in amniotic fluid, with no connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are exclusively biochemical/analytical: 'amino acids', 'acyl carnitines', 'liquid chromatography-tandem mass spectrometry'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "57e6f0aef987d313e011f002ab31c5a43b78792d686d4c3dae197b871d832608": {
+    "paper_id": "https://openalex.org/W3212253528",
+    "title": "Screening and identification of a strain with broad-spectrum antimicrobial activity and isolation and purification of antimicrobial protein.",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:47.029Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on antimicrobial strain screening and protein purification in food microbiology, with no conceptual or lexical connection to emotion or affective science.",
+      "evidence": [
+        "Concepts: Antimicrobial, Identification (biology), Broad spectrum, Isolation (microbiology), Strain (injury), Microbiology, Biology, Chemistry"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e19695d3a77dd44485572ec7dca856dbc04c9117196711f955801587a647d549": {
+    "paper_id": "https://openalex.org/W4220861342",
+    "title": "Novel variant of ETFDH leading to multiple acyl-CoA dehydrogenase deficiency by promoting protein degradation via ubiquitin proteasome pathway",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:47.071Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on a genetic mutation affecting protein degradation in a metabolic disorder, with no mention or conceptual link to emotion or affective processes.",
+      "evidence": [
+        "Concepts are exclusively molecular/biomedical (e.g., Ubiquitin, Proteasome, Mutation, Genetics); 'emotion' does not appear in title, venue, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4d0c39bf6d2fa23e2ec515da60d05cbe0e4993963bdab56de946c2d3b388acf8": {
+    "paper_id": "https://openalex.org/W4231781173",
+    "title": "Copy number variations of chromosome 17p11.2 region in children with development delay and in fetuses with abnormal imaging findings",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:47.239Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a clinical genetics study focused on copy-number variations, developmental disorders, and phenotypic characterization; no mention of emotion, affective processes, or related psychological/behavioral constructs beyond generic 'neurobehavioral disorders' without emotional specificity.",
+      "evidence": [
+        "'neurobehavioral disorders' is listed as a broad phenotype category but not elaborated with emotion-related terms or measures"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f9179348f9d2b12079da43f1236f189a8062ec9a1ddf05f54dc2a5aa29ae40ac": {
+    "paper_id": "https://openalex.org/W2894666095",
+    "title": "A Joint Model for Sentiment Classification and Opinion Words Extraction",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:47.270Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly addresses sentiment classification and opinion words extraction, both core tasks in affective computing and emotion-related natural language processing.",
+      "evidence": [
+        "Title: 'A Joint Model for Sentiment Classification and Opinion Words Extraction'",
+        "Interest topics include 'emotion'",
+        "Concepts include 'Sentiment analysis' and 'Artificial intelligence'"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "opinion mining",
+        "emotion recognition",
+        "natural language processing",
+        "joint modeling"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Emotion-aware NLP",
+        "Fine-grained sentiment analysis",
+        "Aspect-based opinion mining"
+      ]
+    }
+  },
+  "6fe75cf0c74003a7eaedf32331346ec81e4edb904dd12179a0f17adff0249071": {
+    "paper_id": "https://openalex.org/W3206323504",
+    "title": "An Aspect-Centralized Graph Convolutional Network for Aspect-Based Sentiment Classification",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:47.540Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.9,
+      "confidence": 0.95,
+      "reason": "The paper focuses on aspect-based sentiment classification, which is a core subtask in computational emotion and affective science, directly tied to emotion modeling and interpretation from text.",
+      "evidence": [
+        "Title contains 'Aspect-Based Sentiment Classification'",
+        "Concepts include 'Sentiment analysis'"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "emotion",
+        "aspect-based sentiment",
+        "graph convolutional network"
+      ],
+      "research_directions": [
+        "affective computing",
+        "natural language processing for emotion",
+        "deep learning for sentiment"
+      ]
+    }
+  },
+  "70777672bd9cb650f21105c682dd449f2aeda7645d2b3bcdd37785d84379c22e": {
+    "paper_id": "https://openalex.org/W3154685683",
+    "title": "Learning to share by masking the non-shared for multi-domain sentiment classification",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:47.843Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multi-domain sentiment classification, which is a core subfield of affective computing and emotion-related NLP research; 'sentiment' is a direct proxy for valence-based emotion modeling.",
+      "evidence": [
+        "Title contains 'multi-domain sentiment classification'",
+        "Concepts include 'Sentiment analysis' and 'Natural language processing'"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "emotion classification",
+        "multi-domain learning",
+        "NLP"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Cross-domain emotion modeling",
+        "Interpretable sentiment classifiers"
+      ]
+    }
+  },
+  "b3b1773a614e51e0afbff66ad212faabbb34464095554e78d5fde1ba83a6fd86": {
+    "paper_id": "https://openalex.org/W2782449727",
+    "title": "Babbling - The HIT-SCIR System for Emotional Conversation Generation",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:48.036Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper title explicitly references 'Emotional Conversation Generation', directly aligning with the researcher's interest topic 'emotion'. The system name (HIT-SCIR) and task (emotional conversation generation) indicate affective AI research.",
+      "evidence": [
+        "Title: 'Babbling - The HIT-SCIR System for Emotional Conversation Generation'"
+      ],
+      "keywords": [
+        "emotion",
+        "emotional conversation",
+        "affective computing",
+        "dialogue generation",
+        "neural conversation models"
+      ],
+      "research_directions": [
+        "affective dialogue systems",
+        "emotion-aware natural language generation",
+        "emotion modeling in conversational AI"
+      ]
+    }
+  },
+  "eb05b1025997ccca4acc28588f52b77b62648b73b108cfcab397bcbff702c98f": {
+    "paper_id": "https://openalex.org/W3190343369",
+    "title": "Research on Opinion Target Extraction and System Information Collection Analysis for Reviews",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:48.086Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper explicitly addresses emotion-related tasks—specifically opinion target extraction and emotional polarity analysis in movie reviews—aligning directly with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "analyzed its emotional polarity",
+        "opinion target extraction of movie review based on deep learning",
+        "help users judge the details of the movie content"
+      ],
+      "keywords": [
+        "emotion",
+        "sentiment analysis",
+        "opinion target extraction",
+        "emotional polarity",
+        "deep learning",
+        "movie reviews"
+      ],
+      "research_directions": [
+        "affective computing",
+        "natural language processing for emotion",
+        "aspect-based sentiment analysis"
+      ]
+    }
+  },
+  "ded5dea49b73f08693e06cf8172c227d29ca9163c32da365704245d394549d8f": {
+    "paper_id": "https://openalex.org/W3139831923",
+    "title": "Modeling Incongruity between Modalities for Multimodal Sarcasm Detection",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:48.180Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper directly addresses emotion-related phenomena—specifically sarcasm, which is a pragmatic expression of incongruent or masked affect—and explicitly links to sentiment analysis and interpretability of emotional intent across modalities.",
+      "evidence": [
+        "Sarcasm is a sophisticated linguistic phenomenon... which poses a great challenge for opinion mining systems",
+        "multimodal sarcasm detection, which aims to understand the implied sentiment in the video",
+        "scoring mechanism could assign larger weights to words with incongruent modalities"
+      ],
+      "keywords": [
+        "sarcasm",
+        "sentiment analysis",
+        "emotion",
+        "incongruity",
+        "multimodal interpretation"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Multimodal emotion recognition",
+        "Interpretability in affective AI",
+        "Sarcasm and irony detection"
+      ]
+    }
+  },
+  "7a38a7a65ef6bedd674bd3cec7c86dd4fca2b1ba57c717f7a38df2440e7f76b6": {
+    "paper_id": "https://openalex.org/W3205804602",
+    "title": "Locate and Combine: A Two-Stage Framework for Aspect-Category Sentiment Analysis",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:48.218Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper focuses on aspect-category sentiment analysis, which is a core subtask of emotion and sentiment understanding in NLP; 'emotion' is explicitly listed as an interest topic of the author, and sentiment analysis is semantically and methodologically adjacent to affective computing.",
+      "evidence": [
+        "Title contains 'Sentiment Analysis'",
+        "Interest topics include 'emotion'",
+        "Concepts include 'Sentiment analysis', 'Natural language processing'"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "aspect-category",
+        "emotion",
+        "natural language processing",
+        "polarity"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Fine-grained sentiment analysis",
+        "Aspect-based opinion mining"
+      ]
+    }
+  },
+  "418b55d4ae870e360213539df07f7c562e6f58605e7ee76ba1fb4781a3652d02": {
+    "paper_id": "https://openalex.org/W3088500605",
+    "title": "Recent advances in deep learning based sentiment analysis",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:48.337Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper's title explicitly mentions 'sentiment analysis', which is a core subfield of emotion/affective computing, and the researcher's stated interest topic is 'emotion'. Sentiment analysis directly models human affective states (e.g., positive/negative valence) from text.",
+      "evidence": [
+        "Title: 'Recent advances in deep learning based sentiment analysis'",
+        "Researcher's interest topic: 'emotion'"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "emotion",
+        "affective computing",
+        "natural language processing",
+        "deep learning"
+      ],
+      "research_directions": [
+        "affective natural language processing",
+        "computational emotion modeling",
+        "deep learning for affect recognition"
+      ]
+    }
+  },
+  "ae7c3eeb9fd2af17c097c3d4e0069b6a51d97fcb8dda34b44ef142912eee6c29": {
+    "paper_id": "https://openalex.org/W2892989917",
+    "title": "Exploiting Syntactic and Semantic Kernels for Target-Polarity Word Collocation Extraction",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:48.621Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper directly addresses sentiment analysis—a core subfield of affective/emotion computing—by extracting target-polarity word collocations, which are essential for modeling emotional valence (positive/negative) toward entities. The researcher's interest topic 'emotion' aligns with this affective linguistic task.",
+      "evidence": [
+        "Target-polarity word (T-P) collocation extraction is a basic sentiment analysis task",
+        "aims to extract the targets and their modifying polarity words by analyzing the relationships between them",
+        "incorporate syntactic and semantic kernels to automatically extract T-P collocations"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "polarity extraction",
+        "emotion lexicon",
+        "affective NLP",
+        "targeted sentiment"
+      ],
+      "research_directions": [
+        "affective natural language processing",
+        "computational emotion modeling",
+        "fine-grained sentiment analysis",
+        "semantic-affective kernel learning"
+      ]
+    }
+  },
+  "8a074571abfe4e8669a5caf4113878cf1009c3f3e962fd58fb8a502f4f292698": {
+    "paper_id": "https://openalex.org/W3117369308",
+    "title": "An Iterative Emotion Interaction Network for Emotion Recognition in Conversations",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:48.912Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion recognition in conversations, aligning precisely with the researcher's interest topic 'emotion'; it proposes a novel network explicitly modeling emotion interaction, grounded in affective computing and NLP.",
+      "evidence": [
+        "Title contains 'Emotion Interaction Network' and 'Emotion Recognition in Conversations'",
+        "Abstract emphasizes explicit modeling of 'emotion interaction' using predicted emotion labels",
+        "Concepts include 'Emotion recognition', 'Natural language processing', and 'Human–computer interaction'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "emotion interaction",
+        "conversational AI",
+        "affective computing",
+        "natural language processing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware dialogue systems",
+        "contextual emotion modeling",
+        "iterative inference in emotion recognition"
+      ]
+    }
+  },
+  "5a3568853bae14795acab4dbe20f76990a18b430878efded4ebb85cd4caead9d": {
+    "paper_id": "https://openalex.org/W2920890733",
+    "title": "Learning Multi-Domain Adversarial Neural Networks for Text Classification",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:48.970Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper applies multi-domain adversarial learning to text classification, and explicitly evaluates on a 'standard sentiment domain adaptation dataset', directly linking to emotion-related analysis (sentiment being a core affective construct). Though the primary focus is methodological (domain adaptation), the empirical validation centers on sentiment — a canonical emotion-related task.",
+      "evidence": [
+        "experimental results [...] on a standard sentiment domain adaptation dataset",
+        "Interest topics: emotion",
+        "Researcher: Yanyan Zhao (known for NLP and affective computing work)"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "domain adaptation",
+        "adversarial learning",
+        "text classification",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective NLP",
+        "Cross-domain emotion modeling",
+        "Robust sentiment classification"
+      ]
+    }
+  },
+  "bb6fb95c23ace8768e619a22346cf23bd32ec6f2408d42684422d8c530a2d9e3": {
+    "paper_id": "https://openalex.org/W3173549566",
+    "title": "A Text-Centered Shared-Private Framework via Cross-Modal Prediction for Multimodal Sentiment Analysis",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:49.128Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses sentiment analysis—a core affective/emotion-related task—and explicitly links textual, visual, and acoustic modalities to emotion-laden semantic modeling (shared/private semantics), aligning tightly with 'emotion' as the researcher's stated interest topic.",
+      "evidence": [
+        "Title contains 'Multimodal Sentiment Analysis'",
+        "Abstract states 'sentiment analysis model' and 'sentiment regression'",
+        "Motivation includes enhancing 'textual semantics' for robust sentiment analysis, where sentiment is a direct proxy for valence-based emotion"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "multimodal fusion",
+        "emotion recognition",
+        "cross-modal prediction",
+        "shared-private semantics"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion understanding",
+        "NLP for emotion",
+        "human-centered AI with emotional intelligence"
+      ]
+    }
+  },
+  "d59dccddb7ba07beeac17f12234b62f44f79a8ad13ba22119ea0ab1b1c6f54a9": {
+    "paper_id": "https://openalex.org/W3214514021",
+    "title": "Retrieve, Discriminate and Rewrite: A Simple and Effective Framework for Obtaining Affective Response in Retrieval-Based Chatbots",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T15:08:49.552Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on obtaining affective (emotion-labeled) responses in retrieval-based chatbots, directly aligning with the researcher's interest topic 'emotion'. It introduces a framework targeting affect satisfaction while preserving response quality, and constructs an annotated affective dialogue corpus.",
+      "evidence": [
+        "Title contains 'Affective Response'",
+        "Abstract states 'Obtaining affective response is a key step in building empathetic dialogue systems'",
+        "Abstract mentions 'affective response dataset' and 'Sentimental Douban Conversation Corpus'"
+      ],
+      "keywords": [
+        "affective response",
+        "emotion",
+        "empathetic dialogue",
+        "sentiment",
+        "dialogue systems",
+        "retrieval-based chatbots"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware NLP",
+        "conversational AI",
+        "affective response generation",
+        "sentiment-aware information retrieval"
+      ]
+    }
   }
 }

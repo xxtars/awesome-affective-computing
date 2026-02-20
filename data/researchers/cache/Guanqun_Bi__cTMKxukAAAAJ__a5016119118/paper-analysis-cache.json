@@ -435,5 +435,168 @@
         "affective reasoning in language generation"
       ]
     }
+  },
+  "0f85ecc453707f3fc9566a092fbbfb04372c79a0c19d02ecbfdfec3b1a41fc32": {
+    "paper_id": "https://openalex.org/W4405470534",
+    "title": "CharacterBench: Benchmarking Character Customization of Large Language Models",
+    "researcher_name": "Guanqun Bi",
+    "researcher_openalex_author_id": "A5016119118",
+    "updated_at": "2026-02-20T15:09:17.552Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on benchmarking LLM character customization for role-playing, with no engagement of emotion theory, affective computing, or emotional constructs.",
+      "evidence": [
+        "Interest topic is 'emotion', but paper concepts and abstract contain zero emotion-related terms (e.g., no mention of affect, sentiment, empathy, arousal, valence, emotional response, or psychological modeling)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "013342808b98b3b44e64ef31dc762a81d27c7d1c324d13bc2f517b1d8cbddcb6": {
+    "paper_id": "https://openalex.org/W4307330258",
+    "title": "How Does Knowledge Graph Embedding Extrapolate to Unseen Data: A Semantic Evidence View",
+    "researcher_name": "Guanqun Bi",
+    "researcher_openalex_author_id": "A5016119118",
+    "updated_at": "2026-02-20T15:09:17.559Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on knowledge graph embedding, extrapolation, and semantic evidence in AI/ML; no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Interest topic is 'emotion', but paper's concepts include 'Embedding', 'Graph', 'Semantic similarity', 'Artificial intelligence' — all technical CS/AI topics with zero affective or emotional content."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ff1c718c221820293053a68d2cf9c449cdf3e96382a37aab1bf3919605911ce9": {
+    "paper_id": "https://openalex.org/W7126088499",
+    "title": "PsychePass: Calibrating LLM Therapeutic Competence via Trajectory-Anchored Tournaments",
+    "researcher_name": "Guanqun Bi",
+    "researcher_openalex_author_id": "A5016119118",
+    "updated_at": "2026-02-20T15:09:18.650Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.97,
+      "reason": "The paper directly addresses therapeutic competence in mental healthcare contexts, which inherently involves modeling, assessing, and responding to human emotions; it explicitly engages emotion-laden constructs like counseling, client simulation, and expert judgment of affective responses.",
+      "evidence": [
+        "'therapeutic competence' in mental healthcare",
+        "client simulation probes 'multifaceted capabilities' including affective responsiveness",
+        "strong consistency with human expert judgments (which are emotion-sensitive)"
+      ],
+      "keywords": [
+        "emotion",
+        "therapeutic competence",
+        "counseling",
+        "mental healthcare",
+        "affective simulation",
+        "emotion-aware AI"
+      ],
+      "research_directions": [
+        "Affective computing in clinical AI",
+        "Emotion-grounded LLM evaluation",
+        "Longitudinal emotion modeling in dialogue systems",
+        "Human-AI alignment for empathic interaction"
+      ]
+    }
+  },
+  "491d9a31f56f22f6600379f47fbbb51a182aab261dad74e97aa9023814bd5471": {
+    "paper_id": "https://openalex.org/W4416380593",
+    "title": "MAGI: Multi-Agent Guided Interview for Psychiatric Assessment",
+    "researcher_name": "Guanqun Bi",
+    "researcher_openalex_author_id": "A5016119118",
+    "updated_at": "2026-02-20T15:09:19.706Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion-related clinical assessment (e.g., depression, anxiety, suicide) using empathetic, adaptive interviewing agents grounded in psychiatric protocols; 'emotion' is explicitly listed as the researcher's interest topic and aligns with core affective constructs evaluated.",
+      "evidence": [
+        "Focus on depression, generalized anxiety, social anxiety, and suicide — all emotion-disorder domains",
+        "Adaptive question agent explicitly incorporates 'empathy' as a functional component",
+        "Uses MINI — a gold-standard diagnostic tool for affective and anxiety disorders"
+      ],
+      "keywords": [
+        "emotion",
+        "anxiety",
+        "depression",
+        "empathy",
+        "psychiatric assessment",
+        "affective disorders"
+      ],
+      "research_directions": [
+        "Affective computing in clinical interviews",
+        "Emotion-aware LLM agents",
+        "Automated mental health screening",
+        "Explainable AI for emotion disorder diagnosis"
+      ]
+    }
+  },
+  "bb1b83b0a9d883ebeaf610fd1d2c942753d25116253fa8de92bc8995fede1197": {
+    "paper_id": "https://openalex.org/W4379474716",
+    "title": "DiffusEmp: A Diffusion Model-Based Framework with Multi-Grained Control for Empathetic Response Generation",
+    "researcher_name": "Guanqun Bi",
+    "researcher_openalex_author_id": "A5016119118",
+    "updated_at": "2026-02-20T15:09:20.006Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion-related affective computing through empathetic response generation, aligning precisely with the researcher's interest in 'emotion'. Empathy is a core affective construct grounded in emotional perception, sharing, and regulation.",
+      "evidence": [
+        "Title explicitly references 'Empathetic Response Generation'",
+        "Abstract states 'Empathy is a crucial factor in open-domain conversations, which naturally shows one's caring and understanding to others'",
+        "Method uses multi-grained control signals (intent, semantic frame) tied to affective states"
+      ],
+      "keywords": [
+        "empathy",
+        "affective computing",
+        "emotion recognition",
+        "dialogue systems",
+        "diffusion models",
+        "controllable generation"
+      ],
+      "research_directions": [
+        "Affective natural language generation",
+        "Emotion-aware conversational AI",
+        "Controllable empathy modeling",
+        "Diffusion-based affective language modeling"
+      ]
+    }
+  },
+  "ee8d2927c760f144906d0caf2dc052116e8100cc46cbba4cda0c24151b45fa56": {
+    "paper_id": "https://openalex.org/W4392181976",
+    "title": "ToMBench: Benchmarking Theory of Mind in Large Language Models",
+    "researcher_name": "Guanqun Bi",
+    "researcher_openalex_author_id": "A5016119118",
+    "updated_at": "2026-02-20T15:09:20.505Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.92,
+      "reason": "The paper evaluates Theory of Mind (ToM) in LLMs, which inherently involves emotion recognition, attribution, and reasoning about affective mental states — core components of emotion-related cognition. Although 'emotion' is not the sole focus, ToM benchmarks like ToMBench explicitly assess abilities such as inferring desires, intentions, and emotional reactions in social contexts.",
+      "evidence": [
+        "ToM is defined as 'the cognitive capability to perceive and ascribe mental states to oneself and others'",
+        "ToMBench evaluates 31 abilities in social cognition, including those overlapping with affective theory of mind (e.g., recognizing emotional implications of scenarios)",
+        "Concepts include Psychology and Cognitive science — disciplines central to emotion research"
+      ],
+      "keywords": [
+        "theory of mind",
+        "affective cognition",
+        "social intelligence",
+        "mental state attribution",
+        "emotion recognition"
+      ],
+      "research_directions": [
+        "Affective theory of mind in AI",
+        "Emotion-aware language model evaluation",
+        "Benchmarking emotion inference capabilities of LLMs",
+        "Human-AI alignment in affective reasoning"
+      ]
+    }
   }
 }
