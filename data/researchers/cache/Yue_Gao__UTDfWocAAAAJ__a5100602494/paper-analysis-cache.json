@@ -10857,5 +10857,41 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "df7554acfd90d79b1df7de18e8653cd333f6791da9b89a36e871b84b4e496d93": {
+    "paper_id": "https://openalex.org/W4376608986",
+    "title": "Introduction",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T21:16:28.160Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hypergraph theory and high-order computational modeling, with no mention of emotion, affective science, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract discusses hypergraph computation, pairwise comparison, and theoretical computer science concepts; no emotion-related terms or applications appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f1c2947f7d4b0bc20128173cdb485541834cb25c4aaebc50bfdb56fe589bb7e2": {
+    "paper_id": "https://openalex.org/W4392872488",
+    "title": "Hyper-3DG: Text-to-3D Gaussian Generation via Hypergraph",
+    "researcher_name": "Yue Gao",
+    "researcher_openalex_author_id": "A5100602494",
+    "updated_at": "2026-02-20T21:16:28.288Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on text-to-3D generation using hypergraph-based Gaussian optimization; no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are purely technical (hypergraph, Gaussian, 3D geometry, computational chemistry)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

@@ -14008,5 +14008,41 @@
         "Computer vision for human affect"
       ]
     }
+  },
+  "2586e1568dd92ada5f8746bb6a326175b8a2e33e88fdfaddfaac330cf43948ab": {
+    "paper_id": "https://openalex.org/W4251073283",
+    "title": "Biometric Recognition",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T21:14:38.685Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.85,
+      "reason": "The paper's title, venue, and listed concepts are entirely focused on biometric recognition and AI fundamentals, with no explicit or implied connection to emotion or affective computing.",
+      "evidence": [
+        "Concepts: Biometrics, Computer science, Artificial intelligence, Speech recognition"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ad62466952407674286a235e8c064c838d1fb406e65571acd268f8e4bdd8c815": {
+    "paper_id": "https://openalex.org/W4327670748",
+    "title": "Real Face Foundation Representation Learning for Generalized Deepfake Detection",
+    "researcher_name": "Shiguang Shan",
+    "researcher_openalex_author_id": "A5050297728",
+    "updated_at": "2026-02-20T21:14:39.377Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on deepfake detection using real face distribution learning and masked image modeling; no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

@@ -43,56 +43,56 @@
         "weight": 0.86
       },
       {
-        "name": "Emotion-aware AI",
+        "name": "Physiological basis of emotion",
         "weight": 0.83
       },
       {
-        "name": "Physiological basis of emotion",
+        "name": "Cross-cultural emotion expression and judgment",
         "weight": 0.78
       }
     ],
-    "trend_summary": "Xiaolan Fu's research centers on the computational and neuroscientific foundations of human emotion, with a dominant focus on automatic, fine-grained analysis of nonverbal affect—especially micro-expressions—using multimodal signals (facial dynamics, EMG, EEG, MEG, fNIRS). Her work bridges psychology, neuroscience, and AI: she pioneers robust affective signal processing methods (e.g., spatiotemporal CNNs, tensor-based features), builds foundational datasets (CASME series, CFBD, MFED), and investigates how emotion modulates core cognitive processes (memory, attention, time perception, agency, moral judgment). A strong translational thread runs through clinical applications (depression, trauma, deception detection), cross-cultural validation (Chinese vs. Western samples), and human-centered AI design—emphasizing ecological validity, physiological grounding, and psychological interpretability.",
+    "trend_summary": "Xiaolan Fu’s research centers on the computational and neuroscientific foundations of human emotion, with a strong emphasis on nonverbal affect—especially micro-expressions—as objective, quantifiable signals bridging psychology, AI, and clinical applications. Her work integrates multimodal measurement (EMG, ERP, MEG, fNIRS), deep learning for sparse behavioral cues, and cross-cultural validation, increasingly converging toward human-centered affective AI: systems that recognize, interpret, and respond to covert or contextually modulated emotion (e.g., masked faces, moral surprise, pandemic-related agency loss). A unifying thread is translational rigor—building databases (CASME series, CFBD, MFED), benchmarking affective models (e.g., EmotionHallucer), and grounding AI in psychological theory (e.g., agency, moral conscience, time perception under threat).",
     "representative_papers": [
       {
         "title": "CAS(ME)³: A Third Generation Facial Spontaneous Micro-Expression Database with Depth Information and High Ecological Validity",
-        "why": "Flagship dataset paper demonstrating leadership in ecological, multimodal affective data infrastructure—critical for advancing real-world micro-expression AI."
+        "why": "Landmark resource enabling ecological, multimodal micro-expression research; cited 80×, reflects her leadership in standardized affective database construction."
       },
       {
         "title": "MESNet: A Convolutional Neural Network for Spotting Multi-Scale Micro-Expression Intervals in Long Videos",
-        "why": "Highly cited (122) methodological breakthrough in deep learning for micro-expression spotting, reflecting core technical contribution to affective computing."
-      },
-      {
-        "title": "Decoding the temporal representation of facial expression in face-selective regions",
-        "why": "Key neuroimaging paper (15 citations) linking neural dynamics (MEG) to fine-grained emotion processing timelines—bridging neuroscience and computational models."
+        "why": "Highly influential (122 citations) deep learning architecture specifically designed for real-world micro-expression spotting—exemplifies her bridge between computer vision and affective science."
       },
       {
         "title": "Could Micro-Expressions Be Quantified? Electromyography Gives Affirmative Evidence",
-        "why": "Seminal physiological validation (2 citations but high conceptual impact) establishing EMG as objective ground truth for micro-expression intensity—integrating psychophysiology and AI."
+        "why": "Introduces EMG as an objective physiological ground truth for micro-expression intensity—key step toward validating AI models with biological signals (cited 2×, early high-impact signal)."
+      },
+      {
+        "title": "Decoding the temporal representation of facial expression in face-selective regions",
+        "why": "MEG-based study revealing millisecond-scale neural dynamics of emotion decoding—represents her integration of high-temporal-resolution neuroscience with perceptual modeling (cited 15×)."
       },
       {
         "title": "Enhancing Face Perception Research with the Chinese Face and Body Dataset (CFBD)",
-        "why": "Represents commitment to cross-cultural rigor and ecological diversity in affective stimuli, addressing critical bias gaps in global emotion AI."
-      },
-      {
-        "title": "The sense of agency and the attribution of responsibility in human behavior",
-        "why": "Exemplifies expansion into higher-order affective-cognitive constructs (agency, morality), showing theoretical depth beyond basic emotion recognition."
+        "why": "Addresses critical cultural bias in affective datasets; enables cross-cultural validation of emotion perception models—core to her agenda on ecological and cultural validity."
       },
       {
         "title": "EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models",
-        "why": "Cutting-edge work at AI frontier—introduces psychology-informed evaluation for affective hallucination in foundation models, signaling timely pivot toward responsible affective AI."
+        "why": "Pioneering work at the AI–psychology interface—introduces a psychology-informed benchmark for evaluating affective grounding in foundation models (2025, emerging impact)."
       },
       {
-        "title": "CASME II: An Improved Spontaneous Micro-Expression Database and the Baseline Evaluation",
-        "why": "Foundational (930 citations) resource that catalyzed the field; epitomizes her role in establishing standards, reproducibility, and benchmarking in affective computing."
+        "title": "Moral conscience matters on trust violation and its repair strategies in virtual and real-world settings",
+        "why": "Demonstrates expansion into high-stakes socio-affective domains—linking moral emotion, trust repair, and human–AI interaction contexts (2025, conceptually integrative)."
+      },
+      {
+        "title": "The sense of agency and the attribution of responsibility in human behavior",
+        "why": "Foundational theoretical–empirical work connecting affective neuroscience (agency), moral cognition, and real-world decision-making—recurrent theme across her career (2020, highly cited conceptual anchor)."
       }
     ]
   },
   "stats": {
     "analyzed_works_count": 318,
     "interesting_works_count": 149,
-    "new_works_count": 8,
+    "new_works_count": 2,
     "deduped_works_count": 318,
-    "ai_called_count": 8,
+    "ai_called_count": 2,
     "summary_recomputed": true
   },
   "works": [

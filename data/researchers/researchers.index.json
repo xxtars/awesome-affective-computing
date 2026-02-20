@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-20T20:52:10.101Z",
+  "generated_at": "2026-02-20T21:16:49.289Z",
   "pipeline_version": "v0.1.0",
   "run_config": {
     "model": "qwen-plus",
@@ -138,10 +138,10 @@
       "stats": {
         "analyzed_works_count": 1107,
         "interesting_works_count": 394,
-        "new_works_count": 75,
+        "new_works_count": 0,
         "deduped_works_count": 1107,
-        "ai_called_count": 75,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5100380066.json"
     },
@@ -237,10 +237,10 @@
       "stats": {
         "analyzed_works_count": 382,
         "interesting_works_count": 83,
-        "new_works_count": 65,
+        "new_works_count": 0,
         "deduped_works_count": 382,
-        "ai_called_count": 65,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5017671620.json"
     },
@@ -336,10 +336,10 @@
       "stats": {
         "analyzed_works_count": 1422,
         "interesting_works_count": 49,
-        "new_works_count": 22,
+        "new_works_count": 0,
         "deduped_works_count": 1422,
-        "ai_called_count": 22,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5100643265.json"
     },
@@ -435,10 +435,10 @@
       "stats": {
         "analyzed_works_count": 200,
         "interesting_works_count": 23,
-        "new_works_count": 4,
+        "new_works_count": 0,
         "deduped_works_count": 200,
-        "ai_called_count": 4,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5059530979.json"
     },
@@ -534,10 +534,10 @@
       "stats": {
         "analyzed_works_count": 103,
         "interesting_works_count": 12,
-        "new_works_count": 1,
+        "new_works_count": 0,
         "deduped_works_count": 103,
-        "ai_called_count": 1,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5100366067.json"
     },
@@ -732,10 +732,10 @@
       "stats": {
         "analyzed_works_count": 278,
         "interesting_works_count": 23,
-        "new_works_count": 31,
+        "new_works_count": 0,
         "deduped_works_count": 278,
-        "ai_called_count": 31,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5057732142.json"
     },
@@ -831,10 +831,10 @@
       "stats": {
         "analyzed_works_count": 732,
         "interesting_works_count": 65,
-        "new_works_count": 35,
+        "new_works_count": 0,
         "deduped_works_count": 732,
-        "ai_called_count": 35,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5085867312.json"
     },
@@ -930,10 +930,10 @@
       "stats": {
         "analyzed_works_count": 398,
         "interesting_works_count": 31,
-        "new_works_count": 12,
+        "new_works_count": 0,
         "deduped_works_count": 398,
-        "ai_called_count": 12,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5023274785.json"
     },
@@ -978,60 +978,60 @@
             "weight": 0.88
           },
           {
-            "name": "Affective mechanisms in clinical and crisis contexts (e.g., pandemic, trauma, chronic illness)",
+            "name": "Affective mechanisms in clinical and health contexts",
             "weight": 0.85
           },
           {
-            "name": "Emotion regulation interventions and their neural/behavioral outcomes",
+            "name": "Human-AI emotional interaction and affective AI",
             "weight": 0.82
           },
           {
-            "name": "Affective computing and human-AI emotional alignment",
+            "name": "Emotion regulation in developmental and crisis contexts",
             "weight": 0.79
           }
         ],
-        "trend_summary": "Jia Liu's research spans a highly integrative, translational affective science agenda—bridging neural mechanisms (especially fMRI, ERP, structural MRI), individual differences (trait anxiety, motivation, EI, resilience), and real-world contexts (pandemic stress, education, healthcare, sustainability investing, AI interaction). A strong cross-disciplinary signature emerges: combining affective neuroscience with linguistics (Chinese emotion words), clinical psychology (depression, PTSD, renal disease), computational methods (network analysis, AI, neuroergonomics), and sociocultural factors (rural youth, cross-cultural well-being, ESG sentiment). Recent work increasingly emphasizes transdiagnostic, multimodal, and ecologically valid approaches—e.g., linking prenatal exposure to adolescent affect, modeling emotion in L2 learners, or evaluating AI's emotional intelligence—reflecting a maturing focus on mechanism-driven, context-sensitive, and ethically informed affective science.",
+        "trend_summary": "Jia Liu's research spans a highly integrative, translational affective science agenda—bridging neural mechanisms (especially fMRI/ERP-based), individual differences (trait anxiety, motivation, EI, resilience), and real-world contexts (pandemic stress, education, healthcare, sustainability investing, AI interaction). A strong emphasis emerges on cross-level analysis: from molecular (e.g., 5-HTTLPR), structural (e.g., ACC, amygdala, fusiform gyrus), and functional (resting-state, conflict tasks) brain correlates, to behavioral, linguistic, and sociocultural dimensions of emotion. Recent work increasingly converges on three frontiers: (1) affective computation (AI emotion modeling, NLP-generated language perception), (2) transdiagnostic affective mechanisms (e.g., inflammation-emotion links, trauma-to-psychosis pathways), and (3) context-sensitive emotion regulation (school, clinical, occupational, and digital environments). Chinese populations and linguistic stimuli (e.g., Chinese emotion words, CEPS/PISA data) serve as a consistent cultural-empirical anchor.",
         "representative_papers": [
           {
             "title": "The neural correlates of perceived social support and its relationship to psychological well-being",
-            "why": "Exemplifies core integration of neural mechanisms (fMRI), social-affective constructs (support, well-being), and mediational modeling—highly cited and central to Liu’s affective neuroscience + clinical translation theme."
+            "why": "Exemplifies core integration of social-affective neuroscience, structural/functional brain mapping, and well-being outcomes—highly cited (5) and representative of the 'affective neuroscience' and 'emotion regulation in developmental contexts' directions."
           },
           {
             "title": "Emotional intelligence of Large Language Models",
-            "why": "Landmark paper highlighting Liu’s emerging leadership in affective AI—bridging computational linguistics, psychometrics, and emotion theory; highest citation count (95) and defines a new subfield."
+            "why": "Landmark paper (95 citations) defining the emerging 'affective AI' direction—bridges computational linguistics, psychometrics, and human-AI emotional alignment."
           },
           {
             "title": "Trait motivation is associated with fusiform face area morphometry",
-            "why": "Illustrates the structural brain–affective trait linkage—a recurring motif across papers on EI, anxiety, self-esteem, and resilience—with cross-cultural validation (Chinese youth sample)."
-          },
-          {
-            "title": "Behavioral reactions to ESG sentiment: Evidence from heterogeneous Asia-pacific markets",
-            "why": "Represents Liu’s innovative extension of affective science into behavioral finance and sustainability—demonstrating how emotion-sentiment coupling drives real-world economic decisions across cultures."
-          },
-          {
-            "title": "Combined effects of prenatal ozone exposure and school/neighborhood environments on youth brain, cognition, and psychotic‐like experiences",
-            "why": "Embodies the transdiagnostic, developmental, and multilevel (biological + psychosocial) approach increasingly dominant in Liu’s recent work—linking environment, neural development, and affective-psychotic spectra."
+            "why": "Highlights structural brain-personality-emotion interface in a Chinese youth sample—epitomizes 'individual differences in emotion processing' and 'neural correlates of emotion-related traits'."
           },
           {
             "title": "The Effects of Trait Anxiety and Emotional Word Type on the Processing of Chinese Words: An ERP Study",
-            "why": "Foundational for Liu’s cross-linguistic affective semantics line—combines individual differences, neural timing (ERP), and culturally grounded stimuli (Chinese), recurring across multiple papers on emotion-word processing."
+            "why": "Foundational for 'cross-linguistic affective semantics' and 'affective neuroscience', using Chinese stimuli to dissect valence-, trait-, and modality-specific neural dynamics."
           },
           {
-            "title": "Social Presence in Online Live Learning Improves Learners’ Mentalizing: An fMRI Study",
-            "why": "Highlights the digital-affective interface—using neuroimaging to quantify how real-time social cues modulate emotion-related social cognition in education, a growing priority in post-pandemic learning research."
+            "title": "Behavioral reactions to ESG sentiment: Evidence from heterogeneous Asia-pacific markets",
+            "why": "Signals expansion into applied affective economics—demonstrates how emotion-sentiment linkage drives real-world financial decisions across cultures."
           },
           {
             "title": "Central symptoms and network associations of depressive symptoms among school-aged students: A network analysis",
-            "why": "Signals methodological evolution toward computational psychiatry—applying network science to map affective symptom architecture in youth, informing prevention and transdiagnostic intervention design."
+            "why": "Represents 'emotion regulation in developmental and crisis contexts' and 'affective symptom networks'—high-impact (17 citations) methodological innovation in youth depression."
+          },
+          {
+            "title": "Combined effects of prenatal ozone exposure and school/neighborhood environments on youth brain, cognition, and psychotic‐like experiences",
+            "why": "Embodies transdiagnostic, multilevel affective science—linking environmental exposure, psychosocial context, neural development, and emergent affective-psychotic phenotypes."
+          },
+          {
+            "title": "Dissociable neural correlates of trait and ability emotional intelligence: a resting-state fMRI study",
+            "why": "Key contribution to 'neural correlates of emotion dysregulation' and 'individual differences', clarifying neurobiological distinctions between self-reported vs. performance-based emotion competencies."
           }
         ]
       },
       "stats": {
         "analyzed_works_count": 1161,
         "interesting_works_count": 121,
-        "new_works_count": 51,
+        "new_works_count": 8,
         "deduped_works_count": 1161,
-        "ai_called_count": 51,
+        "ai_called_count": 8,
         "summary_recomputed": true
       },
       "profile_path": "data/researchers/profiles/A5100409741.json"
@@ -1128,10 +1128,10 @@
       "stats": {
         "analyzed_works_count": 540,
         "interesting_works_count": 218,
-        "new_works_count": 62,
+        "new_works_count": 0,
         "deduped_works_count": 540,
-        "ai_called_count": 62,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5112613657.json"
     },
@@ -1227,10 +1227,10 @@
       "stats": {
         "analyzed_works_count": 133,
         "interesting_works_count": 49,
-        "new_works_count": 9,
+        "new_works_count": 0,
         "deduped_works_count": 133,
-        "ai_called_count": 9,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5089409678.json"
     },
@@ -1263,72 +1263,72 @@
             "weight": 0.97
           },
           {
-            "name": "Affective human–animal/robot/computer interaction",
+            "name": "Affective human–animal/robot–human interaction",
             "weight": 0.93
           },
           {
-            "name": "Emotion-aware recommender and personalization systems",
-            "weight": 0.89
-          },
-          {
-            "name": "Physiological-signal-informed affective computing",
-            "weight": 0.85
+            "name": "Emotion-sensitive multimedia systems (real-time, context-aware)",
+            "weight": 0.91
           },
           {
             "name": "Therapeutic and wellness-oriented affective co-creation",
-            "weight": 0.81
+            "weight": 0.88
           },
           {
-            "name": "Culture- and context-aware affective modeling",
-            "weight": 0.76
+            "name": "Cross-modal affective modeling (music–vision–physiology–language)",
+            "weight": 0.85
+          },
+          {
+            "name": "Affective recommender systems (mood-, context-, culture-aware)",
+            "weight": 0.82
           },
           {
             "name": "Psychology-informed HCI for emotional well-being",
-            "weight": 0.72
+            "weight": 0.79
           }
         ],
-        "trend_summary": "Kejun Zhang's research centers on affective computing with strong emphasis on multimodal emotion sensing, modeling, and generation—especially at the intersection of music, video, physiology (e.g., EDA, EEG), and behavior. A clear longitudinal trend emerges: from early foundational work in music emotion recognition and physiological signal fusion (2007–2019), to increasingly applied, human-centered systems—particularly involving pets, therapy, wearables, and real-time interactive media (2022–2025). Generative AI (diffusion models, LLMs, cross-modal alignment) is now tightly coupled with affective intent, prioritizing emotional resonance, cultural nuance, soft transitions, and therapeutic outcomes—not just accuracy. The work bridges technical AI/ML rigor with psychological, clinical, and design principles.",
+        "trend_summary": "Kejun Zhang's research centers on affective computing with strong emphasis on multimodal emotion sensing, modeling, and generative application—especially at the intersection of music, video, physiology (e.g., EDA, EEG), and expressive language. A defining trend is the shift from passive emotion recognition toward active, real-time, context- and relationship-aware affective synthesis: e.g., AI-assisted human-pet musical co-creation, emotion-conditioned video-to-music generation, and wearables-powered pet communication. There is consistent attention to applied domains—wellness therapy, retail robotics, creative tools—and deep integration of psychological principles (e.g., emotional flow, synesthesia, memory resonance) into system design. Recent work increasingly unifies LLMs, diffusion models, and physiological signals within human-centered, cross-species, and therapeutic frameworks.",
         "representative_papers": [
           {
             "title": "A Multimodal Framework for Large-Scale Emotion Recognition by Fusing Music and Electrodermal Activity Signals",
-            "why": "Highly cited foundational paper (41 citations) establishing core methodology for physiological + audio affect fusion; anchors the multimodal analysis direction."
+            "why": "Highly cited foundational work demonstrating early integration of physiological and audio modalities for robust emotion modeling—core to Zhang's multimodal affect paradigm."
           },
           {
             "title": "Diff-V2M: A Hierarchical Conditional Diffusion Model with Explicit Rhythmic Modeling for Video-to-Music Generation",
-            "why": "Latest flagship generative work (2025), exemplifying cutting-edge integration of diffusion modeling, rhythmic affect control, and audiovisual alignment."
+            "why": "Represents cutting-edge direction: state-of-the-art generative modeling explicitly embedding rhythmic and affective alignment between visual and auditory modalities."
           },
           {
             "title": "PetChat: An Emotion-Aware Pet Communication System Powered by LLMs and Wearable Devices",
-            "why": "Embodies the convergence of affective HCI, wearable sensing, LLM-based response generation, and human-animal interaction—a signature applied direction."
+            "why": "Exemplifies novel human-animal affective interaction paradigm, combining wearables, LLMs, and real-time emotion inference—expanding affective computing beyond human-centric boundaries."
           },
           {
             "title": "AI-Assisted Human-Pet Artistic Musical Co-Creation for Wellness Therapy",
-            "why": "Synthesizes therapeutic goals, co-creation paradigms, emotion-aware music generation, and wellness evaluation—core to the wellness-oriented affective co-creation theme."
+            "why": "Bridges therapeutic application, interspecies affect, and generative music—highlighting Zhang’s focus on emotionally grounded, participatory wellness technologies."
           },
           {
             "title": "REMAST: Real-Time Emotion-Based Music Arrangement With Soft Transition",
-            "why": "Demonstrates mature real-time affective system design with smooth adaptation—key for interactive multimedia and user experience."
-          },
-          {
-            "title": "Consumer shopping emotion and interest database: a unique database with a multimodal emotion recognition method for retail service robots to infer consumer shopping intentions better than humans",
-            "why": "Landmark applied work bridging affective robotics, multimodal inference, and real-world service contexts—high impact (8 citations) and domain-translational."
-          },
-          {
-            "title": "The PMEmo Dataset for Music Emotion Recognition",
-            "why": "Seminal resource (89 citations) enabling reproducible affective MIR research; reflects long-standing commitment to dataset curation and benchmarking."
+            "why": "Key representative of real-time, adaptive affective multimedia systems—emphasizing smooth emotional continuity in interactive soundscapes."
           },
           {
             "title": "SoundScape: A Human-AI Co-Creation System Making Your Memories Heard",
-            "why": "Exemplifies psychology-informed, memory-augmented affective expression—integrating narrative, emotion, sound design, and HCI theory."
+            "why": "Embodies psychology-informed, memory-augmented affective expression—integrating narrative, emotion, and sonic design for personal meaning-making."
+          },
+          {
+            "title": "Consumer shopping emotion and interest database: a unique database with a multimodal emotion recognition method for retail service robots to infer consumer shopping intentions better than humans",
+            "why": "Landmark applied work showing real-world impact: multimodal affect inference enabling robots to outperform humans in intention prediction—bridging lab research and service AI."
+          },
+          {
+            "title": "The PMEmo Dataset for Music Emotion Recognition",
+            "why": "Foundational resource paper with highest citation count; enabled reproducible, physiology-grounded music emotion research—cornerstone of Zhang’s long-term affective MIR agenda."
           }
         ]
       },
       "stats": {
         "analyzed_works_count": 163,
         "interesting_works_count": 35,
-        "new_works_count": 9,
+        "new_works_count": 2,
         "deduped_works_count": 163,
-        "ai_called_count": 9,
+        "ai_called_count": 2,
         "summary_recomputed": true
       },
       "profile_path": "data/researchers/profiles/A5101577175.json"
@@ -1425,10 +1425,10 @@
       "stats": {
         "analyzed_works_count": 291,
         "interesting_works_count": 16,
-        "new_works_count": 11,
+        "new_works_count": 0,
         "deduped_works_count": 291,
-        "ai_called_count": 11,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5033615240.json"
     },
@@ -1623,10 +1623,10 @@
       "stats": {
         "analyzed_works_count": 357,
         "interesting_works_count": 34,
-        "new_works_count": 36,
+        "new_works_count": 0,
         "deduped_works_count": 357,
-        "ai_called_count": 36,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5100351449.json"
     },
@@ -1821,10 +1821,10 @@
       "stats": {
         "analyzed_works_count": 208,
         "interesting_works_count": 46,
-        "new_works_count": 22,
+        "new_works_count": 0,
         "deduped_works_count": 208,
-        "ai_called_count": 22,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5009985839.json"
     },
@@ -2011,10 +2011,10 @@
       "stats": {
         "analyzed_works_count": 242,
         "interesting_works_count": 6,
-        "new_works_count": 18,
+        "new_works_count": 0,
         "deduped_works_count": 242,
-        "ai_called_count": 18,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5084025984.json"
     },
@@ -2039,80 +2039,80 @@
       "topic_summary": {
         "top_research_directions": [
           {
+            "name": "affective computing",
+            "weight": 0.127
+          },
+          {
             "name": "Affective computing",
-            "weight": 1
+            "weight": 0.037
           },
           {
-            "name": "Facial expression analysis",
-            "weight": 0.97
+            "name": "facial expression analysis",
+            "weight": 0.022
           },
           {
-            "name": "Multimodal emotion analysis",
-            "weight": 0.93
+            "name": "facial behavior analysis",
+            "weight": 0.022
           },
           {
-            "name": "Robust affective signal processing in real-world settings",
-            "weight": 0.89
+            "name": "multimodal emotion analysis",
+            "weight": 0.015
           },
           {
-            "name": "Facial Action Unit (AU) detection and modeling",
-            "weight": 0.85
+            "name": "emotion-aware computer vision",
+            "weight": 0.011
           },
           {
-            "name": "Emotion-aware computer vision",
-            "weight": 0.81
+            "name": "facial emotion analysis",
+            "weight": 0.011
           },
           {
-            "name": "Transfer learning and representation disentanglement for affect",
-            "weight": 0.77
-          },
-          {
-            "name": "Clinical and neurodevelopmental affective behavior analysis",
-            "weight": 0.73
+            "name": "multimodal emotion recognition",
+            "weight": 0.011
           }
         ],
-        "trend_summary": "Shiguang Shan's research centers on foundational and applied affective computing, with strong emphasis on facial behavior as a primary channel for emotion inference. His work evolves from early geometric manifold-based modeling (2013–2016) and AU-driven representation learning toward modern multimodal, robust, and clinically grounded paradigms. Key trends include: (1) shifting from static to dynamic and in-the-wild expression analysis; (2) integrating physiological signals (e.g., rPPG, eye movement) for objective, contactless affect sensing; (3) advancing weakly supervised, self-supervised, and cross-domain learning for data-efficient AU and expression recognition; (4) bridging AI with clinical psychology—especially in autism, apathy, and deception detection; and (5) increasingly leveraging foundation models (e.g., GPT-4V), interpretable language grounding (VQA), and disentangled representations for trustworthy, deployable affective AI.",
+        "trend_summary": "AI summary unavailable. Generated by frequency fallback.",
         "representative_papers": [
           {
-            "title": "Video-Based Remote Physiological Measurement via Cross-Verified Feature Disentangling",
-            "why": "Highly cited (197) landmark paper introducing robust non-contact physiological sensing from video—foundational for affective physiology and real-world deployment."
-          },
-          {
-            "title": "RhythmNet: End-to-End Heart Rate Estimation From Face via Spatial-Temporal Representation",
-            "why": "Seminal work (379 citations) pioneering deep spatio-temporal modeling for rPPG, enabling emotion inference from subtle facial hemodynamics."
+            "title": "The CAS-PEAL Large-Scale Chinese Face Database and Baseline Evaluations",
+            "why": "Highly cited (1006)."
           },
           {
             "title": "Occlusion Aware Facial Expression Recognition Using CNN With Attention Mechanism",
-            "why": "Highly influential (872 citations) early attention-based model addressing real-world robustness—exemplifies his focus on unconstrained, practical affective AI."
+            "why": "Highly cited (872)."
           },
           {
-            "title": "From Static to Dynamic: Adapting Landmark-Aware Image Models for Facial Expression Recognition in Videos",
-            "why": "Key 2024 paper (44 citations) bridging static and dynamic modeling—represents his sustained effort in temporal affective understanding and transfer learning."
+            "title": "Learning Expressionlets on Spatio-temporal Manifold for Dynamic Facial Expression Recognition",
+            "why": "Highly cited (393)."
           },
           {
-            "title": "MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial Expression Recognition in the Wild",
-            "why": "Critical resource (53 citations) enabling in-the-wild, compound, and multimodal affect research—embodies his commitment to realistic, benchmark-driven progress."
+            "title": "RhythmNet: End-to-End Heart Rate Estimation From Face via Spatial-Temporal Representation",
+            "why": "Highly cited (379)."
           },
           {
-            "title": "Multi-View Facial Expressions Analysis of Autistic Children in Social Play",
-            "why": "Exemplifies clinical translation—integrates multi-view sensing, temporal dynamics, and objective assessment for neurodevelopmental disorder applications."
+            "title": "Deeply Learning Deformable Facial Action Parts Model for Dynamic Expression Analysis",
+            "why": "Highly cited (339)."
           },
           {
-            "title": "GPT as Psychologist? Preliminary Evaluations for GPT-4V on Visual Affective Computing",
-            "why": "Signals strategic pivot toward foundation models—explores LMMs for clinical-grade, interpretable, and language-grounded emotion understanding (16 citations)."
+            "title": "Facial Expression Recognition with Inconsistently Annotated Datasets",
+            "why": "Highly cited (330)."
           },
           {
-            "title": "Decoupled Doubly Contrastive Learning for Cross-Domain Facial Action Unit Detection",
-            "why": "Represents cutting-edge direction: disentangled, contrastive, cross-domain AU learning—high citation count (3) among 2025 papers reflects methodological impact."
+            "title": "AU-inspired Deep Networks for Facial Expression Feature Learning",
+            "why": "Highly cited (232)."
+          },
+          {
+            "title": "AU-aware Deep Networks for facial expression recognition",
+            "why": "Highly cited (226)."
           }
         ]
       },
       "stats": {
         "analyzed_works_count": 615,
         "interesting_works_count": 68,
-        "new_works_count": 99,
+        "new_works_count": 2,
         "deduped_works_count": 615,
-        "ai_called_count": 99,
+        "ai_called_count": 2,
         "summary_recomputed": true
       },
       "profile_path": "data/researchers/profiles/A5050297728.json"
@@ -2209,10 +2209,10 @@
       "stats": {
         "analyzed_works_count": 225,
         "interesting_works_count": 60,
-        "new_works_count": 19,
+        "new_works_count": 0,
         "deduped_works_count": 225,
-        "ai_called_count": 19,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5051149140.json"
     },
@@ -2308,10 +2308,10 @@
       "stats": {
         "analyzed_works_count": 223,
         "interesting_works_count": 63,
-        "new_works_count": 3,
+        "new_works_count": 0,
         "deduped_works_count": 223,
-        "ai_called_count": 3,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5066403927.json"
     },
@@ -2407,10 +2407,10 @@
       "stats": {
         "analyzed_works_count": 345,
         "interesting_works_count": 58,
-        "new_works_count": 18,
+        "new_works_count": 0,
         "deduped_works_count": 345,
-        "ai_called_count": 18,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5100378800.json"
     },
@@ -2490,10 +2490,10 @@
       "stats": {
         "analyzed_works_count": 624,
         "interesting_works_count": 5,
-        "new_works_count": 17,
+        "new_works_count": 0,
         "deduped_works_count": 624,
-        "ai_called_count": 17,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5100357376.json"
     },
@@ -2589,10 +2589,10 @@
       "stats": {
         "analyzed_works_count": 295,
         "interesting_works_count": 190,
-        "new_works_count": 10,
+        "new_works_count": 0,
         "deduped_works_count": 295,
-        "ai_called_count": 10,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5029771864.json"
     },
@@ -2621,76 +2621,76 @@
             "weight": 1
           },
           {
-            "name": "Emotion-aware AI",
+            "name": "Emotion recognition",
             "weight": 0.97
           },
           {
-            "name": "Multimodal emotion analysis",
+            "name": "Affective dialogue systems",
             "weight": 0.93
           },
           {
-            "name": "Affective NLP",
-            "weight": 0.89
+            "name": "Multimodal emotion analysis",
+            "weight": 0.91
+          },
+          {
+            "name": "Emotion-aware AI",
+            "weight": 0.88
           },
           {
             "name": "Clinical emotion AI",
             "weight": 0.85
           },
           {
-            "name": "Conversational AI with emotion modeling",
+            "name": "Affective NLP",
             "weight": 0.82
           },
           {
             "name": "Computational empathy",
-            "weight": 0.78
-          },
-          {
-            "name": "Behavioral biomarkers of emotion",
-            "weight": 0.74
+            "weight": 0.79
           }
         ],
-        "trend_summary": "Xiao Sun's research centers on affective computing as a unifying paradigm, with strong emphasis on bridging AI and psychological science—especially through multimodal (facial, gait, speech, text, physiological, financial) signals for real-world emotion inference. A clear longitudinal trend emerges: from early lexical/sentiment analysis in social media (2013–2016), to robust facial/gait expression recognition (2017–2020), then to context-aware, dynamic, and clinically grounded emotion modeling in dialogue and mental health (2021–2023), culminating in 2024–2025 in large-scale longitudinal affective datasets, psychologically-informed pretraining (e.g., UniEmoX), reinforcement learning for empathy alignment, and emotion-aware LLMs (e.g., PsycoLLM). The work increasingly prioritizes clinical validity, real-world robustness (low-resolution, in-the-wild, cross-cultural), and human-centered design—spanning mental health support, turnover prediction, depression screening, and empathetic interaction.",
+        "trend_summary": "Xiao Sun's research centers on affective computing as a unifying paradigm, with strong emphasis on real-world, clinically grounded, and multimodal emotion modeling. Key trends include: (1) shifting from static facial expression recognition toward dynamic, longitudinal, and context-aware emotion modeling in dialogue and behavioral streams; (2) increasing integration of clinical psychology—especially depression, anxiety, and mental health screening—via behavioral biomarkers (gait, gaze, facial dynamics, stock behavior) and clinical NLP; (3) methodological innovation in graph-based, transformer-based, and reinforcement learning–enhanced affective models; and (4) growing focus on human-centered, empathetic, and ethically aware AI systems for mental health support, emotional conversation, and real-time affective interaction.",
         "representative_papers": [
           {
-            "title": "PsycoLLM: Enhancing LLM for Psychological Understanding and Evaluation",
-            "why": "Exemplifies the cutting-edge integration of large language models with clinical psychology—highlighting a major shift toward foundation models grounded in psychological theory and assessment."
+            "title": "WELD: A Large-Scale Longitudinal Dataset of Emotional Dynamics for Ubiquitous Affective Computing",
+            "why": "Introduces the first large-scale longitudinal emotional dynamics dataset, reflecting Xiao Sun’s focus on real-world, time-resolved affective modeling beyond snapshot recognition."
           },
           {
-            "title": "WELD: A Large-Scale Longitudinal Dataset of Emotional Dynamics for Ubiquitous Affective Computing",
-            "why": "Represents the strategic move toward ecologically valid, longitudinal affective data infrastructure—enabling modeling of emotional dynamics over time in real-world settings."
+            "title": "PsycoLLM: Enhancing LLM for Psychological Understanding and Evaluation",
+            "why": "Exemplifies the integration of large language models with clinical psychology—highlighting the direction of emotion-aware LLMs and computational psychiatry."
           },
           {
             "title": "Facial Depression Estimation via Multi-Cue Contrastive Learning",
-            "why": "Embodies the clinical translation focus: using video-based facial cues with contrastive learning to extract depression biomarkers—bridging computer vision and psychiatry."
+            "why": "Bridges clinical emotion AI and multimodal signal processing, using contrastive learning to extract depression-relevant facial biomarkers—core to Xiao Sun’s translational affective computing agenda."
           },
           {
             "title": "Detecting Depression With Heterogeneous Graph Neural Network in Clinical Interview Transcript",
-            "why": "Demonstrates high-impact clinical NLP: leveraging graph neural networks on real clinical transcripts for automated depression detection (27 citations, top-cited paper in corpus)."
+            "why": "Demonstrates high-impact application of graph neural networks to clinical NLP for automated depression detection—showcasing synergy between affective NLP and mental healthcare."
           },
           {
             "title": "Empathy Level Alignment via Reinforcement Learning for Empathetic Response Generation",
-            "why": "Captures the human-centered AI thrust—formalizing and optimizing empathy as a learnable, alignable behavior in dialogue systems using RL."
+            "why": "Represents the convergence of computational empathy, RL-based affective behavior modeling, and human-centered dialogue design."
+          },
+          {
+            "title": "AST-GCN: Augmented Spatial Temporal Graph Convolutional Neural Network for Gait Emotion Recognition",
+            "why": "Illustrates innovative use of nonverbal behavioral signals (gait) with spatiotemporal deep learning—expanding emotion recognition beyond face/speech/text."
           },
           {
             "title": "UniEmoX: Cross-Modal Semantic-Guided Large-Scale Pretraining for Universal Scene Emotion Perception",
-            "why": "Signals the scaling-up of affective AI: building universal, semantically grounded emotion perception across scenes and modalities via massive pretraining."
+            "why": "Signals a strategic move toward foundation models for universal affective perception, integrating psychological priors and cross-modal pretraining."
           },
           {
-            "title": "FacialPulse: An Efficient RNN-based Depression Detection via Temporal Facial Landmarks",
-            "why": "Illustrates innovation in behavioral biomarker extraction—using temporal facial dynamics as non-invasive, quantifiable proxies for clinical states."
-          },
-          {
-            "title": "Machine Learning for Predicting Personality and Psychological Symptoms from Behavioral Dynamics",
-            "why": "Encapsulates the integrative, transdiagnostic vision—linking personality, symptoms, and behavior through AI, enabling non-invasive, continuous mental health monitoring."
+            "title": "BSGM: Psychological State Analysis Method Based on Deep Learning and Stock Market Dynamic Data Augmentation",
+            "why": "Highlights an unconventional yet rigorous extension of affective computing into behavioral/financial data as proxy for latent psychological states—underscoring interdisciplinary innovation."
           }
         ]
       },
       "stats": {
         "analyzed_works_count": 381,
         "interesting_works_count": 104,
-        "new_works_count": 13,
+        "new_works_count": 1,
         "deduped_works_count": 381,
-        "ai_called_count": 13,
+        "ai_called_count": 1,
         "summary_recomputed": true
       },
       "profile_path": "data/researchers/profiles/A5088062069.json"
@@ -2787,10 +2787,10 @@
       "stats": {
         "analyzed_works_count": 127,
         "interesting_works_count": 54,
-        "new_works_count": 20,
+        "new_works_count": 0,
         "deduped_works_count": 127,
-        "ai_called_count": 20,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5101691493.json"
     },
@@ -2839,56 +2839,56 @@
             "weight": 0.86
           },
           {
-            "name": "Emotion-aware AI",
+            "name": "Physiological basis of emotion",
             "weight": 0.83
           },
           {
-            "name": "Physiological basis of emotion",
+            "name": "Cross-cultural emotion expression and judgment",
             "weight": 0.78
           }
         ],
-        "trend_summary": "Xiaolan Fu's research centers on the computational and neuroscientific foundations of human emotion, with a dominant focus on automatic, fine-grained analysis of nonverbal affect—especially micro-expressions—using multimodal signals (facial dynamics, EMG, EEG, MEG, fNIRS). Her work bridges psychology, neuroscience, and AI: she pioneers robust affective signal processing methods (e.g., spatiotemporal CNNs, tensor-based features), builds foundational datasets (CASME series, CFBD, MFED), and investigates how emotion modulates core cognitive processes (memory, attention, time perception, agency, moral judgment). A strong translational thread runs through clinical applications (depression, trauma, deception detection), cross-cultural validation (Chinese vs. Western samples), and human-centered AI design—emphasizing ecological validity, physiological grounding, and psychological interpretability.",
+        "trend_summary": "Xiaolan Fu’s research centers on the computational and neuroscientific foundations of human emotion, with a strong emphasis on nonverbal affect—especially micro-expressions—as objective, quantifiable signals bridging psychology, AI, and clinical applications. Her work integrates multimodal measurement (EMG, ERP, MEG, fNIRS), deep learning for sparse behavioral cues, and cross-cultural validation, increasingly converging toward human-centered affective AI: systems that recognize, interpret, and respond to covert or contextually modulated emotion (e.g., masked faces, moral surprise, pandemic-related agency loss). A unifying thread is translational rigor—building databases (CASME series, CFBD, MFED), benchmarking affective models (e.g., EmotionHallucer), and grounding AI in psychological theory (e.g., agency, moral conscience, time perception under threat).",
         "representative_papers": [
           {
             "title": "CAS(ME)³: A Third Generation Facial Spontaneous Micro-Expression Database with Depth Information and High Ecological Validity",
-            "why": "Flagship dataset paper demonstrating leadership in ecological, multimodal affective data infrastructure—critical for advancing real-world micro-expression AI."
+            "why": "Landmark resource enabling ecological, multimodal micro-expression research; cited 80×, reflects her leadership in standardized affective database construction."
           },
           {
             "title": "MESNet: A Convolutional Neural Network for Spotting Multi-Scale Micro-Expression Intervals in Long Videos",
-            "why": "Highly cited (122) methodological breakthrough in deep learning for micro-expression spotting, reflecting core technical contribution to affective computing."
-          },
-          {
-            "title": "Decoding the temporal representation of facial expression in face-selective regions",
-            "why": "Key neuroimaging paper (15 citations) linking neural dynamics (MEG) to fine-grained emotion processing timelines—bridging neuroscience and computational models."
+            "why": "Highly influential (122 citations) deep learning architecture specifically designed for real-world micro-expression spotting—exemplifies her bridge between computer vision and affective science."
           },
           {
             "title": "Could Micro-Expressions Be Quantified? Electromyography Gives Affirmative Evidence",
-            "why": "Seminal physiological validation (2 citations but high conceptual impact) establishing EMG as objective ground truth for micro-expression intensity—integrating psychophysiology and AI."
+            "why": "Introduces EMG as an objective physiological ground truth for micro-expression intensity—key step toward validating AI models with biological signals (cited 2×, early high-impact signal)."
+          },
+          {
+            "title": "Decoding the temporal representation of facial expression in face-selective regions",
+            "why": "MEG-based study revealing millisecond-scale neural dynamics of emotion decoding—represents her integration of high-temporal-resolution neuroscience with perceptual modeling (cited 15×)."
           },
           {
             "title": "Enhancing Face Perception Research with the Chinese Face and Body Dataset (CFBD)",
-            "why": "Represents commitment to cross-cultural rigor and ecological diversity in affective stimuli, addressing critical bias gaps in global emotion AI."
-          },
-          {
-            "title": "The sense of agency and the attribution of responsibility in human behavior",
-            "why": "Exemplifies expansion into higher-order affective-cognitive constructs (agency, morality), showing theoretical depth beyond basic emotion recognition."
+            "why": "Addresses critical cultural bias in affective datasets; enables cross-cultural validation of emotion perception models—core to her agenda on ecological and cultural validity."
           },
           {
             "title": "EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models",
-            "why": "Cutting-edge work at AI frontier—introduces psychology-informed evaluation for affective hallucination in foundation models, signaling timely pivot toward responsible affective AI."
+            "why": "Pioneering work at the AI–psychology interface—introduces a psychology-informed benchmark for evaluating affective grounding in foundation models (2025, emerging impact)."
           },
           {
-            "title": "CASME II: An Improved Spontaneous Micro-Expression Database and the Baseline Evaluation",
-            "why": "Foundational (930 citations) resource that catalyzed the field; epitomizes her role in establishing standards, reproducibility, and benchmarking in affective computing."
+            "title": "Moral conscience matters on trust violation and its repair strategies in virtual and real-world settings",
+            "why": "Demonstrates expansion into high-stakes socio-affective domains—linking moral emotion, trust repair, and human–AI interaction contexts (2025, conceptually integrative)."
+          },
+          {
+            "title": "The sense of agency and the attribution of responsibility in human behavior",
+            "why": "Foundational theoretical–empirical work connecting affective neuroscience (agency), moral cognition, and real-world decision-making—recurrent theme across her career (2020, highly cited conceptual anchor)."
           }
         ]
       },
       "stats": {
         "analyzed_works_count": 318,
         "interesting_works_count": 149,
-        "new_works_count": 8,
+        "new_works_count": 2,
         "deduped_works_count": 318,
-        "ai_called_count": 8,
+        "ai_called_count": 2,
         "summary_recomputed": true
       },
       "profile_path": "data/researchers/profiles/A5015329251.json"
@@ -2985,10 +2985,10 @@
       "stats": {
         "analyzed_works_count": 659,
         "interesting_works_count": 21,
-        "new_works_count": 24,
+        "new_works_count": 0,
         "deduped_works_count": 659,
-        "ai_called_count": 24,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5100451602.json"
     },
@@ -3080,10 +3080,10 @@
       "stats": {
         "analyzed_works_count": 115,
         "interesting_works_count": 40,
-        "new_works_count": 2,
+        "new_works_count": 0,
         "deduped_works_count": 115,
-        "ai_called_count": 2,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5031911989.json"
     },
@@ -3129,59 +3129,59 @@
           },
           {
             "name": "affective computer vision",
-            "weight": 0.79
+            "weight": 0.77
           },
           {
             "name": "clinical affective disorders",
-            "weight": 0.74
+            "weight": 0.73
           },
           {
             "name": "affective neuroscience",
-            "weight": 0.71
+            "weight": 0.69
           }
         ],
-        "trend_summary": "Yue Gao's research spans a tightly integrated triad of affective science, AI-driven emotion modeling, and clinical/real-world translation. Early work pioneered personalized, multimodal (image, text, physiological) emotion perception—especially probabilistic and distributional modeling—laying foundations for human-centered affective AI. Recent work shows strong convergence toward robust, open-world affect recognition (e.g., wild facial expression, pig aggression), neurobiological mechanisms in mood/sleep disorders, and culturally grounded clinical interventions (e.g., loneliness in aging, social anxiety in students). A consistent thread is methodological innovation—hypergraph learning, bi-attention transformers, graph neural networks for biosignals—and translational rigor across domains: healthcare, agriculture, social platforms, and media.",
+        "trend_summary": "Yue Gao's research bridges foundational affective science with cutting-edge AI, evolving from early work on image/song emotion recognition (2009–2016) toward increasingly sophisticated, multimodal, and context-aware systems — especially personalized, robust, and open-world affect recognition. A strong longitudinal thread integrates psychophysiological signals, graph-based learning (hypergraphs), and cross-modal fusion. Recent work expands into clinical translation (anxiety, depression, insomnia), aging populations, organizational affect dynamics, and non-human affect (e.g., livestock welfare), reflecting a convergent trajectory: human-centered, ethically grounded, and computationally rigorous affective intelligence.",
         "representative_papers": [
           {
             "title": "Personalized Emotion Recognition by Personality-Aware High-Order Learning of Physiological Signals",
-            "why": "Most highly cited (78) among core affective computing papers; establishes signature integration of personality, physiology, and high-order graph learning for personalization."
+            "why": "Highest-cited paper (78 citations); establishes core paradigm of personality-aware, physiology-based personalization — foundational for later work in robust and adaptive affective AI."
           },
           {
             "title": "Continuous Probability Distribution Prediction of Image Emotions via Multitask Shared Sparse Regression",
-            "why": "Foundational high-impact paper (191 citations); introduced continuous, distributional, and multitask frameworks for subjective emotion modeling in vision."
+            "why": "Most highly cited (191 citations); pioneered continuous, distributional, and subjective emotion modeling in vision — defining contribution to affective computer vision."
           },
           {
-            "title": "Recognition of aggressive behavior of group-housed pigs based on CNN-GRU hybrid model with spatio-temporal attention mechanism",
-            "why": "Exemplifies applied, real-world affective computing beyond humans (50 citations); bridges AI robustness, animal welfare, and spatio-temporal dynamics."
+            "title": "Predicting Personalized Image Emotion Perceptions in Social Networks",
+            "why": "Highly influential (168 citations); early integration of social context + personalization in affective computing, foreshadowing current human-centered AI focus."
           },
           {
             "title": "The differential orbitofrontal activity and connectivity between atypical and typical major depressive disorder",
-            "why": "Key clinical neuroscience contribution (4 citations but high conceptual weight); links neural circuitry to affective heterogeneity in depression."
+            "why": "Key clinical neuroscience contribution (4 citations but high conceptual weight); bridges computational affective models with neurobiological validation in mood disorders."
           },
           {
-            "title": "A STUDY ON THE ALLEVIATION OF SOCIAL ANXIETY IN COLLEGE STUDENTS THROUGH DAILY LANGUAGE TRAINING",
-            "why": "Represents emerging translational direction: evidence-based, low-resource emotion-focused intervention grounded in affective science."
+            "title": "Recognition of aggressive behavior of group-housed pigs based on CNN-GRU hybrid model with spatio-temporal attention mechanism",
+            "why": "Most cited paper (50 citations); exemplifies domain expansion into non-human affect and real-world AI deployment for welfare — highlights methodological rigor in wild-condition affect recognition."
           },
           {
-            "title": "Variance-Aware Bi-Attention Expression Transformer for Open-Set Facial Expression Recognition in the Wild",
-            "why": "State-of-the-art architecture for real-world affect recognition (3 citations, but methodologically seminal); addresses open-set and variance challenges central to deployment."
-          },
-          {
-            "title": "Predicting Microblog Sentiments via Weakly Supervised Multimodal Deep Learning",
-            "why": "Landmark in social media affect (85 citations); early scalable, noise-robust multimodal framework bridging NLP, vision, and weak supervision."
+            "title": "A whirlpool of emotion: How entrepreneurs’ empathy affects employees‘ emotional exhaustion",
+            "why": "Represents cross-disciplinary reach into organizational affect science; demonstrates integration of interpersonal emotion transmission theory with empirical modeling."
           },
           {
             "title": "Exploring the mechanism of action of huoermai essential oil for plateau insomnia based on the camp/CREB/BDNF/gabaergic pathway",
-            "why": "Highlights interdisciplinary translational reach—integrating ethnopharmacology, neurobiology, and emotion-related sleep pathology."
+            "why": "Signals translational ethnopharmacology direction — unique integration of traditional medicine, neurobiological pathways, and emotion-related sleep disorders."
+          },
+          {
+            "title": "Variance-Aware Bi-Attention Expression Transformer for Open-Set Facial Expression Recognition in the Wild",
+            "why": "Latest methodological advance (2023); embodies current focus on robustness, generalizability, and transformer-based architectures for unconstrained affect recognition."
           }
         ]
       },
       "stats": {
         "analyzed_works_count": 539,
         "interesting_works_count": 32,
-        "new_works_count": 35,
+        "new_works_count": 2,
         "deduped_works_count": 539,
-        "ai_called_count": 35,
+        "ai_called_count": 2,
         "summary_recomputed": true
       },
       "profile_path": "data/researchers/profiles/A5100602494.json"
@@ -3278,10 +3278,10 @@
       "stats": {
         "analyzed_works_count": 136,
         "interesting_works_count": 76,
-        "new_works_count": 4,
+        "new_works_count": 0,
         "deduped_works_count": 136,
-        "ai_called_count": 4,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5001973434.json"
     }

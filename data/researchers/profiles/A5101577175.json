@@ -27,72 +27,72 @@
         "weight": 0.97
       },
       {
-        "name": "Affective human–animal/robot/computer interaction",
+        "name": "Affective human–animal/robot–human interaction",
         "weight": 0.93
       },
       {
-        "name": "Emotion-aware recommender and personalization systems",
-        "weight": 0.89
-      },
-      {
-        "name": "Physiological-signal-informed affective computing",
-        "weight": 0.85
+        "name": "Emotion-sensitive multimedia systems (real-time, context-aware)",
+        "weight": 0.91
       },
       {
         "name": "Therapeutic and wellness-oriented affective co-creation",
-        "weight": 0.81
+        "weight": 0.88
       },
       {
-        "name": "Culture- and context-aware affective modeling",
-        "weight": 0.76
+        "name": "Cross-modal affective modeling (music–vision–physiology–language)",
+        "weight": 0.85
+      },
+      {
+        "name": "Affective recommender systems (mood-, context-, culture-aware)",
+        "weight": 0.82
       },
       {
         "name": "Psychology-informed HCI for emotional well-being",
-        "weight": 0.72
+        "weight": 0.79
       }
     ],
-    "trend_summary": "Kejun Zhang's research centers on affective computing with strong emphasis on multimodal emotion sensing, modeling, and generation—especially at the intersection of music, video, physiology (e.g., EDA, EEG), and behavior. A clear longitudinal trend emerges: from early foundational work in music emotion recognition and physiological signal fusion (2007–2019), to increasingly applied, human-centered systems—particularly involving pets, therapy, wearables, and real-time interactive media (2022–2025). Generative AI (diffusion models, LLMs, cross-modal alignment) is now tightly coupled with affective intent, prioritizing emotional resonance, cultural nuance, soft transitions, and therapeutic outcomes—not just accuracy. The work bridges technical AI/ML rigor with psychological, clinical, and design principles.",
+    "trend_summary": "Kejun Zhang's research centers on affective computing with strong emphasis on multimodal emotion sensing, modeling, and generative application—especially at the intersection of music, video, physiology (e.g., EDA, EEG), and expressive language. A defining trend is the shift from passive emotion recognition toward active, real-time, context- and relationship-aware affective synthesis: e.g., AI-assisted human-pet musical co-creation, emotion-conditioned video-to-music generation, and wearables-powered pet communication. There is consistent attention to applied domains—wellness therapy, retail robotics, creative tools—and deep integration of psychological principles (e.g., emotional flow, synesthesia, memory resonance) into system design. Recent work increasingly unifies LLMs, diffusion models, and physiological signals within human-centered, cross-species, and therapeutic frameworks.",
     "representative_papers": [
       {
         "title": "A Multimodal Framework for Large-Scale Emotion Recognition by Fusing Music and Electrodermal Activity Signals",
-        "why": "Highly cited foundational paper (41 citations) establishing core methodology for physiological + audio affect fusion; anchors the multimodal analysis direction."
+        "why": "Highly cited foundational work demonstrating early integration of physiological and audio modalities for robust emotion modeling—core to Zhang's multimodal affect paradigm."
       },
       {
         "title": "Diff-V2M: A Hierarchical Conditional Diffusion Model with Explicit Rhythmic Modeling for Video-to-Music Generation",
-        "why": "Latest flagship generative work (2025), exemplifying cutting-edge integration of diffusion modeling, rhythmic affect control, and audiovisual alignment."
+        "why": "Represents cutting-edge direction: state-of-the-art generative modeling explicitly embedding rhythmic and affective alignment between visual and auditory modalities."
       },
       {
         "title": "PetChat: An Emotion-Aware Pet Communication System Powered by LLMs and Wearable Devices",
-        "why": "Embodies the convergence of affective HCI, wearable sensing, LLM-based response generation, and human-animal interaction—a signature applied direction."
+        "why": "Exemplifies novel human-animal affective interaction paradigm, combining wearables, LLMs, and real-time emotion inference—expanding affective computing beyond human-centric boundaries."
       },
       {
         "title": "AI-Assisted Human-Pet Artistic Musical Co-Creation for Wellness Therapy",
-        "why": "Synthesizes therapeutic goals, co-creation paradigms, emotion-aware music generation, and wellness evaluation—core to the wellness-oriented affective co-creation theme."
+        "why": "Bridges therapeutic application, interspecies affect, and generative music—highlighting Zhang’s focus on emotionally grounded, participatory wellness technologies."
       },
       {
         "title": "REMAST: Real-Time Emotion-Based Music Arrangement With Soft Transition",
-        "why": "Demonstrates mature real-time affective system design with smooth adaptation—key for interactive multimedia and user experience."
-      },
-      {
-        "title": "Consumer shopping emotion and interest database: a unique database with a multimodal emotion recognition method for retail service robots to infer consumer shopping intentions better than humans",
-        "why": "Landmark applied work bridging affective robotics, multimodal inference, and real-world service contexts—high impact (8 citations) and domain-translational."
-      },
-      {
-        "title": "The PMEmo Dataset for Music Emotion Recognition",
-        "why": "Seminal resource (89 citations) enabling reproducible affective MIR research; reflects long-standing commitment to dataset curation and benchmarking."
+        "why": "Key representative of real-time, adaptive affective multimedia systems—emphasizing smooth emotional continuity in interactive soundscapes."
       },
       {
         "title": "SoundScape: A Human-AI Co-Creation System Making Your Memories Heard",
-        "why": "Exemplifies psychology-informed, memory-augmented affective expression—integrating narrative, emotion, sound design, and HCI theory."
+        "why": "Embodies psychology-informed, memory-augmented affective expression—integrating narrative, emotion, and sonic design for personal meaning-making."
+      },
+      {
+        "title": "Consumer shopping emotion and interest database: a unique database with a multimodal emotion recognition method for retail service robots to infer consumer shopping intentions better than humans",
+        "why": "Landmark applied work showing real-world impact: multimodal affect inference enabling robots to outperform humans in intention prediction—bridging lab research and service AI."
+      },
+      {
+        "title": "The PMEmo Dataset for Music Emotion Recognition",
+        "why": "Foundational resource paper with highest citation count; enabled reproducible, physiology-grounded music emotion research—cornerstone of Zhang’s long-term affective MIR agenda."
       }
     ]
   },
   "stats": {
     "analyzed_works_count": 163,
     "interesting_works_count": 35,
-    "new_works_count": 9,
+    "new_works_count": 2,
     "deduped_works_count": 163,
-    "ai_called_count": 9,
+    "ai_called_count": 2,
     "summary_recomputed": true
   },
   "works": [

@@ -23,76 +23,76 @@
         "weight": 1
       },
       {
-        "name": "Emotion-aware AI",
+        "name": "Emotion recognition",
         "weight": 0.97
       },
       {
-        "name": "Multimodal emotion analysis",
+        "name": "Affective dialogue systems",
         "weight": 0.93
       },
       {
-        "name": "Affective NLP",
-        "weight": 0.89
+        "name": "Multimodal emotion analysis",
+        "weight": 0.91
+      },
+      {
+        "name": "Emotion-aware AI",
+        "weight": 0.88
       },
       {
         "name": "Clinical emotion AI",
         "weight": 0.85
       },
       {
-        "name": "Conversational AI with emotion modeling",
+        "name": "Affective NLP",
         "weight": 0.82
       },
       {
         "name": "Computational empathy",
-        "weight": 0.78
-      },
-      {
-        "name": "Behavioral biomarkers of emotion",
-        "weight": 0.74
+        "weight": 0.79
       }
     ],
-    "trend_summary": "Xiao Sun's research centers on affective computing as a unifying paradigm, with strong emphasis on bridging AI and psychological science—especially through multimodal (facial, gait, speech, text, physiological, financial) signals for real-world emotion inference. A clear longitudinal trend emerges: from early lexical/sentiment analysis in social media (2013–2016), to robust facial/gait expression recognition (2017–2020), then to context-aware, dynamic, and clinically grounded emotion modeling in dialogue and mental health (2021–2023), culminating in 2024–2025 in large-scale longitudinal affective datasets, psychologically-informed pretraining (e.g., UniEmoX), reinforcement learning for empathy alignment, and emotion-aware LLMs (e.g., PsycoLLM). The work increasingly prioritizes clinical validity, real-world robustness (low-resolution, in-the-wild, cross-cultural), and human-centered design—spanning mental health support, turnover prediction, depression screening, and empathetic interaction.",
+    "trend_summary": "Xiao Sun's research centers on affective computing as a unifying paradigm, with strong emphasis on real-world, clinically grounded, and multimodal emotion modeling. Key trends include: (1) shifting from static facial expression recognition toward dynamic, longitudinal, and context-aware emotion modeling in dialogue and behavioral streams; (2) increasing integration of clinical psychology—especially depression, anxiety, and mental health screening—via behavioral biomarkers (gait, gaze, facial dynamics, stock behavior) and clinical NLP; (3) methodological innovation in graph-based, transformer-based, and reinforcement learning–enhanced affective models; and (4) growing focus on human-centered, empathetic, and ethically aware AI systems for mental health support, emotional conversation, and real-time affective interaction.",
     "representative_papers": [
       {
-        "title": "PsycoLLM: Enhancing LLM for Psychological Understanding and Evaluation",
-        "why": "Exemplifies the cutting-edge integration of large language models with clinical psychology—highlighting a major shift toward foundation models grounded in psychological theory and assessment."
+        "title": "WELD: A Large-Scale Longitudinal Dataset of Emotional Dynamics for Ubiquitous Affective Computing",
+        "why": "Introduces the first large-scale longitudinal emotional dynamics dataset, reflecting Xiao Sun’s focus on real-world, time-resolved affective modeling beyond snapshot recognition."
       },
       {
-        "title": "WELD: A Large-Scale Longitudinal Dataset of Emotional Dynamics for Ubiquitous Affective Computing",
-        "why": "Represents the strategic move toward ecologically valid, longitudinal affective data infrastructure—enabling modeling of emotional dynamics over time in real-world settings."
+        "title": "PsycoLLM: Enhancing LLM for Psychological Understanding and Evaluation",
+        "why": "Exemplifies the integration of large language models with clinical psychology—highlighting the direction of emotion-aware LLMs and computational psychiatry."
       },
       {
         "title": "Facial Depression Estimation via Multi-Cue Contrastive Learning",
-        "why": "Embodies the clinical translation focus: using video-based facial cues with contrastive learning to extract depression biomarkers—bridging computer vision and psychiatry."
+        "why": "Bridges clinical emotion AI and multimodal signal processing, using contrastive learning to extract depression-relevant facial biomarkers—core to Xiao Sun’s translational affective computing agenda."
       },
       {
         "title": "Detecting Depression With Heterogeneous Graph Neural Network in Clinical Interview Transcript",
-        "why": "Demonstrates high-impact clinical NLP: leveraging graph neural networks on real clinical transcripts for automated depression detection (27 citations, top-cited paper in corpus)."
+        "why": "Demonstrates high-impact application of graph neural networks to clinical NLP for automated depression detection—showcasing synergy between affective NLP and mental healthcare."
       },
       {
         "title": "Empathy Level Alignment via Reinforcement Learning for Empathetic Response Generation",
-        "why": "Captures the human-centered AI thrust—formalizing and optimizing empathy as a learnable, alignable behavior in dialogue systems using RL."
+        "why": "Represents the convergence of computational empathy, RL-based affective behavior modeling, and human-centered dialogue design."
+      },
+      {
+        "title": "AST-GCN: Augmented Spatial Temporal Graph Convolutional Neural Network for Gait Emotion Recognition",
+        "why": "Illustrates innovative use of nonverbal behavioral signals (gait) with spatiotemporal deep learning—expanding emotion recognition beyond face/speech/text."
       },
       {
         "title": "UniEmoX: Cross-Modal Semantic-Guided Large-Scale Pretraining for Universal Scene Emotion Perception",
-        "why": "Signals the scaling-up of affective AI: building universal, semantically grounded emotion perception across scenes and modalities via massive pretraining."
+        "why": "Signals a strategic move toward foundation models for universal affective perception, integrating psychological priors and cross-modal pretraining."
       },
       {
-        "title": "FacialPulse: An Efficient RNN-based Depression Detection via Temporal Facial Landmarks",
-        "why": "Illustrates innovation in behavioral biomarker extraction—using temporal facial dynamics as non-invasive, quantifiable proxies for clinical states."
-      },
-      {
-        "title": "Machine Learning for Predicting Personality and Psychological Symptoms from Behavioral Dynamics",
-        "why": "Encapsulates the integrative, transdiagnostic vision—linking personality, symptoms, and behavior through AI, enabling non-invasive, continuous mental health monitoring."
+        "title": "BSGM: Psychological State Analysis Method Based on Deep Learning and Stock Market Dynamic Data Augmentation",
+        "why": "Highlights an unconventional yet rigorous extension of affective computing into behavioral/financial data as proxy for latent psychological states—underscoring interdisciplinary innovation."
       }
     ]
   },
   "stats": {
     "analyzed_works_count": 381,
     "interesting_works_count": 104,
-    "new_works_count": 13,
+    "new_works_count": 1,
     "deduped_works_count": 381,
-    "ai_called_count": 13,
+    "ai_called_count": 1,
     "summary_recomputed": true
   },
   "works": [

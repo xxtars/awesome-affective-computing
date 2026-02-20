@@ -7980,5 +7980,54 @@
         "cross-cultural studies on emotion and source monitoring"
       ]
     }
+  },
+  "ca4dac8a67fb002889249da7ff905239f6fbbf538da37f6167cd079b3b587426": {
+    "paper_id": "https://openalex.org/W4213171930",
+    "title": "Issue Information",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T21:15:50.998Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "Paper title and concepts are generic and unrelated to emotion; abstract is empty and no emotional or affective terms appear in metadata.",
+      "evidence": [
+        "Concepts: Citation, Computer science, Information retrieval, World Wide Web"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "794f34e3b102152479a75e8be02e97a33a21b89eb8c644ec9df7a7523ca4e0d9": {
+    "paper_id": "https://openalex.org/W4247359781",
+    "title": "Author response for \"Psychological model of representation, generation, and adjustion of belief for artificial general intelligence\"",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "updated_at": "2026-02-20T21:15:54.319Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper's title explicitly references a 'Psychological model' involving belief representation and adjustment in the context of artificial general intelligence, and the researcher's stated interest is 'emotion'. While 'emotion' is not directly mentioned in the title or metadata, psychological models of belief dynamics often intersect with affective science—especially in AGI contexts where emotion-informed cognition, motivation, and value alignment are active research areas. The inclusion of 'Psychology' and 'Cognitive science' as core concepts further supports plausible affective relevance.",
+      "evidence": [
+        "Title contains 'Psychological model'",
+        "Concepts include 'Psychology' and 'Cognitive science'",
+        "Researcher's interest topic is 'emotion'"
+      ],
+      "keywords": [
+        "psychological model",
+        "belief representation",
+        "artificial general intelligence",
+        "cognitive modeling",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective AI",
+        "Cognitive-affective architectures for AGI",
+        "Emotion-informed belief revision",
+        "Psychologically grounded AI systems"
+      ]
+    }
   }
 }

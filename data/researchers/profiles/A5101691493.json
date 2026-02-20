@@ -90,10 +90,10 @@
   "stats": {
     "analyzed_works_count": 127,
     "interesting_works_count": 54,
-    "new_works_count": 20,
+    "new_works_count": 0,
     "deduped_works_count": 127,
-    "ai_called_count": 20,
-    "summary_recomputed": true
+    "ai_called_count": 0,
+    "summary_recomputed": false
   },
   "works": [
     {

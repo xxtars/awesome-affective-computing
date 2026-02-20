@@ -8588,5 +8588,23 @@
         "Controllable text generation with affective constraints"
       ]
     }
+  },
+  "f2aa8ce2637ec0f2dbbbfad8f28ddb38f35735ae3121fd8abb616b3ae5be5468": {
+    "paper_id": "https://openalex.org/W2953258117",
+    "title": "Compositional Human Pose Regression",
+    "researcher_name": "Xiao Sun",
+    "researcher_openalex_author_id": "A5088062069",
+    "updated_at": "2026-02-20T21:15:20.640Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on human pose regression using structural modeling and has no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are computer vision/AI-focused (e.g., 'Pose', 'Regression', 'Artificial intelligence')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

@@ -23388,5 +23388,149 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "2ce05d0e4e354a06950b1d1acb8f9731b640f08c45607162a85dc899ec172165": {
+    "paper_id": "https://openalex.org/W4391926754",
+    "title": "Author Response: Body size as a metric for the affordable world",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T21:13:15.662Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on embodied cognition, affordance perception, and body-size-based metrics—not affective or emotion-related processes.",
+      "evidence": [
+        "Concepts: Metric (unit), Geography, Business, Marketing; no emotion-related concepts or terminology in title, abstract, or concepts"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b381a55a69ba923437796ea6e152193daf4c28c7383a7407dfda836545c0e159": {
+    "paper_id": "https://openalex.org/W4393252954",
+    "title": "A stochastic world model on gravity for stability inference",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T21:13:15.772Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper investigates a stochastic world model of gravity for stability inference in physical reasoning; no mention of emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract focus exclusively on gravity, stability, mental simulation, and reinforcement learning in physical cognition."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3fef3539f3d8579476641df9a29b544c5a44629929d5f0f2cfcc7008dc58e411": {
+    "paper_id": "https://openalex.org/W4387096218",
+    "title": "Author Response: A stochastic world model on gravity for stability inference",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T21:13:15.884Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cognitive modeling of physical intuition (gravity, stability inference) and does not address emotion, affective processes, or related psychological constructs.",
+      "evidence": [
+        "Interest topics are 'emotion'; paper concepts include 'Inference', 'Stability', 'Gravity model', 'Reinforcement learning' — all non-affective"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "41434a993f04875b511e46a98c8a9ef7e6d9e56734e28d0fa14363b70d4a853b": {
+    "paper_id": "https://openalex.org/W4237250303",
+    "title": "Downregulation of S100 Calcium Binding Protein A12 inhibits the growth of glioma cells",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T21:13:15.945Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a molecular oncology study focused on S100A12's role in glioma cell proliferation and apoptosis; no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Abstract contains no mention of emotion, affect, mood, behavior, cognition, or related psychological or neuroaffective terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "83a89aa680968b1c8e7f8a41b671e4743fc87fd0509351d8cfe945e61bdbc075": {
+    "paper_id": "https://openalex.org/W2748270960",
+    "title": "病-棘紅細胞増加症の線条体神経生化学的研究【JST・京大機械翻訳】",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T21:13:15.948Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on neurochemical research of a rare neurological disorder (bassen-kornzweig syndrome/abetalipoproteinemia with acanthocytosis), unrelated to emotion or affective science.",
+      "evidence": [
+        "Title mentions 'striatal neurochemistry' and 'acanthocytosis', clinical/neurological domain"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "92c94af3ac7b5cfbe806b5c8b9a932245b6a6c4a4d9ce0922e280c03cd6d248a": {
+    "paper_id": "https://openalex.org/W4414203249",
+    "title": "Spatially Periodic Computation in the Entorhinal-Hippocampal Circuit During Navigation",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T21:13:15.960Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on spatial navigation, grid cell periodicity, and cognitive mapping in the entorhinal-hippocampal circuit, with no mention of emotion, affective processing, or related constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, valence, arousal, mood, or psychological states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "25084fa370c0b29dd3e0254a641ccd882d2487a66df2249283a46e03c347a095": {
+    "paper_id": "https://openalex.org/W4205324011",
+    "title": "Real-world size of objects serves as an axis of object space",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T21:13:16.098Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on object representation in computational models and human vision, specifically real-world size as a structural axis in object space; no mention of emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain no emotion-related terms or mechanisms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "21e5a4a354e8a5895709a7360e89c219a22510158c27d794f5ca486a1c0d0011": {
+    "paper_id": "https://openalex.org/W4391926493",
+    "title": "Body size as a metric for the affordable world",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "updated_at": "2026-02-20T21:13:16.114Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on embodied cognition, affordances, and body size as a perceptual boundary for action possibilities—not affective or emotion-related processes.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper's concepts and abstract center on metric, embodiment, affordances, and fMRI-based perception—not emotion generation, regulation, valence, arousal, or affective neuroscience."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

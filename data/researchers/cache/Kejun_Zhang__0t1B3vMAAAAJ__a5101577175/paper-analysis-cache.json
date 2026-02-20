@@ -3701,5 +3701,41 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "3e39e8e4a95c9ed88e300572c321c5e6f79960ca5d142bc4099026ba52377dc8": {
+    "paper_id": "https://openalex.org/W3084981468",
+    "title": "Real-Time Sign Language Recognition Based on Video Stream",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T21:13:51.600Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on real-time sign language recognition using computer vision and deep learning; no mention of emotion detection, affective computing, or emotional content in sign language.",
+      "evidence": [
+        "Abstract and concepts emphasize RGB video, optical flow, 3D-CNN, and sign language recognition—no emotion-related terms or affective modeling."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0053fd2ac3b109d3a640a22f9040c779b418d47c863e1e46b586c1917043683d": {
+    "paper_id": "https://openalex.org/W4291286952",
+    "title": "S3T: Self-Supervised Pre-training with Swin Transformer for Music Classification",
+    "researcher_name": "Kejun Zhang",
+    "researcher_openalex_author_id": "A5101577175",
+    "updated_at": "2026-02-20T21:13:51.854Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on self-supervised pre-training for music classification using Swin Transformer; no mention of emotion modeling, affective computing, or emotional content in music.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; concepts include 'Transformer', 'Machine learning', 'Music classification', but not 'emotion', 'affective', 'mood', or 'sentiment'."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }
