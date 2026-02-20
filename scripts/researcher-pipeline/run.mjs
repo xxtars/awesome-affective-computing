@@ -4,6 +4,7 @@ import crypto from "node:crypto";
 
 const OPENALEX_BASE_URL = "https://api.openalex.org";
 const CROSSREF_BASE_URL = "https://api.crossref.org";
+const ORCID_BASE_URL = "https://pub.orcid.org/v3.0";
 const DEFAULT_QWEN_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1";
 const NOMINATIM_BASE_URL = "https://nominatim.openstreetmap.org";
 const DEFAULT_INTEREST_TOPICS = ["emotion"];
@@ -53,6 +54,23 @@ function normalizeAuthorId(rawId) {
     return id.toUpperCase();
   }
   return clean.toUpperCase().startsWith("A") ? clean.toUpperCase() : `A${clean}`;
+}
+
+function normalizeOrcid(rawOrcid) {
+  const raw = String(rawOrcid || "").trim();
+  if (!raw) return "";
+  const idMatch =
+    raw.match(/(\d{4}-\d{4}-\d{4}-[\dX]{4})/i)?.[1] ||
+    raw.match(/(\d{15}[\dX])/i)?.[1];
+  if (!idMatch) return "";
+  const compact = idMatch.replace(/-/g, "").toUpperCase();
+  if (compact.length !== 16) return "";
+  const withDash = `${compact.slice(0, 4)}-${compact.slice(4, 8)}-${compact.slice(8, 12)}-${compact.slice(12)}`;
+  return `https://orcid.org/${withDash}`;
+}
+
+function normalizeOrcidKey(orcid) {
+  return normalizeOrcid(orcid).replace(/^https?:\/\/orcid\.org\//i, "").toUpperCase();
 }
 
 function invertedIndexToText(indexObj) {
@@ -107,6 +125,20 @@ async function fetchJson(url) {
   if (!res.ok) {
     const text = await res.text();
     throw new Error(`HTTP ${res.status} ${res.statusText}: ${text}`);
+  }
+  return res.json();
+}
+
+async function fetchOrcidJson(url) {
+  const res = await fetch(url, {
+    headers: {
+      "User-Agent": "awesome-affective-computing-researcher-pipeline/1.0",
+      Accept: "application/json",
+    },
+  });
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`ORCID HTTP ${res.status} ${res.statusText}: ${text}`);
   }
   return res.json();
 }
@@ -203,6 +235,44 @@ async function resolveInstitutionCountryName({
 async function fetchAuthorProfile(authorId) {
   const url = `${OPENALEX_BASE_URL}/authors/${authorId}`;
   return fetchJson(url);
+}
+
+function pickOrcidAffiliationFromRecord(record) {
+  const groups = [];
+  const activities = record?.["activities-summary"] || {};
+  const employments = activities?.employments?.["affiliation-group"] || [];
+  const educations = activities?.educations?.["affiliation-group"] || [];
+  groups.push(...(Array.isArray(employments) ? employments : []));
+  groups.push(...(Array.isArray(educations) ? educations : []));
+
+  for (const group of groups) {
+    const summaries = Array.isArray(group?.summaries) ? group.summaries : [];
+    for (const summary of summaries) {
+      const payload =
+        summary?.["employment-summary"] ||
+        summary?.["education-summary"] ||
+        summary?.["affiliation-summary"] ||
+        null;
+      const org = payload?.organization || {};
+      const institution = String(org?.name || "").trim();
+      const countryCode = String(org?.address?.country || "").trim();
+      if (!institution) continue;
+      return {
+        institution,
+        country: normalizeCountryNameToEnglish(countryCode) || countryNameFromCode(countryCode) || null,
+      };
+    }
+  }
+  return { institution: null, country: null };
+}
+
+async function fetchOrcidAffiliation(orcid) {
+  const normalized = normalizeOrcid(orcid);
+  if (!normalized) return { institution: null, country: null };
+  const key = normalizeOrcidKey(normalized);
+  if (!key) return { institution: null, country: null };
+  const record = await fetchOrcidJson(`${ORCID_BASE_URL}/${key}/record`);
+  return pickOrcidAffiliationFromRecord(record);
 }
 
 function normalizeDoi(doiValue) {
@@ -818,6 +888,7 @@ async function analyzePaper({ researcher, work, args, cache, qwenConfig }) {
       title: work.title,
       researcher_name: researcher.name,
       researcher_openalex_author_id: normalizeAuthorId(researcher.openalex_author_id),
+      researcher_orcid: normalizeOrcid(researcher.orcid) || null,
       updated_at: new Date().toISOString(),
       analysis: skipped,
     };
@@ -844,6 +915,7 @@ async function analyzePaper({ researcher, work, args, cache, qwenConfig }) {
         title: work.title,
         researcher_name: researcher.name,
         researcher_openalex_author_id: normalizeAuthorId(researcher.openalex_author_id),
+        researcher_orcid: normalizeOrcid(researcher.orcid) || null,
         updated_at: new Date().toISOString(),
         analysis: normalized,
       };
@@ -935,6 +1007,11 @@ async function run() {
 
     console.log(`Fetching OpenAlex author: ${authorId}`);
     const authorProfile = await fetchAuthorProfile(authorId);
+    const effectiveOrcid = normalizeOrcid(researcher.orcid) || normalizeOrcid(authorProfile.orcid) || null;
+    const runtimeResearcher = {
+      ...researcher,
+      orcid: effectiveOrcid,
+    };
 
     console.log(`Fetching works for ${researcher.name} (${args.fullRefresh ? "full" : "incremental"})`);
     const newWorks = await fetchAuthorWorks(authorId, {
@@ -970,7 +1047,7 @@ async function run() {
         const work = newWorks[i];
 
         const { analysis, fromCache } = await analyzePaper({
-          researcher,
+          researcher: runtimeResearcher,
           work,
           args,
           cache,
@@ -1061,12 +1138,9 @@ async function run() {
     }
 
     const nextResearcherProfile = {
-      // Affiliation priority:
-      // 1) if google_scholar exists, use seed affiliation first
-      // 2) otherwise fallback to OpenAlex first institution
-      // This is heuristic and may be stale or incorrect.
       identity: {
         name: researcher.name,
+        orcid: effectiveOrcid,
         google_scholar: researcher.google_scholar,
         openalex_author_id: authorId,
         openalex_author_url: `https://openalex.org/${authorId}`,
@@ -1074,10 +1148,7 @@ async function run() {
       affiliation: {
         last_known_institution: null,
         last_known_country: null,
-        source:
-          researcher.google_scholar && researcher.affiliation
-            ? "seed_google_scholar"
-            : "openalex_first_institution",
+        source: "orcid_preferred_openalex_fallback",
       },
       metrics: {
         works_count: authorProfile.works_count || 0,
@@ -1096,17 +1167,26 @@ async function run() {
       },
       works: dedupedMergedWorks,
     };
+    let orcidAffiliation = { institution: null, country: null };
+    try {
+      orcidAffiliation = await fetchOrcidAffiliation(effectiveOrcid);
+    } catch {
+      orcidAffiliation = { institution: null, country: null };
+    }
     const selectedInstitution =
-      (researcher.google_scholar && researcher.affiliation) ||
+      orcidAffiliation.institution ||
       authorProfile.last_known_institutions?.[0]?.display_name ||
       null;
-    const countryFromInstitution = await resolveInstitutionCountryName({
-      institutionName: selectedInstitution,
-      institutionCountryCache,
-      institutionCountryCachePath,
-    });
+    const countryFromInstitution = selectedInstitution
+      ? await resolveInstitutionCountryName({
+          institutionName: selectedInstitution,
+          institutionCountryCache,
+          institutionCountryCachePath,
+        })
+      : null;
     nextResearcherProfile.affiliation.last_known_institution = selectedInstitution;
     nextResearcherProfile.affiliation.last_known_country =
+      normalizeCountryNameToEnglish(orcidAffiliation.country) ||
       normalizeCountryNameToEnglish(countryFromInstitution) ||
       countryNameFromCode(authorProfile.last_known_institutions?.[0]?.country_code) ||
       null;

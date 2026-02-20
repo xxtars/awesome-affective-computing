@@ -9,8 +9,8 @@ function parseArgs(argv) {
     name: "",
     googleScholar: "",
     openalexAuthorId: "",
+    orcid: "",
     removeAuthorId: "",
-    affiliation: "",
   };
   for (let i = 0; i < argv.length; i += 1) {
     const token = argv[i];
@@ -20,8 +20,8 @@ function parseArgs(argv) {
     else if (token === "--name") args.name = argv[++i] || "";
     else if (token === "--google-scholar") args.googleScholar = argv[++i] || "";
     else if (token === "--openalex-author-id") args.openalexAuthorId = argv[++i] || "";
+    else if (token === "--orcid") args.orcid = argv[++i] || "";
     else if (token === "--remove-author-id") args.removeAuthorId = argv[++i] || "";
-    else if (token === "--affiliation") args.affiliation = argv[++i] || "";
   }
   return args;
 }
@@ -36,6 +36,19 @@ function normalizeAuthorId(input) {
 function normalizeScholar(value) {
   const raw = String(value || "").trim();
   return raw || null;
+}
+
+function normalizeOrcid(rawOrcid) {
+  const raw = String(rawOrcid || "").trim();
+  if (!raw) return null;
+  const idMatch =
+    raw.match(/(\d{4}-\d{4}-\d{4}-[\dX]{4})/i)?.[1] ||
+    raw.match(/(\d{15}[\dX])/i)?.[1];
+  if (!idMatch) return null;
+  const compact = idMatch.replace(/-/g, "").toUpperCase();
+  if (compact.length !== 16) return null;
+  const withDash = `${compact.slice(0, 4)}-${compact.slice(4, 8)}-${compact.slice(8, 12)}-${compact.slice(12)}`;
+  return `https://orcid.org/${withDash}`;
 }
 
 async function loadJson(filePath) {
@@ -107,12 +120,11 @@ async function main() {
   const authorId = normalizeAuthorId(args.openalexAuthorId);
   const removeAuthorId = normalizeAuthorId(args.removeAuthorId);
   const name = String(args.name || "").trim();
-  const affiliation = String(args.affiliation || "").trim();
+  const orcid = normalizeOrcid(args.orcid);
   const googleScholar = normalizeScholar(args.googleScholar);
 
   if (!authorId) throw new Error("Missing --openalex-author-id");
   if (!name) throw new Error("Missing --name");
-  if (!affiliation) throw new Error("Missing --affiliation");
 
   const seed = await loadJson(seedPath);
   if (!Array.isArray(seed?.researchers)) {
@@ -124,11 +136,15 @@ async function main() {
     return existingAuthorId === authorId;
   });
 
+  const existingRecord = existingIndex >= 0 ? seed.researchers[existingIndex] : null;
+  const hasScholarInput = String(args.googleScholar || "").trim().length > 0;
+  const hasOrcidInput = String(args.orcid || "").trim().length > 0;
+
   const nextRecord = {
     name,
-    google_scholar: googleScholar,
+    google_scholar: hasScholarInput ? googleScholar : normalizeScholar(existingRecord?.google_scholar),
     openalex_author_id: authorId,
-    affiliation,
+    orcid: hasOrcidInput ? orcid : normalizeOrcid(existingRecord?.orcid),
   };
 
   if (existingIndex >= 0) {

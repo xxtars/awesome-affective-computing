@@ -9,7 +9,7 @@ It focuses on identity-based researcher tracking, OpenAlex paper retrieval, and 
 - The organization reflects personal interpretation and research interests.
 - No ranking or endorsement is implied.
 
-## Researcher Pipeline (OpenAlex + Qwen)
+## Researcher Pipeline (OpenAlex + ORCID + Qwen)
 
 Current website structure:
 
@@ -23,8 +23,23 @@ Identity-only researcher info is stored in:
 
 - `data/researchers/researcher.seed.json`
 
-The seed is used to confirm identity (name, scholar URL, OpenAlex author ID, optional manual affiliation/country).
+The seed stores identity keys only (no manual affiliation).
 It is not treated as a complete profile source.
+
+Seed format:
+
+```json
+{
+  "researchers": [
+    {
+      "name": "Example Name",
+      "openalex_author_id": "A1234567890",
+      "orcid": "https://orcid.org/0000-0000-0000-0000",
+      "google_scholar": "https://scholar.google.com/citations?user=xxxx"
+    }
+  ]
+}
+```
 
 Seed can include multiple researchers and is designed for incremental expansion.
 
@@ -89,8 +104,8 @@ node scripts/researcher-pipeline/run.mjs --full-refresh
 
 ### Affiliation rule
 
-- If a researcher has `google_scholar` in seed, the pipeline prefers seed affiliation first.
-- If `google_scholar` is missing (or seed affiliation is missing), the pipeline falls back to OpenAlex first institution.
+- If `orcid` exists in seed and ORCID record is available, use ORCID affiliation first.
+- If ORCID is missing/unavailable, pipeline falls back to OpenAlex first institution.
 - Researcher country is resolved from institution name via geocoding and normalized to English country names.
 - This rule is practical but heuristic, and may not always be real-time or correct.
 

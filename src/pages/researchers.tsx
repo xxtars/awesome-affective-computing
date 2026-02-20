@@ -180,8 +180,8 @@ export default function ResearchersPage(): ReactNode {
           <Heading as="h1">Researchers</Heading>
           <p>Generated at: {formatDateOnly(profile.generated_at)}</p>
           <p className={styles.note}>
-            Institution is shown by priority rule: seed (with Scholar) first, otherwise OpenAlex first institution.
-            Country is resolved from institution name (geocoding lookup) and displayed as full country name.
+            Institution is shown by priority rule: ORCID first, otherwise OpenAlex first institution. Country is
+            resolved from institution name (geocoding lookup) and displayed as full country name.
           </p>
 
           {profile.researchers.length === 0 ? (

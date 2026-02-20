@@ -13,13 +13,14 @@ on:
       seed_openalex_author_id:
         description: "OpenAlex author id (A...)"
         required: true
+      seed_orcid:
+        description: "ORCID (optional)"
+        required: false
+        default: ""
       seed_old_openalex_author_id:
         description: "Old wrong OpenAlex author id to remove (optional)"
         required: false
         default: ""
-      seed_affiliation:
-        description: "Affiliation"
-        required: true
 
 permissions:
   contents: write
@@ -49,8 +50,8 @@ jobs:
             --name "${{ inputs.seed_name }}" \
             --google-scholar "${{ inputs.seed_google_scholar }}" \
             --openalex-author-id "${{ inputs.seed_openalex_author_id }}" \
-            --remove-author-id "${{ inputs.seed_old_openalex_author_id }}" \
-            --affiliation "${{ inputs.seed_affiliation }}"
+            --orcid "${{ inputs.seed_orcid }}" \
+            --remove-author-id "${{ inputs.seed_old_openalex_author_id }}"
 
       - name: Commit and push updated seed
         run: |
