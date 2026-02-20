@@ -9,6 +9,26 @@
   margin-bottom: 1rem;
 }
 
+.filterHeader {
+  align-items: center;
+  display: flex;
+  grid-column: 1 / -1;
+  justify-content: space-between;
+}
+
+.filterTitle {
+  font-weight: 700;
+}
+
+.resetBtn {
+  background: transparent;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0.35rem 0.75rem;
+}
+
 .filters label {
   display: flex;
   flex-direction: column;
@@ -26,6 +46,61 @@
 
 .searchWrap {
   grid-column: 1 / -1;
+}
+
+.initialBarWrap {
+  grid-column: 1 / -1;
+}
+
+.axisSwitch {
+  display: inline-flex;
+  gap: 0.3rem;
+  margin-bottom: 0.35rem;
+}
+
+.axisBtn {
+  background: transparent;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.82rem;
+  padding: 0.25rem 0.7rem;
+}
+
+.axisBtnActive {
+  background: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  color: #fff;
+}
+
+.initialBar {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.initialBtn {
+  background: transparent;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 999px;
+  color: var(--ifm-color-emphasis-800);
+  cursor: pointer;
+  font-size: 0.85rem;
+  line-height: 1;
+  min-width: 2rem;
+  padding: 0.35rem 0.55rem;
+}
+
+.initialBtn:disabled {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.initialBtnActive {
+  background: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  color: #fff;
 }
 
 .resultCount {
@@ -62,7 +137,38 @@
   margin-bottom: 0.8rem;
 }
 
+.directionsText {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  display: -webkit-inline-box;
+  line-height: 1.45;
+  min-height: calc(1.45em * 4);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: bottom;
+}
+
 .links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.detailBtn {
+  align-self: flex-start;
+  background: var(--ifm-color-primary);
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.4rem 0.75rem;
+}
+
+.detailBtn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.secondaryLinks {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;

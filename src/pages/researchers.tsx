@@ -38,6 +38,7 @@ type ProfileFile = {
 };
 
 const profile = profileData as ProfileFile;
+const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
 function formatTopDirections(researcher: ResearcherProfile) {
   return (researcher.topic_summary.top_research_directions || [])
@@ -103,8 +104,8 @@ function formatInstitutionCountry(value: string | null) {
 export default function ResearchersPage(): ReactNode {
   const [countryFilter, setCountryFilter] = useState('All');
   const [universityFilter, setUniversityFilter] = useState('All');
-  const [familyInitialFilter, setFamilyInitialFilter] = useState('All');
-  const [givenInitialFilter, setGivenInitialFilter] = useState('All');
+  const [initialAxis, setInitialAxis] = useState<'family' | 'given'>('family');
+  const [nameInitialFilter, setNameInitialFilter] = useState('All');
   const [query, setQuery] = useState('');
 
   const countryOptions = useMemo(
@@ -119,20 +120,23 @@ export default function ResearchersPage(): ReactNode {
       uniqueSorted(profile.researchers.map((researcher) => researcher.affiliation.last_known_institution || '')),
     [],
   );
-  const familyInitialOptions = useMemo(
-    () =>
-      uniqueSorted(
-        profile.researchers.map((researcher) => getNameInitial(splitNameParts(researcher.identity.name).familyName)),
-      ),
-    [],
-  );
-  const givenInitialOptions = useMemo(
-    () =>
-      uniqueSorted(
-        profile.researchers.map((researcher) => getNameInitial(splitNameParts(researcher.identity.name).givenName)),
-      ),
-    [],
-  );
+  const activeInitialOptions = useMemo(() => {
+    return uniqueSorted(
+      profile.researchers.map((researcher) => {
+        const nameParts = splitNameParts(researcher.identity.name);
+        const source = initialAxis === 'family' ? nameParts.familyName : nameParts.givenName;
+        return getNameInitial(source);
+      }),
+    );
+  }, [initialAxis]);
+
+  const resetFilters = () => {
+    setCountryFilter('All');
+    setUniversityFilter('All');
+    setInitialAxis('family');
+    setNameInitialFilter('All');
+    setQuery('');
+  };
 
   const filteredResearchers = useMemo(() => {
     const keyword = query.trim().toLowerCase();
@@ -146,8 +150,8 @@ export default function ResearchersPage(): ReactNode {
         countryFilter === 'All' || institutionCountry === countryFilter;
       const universityMatch =
         universityFilter === 'All' || (researcher.affiliation.last_known_institution || '') === universityFilter;
-      const familyInitialMatch = familyInitialFilter === 'All' || familyInitial === familyInitialFilter;
-      const givenInitialMatch = givenInitialFilter === 'All' || givenInitial === givenInitialFilter;
+      const selectedInitial = initialAxis === 'family' ? familyInitial : givenInitial;
+      const initialMatch = nameInitialFilter === 'All' || selectedInitial === nameInitialFilter;
       const keywordMatch =
         keyword.length === 0 ||
         researcher.identity.name.toLowerCase().includes(keyword) ||
@@ -155,7 +159,7 @@ export default function ResearchersPage(): ReactNode {
         (researcher.affiliation.last_known_institution || '').toLowerCase().includes(keyword) ||
         formatTopDirections(researcher).toLowerCase().includes(keyword);
 
-      return countryMatch && universityMatch && familyInitialMatch && givenInitialMatch && keywordMatch;
+      return countryMatch && universityMatch && initialMatch && keywordMatch;
     });
 
     return matched.sort((a, b) => {
@@ -167,7 +171,7 @@ export default function ResearchersPage(): ReactNode {
       if (givenCmp !== 0) return givenCmp;
       return a.identity.name.localeCompare(b.identity.name, 'en', {sensitivity: 'base'});
     });
-  }, [countryFilter, familyInitialFilter, givenInitialFilter, query, universityFilter]);
+  }, [countryFilter, initialAxis, nameInitialFilter, query, universityFilter]);
 
   return (
     <Layout title="Researchers">
@@ -190,6 +194,13 @@ export default function ResearchersPage(): ReactNode {
           ) : (
             <>
               <section className={styles.filters}>
+                <div className={styles.filterHeader}>
+                  <span className={styles.filterTitle}>Name Initial</span>
+                  <button className={styles.resetBtn} onClick={resetFilters} type="button">
+                    Reset Filters
+                  </button>
+                </div>
+
                 <label>
                   Institution Country
                   <select value={countryFilter} onChange={(event) => setCountryFilter(event.target.value)}>
@@ -214,29 +225,49 @@ export default function ResearchersPage(): ReactNode {
                   </select>
                 </label>
 
-                <label>
-                  Family Initial
-                  <select value={familyInitialFilter} onChange={(event) => setFamilyInitialFilter(event.target.value)}>
-                    <option value="All">All</option>
-                    {familyInitialOptions.map((initial) => (
-                      <option key={initial} value={initial}>
-                        {initial}
-                      </option>
-                    ))}
-                  </select>
-                </label>
-
-                <label>
-                  Given Initial
-                  <select value={givenInitialFilter} onChange={(event) => setGivenInitialFilter(event.target.value)}>
-                    <option value="All">All</option>
-                    {givenInitialOptions.map((initial) => (
-                      <option key={initial} value={initial}>
-                        {initial}
-                      </option>
-                    ))}
-                  </select>
-                </label>
+                <div className={styles.initialBarWrap}>
+                  <div className={styles.axisSwitch}>
+                    <button
+                      className={`${styles.axisBtn} ${initialAxis === 'family' ? styles.axisBtnActive : ''}`}
+                      onClick={() => {
+                        setInitialAxis('family');
+                        setNameInitialFilter('All');
+                      }}
+                      type="button">
+                      Family
+                    </button>
+                    <button
+                      className={`${styles.axisBtn} ${initialAxis === 'given' ? styles.axisBtnActive : ''}`}
+                      onClick={() => {
+                        setInitialAxis('given');
+                        setNameInitialFilter('All');
+                      }}
+                      type="button">
+                      Given
+                    </button>
+                  </div>
+                  <div className={styles.initialBar}>
+                    <button
+                      className={`${styles.initialBtn} ${nameInitialFilter === 'All' ? styles.initialBtnActive : ''}`}
+                      onClick={() => setNameInitialFilter('All')}
+                      type="button">
+                      All
+                    </button>
+                    {ALPHABET.map((initial) => {
+                      const enabled = activeInitialOptions.includes(initial);
+                      return (
+                        <button
+                          className={`${styles.initialBtn} ${nameInitialFilter === initial ? styles.initialBtnActive : ''}`}
+                          disabled={!enabled}
+                          key={initial}
+                          onClick={() => setNameInitialFilter(initial)}
+                          type="button">
+                          {initial}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
 
                 <label className={styles.searchWrap}>
                   Search
@@ -260,8 +291,14 @@ export default function ResearchersPage(): ReactNode {
 
                     <p className={styles.meta}>
                       {researcher.affiliation.last_known_institution || '-'}
-                      {' | '}
+                    </p>
+
+                    <p className={styles.meta}>
                       {formatInstitutionCountry(researcher.affiliation.last_known_country) || '-'}
+                    </p>
+
+                    <p className={styles.directions}>
+                      Top directions: <span className={styles.directionsText}>{formatTopDirections(researcher) || '-'}</span>
                     </p>
 
                     <p className={styles.meta}>
@@ -269,20 +306,20 @@ export default function ResearchersPage(): ReactNode {
                       {researcher.stats.interesting_works_count}
                     </p>
 
-                    <p className={styles.directions}>
-                      Top directions: {formatTopDirections(researcher) || '-'}
-                    </p>
-
                     <div className={styles.links}>
-                      <a href={researcher.identity.google_scholar} rel="noreferrer" target="_blank">
-                        Google Scholar
-                      </a>
-                      <a href={researcher.identity.openalex_author_url} rel="noreferrer" target="_blank">
-                        OpenAlex
-                      </a>
-                      <Link to={`/researchers/detail?id=${encodeURIComponent(researcher.identity.openalex_author_id)}`}>
+                      <Link
+                        className={styles.detailBtn}
+                        to={`/researchers/detail?id=${encodeURIComponent(researcher.identity.openalex_author_id)}`}>
                         View Details
                       </Link>
+                      <div className={styles.secondaryLinks}>
+                        <a href={researcher.identity.google_scholar} rel="noreferrer" target="_blank">
+                          Google Scholar
+                        </a>
+                        <a href={researcher.identity.openalex_author_url} rel="noreferrer" target="_blank">
+                          OpenAlex
+                        </a>
+                      </div>
                     </div>
                   </article>
                 ))}
