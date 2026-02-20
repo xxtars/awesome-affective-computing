@@ -6,6 +6,11 @@
   margin-bottom: 0.75rem;
 }
 
+.note {
+  color: var(--ifm-color-emphasis-700);
+  margin-top: -0.25rem;
+}
+
 .searchSection label {
   display: flex;
   flex-direction: column;

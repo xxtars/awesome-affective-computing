@@ -290,6 +290,10 @@ export default function PapersPage(): ReactNode {
         <div className="container">
           <Heading as="h1">Papers</Heading>
           <p>Main affective-related papers from tracked researchers (deduplicated by title).</p>
+          <p className={styles.note}>
+            Disclaimer: author order and venue are resolved from OpenAlex/DOI metadata; directions and keywords are
+            AI-generated and may contain errors.
+          </p>
           <section className={styles.searchSection}>
             <label>
               Search
