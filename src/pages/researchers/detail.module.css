@@ -67,14 +67,11 @@
 }
 
 .paperTitle {
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  display: -webkit-box;
   font-size: 1.02rem;
   line-height: 1.35;
   margin: 0.1rem 0 0.25rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .paperMeta {
