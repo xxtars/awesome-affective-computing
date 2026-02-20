@@ -6,7 +6,7 @@ on:
       max_papers:
         description: "Max new papers"
         required: false
-        default: "20"
+        default: ""
       concurrency:
         description: "Parallel workers"
         required: false
@@ -52,11 +52,14 @@ jobs:
         run: |
           cmd=(
             node scripts/researcher-pipeline/run.mjs
-            --max-papers "${{ inputs.max_papers }}"
             --delay-ms 300
             --concurrency "${{ inputs.concurrency }}"
             --save-every "${{ inputs.save_every }}"
           )
+
+          if [ -n "${{ inputs.max_papers }}" ]; then
+            cmd+=(--max-papers "${{ inputs.max_papers }}")
+          fi
 
           if [ "${{ inputs.full_refresh }}" = "true" ]; then
             cmd+=(--full-refresh)
