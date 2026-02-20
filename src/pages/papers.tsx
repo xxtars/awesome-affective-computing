@@ -100,6 +100,11 @@ export default function PapersPage(): ReactNode {
     }
 
     return Array.from(byTitle.values()).sort((a, b) => {
+      const dateA = String(a.publication_date || '');
+      const dateB = String(b.publication_date || '');
+      if (dateA && dateB && dateA !== dateB) {
+        return dateB.localeCompare(dateA);
+      }
       if ((b.publication_year || 0) !== (a.publication_year || 0)) {
         return (b.publication_year || 0) - (a.publication_year || 0);
       }
