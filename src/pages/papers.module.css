@@ -85,10 +85,53 @@
   margin: 0;
 }
 
+.directionLine,
+.keywordLine {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.92rem;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.directionLine {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.keywordLine {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
 .researcherLink {
   font-weight: 600;
 }
 
 .actions {
   margin-top: auto;
+}
+
+.loadMoreWrap {
+  display: flex;
+  justify-content: center;
+  margin: 1.4rem 0 0.6rem;
+}
+
+.loadMoreBtn {
+  background: var(--ifm-color-primary);
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 999px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.92rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+}
+
+.loadMoreBtn:hover {
+  filter: brightness(0.95);
 }

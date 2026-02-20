@@ -23,6 +23,8 @@ type WorkItem = {
   analysis: {
     is_interesting: boolean;
     relevance_score: number;
+    keywords?: string[];
+    research_directions?: string[];
   };
 };
 
@@ -71,10 +73,22 @@ function formatYearMonth(dateText: string | null | undefined, year: number | nul
   return String(year || '-');
 }
 
+function capitalizeFirst(text: string) {
+  if (!text) return text;
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
+function formatPreviewList(items: string[] | undefined) {
+  const normalized = (items || []).map((item) => String(item || '').trim()).filter(Boolean);
+  if (normalized.length === 0) return '-';
+  return normalized.map((item) => capitalizeFirst(item)).join(', ');
+}
+
 export default function PapersPage(): ReactNode {
   const baseUrlRoot = useBaseUrl('/');
   const indexUrl = useBaseUrl('data/researchers/researchers.index.json');
   const [query, setQuery] = useState('');
+  const [visibleCount, setVisibleCount] = useState(100);
   const [profiles, setProfiles] = useState<ResearcherProfile[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -167,15 +181,26 @@ export default function PapersPage(): ReactNode {
     });
   }, [papers, query]);
 
+  useEffect(() => {
+    setVisibleCount(100);
+  }, [query]);
+
+  const visiblePapers = useMemo(
+    () => filteredPapers.slice(0, visibleCount),
+    [filteredPapers, visibleCount],
+  );
+
+  const hasMore = visibleCount < filteredPapers.length;
+
   const papersByYear = useMemo(() => {
     const groups = new Map<string, PaperView[]>();
-    for (const paper of filteredPapers) {
+    for (const paper of visiblePapers) {
       const key = String(paper.publication_year || 'Unknown');
       if (!groups.has(key)) groups.set(key, []);
       groups.get(key)?.push(paper);
     }
     return Array.from(groups.entries()).sort((a, b) => Number(b[0]) - Number(a[0]));
-  }, [filteredPapers]);
+  }, [visiblePapers]);
 
   return (
     <Layout title="Papers">
@@ -201,26 +226,27 @@ export default function PapersPage(): ReactNode {
           ) : filteredPapers.length === 0 ? (
             <p>No papers yet. Run `npm run researcher:build` first.</p>
           ) : (
-            papersByYear.map(([year, yearPapers]) => (
-              <section className={styles.yearSection} key={year}>
-                <h2 className={styles.yearHeader}>{year}</h2>
-                <div className={styles.grid}>
-                  {yearPapers.map((paper) => (
-                    <article className={styles.card} key={paper.id}>
-                      <div className={styles.cardTop}>
-                        <span className={styles.yearBadge}>{formatYearMonth(paper.publication_date, paper.publication_year)}</span>
-                      </div>
+            <>
+              {papersByYear.map(([year, yearPapers]) => (
+                <section className={styles.yearSection} key={year}>
+                  <h2 className={styles.yearHeader}>{year}</h2>
+                  <div className={styles.grid}>
+                    {yearPapers.map((paper) => (
+                      <article className={styles.card} key={paper.id}>
+                        <div className={styles.cardTop}>
+                          <span className={styles.yearBadge}>{formatYearMonth(paper.publication_date, paper.publication_year)}</span>
+                        </div>
 
-                      <h2 className={styles.title} title={paper.title}>
-                        {paper.title}
-                      </h2>
+                        <h2 className={styles.title} title={paper.title}>
+                          {paper.title}
+                        </h2>
 
-                      <p className={styles.metaLine}>
-                        Researcher:{' '}
-                        <Link className={styles.researcherLink} to={`/researchers/detail?id=${encodeURIComponent(paper.researcherId)}`}>
-                          {paper.researcherName}
-                        </Link>
-                      </p>
+                        <p className={styles.metaLine}>
+                          Researcher:{' '}
+                          <Link className={styles.researcherLink} to={`/researchers/detail?id=${encodeURIComponent(paper.researcherId)}`}>
+                            {paper.researcherName}
+                          </Link>
+                        </p>
 
                       <p className={styles.metaLine}>
                         Venue:{' '}
@@ -232,18 +258,37 @@ export default function PapersPage(): ReactNode {
                         </a>
                       </p>
 
+                      <p className={styles.directionLine}>
+                        Directions: {formatPreviewList(paper.analysis?.research_directions)}
+                      </p>
+
+                      <p className={styles.keywordLine}>
+                        Keywords: {formatPreviewList(paper.analysis?.keywords)}
+                      </p>
+
                       <div className={styles.actions}>
-                        {paper.links?.openalex && (
-                          <a href={paper.links.openalex} rel="noreferrer" target="_blank">
-                            OpenAlex Source
-                          </a>
-                        )}
-                      </div>
-                    </article>
-                  ))}
+                          {paper.links?.openalex && (
+                            <a href={paper.links.openalex} rel="noreferrer" target="_blank">
+                              OpenAlex Source
+                            </a>
+                          )}
+                        </div>
+                      </article>
+                    ))}
+                  </div>
+                </section>
+              ))}
+              {hasMore && (
+                <div className={styles.loadMoreWrap}>
+                  <button
+                    className={styles.loadMoreBtn}
+                    onClick={() => setVisibleCount((count) => count + 100)}
+                    type="button">
+                    Load more
+                  </button>
                 </div>
-              </section>
-            ))
+              )}
+            </>
           )}
         </div>
       </main>
