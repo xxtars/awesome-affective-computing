@@ -468,6 +468,15 @@ function fallbackSummary(analyzedWorks) {
   };
 }
 
+function buildCachedWorkIdSet(cache) {
+  const ids = new Set();
+  for (const entry of Object.values(cache || {})) {
+    const paperId = entry?.paper_id;
+    if (typeof paperId === "string" && paperId) ids.add(paperId);
+  }
+  return ids;
+}
+
 async function analyzePaper({ researcher, work, args, cache, qwenConfig }) {
   const cacheKey = paperCacheKey(work);
   const cachedEntry = cache[cacheKey];
@@ -588,7 +597,7 @@ async function run() {
     const cachePath = getResearcherCachePath(args.cache, researcher, authorId);
     const cache = (await loadJson(cachePath, {})) || {};
     const previousWorks = Array.isArray(previousResearcher?.works) ? previousResearcher.works : [];
-    const knownWorkIds = new Set(previousWorks.map((w) => w.id).filter(Boolean));
+    const knownWorkIds = buildCachedWorkIdSet(cache);
 
     console.log(`Fetching OpenAlex author: ${authorId}`);
     const authorProfile = await fetchAuthorProfile(authorId);
@@ -599,7 +608,7 @@ async function run() {
       knownWorkIds,
       fullRefresh: args.fullRefresh,
     });
-    console.log(`Fetched ${newWorks.length} new works`);
+    console.log(`Fetched ${newWorks.length} uncached works`);
 
     const analyzedNewWorks = newWorks;
     let aiCalledCount = 0;
