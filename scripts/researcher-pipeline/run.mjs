@@ -3,6 +3,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 
 const OPENALEX_BASE_URL = "https://api.openalex.org";
+const CROSSREF_BASE_URL = "https://api.crossref.org";
 const DEFAULT_QWEN_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1";
 const NOMINATIM_BASE_URL = "https://nominatim.openstreetmap.org";
 const DEFAULT_INTEREST_TOPICS = ["emotion"];
@@ -204,6 +205,69 @@ async function fetchAuthorProfile(authorId) {
   return fetchJson(url);
 }
 
+function normalizeDoi(doiValue) {
+  const raw = String(doiValue || "").trim();
+  if (!raw) return "";
+  return raw
+    .replace(/^https?:\/\/(dx\.)?doi\.org\//i, "")
+    .replace(/^doi:\s*/i, "")
+    .trim()
+    .toLowerCase();
+}
+
+function inferVenueFromDoiPrefix(doi) {
+  if (!doi) return null;
+  if (doi.startsWith("10.1145/")) return "ACM";
+  if (doi.startsWith("10.1109/")) return "IEEE";
+  if (doi.startsWith("10.48550/arxiv.")) return "arXiv";
+  if (doi.startsWith("10.1016/")) return "Elsevier";
+  if (doi.startsWith("10.1007/")) return "Springer";
+  if (doi.startsWith("10.3389/")) return "Frontiers";
+  if (doi.startsWith("10.3233/")) return "IOS Press";
+  return null;
+}
+
+function pickCrossrefVenueName(message) {
+  const containerTitle = Array.isArray(message?.["container-title"]) ? message["container-title"][0] : null;
+  const eventName = typeof message?.event?.name === "string" ? message.event.name : null;
+  const shortContainer = Array.isArray(message?.["short-container-title"])
+    ? message["short-container-title"][0]
+    : null;
+  const publisher = typeof message?.publisher === "string" ? message.publisher : null;
+  return String(containerTitle || eventName || shortContainer || publisher || "").trim() || null;
+}
+
+async function fetchCrossrefVenueByDoi(doi) {
+  const url = `${CROSSREF_BASE_URL}/works/${encodeURIComponent(doi)}`;
+  const payload = await fetchJson(url);
+  return pickCrossrefVenueName(payload?.message || {});
+}
+
+async function resolveVenueFromDoi({
+  doiValue,
+  doiVenueCache,
+  doiVenueCachePath,
+}) {
+  const doi = normalizeDoi(doiValue);
+  if (!doi) return null;
+  if (Object.prototype.hasOwnProperty.call(doiVenueCache, doi)) {
+    return doiVenueCache[doi];
+  }
+
+  let resolved = null;
+  try {
+    resolved = await fetchCrossrefVenueByDoi(doi);
+    await sleep(150);
+  } catch {
+    resolved = null;
+  }
+  if (!resolved) resolved = inferVenueFromDoiPrefix(doi);
+
+  doiVenueCache[doi] = resolved || null;
+  await saveJson(doiVenueCachePath, doiVenueCache);
+  return doiVenueCache[doi];
+}
+
 function normalizeTitle(title) {
   return String(title || "")
     .toLowerCase()
@@ -351,7 +415,10 @@ function dedupeWorksByTitle(works) {
   return Array.from(byTitle.values());
 }
 
-async function fetchAuthorWorks(authorId, { maxPapers = null, knownWorkIds = null, fullRefresh = false } = {}) {
+async function fetchAuthorWorks(
+  authorId,
+  { maxPapers = null, knownWorkIds = null, fullRefresh = false, resolveVenueByDoi = null } = {}
+) {
   const works = [];
   const dedupedByTitle = new Map();
   let cursor = "*";
@@ -376,6 +443,10 @@ async function fetchAuthorWorks(authorId, { maxPapers = null, knownWorkIds = nul
       const abstract = invertedIndexToText(work.abstract_inverted_index);
       const primaryLocation = work.primary_location || null;
       const primarySource = primaryLocation?.source || null;
+      const doiVenue =
+        !primarySource?.display_name && typeof resolveVenueByDoi === "function"
+          ? await resolveVenueByDoi(work.doi)
+          : null;
       const primaryTopic = work.primary_topic || null;
       const mappedWork = {
         id: work.id,
@@ -391,10 +462,10 @@ async function fetchAuthorWorks(authorId, { maxPapers = null, knownWorkIds = nul
         is_retracted: Boolean(work.is_retracted),
         is_paratext: Boolean(work.is_paratext),
         cited_by_count: work.cited_by_count || 0,
-        primary_source: primarySource?.display_name || null,
+        primary_source: primarySource?.display_name || doiVenue || null,
         source: {
           id: primarySource?.id || null,
-          display_name: primarySource?.display_name || null,
+          display_name: primarySource?.display_name || doiVenue || null,
           type: primarySource?.type || null,
           issn_l: primarySource?.issn_l || null,
           is_in_doaj: primarySource?.is_in_doaj ?? null,
@@ -710,6 +781,8 @@ async function run() {
   const legacyOutput = (await loadJson(legacyMonolithPath, null)) || null;
   const institutionCountryCachePath = path.join(args.cache, "institution-country-cache.json");
   const institutionCountryCache = (await loadJson(institutionCountryCachePath, {})) || {};
+  const doiVenueCachePath = path.join(args.cache, "doi-venue-cache.json");
+  const doiVenueCache = (await loadJson(doiVenueCachePath, {})) || {};
   const previousIndexResearchers =
     Array.isArray(previousIndex?.researchers) && previousIndex.researchers.length > 0
       ? previousIndex.researchers
@@ -760,6 +833,12 @@ async function run() {
       maxPapers: args.maxPapers,
       knownWorkIds,
       fullRefresh: args.fullRefresh,
+      resolveVenueByDoi: (doi) =>
+        resolveVenueFromDoi({
+          doiValue: doi,
+          doiVenueCache,
+          doiVenueCachePath,
+        }),
     });
     console.log(`Fetched ${newWorks.length} uncached works`);
 

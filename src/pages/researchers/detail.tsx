@@ -20,6 +20,8 @@ type WorkItem = {
   title: string;
   publication_year: number | null;
   publication_date?: string | null;
+  doi?: string | null;
+  doi_url?: string | null;
   primary_source: string | null;
   source?: {display_name: string | null};
   links?: {
@@ -85,6 +87,23 @@ function normalizeVenueName(name: string | null | undefined) {
   if (!raw) return '-';
   if (raw.toLowerCase().includes('arxiv')) return 'arXiv';
   return raw;
+}
+
+function normalizeDoiText(doi: string | null | undefined) {
+  const raw = String(doi || '').trim();
+  if (!raw) return '';
+  return raw
+    .replace(/^https?:\/\/(dx\.)?doi\.org\//i, '')
+    .replace(/^doi:\s*/i, '')
+    .trim();
+}
+
+function getVenueLabel(work: WorkItem) {
+  const venue = normalizeVenueName(work.source?.display_name || work.primary_source);
+  if (venue !== '-') return venue;
+  const doi = normalizeDoiText(work.doi_url || work.doi);
+  if (doi) return `DOI: ${doi}`;
+  return '-';
 }
 
 function formatYearMonth(dateText: string | null | undefined, year: number | null) {
@@ -271,15 +290,15 @@ export default function ResearcherDetailPage(): ReactNode {
                 </h3>
                 <p className={styles.paperMeta}>
                   Venue:{' '}
-                  {work.source?.display_name || work.primary_source ? (
+                  {work.source?.display_name || work.primary_source || work.doi || work.doi_url ? (
                     <a
-                      href={work.links?.landing_page || work.links?.openalex || work.links?.source_openalex || '#'}
+                      href={work.links?.landing_page || work.links?.openalex || work.links?.source_openalex || work.doi_url || work.doi || '#'}
                       rel="noreferrer"
                       target="_blank">
-                      {normalizeVenueName(work.source?.display_name || work.primary_source)}
+                      {getVenueLabel(work)}
                     </a>
                   ) : (
-                    '-'
+                    getVenueLabel(work)
                   )}
                 </p>
                 {work.links?.openalex && (

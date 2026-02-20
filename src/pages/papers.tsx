@@ -12,6 +12,8 @@ type WorkItem = {
   title: string;
   publication_year: number | null;
   publication_date?: string | null;
+  doi?: string | null;
+  doi_url?: string | null;
   cited_by_count: number;
   primary_source: string | null;
   source?: {display_name: string | null};
@@ -62,6 +64,23 @@ function normalizeVenueName(name: string | null | undefined) {
   if (!raw) return '-';
   if (raw.toLowerCase().includes('arxiv')) return 'arXiv';
   return raw;
+}
+
+function normalizeDoiText(doi: string | null | undefined) {
+  const raw = String(doi || '').trim();
+  if (!raw) return '';
+  return raw
+    .replace(/^https?:\/\/(dx\.)?doi\.org\//i, '')
+    .replace(/^doi:\s*/i, '')
+    .trim();
+}
+
+function getVenueLabel(work: WorkItem) {
+  const venue = normalizeVenueName(work.source?.display_name || work.primary_source);
+  if (venue !== '-') return venue;
+  const doi = normalizeDoiText(work.doi_url || work.doi);
+  if (doi) return `DOI: ${doi}`;
+  return '-';
 }
 
 function formatYearMonth(dateText: string | null | undefined, year: number | null) {
@@ -176,6 +195,7 @@ export default function PapersPage(): ReactNode {
         paper.title.toLowerCase().includes(keyword) ||
         paper.researcherName.toLowerCase().includes(keyword) ||
         (paper.source?.display_name || paper.primary_source || '').toLowerCase().includes(keyword) ||
+        (paper.doi || paper.doi_url || '').toLowerCase().includes(keyword) ||
         yearText.includes(keyword)
       );
     });
@@ -250,12 +270,16 @@ export default function PapersPage(): ReactNode {
 
                       <p className={styles.metaLine}>
                         Venue:{' '}
-                        <a
-                          href={paper.links?.landing_page || paper.links?.openalex || '#'}
-                          rel="noreferrer"
-                          target="_blank">
-                          {normalizeVenueName(paper.source?.display_name || paper.primary_source)}
-                        </a>
+                        {paper.links?.landing_page || paper.links?.openalex || paper.doi_url || paper.doi ? (
+                          <a
+                            href={paper.links?.landing_page || paper.links?.openalex || paper.doi_url || paper.doi || '#'}
+                            rel="noreferrer"
+                            target="_blank">
+                            {getVenueLabel(paper)}
+                          </a>
+                        ) : (
+                          getVenueLabel(paper)
+                        )}
                       </p>
 
                       <p className={styles.directionLine}>
