@@ -98,9 +98,24 @@ function normalizeDoiText(doi: string | null | undefined) {
     .trim();
 }
 
+function inferVenueFromDoiText(doiText: string) {
+  const doi = normalizeDoiText(doiText).toLowerCase();
+  if (!doi) return '';
+  if (doi.startsWith('10.1145/')) return 'ACM';
+  if (doi.startsWith('10.1109/')) return 'IEEE';
+  if (doi.startsWith('10.48550/arxiv.')) return 'arXiv';
+  if (doi.startsWith('10.1016/')) return 'Elsevier';
+  if (doi.startsWith('10.1007/')) return 'Springer';
+  if (doi.startsWith('10.3389/')) return 'Frontiers';
+  if (doi.startsWith('10.3233/')) return 'IOS Press';
+  return '';
+}
+
 function getVenueLabel(work: WorkItem) {
   const venue = normalizeVenueName(work.source?.display_name || work.primary_source);
   if (venue !== '-') return venue;
+  const inferred = inferVenueFromDoiText(work.doi_url || work.doi || '');
+  if (inferred) return inferred;
   const doi = normalizeDoiText(work.doi_url || work.doi);
   if (doi) return `DOI: ${doi}`;
   return '-';

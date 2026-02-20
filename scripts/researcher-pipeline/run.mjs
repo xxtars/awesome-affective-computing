@@ -227,20 +227,98 @@ function inferVenueFromDoiPrefix(doi) {
   return null;
 }
 
+function parseDoiFromAnyText(value) {
+  const raw = String(value || "").trim();
+  if (!raw) return "";
+  return normalizeDoi(raw);
+}
+
+function isGenericPublisherLabel(name) {
+  const normalized = String(name || "").trim().toLowerCase();
+  return [
+    "acm",
+    "ieee",
+    "elsevier",
+    "springer",
+    "frontiers media sa",
+    "ios press",
+    "wiley",
+    "taylor & francis",
+    "mdpi ag",
+  ].includes(normalized);
+}
+
 function pickCrossrefVenueName(message) {
   const containerTitle = Array.isArray(message?.["container-title"]) ? message["container-title"][0] : null;
   const eventName = typeof message?.event?.name === "string" ? message.event.name : null;
   const shortContainer = Array.isArray(message?.["short-container-title"])
     ? message["short-container-title"][0]
     : null;
+  const title = Array.isArray(message?.title) ? message.title[0] : null;
   const publisher = typeof message?.publisher === "string" ? message.publisher : null;
-  return String(containerTitle || eventName || shortContainer || publisher || "").trim() || null;
+
+  const primary = String(eventName || containerTitle || shortContainer || "").trim();
+  if (primary) return primary;
+  const titleValue = String(title || "").trim();
+  if (titleValue && /proceedings|conference|symposium|workshop/i.test(titleValue)) {
+    return titleValue;
+  }
+  return String(publisher || "").trim() || null;
+}
+
+function getParentProceedingsDoi(doi, message) {
+  const relationPartOf = message?.relation?.["is-part-of"];
+  if (Array.isArray(relationPartOf)) {
+    for (const rel of relationPartOf) {
+      const candidate = parseDoiFromAnyText(rel?.id || rel?.id_type || "");
+      if (candidate) return candidate;
+    }
+  }
+
+  const relationIsPartOf = message?.relation?.is_part_of;
+  if (Array.isArray(relationIsPartOf)) {
+    for (const rel of relationIsPartOf) {
+      const candidate = parseDoiFromAnyText(rel?.id || "");
+      if (candidate) return candidate;
+    }
+  }
+
+  if (doi.startsWith("10.1145/")) {
+    const suffix = doi.replace(/^10\.1145\//, "");
+    if (suffix.includes(".")) {
+      const parent = `10.1145/${suffix.split(".")[0]}`;
+      if (parent !== doi) return parent;
+    }
+  }
+  return "";
 }
 
 async function fetchCrossrefVenueByDoi(doi) {
   const url = `${CROSSREF_BASE_URL}/works/${encodeURIComponent(doi)}`;
   const payload = await fetchJson(url);
-  return pickCrossrefVenueName(payload?.message || {});
+  const message = payload?.message || {};
+
+  const direct = pickCrossrefVenueName(message);
+  if (direct && !isGenericPublisherLabel(direct)) return direct;
+
+  const parentDoi = getParentProceedingsDoi(doi, message);
+  if (parentDoi && parentDoi !== doi) {
+    try {
+      const parentUrl = `${CROSSREF_BASE_URL}/works/${encodeURIComponent(parentDoi)}`;
+      const parentPayload = await fetchJson(parentUrl);
+      const parentMessage = parentPayload?.message || {};
+      const parentTitle = Array.isArray(parentMessage?.title) ? parentMessage.title[0] : null;
+      const parentVenue = String(
+        parentTitle || pickCrossrefVenueName(parentMessage) || ""
+      ).trim();
+      if (parentVenue) return parentVenue;
+    } catch {
+      // Fall through to direct/prefix fallback.
+    }
+  }
+
+  if (direct) return direct;
+  return null;
 }
 
 async function resolveVenueFromDoi({
