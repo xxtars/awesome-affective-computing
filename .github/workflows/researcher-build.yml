@@ -19,6 +19,22 @@ on:
         description: "Researcher name(s), comma-separated"
         required: false
         default: ""
+      seed_name:
+        description: "Seed add/update: researcher name"
+        required: false
+        default: ""
+      seed_google_scholar:
+        description: "Seed add/update: Google Scholar URL (optional)"
+        required: false
+        default: ""
+      seed_openalex_author_id:
+        description: "Seed add/update: OpenAlex author id (A...)"
+        required: false
+        default: ""
+      seed_affiliation:
+        description: "Seed add/update: affiliation"
+        required: false
+        default: ""
       full_refresh:
         description: "Full refresh"
         required: false
@@ -48,6 +64,16 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Upsert researcher into seed (optional)
+        if: ${{ inputs.seed_openalex_author_id != '' }}
+        run: |
+          node scripts/researcher-pipeline/upsert-seed-researcher.mjs \
+            --seed data/researchers/researcher.seed.json \
+            --name "${{ inputs.seed_name }}" \
+            --google-scholar "${{ inputs.seed_google_scholar }}" \
+            --openalex-author-id "${{ inputs.seed_openalex_author_id }}" \
+            --affiliation "${{ inputs.seed_affiliation }}"
+
       - name: Run researcher pipeline
         run: |
           cmd=(
@@ -57,6 +83,11 @@ jobs:
             --save-every "${{ inputs.save_every }}"
           )
 
+          researcher_name_input="${{ inputs.researcher_name }}"
+          if [ -n "${{ inputs.seed_openalex_author_id }}" ] && [ -z "$researcher_name_input" ]; then
+            researcher_name_input="${{ inputs.seed_name }}"
+          fi
+
           if [ -n "${{ inputs.max_papers }}" ]; then
             cmd+=(--max-papers "${{ inputs.max_papers }}")
           fi
@@ -65,8 +96,8 @@ jobs:
             cmd+=(--full-refresh)
           fi
 
-          if [ -n "${{ inputs.researcher_name }}" ]; then
-            cmd+=(--researcher-name "${{ inputs.researcher_name }}")
+          if [ -n "$researcher_name_input" ]; then
+            cmd+=(--researcher-name "$researcher_name_input")
           fi
 
           "${cmd[@]}"
@@ -75,7 +106,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/researchers/researchers.index.json data/researchers/profiles data/researchers/cache static/data/researchers
+          git add data/researchers/researcher.seed.json data/researchers/researchers.index.json data/researchers/profiles data/researchers/cache static/data/researchers
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
