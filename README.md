@@ -1,14 +1,11 @@
 # Awesome Affective Computing
 
-现在仓库只保留一个功能：
+This is a personal, ongoing collection of resources in Affective Computing, including research teams, directions, and representative papers.
 
-- 读取 `data/researcher.json`
-- 自动生成 `teams` 信息到：
-  - `data/teams.json`
-  - `src/data/teams.json`
+The repository aims to provide a structured perspective on the landscape of affective computing research.
 
-## 用法
+⚠️ **Disclaimer**
 
-```bash
-python scripts/generate_teams.py
-```
+- This list is not comprehensive and may not cover all relevant works.
+- The organization reflects personal interpretation and research interests.
+- No ranking or endorsement is implied.

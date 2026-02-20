@@ -8,7 +8,7 @@ const projectName = 'awesome-affective-computing';
 
 const config: Config = {
   title: 'Awesome Affective Computing',
-  tagline: 'Auto-generate teams from researcher.json',
+  tagline: 'Teams × Directions × Papers — a structured collection',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -41,8 +41,24 @@ const config: Config = {
     [
       'classic',
       {
-        docs: false,
-        blog: false,
+        docs: {
+          sidebarPath: './sidebars.ts',
+          // "Edit this page" link target (optional but recommended)
+          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
+        },
+        blog: {
+          showReadingTime: true,
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
+          },
+          // "Edit this page" link target (optional but recommended)
+          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
+          // Useful options to enforce blogging best practices
+          onInlineTags: 'warn',
+          onInlineAuthors: 'warn',
+          onUntruncatedBlogPosts: 'warn',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -63,7 +79,13 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {to: '/teams', label: 'Teams', position: 'left'},
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Team',
+        },
+        {to: '/blog', label: 'Direction', position: 'left'},
         {
           href: `https://github.com/${organizationName}/${projectName}`,
           label: 'GitHub',
@@ -75,14 +97,21 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Browse',
+          title: 'Docs',
           items: [
-            {label: 'Teams', to: '/teams'},
+            {
+              label: 'Intro',
+              to: '/docs/intro',
+            },
           ],
         },
         {
           title: 'More',
           items: [
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
             {
               label: 'GitHub',
               href: `https://github.com/${organizationName}/${projectName}`,
