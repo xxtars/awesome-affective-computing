@@ -89,6 +89,15 @@ function normalizeVenueName(name: string | null | undefined) {
   return raw;
 }
 
+function formatYearMonth(dateText: string | null | undefined, year: number | null) {
+  const raw = String(dateText || '').trim();
+  if (raw) {
+    const m = raw.match(/^(\d{4})-(\d{2})/);
+    if (m) return `${m[1]}-${m[2]}`;
+  }
+  return String(year || '-');
+}
+
 function formatInstitutionCountry(value: string | null) {
   const raw = String(value || '').trim();
   if (!raw) return '-';
@@ -208,7 +217,7 @@ export default function ResearcherDetailPage(): ReactNode {
             <table>
               <thead>
                 <tr>
-                  <th>Year</th>
+                  <th>Year-Month</th>
                   <th>Title</th>
                   <th>Venue</th>
                   <th>Directions</th>
@@ -218,7 +227,7 @@ export default function ResearcherDetailPage(): ReactNode {
               <tbody>
                 {interestingWorks.map((work) => (
                   <tr key={work.id}>
-                    <td>{work.publication_year || '-'}</td>
+                    <td>{formatYearMonth(work.publication_date, work.publication_year)}</td>
                     <td>{work.title}</td>
                     <td>
                       {work.source?.display_name || work.primary_source ? (
