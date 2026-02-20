@@ -1,11 +1,10 @@
 import type {ReactNode} from 'react';
-import {useMemo} from 'react';
-import {useState} from 'react';
+import {useEffect, useMemo, useState} from 'react';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
-import profileData from '@site/data/researchers/researcher.profile.json';
 import styles from './papers.module.css';
 
 type WorkItem = {
@@ -35,11 +34,19 @@ type ResearcherProfile = {
   works: WorkItem[];
 };
 
-type ProfileFile = {
-  researchers: ResearcherProfile[];
+type IndexRecord = {
+  identity: {
+    name: string;
+    openalex_author_id: string;
+  };
+  profile_path: string;
 };
 
-const profile = profileData as ProfileFile;
+type IndexFile = {
+  researchers: IndexRecord[];
+};
+
+type PaperView = WorkItem & {researcherName: string; researcherId: string};
 
 function normalizeTitle(title: string) {
   return String(title || '')
@@ -65,18 +72,54 @@ function formatYearMonth(dateText: string | null | undefined, year: number | nul
 }
 
 export default function PapersPage(): ReactNode {
+  const baseUrlRoot = useBaseUrl('/');
+  const indexUrl = useBaseUrl('/data/researchers/researchers.index.json');
   const [query, setQuery] = useState('');
+  const [profiles, setProfiles] = useState<ResearcherProfile[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    let disposed = false;
+    async function load() {
+      setLoading(true);
+      try {
+        const idxRes = await fetch(indexUrl);
+        if (!idxRes.ok) throw new Error(`Failed to load index: ${idxRes.status}`);
+        const indexJson = (await idxRes.json()) as IndexFile;
+        const records = indexJson.researchers || [];
+        const loaded = await Promise.all(
+          records.map(async (record) => {
+            const rel = String(record.profile_path || '').replace(/^\/+/, '');
+            const profileUrl = `${baseUrlRoot}${rel}`;
+            const res = await fetch(profileUrl);
+            if (!res.ok) return null;
+            return (await res.json()) as ResearcherProfile;
+          }),
+        );
+        if (!disposed) setProfiles(loaded.filter(Boolean) as ResearcherProfile[]);
+      } catch (err) {
+        console.error(err);
+        if (!disposed) setProfiles([]);
+      } finally {
+        if (!disposed) setLoading(false);
+      }
+    }
+    load();
+    return () => {
+      disposed = true;
+    };
+  }, [baseUrlRoot, indexUrl]);
 
   const papers = useMemo(() => {
-    const byTitle = new Map<string, WorkItem & {researcherName: string; researcherId: string}>();
+    const byTitle = new Map<string, PaperView>();
 
-    for (const researcher of profile.researchers) {
+    for (const researcher of profiles) {
       for (const work of researcher.works || []) {
         if (!work.analysis?.is_interesting) continue;
         const key = normalizeTitle(work.title);
         if (!key) continue;
 
-        const enriched = {
+        const enriched: PaperView = {
           ...work,
           researcherName: researcher.identity.name,
           researcherId: researcher.identity.openalex_author_id,
@@ -102,20 +145,17 @@ export default function PapersPage(): ReactNode {
     return Array.from(byTitle.values()).sort((a, b) => {
       const dateA = String(a.publication_date || '');
       const dateB = String(b.publication_date || '');
-      if (dateA && dateB && dateA !== dateB) {
-        return dateB.localeCompare(dateA);
-      }
+      if (dateA && dateB && dateA !== dateB) return dateB.localeCompare(dateA);
       if ((b.publication_year || 0) !== (a.publication_year || 0)) {
         return (b.publication_year || 0) - (a.publication_year || 0);
       }
       return (b.analysis.relevance_score || 0) - (a.analysis.relevance_score || 0);
     });
-  }, []);
+  }, [profiles]);
 
   const filteredPapers = useMemo(() => {
     const keyword = query.trim().toLowerCase();
     if (!keyword) return papers;
-
     return papers.filter((paper) => {
       const yearText = String(paper.publication_year || '');
       return (
@@ -128,7 +168,7 @@ export default function PapersPage(): ReactNode {
   }, [papers, query]);
 
   const papersByYear = useMemo(() => {
-    const groups = new Map<string, (WorkItem & {researcherName: string; researcherId: string})[]>();
+    const groups = new Map<string, PaperView[]>();
     for (const paper of filteredPapers) {
       const key = String(paper.publication_year || 'Unknown');
       if (!groups.has(key)) groups.set(key, []);
@@ -156,7 +196,9 @@ export default function PapersPage(): ReactNode {
           </section>
           <p className={styles.resultCount}>Papers: {filteredPapers.length}</p>
 
-          {filteredPapers.length === 0 ? (
+          {loading ? (
+            <p>Loading papers...</p>
+          ) : filteredPapers.length === 0 ? (
             <p>No papers yet. Run `npm run researcher:build` first.</p>
           ) : (
             papersByYear.map(([year, yearPapers]) => (

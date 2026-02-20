@@ -43,9 +43,9 @@ npm run researcher:build
 Default behavior is incremental:
 
 - Only new papers are fetched/analyzed.
-- Existing papers from `researcher.profile.json` are reused.
+- Existing papers from per-researcher profile files are reused.
 - Cached AI results are reused from per-researcher `paper-analysis-cache.json` files.
-- Checkpoint is saved after each processed researcher (profile + cache).
+- Checkpoint is saved after each processed researcher (index + per-researcher profile + cache).
 - Cache can be flushed during processing with `--save-every` (default `1`, i.e., save after each paper).
 - AI analysis is optimized for speed:
   - Non-related papers return minimal output only.
@@ -71,7 +71,8 @@ node scripts/researcher-pipeline/run.mjs --full-refresh
 
 ### Output
 
-- `data/researchers/researcher.profile.json`: enriched researcher profile
+- `data/researchers/researchers.index.json`: lightweight index for list pages
+- `data/researchers/profiles/<openalexAuthorId>.json`: full per-researcher profile
 - `data/researchers/cache/<name>__<scholarUserId>__<openalexAuthorId>/paper-analysis-cache.json`: per-researcher AI cache
   - cache entries include `paper_id`, `title`, `researcher_name`, and `researcher_openalex_author_id` for manual checks
 
@@ -84,13 +85,13 @@ node scripts/researcher-pipeline/run.mjs --full-refresh
 5. Run AI analysis per paper (affective-related judgment + conditional extraction)
 6. Save cache checkpoints during processing (`--save-every`, default each paper)
 7. Build or reuse researcher-level summaries (incremental-aware)
-8. Export profile JSON for website pages
+8. Export index JSON + per-researcher profile JSON for website pages
 
 ### Affiliation rule
 
 - If a researcher has `google_scholar` in seed, the pipeline prefers seed affiliation first.
 - If `google_scholar` is missing (or seed affiliation is missing), the pipeline falls back to OpenAlex first institution.
-- Researcher country is taken from institution country (OpenAlex institution country code) to reduce ambiguity.
+- Researcher country is resolved from institution name via geocoding and normalized to English country names.
 - This rule is practical but heuristic, and may not always be real-time or correct.
 
 ## Disclaimer

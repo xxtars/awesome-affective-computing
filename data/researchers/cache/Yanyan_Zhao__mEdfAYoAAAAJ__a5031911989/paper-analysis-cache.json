@@ -1194,5 +1194,1428 @@
         "sentiment-aware information retrieval"
       ]
     }
+  },
+  "7c1e47836343911f0f341e874c0a375883a49560721a26ccfaf4dd35b51db930": {
+    "paper_id": "https://openalex.org/W3189479737",
+    "title": "Study on the differentiation regulation of miR-142 and miR-144 on ovine preadipocytes by targeting FoxO1 gene.",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:08.911Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular regulation of adipogenesis in ovine preadipocytes via microRNAs and FoxO1, with no connection to emotion or affective processes.",
+      "evidence": [
+        "Title explicitly concerns miR-142/miR-144 targeting FoxO1 in adipocyte differentiation"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b98431078d15f8eb0adcb979dbe3de561792612fe69ed0263fcc0f6e35fadd6f": {
+    "paper_id": "https://openalex.org/W3095880731",
+    "title": "Expression analysis of silicon on CaLEA5 in pepper under low temperature stress.",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:09.365Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on plant stress physiology and silicon biochemistry in pepper under low temperature; 'emotion' is unrelated to the biological stress response studied here.",
+      "evidence": [
+        "Title: Expression analysis of silicon on CaLEA5 in pepper under low temperature stress."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6a053abfe8856202d2134096572be66ead7d5181fa28dc81c8ced2f8c5147ee4": {
+    "paper_id": "https://openalex.org/W2491832692",
+    "title": "Negation Scope Detection with Recurrent Neural Networks Models in Review Texts",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:09.407Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on negation scope detection using RNNs in review texts, with no explicit connection to emotion or affective computing.",
+      "evidence": [
+        "Concepts include negation, recurrent neural network, and natural language processing—none mention emotion, sentiment, or affect."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b51dd8a6c147d83b31b52e9bb7b5d63604f8dd5c91670c2d24f41727d207b4d3": {
+    "paper_id": "https://openalex.org/W2285724549",
+    "title": "Research on Magnetotactic Bacteria Optimization Algorithm Based on the Best Individual",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:09.408Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on an optimization algorithm inspired by magnetotactic bacteria, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include only technical domains: Magnetotactic bacteria, Optimization algorithm, Computer science, Mathematics"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b249e4c24c4192daa2117f2215b66fc06a8f1a83be089cdd5bdb6ad5d4840b1b": {
+    "paper_id": "https://openalex.org/W2188706551",
+    "title": "Motor Imagery Electroencephalograph Classification Based on Optimized Support Vector Machine by Magnetic Bacteria Optimization Algorithm",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:09.438Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on motor imagery EEG classification using optimization algorithms and SVM, with no mention or conceptual link to emotion or affective processes.",
+      "evidence": [
+        "Concepts include 'Motor imagery', 'Support vector machine', 'Brain–computer interface', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d1bac965d000c48302d2ab53c32268d40f4d0a2f3ea54c10722e784e22b9dfd6": {
+    "paper_id": "https://openalex.org/W2001880751",
+    "title": "Magnetotactic Bacteria Optimization Algorithm Based On Four Best-Rand Pairwise Schemes",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:09.483Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical optimization algorithm study inspired by magnetotactic bacteria biology; it contains no affective, emotional, or psychological content.",
+      "evidence": [
+        "All concepts and the abstract focus exclusively on bio-inspired optimization algorithms, benchmark functions, and computational performance."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c64e423b168e40f5e2b2ea1ba8b0306e7b52163e7157592a53d421ee9ed3dc68": {
+    "paper_id": "https://openalex.org/W2747976617",
+    "title": "Embryo Rescue of Brassica oleracea L. var. capitata * Brassica napus L. and Their Ploidy Identification",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:09.524Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on plant embryology and cytogenetics in Brassica species, with no conceptual or lexical connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Embryo rescue', 'Ploidy', 'Brassica oleracea', all botanical/biological"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "340d909fdacbf03ca0aa06b632a4a644d52992955f6131aefc66fa5f7e01dcbf": {
+    "paper_id": "https://openalex.org/W2740072473",
+    "title": "Benben: A Chinese Intelligent Conversational Robot",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:09.635Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on architecture and functionality of a Chinese conversational robot without mention of emotion modeling, affective computing, or emotional interaction.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are technical (AI, HCI, robotics)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8e554826a76d4a91bdfc57f970c6e9d9e8d39aab854bc9757f455560d64d0b4a": {
+    "paper_id": "https://openalex.org/W3106918474",
+    "title": "Ultrasonic-Assisted Extraction and Properties of Lectin from Soybean Protein",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:09.692Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on ultrasonic-assisted extraction and biochemical characterization of soybean lectin, with no mention or conceptual link to emotion, affective science, or related psychological/physiological constructs.",
+      "evidence": [
+        "Title and concepts are entirely chemistry/biochemistry/acoustics-focused; abstract is empty but title and venue confirm domain"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8ae48a9f0a191bebbc13813fe768b49190d0fec32af86749b967dd0b1700cf12": {
+    "paper_id": "https://openalex.org/W3093686348",
+    "title": "Characteristics of organic carbon and elemental carbon emission sources of different function areas in Jiangbei New District during winter.",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:09.694Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental science and carbon emissions in urban functional areas, with no apparent connection to emotion or affective processes.",
+      "evidence": [
+        "Title explicitly concerns organic carbon and elemental carbon emission sources in an industrial/urban context"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f6d936bb0020872797b4aeff8b5868c92196ed57fe2e64fb804ed85b7dce41ba": {
+    "paper_id": "https://openalex.org/W79453051",
+    "title": "Clustering Product Aspects Using Two Effective Aspect Relations for Opinion Mining",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:09.734Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on aspect clustering for opinion mining using database relations and similarity metrics, with no explicit mention or conceptual linkage to emotion or affective phenomena.",
+      "evidence": [
+        "Concepts include cluster analysis, hierarchical clustering, and data mining—no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "68d8dd9101cd3abbf1e4d3954300f88ec740aec92541a5ed82d8af2a22989f21": {
+    "paper_id": "https://openalex.org/W2389086615",
+    "title": "Effect of water stress on physiological characters and root morphology of Aquilaria sinensis seedlings.",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:09.850Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on plant physiology and morphology under water stress, with no connection to human or computational emotion/affect.",
+      "evidence": [
+        "Title explicitly concerns Aquilaria sinensis seedlings, water stress, and root morphology"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6241ae4b03ca1ed33456a960bcf57f8d7f4f68600e835afc9f6607d0f5325941": {
+    "paper_id": "https://openalex.org/W2592301228",
+    "title": "Analytical results by the CEX-HPLC method for the biosimilar product and Avastin.",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:09.898Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper is a technical analytical chemistry report on biosimilar characterization using CEX-HPLC; no mention or conceptual link to emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts are exclusively focused on analytical chemistry, biosimilars, and chromatography."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e7a0e4cf1fefbe89c5a8984cd8e738824765ccee0faa121744212255ec120820": {
+    "paper_id": "https://openalex.org/W2765994350",
+    "title": "Local Contexts Are Effective for Neural Aspect Extraction",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:09.902Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on aspect extraction using neural networks and local context modeling, with no indication of emotion or affective computing in title, venue, concepts, or metadata.",
+      "evidence": [
+        "Concepts include 'Recurrent neural network', 'Machine learning', and 'Context', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2a0b68b6c1bfa680db1a1d6e5f12896f42aef1ae68eeec17e04fb15ad2429e79": {
+    "paper_id": "https://openalex.org/W2149952370",
+    "title": "Aspect-Object Alignment Using Integer Linear Programming",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:09.929Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on aspect-object alignment using integer linear programming, with no mention of emotion or affective concepts in title, venue, or listed concepts.",
+      "evidence": [
+        "Concepts: Object (grammar), Computer science, Integer programming, Integer (computer science), Artificial intelligence, Algorithm, Programming language"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3635fcddf5e7128f66d2bfdb4f57e2467f17e211419ba106e1b7fe413dbb904d": {
+    "paper_id": "https://openalex.org/W2746375951",
+    "title": "20-HETE Regulates the Expression of Nedd4-2 in Kidney via Neddylation",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:09.937Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on biochemical regulation of Nedd4-2 via neddylation in kidney tissue, with no mention or conceptual link to emotion or affective processes.",
+      "evidence": [
+        "Concepts are exclusively molecular/cellular biology terms; 'emotion' is absent from title, venue, and concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e4a776bdb5fc9472b282a5bbb35012cd83603f2ea497e432b18b052cb802e2a8": {
+    "paper_id": "https://openalex.org/W3105275974",
+    "title": "Study on molecular mechanism of homeosis in cabbage Ogura CMS.",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:10.002Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular mechanisms of homeosis in cabbage CMS, which is a plant genetics and horticulture topic with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Mechanism (biology), Biology, Horticulture, Botany, Physics, Quantum mechanics — none relate to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "73badcc331dc306c6dce9dd78d0226b8a78c73d191163d0778e06e673de78f64": {
+    "paper_id": "https://openalex.org/W2510305010",
+    "title": "Product Aspect Clustering by Incorporating Background Knowledge for Opinion Mining",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:10.019Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on product aspect clustering for opinion mining using background knowledge and hierarchical clustering; no mention of emotion modeling, affective states, sentiment valence, or psychological constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are purely computational (e.g., cluster analysis, information retrieval, data mining)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "719cd3a0160413f251c898f25a43770fccde43b725cea53957c15c2aaa56e049": {
+    "paper_id": "https://openalex.org/W2958945919",
+    "title": "Serum VEGF-C Combined with CA125 Assay for Detecting Lymph Node Metastasis of Ovarian Cancer",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:10.075Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on clinical oncology biomarkers for detecting lymph node metastasis in ovarian cancer, with no mention or conceptual link to emotion or affective processes.",
+      "evidence": [
+        "Concepts include only biomedical terms like 'Lymph node metastasis', 'VEGF receptors', and 'Ovarian cancer'; no emotion-related concepts present."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "520555b4f0672e0661f8daf7833d26ce5d91c6383ee7b8c0f1abd66624fb4fe8": {
+    "paper_id": "https://openalex.org/W572341323",
+    "title": "An Improved Magnetotactic Bacteria Moment Migration Optimization Algorithm",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:10.354Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on an optimization algorithm inspired by magnetotactic bacteria, with no conceptual or lexical connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Magnetotactic bacteria', 'Optimization algorithm', 'Differential evolution' — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4951db246e078a14f9bf1c2c2cc1fab2741f025090f702bd6ae2d8eaef62bc8b": {
+    "paper_id": "https://openalex.org/W2767150988",
+    "title": "Encoding syntactic representations with a neural network for sentiment collocation extraction",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:10.894Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.9,
+      "confidence": 0.95,
+      "reason": "The paper explicitly addresses sentiment collocation extraction and encodes syntactic representations for that purpose, directly linking to emotion-related natural language processing tasks.",
+      "evidence": [
+        "Title: 'Encoding syntactic representations with a neural network for sentiment collocation extraction'",
+        "Interest topics include 'emotion' and the paper's focus on sentiment is a core affective computing task"
+      ],
+      "keywords": [
+        "sentiment",
+        "emotion",
+        "collocation",
+        "NLP",
+        "neural network",
+        "syntactic representation"
+      ],
+      "research_directions": [
+        "affective computing",
+        "sentiment analysis",
+        "linguistic emotion modeling",
+        "deep learning for emotion recognition in text"
+      ]
+    }
+  },
+  "231f4aecdc1e585e0860fd1f85e3452be3aa6544f5c02d49db0515acc48f1f46": {
+    "paper_id": "https://openalex.org/W2486808337",
+    "title": "Determination of Ginkgolides A, B, C, J and Bilobalide in Plasma by LC-ESI (-)/MS/MS (QQQ) and its Application to the Pharmacokinetic Study of Ginkgo Biloba Extract in Rats",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:10.894Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical pharmacokinetic study focused on analytical chemistry and mass spectrometry methods for quantifying ginkgolides in rat plasma; it contains no discussion of emotion, affective processes, or psychological constructs.",
+      "evidence": [
+        "Title and abstract exclusively reference chemical analysis, pharmacokinetics, and instrumentation (LC-MS/MS, ESI, MRM)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9fcb242eb3465218dbae3216855fcd518f634eed513408bf7c8671614c401365": {
+    "paper_id": "https://openalex.org/W2792490442",
+    "title": "Negation scope detection with recurrent neural network models in review texts",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:11.140Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper addresses negation scope detection, which is a critical preprocessing step for sentiment and emotion analysis in NLP; the abstract explicitly states it benefits sentiment analysis and social media text understanding—both closely tied to emotion modeling.",
+      "evidence": [
+        "'can benefit other natural language processing tasks, like relation extraction, question answering and sentiment analysis'",
+        "'serves the task of social media text understanding'"
+      ],
+      "keywords": [
+        "negation scope",
+        "sentiment analysis",
+        "emotion-aware NLP",
+        "social media text",
+        "sequence labeling"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Emotion-aware language processing",
+        "Negation handling in sentiment/emotion classification",
+        "Deep learning for affective text analysis"
+      ]
+    }
+  },
+  "df667c5934224599b6b5ec09a4b2f9eeb4c7e5cf8e3942aab92f9969fb852ca0": {
+    "paper_id": "https://openalex.org/W2010361013",
+    "title": "Social sentiment sensor: a visualization system for topic detection and topic sentiment analysis on microblog",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:11.278Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on topic sentiment analysis on microblog, directly aligning with the researcher's interest in 'emotion', as sentiment analysis is a core computational approach to modeling and inferring affective states.",
+      "evidence": [
+        "Title contains 'topic sentiment analysis'",
+        "Interest topics include 'emotion'",
+        "Sentiment analysis is a well-established proxy for emotion modeling in NLP and social media research"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "emotion",
+        "social media",
+        "topic detection",
+        "microblogging"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Social media emotion mining",
+        "Visual analytics for sentiment",
+        "Topic-level emotion modeling"
+      ]
+    }
+  },
+  "fa5d6beab74a9ce40ef509efbcfdd5d0c4041a603d531e1eb8aeca97e9e84cc9": {
+    "paper_id": "https://openalex.org/W2117176186",
+    "title": "Sentence Compression for Target-Polarity Word Collocation Extraction",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:11.523Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.9,
+      "confidence": 0.95,
+      "reason": "The paper directly addresses sentiment analysis—a core subfield of affective/emotion computing—and explicitly targets emotion-related linguistic phenomena (target-polarity word collocations) using sentiment-specific features and sentence compression for improved emotional polarity detection.",
+      "evidence": [
+        "Target-polarity word (T-P) collocation extraction, a basic sentiment analysis task",
+        "Sent Comp seeks to remove the unnecessary information for sentiment analysis",
+        "discriminative conditional random field model, with some special sentiment-related features"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "emotion",
+        "polarity",
+        "target-polarity collocation",
+        "sentiment sentence compression"
+      ],
+      "research_directions": [
+        "affective natural language processing",
+        "emotion-oriented syntactic parsing",
+        "sentiment-aware text simplification"
+      ]
+    }
+  },
+  "81ab199fbfa693c0f5aac4c15f64e52903965a660849fbec117e8605f7325841": {
+    "paper_id": "https://openalex.org/W2538071921",
+    "title": "Encoding Dependency Representation with Convolutional Neural Network for Target-Polarity Word Collocation Extraction",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:11.551Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper focuses on target-polarity word collocation extraction, where 'polarity' refers to sentiment/emotion polarity (e.g., positive/negative), a core affective computing task; 'emotion' is explicitly listed as an interest topic of the author.",
+      "evidence": [
+        "Title contains 'Target-Polarity Word Collocation Extraction'",
+        "Author's interest topics include 'emotion'",
+        "Polarity in NLP context commonly denotes sentiment/emotion valence"
+      ],
+      "keywords": [
+        "sentiment polarity",
+        "emotion recognition",
+        "targeted sentiment analysis",
+        "collocation extraction",
+        "NLP"
+      ],
+      "research_directions": [
+        "Affective natural language processing",
+        "Fine-grained sentiment analysis",
+        "Emotion-aware dependency modeling"
+      ]
+    }
+  },
+  "c4ffae15df23facaae7cdbc8583e220e4a421af9fc16b819f0b84f993ca7da41": {
+    "paper_id": "https://openalex.org/W2361256607",
+    "title": "Antioxidant activity of Maillard reaction products of pig bone meal hydrolysate",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:11.761Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on food chemistry and antioxidant activity of Maillard reaction products; no connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts exclusively concern DPPH scavenging, Maillard reaction, and food science"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "47aabb6a97a4354b3ea835afff6b48c34b8380b66ab125c55ea5ca3cdf0fff1d": {
+    "paper_id": "https://openalex.org/W2465978385",
+    "title": "SemEval-2016 Task 5: Aspect Based Sentiment Analysis",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:11.888Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper addresses Aspect-Based Sentiment Analysis, which is a core subtask in computational emotion and sentiment analysis, directly aligning with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Title: 'SemEval-2016 Task 5: Aspect Based Sentiment Analysis'",
+        "Sentiment analysis is a well-established proxy and operationalization of emotion-related language processing in NLP"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "aspect-based sentiment",
+        "emotion recognition",
+        "natural language processing",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Fine-grained emotion/sentiment detection at aspect level",
+        "Context-aware emotional polarity classification",
+        "Integration of emotion lexicons and deep learning for aspect sentiment"
+      ]
+    }
+  },
+  "e4563de5d76de9e2627e68db06a6cdb5be5dfde63c7099fe75a22d3cdc9eefce": {
+    "paper_id": "https://openalex.org/W2400850647",
+    "title": "What Causes Different Emotion Distributions of a Hot Event? A Deep Event-Emotion Analysis System on Microblogs",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:12.032Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on emotion distribution, causation of emotions, and deep event-emotion analysis—directly aligning with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Title contains 'Emotion Distributions' and 'Deep Event-Emotion Analysis System'",
+        "Abstract emphasizes 'emotion causation', 'emotion distributions', and 'deep Event-Emotion analysis'",
+        "Concepts include 'Cognitive psychology', 'Psychology', and 'Social media' — all contextually relevant to affective science"
+      ],
+      "keywords": [
+        "emotion distribution",
+        "emotion causation",
+        "event-emotion analysis",
+        "microblogging",
+        "public opinion",
+        "social media emotion"
+      ],
+      "research_directions": [
+        "affective computing",
+        "computational social science",
+        "emotion cause extraction",
+        "social media sentiment analysis",
+        "cognitive modeling of emotion"
+      ]
+    }
+  },
+  "92ebfdea16b3ffce3f3a323b2d2a6e3df4bd40ef7dd364d445773302c9b99c4c": {
+    "paper_id": "https://openalex.org/W397692437",
+    "title": "Aspect-Object Alignment with Integer Linear Programming in Opinion Mining",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:12.093Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.9,
+      "reason": "The paper addresses aspect-object alignment in opinion mining, a core subtask of sentiment analysis, which is intrinsically tied to emotion and affective states expressed in text. Although 'emotion' is not explicitly modeled (e.g., discrete emotion categories or arousal/valence), sentiment analysis is a well-established proxy and foundational methodology for affective computing.",
+      "evidence": [
+        "proposes a novel and important sentiment analysis task",
+        "target extraction is an important task in opinion mining",
+        "experiments demonstrate improvements in aligning aspects with objects for sentiment interpretation"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "opinion mining",
+        "aspect-object alignment",
+        "integer linear programming",
+        "inference constraints"
+      ],
+      "research_directions": [
+        "Affective NLP",
+        "Sentiment Modeling",
+        "Constraint-based Inference for Affect",
+        "Aspect-level Sentiment Analysis"
+      ]
+    }
+  },
+  "26604e6cea5888d8978907675818706aee9a0f708fdac7626ce4d9ebe2ea7249": {
+    "paper_id": "https://openalex.org/W1604760310",
+    "title": "Domain-Specific Sentiment Word Extraction by Seed Expansion and Pattern Generation",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:12.134Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper directly addresses sentiment word extraction—a core component of emotion and affective computing—using methods grounded in emotion-related NLP tasks; 'sentiment' is semantically and functionally proximal to 'emotion' in affective science, especially in computational contexts.",
+      "evidence": [
+        "Title explicitly mentions 'Domain-Specific Sentiment Word Extraction'",
+        "Abstract states the task is 'a fundamental subtask of sentiment analysis'",
+        "Researcher's interest topic is 'emotion', and sentiment analysis is a dominant operationalization of emotion in NLP"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "emotion lexicon",
+        "domain-specific sentiment",
+        "bootstrapping",
+        "synonymy graph",
+        "pattern generation"
+      ],
+      "research_directions": [
+        "Affective natural language processing",
+        "Emotion lexicon acquisition",
+        "Weakly supervised affective resource construction",
+        "Cross-domain emotion word adaptation"
+      ]
+    }
+  },
+  "cac521d0822799f14762f173bc2d2291fef3a371375a4eb4eccaf9a5d6ce5725": {
+    "paper_id": "https://openalex.org/W2744212203",
+    "title": "Effect of Broad Ridge with Deep Plowing and Whole Stalk Returning on N,P,K Accumulation and Allocation of Density-tolerant Maize",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:12.393Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on agronomic practices for maize cultivation, with no conceptual or lexical connection to emotion or affective science.",
+      "evidence": [
+        "Title mentions 'N,P,K Accumulation', 'Deep Plowing', 'Maize' — all agricultural/biological topics"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7c0c41a747db9e7b3496e536102b601e548e0d57d0e6ec5e583f55b0691122c6": {
+    "paper_id": "https://openalex.org/W1974852977",
+    "title": "Creating a Fine-Grained Corpus for Chinese Sentiment Analysis",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:12.482Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion-related analysis through fine-grained sentiment analysis of Chinese text, aligning with the researcher's interest in 'emotion'. Sentiment analysis is a core subfield of affective computing and emotion modeling in NLP.",
+      "evidence": [
+        "Title explicitly mentions 'Chinese Sentiment Analysis'",
+        "Abstract states the goal is to create a 'fine-grained corpus for Chinese sentiment analysis' and explores emotion-relevant constructs like 'target entity' and 'implicit aspect'",
+        "Interest topics include 'emotion', and sentiment is a primary linguistic proxy for emotion in computational research"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "emotion",
+        "fine-grained annotation",
+        "Chinese NLP",
+        "affective computing"
+      ],
+      "research_directions": [
+        "cross-sentence sentiment modeling",
+        "target-aspect pair extraction",
+        "implicit aspect detection",
+        "corpus construction for emotion analysis",
+        "global sentiment information modeling"
+      ]
+    }
+  },
+  "4310d13a8f86ad91dc7b2a07739964a4f51d54bfed1691277137cd98135f6793": {
+    "paper_id": "https://openalex.org/W2348708000",
+    "title": "Effects of Leptocybe invasa Damage on Chemical Components of Eucalyptus",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:12.498Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on phytochemical changes in Eucalyptus due to insect damage, with no connection to human or animal emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively concern chemistry, botany, and pest-induced chemical composition changes"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "64e830f87c645b3abaaa584c3b2f7a0787b1edc53c175d2919852a17e2e8c8e2": {
+    "paper_id": "https://openalex.org/W2363205913",
+    "title": "Influence of Drum Parameters of Coal Shearer on Coal Loading Effect",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:12.563Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mechanical engineering parameters of coal shearer drums and coal loading efficiency, with no mention of emotion, affective states, or psychological constructs.",
+      "evidence": [
+        "Title and abstract center on drum parameters and coal loading effect in mining machinery"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f94d7bd4fe02d1c4cc91b7583e93f90d05c622e0c1396342aaff813ca397bd33": {
+    "paper_id": "https://openalex.org/W1501931667",
+    "title": "Sentence Compression for Aspect-Based Sentiment Analysis",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:12.857Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper directly addresses sentiment analysis—a core affective/emotion-related NLP task—and explicitly focuses on aspect-level sentiment polarity, which is grounded in emotional valence (positive/negative/neutral) expressed toward entities. The researcher's interest topic 'emotion' aligns with sentiment as a linguistic proxy for emotion expression.",
+      "evidence": [
+        "Sentiment analysis, which addresses the computational treatment of opinion, sentiment, and subjectivity in text",
+        "fine-grained aspect-based sentiment analysis that aims to identify aspects that users comment on and these aspects' polarities",
+        "Sent_Comp seeks to remove the sentiment-unnecessary information for sentiment analysis"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "aspect-based sentiment",
+        "emotion polarity",
+        "subjectivity",
+        "opinion mining"
+      ],
+      "research_directions": [
+        "affective natural language processing",
+        "fine-grained emotion/sentiment detection",
+        "syntactic modeling for emotion expression",
+        "discriminative modeling of emotional content"
+      ]
+    }
+  },
+  "9d5184a35b28d4ec0dae99d45fd03c8348387151f5ca408d0dada855c4f9e6d1": {
+    "paper_id": "https://openalex.org/W2098720042",
+    "title": "Design and development based on PBL online course",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:12.903Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on problem-based learning (PBL) in online course design, with no mention of emotion, affective processes, or related psychological constructs.",
+      "evidence": [
+        "Concepts include 'Computer science', 'Problem-based learning', 'Mathematics education', and 'Multimedia'; 'emotion' is absent from title, abstract, and listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4b8bdcd30aa3dd6e4781f69b53cc9474c5ea9a7ca7f4bbee078ec4d71b9f7fb2": {
+    "paper_id": "https://openalex.org/W2186629361",
+    "title": "The optimization of bilberry rapid micropropagation in vitro culture",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:13.004Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a plant tissue culture study focused on bilberry micropropagation; no connection to human emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts are botanical: Bilberry, Explant culture, Micropropagation, In vitro, Shoot, Horticulture"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d05e9e02327a1478bab327e992b8613a54d537c7a1f1c818ce39c3e65d39bedc": {
+    "paper_id": "https://openalex.org/W2083449369",
+    "title": "Research of Visual Features Detection and Tracking Methods about Audio-Visual Bimodal Speech Recognition",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:13.022Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on lip detection and tracking for audio-visual speech recognition, with no mention of emotion, affective states, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively reference technical aspects of speech recognition, computer vision, and tracking—no emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "30ea4f14846137616dca87cb6f01cbb3b65f47092a2a01429d0c9fe9119347a6": {
+    "paper_id": "https://openalex.org/W1997936376",
+    "title": "TU-B-201B-01: Radiation Dose Reduction in Medical X-Ray CT Using Equally-Sloped Tomography",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:13.085Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is strictly focused on radiation dose reduction and image reconstruction algorithms in medical CT imaging, with no mention or conceptual link to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and the abstract pertain to tomography, reconstruction algorithms, image quality metrics, and radiation physics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "aac695e13b18581a64d6c7c5484c23406cd989b23e348e7cfa166c3929199ce0": {
+    "paper_id": "https://openalex.org/W1976959843",
+    "title": "Development of a process mining system for supporting knowledge discovery in a supply chain network",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:13.085Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on process mining in supply chain networks, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Supply chain, Business process, Process management — all unrelated to emotion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f8a8c8431a132d6221d35ac5536ce8671b6517b51cf47ec2a1be6cf421c0d6b1": {
+    "paper_id": "https://openalex.org/W2371227561",
+    "title": "Research of Teaching Methods of Physical Chemistry for Materials Majors",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:13.213Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on pedagogical methods in physical chemistry education, with no engagement of emotion theory, affective science, or psychological constructs related to emotion.",
+      "evidence": [
+        "Concepts include 'Enthusiasm' but used colloquially to denote student motivation, not as an affective/emotion research construct; no mention of emotion models, measurement, regulation, or affective computing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1b69bbb1971fbd8f2ceeaa10e14a6784f79087858e4b23ded59c14e420b8622d": {
+    "paper_id": "https://openalex.org/W2347072950",
+    "title": "Effect of exercise volume on hippocampus slices morphology in mice deficit.",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:13.215Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on exercise volume effects on hippocampal morphology in a mouse memory deficit model, with no mention of emotion, affective states, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are neuroanatomical, physiological, or methodological."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cf5a74b7d382b801ab75dfc2f4f166015a73fb0f8314447cec714c40f8f93ec9": {
+    "paper_id": "https://openalex.org/W2401564723",
+    "title": "Synthesis of 4-methyl guanidine butyric acid.",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:13.262Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a synthetic organic chemistry study focused on reaction conditions and yield optimization for a guanidine derivative; no mention of emotion, affect, psychology, neuroscience, or related domains.",
+      "evidence": [
+        "Abstract describes chemical synthesis, reaction yields, and spectroscopic characterization with no emotional or psychological content."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3a25bb0d5ecde656638dd2f95f9758c8ee9fd55b82fd07ce23769f5d4b3a508d": {
+    "paper_id": "https://openalex.org/W1965645613",
+    "title": "Riboflavin-responsive lipid-storage myopathy caused by ETFDH gene mutations",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:13.318Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper is a clinical genetics study focused on a metabolic myopathy, with no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract concern ETFDH gene mutations, riboflavin-responsive myopathy, and skeletal muscle pathology — all biomedical/neurological topics unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1c8b7a2f779995c0536c913bd55eb99c2d9af9deaba7e20121c5546434fcac14": {
+    "paper_id": "https://openalex.org/W2071968392",
+    "title": "Event type recognition based on trigger expansion",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:13.318Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on event type recognition in information extraction using trigger expansion and binary classification; no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Concepts include 'Event (particle physics)', 'Computer science', 'Artificial intelligence', 'Binary classification'; no emotion-related concepts or terms in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "47bfb4f9717ee489dfa64cff842377ba272ad72719d809c59305582f28dfcff0": {
+    "paper_id": "https://openalex.org/W2160714905",
+    "title": "Generalizing Syntactic Structures for Product Attribute Candidate Extraction",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:13.441Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on syntactic generalization for product attribute extraction in NLP, with no mention of emotion, affect, sentiment, or related psychological or linguistic constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively reference noun phrases, heuristics, syntactic structure, and evaluation metrics (precision/recall); 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7ca08f85e73c29e8b2756c1469852c1175bbba8cc6f4d5e8bb23fa01c8019c03": {
+    "paper_id": "https://openalex.org/W2313798630",
+    "title": "Sentiment Analysis",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:13.552Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper title 'Sentiment Analysis' directly aligns with the researcher's interest topic 'emotion', as sentiment analysis is a core subfield of affective computing focused on detecting and interpreting emotional states from text.",
+      "evidence": [
+        "Title: Sentiment Analysis",
+        "Interest topics: emotion"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "emotion",
+        "affective computing",
+        "natural language processing"
+      ],
+      "research_directions": [
+        "Affective natural language processing",
+        "Emotion classification",
+        "Opinion mining"
+      ]
+    }
+  },
+  "f37e04a3644caf691052c8da2cf5441a370b8937b7c4c9a06f4d7f0a84fcb154": {
+    "paper_id": "https://openalex.org/W2374708326",
+    "title": "Study on Relationship Between Ciprofloxacin Resistance and Quinolones Resistance Gene in Pseudomonas aeruginosa",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:13.925Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper is a microbiological study on antibiotic resistance mechanisms in Pseudomonas aeruginosa, with no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract focus exclusively on ciprofloxacin resistance and QNR genes in bacteria"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2d1baa550bfe703cbde52f23ed366c0acaa8f7ef0447899b44972705aae78f9e": {
+    "paper_id": "https://openalex.org/W2059635859",
+    "title": "Integrating Intra- and Inter-document Evidences for Improving Sentence Sentiment Classification",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:14.463Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on sentence sentiment classification, which is a core subtask of emotion and affective computing; 'sentiment analysis' is a direct conceptual and methodological proxy for emotion-related research.",
+      "evidence": [
+        "Title: 'Integrating Intra- and Inter-document Evidences for Improving Sentence Sentiment Classification'",
+        "Concepts include: 'Sentiment analysis'"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "sentence-level sentiment",
+        "affective NLP",
+        "emotion classification"
+      ],
+      "research_directions": [
+        "Natural language processing for emotion recognition",
+        "Context-aware sentiment modeling",
+        "Graph-based methods for affective text analysis"
+      ]
+    }
+  },
+  "33fdeb76c5ed3b1f88bee61c4faca7b3929673371d4e549e679e7f992b5f784d": {
+    "paper_id": "https://openalex.org/W2381205452",
+    "title": "Research on\"Three Independences\"Teaching methods in Physical Education in Common University",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:14.463Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on physical education curriculum reform and teaching methodology in Chinese universities, with no mention of emotion, affective processes, or psychological constructs.",
+      "evidence": [
+        "Concepts include 'Curriculum', 'Physical education', 'Countermeasure', 'China'; no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a3e5ed4be508994b41ecb854669e66347bef4c408722aeae02d027232df418fe": {
+    "paper_id": "https://openalex.org/W2388904224",
+    "title": "Exploration into PBL Teaching Pattern in Medical Genetics Teaching",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:14.620Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on problem-based learning in medical genetics education; 'emotion' is not mentioned or implied in title, concepts, or abstract.",
+      "evidence": [
+        "Concepts include 'Teaching method', 'Problem-based learning', 'Medical education', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f4fa60a82e89a1a41ad2369653c8f7540c42b1f0164264e7b19ad9ccf8a05ec5": {
+    "paper_id": "https://openalex.org/W2085800403",
+    "title": "Study of photoelectric detection system for clutch driven plate",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:14.800Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on a photoelectric detection system for industrial quality control of clutch components, with no mention or conceptual link to emotion, affective computing, or psychological/behavioral states.",
+      "evidence": [
+        "Abstract and concepts exclusively concern optical engineering, machine vision, and mechanical quality inspection"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cf28314feadf212984570cf762ac34a71ca7320194b319c283327cdfe640ee6b": {
+    "paper_id": "https://openalex.org/W2352847476",
+    "title": "Development of simulating system for low-voltage power line carrier communication",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:14.800Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper is entirely focused on power-line communication engineering, with no mention or conceptual overlap with emotion, affective science, or related psychological/linguistic domains.",
+      "evidence": [
+        "All concepts and the abstract pertain to electronic engineering, signal distortion, and simulation of power line channels."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a653c47a168a784aa1c078328906e0b9b8d68840f334c24a0c83317213dd38d6": {
+    "paper_id": "https://openalex.org/W1742166459",
+    "title": "Collocation Polarity Disambiguation Using Web-based Pseudo Contexts",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:14.975Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper addresses collocation polarity disambiguation, a core task in sentiment analysis — a subfield of affective computing and emotion-related NLP. The researcher's interest topic 'emotion' aligns with sentiment/polarity analysis, which models emotional valence (positive/negative) in language.",
+      "evidence": [
+        "Title explicitly mentions 'polarity disambiguation'",
+        "Abstract defines polarity word sentiment orientation changing with context — central to emotion/sentiment modeling",
+        "Method targets unsupervised sentiment context expansion, directly supporting emotion-laden text interpretation"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "polarity disambiguation",
+        "affective NLP",
+        "emotion lexicon",
+        "contextual sentiment"
+      ],
+      "research_directions": [
+        "computational emotion modeling",
+        "lexical semantics for affect",
+        "web-based affective resource expansion",
+        "unsupervised sentiment learning"
+      ]
+    }
+  },
+  "b109f6b105ed6f5d5c275661a083a95a13e6522174270d61bdb4b8feefe4480f": {
+    "paper_id": "https://openalex.org/W2368943092",
+    "title": "Investigation and Analysis on Teaching Effect of Medical Genetics Experiment in Seven-year Program",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:14.975Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on medical genetics education methodology and teaching quality assessment, with no mention of emotion, affective processes, or psychological constructs related to emotion.",
+      "evidence": [
+        "Abstract discusses questionnaire-based teaching effect evaluation, experimental content refinement, and independent thinking skills—no emotion-related terms or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "61c5d573731027f6e379fb6075becf9c642e51362b4917f9ab8c6cedb4775528": {
+    "paper_id": "https://openalex.org/W2354360860",
+    "title": "A Learning Algorithm of Hopfield Neural Network Based on CTSA",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:15.153Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on optimization algorithms and Hopfield neural networks for mathematical optimization, with no mention of emotion, affect, sentiment, or any psychological/behavioral constructs related to affective science.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are computational/optimization-focused"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "145df98e3c98ccf131b4d3fed122f4a247f83533b693867ae0e7f09a920d1b0f": {
+    "paper_id": "https://openalex.org/W2370059970",
+    "title": "Coal and gas outburst classifying model based on Hopfield",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:15.153Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on coal and gas outburst classification using Hopfield neural networks in petroleum/coal engineering; no mention of emotion, affect, sentiment, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively relate to engineering, nonlinear systems, and AI modeling for geological hazards"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5357c1dd061cf183dd22823f51260f3f01962504a9b57680e5a236fb24ab2949": {
+    "paper_id": "https://openalex.org/W2380019881",
+    "title": "Chemical constituents from Bauhinia variegata L.",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:15.328Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper is a phytochemical study focused on isolation and identification of chemical compounds from Bauhinia variegata L.; no mention of emotion, affective processes, or psychological/behavioral measures.",
+      "evidence": [
+        "Abstract and concepts are exclusively chemistry-focused: 'Protocatechuic acid', 'Column chromatography', 'Catechin', etc."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "91fad623510dd615fb9873de2fd20c3c958cc96c4e87f3625c45c2f5f44a0bfd": {
+    "paper_id": "https://openalex.org/W2025456496",
+    "title": "Appraisal Expression Recognition with Syntactic Path for Sentence Sentiment Classification",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:15.685Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper directly addresses emotion-related linguistic phenomena—specifically appraisal expressions, which encode evaluative stances (a core component of emotion and affect)—and applies them to sentiment classification, aligning closely with 'emotion' as a research interest.",
+      "evidence": [
+        "Defines 'appraisal expression' as a collocation of polarity word and its modified target, expressing an evaluative stance toward a target",
+        "Explicitly links appraisal expressions to sentence sentiment classification, a task grounded in affective meaning",
+        "Uses features including 'polarity features' and 'semantic features' tied to emotional evaluation"
+      ],
+      "keywords": [
+        "appraisal expression",
+        "sentiment analysis",
+        "polarity",
+        "evaluative stance",
+        "emotion recognition",
+        "natural language processing"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Linguistic appraisal theory",
+        "Sentiment classification",
+        "Emotion-oriented NLP",
+        "Computational modeling of evaluation and affect"
+      ]
+    }
+  },
+  "edf93e3c4ee9272331b39046b8cc2c3f4b146a019c81d9004dc19f2d4d6d11f6": {
+    "paper_id": "https://openalex.org/W3217323060",
+    "title": "Multipe cis-acting elements regulate angiotensinogen gene expression",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:15.685Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular genetics and cis-acting regulatory elements of the angiotensinogen gene, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title: 'Multipe cis-acting elements regulate angiotensinogen gene expression'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "296b654bcb2d0722597a131fc8f1373f1f11883a027a24a853e17ccacbfaae3c": {
+    "paper_id": "https://openalex.org/W2977705925",
+    "title": "Expression and significance of different transcripts of WNK1 gene",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:15.685Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular biology and gene expression of WNK1 transcripts in kidney tissue, with no mention of emotion, affective processes, or psychological/behavioral correlates.",
+      "evidence": [
+        "Abstract and concepts exclusively concern gene transcripts, RNA probes, in situ hybridization, and renal cell localization."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7de944823fd8fe59d0a04095f08ddaaefda2a006c2e61ff7709c2adb6f4d4aaa": {
+    "paper_id": "https://openalex.org/W2364816936",
+    "title": "Advances in studies on Bauhinia",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:15.686Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on phytochemical and pharmacological properties of Bauhinia in traditional medicine, with no mention of emotion, affective processes, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively cover chemistry, biology, and medicinal properties (e.g., 'flavonoids', 'antirheumatic', 'astringent'); no emotion-related terms appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "65bd9a04871ec809beeb27b9e826f92a7d9f13afe1d82f946072ffb9dfefc89e": {
+    "paper_id": "https://openalex.org/W2322573851",
+    "title": "Appraisal Expression Recognition Based on Syntactic Path",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:15.713Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on 'appraisal expression recognition', a core subtask of emotion/sentiment analysis, and directly aligns with the researcher's interest topic 'emotion'. It addresses emotion-related linguistic units (polarity words, evaluation targets) using NLP techniques grounded in affective computing.",
+      "evidence": [
+        "Title: 'Appraisal Expression Recognition Based on Syntactic Path'",
+        "Abstract states: 'a novel method that uses syntactic paths to automatically recognize the appraisal expressions'",
+        "Abstract mentions 'polarity words' and 'evaluation targets', central constructs in emotion/appraisal theory (e.g., Appraisal Theory in linguistics and affective science)"
+      ],
+      "keywords": [
+        "appraisal expression",
+        "sentiment analysis",
+        "emotion recognition",
+        "polarity",
+        "natural language processing",
+        "syntactic path",
+        "opinion mining"
+      ],
+      "research_directions": [
+        "computational emotion recognition",
+        "linguistic appraisal modeling",
+        "syntax-aware sentiment analysis",
+        "target-dependent emotion extraction"
+      ]
+    }
+  },
+  "3a24479e5838aa9da8fcd7fe0ddc336d59d1ca70eaec5922ed7b3e8779501cd9": {
+    "paper_id": "https://openalex.org/W2377500488",
+    "title": "Isolation,identification of the chemical constituents from Bauhinia variegata L.",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:15.860Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a phytochemical study focused on isolation and structural identification of triterpenoids and steroidal compounds; no emotion-related concepts, methods, or applications are present.",
+      "evidence": [
+        "Abstract describes chromatography and spectroscopic analysis of chemical constituents; all concepts are chemistry-focused (e.g., Friedelin, stereochemistry, triterpenoid)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "308df7f66bb953b76aba9479b596b9a4f785c77549653c727e817cc7bc089733": {
+    "paper_id": "https://openalex.org/W2374833015",
+    "title": "Nuclear Transcription Factor Binding Activity and Proliferation of Vascular Smooth Muscle Cell",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:15.860Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular mechanisms of vascular smooth muscle cell proliferation in hypertension, with no mention or conceptual link to emotion, affect, or psychological/affective processes.",
+      "evidence": [
+        "All concepts and abstract content pertain to transcription factors (NF-κB, CREB, AP-1), cell signaling, and cardiovascular pathophysiology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2665039b718386be5943ab285faab04ad17d6ce4879016392e77a738f7da842d": {
+    "paper_id": "https://openalex.org/W2162466977",
+    "title": "Recommended or Not? Give Advice on Online Products",
+    "researcher_name": "Yanyan Zhao",
+    "researcher_openalex_author_id": "A5031911989",
+    "updated_at": "2026-02-20T17:21:16.052Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.98,
+      "reason": "The paper explicitly addresses sentiment analysis—a core computational approach to modeling emotion and affect—and focuses on opinion judgment, which is intrinsically tied to emotional valence (positive/negative attitudes). The researcher's interest topic 'emotion' aligns directly with the paper's central task of sentence-level sentiment classification.",
+      "evidence": [
+        "core task of the system can be considered as a binary sentence sentiment classification problem",
+        "sentiment of each sentence predicted by a maximum entropy (ME) classifier"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "emotion",
+        "opinion judgment",
+        "polarity",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective Natural Language Processing",
+        "Computational Emotion Modeling",
+        "Opinion Mining",
+        "Sentiment Classification"
+      ]
+    }
   }
 }

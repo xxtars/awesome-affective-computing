@@ -1205,5 +1205,1949 @@
         "vision-language fusion for emotion"
       ]
     }
+  },
+  "9ee5c350a1894d19df7f0ec130830fb286493bcf7b1c3f4b5477f491345831b6": {
+    "paper_id": "https://openalex.org/W4402701637",
+    "title": "ICFRNet: Image Complexity Prior Guided Feature Refinement for Real-time Semantic Segmentation",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:42.732Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on real-time semantic segmentation using image complexity priors and feature refinement; no mention of emotion, affect, psychological states, or related constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are computer vision/AI technical."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "640fadeeb7f069411a626a86f6e7dd7b3f293cd66c6567d2d4da81b50a6b6523": {
+    "paper_id": "https://openalex.org/W4200462845",
+    "title": "Table of Contents",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:43.105Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "Paper title 'Table of Contents' and metadata (venue, concepts, empty abstract) show no connection to emotion or affective science.",
+      "evidence": [
+        "Title: 'Table of Contents'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "88810fe58ed12a0bf3e23c21281c9917ab5283e0a78bbe71e31f4fda0fce8f8b": {
+    "paper_id": "https://openalex.org/W3132842450",
+    "title": "Guest Editorial: Special issue on deep learning with small samples",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:43.246Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on deep learning with small samples, a technical machine learning challenge, with no indication of emotion or affective science content.",
+      "evidence": [
+        "Title mentions 'deep learning with small samples'; concepts are all technical CS/AI topics; no emotion-related terms in metadata"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0e92d1a7c6aa618d76cd25c89a7f8fec55da1048c5e5f8d45dda26071cfd4813": {
+    "paper_id": "https://openalex.org/W3097053213",
+    "title": "BBS-Net: RGB-D Salient Object Detection with a Bifurcated Backbone Strategy Network",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:43.246Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on RGB-D salient object detection using a computer vision architecture; no mention or conceptual link to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are exclusively computer vision/AI-focused, with no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5670172d8a89bc7095d9c9addcc4cb4cbedd5347fdc4d27d36a4c575510747e7": {
+    "paper_id": "https://openalex.org/W3012538524",
+    "title": "A method of 3D light field imaging through single layer of weak scattering media basd on deep learning",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:43.291Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on computational imaging, light field reconstruction, and deep learning for scattering media — no connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are in computer vision, optics, and AI engineering."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ef0a272412caca0bd40f0732a11576cc64608cdd66b7af9fb69132dfe450fb8d": {
+    "paper_id": "https://openalex.org/W4393764426",
+    "title": "LAKE-RED: Camouflaged Images Generation by Latent Background Knowledge Retrieval-Augmented Diffusion",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:43.417Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on camouflaged image generation using diffusion models and knowledge retrieval, with no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are diffusion, computer science, physics, thermodynamics"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "290d105521ea6e56bdcd51dd689dbc1888c85d668f3191a3d97d3bd7e7866d64": {
+    "paper_id": "https://openalex.org/W4200312714",
+    "title": "SSL++: Improving Self-Supervised Learning by Mitigating the Proxy Task-Specificity Problem",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:43.444Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on self-supervised learning, proxy task generalizability, and feature representation in computer vision; no mention of emotion, affect, sentiment, or related psychological or affective computing concepts.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts listed are technical ML/AI topics unrelated to affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bee8a165dd2a89026dafc49cb40f713fc7997d8c03ba533f3ae9b29978cd2b1a": {
+    "paper_id": "https://openalex.org/W2981431462",
+    "title": "Recognizing the Style of Visual Arts via Adaptive Cross-layer Correlation",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:43.507Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on visual art style recognition using deep learning and cross-layer correlation; no mention of emotion, affect, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts emphasize style, painting, sculpture, architecture, and representation in computer vision—not emotion or affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "17425a339875c89b97ec1da4c0bca480a76e78f28549c2a372f66de90c131361": {
+    "paper_id": "https://openalex.org/W3179856907",
+    "title": "BiSPL: Bidirectional Self-Paced Learning for Recognition From Web Data",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:43.580Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on noise-robust deep learning for fine-grained visual classification using web data, with no mention of emotion, affect, sentiment, or any psychological/behavioral constructs related to affective science.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all technical content centers on self-paced learning, noise robustness, and FGVC."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d59fdecb22572aedd0f646d2dced3aa68ca7ce5fe8dd5d0b5667240458957517": {
+    "paper_id": "https://openalex.org/W3185066916",
+    "title": "Re-Attention for Visual Question Answering",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:43.642Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on visual question answering and attention mechanisms, with no mention of emotion, affect, or related psychological or computational affective science concepts.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper concepts and abstract contain no emotion-related terms or affective modeling."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d20043379dec5717fb2daa98c2835ea9c217892d5f23171058f30ee583edad12": {
+    "paper_id": "https://openalex.org/W4312364648",
+    "title": "IC9600: A Benchmark Dataset for Automatic Image Complexity Assessment",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:43.708Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on image complexity assessment as a perceptual and computational vision task, with no mention of emotion, affective states, sentiment, or related psychological constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; concepts include 'Perception' but in the context of visual complexity, not affective perception."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "202d4d28cd77bd7a2c05c6ba46b2f45f639adba828dc236c64c5f7a6c9478f73": {
+    "paper_id": "https://openalex.org/W3216851236",
+    "title": "Deep Learning-Based Encrypted Network Traffic Classification and Resource Allocation in SDN",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:43.710Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on encrypted network traffic classification and resource allocation using deep learning in SDN; no mention of emotion, affective computing, or psychological/behavioral aspects.",
+      "evidence": [
+        "Abstract and concepts contain only technical networking and AI terms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "65ede228c8e1188e5eb315e123bee7f83ff51cba9b2d8348bc1855ef712fdc86": {
+    "paper_id": "https://openalex.org/W2990984982",
+    "title": "EGNet: Edge Guidance Network for Salient Object Detection",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:43.791Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on salient object detection in computer vision, with no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Concepts include 'Salient', 'Computer vision', 'Convolutional neural network'; no emotion-related terms appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "815f0e19061de2fba2adc8a0ce66b0d0fb791ff303ffac95d5f6fa04d04d7cf6": {
+    "paper_id": "https://openalex.org/W3175872058",
+    "title": "Multi-Source Domain Adaptation for Object Detection",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:43.827Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on domain adaptation for object detection in computer vision, with no mention of emotion, affect, psychological constructs, or related methodologies.",
+      "evidence": [
+        "Abstract and concepts contain only technical CV/AI terms like 'domain adaptation', 'object detection', 'Faster R-CNN', and 'feature alignment'; 'emotion' does not appear anywhere in metadata or abstract."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "28e5d3176b7119b72b2cc17c68497c45d03ac1e91fb0d46202090f07399372bd": {
+    "paper_id": "https://openalex.org/W3207842348",
+    "title": "MULL'21",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:43.989Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multimedia learning with limited labeling (e.g., few-shot, low-data regimes) and does not mention emotion, affective computing, or any related psychological, behavioral, or sentiment-related constructs.",
+      "evidence": [
+        "Abstract contains no reference to emotion, affect, sentiment, valence, arousal, or related terms; all concepts are technical ML/multimedia topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a945dd5787d20f23aaef49f8444eb38f4feb9852b30070f847d760710e640407": {
+    "paper_id": "https://openalex.org/W3080684679",
+    "title": "Bifurcated Backbone Strategy for RGB-D Salient Object Detection",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:44.984Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on RGB-D salient object detection, a computer vision task with no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper's title, abstract, concepts, and methodology are entirely centered on feature fusion, backbone networks, and saliency detection in multimodal imaging."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d86a14b9656578e91c5b853504fb9e7104a249cc11b679c795e33555141bbb40": {
+    "paper_id": "https://openalex.org/W4285415758",
+    "title": "Computational Emotion Analysis From Images: Recent Advances and Future Directions",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:44.997Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper title explicitly centers on computational emotion analysis from images, directly aligning with the researcher's interest topic 'emotion'. Multiple concepts—including 'Emotion recognition'—further confirm strong topical alignment.",
+      "evidence": [
+        "Title: 'Computational Emotion Analysis From Images: Recent Advances and Future Directions'",
+        "Concepts include 'Emotion recognition'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "computational emotion analysis",
+        "affective computing",
+        "image-based emotion detection"
+      ],
+      "research_directions": [
+        "emotion recognition from visual data",
+        "deep learning for affective computing",
+        "cross-domain emotion modeling",
+        "interpretability in emotion classifiers"
+      ]
+    }
+  },
+  "262e5a907bcff07eb1cb9f5bd0d0ed7353b192bab552b80208f3edc40ea61cfb": {
+    "paper_id": "https://openalex.org/W3161345065",
+    "title": "Multimodal Event-Aware Network for Sentiment Analysis in Tourism",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:45.013Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.97,
+      "reason": "The paper explicitly addresses sentiment analysis—a core affective/emotion-related task—and links sentiment to real-world emotional triggers (e.g., flight delay causing negative sentiment), aligning directly with 'emotion' as a stated interest topic.",
+      "evidence": [
+        "'we perform a sentiment analysis on the posted Weibos about the passengers’ experience'",
+        "'flight delay may cause negative sentiment'",
+        "interest topics: emotion"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "emotion",
+        "multimodal learning",
+        "affective computing",
+        "event-aware modeling"
+      ],
+      "research_directions": [
+        "Affective multimodal analysis",
+        "Emotion-triggered event modeling",
+        "Tourism affective computing",
+        "Social media emotion detection"
+      ]
+    }
+  },
+  "108e94f46d62d77fa52711623a168c74e59b48077d9521d3d6a20b55713ceafc": {
+    "paper_id": "https://openalex.org/W2981843773",
+    "title": "Zero-Shot Emotion Recognition via Affective Structural Embedding",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:45.062Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is explicitly focused on emotion recognition, uses affective computing concepts, and directly addresses emotion classification—aligning precisely with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Title contains 'Emotion Recognition'",
+        "Abstract states 'Image emotion recognition attracts much attention' and 'recognize the new unseen emotions'",
+        "Concepts include 'Emotion classification' and 'Affective computing'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "zero-shot learning",
+        "affective computing",
+        "affective structural embedding",
+        "emotion classification"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion classification",
+        "zero-shot learning in affective domains",
+        "multimodal emotion analysis"
+      ]
+    }
+  },
+  "1883741ecd810cfeae74761d7af60ed30a068f12695899fbb60e4009ee019f1f": {
+    "paper_id": "https://openalex.org/W3034456293",
+    "title": "Adaptive Deep Metric Learning for Affective Image Retrieval and Classification",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:45.397Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on affective image retrieval and classification, directly addressing emotion recognition in visual content using deep learning methods aligned with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Title contains 'Affective Image Retrieval and Classification'",
+        "Abstract states 'understand visual emotions' and 'adaptive sentiment similarity loss' targeting emotion polarity",
+        "Methodology centers on modeling hierarchical and complex nature of emotions"
+      ],
+      "keywords": [
+        "affective computing",
+        "emotion recognition",
+        "sentiment similarity",
+        "affective image retrieval",
+        "deep metric learning"
+      ],
+      "research_directions": [
+        "affective image analysis",
+        "emotion-aware multimedia retrieval",
+        "deep learning for affective computing",
+        "visual sentiment analysis"
+      ]
+    }
+  },
+  "4e5b1e809ff62687333a2763ac5dc62f4ad39b44820d1b578f2bacfec824856b": {
+    "paper_id": "https://openalex.org/W2980673424",
+    "title": "Joint Acne Image Grading and Counting via Label Distribution Learning",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:45.437Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on medical image analysis for acne grading and counting using label distribution learning; no connection to emotion, affective computing, or psychological affective processes.",
+      "evidence": [
+        "All concepts and the abstract pertain to dermatology, computer vision, and medical AI—no mention of emotion, affect, sentiment, or related psychological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "17727c04e7ecb42c0380a1dcc1817c43442fb652b3cf024af1752d3b53d2ee34": {
+    "paper_id": "https://openalex.org/W4312826772",
+    "title": "S$$^{2}$$-VER: Semi-supervised Visual Emotion Recognition",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:45.494Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper title explicitly includes 'Visual Emotion Recognition', directly aligning with the researcher's interest topic 'emotion'; the venue and concepts further support its relevance to affective computing.",
+      "evidence": [
+        "Title: S²-VER: Semi-supervised Visual Emotion Recognition",
+        "Interest topics: emotion"
+      ],
+      "keywords": [
+        "visual emotion recognition",
+        "semi-supervised learning",
+        "affective computing",
+        "pattern recognition",
+        "machine learning"
+      ],
+      "research_directions": [
+        "Affective AI",
+        "Emotion-aware computer vision",
+        "Semi-supervised learning for affective signals"
+      ]
+    }
+  },
+  "299daaf0200b4f50f8cc94db266dfe593c1fad4657dd4a19722fdd39646f4539": {
+    "paper_id": "https://openalex.org/W3154568275",
+    "title": "Curriculum CycleGAN for Textual Sentiment Domain Adaptation with Multiple Sources",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:46.012Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.98,
+      "reason": "The paper explicitly addresses textual sentiment analysis—a core affective/emotion-related task—and aligns directly with the researcher's interest in 'emotion'. Sentiment is a well-established linguistic proxy for valence-oriented emotion states, and the method targets domain adaptation for sentiment classification, which is central to affective computing.",
+      "evidence": [
+        "Title contains 'Textual Sentiment Domain Adaptation'",
+        "Abstract states the goal is 'sentiment classification' of user-generated reviews to capture customer feedback",
+        "Researcher's interest topic is 'emotion', and sentiment is a primary operationalization of emotion in NLP"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "emotion",
+        "domain adaptation",
+        "affective computing",
+        "text classification"
+      ],
+      "research_directions": [
+        "affective natural language processing",
+        "cross-domain emotion modeling",
+        "machine learning for emotion recognition"
+      ]
+    }
+  },
+  "2c4d34e2a105d0caf50e78f2efce6ec46aaa390ebbc0a5a53ee58e6807ef6c54": {
+    "paper_id": "https://openalex.org/W3138129477",
+    "title": "Emotional Semantics-Preserved and Feature-Aligned CycleGAN for Visual Emotion Adaptation",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:46.149Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on visual emotion analysis, including emotion distribution learning and dominant emotion classification, and introduces an emotion-preserving adversarial framework—directly aligning with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Title contains 'Emotional Semantics-Preserved' and 'Visual Emotion Adaptation'",
+        "Abstract states: 'we focus on UDA in visual emotion analysis for both emotion distribution learning and dominant emotion classification'",
+        "Proposes 'CycleEmotionGAN++' — a model explicitly designed for emotional semantic consistency"
+      ],
+      "keywords": [
+        "visual emotion analysis",
+        "emotion distribution learning",
+        "dominant emotion classification",
+        "emotional semantic consistency",
+        "domain adaptation",
+        "CycleGAN",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware domain adaptation",
+        "multimodal emotion modeling",
+        "deep generative models for emotion",
+        "unsupervised learning in affective vision"
+      ]
+    }
+  },
+  "30be5ad7734759b3071900e01e7a94f167eb941de32c556f9291f46f006195fb": {
+    "paper_id": "https://openalex.org/W3080873008",
+    "title": "Learning Discriminative Sentiment Representation from Strongly- and Weakly Supervised CNNs",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:46.240Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion-related visual sentiment analysis using affective datasets, strongly supervised fine-tuning on 'affecitve datasets', and evaluation on public affective datasets and a new Comics dataset designed for emotional expression analysis.",
+      "evidence": [
+        "mentions 'affecitve datasets' (typo for 'affective') with manual annotation",
+        "focuses on visual sentiment analysis — a core subfield of affective computing",
+        "uses social images queried by 'sentiment categories as keywords', linking to emotion labels"
+      ],
+      "keywords": [
+        "emotion",
+        "sentiment analysis",
+        "affective computing",
+        "visual sentiment",
+        "affective datasets"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Multimodal emotion recognition",
+        "Weakly supervised learning for emotion",
+        "Visual representation learning for affect"
+      ]
+    }
+  },
+  "ab210eaede9e0162aca6a2a0ebd48850766c27c9e6435629265a9c080e89b4cb": {
+    "paper_id": "https://openalex.org/W2948657385",
+    "title": "Self-Paced Balance Learning for Clinical Skin Disease Recognition",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:46.280Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on class imbalance and self-paced learning for clinical skin disease recognition; 'emotion' is not mentioned or implied in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Interest topics: emotion; paper concepts and abstract contain no emotion-related terms or affective computing elements."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bc6da1431a5f706a8593e9b0ec9eba709435c30408e1260bdca25768d1f252d3": {
+    "paper_id": "https://openalex.org/W2903811598",
+    "title": "Learning from Web Data Using Adversarial Discriminative Neural Networks for Fine-Grained Classification",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:46.411Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on fine-grained image classification using web data and adversarial discriminative learning, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; all concepts are technical ML/CV topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e2b90da9520401adcc63eff14500a87d6d8d2c49e2083bcd40fc6ff3b0bbb379": {
+    "paper_id": "https://openalex.org/W3036481309",
+    "title": "LD-MAN: Layout-Driven Multimodal Attention Network for Online News Sentiment Recognition",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:46.477Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on sentiment recognition—a core affective/emotion-related task—and uses 'affective representations' as a key technical objective, directly aligning with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Title includes 'Sentiment Recognition'",
+        "Abstract states: 'LD-MAN then learns the affective representations of the articles'",
+        "Researcher's interest topic is 'emotion', and sentiment is a well-established dimension of emotion in affective computing"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "affective representations",
+        "multimodal emotion recognition",
+        "online news sentiment",
+        "layout-driven attention"
+      ],
+      "research_directions": [
+        "affective multimodal learning",
+        "emotion modeling from text-image layouts",
+        "sentiment recognition in long-form digital content",
+        "affective computing for news media"
+      ]
+    }
+  },
+  "8bb942f86cae191f1728ee3968ff1825377dad05022686835c385631f578be9f": {
+    "paper_id": "https://openalex.org/W2897959996",
+    "title": "Historical Context-based Style Classification of Painting Images via Label Distribution Learning",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:46.527Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on painting style classification using historical context and label distribution learning; no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Title and abstract exclusively address visual art style, historical context, and CNN-based classification—no emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d5b52033b894198b5159019e16a5744545ad6fe3d65e9afe8a2545c8e22c7103": {
+    "paper_id": "https://openalex.org/W3174134652",
+    "title": "Affective Image Content Analysis: Two Decades Review and New Perspectives",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:46.571Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.99,
+      "reason": "The paper is a comprehensive survey on affective image content analysis, directly aligned with the researcher's interest in 'emotion', and explicitly addresses emotion representation, recognition, prediction, and applications in visual computing.",
+      "evidence": [
+        "Title contains 'Affective Image Content Analysis'",
+        "Abstract states 'Images can convey rich semantics and induce various emotions in viewers'",
+        "Abstract explicitly mentions 'emotion representation models', 'dominant emotion recognition', 'personalized emotion prediction', and 'emotion distribution learning'"
+      ],
+      "keywords": [
+        "affective computing",
+        "emotion recognition",
+        "image emotion analysis",
+        "affective gap",
+        "emotion distribution learning",
+        "label noise in emotion labeling"
+      ],
+      "research_directions": [
+        "image content and context understanding for emotion",
+        "group emotion clustering",
+        "viewer-image interaction",
+        "learning from noisy or few emotion labels",
+        "personalized emotion prediction"
+      ]
+    }
+  },
+  "c3f83ce4c9625dd907e30cfb4a96326f9a5a27b3a3b63f8be8454a8cccb7a552": {
+    "paper_id": "https://openalex.org/W2805820938",
+    "title": "Dynamic Match Kernel With Deep Convolutional Features for Image Retrieval",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:46.633Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on image retrieval using deep convolutional features and kernel design, with no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are computer vision/AI-focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "44abbd78c1d2c7115303ef2940d5aad3d352e9e67e79f5dbb071860c73d7819c": {
+    "paper_id": "https://openalex.org/W2884115684",
+    "title": "Recognition From Web Data: A Progressive Filtering Approach",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:46.634Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on web data filtering and CNN training for generic image classification, with no mention of emotion, affect, sentiment, or related psychological or affective computing concepts.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are computer vision/machine learning focused"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bd6658c21e548d9ef18780ba6ccd956481d8028e0ffcda0048a3f10a1daf0b9e": {
+    "paper_id": "https://openalex.org/W4225650823",
+    "title": "Multimodal Sentiment Analysis With Image-Text Interaction Network",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:46.670Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on sentiment analysis as a proxy for emotion modeling, with repeated emphasis on 'affective regions', 'human sentiment', and interaction between image/text modalities to capture emotional states — directly aligning with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Abstract states: 'users are getting used to posting images and text on social networks to share their emotions or opinions'",
+        "Abstract states: 'affective regions that evoke human sentiment in an image'",
+        "Abstract states: 'relationship between image affective regions and the associated text is of great significance for multimodal sentiment analysis'"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "affective regions",
+        "multimodal emotion",
+        "image-text interaction",
+        "cross-modal alignment"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion recognition",
+        "sentiment analysis",
+        "computer vision and language integration",
+        "human-centered AI"
+      ]
+    }
+  },
+  "647feb7f113081270f7ab7d37dc496ba1345c1f9a310ccb464c0c8bf28c8e749": {
+    "paper_id": "https://openalex.org/W2942755646",
+    "title": "Subspace Clustering via Good Neighbors",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:46.675Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on subspace clustering algorithms in computer vision and pattern recognition, with no mention of emotion, affect, psychological affective processes, or related constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are mathematical/computational (e.g., 'affinity matrix', 'sparsity', 'subspace topology')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cbecb819d77a6e8f2a93daa0e4fb0e0a0a3b799240c40dec0151b8bbadddba39": {
+    "paper_id": "https://openalex.org/W2966002724",
+    "title": "IP102: A Large-Scale Benchmark Dataset for Insect Pest Recognition",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:46.680Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on insect pest recognition in agriculture using computer vision and machine learning; no mention of emotion, affective computing, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are domain-specific computer vision and agricultural AI."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "70b41445c39adfc094604e1f4c99a76af6f2852e1eab4b2fc07e37961b637fbf": {
+    "paper_id": "https://openalex.org/W4403272612",
+    "title": "An overview of research development of affective computing and understanding",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:46.703Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.99,
+      "reason": "The paper is explicitly focused on affective computing and emotion understanding, directly aligning with the researcher's interest topic 'emotion'. The title, abstract, and all discussed research directions center on emotion recognition, modeling, and application.",
+      "evidence": [
+        "Title: 'An overview of research development of affective computing and understanding'",
+        "Abstract states: '情感计算与理解旨在赋予计算机系统识别、理解、表达和适应人的情感的能力'",
+        "Abstract lists research directions including '多模态情感识别' (multimodal emotion recognition), '孤独症情感识别' (autism emotion recognition), '情感图像内容分析' (emotion image content analysis), and '面部表情识别' (facial expression recognition)"
+      ],
+      "keywords": [
+        "affective computing",
+        "emotion recognition",
+        "multimodal emotion analysis",
+        "facial expression",
+        "emotion understanding",
+        "human-computer interaction"
+      ],
+      "research_directions": [
+        "multimodal emotion recognition",
+        "autism emotion recognition",
+        "emotion image content analysis",
+        "facial expression recognition"
+      ]
+    }
+  },
+  "4b5fa202087601cca5860a87b0815332d64aff25cd700bb94cfa25a0ccfba530": {
+    "paper_id": "https://openalex.org/W3113126492",
+    "title": "APSE: Attention-Aware Polarity-Sensitive Embedding for Emotion-Based Image Retrieval",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:46.788Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is explicitly focused on emotion-based image retrieval, directly aligning with the researcher's interest topic 'emotion'. It introduces a method (APSE) designed to model emotional content in images using attention mechanisms and polarity-sensitive embedding.",
+      "evidence": [
+        "Title contains 'Emotion-Based Image Retrieval'",
+        "Abstract states: 'An emotion-based image retrieval (EBIR) system is useful for obtaining visual contents with desired emotions'",
+        "Method explicitly models 'coarse polarities and fine categories of emotions'"
+      ],
+      "keywords": [
+        "emotion",
+        "image retrieval",
+        "affective computing",
+        "polarity",
+        "attention mechanism",
+        "embedding"
+      ],
+      "research_directions": [
+        "affective computer vision",
+        "multimodal emotion analysis",
+        "emotion-aware information retrieval",
+        "deep learning for affective signals"
+      ]
+    }
+  },
+  "73232421966ff839688ac202402dfa91268ea004ddf3d5b48c733d05a19aaace": {
+    "paper_id": "https://openalex.org/W2906456982",
+    "title": "Learning from Web Data: the Benefit of Unsupervised Object Localization",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:47.002Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unsupervised object localization and web data utilization for fine-grained image classification, with no mention of emotion, affect, sentiment, or related psychological or computational affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are computer vision/AI-focused (e.g., 'object localization', 'CNNs', 'data distributions')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f9018c178dd7127b119616ff583f2bad3ae38b068346ebc9112bcd9181a64f1d": {
+    "paper_id": "https://openalex.org/W2798277818",
+    "title": "Clinical Skin Lesion Diagnosis Using Representations Inspired by Dermatologist Criteria",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:47.002Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on clinical skin lesion diagnosis using dermatologist-inspired visual representations; no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively relate to dermatology, CAD, medical imaging, and clinical diagnosis—no emotion-related terms or methodologies."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a67dd12de30deb4de4754c2578011c0d771e936f66047cca5b3d32404bd5c878": {
+    "paper_id": "https://openalex.org/W2996799978",
+    "title": "An End-to-End Visual-Audio Attention Network for Emotion Recognition in User-Generated Videos",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:47.294Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on emotion recognition in user-generated videos, aligning directly with the researcher's stated interest topic 'emotion'. It proposes a novel end-to-end deep learning architecture (VAANet) with attention mechanisms specifically designed for multimodal (visual-audio) emotion classification, and uses emotion-specific constraints (polarity-emotion hierarchy) and benchmark emotion datasets (VideoEmotion-8, Ekman-6).",
+      "evidence": [
+        "Title contains 'Emotion Recognition'",
+        "Abstract states 'Emotion recognition in user-generated videos plays an important role in human-centered computing'",
+        "Uses emotion-specific datasets: VideoEmotion-8 and Ekman-6"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "multimodal learning",
+        "visual-audio attention",
+        "end-to-end deep learning",
+        "user-generated videos",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion analysis",
+        "deep learning for emotion recognition",
+        "attention mechanisms in affective AI",
+        "human-centered AI"
+      ]
+    }
+  },
+  "84dc95af1c3e30bb0495a0450856ce94aedefec87bdeeb7712350a4696c635d3": {
+    "paper_id": "https://openalex.org/W2780842270",
+    "title": "Automatic Model Selection in Subspace Clustering via Triplet Relationships",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:47.311Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on subspace clustering and model selection using triplet relationships; no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all concepts are technical/computational (e.g., 'Linear subspace', 'Spectral clustering', 'Affinity matrix')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b2f54c4bb3523e8a06059778366f0abe786d6d32bc7da845c3786fe8cba25b2c": {
+    "paper_id": "https://openalex.org/W3093162393",
+    "title": "Emotion-Based End-to-End Matching Between Image and Music in Valence-Arousal Space",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:47.402Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on emotion modeling and matching using the valence-arousal space, directly aligning with the researcher's interest topic 'emotion'. It proposes a novel end-to-end cross-modal method grounded in affective science principles.",
+      "evidence": [
+        "Title contains 'Emotion-Based' and 'Valence-Arousal Space'",
+        "Abstract states 'we study end-to-end matching between image and music based on emotions in the continuous valence-arousal (VA) space'",
+        "Method includes 'single-modal emotion relationship in the VA spaces of both images and music'"
+      ],
+      "keywords": [
+        "emotion",
+        "valence-arousal",
+        "cross-modal matching",
+        "affective computing",
+        "embedding",
+        "multimodal learning"
+      ],
+      "research_directions": [
+        "affective multimodal learning",
+        "continuous emotion representation",
+        "end-to-end affective alignment",
+        "valence-arousal modeling",
+        "cross-modal affective embedding"
+      ]
+    }
+  },
+  "3cb038ee03ded3d1f73185174066b693092bbab193e6973a2ed0de6cc4822867": {
+    "paper_id": "https://openalex.org/W2981669886",
+    "title": "Attention-Aware Polarity Sensitive Embedding for Affective Image Retrieval",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:47.819Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on affective image retrieval using emotion-sensitive modeling, attention mechanisms for emotion-specific regions, and polarity-aware loss functions — all directly aligned with 'emotion' as a core interest topic.",
+      "evidence": [
+        "Title contains 'Affective Image Retrieval'",
+        "Proposes 'Attention-aware Polarity Sensitive Embedding (APSE) network to learn affective representations'",
+        "Abstract emphasizes 'emotion-specific attended representations' and 'weighted emotion-pair loss'"
+      ],
+      "keywords": [
+        "affective computing",
+        "emotion recognition",
+        "polarity detection",
+        "attention mechanism",
+        "affective image retrieval",
+        "embedding learning"
+      ],
+      "research_directions": [
+        "affective vision",
+        "multimodal emotion analysis",
+        "deep learning for emotion representation",
+        "attention-based affective modeling"
+      ]
+    }
+  },
+  "4513df48b2e8c76bbf130dc17c5d13436f5752e3e6c0c53f06e5209bcbfdf8b1": {
+    "paper_id": "https://openalex.org/W2895072925",
+    "title": "Sub-GAN: An Unsupervised Generative Model via Subspaces",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:48.374Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unsupervised generative modeling via subspaces, with no mention of emotion, affect, or related psychological/behavioral constructs in title, venue, concepts, or available metadata.",
+      "evidence": [
+        "Concepts include 'Linear subspace', 'Generative model', 'Discriminator', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "66943f3304fe40ead3c7cc345d87d7e6d8bd074befe6511cb8fc4f8375ed180e": {
+    "paper_id": "https://openalex.org/W2971765953",
+    "title": "WSCNet: Weakly Supervised Coupled Networks for Visual Sentiment Classification and Detection",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:48.502Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses visual sentiment analysis—a core affective/emotion-related task—and explicitly links sentiment to emotional response evoked by visual content; 'emotion' is a stated interest topic of the researcher.",
+      "evidence": [
+        "Title includes 'Visual Sentiment Classification and Detection'",
+        "Abstract states: 'Automatic assessment of sentiment from visual content... due to the high-level abstraction in the recognition process' and references 'evoked sentiment'",
+        "Concepts include 'Sentiment analysis' and 'Pattern recognition (psychology)'"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "visual emotion",
+        "affective computing",
+        "weakly supervised learning",
+        "convolutional neural network"
+      ],
+      "research_directions": [
+        "affective vision",
+        "multimodal emotion recognition",
+        "weakly supervised affective modeling",
+        "deep learning for sentiment"
+      ]
+    }
+  },
+  "12233d67cca32abdb4d56fff9f335738e6db380ea97ca8a2698e5a4f24c98871": {
+    "paper_id": "https://openalex.org/W2888597673",
+    "title": "Image captioning by incorporating affective concepts learned from both visual and textual components",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:48.529Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly incorporates 'affective concepts'—a direct synonym for emotion-related constructs—and aligns with the researcher's stated interest in 'emotion'; title and domain (affective vision-language modeling) strongly indicate affective computing focus.",
+      "evidence": [
+        "Title: 'Image captioning by incorporating affective concepts learned from both visual and textual components'",
+        "Interest topics: 'emotion'"
+      ],
+      "keywords": [
+        "affective concepts",
+        "emotion",
+        "image captioning",
+        "vision-language models",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective multimodal learning",
+        "Emotion-aware natural language generation",
+        "Cross-modal affective representation learning"
+      ]
+    }
+  },
+  "3dfa999d48eccfc6cd5f013ef586c9a39c176a296ae88b1a7829824a6947b079": {
+    "paper_id": "https://openalex.org/W2798503473",
+    "title": "Weakly Supervised Coupled Networks for Visual Sentiment Analysis",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:49.024Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses visual sentiment analysis, which is a core subfield of affective computing and emotion-related AI research; the researcher's stated interest in 'emotion' aligns strongly with sentiment as a measurable affective state.",
+      "evidence": [
+        "Title explicitly includes 'Visual Sentiment Analysis'",
+        "Abstract states the goal is 'automatic assessment of sentiment from visual content'",
+        "Method focuses on detecting 'sentiment specific soft map' and 'intended expression', linking to emotional valence"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "visual emotion recognition",
+        "affective computing",
+        "weakly supervised learning",
+        "convolutional neural network"
+      ],
+      "research_directions": [
+        "affective vision",
+        "emotion-aware AI",
+        "multimodal sentiment analysis",
+        "interpretable affective models"
+      ]
+    }
+  },
+  "346a01a4bd6fd1c26849364bf5c92e0bbd45ee61155bfd20b5e00c29ade74804": {
+    "paper_id": "https://openalex.org/W2515186361",
+    "title": "Shape-guided segmentation for fine-grained visual categorization",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:49.200Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on shape-guided image segmentation and fine-grained visual categorization, with no mention of emotion, affect, psychological affective processes, or related constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are computer vision / AI technical"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3db1757643992fdba4fc9e2804b0780d4e3556454ae57a9dda34ec43c3f99c51": {
+    "paper_id": "https://openalex.org/W2808336242",
+    "title": "Text Emotion Distribution Learning via Multi-Task Convolutional Neural Network",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:49.379Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion analysis in text, aligning precisely with the researcher's interest topic 'emotion'; it introduces emotion distribution learning—a novel affective computing task—and uses multi-task deep learning for fine-grained emotion modeling.",
+      "evidence": [
+        "Title explicitly contains 'Text Emotion Distribution Learning'",
+        "Abstract states: 'Emotion analysis of on-line user generated textual content is important...'",
+        "Concepts include 'Emotion classification' and 'Sentiment analysis'"
+      ],
+      "keywords": [
+        "emotion distribution",
+        "emotion classification",
+        "affective NLP",
+        "multi-task learning",
+        "convolutional neural network",
+        "text emotion analysis"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Emotion modeling in natural language",
+        "Distributional semantics for affect",
+        "Deep learning for sentiment and emotion"
+      ]
+    }
+  },
+  "418af6c183a74972d7b144e5e74d1f1348a7745855d42c68e0b9c44d74926352": {
+    "paper_id": "https://openalex.org/W2519210008",
+    "title": "A Benchmark for Automatic Visual Classification of Clinical Skin Disease Images",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:49.379Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on clinical skin disease image classification using deep learning techniques, with no indication of emotion or affective computing in title, venue, concepts, or metadata.",
+      "evidence": [
+        "Title: 'A Benchmark for Automatic Visual Classification of Clinical Skin Disease Images'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8a2d25dd668b89b3ecec023cd0e9fe91dc7ae22a1838259724e64c72eeddeb95": {
+    "paper_id": "https://openalex.org/W972769462",
+    "title": "An intelligent character recognition method to filter spam images on cloud",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:49.379Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on spam image filtering using character recognition and cloud computing, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title mentions 'spam images' and 'character recognition', not emotion-related concepts"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e7345823f28a31275afd031d13ffd50cb58abe00b0987738935664f3ccc4b95f": {
+    "paper_id": "https://openalex.org/W2083423720",
+    "title": "An evaluation model for dependability of Internet-scale software on basis of Bayesian Networks and trustworthiness",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:49.557Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on software dependability, Bayesian Networks, and trustworthiness in Internet-scale systems, with no mention or conceptual overlap with emotion or affective science.",
+      "evidence": [
+        "Title contains no emotion-related terms; concepts are all systems/software engineering focused"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a31edc4064d5163351416dda98c63dbb3f0ae27bfd1a22025a4dde71ae527466": {
+    "paper_id": "https://openalex.org/W2143305167",
+    "title": "Machine-readable region identification from partially blurred document images",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:49.557Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on document image processing, OCR optimization, and image quality assessment—no mention or conceptual link to emotion, affective computing, or psychological affect.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical computer vision/AI applications."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8d52aeadd22aa261dbd94a3dea00e181ddce893dba6968367407a4dbca9fa900": {
+    "paper_id": "https://openalex.org/W2060995180",
+    "title": "A Dynamic SQL Injection Vulnerability Test Case Generation Model Based on the Multiple Phases Detection Approach",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:49.585Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is about SQL injection vulnerability testing and software security, with no connection to emotion or affective computing.",
+      "evidence": [
+        "All concepts and the abstract focus on SQL, test case generation, vulnerability detection, and computer security."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a2964dbc65f5794d95fd74dade03c0420fad4783a9e582828eb337e59013349f": {
+    "paper_id": "https://openalex.org/W1992261731",
+    "title": "A fast adaptive binarization method for complex scene images",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:49.733Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on adaptive binarization for computer vision tasks, with no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts center on wavelet transforms, image processing, and pattern recognition in computer vision—not affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8fbdea9df94c8539b93e8225f37c0393169fde197790ed2d7e72216beb1db614": {
+    "paper_id": "https://openalex.org/W1662762774",
+    "title": "An Improvement to Fault Localization Technique Based on Branch-Coverage Spectra",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:49.733Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is about spectrum-based fault localization in software debugging and contains no mention of emotion, affect, or any psychological, behavioral, or affective computing concepts.",
+      "evidence": [
+        "Title and abstract focus exclusively on branch-coverage spectra, fault localization, and Siemens/flex benchmarks in software engineering."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c1f55610bd2722b2957f1b6c63e9ad26619ce635f7a9e0e209735c9d648afe43": {
+    "paper_id": "https://openalex.org/W2884318085",
+    "title": "Deep Coordinated Textual and Visual Network for Sentiment-Oriented Cross-Modal Retrieval",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:49.733Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper's title explicitly references 'Sentiment-Oriented Cross-Modal Retrieval', and sentiment is a core dimension of emotion research; the researcher's stated interest is 'emotion', making this highly relevant.",
+      "evidence": [
+        "Title: 'Deep Coordinated Textual and Visual Network for Sentiment-Oriented Cross-Modal Retrieval'"
+      ],
+      "keywords": [
+        "sentiment",
+        "emotion",
+        "cross-modal retrieval",
+        "affective computing",
+        "multimodal learning"
+      ],
+      "research_directions": [
+        "affective multimodal analysis",
+        "sentiment-aware information retrieval",
+        "deep learning for emotion modeling"
+      ]
+    }
+  },
+  "fc67d18e848cb0b3a759df9a2f0959b0168c9ef44532861f7af497c0ea40a131": {
+    "paper_id": "https://openalex.org/W2744250011",
+    "title": "A Dependability Evaluation Model for Internetware Based on Bayesian Network",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:49.753Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on dependability evaluation of Internetware using Bayesian networks, with no indication of emotion or affective computing in title, concepts, or available metadata.",
+      "evidence": [
+        "Title: 'A Dependability Evaluation Model for Internetware Based on Bayesian Network'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bf4913e33569205bba7a629cd8facb2f8886d7d27420e2d38e3d7e726300de05": {
+    "paper_id": "https://openalex.org/W2069446244",
+    "title": "An improved binarization method using inter- and intra-block features for natural images",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:49.909Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on image binarization techniques for text extraction and computer vision, with no mention of emotion, affective computing, or psychological affective processes.",
+      "evidence": [
+        "Title and abstract exclusively address technical image processing; 'emotion' does not appear in metadata, concepts, or abstract."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "858e8a8562952f901a2dc53503fc32ddd6e0b738fc837435c1947e69e37e5901": {
+    "paper_id": "https://openalex.org/W2015927945",
+    "title": "Interprocedural path-sensitive resource leaks detection for C programs",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:49.910Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is about static analysis for resource leak detection in C programs and has no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract focus exclusively on interprocedural path-sensitive resource leak detection; no mention of emotion, affect, psychology, or human-centered constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7958b9cfa8c4275c9b8d7e832d45ee9838e7d52d5f078a453cd3731a61fe83a3": {
+    "paper_id": "https://openalex.org/W2031811525",
+    "title": "An Evaluation Model for Dependability of Internet-Scale Software on Basis of Bayesian Networks",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:49.912Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on dependability evaluation of internet-scale software using Bayesian networks, with no mention or conceptual linkage to emotion, affective computing, or human affective states.",
+      "evidence": [
+        "Abstract and concepts exclusively center on dependability, software quality, Bayesian Networks, and system architecture—no emotion-related terms or constructs appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "050f6cef6dd38787a54bc84258a14ce39756c00a5f328983c3374c14fa0d77be": {
+    "paper_id": "https://openalex.org/W2038167710",
+    "title": "Attack Model Based Penetration Test for SQL Injection Vulnerability",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:50.086Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on SQL injection vulnerability detection and penetration testing in web security; no mention or conceptual link to emotion, affective computing, or psychological/affective phenomena.",
+      "evidence": [
+        "Concepts include 'SQL injection', 'Blacklist', 'Computer security', and 'Vulnerability (computing)' — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "975b1d3971f1b30b6c44b41bb5378a793acf73a9b05f4a1ac78eb6098faca510": {
+    "paper_id": "https://openalex.org/W2080290462",
+    "title": "A novel method for recognition of handwritten chemical symbols based on MQDF",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:50.087Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on handwritten chemical symbol recognition using pattern classification techniques; no mention of emotion, affective computing, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts center on character recognition, MQDF classifiers, and chemical symbol processing—no emotion-related terms or constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0476ab5a17f188ca97554c0218064f19aa141edb26c314e24f251dabf791e6fc": {
+    "paper_id": "https://openalex.org/W2033101783",
+    "title": "A Method for Handling the Connected Areas in Formulas",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:50.087Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on segmentation algorithms for handwritten chemical formulas, with no mention of emotion, affective computing, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts center on pattern recognition in chemistry, chain code, segmentation, and AI—no emotion-related terms or constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cdce3640826505e16607be6da12a9a76c734efcacf95d7581e82cdfb284943bd": {
+    "paper_id": "https://openalex.org/W2400092189",
+    "title": "Multi-scale energy optimization for object proposal generation",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:50.107Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multi-scale energy optimization for object proposal generation, which is a computer vision and AI optimization problem with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Object detection', 'Segmentation', 'Artificial intelligence', and 'Salient'—all technical CV terms; 'emotion' is absent from title, concepts, and metadata."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f76d10fbe82b68f25853bf7cc0bb7186057b539901d17d53d0074680609b20ea": {
+    "paper_id": "https://openalex.org/W2098105984",
+    "title": "A Scheme for Evaluating XML Engine on RDBMS",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:50.298Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper is entirely focused on XML engine evaluation in relational database systems, with no mention of emotion, affect, psychology, or any human-centered affective constructs.",
+      "evidence": [
+        "Title: 'A Scheme for Evaluating XML Engine on RDBMS'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d9349cd3dd0154f42650568f3e4326e2e7bca07faff35eba1342e907fcc9a8f8": {
+    "paper_id": "https://openalex.org/W2532020553",
+    "title": "Research on mock attack testing for SQL injection vulnerability in multi-defense level web applications",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:50.438Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on SQL injection vulnerability testing in web applications, with no mention or conceptual connection to emotion, affective computing, or psychological/affective phenomena.",
+      "evidence": [
+        "Title and abstract exclusively discuss SQL injection, fuzz testing, mock attack testing, and web security"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1e2b9d13a157fcceed531f43e0811c8f8f1f5952862f33a7099ad0568ae90a49": {
+    "paper_id": "https://openalex.org/W2741630455",
+    "title": "Joint Image Emotion Classification and Distribution Learning via Deep Convolutional Neural Network",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:50.576Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on emotion classification and distribution learning for visual sentiment analysis, directly aligning with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Title contains 'Image Emotion Classification and Distribution Learning'",
+        "Abstract emphasizes 'visual sentiment analysis', 'emotion classification', and 'emotional distribution'",
+        "Concepts include 'Emotion classification' and 'Visual sentiment analysis'"
+      ],
+      "keywords": [
+        "emotion classification",
+        "label distribution learning",
+        "visual sentiment analysis",
+        "deep learning",
+        "convolutional neural network"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion recognition",
+        "weakly-supervised affective labeling",
+        "distributional emotion modeling"
+      ]
+    }
+  },
+  "714ed49cb4baf2cf055a3a511deebdc88a16b7211f967fc90afeb4981ec53329": {
+    "paper_id": "https://openalex.org/W2154261151",
+    "title": "A real-time command system based on hand gesture recognition",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:50.576Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hand gesture recognition for human-computer interaction and does not address emotion detection, affective computing, or any emotion-related constructs.",
+      "evidence": [
+        "Abstract mentions gesture recognition, HSV color model, Fourier descriptors, and PowerPoint control—no mention of emotion, affect, sentiment, or related psychological or affective measures."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b36c25cc4914a7c96599bac37afe77595e5d128fe871cee41f00caac0b3467ce": {
+    "paper_id": "https://openalex.org/W2793857798",
+    "title": "Visual Sentiment Prediction Based on Automatic Discovery of Affective Regions",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:50.699Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses visual sentiment analysis—an affective/emotion-related task—with explicit focus on 'affective regions', emotion-laden visual content, and sentiment prediction grounded in human affective perception.",
+      "evidence": [
+        "Title contains 'Visual Sentiment Prediction' and 'Affective Regions'",
+        "Abstract repeatedly uses 'sentiment', 'affective regions', 'emotion-laden visual content' (implied by 'visual sentiment analysis')",
+        "Researcher's interest topic is 'emotion', and the paper's core problem aligns with affective computing"
+      ],
+      "keywords": [
+        "visual sentiment analysis",
+        "affective regions",
+        "emotion recognition",
+        "sentiment prediction",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective computer vision",
+        "weakly-supervised emotion localization",
+        "multilevel sentiment modeling (global + local)",
+        "deep learning for emotion inference from images"
+      ]
+    }
+  },
+  "6f0d920cf455b98b9d965da050e60cd166c82094ac0caaef7f2ef627e18d2c61": {
+    "paper_id": "https://openalex.org/W2008423256",
+    "title": "Segmentation of Connected Symbols in Online Handwritten Chemical Formulas",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:50.830Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on symbol segmentation in handwritten chemical formulas using geometric and structural heuristics; no mention of emotion, affective computing, or psychological/behavioral aspects.",
+      "evidence": [
+        "Abstract and concepts exclusively concern computer vision, preprocessing, chain code, and chemical structure parsing"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0d7e6a7c8f7d01251e24365f487813e5617467a7708d0092f502cd0265423b94": {
+    "paper_id": "https://openalex.org/W2604773025",
+    "title": "Learning Visual Sentiment Distributions via Augmented Conditional Probability Neural Network",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:51.113Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion-related visual sentiment analysis using label distribution learning to model ambiguous, multi-emotion responses to images — aligning precisely with 'emotion' as a core interest topic.",
+      "evidence": [
+        "Title explicitly references 'Visual Sentiment Distributions'",
+        "Abstract states the work addresses 'sentiment ambiguity' and 'image usually evokes multiple emotions'",
+        "Methods (BCPNN, ACPNN) are designed for affective distribution learning"
+      ],
+      "keywords": [
+        "emotion",
+        "sentiment analysis",
+        "affective computing",
+        "label distribution learning",
+        "visual sentiment",
+        "affective distributions"
+      ],
+      "research_directions": [
+        "affective image understanding",
+        "multi-label emotion recognition",
+        "distributional emotion modeling",
+        "robust affective annotation",
+        "deep learning for emotion ambiguity"
+      ]
+    }
+  },
+  "8bc98e289e2142e4f6a581dcfc371c81d33d558b05f41dd5a339df25e55c53ce": {
+    "paper_id": "https://openalex.org/W2770912167",
+    "title": "Retrieving and Classifying Affective Images via Deep Metric Learning",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:51.337Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on affective image understanding—i.e., emotion recognition and retrieval from visual content—and directly aligns with the researcher's interest topic 'emotion'. It employs deep metric learning to model emotional semantics, hierarchical sentiment constraints, and affective representation learning.",
+      "evidence": [
+        "Title contains 'Affective Images' and 'Emotion' is central to the problem formulation",
+        "Abstract states 'Affective image understanding has been extensively studied... users express emotion via visual contents'",
+        "Method introduces 'sentiment constraints' and 'sentiment vector' to model emotion label hierarchies"
+      ],
+      "keywords": [
+        "affective computing",
+        "emotion recognition",
+        "affective image retrieval",
+        "deep metric learning",
+        "sentiment representation"
+      ],
+      "research_directions": [
+        "affective vision",
+        "emotion-aware AI",
+        "multimodal affect analysis",
+        "deep learning for emotion"
+      ]
+    }
+  },
+  "8025ed5f3a261a9e664db902bf4b3adf749f0e698e8c939263e6072e5e15cbfb": {
+    "paper_id": "https://openalex.org/W1975389452",
+    "title": "An Evaluation Framework for XML Engine on RDBMS",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:51.445Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on XML engine evaluation in relational databases and has no connection to emotion or affective computing.",
+      "evidence": [
+        "Concepts include XQuery, XML database, and RDBMS; abstract discusses storage, query, and update performance—not emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0ad16cbacb4287bdf65bdf334071ce296143785f4c1a4378ff995930716fbc7f": {
+    "paper_id": "https://openalex.org/W2066510722",
+    "title": "Structure-based recognition of handwritten chemical operators",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:51.584Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on structural recognition of handwritten chemical operators using pattern recognition and AI techniques, with no mention of emotion, affective computing, or psychological emotion modeling.",
+      "evidence": [
+        "Abstract and concepts exclusively relate to chemical formula recognition, segmentation, and operator classification in computer science and chemistry."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d99a648dfef67f5fd7f2d6a4e0b01ab3223c000f43f96969ab812ef4a05e289d": {
+    "paper_id": "https://openalex.org/W2782434819",
+    "title": "Understanding Image Impressiveness Inspired by Instantaneous Human Perceptual Cues",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:51.588Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper explicitly studies 'impressiveness' as an instantaneous, perception-driven image property grounded in human affective response—closely aligned with emotion-related cognition and affective computing. It leverages perceptual cues tied to rapid emotional appraisal (e.g., salience, valence-associated visual features), and the core goal is modeling subjective, affect-laden first impressions.",
+      "evidence": [
+        "introduces 'impressiveness' as a novel image property measuring how images impress people with short-term contact",
+        "based on an impression-driven model inspired by important human perceptual cues",
+        "datasets labeled according to the instantaneous sensation of annotators"
+      ],
+      "keywords": [
+        "impressiveness",
+        "instantaneous impression",
+        "human perception",
+        "affective vision",
+        "perceptual cues",
+        "image quality",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective computer vision",
+        "emotion-aware image retrieval",
+        "subjective visual quality assessment",
+        "perception-based affect modeling"
+      ]
+    }
+  },
+  "7d2fe9b902db9103410f2b5c1fa12c023ee6aa1678b0e35330eec015c68961a1": {
+    "paper_id": "https://openalex.org/W2513550067",
+    "title": "Discovering affective regions in deep convolutional neural networks for visual sentiment prediction",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:51.695Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion recognition in images using deep learning, aligning precisely with the researcher's interest topic 'emotion'. It introduces a method for discovering affective (emotion-carrying) image regions, explicitly targeting visual sentiment prediction—a core affective computing task.",
+      "evidence": [
+        "Title contains 'affective regions' and 'visual sentiment prediction'",
+        "Abstract states: 'we address the problem of automatically recognizing emotions in still images'",
+        "Concepts include 'Sentiment analysis' and 'Salient', and methodology focuses on emotion-carrying local regions"
+      ],
+      "keywords": [
+        "affective regions",
+        "visual sentiment prediction",
+        "emotion recognition",
+        "deep learning",
+        "CNN",
+        "sentiment analysis"
+      ],
+      "research_directions": [
+        "affective computing",
+        "computer vision for emotion",
+        "deep neural networks in affective science",
+        "local feature modeling for sentiment"
+      ]
+    }
+  },
+  "319ef1c4f1b647f3219afa06de864b872632e52e49f04c2d846ef02f448a25e3": {
+    "paper_id": "https://openalex.org/W2157729848",
+    "title": "The asymptotic optimization of pre-edited ANN classifier",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:51.695Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mathematical optimization of neural network classifiers with no mention of emotion, affect, or related psychological or affective computing concepts.",
+      "evidence": [
+        "Title and concepts are purely technical: 'pre-edited ANN classifier', 'mathematical optimization', 'generalization', 'artificial neural network'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2caa1a949961706a0e0d9954099ebb88ec293ffc7652e46ed782a25f30b3c70f": {
+    "paper_id": "https://openalex.org/W2171963071",
+    "title": "Gesture-Based Chemical Formula Editing System",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:52.397Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on gesture recognition for chemical formula editing, with no mention of emotion, affect, or related psychological or affective computing concepts.",
+      "evidence": [
+        "Interest topics: emotion; Paper concepts: Gesture, Computer science, Gesture recognition, ... no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f7ea6b4c44a72cbf2b394fd17416662e72c4e39743f31453027bc903bda31de8": {
+    "paper_id": "https://openalex.org/W2153527137",
+    "title": "HMM-Based Online Recognition of Handwritten Chemical Symbols",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:52.466Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on HMM-based handwriting recognition for chemical symbols, with no mention of emotion, affective computing, or related psychological or physiological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively concern pattern recognition, HMMs, and symbol classification; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "26dcd1b8f967bd10265e43e5ec64c68a4e0f88c6a67417c4438c45ea02aefe60": {
+    "paper_id": "https://openalex.org/W2170026136",
+    "title": "Linking Broken Characters in Online Handwritten Chemical Formulas",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:52.578Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on stroke linking in handwritten chemical formulas using pattern recognition and preprocessing techniques, with no mention of emotion, affective computing, or psychological affective constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all concepts are technical/computational or domain-specific (chemistry, biology)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1e1598ef9f5567ad2a61d5db9f5c965d9343b748b44fb825d1676c34c5156f28": {
+    "paper_id": "https://openalex.org/W2149651625",
+    "title": "An Expanded Training Set Based Validation Method to Avoid Overfitting for Neural Network Classifier",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:52.659Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on overfitting mitigation in neural networks using expanded training sets and cross-validation alternatives; no mention of emotion, affect, sentiment, or any affective computing concepts.",
+      "evidence": [
+        "Concepts: Overfitting, Artificial neural network, Cross-validation, Generalization"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8168a4728afaa1c77a79141b4e5df82e66dedfe2b99391d4f7204111a867ec9b": {
+    "paper_id": "https://openalex.org/W2117440023",
+    "title": "RTS: A prototype for rules-based ticket search",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:52.768Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is about a rule-based system for airline ticket search and has no connection to emotion or affective computing.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract focus exclusively on web data extraction, filtering, sorting, and business rules for ticket search."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4fb1abdfaac24835f2b7193a2920cfae67094adf520d48127925ccc35df573d4": {
+    "paper_id": "https://openalex.org/W2138905855",
+    "title": "The Understanding and Structure Analyzing for Online Handwritten Chemical Formulas",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:52.800Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on structural analysis and grammatical parsing of handwritten chemical formulas, with no mention or conceptual link to emotion, affective computing, or related psychological or human-centered constructs.",
+      "evidence": [
+        "Concepts include Computer science, Natural language processing, Grammar, Artificial intelligence — all technical/computational; abstract mentions 'structural characteristics', 'grammatical rules', 'data retrieval', and 'mobile computing in education' — no emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4790d50c0a8b56cea9237209ffb1b62b241a0da20ff224517c775c60e9a5be6f": {
+    "paper_id": "https://openalex.org/W2145029943",
+    "title": "A study of on-line handwritten chemical expressions recognition",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:52.906Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on pattern recognition of handwritten chemical expressions and XML-based system design, with no mention of emotion, affective computing, or psychological/emotional processes.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all concepts are technical/computational (e.g., 'Pattern recognition (psychology)' here refers to structural pattern analysis, not affective psychology)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "72b750b9ac3fb3d2916fc6157801aa8163bba451a5147f4e4ba4e981e68543c7": {
+    "paper_id": "https://openalex.org/W2130216463",
+    "title": "Recognition of on-line handwritten chemical expressions",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:52.920Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on pattern recognition and feature extraction for handwritten chemical expressions, with no mention of emotion, affective computing, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts exclusively reference computer science, pattern recognition (in the psychological sense but applied to symbol/character recognition), and AI-driven handwriting recognition—no affective or emotional constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "47a6cbc761bb3fd95cf378b71e6eb9a151fd41177557c8633f0dabf87b7f8bec": {
+    "paper_id": "https://openalex.org/W2110369925",
+    "title": "Data Extraction from Deep Web Pages",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:52.934Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on data extraction from Deep Web pages using a rule-based multi-layer model; no mention of emotion, affective computing, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts contain only technical terms like 'information retrieval', 'knowledge extraction', and 'deep learning'—no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1f3a8148964b5dd2a1eee1ba72d2a7091884d4fd993b9d7509540259bba2fd6d": {
+    "paper_id": "https://openalex.org/W2152320294",
+    "title": "The Asymptotic Optimization of the Pre-edited ANN Classifier",
+    "researcher_name": "Jufeng Yang",
+    "researcher_openalex_author_id": "A5089409678",
+    "updated_at": "2026-02-20T17:45:52.964Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on theoretical optimization of ANN classifiers and mathematical generalization properties, with no mention or conceptual link to emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain only technical ML/AI/mathematical optimization terms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

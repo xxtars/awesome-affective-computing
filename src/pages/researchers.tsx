@@ -1,10 +1,10 @@
 import type {ReactNode} from 'react';
-import {useMemo, useState} from 'react';
+import {useEffect, useMemo, useState} from 'react';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
-import profileData from '@site/data/researchers/researcher.profile.json';
 import styles from './researchers.module.css';
 
 type ResearcherProfile = {
@@ -31,13 +31,12 @@ type ResearcherProfile = {
   };
 };
 
-type ProfileFile = {
+type IndexFile = {
   generated_at: string | null;
   pipeline_version: string;
   researchers: ResearcherProfile[];
 };
 
-const profile = profileData as ProfileFile;
 const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
 function formatTopDirections(researcher: ResearcherProfile) {
@@ -102,11 +101,36 @@ function formatInstitutionCountry(value: string | null) {
 }
 
 export default function ResearchersPage(): ReactNode {
+  const indexUrl = useBaseUrl('/data/researchers/researchers.index.json');
+  const [profile, setProfile] = useState<IndexFile>({generated_at: null, pipeline_version: '', researchers: []});
+  const [loading, setLoading] = useState(true);
   const [countryFilter, setCountryFilter] = useState('All');
   const [universityFilter, setUniversityFilter] = useState('All');
   const [initialAxis, setInitialAxis] = useState<'family' | 'given'>('family');
   const [nameInitialFilter, setNameInitialFilter] = useState('All');
   const [query, setQuery] = useState('');
+
+  useEffect(() => {
+    let disposed = false;
+    async function load() {
+      setLoading(true);
+      try {
+        const res = await fetch(indexUrl);
+        if (!res.ok) throw new Error(`Failed to load index: ${res.status}`);
+        const json = (await res.json()) as IndexFile;
+        if (!disposed) setProfile(json);
+      } catch (err) {
+        console.error(err);
+        if (!disposed) setProfile({generated_at: null, pipeline_version: '', researchers: []});
+      } finally {
+        if (!disposed) setLoading(false);
+      }
+    }
+    load();
+    return () => {
+      disposed = true;
+    };
+  }, [indexUrl]);
 
   const countryOptions = useMemo(
     () =>
@@ -184,7 +208,11 @@ export default function ResearchersPage(): ReactNode {
             Country is resolved from institution name (geocoding lookup) and displayed as full country name.
           </p>
 
-          {profile.researchers.length === 0 ? (
+          {loading ? (
+            <div className={styles.empty}>
+              <p>Loading researchers...</p>
+            </div>
+          ) : profile.researchers.length === 0 ? (
             <div className={styles.empty}>
               <p>No profile data yet.</p>
               <p>

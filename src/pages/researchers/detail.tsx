@@ -1,11 +1,11 @@
 import type {ReactNode} from 'react';
-import {useMemo} from 'react';
+import {useEffect, useMemo, useState} from 'react';
 import Link from '@docusaurus/Link';
 import {useLocation} from '@docusaurus/router';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
-import profileData from '@site/data/researchers/researcher.profile.json';
 import styles from './detail.module.css';
 
 type WorkAnalysis = {
@@ -26,14 +26,6 @@ type WorkItem = {
     openalex: string | null;
     source_openalex: string | null;
     landing_page: string | null;
-  };
-  openalex_analysis?: {
-    primary_topic: {
-      name: string | null;
-      subfield: string | null;
-      field: string | null;
-      domain: string | null;
-    } | null;
   };
   analysis: WorkAnalysis;
 };
@@ -64,13 +56,19 @@ type ResearcherProfile = {
   works: WorkItem[];
 };
 
-type ProfileFile = {
-  generated_at: string | null;
-  pipeline_version: string;
-  researchers: ResearcherProfile[];
+type IndexRecord = {
+  identity: {
+    name: string;
+    openalex_author_id: string;
+    google_scholar: string;
+    openalex_author_url: string;
+  };
+  profile_path: string;
 };
 
-const profile = profileData as ProfileFile;
+type IndexFile = {
+  researchers: IndexRecord[];
+};
 
 function capitalizeFirst(text: string) {
   if (!text) return text;
@@ -122,12 +120,61 @@ function formatInstitutionCountry(value: string | null) {
 
 export default function ResearcherDetailPage(): ReactNode {
   const location = useLocation();
+  const baseUrlRoot = useBaseUrl('/');
+  const indexUrl = useBaseUrl('/data/researchers/researchers.index.json');
   const researcherId = useMemo(() => {
     const search = location.search || '';
     return new URLSearchParams(search).get('id') || '';
   }, [location.search]);
 
-  const researcher = profile.researchers.find((item) => item.identity.openalex_author_id === researcherId);
+  const [researcher, setResearcher] = useState<ResearcherProfile | null>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    let disposed = false;
+    async function loadProfile() {
+      setLoading(true);
+      try {
+        const idxRes = await fetch(indexUrl);
+        if (!idxRes.ok) throw new Error(`Failed to load index: ${idxRes.status}`);
+        const indexJson = (await idxRes.json()) as IndexFile;
+        const record = (indexJson.researchers || []).find((r) => r.identity.openalex_author_id === researcherId);
+        if (!record) {
+          if (!disposed) setResearcher(null);
+          return;
+        }
+        const rel = String(record.profile_path || '').replace(/^\/+/, '');
+        const profileUrl = `${baseUrlRoot}${rel}`;
+        const res = await fetch(profileUrl);
+        if (!res.ok) throw new Error(`Failed to load profile: ${res.status}`);
+        const profile = (await res.json()) as ResearcherProfile;
+        if (!disposed) setResearcher(profile);
+      } catch (err) {
+        console.error(err);
+        if (!disposed) setResearcher(null);
+      } finally {
+        if (!disposed) setLoading(false);
+      }
+    }
+    if (researcherId) loadProfile();
+    else setLoading(false);
+    return () => {
+      disposed = true;
+    };
+  }, [indexUrl, researcherId]);
+
+  if (loading) {
+    return (
+      <Layout title="Researcher Detail">
+        <main className={styles.page}>
+          <div className="container">
+            <Heading as="h1">Researcher Detail</Heading>
+            <p>Loading...</p>
+          </div>
+        </main>
+      </Layout>
+    );
+  }
 
   if (!researcher) {
     return (

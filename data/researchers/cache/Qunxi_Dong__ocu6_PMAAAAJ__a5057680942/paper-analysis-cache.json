@@ -1218,5 +1218,314 @@
         "Physiological markers of affective engagement in learning"
       ]
     }
+  },
+  "d71b7e1bc0999394bfeb9c2e792fcae5269d7834002fd9acb990d717db3b749f": {
+    "paper_id": "https://openalex.org/W2606099496",
+    "title": "Effective brain network analysis with resting-state EEG data: a comparison between heroin abstinent and non-addicted subjects",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T17:45:13.066Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on brain network abnormalities in heroin addiction using EEG, with no mention of emotion, affective processing, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts emphasize neuroimaging, addiction neuroscience, and brain connectivity—not emotion or affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "26e33359227307007fb3d8cc066d5402889a9b3853ce78cbcec923e1367e2f43": {
+    "paper_id": "https://openalex.org/W2121996784",
+    "title": "Video clip retrieval by maximal matching and optimal matching in graph theory",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T17:45:13.320Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on graph-theoretic matching methods for video clip retrieval and does not address emotion, affect, or any psychological, behavioral, or computational modeling of emotions.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain no emotion-related terms or constructs"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "fc6094bc1e45370a121431a17f312ccc9d793d5989518fe41ed79b4ce872411d": {
+    "paper_id": "https://openalex.org/W3040260334",
+    "title": "Applying surface-based morphometry to study ventricular abnormalities of cognitively unimpaired subjects prior to clinically significant memory decline",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T17:45:13.402Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on neuroimaging biomarkers and ventricular morphometry in preclinical Alzheimer's disease, with no mention of emotion, affective processes, or related psychological constructs.",
+      "evidence": [
+        "Interest topic is 'emotion', but paper's concepts and abstract contain zero emotion-related terms or measures."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ab02973837c38c4709be93ca895e5127220ca0af143c2f06483777a8459230ae": {
+    "paper_id": "https://openalex.org/W2919242678",
+    "title": "Applying surface-based hippocampal morphometry to study APOE-E4 allele dose effects in cognitively unimpaired subjects",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T17:45:13.463Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hippocampal morphometry and APOE-e4 genetic effects in Alzheimer's disease risk, with no mention of emotion, affective processes, or related psychological constructs.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain zero emotion-related terms or measures."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "fada8d32737deced2d6c144e74440cdfa75ce82517bed43acc9e2702690186f1": {
+    "paper_id": "https://openalex.org/W2983766980",
+    "title": "Multi-task Dictionary Learning Based on Convolutional Neural Networks for Longitudinal Clinical Score Predictions in Alzheimer’s Disease",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T17:45:13.537Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on longitudinal clinical score prediction in Alzheimer's disease using multi-task dictionary learning and CNNs; no explicit connection to emotion or affective processes is indicated by title, venue, or listed concepts.",
+      "evidence": [
+        "Title mentions 'Longitudinal Clinical Score Predictions in Alzheimer’s Disease', not emotion-related outcomes"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cd4ae19cedbe3f547370a07d62b8e1f76bb1fd3ecbc6fac725c07055e321a399": {
+    "paper_id": "https://openalex.org/W2981177023",
+    "title": "P3‐387: SURFACE‐BASED HIPPOCAMPAL MORPHOMETRY ANALYSIS FOR STUDYING EFFECTS OF APOE‐E4 ALLELE LOAD IN COGNITIVELY UNIMPAIRED SUBJECTS",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T17:45:13.556Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hippocampal morphometry and APOE-e4 genetic effects in cognitively unimpaired subjects, with no mention of emotion, affective processing, or related psychological constructs.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, mood, valence, arousal, or affective neuroscience."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e6f0e203b6e54590ddde444d69f0d354959dfc641c48bf9f14af678afba4e0e5": {
+    "paper_id": "https://openalex.org/W3129971606",
+    "title": "Predicting Future Cognitive Decline with Hyperbolic Stochastic Coding",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T17:45:13.699Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hyperbolic geometry, stochastic coding, and cognitive decline prediction using brain surface modeling; no mention of emotion, affective processes, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts emphasize cognition, topology, AI, and predictive modeling—not emotion or affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3dd6ffce8e0cd42f43cad2613b443bc1e1d2a4b790eb8d14ca859eeea01a623f": {
+    "paper_id": "https://openalex.org/W1995097843",
+    "title": "A study on visual attention modeling &amp;#x2014; A linear regression method based on EEG",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T17:45:13.795Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on visual attention modeling using EEG and the Stroop task, with no explicit connection to emotion or affective processes; 'emotion' is not mentioned in title, abstract, or concepts.",
+      "evidence": [
+        "Abstract discusses visual attention, EEG, Stroop task, and response time—no reference to emotion, affect, valence, arousal, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f072b4168575aeea84fc3f5e72b6538db804631dd971477fe85cff816c033a91": {
+    "paper_id": "https://openalex.org/W2049603604",
+    "title": "EEG-based attention recognition",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T17:45:13.848Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on attention recognition using EEG, which is a distinct cognitive construct from emotion; 'emotion' is not mentioned in title, abstract, or concepts.",
+      "evidence": [
+        "Abstract exclusively discusses attention recognition, EEG signal classification, and performance metrics for attention classes (3- or 5-way), with no reference to emotional states, affective computing, or emotion-related paradigms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "929012fb05fa2f0f5f5a12bbaa01f8233cb0b50a9857a3731f5a916411f6e5b2": {
+    "paper_id": "https://openalex.org/W3194050383",
+    "title": "FEDERATED MORPHOMETRY FEATURE SELECTION FOR HIPPOCAMPAL MORPHOMETRY ASSOCIATED BETA-AMYLOID AND TAU PATHOLOGY",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T17:45:14.059Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on neuroimaging-based detection of amyloid/tau pathology and hippocampal atrophy in Alzheimer's disease, with no mention of emotion, affective processes, or psychological constructs related to emotion.",
+      "evidence": [
+        "Concepts include Hippocampal formation, Atrophy, Neuroimaging, MRI, PET — all biomedical/neurodegenerative; 'Psychology' is listed but not elaborated and appears incidental in context."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "eac17aa3a0c6a9b87411d4487cb27c0b9d93d73196bec764a557e9ca54a59380": {
+    "paper_id": "https://openalex.org/W2049956466",
+    "title": "Quantitative EEG and its Correlation with Cardiovascular, Cognition and mood State: an Integrated Study in Simulated Microgravity",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T17:45:14.836Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper explicitly investigates mood state and emotion-related outcomes (e.g., 'decreased positive emotion', 'emotion conflict monitoring performance') in direct relation to physiological and neural correlates, aligning tightly with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "decreased positive emotion",
+        "degraded emotion conflict monitoring performance",
+        "mood state"
+      ],
+      "keywords": [
+        "emotion",
+        "mood",
+        "emotion conflict monitoring",
+        "affective state",
+        "quantitative EEG",
+        "psychophysiology"
+      ],
+      "research_directions": [
+        "Affective neuroscience",
+        "Emotion-cognition interactions",
+        "Physiological correlates of emotion",
+        "Stress and emotion under extreme environments",
+        "Multimodal assessment of affective states"
+      ]
+    }
+  },
+  "4704d660e6486884e19683dd65ac47ef9fa056914775b0a41f5961de800fa8f4": {
+    "paper_id": "https://openalex.org/W4223607933",
+    "title": "Every individual makes a difference: A trinity derived from linking individual brain morphometry, connectivity and mentalising ability",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T17:45:15.086Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper directly investigates mentalising ability—which explicitly includes 'feelings' as a core component—and links it to the amygdala, a brain region centrally involved in emotion processing; 'emotion' is listed as the researcher's sole interest topic.",
+      "evidence": [
+        "Abstract states mentalising ability is 'indexed as the ability to understand others’ beliefs, feelings, intentions, thoughts and traits'",
+        "Amygdala is identified as a key region linked specifically to 'other-self mentalisation'",
+        "Researcher's interest topic is 'emotion', and 'feelings' is an affective/emotion-related construct embedded in the paper's primary dependent variable (mentalising)"
+      ],
+      "keywords": [
+        "emotion",
+        "mentalising",
+        "amygdala",
+        "feelings",
+        "social cognition",
+        "affective neuroscience"
+      ],
+      "research_directions": [
+        "Neural correlates of emotion understanding",
+        "Individual differences in affective mentalising",
+        "Amygdala-based emotion processing in social cognition",
+        "Multimodal neuroimaging of emotion-related traits"
+      ]
+    }
+  },
+  "48ef9989df59de759974518a66b4be5137dde35176a0f8fdf7da88bb28e2d9b1": {
+    "paper_id": "https://openalex.org/W2013057408",
+    "title": "A solution on ubiquitous EEG-based biofeedback music therapy",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T17:45:15.762Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion measurement and regulation using EEG-based biofeedback in music therapy, aligning precisely with the researcher's interest topic 'emotion'. It explicitly frames emotion as the core target state to detect, modulate, and evaluate.",
+      "evidence": [
+        "measures emotion state via EEG features (beta/alpha power ratio, alpha lateralization)",
+        "aims to help users adjust their emotion at anytime and anywhere",
+        "describes EEG as reflecting people's emotion sensitively and objectively"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "affective computing",
+        "EEG-based biofeedback",
+        "music therapy",
+        "affective neuroscience",
+        "emotion regulation"
+      ],
+      "research_directions": [
+        "affective computing",
+        "clinical affective neuroscience",
+        "ubiquitous affective health systems",
+        "emotion-aware adaptive interfaces"
+      ]
+    }
+  },
+  "ef965b5c94b4e38586c6549d385387330e5abfa485bd9d76f201f3c64b648ff3": {
+    "paper_id": "https://openalex.org/W2151264580",
+    "title": "User-centered Depression Prevention: An EEG approach to pervasive healthcare",
+    "researcher_name": "Qunxi Dong",
+    "researcher_openalex_author_id": "A5057680942",
+    "updated_at": "2026-02-20T17:45:16.968Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper directly addresses depression—a clinically significant affective/emotional disorder—using EEG to measure emotional state (depression severity) and deliver emotion-regulating interventions (music therapy), aligning tightly with 'emotion' as a core interest topic.",
+      "evidence": [
+        "EEG is used to 'measure the degree of depression'",
+        "Proposes a 'user-centered depression prevention' system with personalized, emotion-responsive intervention",
+        "Mobile music therapy system evaluated for 'beneficial effects for the treatment of depression'"
+      ],
+      "keywords": [
+        "depression",
+        "emotion regulation",
+        "EEG",
+        "music therapy",
+        "affective computing",
+        "pervasive healthcare"
+      ],
+      "research_directions": [
+        "Affective computing for mental health monitoring",
+        "Physiological signal-based emotion assessment",
+        "User-centered design in affective intervention systems",
+        "Real-time emotion-aware adaptive therapy"
+      ]
+    }
   }
 }

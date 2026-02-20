@@ -10,7 +10,7 @@ const DEFAULT_INTEREST_TOPICS = ["emotion"];
 function parseArgs(argv) {
   const args = {
     seed: "data/researchers/researcher.seed.json",
-    out: "data/researchers/researcher.profile.json",
+    out: "data/researchers/researchers.index.json",
     cache: "data/researchers/cache",
     model: process.env.QWEN_MODEL || "qwen-plus",
     skipAi: false,
@@ -238,6 +238,53 @@ function getResearcherCachePath(cacheRoot, researcher, authorId) {
   const safeAuthorId = sanitizeForPath(String(authorId || "unknown").toLowerCase());
   const folder = `${safeName}__${scholarId}__${safeAuthorId}`;
   return path.join(cacheRoot, folder, "paper-analysis-cache.json");
+}
+
+function getProfilesDir(indexPath) {
+  return path.join(path.dirname(indexPath), "profiles");
+}
+
+function getProfileFilePathByAuthorId(indexPath, authorId) {
+  return path.join(getProfilesDir(indexPath), `${String(authorId || "").toUpperCase()}.json`);
+}
+
+function getStaticMirrorIndexPath(indexPath) {
+  return path.join(process.cwd(), "static", "data", "researchers", path.basename(indexPath));
+}
+
+function getStaticMirrorProfilePathByAuthorId(indexPath, authorId) {
+  return path.join(
+    path.dirname(getStaticMirrorIndexPath(indexPath)),
+    "profiles",
+    `${String(authorId || "").toUpperCase()}.json`
+  );
+}
+
+function toPosixPath(filePath) {
+  return filePath.split(path.sep).join("/");
+}
+
+function makeIndexRecord(profile, indexPath) {
+  const authorId = profile?.identity?.openalex_author_id;
+  return {
+    identity: profile.identity,
+    affiliation: profile.affiliation,
+    metrics: profile.metrics,
+    topic_summary: profile.topic_summary,
+    stats: profile.stats,
+    profile_path: toPosixPath(path.relative(process.cwd(), getProfileFilePathByAuthorId(indexPath, authorId))),
+  };
+}
+
+async function saveIndexAndProfileWithStaticMirror({ indexPath, indexData, authorId, profileData }) {
+  const profilePath = getProfileFilePathByAuthorId(indexPath, authorId);
+  const mirrorIndexPath = getStaticMirrorIndexPath(indexPath);
+  const mirrorProfilePath = getStaticMirrorProfilePathByAuthorId(indexPath, authorId);
+
+  await saveJson(profilePath, profileData);
+  await saveJson(indexPath, indexData);
+  await saveJson(mirrorProfilePath, profileData);
+  await saveJson(mirrorIndexPath, indexData);
 }
 
 function isPreprintWork(work) {
@@ -658,11 +705,18 @@ async function run() {
   }
   const qwenBaseUrl = process.env.QWEN_BASE_URL || DEFAULT_QWEN_BASE_URL;
 
-  const previousOutput = (await loadJson(args.out, null)) || null;
+  const previousIndex = (await loadJson(args.out, null)) || null;
+  const legacyMonolithPath = path.join(path.dirname(args.out), "researcher.profile.json");
+  const legacyOutput = (await loadJson(legacyMonolithPath, null)) || null;
   const institutionCountryCachePath = path.join(args.cache, "institution-country-cache.json");
   const institutionCountryCache = (await loadJson(institutionCountryCachePath, {})) || {};
-  const previousResearchers = Array.isArray(previousOutput?.researchers) ? previousOutput.researchers : [];
-  const outputResearchers = [...previousResearchers];
+  const previousIndexResearchers =
+    Array.isArray(previousIndex?.researchers) && previousIndex.researchers.length > 0
+      ? previousIndex.researchers
+      : Array.isArray(legacyOutput?.researchers)
+      ? legacyOutput.researchers.map((profile) => makeIndexRecord(profile, args.out))
+      : [];
+  const outputResearchers = [...previousIndexResearchers];
   const generatedAt = new Date().toISOString();
   const output = {
     generated_at: generatedAt,
@@ -683,9 +737,16 @@ async function run() {
 
   for (const researcher of selectedResearchers) {
     const authorId = normalizeAuthorId(researcher.openalex_author_id);
-    const previousResearcher = previousOutput?.researchers?.find(
+    const previousIndexRecord = previousIndexResearchers.find(
       (item) => item?.identity?.openalex_author_id === authorId
     );
+    const previousProfilePath = previousIndexRecord?.profile_path
+      ? path.resolve(process.cwd(), previousIndexRecord.profile_path)
+      : getProfileFilePathByAuthorId(args.out, authorId);
+    const previousResearcher =
+      (await loadJson(previousProfilePath, null)) ||
+      legacyOutput?.researchers?.find((item) => item?.identity?.openalex_author_id === authorId) ||
+      null;
     const cachePath = getResearcherCachePath(args.cache, researcher, authorId);
     const cache = (await loadJson(cachePath, {})) || {};
     const previousWorks = Array.isArray(previousResearcher?.works) ? previousResearcher.works : [];
@@ -854,19 +915,28 @@ async function run() {
       countryNameFromCode(authorProfile.last_known_institutions?.[0]?.country_code) ||
       null;
 
+    const nextIndexRecord = makeIndexRecord(nextResearcherProfile, args.out);
     const existingIndex = output.researchers.findIndex(
       (item) => item?.identity?.openalex_author_id === authorId
     );
-    if (existingIndex >= 0) output.researchers[existingIndex] = nextResearcherProfile;
-    else output.researchers.push(nextResearcherProfile);
+    if (existingIndex >= 0) output.researchers[existingIndex] = nextIndexRecord;
+    else output.researchers.push(nextIndexRecord);
 
     // Save checkpoint after each researcher to avoid losing progress.
     output.generated_at = new Date().toISOString();
     await saveJson(cachePath, cache);
-    await saveJson(args.out, output);
+    output.researchers.sort((a, b) =>
+      String(a?.identity?.name || "").localeCompare(String(b?.identity?.name || ""))
+    );
+    await saveIndexAndProfileWithStaticMirror({
+      indexPath: args.out,
+      indexData: output,
+      authorId,
+      profileData: nextResearcherProfile,
+    });
     console.log(`Checkpoint saved for ${researcher.name}`);
   }
-  console.log(`Profile exported to ${args.out}`);
+  console.log(`Index exported to ${args.out}`);
 }
 
 run().catch((err) => {

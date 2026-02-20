@@ -1,0 +1,3723 @@
+{
+  "identity": {
+    "name": "Guanqun Bi",
+    "google_scholar": "https://scholar.google.com/citations?user=cTMKxukAAAAJ",
+    "openalex_author_id": "A5016119118",
+    "openalex_author_url": "https://openalex.org/A5016119118"
+  },
+  "affiliation": {
+    "last_known_institution": "Tsinghua University",
+    "last_known_country": "China",
+    "source": "seed_google_scholar"
+  },
+  "metrics": {
+    "works_count": 22,
+    "cited_by_count": 112,
+    "h_index": 5,
+    "i10_index": 1
+  },
+  "topic_summary": {
+    "top_research_directions": [
+      {
+        "name": "Emotion-aware dialogue systems",
+        "weight": 1
+      },
+      {
+        "name": "Affective computing in mental health AI",
+        "weight": 0.95
+      },
+      {
+        "name": "Computational modeling of empathy",
+        "weight": 0.92
+      },
+      {
+        "name": "Affective natural language processing",
+        "weight": 0.88
+      },
+      {
+        "name": "Human-AI alignment in emotional support contexts",
+        "weight": 0.85
+      },
+      {
+        "name": "Cognitive-affective modeling in NLP",
+        "weight": 0.82
+      },
+      {
+        "name": "Psychology-guided AI frameworks",
+        "weight": 0.78
+      },
+      {
+        "name": "Multi-perspective affective assessment",
+        "weight": 0.75
+      }
+    ],
+    "trend_summary": "Guanqun Bi's research centers on bridging affective science and AI—particularly LLMs—to advance emotionally intelligent, clinically grounded, and human-aligned systems for mental health support. A strong longitudinal trend emerges: evolving from foundational affective NLP (e.g., empathetic response generation) toward integrated, psychology-informed architectures (e.g., theory-of-mind benchmarking, tripartite feedback loops, social simulation), with increasing emphasis on rigorous evaluation, controllability, clinical validity, and neurodiverse inclusivity. The work consistently prioritizes interpretability, human-centered design, and closed-loop optimization in real-world therapeutic contexts.",
+    "representative_papers": [
+      {
+        "title": "DiffusEmp: A Diffusion Model-Based Framework with Multi-Grained Control for Empathetic Response Generation",
+        "why": "Seminal methodological contribution introducing controllable, fine-grained affective generation using diffusion models—highly cited (7) and foundational for emotion-aware conversational AI."
+      },
+      {
+        "title": "ToMBench: Benchmarking Theory of Mind in Large Language Models",
+        "why": "Pioneering benchmark that bridges cognitive psychology and LLM evaluation, enabling systematic assessment of social reasoning—a key pillar of empathic AI."
+      },
+      {
+        "title": "Seri: Sketching-Reasoning-Integrating Progressive Workflow for Empathetic Response Generation",
+        "why": "Introduces a human-inspired, modular cognitive-affective workflow for empathetic generation—early influential framework for affective reasoning in language models."
+      },
+      {
+        "title": "Ψ-Arena: Interactive Assessment and Optimization of LLM-based Psychological Counselors with Tripartite Feedback",
+        "why": "Represents the maturation of Bi's work into interactive, multi-stakeholder evaluation and closed-loop optimization—core to current clinical AI alignment efforts."
+      },
+      {
+        "title": "SocialSim: Towards Socialized Simulation of Emotional Support Conversation",
+        "why": "Advances computational psychology by formalizing social-emotional dynamics in simulation—key for safe, scalable training and testing of mental health AI."
+      },
+      {
+        "title": "SS-GEN: A Social Story Generation Framework with Large Language Models",
+        "why": "Exemplifies applied, neurodiversity-focused affective AI—translating psychological principles (social stories) into LLM-driven interventions."
+      },
+      {
+        "title": "MAGI: Multi-Agent Guided Interview for Psychiatric Assessment",
+        "why": "Demonstrates clinical translation—integrating multi-agent reasoning with psychiatric domain knowledge for structured, emotion-aware screening."
+      },
+      {
+        "title": "PsychePass: Calibrating LLM Therapeutic Competence via Trajectory-Anchored Tournaments",
+        "why": "Latest conceptual leap: reframing therapeutic competence as longitudinal, trajectory-based skill calibration—setting new standards for human-AI alignment in psychotherapy AI."
+      }
+    ]
+  },
+  "stats": {
+    "analyzed_works_count": 16,
+    "interesting_works_count": 11,
+    "new_works_count": 0,
+    "deduped_works_count": 16,
+    "ai_called_count": 0,
+    "summary_recomputed": false
+  },
+  "works": [
+    {
+      "id": "https://openalex.org/W7126123021",
+      "openalex_url": "https://openalex.org/W7126123021",
+      "title": "PsychePass: Calibrating LLM Therapeutic Competence via Trajectory-Anchored Tournaments",
+      "publication_year": 2026,
+      "publication_date": "2026-01-28",
+      "doi": null,
+      "doi_url": null,
+      "type": "article",
+      "type_crossref": null,
+      "language": null,
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 0,
+      "primary_source": "ArXiv.org",
+      "source": {
+        "id": "https://openalex.org/S4393918464",
+        "display_name": "ArXiv.org",
+        "type": "repository",
+        "issn_l": "2331-8422",
+        "is_in_doaj": false,
+        "host_organization_name": null,
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W7126123021",
+        "landing_page": "http://arxiv.org/abs/2601.20330",
+        "pdf": "https://arxiv.org/pdf/2601.20330",
+        "primary_topic_openalex": "https://openalex.org/T11519",
+        "source_openalex": "https://openalex.org/S4393918464"
+      },
+      "concepts": [
+        "Competence (human resources)",
+        "Computer science",
+        "Consistency (knowledge bases)",
+        "Pairwise comparison",
+        "Psychology",
+        "Pointwise",
+        "Battle",
+        "Artificial intelligence"
+      ],
+      "abstract": "While large language models show promise in mental healthcare, evaluating their therapeutic competence remains challenging due to the unstructured and longitudinal nature of counseling. We argue that current evaluation paradigms suffer from an unanchored defect, leading to two forms of instability: process drift, where unsteered client simulation wanders away from specific counseling goals, and standard drift, where static pointwise scoring lacks the stability for reliable judgment. To address this, we introduce Ps, a unified framework that calibrates the therapeutic competence of LLMs via trajectory-anchored tournaments. We first anchor the interaction trajectory in simulation, where clients precisely control the fluid consultation process to probe multifaceted capabilities. We then anchor the battle trajectory in judgments through an efficient Swiss-system tournament, utilizing dynamic pairwise battles to yield robust Elo ratings. Beyond ranking, we demonstrate that tournament trajectories can be transformed into credible reward signals, enabling on-policy reinforcement learning to enhance LLMs' performance. Extensive experiments validate the effectiveness of PsychePass and its strong consistency with human expert judgments.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T11519",
+          "name": "Digital Mental Health Interventions",
+          "score": 0.39820000529289246,
+          "subfield": "Applied Psychology",
+          "field": "Psychology",
+          "domain": "Social Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T11519",
+            "name": "Digital Mental Health Interventions",
+            "score": 0.39820000529289246,
+            "subfield": "Applied Psychology",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12488",
+            "name": "Mental Health via Writing",
+            "score": 0.09880000352859497,
+            "subfield": "Social Psychology",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13702",
+            "name": "Machine Learning in Healthcare",
+            "score": 0.0966000035405159,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C100521375",
+            "name": "Competence (human resources)",
+            "score": 0.6014000177383423,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.5135999917984009,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C2776436953",
+            "name": "Consistency (knowledge bases)",
+            "score": 0.44279998540878296,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C184898388",
+            "name": "Pairwise comparison",
+            "score": 0.42899999022483826,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C15744967",
+            "name": "Psychology",
+            "score": 0.3991999924182892,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C2777984123",
+            "name": "Pointwise",
+            "score": 0.3971000015735626,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2778627824",
+            "name": "Battle",
+            "score": 0.37630000710487366,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "name": "Artificial intelligence",
+            "score": 0.3637000024318695,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C13662910",
+            "name": "Trajectory",
+            "score": 0.3553999960422516,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C97541855",
+            "name": "Reinforcement learning",
+            "score": 0.33880001306533813,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C136975688",
+            "name": "Tournament",
+            "score": 0.33070001006126404,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C153083717",
+            "name": "Leverage (statistics)",
+            "score": 0.31369999051094055,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C98045186",
+            "name": "Process (computing)",
+            "score": 0.30000001192092896,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C119857082",
+            "name": "Machine learning",
+            "score": 0.2854999899864197,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C171268870",
+            "name": "GRASP",
+            "score": 0.2615000009536743,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C127413603",
+            "name": "Engineering",
+            "score": 0.2513999938964844,
+            "level": 0
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/competence",
+            "name": "Competence (human resources)",
+            "score": 0.6014000177383423
+          },
+          {
+            "id": "https://openalex.org/keywords/consistency",
+            "name": "Consistency (knowledge bases)",
+            "score": 0.44279998540878296
+          },
+          {
+            "id": "https://openalex.org/keywords/pairwise-comparison",
+            "name": "Pairwise comparison",
+            "score": 0.42899999022483826
+          },
+          {
+            "id": "https://openalex.org/keywords/pointwise",
+            "name": "Pointwise",
+            "score": 0.3971000015735626
+          },
+          {
+            "id": "https://openalex.org/keywords/battle",
+            "name": "Battle",
+            "score": 0.37630000710487366
+          },
+          {
+            "id": "https://openalex.org/keywords/trajectory",
+            "name": "Trajectory",
+            "score": 0.3553999960422516
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://arxiv.org/pdf/2601.20330",
+          "any_repository_has_fulltext": true
+        },
+        "citation_normalized_percentile": {
+          "value": 0.65974796,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "fwci": null,
+        "counts_by_year": [],
+        "institutions_distinct_count": 7,
+        "countries_distinct_count": 0,
+        "referenced_works_count": 0
+      },
+      "analysis": {
+        "is_interesting": true,
+        "relevance_score": 0.92,
+        "confidence": 0.95,
+        "reason": "The paper directly addresses therapeutic competence in mental healthcare contexts, which inherently involves modeling, assessing, and responding to human emotions; 'emotion' is explicitly listed as the researcher's interest topic, and the work centers on longitudinal, goal-anchored counseling interactions where emotional dynamics are central.",
+        "evidence": [
+          "Researcher's interest topic is 'emotion'",
+          "Paper focuses on LLM therapeutic competence in mental healthcare",
+          "Uses client simulation anchored to fluid consultation processes probing 'multifaceted capabilities' (including affective responsiveness)"
+        ],
+        "keywords": [
+          "emotion",
+          "therapeutic competence",
+          "mental healthcare",
+          "counseling simulation",
+          "affective AI",
+          "Elo-based evaluation"
+        ],
+        "research_directions": [
+          "Affective computing in psychotherapy AI",
+          "Emotion-aware LLM evaluation frameworks",
+          "Longitudinal emotion modeling in dialogue systems",
+          "Human-AI alignment in emotional support contexts"
+        ]
+      }
+    },
+    {
+      "id": "https://openalex.org/W4415247726",
+      "openalex_url": "https://openalex.org/W4415247726",
+      "title": "Ψ-Arena: Interactive Assessment and Optimization of LLM-based Psychological Counselors with Tripartite Feedback",
+      "publication_year": 2025,
+      "publication_date": "2025-05-06",
+      "doi": "https://doi.org/10.48550/arxiv.2505.03293",
+      "doi_url": "https://doi.org/10.48550/arxiv.2505.03293",
+      "type": "preprint",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 0,
+      "primary_source": "ArXiv.org",
+      "source": {
+        "id": "https://openalex.org/S4393918464",
+        "display_name": "ArXiv.org",
+        "type": "repository",
+        "issn_l": "2331-8422",
+        "is_in_doaj": false,
+        "host_organization_name": null,
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4415247726",
+        "landing_page": "http://arxiv.org/abs/2505.03293",
+        "pdf": "https://arxiv.org/pdf/2505.03293",
+        "primary_topic_openalex": "https://openalex.org/T10214",
+        "source_openalex": "https://openalex.org/S4393918464"
+      },
+      "concepts": [],
+      "abstract": "Large language models (LLMs) have shown promise in providing scalable mental health support, while evaluating their counseling capability remains crucial to ensure both efficacy and safety. Existing evaluations are limited by the static assessment that focuses on knowledge tests, the single perspective that centers on user experience, and the open-loop framework that lacks actionable feedback. To address these issues, we propose Ψ-Arena, an interactive framework for comprehensive assessment and optimization of LLM-based counselors, featuring three key characteristics: (1) Realistic arena interactions that simulate real-world counseling through multi-stage dialogues with psychologically profiled NPC clients, (2) Tripartite evaluation that integrates assessments from the client, counselor, and supervisor perspectives, and (3) Closed-loop optimization that iteratively improves LLM counselors using diagnostic feedback. Experiments across eight state-of-the-art LLMs show significant performance variations in different real-world scenarios and evaluation perspectives. Moreover, reflection-based optimization results in up to a 141% improvement in counseling performance. We hope PsychoArena provides a foundational resource for advancing reliable and human-aligned LLM applications in mental healthcare.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T10214",
+          "name": "Psychotherapy Techniques and Applications",
+          "score": 0.24899999797344208,
+          "subfield": "Clinical Psychology",
+          "field": "Psychology",
+          "domain": "Social Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10214",
+            "name": "Psychotherapy Techniques and Applications",
+            "score": 0.24899999797344208,
+            "subfield": "Clinical Psychology",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          }
+        ],
+        "concepts": [],
+        "keywords": [],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://arxiv.org/pdf/2505.03293",
+          "any_repository_has_fulltext": true
+        },
+        "citation_normalized_percentile": null,
+        "fwci": null,
+        "counts_by_year": [],
+        "institutions_distinct_count": 13,
+        "countries_distinct_count": 0,
+        "referenced_works_count": 0
+      },
+      "analysis": {
+        "is_interesting": true,
+        "relevance_score": 0.95,
+        "confidence": 0.98,
+        "reason": "The paper directly addresses emotion-related psychological counseling using LLMs, with explicit focus on affective interaction, client emotional states (via psychologically profiled NPCs), and tripartite feedback that includes emotion-informed assessment perspectives.",
+        "evidence": [
+          "Simulates real-world counseling through multi-stage dialogues with psychologically profiled NPC clients",
+          "Tripartite evaluation integrates client, counselor, and supervisor perspectives — all inherently emotion- and affect-sensitive in mental health contexts",
+          "Focus on mental healthcare, psychological counselors, and counseling performance — domains fundamentally grounded in emotion processing and regulation"
+        ],
+        "keywords": [
+          "emotion",
+          "psychological counseling",
+          "affective interaction",
+          "mental health",
+          "LLM evaluation",
+          "tripartite feedback"
+        ],
+        "research_directions": [
+          "Affective computing in LLM-based therapy agents",
+          "Emotion-aware dialogue evaluation frameworks",
+          "Closed-loop optimization of empathic AI",
+          "Multi-perspective affective assessment in mental health AI"
+        ]
+      }
+    },
+    {
+      "id": "https://openalex.org/W4409363752",
+      "openalex_url": "https://openalex.org/W4409363752",
+      "title": "CharacterBench: Benchmarking Character Customization of Large Language Models",
+      "publication_year": 2025,
+      "publication_date": "2025-04-11",
+      "doi": "https://doi.org/10.1609/aaai.v39i24.34806",
+      "doi_url": "https://doi.org/10.1609/aaai.v39i24.34806",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 0,
+      "primary_source": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "source": {
+        "id": "https://openalex.org/S4210191458",
+        "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "type": "conference",
+        "issn_l": "2159-5399",
+        "is_in_doaj": false,
+        "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+        "host_organization_lineage_names": [
+          "Association for the Advancement of Artificial Intelligence"
+        ]
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4409363752",
+        "landing_page": "https://doi.org/10.1609/aaai.v39i24.34806",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/download/34806/36961",
+        "primary_topic_openalex": "https://openalex.org/T10181",
+        "source_openalex": "https://openalex.org/S4210191458"
+      },
+      "concepts": [
+        "Benchmarking",
+        "Character (mathematics)",
+        "Personalization",
+        "Computer science",
+        "Natural language processing",
+        "World Wide Web",
+        "Business",
+        "Mathematics"
+      ],
+      "abstract": "Character-based dialogue (aka role-playing) enables users to freely customize characters for interaction, which often relies on LLMs, raising the need to evaluate LLMs’ character customization capability. However, existing benchmarks fail to ensure a robust evaluation as they often only involve a single character category or evaluate limited dimensions. Moreover, the sparsity of character features in responses makes feature-focused generative evaluation both ineffective and inefficient. To address these issues, we propose CharacterBench, the largest bilingual generative benchmark, with 22,859 human-annotated samples covering 3,956 characters from 25 detailed character categories. We define 11 dimensions of 6 aspects, classified as sparse and dense dimensions based on whether character features evaluated by specific dimensions manifest in each response. We enable effective and efficient evaluation by crafting tailored queries for each dimension to induce characters’ responses related to specific dimensions. Further, we develop CharacterJudge model for cost-effective and stable evaluations. Experiments show its superiority over SOTA automatic judges (e.g., GPT-4) and our benchmark’s potential to optimize LLMs’ character customization.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T10181",
+          "name": "Natural Language Processing Techniques",
+          "score": 0.9927999973297119,
+          "subfield": "Artificial Intelligence",
+          "field": "Computer Science",
+          "domain": "Physical Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10181",
+            "name": "Natural Language Processing Techniques",
+            "score": 0.9927999973297119,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10028",
+            "name": "Topic Modeling",
+            "score": 0.9926000237464905,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C86251818",
+            "name": "Benchmarking",
+            "score": 0.8616756200790405,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2780861071",
+            "name": "Character (mathematics)",
+            "score": 0.7922941446304321,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C183003079",
+            "name": "Personalization",
+            "score": 0.7179177403450012,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.572070837020874,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C204321447",
+            "name": "Natural language processing",
+            "score": 0.35589972138404846,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C136764020",
+            "name": "World Wide Web",
+            "score": 0.242482990026474,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C144133560",
+            "name": "Business",
+            "score": 0.21188896894454956,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C33923547",
+            "name": "Mathematics",
+            "score": 0.09185099601745605,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C162853370",
+            "name": "Marketing",
+            "score": 0.05683088302612305,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C2524010",
+            "name": "Geometry",
+            "score": 0,
+            "level": 1
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/benchmarking",
+            "name": "Benchmarking",
+            "score": 0.8616756200790405
+          },
+          {
+            "id": "https://openalex.org/keywords/character",
+            "name": "Character (mathematics)",
+            "score": 0.7922941446304321
+          },
+          {
+            "id": "https://openalex.org/keywords/personalization",
+            "name": "Personalization",
+            "score": 0.7179177403450012
+          },
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.572070837020874
+          },
+          {
+            "id": "https://openalex.org/keywords/natural-language-processing",
+            "name": "Natural language processing",
+            "score": 0.35589972138404846
+          },
+          {
+            "id": "https://openalex.org/keywords/world-wide-web",
+            "name": "World Wide Web",
+            "score": 0.242482990026474
+          },
+          {
+            "id": "https://openalex.org/keywords/business",
+            "name": "Business",
+            "score": 0.21188896894454956
+          },
+          {
+            "id": "https://openalex.org/keywords/mathematics",
+            "name": "Mathematics",
+            "score": 0.09185099601745605
+          },
+          {
+            "id": "https://openalex.org/keywords/marketing",
+            "name": "Marketing",
+            "score": 0.05683088302612305
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "diamond",
+          "oa_url": "https://ojs.aaai.org/index.php/AAAI/article/download/34806/36961",
+          "any_repository_has_fulltext": false
+        },
+        "citation_normalized_percentile": {
+          "value": 0.22472967,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "fwci": 0,
+        "counts_by_year": [],
+        "institutions_distinct_count": 16,
+        "countries_distinct_count": 1,
+        "referenced_works_count": 0
+      },
+      "analysis": {
+        "is_interesting": false,
+        "relevance_score": 0.1,
+        "confidence": 0.95,
+        "reason": "The paper focuses on benchmarking LLM character customization capabilities, with no mention of emotion modeling, affective computing, or psychological/emotional dimensions in title, abstract, concepts, or methodology.",
+        "evidence": [
+          "Interest topics specify 'emotion', but paper concepts and abstract emphasize benchmarking, personalization, and character categories—not affective states, sentiment, or emotional expression."
+        ],
+        "keywords": [],
+        "research_directions": []
+      }
+    },
+    {
+      "id": "https://openalex.org/W4409346378",
+      "openalex_url": "https://openalex.org/W4409346378",
+      "title": "SS-GEN: A Social Story Generation Framework with Large Language Models",
+      "publication_year": 2025,
+      "publication_date": "2025-04-11",
+      "doi": "https://doi.org/10.1609/aaai.v39i2.32119",
+      "doi_url": "https://doi.org/10.1609/aaai.v39i2.32119",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 2,
+      "primary_source": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "source": {
+        "id": "https://openalex.org/S4210191458",
+        "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "type": "conference",
+        "issn_l": "2159-5399",
+        "is_in_doaj": false,
+        "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+        "host_organization_lineage_names": [
+          "Association for the Advancement of Artificial Intelligence"
+        ]
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4409346378",
+        "landing_page": "https://doi.org/10.1609/aaai.v39i2.32119",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/download/32119/34274",
+        "primary_topic_openalex": "https://openalex.org/T10028",
+        "source_openalex": "https://openalex.org/S4210191458"
+      },
+      "concepts": [
+        "Computer science",
+        "Linguistics",
+        "Sociology",
+        "Philosophy"
+      ],
+      "abstract": "Children with Autism Spectrum Disorder (ASD) often misunderstand social situations and struggle to participate in daily routines. Social Stories™ are traditionally crafted by psychology experts under strict constraints to address these challenges but are costly and limited in diversity. As Large Language Models (LLMs) advance, there's an opportunity to develop more automated, affordable, and accessible methods to generate Social Stories in real-time with broad coverage. However, adapting LLMs to meet the unique and strict constraints of Social Stories is a challenging issue. To this end, we propose SS-GEN, a Social Story GENeration framework with LLMs. Firstly, we develop a constraint-driven sophisticated strategy named StarSow to hierarchically prompt LLMs to generate Social Stories at scale, followed by rigorous human filtering to build a high-quality dataset. Additionally, we introduce quality assessment criteria to evaluate the effectiveness of these generated stories. Considering that powerful closed-source large models require very complex instructions and expensive API fees, we finally fine-tune smaller language models with our curated high-quality dataset, achieving comparable results at lower costs and with simpler instruction and deployment. This work marks a significant step in leveraging AI to personalize Social Stories cost-effectively for autistic children at scale, which we hope can encourage future research on special groups.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T10028",
+          "name": "Topic Modeling",
+          "score": 0.980400025844574,
+          "subfield": "Artificial Intelligence",
+          "field": "Computer Science",
+          "domain": "Physical Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10028",
+            "name": "Topic Modeling",
+            "score": 0.980400025844574,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11574",
+            "name": "Artificial Intelligence in Games",
+            "score": 0.9265000224113464,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10181",
+            "name": "Natural Language Processing Techniques",
+            "score": 0.9122999906539917,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.4384385943412781,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C41895202",
+            "name": "Linguistics",
+            "score": 0.4374416470527649,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C144024400",
+            "name": "Sociology",
+            "score": 0.3230959475040436,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C138885662",
+            "name": "Philosophy",
+            "score": 0.10126340389251709,
+            "level": 0
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.4384385943412781
+          },
+          {
+            "id": "https://openalex.org/keywords/linguistics",
+            "name": "Linguistics",
+            "score": 0.4374416470527649
+          },
+          {
+            "id": "https://openalex.org/keywords/sociology",
+            "name": "Sociology",
+            "score": 0.3230959475040436
+          },
+          {
+            "id": "https://openalex.org/keywords/philosophy",
+            "name": "Philosophy",
+            "score": 0.10126340389251709
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "diamond",
+          "oa_url": "https://ojs.aaai.org/index.php/AAAI/article/download/32119/34274",
+          "any_repository_has_fulltext": false
+        },
+        "citation_normalized_percentile": {
+          "value": 0.81669011,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "fwci": 6.43082309,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 1
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 1
+          }
+        ],
+        "institutions_distinct_count": 8,
+        "countries_distinct_count": 1,
+        "referenced_works_count": 0
+      },
+      "analysis": {
+        "is_interesting": true,
+        "relevance_score": 0.85,
+        "confidence": 0.92,
+        "reason": "The paper addresses emotion-related challenges in children with Autism Spectrum Disorder (ASD) through Social Stories, which are explicitly designed to support emotional understanding, regulation, and social-emotional learning.",
+        "evidence": [
+          "Social Stories™ are crafted to help children with ASD 'understand social situations' and 'participate in daily routines' — tasks deeply tied to emotion recognition and expression",
+          "The framework targets 'personaliz[ing] Social Stories cost-effectively for autistic children at scale', a population where affective/emotion processing deficits are core diagnostic features"
+        ],
+        "keywords": [
+          "emotion regulation",
+          "social-emotional learning",
+          "autism spectrum disorder",
+          "affective computing",
+          "social stories"
+        ],
+        "research_directions": [
+          "Affective AI for neurodiverse populations",
+          "Emotion-aware narrative generation",
+          "LLM-based interventions for emotional development",
+          "Human-AI collaboration in clinical psychology"
+        ]
+      }
+    },
+    {
+      "id": "https://openalex.org/W4409346808",
+      "openalex_url": "https://openalex.org/W4409346808",
+      "title": "SocialSim: Towards Socialized Simulation of Emotional Support Conversation",
+      "publication_year": 2025,
+      "publication_date": "2025-04-11",
+      "doi": "https://doi.org/10.1609/aaai.v39i2.32116",
+      "doi_url": "https://doi.org/10.1609/aaai.v39i2.32116",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 1,
+      "primary_source": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "source": {
+        "id": "https://openalex.org/S4210191458",
+        "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "type": "conference",
+        "issn_l": "2159-5399",
+        "is_in_doaj": false,
+        "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+        "host_organization_lineage_names": [
+          "Association for the Advancement of Artificial Intelligence"
+        ]
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4409346808",
+        "landing_page": "https://doi.org/10.1609/aaai.v39i2.32116",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/download/32116/34271",
+        "primary_topic_openalex": "https://openalex.org/T11519",
+        "source_openalex": "https://openalex.org/S4210191458"
+      },
+      "concepts": [
+        "Conversation",
+        "Psychology",
+        "Emotional support",
+        "Social psychology",
+        "Computer science",
+        "Applied psychology",
+        "Sociology",
+        "Communication"
+      ],
+      "abstract": "Emotional support conversation (ESC) helps reduce people's psychological stress and provide emotional value through interactive dialogues. Due to the high cost of crowdsourcing a large ESC corpus, recent attempts use large language models for dialogue augmentation. However, existing approaches largely overlook the social dynamics inherent in ESC, leading to less effective simulations. In this paper, we introduce SocialSim, a novel framework that simulates ESC by integrating key aspects of social interactions: social disclosure and social awareness. On the seeker side, we facilitate social disclosure by constructing a comprehensive persona bank that captures diverse and authentic help-seeking scenarios. On the supporter side, we enhance social awareness by eliciting cognitive reasoning to generate logical and supportive responses. Building upon SocialSim, we construct SSConv, a large-scale synthetic ESC corpus of which quality can even surpass crowdsourced ESC data. We further train a chatbot on SSConv and demonstrate its state-of-the-art performance in both automatic and human evaluations. We believe SocialSim offers a scalable way to synthesize ESC, making emotional care more accessible and practical.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T11519",
+          "name": "Digital Mental Health Interventions",
+          "score": 0.9085000157356262,
+          "subfield": "Applied Psychology",
+          "field": "Psychology",
+          "domain": "Social Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T11519",
+            "name": "Digital Mental Health Interventions",
+            "score": 0.9085000157356262,
+            "subfield": "Applied Psychology",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C2777200299",
+            "name": "Conversation",
+            "score": 0.8710253238677979,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C15744967",
+            "name": "Psychology",
+            "score": 0.48918417096138,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C3018916638",
+            "name": "Emotional support",
+            "score": 0.4149101972579956,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C77805123",
+            "name": "Social psychology",
+            "score": 0.4083014130592346,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.33246153593063354,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C75630572",
+            "name": "Applied psychology",
+            "score": 0.3280848562717438,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C144024400",
+            "name": "Sociology",
+            "score": 0.32480716705322266,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C46312422",
+            "name": "Communication",
+            "score": 0.2942340075969696,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C2778087770",
+            "name": "Social support",
+            "score": 0.2311803698539734,
+            "level": 2
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/conversation",
+            "name": "Conversation",
+            "score": 0.8710253238677979
+          },
+          {
+            "id": "https://openalex.org/keywords/psychology",
+            "name": "Psychology",
+            "score": 0.48918417096138
+          },
+          {
+            "id": "https://openalex.org/keywords/emotional-support",
+            "name": "Emotional support",
+            "score": 0.4149101972579956
+          },
+          {
+            "id": "https://openalex.org/keywords/social-psychology",
+            "name": "Social psychology",
+            "score": 0.4083014130592346
+          },
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.33246153593063354
+          },
+          {
+            "id": "https://openalex.org/keywords/applied-psychology",
+            "name": "Applied psychology",
+            "score": 0.3280848562717438
+          },
+          {
+            "id": "https://openalex.org/keywords/sociology",
+            "name": "Sociology",
+            "score": 0.32480716705322266
+          },
+          {
+            "id": "https://openalex.org/keywords/communication",
+            "name": "Communication",
+            "score": 0.2942340075969696
+          },
+          {
+            "id": "https://openalex.org/keywords/social-support",
+            "name": "Social support",
+            "score": 0.2311803698539734
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "diamond",
+          "oa_url": "https://ojs.aaai.org/index.php/AAAI/article/download/32116/34271",
+          "any_repository_has_fulltext": true
+        },
+        "citation_normalized_percentile": {
+          "value": 0.96428571,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": true
+        },
+        "fwci": 10.49999948,
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 1
+          }
+        ],
+        "institutions_distinct_count": 9,
+        "countries_distinct_count": 1,
+        "referenced_works_count": 0
+      },
+      "analysis": {
+        "is_interesting": true,
+        "relevance_score": 0.95,
+        "confidence": 0.98,
+        "reason": "The paper is centrally focused on emotional support conversation, explicitly modeling emotion-related social dynamics (e.g., social disclosure, social awareness) and targeting psychological stress reduction — directly aligning with the researcher's interest topic 'emotion'.",
+        "evidence": [
+          "Title includes 'Emotional Support Conversation'",
+          "Abstract states ESC 'helps reduce people's psychological stress and provide emotional value'",
+          "Framework integrates 'social disclosure' and 'social awareness' to simulate emotion-laden interactions"
+        ],
+        "keywords": [
+          "emotional support",
+          "emotion",
+          "emotional support conversation",
+          "social disclosure",
+          "social awareness",
+          "psychological stress",
+          "ESC"
+        ],
+        "research_directions": [
+          "affective computing",
+          "emotion-aware dialogue systems",
+          "computational psychology",
+          "social simulation of emotion",
+          "mental health AI",
+          "empathic AI"
+        ]
+      }
+    },
+    {
+      "id": "https://openalex.org/W4412944618",
+      "openalex_url": "https://openalex.org/W4412944618",
+      "title": "MAGI: Multi-Agent Guided Interview for Psychiatric Assessment",
+      "publication_year": 2025,
+      "publication_date": "2025-01-01",
+      "doi": "https://doi.org/10.18653/v1/2025.findings-acl.1278",
+      "doi_url": "https://doi.org/10.18653/v1/2025.findings-acl.1278",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 0,
+      "primary_source": null,
+      "source": {
+        "id": null,
+        "display_name": null,
+        "type": null,
+        "issn_l": null,
+        "is_in_doaj": null,
+        "host_organization_name": null,
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4412944618",
+        "landing_page": "https://doi.org/10.18653/v1/2025.findings-acl.1278",
+        "pdf": "https://aclanthology.org/2025.findings-acl.1278.pdf",
+        "primary_topic_openalex": "https://openalex.org/T13283",
+        "source_openalex": null
+      },
+      "concepts": [
+        "Computer science",
+        "Psychiatry",
+        "Psychology"
+      ],
+      "abstract": "Guanqun Bi, Zhuang Chen, Zhoufu Liu, Hongkai Wang, Xiyao Xiao, Yuqiang Xie, Wen Zhang, Yongkang Huang, Yuxuan Chen, Libiao Peng, Minlie Huang. Findings of the Association for Computational Linguistics: ACL 2025. 2025.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T13283",
+          "name": "Mental Health Research Topics",
+          "score": 0.2858999967575073,
+          "subfield": "Experimental and Cognitive Psychology",
+          "field": "Psychology",
+          "domain": "Social Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T13283",
+            "name": "Mental Health Research Topics",
+            "score": 0.2858999967575073,
+            "subfield": "Experimental and Cognitive Psychology",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.5050991177558899,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C118552586",
+            "name": "Psychiatry",
+            "score": 0.4196242690086365,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C15744967",
+            "name": "Psychology",
+            "score": 0.37523820996284485,
+            "level": 0
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.5050991177558899
+          },
+          {
+            "id": "https://openalex.org/keywords/psychiatry",
+            "name": "Psychiatry",
+            "score": 0.4196242690086365
+          },
+          {
+            "id": "https://openalex.org/keywords/psychology",
+            "name": "Psychology",
+            "score": 0.37523820996284485
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://aclanthology.org/2025.findings-acl.1278.pdf",
+          "any_repository_has_fulltext": null
+        },
+        "citation_normalized_percentile": {
+          "value": 0.24563476,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "fwci": 0,
+        "counts_by_year": [],
+        "institutions_distinct_count": 11,
+        "countries_distinct_count": 0,
+        "referenced_works_count": 0
+      },
+      "analysis": {
+        "is_interesting": true,
+        "relevance_score": 0.92,
+        "confidence": 0.95,
+        "reason": "The paper focuses on psychiatric assessment using multi-agent AI, which inherently involves modeling, detecting, or responding to human emotions—directly aligning with the researcher's interest in 'emotion'.",
+        "evidence": [
+          "Title explicitly references 'Psychiatric Assessment', a clinical domain deeply tied to emotional states and affective disorders",
+          "Interest topic 'emotion' matches core challenges in automated psychiatric interviews, such as emotion recognition, empathic response generation, and affective state inference"
+        ],
+        "keywords": [
+          "emotion recognition",
+          "affective computing",
+          "psychiatric assessment",
+          "multi-agent systems",
+          "clinical NLP"
+        ],
+        "research_directions": [
+          "Affective AI for mental health screening",
+          "Emotion-aware dialogue systems",
+          "Computational psychiatry",
+          "Human-AI interaction in emotional contexts"
+        ]
+      }
+    },
+    {
+      "id": "https://openalex.org/W4403942869",
+      "openalex_url": "https://openalex.org/W4403942869",
+      "title": "Enhancing Emotional Support Conversation with Cognitive Chain-of-Thought Reasoning",
+      "publication_year": 2024,
+      "publication_date": "2024-10-31",
+      "doi": "https://doi.org/10.1007/978-981-97-9431-7_14",
+      "doi_url": "https://doi.org/10.1007/978-981-97-9431-7_14",
+      "type": "book-chapter",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 0,
+      "primary_source": "Lecture notes in computer science",
+      "source": {
+        "id": "https://openalex.org/S106296714",
+        "display_name": "Lecture notes in computer science",
+        "type": "book series",
+        "issn_l": "0302-9743",
+        "is_in_doaj": false,
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ]
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4403942869",
+        "landing_page": "https://doi.org/10.1007/978-981-97-9431-7_14",
+        "pdf": null,
+        "primary_topic_openalex": "https://openalex.org/T11902",
+        "source_openalex": "https://openalex.org/S106296714"
+      },
+      "concepts": [
+        "Conversation",
+        "Computer science",
+        "Cognition",
+        "Cognitive science",
+        "Psychology",
+        "Communication",
+        "Neuroscience"
+      ],
+      "abstract": "",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T11902",
+          "name": "Intelligent Tutoring Systems and Adaptive Learning",
+          "score": 0.9897000193595886,
+          "subfield": "Artificial Intelligence",
+          "field": "Computer Science",
+          "domain": "Physical Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T11902",
+            "name": "Intelligent Tutoring Systems and Adaptive Learning",
+            "score": 0.9897000193595886,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10636",
+            "name": "Innovative Teaching and Learning Methods",
+            "score": 0.9848999977111816,
+            "subfield": "Developmental and Educational Psychology",
+            "field": "Psychology",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T12128",
+            "name": "AI in Service Interactions",
+            "score": 0.9678999781608582,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C2777200299",
+            "name": "Conversation",
+            "score": 0.7924946546554565,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.7746978998184204,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C169900460",
+            "name": "Cognition",
+            "score": 0.6049257516860962,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C188147891",
+            "name": "Cognitive science",
+            "score": 0.48665958642959595,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C15744967",
+            "name": "Psychology",
+            "score": 0.13216939568519592,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C46312422",
+            "name": "Communication",
+            "score": 0.0825948417186737,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C169760540",
+            "name": "Neuroscience",
+            "score": 0,
+            "level": 1
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/conversation",
+            "name": "Conversation",
+            "score": 0.7924946546554565
+          },
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.7746978998184204
+          },
+          {
+            "id": "https://openalex.org/keywords/cognition",
+            "name": "Cognition",
+            "score": 0.6049257516860962
+          },
+          {
+            "id": "https://openalex.org/keywords/cognitive-science",
+            "name": "Cognitive science",
+            "score": 0.48665958642959595
+          },
+          {
+            "id": "https://openalex.org/keywords/psychology",
+            "name": "Psychology",
+            "score": 0.13216939568519592
+          },
+          {
+            "id": "https://openalex.org/keywords/communication",
+            "name": "Communication",
+            "score": 0.0825948417186737
+          }
+        ],
+        "sustainable_development_goals": [
+          {
+            "id": "https://metadata.un.org/sdg/10",
+            "display_name": "Reduced inequalities",
+            "score": 0.5
+          }
+        ],
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "citation_normalized_percentile": {
+          "value": 0.41773473,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "fwci": 0,
+        "counts_by_year": [],
+        "institutions_distinct_count": 8,
+        "countries_distinct_count": 1,
+        "referenced_works_count": 19
+      },
+      "analysis": {
+        "is_interesting": true,
+        "relevance_score": 0.95,
+        "confidence": 0.98,
+        "reason": "The paper title explicitly references 'Emotional Support Conversation' and 'Cognitive Chain-of-Thought Reasoning', directly aligning with the researcher's interest in 'emotion'. The venue and concepts (Psychology, Neuroscience, Communication, Cognition) further support affective/emotion-related AI research.",
+        "evidence": [
+          "Title: 'Enhancing Emotional Support Conversation with Cognitive Chain-of-Thought Reasoning'",
+          "Interest topics: 'emotion'"
+        ],
+        "keywords": [
+          "emotional support",
+          "affective computing",
+          "conversational AI",
+          "cognitive reasoning",
+          "emotion regulation"
+        ],
+        "research_directions": [
+          "Affective human-computer interaction",
+          "Emotion-aware dialogue systems",
+          "Cognitive-affective modeling in NLP",
+          "Mental health support via AI"
+        ]
+      }
+    },
+    {
+      "id": "https://openalex.org/W4392384434",
+      "openalex_url": "https://openalex.org/W4392384434",
+      "title": "Generative Models for Complex Logical Reasoning over Knowledge Graphs",
+      "publication_year": 2024,
+      "publication_date": "2024-03-04",
+      "doi": "https://doi.org/10.1145/3616855.3635804",
+      "doi_url": "https://doi.org/10.1145/3616855.3635804",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 6,
+      "primary_source": null,
+      "source": {
+        "id": null,
+        "display_name": null,
+        "type": null,
+        "issn_l": null,
+        "is_in_doaj": null,
+        "host_organization_name": null,
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4392384434",
+        "landing_page": "https://doi.org/10.1145/3616855.3635804",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3616855.3635804",
+        "primary_topic_openalex": "https://openalex.org/T11010",
+        "source_openalex": null
+      },
+      "concepts": [
+        "Generative grammar",
+        "Computer science",
+        "Deductive reasoning",
+        "Artificial intelligence",
+        "Cognitive science",
+        "Reasoning system",
+        "Natural language processing",
+        "Theoretical computer science"
+      ],
+      "abstract": "Answering complex logical queries over knowledge graphs (KGs) is a fundamental yet challenging task. Recently, query representation has been a mainstream approach to complex logical reasoning, making the target answer and query closer in the embedding space. However, there are still two limitations. First, prior methods model the query as a fixed vector, but ignore the uncertainty of relations on KGs. In fact, different relations may contain different semantic distributions. Second, traditional representation frameworks fail to capture the joint distribution of queries and answers, which can be learned by generative models that have the potential to produce more coherent answers. To alleviate these limitations, we propose a novel generative model, named DiffCLR, which exploits the diffusion model for complex logical reasoning to approximate query distributions. Specifically, we first devise a query transformation to convert logical queries into input sequences by dynamically constructing contextual subgraphs. Then, we integrate them into the diffusion model to execute a multi-step generative process, and a structure-enhanced self-attention is further designed for incorporating the structural features embodied in KGs. Experimental results on two benchmark datasets show our model effectively outperforms state-of-the-art methods, particularly in multi-hop chain queries with significant improvement.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T11010",
+          "name": "Logic, Reasoning, and Knowledge",
+          "score": 0.9976999759674072,
+          "subfield": "Artificial Intelligence",
+          "field": "Computer Science",
+          "domain": "Physical Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T11010",
+            "name": "Logic, Reasoning, and Knowledge",
+            "score": 0.9976999759674072,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10215",
+            "name": "Semantic Web and Ontologies",
+            "score": 0.9958000183105469,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11303",
+            "name": "Bayesian Modeling and Causal Inference",
+            "score": 0.9955999851226807,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C39890363",
+            "name": "Generative grammar",
+            "score": 0.7047228813171387,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.6771776080131531,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C97364631",
+            "name": "Deductive reasoning",
+            "score": 0.4711039662361145,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "name": "Artificial intelligence",
+            "score": 0.46617794036865234,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C188147891",
+            "name": "Cognitive science",
+            "score": 0.4344673752784729,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C89288958",
+            "name": "Reasoning system",
+            "score": 0.4325879216194153,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C204321447",
+            "name": "Natural language processing",
+            "score": 0.3303925096988678,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C80444323",
+            "name": "Theoretical computer science",
+            "score": 0.32573503255844116,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C15744967",
+            "name": "Psychology",
+            "score": 0.09323102235794067,
+            "level": 0
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/generative-grammar",
+            "name": "Generative grammar",
+            "score": 0.7047228813171387
+          },
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.6771776080131531
+          },
+          {
+            "id": "https://openalex.org/keywords/deductive-reasoning",
+            "name": "Deductive reasoning",
+            "score": 0.4711039662361145
+          },
+          {
+            "id": "https://openalex.org/keywords/artificial-intelligence",
+            "name": "Artificial intelligence",
+            "score": 0.46617794036865234
+          },
+          {
+            "id": "https://openalex.org/keywords/cognitive-science",
+            "name": "Cognitive science",
+            "score": 0.4344673752784729
+          },
+          {
+            "id": "https://openalex.org/keywords/reasoning-system",
+            "name": "Reasoning system",
+            "score": 0.4325879216194153
+          },
+          {
+            "id": "https://openalex.org/keywords/natural-language-processing",
+            "name": "Natural language processing",
+            "score": 0.3303925096988678
+          },
+          {
+            "id": "https://openalex.org/keywords/theoretical-computer-science",
+            "name": "Theoretical computer science",
+            "score": 0.32573503255844116
+          },
+          {
+            "id": "https://openalex.org/keywords/psychology",
+            "name": "Psychology",
+            "score": 0.09323102235794067
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://dl.acm.org/doi/pdf/10.1145/3616855.3635804",
+          "any_repository_has_fulltext": null
+        },
+        "citation_normalized_percentile": {
+          "value": 0.89190861,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "fwci": 3.83267129,
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 5
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 1
+          }
+        ],
+        "institutions_distinct_count": 5,
+        "countries_distinct_count": 1,
+        "referenced_works_count": 29
+      },
+      "analysis": {
+        "is_interesting": false,
+        "relevance_score": 0.1,
+        "confidence": 0.95,
+        "reason": "The paper focuses on generative models for logical reasoning over knowledge graphs and contains no mention of emotion, affect, or related psychological/behavioral constructs.",
+        "evidence": [
+          "Abstract and concepts exclusively cover AI, reasoning systems, NLP, and theoretical computer science; 'emotion' does not appear in title, abstract, or listed concepts."
+        ],
+        "keywords": [],
+        "research_directions": []
+      }
+    },
+    {
+      "id": "https://openalex.org/W4402671125",
+      "openalex_url": "https://openalex.org/W4402671125",
+      "title": "ToMBench: Benchmarking Theory of Mind in Large Language Models",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.18653/v1/2024.acl-long.847",
+      "doi_url": "https://doi.org/10.18653/v1/2024.acl-long.847",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 3,
+      "primary_source": null,
+      "source": {
+        "id": null,
+        "display_name": null,
+        "type": null,
+        "issn_l": null,
+        "is_in_doaj": null,
+        "host_organization_name": null,
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4402671125",
+        "landing_page": "https://doi.org/10.18653/v1/2024.acl-long.847",
+        "pdf": "https://aclanthology.org/2024.acl-long.847.pdf",
+        "primary_topic_openalex": "https://openalex.org/T10028",
+        "source_openalex": null
+      },
+      "concepts": [
+        "Benchmarking",
+        "Computer science",
+        "Natural language processing",
+        "Artificial intelligence",
+        "Cognitive science",
+        "Psychology",
+        "Marketing",
+        "Business"
+      ],
+      "abstract": "Zhuang Chen, Jincenzi Wu, Jinfeng Zhou, Bosi Wen, Guanqun Bi, Gongyao Jiang, Yaru Cao, Mengting Hu, Yunghwei Lai, Zexuan Xiong, Minlie Huang. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2024.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T10028",
+          "name": "Topic Modeling",
+          "score": 0.9664999842643738,
+          "subfield": "Artificial Intelligence",
+          "field": "Computer Science",
+          "domain": "Physical Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10028",
+            "name": "Topic Modeling",
+            "score": 0.9664999842643738,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C86251818",
+            "name": "Benchmarking",
+            "score": 0.7496111392974854,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.6904938817024231,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C204321447",
+            "name": "Natural language processing",
+            "score": 0.46951645612716675,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "name": "Artificial intelligence",
+            "score": 0.41372719407081604,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C188147891",
+            "name": "Cognitive science",
+            "score": 0.4087528586387634,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C15744967",
+            "name": "Psychology",
+            "score": 0.17114871740341187,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C162853370",
+            "name": "Marketing",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C144133560",
+            "name": "Business",
+            "score": 0,
+            "level": 0
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/benchmarking",
+            "name": "Benchmarking",
+            "score": 0.7496111392974854
+          },
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.6904938817024231
+          },
+          {
+            "id": "https://openalex.org/keywords/natural-language-processing",
+            "name": "Natural language processing",
+            "score": 0.46951645612716675
+          },
+          {
+            "id": "https://openalex.org/keywords/artificial-intelligence",
+            "name": "Artificial intelligence",
+            "score": 0.41372719407081604
+          },
+          {
+            "id": "https://openalex.org/keywords/cognitive-science",
+            "name": "Cognitive science",
+            "score": 0.4087528586387634
+          },
+          {
+            "id": "https://openalex.org/keywords/psychology",
+            "name": "Psychology",
+            "score": 0.17114871740341187
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://aclanthology.org/2024.acl-long.847.pdf",
+          "any_repository_has_fulltext": null
+        },
+        "citation_normalized_percentile": {
+          "value": 0.81617917,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "fwci": 1.91633565,
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 2
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 1
+          }
+        ],
+        "institutions_distinct_count": 11,
+        "countries_distinct_count": 0,
+        "referenced_works_count": 0
+      },
+      "analysis": {
+        "is_interesting": true,
+        "relevance_score": 0.75,
+        "confidence": 0.85,
+        "reason": "The paper benchmarks Theory of Mind (ToM) in LLMs, which inherently involves modeling human mental states including emotions, intentions, and beliefs; 'emotion' is a core component of ToM in cognitive science and psychology.",
+        "evidence": [
+          "Interest topics include 'emotion'",
+          "Concepts include 'Cognitive science', 'Psychology'",
+          "ToM benchmarking requires emotion inference and affective reasoning"
+        ],
+        "keywords": [
+          "Theory of Mind",
+          "emotion recognition",
+          "affective cognition",
+          "mental state attribution",
+          "LLM evaluation"
+        ],
+        "research_directions": [
+          "Affective AI",
+          "Cognitive modeling in LLMs",
+          "Emotion-aware NLP systems",
+          "Interpretability of social reasoning in language models"
+        ]
+      }
+    },
+    {
+      "id": "https://openalex.org/W4404783534",
+      "openalex_url": "https://openalex.org/W4404783534",
+      "title": "CharacterGLM: Customizing Social Characters with Large Language Models",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "doi": "https://doi.org/10.18653/v1/2024.emnlp-industry.107",
+      "doi_url": "https://doi.org/10.18653/v1/2024.emnlp-industry.107",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 5,
+      "primary_source": null,
+      "source": {
+        "id": null,
+        "display_name": null,
+        "type": null,
+        "issn_l": null,
+        "is_in_doaj": null,
+        "host_organization_name": null,
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4404783534",
+        "landing_page": "https://doi.org/10.18653/v1/2024.emnlp-industry.107",
+        "pdf": "https://aclanthology.org/2024.emnlp-industry.107.pdf",
+        "primary_topic_openalex": "https://openalex.org/T10028",
+        "source_openalex": null
+      },
+      "concepts": [
+        "Computer science",
+        "Natural language processing"
+      ],
+      "abstract": "Jinfeng Zhou, Zhuang Chen, Dazhen Wan, Bosi Wen, Yi Song, Jifan Yu, Yongkang Huang, Pei Ke, Guanqun Bi, Libiao Peng, JiaMing Yang, Xiyao Xiao, Sahand Sabour, Xiaohan Zhang, Wenjing Hou, Yijia Zhang, Yuxiao Dong, Hongning Wang, Jie Tang, Minlie Huang. Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Industry Track. 2024.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T10028",
+          "name": "Topic Modeling",
+          "score": 0.9495000243186951,
+          "subfield": "Artificial Intelligence",
+          "field": "Computer Science",
+          "domain": "Physical Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10028",
+            "name": "Topic Modeling",
+            "score": 0.9495000243186951,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13910",
+            "name": "Computational and Text Analysis Methods",
+            "score": 0.9495000243186951,
+            "subfield": "General Social Sciences",
+            "field": "Social Sciences",
+            "domain": "Social Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13083",
+            "name": "Advanced Text Analysis Techniques",
+            "score": 0.9135000109672546,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.7171101570129395,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C204321447",
+            "name": "Natural language processing",
+            "score": 0.4476637840270996,
+            "level": 1
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.7171101570129395
+          },
+          {
+            "id": "https://openalex.org/keywords/natural-language-processing",
+            "name": "Natural language processing",
+            "score": 0.4476637840270996
+          }
+        ],
+        "sustainable_development_goals": [
+          {
+            "id": "https://metadata.un.org/sdg/10",
+            "display_name": "Reduced inequalities",
+            "score": 0.5199999809265137
+          }
+        ],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://aclanthology.org/2024.emnlp-industry.107.pdf",
+          "any_repository_has_fulltext": null
+        },
+        "citation_normalized_percentile": {
+          "value": 0.88083999,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "fwci": 3.19389275,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 2
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 3
+          }
+        ],
+        "institutions_distinct_count": 20,
+        "countries_distinct_count": 0,
+        "referenced_works_count": 0
+      },
+      "analysis": {
+        "is_interesting": false,
+        "relevance_score": 0.15,
+        "confidence": 0.85,
+        "reason": "The paper focuses on customizing social characters using LLMs, with no explicit mention or conceptual linkage to emotion modeling, affective computing, or emotion-related NLP tasks.",
+        "evidence": [
+          "Title and abstract emphasize character customization and LLMs; 'emotion' does not appear in metadata or cited context."
+        ],
+        "keywords": [],
+        "research_directions": []
+      }
+    },
+    {
+      "id": "https://openalex.org/W4372259941",
+      "openalex_url": "https://openalex.org/W4372259941",
+      "title": "Seri: Sketching-Reasoning-Integrating Progressive Workflow for Empathetic Response Generation",
+      "publication_year": 2023,
+      "publication_date": "2023-05-05",
+      "doi": "https://doi.org/10.1109/icassp49357.2023.10094672",
+      "doi_url": "https://doi.org/10.1109/icassp49357.2023.10094672",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 1,
+      "primary_source": null,
+      "source": {
+        "id": null,
+        "display_name": null,
+        "type": null,
+        "issn_l": null,
+        "is_in_doaj": null,
+        "host_organization_name": null,
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4372259941",
+        "landing_page": "http://dx.doi.org/10.1109/icassp49357.2023.10094672",
+        "pdf": null,
+        "primary_topic_openalex": "https://openalex.org/T10028",
+        "source_openalex": null
+      },
+      "concepts": [
+        "Empathy",
+        "Cognition",
+        "Workflow",
+        "Computer science",
+        "Affection",
+        "Planner",
+        "Cognitive science",
+        "Bridge (graph theory)"
+      ],
+      "abstract": "Empathy is a key ability for a human-like dialogue system. Inspired by social psychology, empathy includes both affective and cognitive aspects. Previous works on this topic have merely focused on recognizing emotions or modeling cognition with commonsense knowledge. Nevertheless, the generated results of these works still have a big gap with human-like empathetic responses. In this paper, we propose Seri, a SkEtching-Reasoning-Integrating framework for empathetic response generation. In particular, we define an empathy planner to capture and reason about multi-source information that considers cognition and affection. Further, we introduce a dynamic integrator module that allows the model dynamically select the appropriate information to generate empathetic responses. Experimental results on EmpatheticDialogue show that our method outperforms competitive baselines and generates responses with higher diversity and cognitive empathy levels.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T10028",
+          "name": "Topic Modeling",
+          "score": 0.9998000264167786,
+          "subfield": "Artificial Intelligence",
+          "field": "Computer Science",
+          "domain": "Physical Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10028",
+            "name": "Topic Modeling",
+            "score": 0.9998000264167786,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10181",
+            "name": "Natural Language Processing Techniques",
+            "score": 0.991599977016449,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11714",
+            "name": "Multimodal Machine Learning Applications",
+            "score": 0.9886000156402588,
+            "subfield": "Computer Vision and Pattern Recognition",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C2779885105",
+            "name": "Empathy",
+            "score": 0.8482416272163391,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C169900460",
+            "name": "Cognition",
+            "score": 0.6773020625114441,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C177212765",
+            "name": "Workflow",
+            "score": 0.6033791899681091,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.5899595618247986,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C2780595226",
+            "name": "Affection",
+            "score": 0.48970678448677063,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2776999362",
+            "name": "Planner",
+            "score": 0.4818078875541687,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C188147891",
+            "name": "Cognitive science",
+            "score": 0.44020581245422363,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C100776233",
+            "name": "Bridge (graph theory)",
+            "score": 0.4345688819885254,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C180747234",
+            "name": "Cognitive psychology",
+            "score": 0.4074466824531555,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C107457646",
+            "name": "Human–computer interaction",
+            "score": 0.33208468556404114,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C15744967",
+            "name": "Psychology",
+            "score": 0.33093494176864624,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "name": "Artificial intelligence",
+            "score": 0.31422579288482666,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C77805123",
+            "name": "Social psychology",
+            "score": 0.1833251714706421,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C169760540",
+            "name": "Neuroscience",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C71924100",
+            "name": "Medicine",
+            "score": 0,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C77088390",
+            "name": "Database",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C126322002",
+            "name": "Internal medicine",
+            "score": 0,
+            "level": 1
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/empathy",
+            "name": "Empathy",
+            "score": 0.8482416272163391
+          },
+          {
+            "id": "https://openalex.org/keywords/cognition",
+            "name": "Cognition",
+            "score": 0.6773020625114441
+          },
+          {
+            "id": "https://openalex.org/keywords/workflow",
+            "name": "Workflow",
+            "score": 0.6033791899681091
+          },
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.5899595618247986
+          },
+          {
+            "id": "https://openalex.org/keywords/affection",
+            "name": "Affection",
+            "score": 0.48970678448677063
+          },
+          {
+            "id": "https://openalex.org/keywords/planner",
+            "name": "Planner",
+            "score": 0.4818078875541687
+          },
+          {
+            "id": "https://openalex.org/keywords/cognitive-science",
+            "name": "Cognitive science",
+            "score": 0.44020581245422363
+          },
+          {
+            "id": "https://openalex.org/keywords/bridge",
+            "name": "Bridge (graph theory)",
+            "score": 0.4345688819885254
+          },
+          {
+            "id": "https://openalex.org/keywords/cognitive-psychology",
+            "name": "Cognitive psychology",
+            "score": 0.4074466824531555
+          },
+          {
+            "id": "https://openalex.org/keywords/human–computer-interaction",
+            "name": "Human–computer interaction",
+            "score": 0.33208468556404114
+          },
+          {
+            "id": "https://openalex.org/keywords/psychology",
+            "name": "Psychology",
+            "score": 0.33093494176864624
+          },
+          {
+            "id": "https://openalex.org/keywords/artificial-intelligence",
+            "name": "Artificial intelligence",
+            "score": 0.31422579288482666
+          },
+          {
+            "id": "https://openalex.org/keywords/social-psychology",
+            "name": "Social psychology",
+            "score": 0.1833251714706421
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "citation_normalized_percentile": {
+          "value": 0.52724274,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "fwci": 0.25544289,
+        "counts_by_year": [
+          {
+            "year": 2023,
+            "cited_by_count": 1
+          }
+        ],
+        "institutions_distinct_count": 6,
+        "countries_distinct_count": 1,
+        "referenced_works_count": 31
+      },
+      "analysis": {
+        "is_interesting": true,
+        "relevance_score": 0.95,
+        "confidence": 0.98,
+        "reason": "The paper explicitly focuses on empathetic response generation, with core emphasis on both affective (emotion recognition, affection) and cognitive empathy—directly aligning with the researcher's interest topic 'emotion'. The framework (Seri) and components (empathy planner, dynamic integrator) are designed to model emotional understanding and expression in dialogue.",
+        "evidence": [
+          "Abstract states: 'empathy includes both affective and cognitive aspects'",
+          "Concepts include: 'Empathy', 'Affection', 'Cognition'",
+          "Title contains 'Empathetic Response Generation'"
+        ],
+        "keywords": [
+          "empathy",
+          "affective computing",
+          "emotion recognition",
+          "dialogue systems",
+          "empathetic response generation",
+          "affection",
+          "cognitive empathy"
+        ],
+        "research_directions": [
+          "affective NLP",
+          "emotion-aware dialogue modeling",
+          "computational empathy",
+          "human-centered AI",
+          "affective reasoning in language generation"
+        ]
+      }
+    },
+    {
+      "id": "https://openalex.org/W4385570921",
+      "openalex_url": "https://openalex.org/W4385570921",
+      "title": "DiffusEmp: A Diffusion Model-Based Framework with Multi-Grained Control for Empathetic Response Generation",
+      "publication_year": 2023,
+      "publication_date": "2023-01-01",
+      "doi": "https://doi.org/10.18653/v1/2023.acl-long.158",
+      "doi_url": "https://doi.org/10.18653/v1/2023.acl-long.158",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 7,
+      "primary_source": null,
+      "source": {
+        "id": null,
+        "display_name": null,
+        "type": null,
+        "issn_l": null,
+        "is_in_doaj": null,
+        "host_organization_name": null,
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4385570921",
+        "landing_page": "https://doi.org/10.18653/v1/2023.acl-long.158",
+        "pdf": "https://aclanthology.org/2023.acl-long.158.pdf",
+        "primary_topic_openalex": "https://openalex.org/T10028",
+        "source_openalex": null
+      },
+      "concepts": [
+        "Computer science",
+        "Controllability",
+        "Context (archaeology)",
+        "Empathy",
+        "Realization (probability)",
+        "Process (computing)",
+        "Masking (illustration)",
+        "Benchmark (surveying)"
+      ],
+      "abstract": "Empathy is a crucial factor in open-domain conversations, which naturally shows one's caring and understanding to others. Though several methods have been proposed to generate empathetic responses, existing works often lead to monotonous empathy that refers to generic and safe expressions. In this paper, we propose to use explicit control to guide the empathy expression and design a framework DiffusEmp based on conditional diffusion language model to unify the utilization of dialogue context and attribute-oriented control signals. Specifically, communication mechanism, intent, and semantic frame are imported as multi-grained signals that control the empathy realization from coarse to fine levels. We then design a specific masking strategy to reflect the relationship between multi-grained signals and response tokens, and integrate it into the diffusion model to influence the generative process. Experimental results on a benchmark dataset EmpatheticDialogue show that our framework outperforms competitive baselines in terms of controllability, informativeness, and diversity without the loss of context-relatedness.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T10028",
+          "name": "Topic Modeling",
+          "score": 0.9983999729156494,
+          "subfield": "Artificial Intelligence",
+          "field": "Computer Science",
+          "domain": "Physical Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10028",
+            "name": "Topic Modeling",
+            "score": 0.9983999729156494,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10181",
+            "name": "Natural Language Processing Techniques",
+            "score": 0.974399983882904,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11574",
+            "name": "Artificial Intelligence in Games",
+            "score": 0.9301000237464905,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.7750726938247681,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C48209547",
+            "name": "Controllability",
+            "score": 0.6577737331390381,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2779343474",
+            "name": "Context (archaeology)",
+            "score": 0.6570647358894348,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2779885105",
+            "name": "Empathy",
+            "score": 0.6384648680686951,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2781089630",
+            "name": "Realization (probability)",
+            "score": 0.49609336256980896,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C98045186",
+            "name": "Process (computing)",
+            "score": 0.49057286977767944,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2777402240",
+            "name": "Masking (illustration)",
+            "score": 0.47521692514419556,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C185798385",
+            "name": "Benchmark (surveying)",
+            "score": 0.4543650448322296,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2775924081",
+            "name": "Control (management)",
+            "score": 0.453060507774353,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C126042441",
+            "name": "Frame (networking)",
+            "score": 0.44603848457336426,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C183322885",
+            "name": "Context model",
+            "score": 0.43889230489730835,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "name": "Artificial intelligence",
+            "score": 0.32617583870887756,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C15744967",
+            "name": "Psychology",
+            "score": 0.142354816198349,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C33923547",
+            "name": "Mathematics",
+            "score": 0.07992959022521973,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C199360897",
+            "name": "Programming language",
+            "score": 0.07605117559432983,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C13280743",
+            "name": "Geodesy",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C2781238097",
+            "name": "Object (grammar)",
+            "score": 0,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C86803240",
+            "name": "Biology",
+            "score": 0,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C76155785",
+            "name": "Telecommunications",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C105795698",
+            "name": "Statistics",
+            "score": 0,
+            "level": 1
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.7750726938247681
+          },
+          {
+            "id": "https://openalex.org/keywords/controllability",
+            "name": "Controllability",
+            "score": 0.6577737331390381
+          },
+          {
+            "id": "https://openalex.org/keywords/context",
+            "name": "Context (archaeology)",
+            "score": 0.6570647358894348
+          },
+          {
+            "id": "https://openalex.org/keywords/empathy",
+            "name": "Empathy",
+            "score": 0.6384648680686951
+          },
+          {
+            "id": "https://openalex.org/keywords/realization",
+            "name": "Realization (probability)",
+            "score": 0.49609336256980896
+          },
+          {
+            "id": "https://openalex.org/keywords/process",
+            "name": "Process (computing)",
+            "score": 0.49057286977767944
+          },
+          {
+            "id": "https://openalex.org/keywords/masking",
+            "name": "Masking (illustration)",
+            "score": 0.47521692514419556
+          },
+          {
+            "id": "https://openalex.org/keywords/benchmark",
+            "name": "Benchmark (surveying)",
+            "score": 0.4543650448322296
+          },
+          {
+            "id": "https://openalex.org/keywords/control",
+            "name": "Control (management)",
+            "score": 0.453060507774353
+          },
+          {
+            "id": "https://openalex.org/keywords/frame",
+            "name": "Frame (networking)",
+            "score": 0.44603848457336426
+          },
+          {
+            "id": "https://openalex.org/keywords/context-model",
+            "name": "Context model",
+            "score": 0.43889230489730835
+          },
+          {
+            "id": "https://openalex.org/keywords/artificial-intelligence",
+            "name": "Artificial intelligence",
+            "score": 0.32617583870887756
+          },
+          {
+            "id": "https://openalex.org/keywords/psychology",
+            "name": "Psychology",
+            "score": 0.142354816198349
+          },
+          {
+            "id": "https://openalex.org/keywords/mathematics",
+            "name": "Mathematics",
+            "score": 0.07992959022521973
+          },
+          {
+            "id": "https://openalex.org/keywords/programming-language",
+            "name": "Programming language",
+            "score": 0.07605117559432983
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://aclanthology.org/2023.acl-long.158.pdf",
+          "any_repository_has_fulltext": null
+        },
+        "citation_normalized_percentile": {
+          "value": 0.83640015,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "fwci": 1.78810021,
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 1
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 3
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 3
+          }
+        ],
+        "institutions_distinct_count": 7,
+        "countries_distinct_count": 1,
+        "referenced_works_count": 47
+      },
+      "analysis": {
+        "is_interesting": true,
+        "relevance_score": 0.95,
+        "confidence": 0.98,
+        "reason": "The paper directly addresses emotion-related affective computing through empathetic response generation, aligning precisely with the researcher's interest topic 'emotion'. Empathy is a core affective construct grounded in emotional perception, sharing, and regulation.",
+        "evidence": [
+          "Title contains 'Empathetic Response Generation'",
+          "Abstract states 'Empathy is a crucial factor in open-domain conversations, which naturally shows one's caring and understanding to others'",
+          "Concepts include 'Empathy' and the framework explicitly models empathy realization"
+        ],
+        "keywords": [
+          "empathy",
+          "affective computing",
+          "emotion generation",
+          "diffusion models",
+          "controllable dialogue"
+        ],
+        "research_directions": [
+          "affective natural language generation",
+          "computational modeling of empathy",
+          "emotion-aware conversational AI",
+          "controllable affective response generation"
+        ]
+      }
+    },
+    {
+      "id": "https://openalex.org/W4320527390",
+      "openalex_url": "https://openalex.org/W4320527390",
+      "title": "Psychology-guided Controllable Story Generation",
+      "publication_year": 2022,
+      "publication_date": "2022-10-14",
+      "doi": "https://doi.org/10.48550/arxiv.2210.07493",
+      "doi_url": "https://doi.org/10.48550/arxiv.2210.07493",
+      "type": "preprint",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 5,
+      "primary_source": "arXiv (Cornell University)",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "type": "repository",
+        "issn_l": null,
+        "is_in_doaj": false,
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4320527390",
+        "landing_page": "http://arxiv.org/abs/2210.07493",
+        "pdf": "https://arxiv.org/pdf/2210.07493",
+        "primary_topic_openalex": "https://openalex.org/T10028",
+        "source_openalex": "https://openalex.org/S4306400194"
+      },
+      "concepts": [
+        "Context (archaeology)",
+        "State (computer science)",
+        "Psychology",
+        "Psychological research",
+        "BitTorrent tracker",
+        "Task (project management)",
+        "Cognitive psychology",
+        "Cognitive science"
+      ],
+      "abstract": "Controllable story generation is a challenging task in the field of NLP, which has attracted increasing research interest in recent years. However, most existing works generate a whole story conditioned on the appointed keywords or emotions, ignoring the psychological changes of the protagonist. Inspired by psychology theories, we introduce global psychological state chains, which include the needs and emotions of the protagonists, to help a story generation system create more controllable and well-planned stories. In this paper, we propose a Psychology-guIded Controllable Story Generation System (PICS) to generate stories that adhere to the given leading context and desired psychological state chains for the protagonist. Specifically, psychological state trackers are employed to memorize the protagonist's local psychological states to capture their inner temporal relationships. In addition, psychological state planners are adopted to gain the protagonist's global psychological states for story planning. Eventually, a psychology controller is designed to integrate the local and global psychological states into the story context representation for composing psychology-guided stories. Automatic and manual evaluations demonstrate that PICS outperforms baselines, and each part of PICS shows effectiveness for writing stories with more consistent psychological changes.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T10028",
+          "name": "Topic Modeling",
+          "score": 0.9905999898910522,
+          "subfield": "Artificial Intelligence",
+          "field": "Computer Science",
+          "domain": "Physical Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10028",
+            "name": "Topic Modeling",
+            "score": 0.9905999898910522,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T13083",
+            "name": "Advanced Text Analysis Techniques",
+            "score": 0.9610999822616577,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11574",
+            "name": "Artificial Intelligence in Games",
+            "score": 0.9577000141143799,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C2779343474",
+            "name": "Context (archaeology)",
+            "score": 0.6381768584251404,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C48103436",
+            "name": "State (computer science)",
+            "score": 0.5262590646743774,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C15744967",
+            "name": "Psychology",
+            "score": 0.4897749423980713,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C188255311",
+            "name": "Psychological research",
+            "score": 0.48358243703842163,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C57501372",
+            "name": "BitTorrent tracker",
+            "score": 0.43149927258491516,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C2780451532",
+            "name": "Task (project management)",
+            "score": 0.4313974976539612,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C180747234",
+            "name": "Cognitive psychology",
+            "score": 0.37224066257476807,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C188147891",
+            "name": "Cognitive science",
+            "score": 0.3548929691314697,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.3504941165447235,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C77805123",
+            "name": "Social psychology",
+            "score": 0.3311290740966797,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "name": "Artificial intelligence",
+            "score": 0.32851243019104004,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C56461940",
+            "name": "Eye tracking",
+            "score": 0.1489526927471161,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C127413603",
+            "name": "Engineering",
+            "score": 0.10722988843917847,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C95457728",
+            "name": "History",
+            "score": 0.10677352547645569,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C11413529",
+            "name": "Algorithm",
+            "score": 0.09898683428764343,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C166957645",
+            "name": "Archaeology",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C201995342",
+            "name": "Systems engineering",
+            "score": 0,
+            "level": 1
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/context",
+            "name": "Context (archaeology)",
+            "score": 0.6381768584251404
+          },
+          {
+            "id": "https://openalex.org/keywords/state",
+            "name": "State (computer science)",
+            "score": 0.5262590646743774
+          },
+          {
+            "id": "https://openalex.org/keywords/psychology",
+            "name": "Psychology",
+            "score": 0.4897749423980713
+          },
+          {
+            "id": "https://openalex.org/keywords/psychological-research",
+            "name": "Psychological research",
+            "score": 0.48358243703842163
+          },
+          {
+            "id": "https://openalex.org/keywords/bittorrent-tracker",
+            "name": "BitTorrent tracker",
+            "score": 0.43149927258491516
+          },
+          {
+            "id": "https://openalex.org/keywords/task",
+            "name": "Task (project management)",
+            "score": 0.4313974976539612
+          },
+          {
+            "id": "https://openalex.org/keywords/cognitive-psychology",
+            "name": "Cognitive psychology",
+            "score": 0.37224066257476807
+          },
+          {
+            "id": "https://openalex.org/keywords/cognitive-science",
+            "name": "Cognitive science",
+            "score": 0.3548929691314697
+          },
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.3504941165447235
+          },
+          {
+            "id": "https://openalex.org/keywords/social-psychology",
+            "name": "Social psychology",
+            "score": 0.3311290740966797
+          },
+          {
+            "id": "https://openalex.org/keywords/artificial-intelligence",
+            "name": "Artificial intelligence",
+            "score": 0.32851243019104004
+          },
+          {
+            "id": "https://openalex.org/keywords/eye-tracking",
+            "name": "Eye tracking",
+            "score": 0.1489526927471161
+          },
+          {
+            "id": "https://openalex.org/keywords/engineering",
+            "name": "Engineering",
+            "score": 0.10722988843917847
+          },
+          {
+            "id": "https://openalex.org/keywords/history",
+            "name": "History",
+            "score": 0.10677352547645569
+          },
+          {
+            "id": "https://openalex.org/keywords/algorithm",
+            "name": "Algorithm",
+            "score": 0.09898683428764343
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://arxiv.org/pdf/2210.07493",
+          "any_repository_has_fulltext": true
+        },
+        "citation_normalized_percentile": null,
+        "fwci": null,
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 1
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 4
+          }
+        ],
+        "institutions_distinct_count": 6,
+        "countries_distinct_count": 0,
+        "referenced_works_count": 0
+      },
+      "analysis": {
+        "is_interesting": true,
+        "relevance_score": 0.95,
+        "confidence": 0.98,
+        "reason": "The paper explicitly models and controls protagonist emotions and psychological states using psychology theories, directly aligning with the researcher's interest in 'emotion'.",
+        "evidence": [
+          "introduce global psychological state chains, which include the needs and emotions of the protagonists",
+          "psychological state trackers... memorize the protagonist's local psychological states",
+          "psychology controller integrates local and global psychological states for composing psychology-guided stories"
+        ],
+        "keywords": [
+          "emotion",
+          "psychological state",
+          "affective modeling",
+          "controllable generation",
+          "cognitive psychology"
+        ],
+        "research_directions": [
+          "affective NLP",
+          "emotion-aware story generation",
+          "computational modeling of emotion dynamics",
+          "psychology-guided AI"
+        ]
+      }
+    },
+    {
+      "id": "https://openalex.org/W4295989944",
+      "openalex_url": "https://openalex.org/W4295989944",
+      "title": "COMMA: Modeling Relationship among Motivations, Emotions and Actions in Language-based Human Activities",
+      "publication_year": 2022,
+      "publication_date": "2022-09-14",
+      "doi": "https://doi.org/10.48550/arxiv.2209.06470",
+      "doi_url": "https://doi.org/10.48550/arxiv.2209.06470",
+      "type": "preprint",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 1,
+      "primary_source": "arXiv (Cornell University)",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "type": "repository",
+        "issn_l": null,
+        "is_in_doaj": false,
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4295989944",
+        "landing_page": "http://arxiv.org/abs/2209.06470",
+        "pdf": "https://arxiv.org/pdf/2209.06470",
+        "primary_topic_openalex": "https://openalex.org/T10028",
+        "source_openalex": "https://openalex.org/S4306400194"
+      },
+      "concepts": [
+        "Action (physics)",
+        "Cognition",
+        "Human language",
+        "Core (optical fiber)",
+        "Psychology",
+        "Computer science",
+        "Cognitive psychology",
+        "Cognitive science"
+      ],
+      "abstract": "Motivations, emotions, and actions are inter-related essential factors in human activities. While motivations and emotions have long been considered at the core of exploring how people take actions in human activities, there has been relatively little research supporting analyzing the relationship between human mental states and actions. We present the first study that investigates the viability of modeling motivations, emotions, and actions in language-based human activities, named COMMA (Cognitive Framework of Human Activities). Guided by COMMA, we define three natural language processing tasks (emotion understanding, motivation understanding and conditioned action generation), and build a challenging dataset Hail through automatically extracting samples from Story Commonsense. Experimental results on NLP applications prove the effectiveness of modeling the relationship. Furthermore, our models inspired by COMMA can better reveal the essential relationship among motivations, emotions and actions than existing methods.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T10028",
+          "name": "Topic Modeling",
+          "score": 0.9205999970436096,
+          "subfield": "Artificial Intelligence",
+          "field": "Computer Science",
+          "domain": "Physical Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10028",
+            "name": "Topic Modeling",
+            "score": 0.9205999970436096,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C2780791683",
+            "name": "Action (physics)",
+            "score": 0.6739775538444519,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C169900460",
+            "name": "Cognition",
+            "score": 0.5329740047454834,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2993724205",
+            "name": "Human language",
+            "score": 0.5085633993148804,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2164484",
+            "name": "Core (optical fiber)",
+            "score": 0.47641050815582275,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C15744967",
+            "name": "Psychology",
+            "score": 0.4547916054725647,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.4513236880302429,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C180747234",
+            "name": "Cognitive psychology",
+            "score": 0.4172186255455017,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C188147891",
+            "name": "Cognitive science",
+            "score": 0.39616331458091736,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "name": "Artificial intelligence",
+            "score": 0.3205350339412689,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C41895202",
+            "name": "Linguistics",
+            "score": 0.18625038862228394,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C169760540",
+            "name": "Neuroscience",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C76155785",
+            "name": "Telecommunications",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C62520636",
+            "name": "Quantum mechanics",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C121332964",
+            "name": "Physics",
+            "score": 0,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C138885662",
+            "name": "Philosophy",
+            "score": 0,
+            "level": 0
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/action",
+            "name": "Action (physics)",
+            "score": 0.6739775538444519
+          },
+          {
+            "id": "https://openalex.org/keywords/cognition",
+            "name": "Cognition",
+            "score": 0.5329740047454834
+          },
+          {
+            "id": "https://openalex.org/keywords/human-language",
+            "name": "Human language",
+            "score": 0.5085633993148804
+          },
+          {
+            "id": "https://openalex.org/keywords/core",
+            "name": "Core (optical fiber)",
+            "score": 0.47641050815582275
+          },
+          {
+            "id": "https://openalex.org/keywords/psychology",
+            "name": "Psychology",
+            "score": 0.4547916054725647
+          },
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.4513236880302429
+          },
+          {
+            "id": "https://openalex.org/keywords/cognitive-psychology",
+            "name": "Cognitive psychology",
+            "score": 0.4172186255455017
+          },
+          {
+            "id": "https://openalex.org/keywords/cognitive-science",
+            "name": "Cognitive science",
+            "score": 0.39616331458091736
+          },
+          {
+            "id": "https://openalex.org/keywords/artificial-intelligence",
+            "name": "Artificial intelligence",
+            "score": 0.3205350339412689
+          },
+          {
+            "id": "https://openalex.org/keywords/linguistics",
+            "name": "Linguistics",
+            "score": 0.18625038862228394
+          }
+        ],
+        "sustainable_development_goals": [
+          {
+            "id": "https://metadata.un.org/sdg/4",
+            "display_name": "Quality Education",
+            "score": 0.5099999904632568
+          }
+        ],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://arxiv.org/pdf/2209.06470",
+          "any_repository_has_fulltext": true
+        },
+        "citation_normalized_percentile": null,
+        "fwci": null,
+        "counts_by_year": [
+          {
+            "year": 2023,
+            "cited_by_count": 1
+          }
+        ],
+        "institutions_distinct_count": 5,
+        "countries_distinct_count": 0,
+        "referenced_works_count": 0
+      },
+      "analysis": {
+        "is_interesting": true,
+        "relevance_score": 0.95,
+        "confidence": 0.98,
+        "reason": "The paper explicitly centers on modeling emotions as a core component of human activities, directly aligning with the researcher's stated interest in 'emotion'. It introduces COMMA—a cognitive framework integrating motivations, emotions, and actions—and includes dedicated NLP tasks for emotion understanding.",
+        "evidence": [
+          "Title explicitly includes 'Emotions'",
+          "Abstract states: 'Motivations, emotions, and actions are inter-related essential factors in human activities'",
+          "Defines 'emotion understanding' as one of three core NLP tasks"
+        ],
+        "keywords": [
+          "emotion understanding",
+          "motivation-emotion-action modeling",
+          "affective computing",
+          "cognitive modeling",
+          "NLP for affect"
+        ],
+        "research_directions": [
+          "Affective natural language processing",
+          "Computational modeling of emotion-cognition-behavior links",
+          "Psychologically grounded AI frameworks",
+          "Emotion-aware human activity modeling"
+        ]
+      }
+    },
+    {
+      "id": "https://openalex.org/W3203679094",
+      "openalex_url": "https://openalex.org/W3203679094",
+      "title": "How Does Knowledge Graph Embedding Extrapolate to Unseen Data: A Semantic Evidence View",
+      "publication_year": 2022,
+      "publication_date": "2022-06-28",
+      "doi": "https://doi.org/10.1609/aaai.v36i5.20521",
+      "doi_url": "https://doi.org/10.1609/aaai.v36i5.20521",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 72,
+      "primary_source": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "source": {
+        "id": "https://openalex.org/S4210191458",
+        "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "type": "conference",
+        "issn_l": "2159-5399",
+        "is_in_doaj": false,
+        "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+        "host_organization_lineage_names": [
+          "Association for the Advancement of Artificial Intelligence"
+        ]
+      },
+      "links": {
+        "openalex": "https://openalex.org/W3203679094",
+        "landing_page": "https://doi.org/10.1609/aaai.v36i5.20521",
+        "pdf": "https://ojs.aaai.org/index.php/AAAI/article/download/20521/20280",
+        "primary_topic_openalex": "https://openalex.org/T11273",
+        "source_openalex": "https://openalex.org/S4210191458"
+      },
+      "concepts": [
+        "Extrapolation",
+        "Embedding",
+        "Computer science",
+        "Representation (politics)",
+        "Graph",
+        "Semantic similarity",
+        "Relation (database)",
+        "Artificial intelligence"
+      ],
+      "abstract": "Knowledge Graph Embedding (KGE) aims to learn representations for entities and relations. Most KGE models have gained great success, especially on extrapolation scenarios. Specifically, given an unseen triple (h, r, t), a trained model can still correctly predict t from (h, r, ?), or h from (?, r, t), such extrapolation ability is impressive. However, most existing KGE works focus on the design of delicate triple modeling function, which mainly tells us how to measure the plausibility of observed triples, but offers limited explanation of why the methods can extrapolate to unseen data, and what are the important factors to help KGE extrapolate. Therefore in this work, we attempt to study the KGE extrapolation of two problems: 1. How does KGE extrapolate to unseen data? 2. How to design the KGE model with better extrapolation ability? For the problem 1, we first discuss the impact factors for extrapolation and from relation, entity and triple level respectively, propose three Semantic Evidences (SEs), which can be observed from train set and provide important semantic information for extrapolation. Then we verify the effectiveness of SEs through extensive experiments on several typical KGE methods. For the problem 2, to make better use of the three levels of SE, we propose a novel GNN-based KGE model, called Semantic Evidence aware Graph Neural Network (SE-GNN). In SE-GNN, each level of SE is modeled explicitly by the corresponding neighbor pattern, and merged sufficiently by the multi-layer aggregation, which contributes to obtaining more extrapolative knowledge representation. Finally, through extensive experiments on FB15k-237 and WN18RR datasets, we show that SE-GNN achieves state-of-the-art performance on Knowledge Graph Completion task and performs a better extrapolation ability. Our code is available at https://github.com/renli1024/SE-GNN.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T11273",
+          "name": "Advanced Graph Neural Networks",
+          "score": 1,
+          "subfield": "Artificial Intelligence",
+          "field": "Computer Science",
+          "domain": "Physical Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T11273",
+            "name": "Advanced Graph Neural Networks",
+            "score": 1,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10028",
+            "name": "Topic Modeling",
+            "score": 0.9991000294685364,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T11307",
+            "name": "Domain Adaptation and Few-Shot Learning",
+            "score": 0.9886000156402588,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C132459708",
+            "name": "Extrapolation",
+            "score": 0.9323916435241699,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C41608201",
+            "name": "Embedding",
+            "score": 0.7153218388557434,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.6712994575500488,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C2776359362",
+            "name": "Representation (politics)",
+            "score": 0.5584631562232971,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C132525143",
+            "name": "Graph",
+            "score": 0.5349534749984741,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C130318100",
+            "name": "Semantic similarity",
+            "score": 0.4757644534111023,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C25343380",
+            "name": "Relation (database)",
+            "score": 0.4237712323665619,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "name": "Artificial intelligence",
+            "score": 0.4077223241329193,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C119857082",
+            "name": "Machine learning",
+            "score": 0.3932996988296509,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C124101348",
+            "name": "Data mining",
+            "score": 0.3603079319000244,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C80444323",
+            "name": "Theoretical computer science",
+            "score": 0.33208996057510376,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C33923547",
+            "name": "Mathematics",
+            "score": 0.20621010661125183,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C105795698",
+            "name": "Statistics",
+            "score": 0.08063897490501404,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C199539241",
+            "name": "Law",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C17744445",
+            "name": "Political science",
+            "score": 0,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C94625758",
+            "name": "Politics",
+            "score": 0,
+            "level": 2
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/extrapolation",
+            "name": "Extrapolation",
+            "score": 0.9323916435241699
+          },
+          {
+            "id": "https://openalex.org/keywords/embedding",
+            "name": "Embedding",
+            "score": 0.7153218388557434
+          },
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.6712994575500488
+          },
+          {
+            "id": "https://openalex.org/keywords/representation",
+            "name": "Representation (politics)",
+            "score": 0.5584631562232971
+          },
+          {
+            "id": "https://openalex.org/keywords/graph",
+            "name": "Graph",
+            "score": 0.5349534749984741
+          },
+          {
+            "id": "https://openalex.org/keywords/semantic-similarity",
+            "name": "Semantic similarity",
+            "score": 0.4757644534111023
+          },
+          {
+            "id": "https://openalex.org/keywords/relation",
+            "name": "Relation (database)",
+            "score": 0.4237712323665619
+          },
+          {
+            "id": "https://openalex.org/keywords/artificial-intelligence",
+            "name": "Artificial intelligence",
+            "score": 0.4077223241329193
+          },
+          {
+            "id": "https://openalex.org/keywords/machine-learning",
+            "name": "Machine learning",
+            "score": 0.3932996988296509
+          },
+          {
+            "id": "https://openalex.org/keywords/data-mining",
+            "name": "Data mining",
+            "score": 0.3603079319000244
+          },
+          {
+            "id": "https://openalex.org/keywords/theoretical-computer-science",
+            "name": "Theoretical computer science",
+            "score": 0.33208996057510376
+          },
+          {
+            "id": "https://openalex.org/keywords/mathematics",
+            "name": "Mathematics",
+            "score": 0.20621010661125183
+          },
+          {
+            "id": "https://openalex.org/keywords/statistics",
+            "name": "Statistics",
+            "score": 0.08063897490501404
+          }
+        ],
+        "sustainable_development_goals": [
+          {
+            "id": "https://metadata.un.org/sdg/4",
+            "display_name": "Quality Education",
+            "score": 0.4399999976158142
+          }
+        ],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "diamond",
+          "oa_url": "https://ojs.aaai.org/index.php/AAAI/article/download/20521/20280",
+          "any_repository_has_fulltext": false
+        },
+        "citation_normalized_percentile": {
+          "value": 0.97888272,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": true
+        },
+        "fwci": 8.22885278,
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 2
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 22
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 32
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 13
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 3
+          }
+        ],
+        "institutions_distinct_count": 7,
+        "countries_distinct_count": 2,
+        "referenced_works_count": 54
+      },
+      "analysis": {
+        "is_interesting": false,
+        "relevance_score": 0.1,
+        "confidence": 0.95,
+        "reason": "The paper focuses on knowledge graph embedding, extrapolation, and semantic evidence in AI/ML; no connection to emotion or affective science.",
+        "evidence": [
+          "Interest topics are 'emotion', but paper concepts and abstract contain zero emotion-related terms or constructs."
+        ],
+        "keywords": [],
+        "research_directions": []
+      }
+    },
+    {
+      "id": "https://openalex.org/W4200609346",
+      "openalex_url": "https://openalex.org/W4200609346",
+      "title": "No news is an island: Joint heterogeneous graph network for news classification",
+      "publication_year": 2021,
+      "publication_date": "2021-09-05",
+      "doi": "https://doi.org/10.1109/iscc53001.2021.9631486",
+      "doi_url": "https://doi.org/10.1109/iscc53001.2021.9631486",
+      "type": "article",
+      "type_crossref": null,
+      "language": "en",
+      "is_retracted": false,
+      "is_paratext": false,
+      "cited_by_count": 2,
+      "primary_source": "2021 IEEE Symposium on Computers and Communications (ISCC)",
+      "source": {
+        "id": "https://openalex.org/S4363605778",
+        "display_name": "2021 IEEE Symposium on Computers and Communications (ISCC)",
+        "type": "conference",
+        "issn_l": null,
+        "is_in_doaj": false,
+        "host_organization_name": null,
+        "host_organization_lineage_names": []
+      },
+      "links": {
+        "openalex": "https://openalex.org/W4200609346",
+        "landing_page": "https://doi.org/10.1109/iscc53001.2021.9631486",
+        "pdf": null,
+        "primary_topic_openalex": "https://openalex.org/T11273",
+        "source_openalex": "https://openalex.org/S4363605778"
+      },
+      "concepts": [
+        "Computer science",
+        "Graph",
+        "Relevance (law)",
+        "Heterogeneous network",
+        "Information retrieval",
+        "Joint (building)",
+        "Event (particle physics)",
+        "Data science"
+      ],
+      "abstract": "News classification is important for people to organize web information. There are many connections between daily news, for example, they may be different reports about the same event or the same person. However, previous works classify news mainly based on single news, they ignore relationships between multiple news. This paper innovatively utilizes relationships between multiple news, such as their relevance in time, place and people, to classify news. To take full advantage of these relationships and integrate various information of multiple news, we propose News Classification Graph (NCG), a heterogeneous graph with different types of nodes and edges. Furthermore, we propose Joint Heterogeneous graph Network (JHN) to properly embed the NCG. It fully utilizes the information of heterogeneous nodes and heterogeneous edges in NCG. Extensive experiments carried on four news datasets demonstrate the effectiveness of our work in solving the news classification problem.",
+      "openalex_analysis": {
+        "primary_topic": {
+          "id": "https://openalex.org/T11273",
+          "name": "Advanced Graph Neural Networks",
+          "score": 0.9984999895095825,
+          "subfield": "Artificial Intelligence",
+          "field": "Computer Science",
+          "domain": "Physical Sciences"
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T11273",
+            "name": "Advanced Graph Neural Networks",
+            "score": 0.9984999895095825,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10028",
+            "name": "Topic Modeling",
+            "score": 0.9976000189781189,
+            "subfield": "Artificial Intelligence",
+            "field": "Computer Science",
+            "domain": "Physical Sciences"
+          },
+          {
+            "id": "https://openalex.org/T10064",
+            "name": "Complex Network Analysis Techniques",
+            "score": 0.9962000250816345,
+            "subfield": "Statistical and Nonlinear Physics",
+            "field": "Physics and Astronomy",
+            "domain": "Physical Sciences"
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C41008148",
+            "name": "Computer science",
+            "score": 0.7566890716552734,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C132525143",
+            "name": "Graph",
+            "score": 0.6723726391792297,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C158154518",
+            "name": "Relevance (law)",
+            "score": 0.6086928844451904,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C158207573",
+            "name": "Heterogeneous network",
+            "score": 0.5831544399261475,
+            "level": 4
+          },
+          {
+            "id": "https://openalex.org/C23123220",
+            "name": "Information retrieval",
+            "score": 0.502424955368042,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C18555067",
+            "name": "Joint (building)",
+            "score": 0.4261070489883423,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2779662365",
+            "name": "Event (particle physics)",
+            "score": 0.41410520672798157,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C2522767166",
+            "name": "Data science",
+            "score": 0.35482728481292725,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C124101348",
+            "name": "Data mining",
+            "score": 0.3514532446861267,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C80444323",
+            "name": "Theoretical computer science",
+            "score": 0.24466142058372498,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C108037233",
+            "name": "Wireless network",
+            "score": 0.0828268826007843,
+            "level": 3
+          },
+          {
+            "id": "https://openalex.org/C17744445",
+            "name": "Political science",
+            "score": 0,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C121332964",
+            "name": "Physics",
+            "score": 0,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C199539241",
+            "name": "Law",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C127413603",
+            "name": "Engineering",
+            "score": 0,
+            "level": 0
+          },
+          {
+            "id": "https://openalex.org/C62520636",
+            "name": "Quantum mechanics",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C555944384",
+            "name": "Wireless",
+            "score": 0,
+            "level": 2
+          },
+          {
+            "id": "https://openalex.org/C170154142",
+            "name": "Architectural engineering",
+            "score": 0,
+            "level": 1
+          },
+          {
+            "id": "https://openalex.org/C76155785",
+            "name": "Telecommunications",
+            "score": 0,
+            "level": 1
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "name": "Computer science",
+            "score": 0.7566890716552734
+          },
+          {
+            "id": "https://openalex.org/keywords/graph",
+            "name": "Graph",
+            "score": 0.6723726391792297
+          },
+          {
+            "id": "https://openalex.org/keywords/relevance",
+            "name": "Relevance (law)",
+            "score": 0.6086928844451904
+          },
+          {
+            "id": "https://openalex.org/keywords/heterogeneous-network",
+            "name": "Heterogeneous network",
+            "score": 0.5831544399261475
+          },
+          {
+            "id": "https://openalex.org/keywords/information-retrieval",
+            "name": "Information retrieval",
+            "score": 0.502424955368042
+          },
+          {
+            "id": "https://openalex.org/keywords/joint",
+            "name": "Joint (building)",
+            "score": 0.4261070489883423
+          },
+          {
+            "id": "https://openalex.org/keywords/event",
+            "name": "Event (particle physics)",
+            "score": 0.41410520672798157
+          },
+          {
+            "id": "https://openalex.org/keywords/data-science",
+            "name": "Data science",
+            "score": 0.35482728481292725
+          },
+          {
+            "id": "https://openalex.org/keywords/data-mining",
+            "name": "Data mining",
+            "score": 0.3514532446861267
+          },
+          {
+            "id": "https://openalex.org/keywords/theoretical-computer-science",
+            "name": "Theoretical computer science",
+            "score": 0.24466142058372498
+          },
+          {
+            "id": "https://openalex.org/keywords/wireless-network",
+            "name": "Wireless network",
+            "score": 0.0828268826007843
+          }
+        ],
+        "sustainable_development_goals": [],
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "citation_normalized_percentile": {
+          "value": 0.51551402,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": false
+        },
+        "fwci": 0.24523941,
+        "counts_by_year": [
+          {
+            "year": 2024,
+            "cited_by_count": 1
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 1
+          }
+        ],
+        "institutions_distinct_count": 5,
+        "countries_distinct_count": 1,
+        "referenced_works_count": 40
+      },
+      "analysis": {
+        "is_interesting": false,
+        "relevance_score": 0.1,
+        "confidence": 0.95,
+        "reason": "The paper focuses on news classification using heterogeneous graph networks and has no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+        "evidence": [
+          "Abstract and concepts contain no emotion-related terms; all topics are technical/computational (e.g., graph, information retrieval, data science)."
+        ],
+        "keywords": [],
+        "research_directions": []
+      }
+    }
+  ]
+}

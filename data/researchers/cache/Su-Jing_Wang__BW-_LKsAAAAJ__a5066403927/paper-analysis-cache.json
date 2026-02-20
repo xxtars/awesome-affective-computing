@@ -1159,5 +1159,3910 @@
         "micro-expression detection and modeling"
       ]
     }
+  },
+  "617ca9551ea5f13eaa64a61e425eff5480004a2bd107875ba24d98a68eeab7ba": {
+    "paper_id": "https://openalex.org/W4280577208",
+    "title": "The effect of carbonization temperature on the capacity and mechanisms of Cd(II)-Pb(II) mix-ions adsorption by wood ear mushroom sticks derived biochar",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:57.642Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental chemistry and adsorption mechanisms of heavy metal ions using biochar; no connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are exclusively materials/environmental chemistry-focused"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c80380c7849e7f02670303885195ee6a3a779481d3c1c49ae1f4530f292c320a": {
+    "paper_id": "https://openalex.org/W3215914513",
+    "title": "Optimal scheduling for simultaneous refinery manufacturing and multi oil-product pipeline distribution",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:57.773Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on industrial scheduling and pipeline distribution in petroleum engineering, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts: Refinery, Oil refinery, Scheduling (production processes), Process engineering"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3e5f799b0c67e704bf30594c93eae8bc8f727e1503b93acf8e77d995d906d9b9": {
+    "paper_id": "https://openalex.org/W4210534164",
+    "title": "Influence of cadmium and copper mixtures to rhizosphere bacterial communities",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:57.796Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on heavy metal effects on soil bacterial communities, with no conceptual or methodological link to emotion or affective science.",
+      "evidence": [
+        "Concepts include Rhizosphere, Proteobacteria, Cadmium — all environmental microbiology topics"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9b1e5d744a370068a262101fbc6b7e6b02807eb96f8465ac3e1e2a5be9e81167": {
+    "paper_id": "https://openalex.org/W4224324059",
+    "title": "Diagnosis of COVID-19 Pneumonia via a Novel Deep Learning Architecture",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:57.896Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on COVID-19 pneumonia diagnosis using deep learning, with no mention of emotion or affective processes.",
+      "evidence": [
+        "Title and concepts are exclusively medical/AI-focused; 'emotion' does not appear in title, venue, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "26404858ee6f961962c2dc39f30f09335ee281ebf6cbbb8ff4e5be70f04fce06": {
+    "paper_id": "https://openalex.org/W4385609358",
+    "title": "Estimate of the maximum amount of dust adhering to skin and the upper limit of dust-skin adherence factor for young adults: An example from Changchun, China",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:58.099Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental dust exposure and health risk assessment, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are exclusively environmental/health-risk oriented; 'emotion' does not appear in metadata or implied scope."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "53b3ad0fa3d838f506d34d9c0179de1166b3551a0bb78c2e21c8df0d6184ecb6": {
+    "paper_id": "https://openalex.org/W4311091400",
+    "title": "Bioaccumulation of organophosphorus flame retardants in marine organisms in Liaodong Bay and their potential ecological risks based on species sensitivity distribution",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:58.120Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental toxicology and ecological risk assessment of flame retardants in marine ecosystems, with no connection to human or animal emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Title explicitly concerns bioaccumulation and ecological risk, not emotion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c9cfd34cf1f7d8255a07be3a217def3d8ea9778ac4623e501cc771433df05bca": {
+    "paper_id": "https://openalex.org/W4307126569",
+    "title": "Characteristics and health risks of population exposure to phthalates via the use of face towels",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:58.184Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on toxicological health risks of phthalate exposure via face towels, with no connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Toxicology', 'Health risk', and 'Environmental health' — all biomedical/environmental, not psychological or affective."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5a1a564be643197d3e0afbb795a909ac6d80c0b6d98d6c96c22dda54e69dd2a4": {
+    "paper_id": "https://openalex.org/W4286586904",
+    "title": "Inhalation Bioaccessibility and Risk Assessment of Metals in PM2.5 Based on a Multiple-Path Particle Dosimetry Model in the Smelting District of Northeast China",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:58.251Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on inhalation bioaccessibility, toxic metal exposure, and quantitative health risk assessment—topics grounded in environmental health and toxicology—not emotion or affective science.",
+      "evidence": [
+        "Abstract contains no mention of emotion, affect, mood, behavior, psychology, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "67ae33ef6a464080ba0bb6ac2890ec07c30dce6a7bc52541ac19ddd9a66ec75c": {
+    "paper_id": "https://openalex.org/W4387947526",
+    "title": "CDSD: Chinese Dysarthria Speech Database",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:58.274Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on dysarthric speech data collection and ASR performance, with no mention of emotion, affect, or related psychological constructs in title, abstract, or listed concepts.",
+      "evidence": [
+        "Abstract discusses speech recognition accuracy, database construction, and clinical communication support—not emotion processing or affective states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8f4d216cdc54efec50899d5c3a19f32f2f3a196d50a2515579ad6690fe504783": {
+    "paper_id": "https://openalex.org/W4210582700",
+    "title": "Simultaneous Production and Maintenance Scheduling for Refinery Front-End Process with Considerations of Risk Management and Resource Availability",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:58.300Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on industrial optimization, risk management in refinery scheduling, and operations research—no connection to human emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Title and abstract contain no emotion-related terms; all concepts are engineering/operations-focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a98a595dbba3008918380e483fc559afa1353666f7d478d4da5226cb43657797": {
+    "paper_id": "https://openalex.org/W4310357573",
+    "title": "Introducing Engineering and Programming Concepts to Middle School and High School Students using SparkFun Inventor’s Kit, Scratch, and Java",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:58.301Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on STEM education, programming tools, and engineering pedagogy with no mention of emotion, affective computing, emotional states, or related psychological or computational constructs.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper concepts and abstract contain zero emotion-related terms or themes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e653ca1a7c47eb408b8f81b50f4f97529f9ae9092d060b15f1ea8858eff82ae5": {
+    "paper_id": "https://openalex.org/W4293098014",
+    "title": "Introducing Programming to Middle School Students to Increase Knowledge and Interest in Computer Science",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:58.325Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on CS education, programming pedagogy, and curriculum design for middle school students; no content addresses emotion, affective processes, or psychological states.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords pertain to computing education and STEM pedagogy."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "26c4bdaafd6f8bfbc1214ae9ebd10fef8b894df245d8081928bcbeaf05253c34": {
+    "paper_id": "https://openalex.org/W4377024488",
+    "title": "Novel modified wood ear mushroom sticks biochar aerogel spheres for efficient capture of <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\" id=\"d1e585\" altimg=\"si78.svg\"> <mml:msup> <mml:mrow> <mml:mi mathvariant=\"normal\">Cd</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>2</mml:mn> <mml:mo>+</mml:mo> </mml:mrow> </mml:msup> </mml:math> and <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\" id=\"d1e597\" altimg=\"si79.svg\"> <mml:msup> <mml:mrow> <mml:mi mathvariant=\"normal\">Pb</mml:mi> </mml:mrow> <mml:mrow> <mml:mn>2</mml:mn> <mml:mo>+</mml:mo> </mml:mrow> </mml:msup> </mml:math> mix-ions from water",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:58.341Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a materials science study on heavy metal adsorption using biochar aerogels; no connection to emotion or affective processes.",
+      "evidence": [
+        "All concepts and methods (e.g., XPS, FTIR, adsorption capacity) are environmental/materials engineering focused; 'emotion' does not appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "019617b9a4bcd388f01aaf074115b380f454da7f4275dd02063286f46190991f": {
+    "paper_id": "https://openalex.org/W4284677779",
+    "title": "Impact of environmental factors and bacterial interactions on dust mite allergens in different indoor dust",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:58.413Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental microbiology and allergen biology, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "All concepts are microbiological (e.g., Firmicutes, House dust mite); 'emotion' does not appear in title, venue, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1d23781689866229e18b0858a867dd3fbf6dcd6ffb1dc26dda44fcbef29156a6": {
+    "paper_id": "https://openalex.org/W4210761415",
+    "title": "Trends and Health Risk of Trace Metals in Fishes in Liaodong Bay, China, From 2015 to 2020",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:58.430Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental toxicology and human health risk assessment of trace metals in fish, with no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and the abstract center on pollution, hazard quotient, bioindicators, and environmental chemistry—no emotion-related terms or methodologies present."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a597c3c179fd089783a76da56e2281ea2c8300a48f488cfa29fa00b6bc41840f": {
+    "paper_id": "https://openalex.org/W4387634440",
+    "title": "Long-term and Real-time High-speed Underwater Wireless Optical Communications in Deep Sea",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:58.557Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical contribution in underwater wireless optical communications with no conceptual, methodological, or applied connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract focus exclusively on optical communication engineering, bitrate, PSNR, deep-sea deployment, and telecommunications—no mention of emotion, affect, psychology, human behavior, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "35b3a07c6424b5c85fd29ad81e177ffc08b2c0f8e714add4b68ff8aafd527965": {
+    "paper_id": "https://openalex.org/W4297798746",
+    "title": "Analysis of COVID-19 Data Using Advanced Machine Learning Models",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:58.694Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on epidemiological forecasting using time-series machine learning models for COVID-19 cases and deaths, with no mention of emotion, affective states, psychological responses, or related constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively cover AI, machine learning, infectious disease, and public health modeling; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ac7b89b05e829c833844c626c758ab794a49c4a402dd8fe0e89024423ed56311": {
+    "paper_id": "https://openalex.org/W4390607057",
+    "title": "An Innovative Way to Teach Computer Programming for Middle and High Schools Students in Summer Camps",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:59.034Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computer science education, programming pedagogy, and summer camp logistics; no mention of emotion, affective states, emotional engagement, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical/educational (e.g., Scratch, Java, programming concepts)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "eef753a2d3e84bec5acd9643b5cd2c2e678828e0c9dfee8bfe2cd8a54f15935c": {
+    "paper_id": "https://openalex.org/W4321460002",
+    "title": "Editorial for pattern recognition letters special issue on face-based emotion understanding",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:33:59.265Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is an editorial for a special issue explicitly focused on 'face-based emotion understanding', directly aligning with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Editorial for pattern recognition letters special issue on face-based emotion understanding"
+      ],
+      "keywords": [
+        "emotion",
+        "face-based emotion understanding",
+        "affective computing",
+        "pattern recognition"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Facial expression analysis",
+        "Emotion recognition in AI",
+        "Human-computer interaction"
+      ]
+    }
+  },
+  "70b41445c39adfc094604e1f4c99a76af6f2852e1eab4b2fc07e37961b637fbf": {
+    "paper_id": "https://openalex.org/W4403272612",
+    "title": "An overview of research development of affective computing and understanding",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:00.042Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.98,
+      "confidence": 0.99,
+      "reason": "The paper is a comprehensive survey explicitly focused on affective computing and emotion understanding, directly aligning with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Title contains 'affective computing and understanding'",
+        "Abstract repeatedly emphasizes emotion recognition, understanding, expression, and adaptation",
+        "Researcher's interest topic is 'emotion', and the paper's scope is entirely emotion-centric"
+      ],
+      "keywords": [
+        "affective computing",
+        "emotion recognition",
+        "multimodal emotion analysis",
+        "facial expression recognition",
+        "emotion understanding",
+        "human-computer interaction"
+      ],
+      "research_directions": [
+        "multimodal emotion recognition",
+        "autism spectrum disorder emotion recognition",
+        "emotion-aware image content analysis",
+        "facial expression recognition"
+      ]
+    }
+  },
+  "6397f48092818d59774eaf27b5c73e1395655261aae27e4e922b4443ed311a5b": {
+    "paper_id": "https://openalex.org/W4304013820",
+    "title": "MEGC2022",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:00.378Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion-related phenomena—specifically micro- and macro-expressions—which are involuntary, brief facial indicators of underlying emotional states; aligns precisely with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Facial micro-expressions (MEs) are involuntary movements of the face that occur spontaneously when a person experiences an emotion",
+        "focuses on micro- and macro-expression spotting task",
+        "ME Generation task"
+      ],
+      "keywords": [
+        "facial expression",
+        "micro-expression",
+        "macro-expression",
+        "emotion recognition",
+        "affective computing"
+      ],
+      "research_directions": [
+        "automated emotion detection from subtle facial cues",
+        "affective behavior analysis under emotional suppression",
+        "human-computer interaction for affective state inference"
+      ]
+    }
+  },
+  "eb3d3b4be5bf6c39560620f41885475732d75430b1ec6e4a2211621f36d63954": {
+    "paper_id": "https://openalex.org/W4367334284",
+    "title": "A Homo-Modal Framework Based on Optical Flow and Distance Correlation for Micro-Expression Recognition",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:00.399Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper focuses on micro-expression recognition, which is a core subfield of affective computing and emotion analysis in computer vision and psychology.",
+      "evidence": [
+        "Title explicitly mentions 'Micro-Expression Recognition'",
+        "Researcher's interest topic is 'emotion'",
+        "Concept 'Expression (computer science)' directly relates to affective behavior modeling"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "optical flow",
+        "distance correlation",
+        "affective computing"
+      ],
+      "research_directions": [
+        "facial affect analysis",
+        "nonverbal emotion detection",
+        "behavioral biometrics",
+        "human-computer interaction with emotional awareness"
+      ]
+    }
+  },
+  "e1d18f66b766884db592939ddb13b653b3d229a1d858d439d07bfa6699decb44": {
+    "paper_id": "https://openalex.org/W3162395899",
+    "title": "3D-CNN for Facial Micro- and Macro-expression Spotting on Long Video Sequences using Temporal Oriented Reference Frame",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:00.414Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.97,
+      "reason": "The paper directly addresses facial micro- and macro-expression spotting, which are core behavioral manifestations of underlying emotions; the researcher's stated interest is 'emotion', and the work falls squarely within affective computing and emotion recognition from video.",
+      "evidence": [
+        "Title explicitly mentions 'Facial Micro- and Macro-expression Spotting'",
+        "Abstract states this is 'the preliminary step for micro- and macro-expression analysis'",
+        "Researcher's interest topic is 'emotion', and facial expressions are canonical emotion indicators"
+      ],
+      "keywords": [
+        "facial expression",
+        "micro-expression",
+        "macro-expression",
+        "emotion recognition",
+        "affective computing",
+        "video-based emotion analysis"
+      ],
+      "research_directions": [
+        "affective computing",
+        "behavioral signal processing",
+        "deep learning for emotion recognition",
+        "temporal modeling of emotional expressions"
+      ]
+    }
+  },
+  "03ba026261f3511d77fa2e95e162f06fd759588eac52d61858a461d44c7710f4": {
+    "paper_id": "https://openalex.org/W4376851742",
+    "title": "Electromyography-Based Intentional-Deception Behavior Analysis in an Interactive Social Context: Statistical Analysis and Machine Learning",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:00.554Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper analyzes intentional-deception behavior in a social context using physiological signals (electromyography), which is closely tied to emotional and affective processes—deception often involves emotional regulation, arousal, guilt, or fear, and is a well-studied topic in affective science and social psychology.",
+      "evidence": [
+        "Title explicitly references 'intentional-deception behavior' in 'interactive social context'",
+        "Concepts include Psychology, Social psychology, Cognitive psychology, and Electromyography—a modality used in affective computing for emotion inference"
+      ],
+      "keywords": [
+        "deception",
+        "electromyography",
+        "social context",
+        "affective behavior",
+        "emotion recognition",
+        "psychophysiology"
+      ],
+      "research_directions": [
+        "Affective computing using EMG",
+        "Emotion-laden social interaction analysis",
+        "Deception detection as an affective-cognitive process",
+        "Machine learning for affective state inference"
+      ]
+    }
+  },
+  "4dcd38a4e5a83383de79511d2feee1282d5e1389817cffca996c4068957f90f3": {
+    "paper_id": "https://openalex.org/W4304080395",
+    "title": "FME '22",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:00.759Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is explicitly focused on micro-expressions — transient facial indicators of genuine emotion — and directly addresses emotion recognition, deception detection based on emotional leakage, and challenges in modeling real human emotions, aligning tightly with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Micro-expressions are facial movements [...] that often reflect the genuine emotions of individuals.",
+        "Micro-expressions are important cues for understanding real human emotions.",
+        "FME'22 is the inaugural workshop [...] promoting interactions [...] from broader, general areas of expression and psychology research."
+      ],
+      "keywords": [
+        "micro-expression",
+        "facial expression",
+        "emotion recognition",
+        "deception detection",
+        "affective computing",
+        "emotion annotation"
+      ],
+      "research_directions": [
+        "affective computing",
+        "facial affect analysis",
+        "emotion-based deception detection",
+        "psychophysiological emotion modeling",
+        "small-sample deep learning for emotion"
+      ]
+    }
+  },
+  "87f49d5bd27ed46f965304dcf239de2fec48aaf828921f2578484d0f00978c4c": {
+    "paper_id": "https://openalex.org/W4323362911",
+    "title": "Dual-ATME: Dual-Branch Attention Network for Micro-Expression Recognition",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:00.911Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on micro-expression recognition, a core affective computing task directly tied to emotion inference from facial behavior; the researcher's stated interest is 'emotion', and MER is a well-established subfield of affective science and emotion AI.",
+      "evidence": [
+        "Title explicitly mentions 'Micro-Expression Recognition (MER)'",
+        "Abstract states MER aims to capture 'instantaneous and subtle motion changes of micro-expressions (MEs)', which are involuntary emotional leakage indicators",
+        "Researcher's interest topic is 'emotion', and MER is a canonical emotion-related computer vision task"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "affective computing",
+        "facial expression",
+        "attention mechanism",
+        "pattern recognition"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion AI",
+        "nonverbal emotion analysis",
+        "biometric emotion recognition",
+        "deep learning for affect"
+      ]
+    }
+  },
+  "7d075e569d135ea61956142bcadbc3edb7bcede6e2ed8e11bc7b0bd7c0cd28f4": {
+    "paper_id": "https://openalex.org/W3206851625",
+    "title": "Exposure of childbearing-aged female to phthalates through the use of personal care products in China: An assessment of absorption via dermal and its risk characterization",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:00.912Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental exposure, toxicology, and risk assessment of phthalates in personal care products, with no connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Phthalate', 'Dermatology', 'Organic chemistry'; no emotion-related terms present"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "36fcc72d4c75f219d128e329356c1815134e6235f3a1b810defc0f4a3385ada6": {
+    "paper_id": "https://openalex.org/W4280536397",
+    "title": "Facial Micro-Expression Recognition Based on Deep Local-Holistic Network",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:01.087Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion inference through facial micro-expressions—a core affective computing and emotion psychology topic—and aligns precisely with the researcher's stated interest in 'emotion'.",
+      "evidence": [
+        "Micro-expressions are described as revealing 'genuine emotions that a person tries to conceal'",
+        "The method is explicitly inspired by 'psychological study of attentional resource allocation for micro-expression cognition'",
+        "Paper title and abstract emphasize emotion-related applications such as lie detection"
+      ],
+      "keywords": [
+        "micro-expression",
+        "facial expression recognition",
+        "emotion inference",
+        "affective computing",
+        "deception detection"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion recognition from nonverbal cues",
+        "psychologically-informed AI models",
+        "facial behavior analysis for emotion"
+      ]
+    }
+  },
+  "59fb760e76f24bbfebd3663d8a15630d8438b68779e2d4418a25b3d1fb709cd2": {
+    "paper_id": "https://openalex.org/W3176337791",
+    "title": "CAMx simulations of the control of anthropogenic emissions on the reduction of ozone formation in Southeast Texas of USA",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:01.088Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on atmospheric chemistry and ozone pollution control, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title explicitly concerns CAMx simulations and anthropogenic emissions' impact on ozone formation in Southeast Texas"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e7d90b139a4b33480246576e951477e2761e63111bf92b3920ff418bd21d16f0": {
+    "paper_id": "https://openalex.org/W4210281178",
+    "title": "Analysis and Prediction of COVID-19 Data using Machine Learning Models",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:01.088Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on epidemiological forecasting using machine learning and contains no mention of emotion, affect, sentiment, or psychological constructs.",
+      "evidence": [
+        "All concepts and the abstract center on COVID-19 data analysis, prediction models, and public health metrics—no emotion-related terms or methodologies appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "fa7089967a0e41001938bf732da266014142d0c5a9eabe50effbbc750bdb59ed": {
+    "paper_id": "https://openalex.org/W3201014619",
+    "title": "Research on the improvement of total factor productivity in China’s power industry: a perspective of technological heterogeneity",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:01.088Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on economic productivity and technological heterogeneity in China's power industry, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title mentions 'total factor productivity' and 'technological heterogeneity' in the power industry"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "72de3cbd517371e93375cda8df6c4911773735c77d87fdce2c4f565f32db76ef": {
+    "paper_id": "https://openalex.org/W4297330265",
+    "title": "A More Objective Quantification of Micro-Expression Intensity through Facial Electromyography",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:01.297Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly investigates micro-expressions—transient, involuntary facial indicators of concealed genuine emotions—and quantifies their intensity using physiological measurement (facial EMG), aligning precisely with emotion-related affective science and affective computing.",
+      "evidence": [
+        "Micro-expressions are defined as facial expressions revealing 'genuine emotions' when suppressed",
+        "Study explicitly targets the 'low-intensity' characteristic of micro-expressions—a core affective property",
+        "Uses facial electromyography (EMG) to objectively measure emotional expression intensity"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion",
+        "facial electromyography",
+        "affective computing",
+        "intensity",
+        "emotion recognition"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion recognition",
+        "physiological signal-based emotion analysis",
+        "nonverbal affective behavior",
+        "deception detection"
+      ]
+    }
+  },
+  "08544246b243a2d1c1286b99dd0905b4f4b1936b6ab45507022048f4b0db081c": {
+    "paper_id": "https://openalex.org/W4280528148",
+    "title": "CAS(ME)&lt;sup&gt;3&lt;/sup&gt;: A Third Generation Facial Spontaneous Micro-Expression Database with Depth Information and High Ecological Validity",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:01.445Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion-related analysis through spontaneous micro-expression recognition, which is a core affective computing and psychological signal of genuine emotional states; the researcher's interest topic 'emotion' aligns precisely with the paper's scientific goal and methodology.",
+      "evidence": [
+        "Micro-expression (ME) is a significant non-verbal communication clue that reveals one person's genuine emotional state",
+        "CAS(ME)³ elicits ME with high ecological validity using the mock crime paradigm, along with physiological and voice signals",
+        "The database includes manually labeled 1,109 MEs — micro-expressions are involuntary, brief facial expressions reflecting concealed or suppressed emotions"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "facial expression",
+        "affective computing",
+        "spontaneous expression",
+        "ecological validity"
+      ],
+      "research_directions": [
+        "affective computing",
+        "facial emotion analysis",
+        "nonverbal emotion detection",
+        "psychophysiological emotion modeling",
+        "multimodal affect recognition"
+      ]
+    }
+  },
+  "ab64236e8752e4752256ae82b74b08417e05a739ca884365ad56504671d16493": {
+    "paper_id": "https://openalex.org/W4200195527",
+    "title": "Integrating Programming and Engineering Concepts using Raspberry Pi and Scratch",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:01.445Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on STEM education outreach, curriculum design, and gender equity in computing/engineering; no content relates to emotion recognition, affective computing, or emotional processes.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical/educational (e.g., Raspberry Pi, Scratch, engineering education)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "75861ac8ecebb0424315cf630bce33c8a96e4e633ed2bd1b5693be99b7a9084e": {
+    "paper_id": "https://openalex.org/W3156991808",
+    "title": "Effect of dynamic low DREs from flare combustion on regional ozone pollution during a chemical plant shutdown",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:01.445Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on atmospheric chemistry and industrial pollution dynamics, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Ozone, Combustion, NOx, Air pollution — all environmental/chemical, not psychological or affective."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0cbb317bd7be31f49a393e95ac7dc0f72facec1d4ff5d80c212152f4323fba4e": {
+    "paper_id": "https://openalex.org/W4205111916",
+    "title": "Spontaneous Facial Expressions and Micro-expressions Coding: From Brain to Face",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:01.445Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly investigates the neural and physiological basis of facial expressions and micro-expressions as indicators of emotion, explicitly linking action units (AU) to emotion through data-driven analysis and neuroanatomical modeling — fully aligning with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Title explicitly references 'Spontaneous Facial Expressions and Micro-expressions' in context of emotion coding",
+        "Abstract states: 'We derived the relationship between AU and emotion based on a data-driven analysis...'",
+        "Abstract emphasizes 'facial expressions are a vital way for humans to show their perceived emotions'"
+      ],
+      "keywords": [
+        "emotion",
+        "facial expression",
+        "micro-expression",
+        "action unit",
+        "emotion coding",
+        "affective neuroscience"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion recognition",
+        "neurophysiological basis of emotion",
+        "AU-emotion mapping",
+        "spontaneous affective behavior analysis"
+      ]
+    }
+  },
+  "b3b8e775c84a36d6b47250457df779d53d6d16f36853b4d4f91e3cc36ad3519f": {
+    "paper_id": "https://openalex.org/W3144842037",
+    "title": "Source apportionment simulations of ground-level ozone in Southeast Texas employing OSAT/APCA in CAMx",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:01.445Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on atmospheric chemistry and air pollution modeling, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Ozone, Pollution, NOx, Apportionment — all environmental science topics unrelated to emotion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6871c7440d57e361234ee0fdeeeba3accc3066dc8e52f631bb7839f93da540b4": {
+    "paper_id": "https://openalex.org/W3126933681",
+    "title": "A win-win strategy for simultaneous air-quality benign and profitable emission reduction during chemical plant shutdown operations",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:01.446Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental engineering and process safety during chemical plant shutdowns, with no connection to human emotion or affective science.",
+      "evidence": [
+        "Concepts include Shutdown, NOx, Air quality index, Flare — all technical environmental/process terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "001869b1fe7b2cbe26a39e3998e6b79c8f327229a2d9ec76345c7a531aeb2566": {
+    "paper_id": "https://openalex.org/W3165410783",
+    "title": "Research on Measurement and Improvement Path of Total-Factor Carbon Emission Efficiency in China's Power Industry: A Perspective of Technological Heterogeneity",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:01.446Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on carbon emission efficiency, technological heterogeneity, and economic modeling in China's power industry; no connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics: emotion; Paper concepts: China, Malmquist index, Total factor productivity, Technological change, Economic geography"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "218d886acef951f29d6f2ffdc2ea3c9921719076ec0e8592c9e2e66cd3428571": {
+    "paper_id": "https://openalex.org/W4366967111",
+    "title": "Micro Expression Recognition by Machine Learning Based Profit Function Analysis in Intelligent Marketing of Financial Industry",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:01.452Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper explicitly uses microexpression recognition to monitor customer emotions in real-time as a core component of its intelligent marketing system, directly linking emotion detection to behavioral response (switching to manual mode upon negative emotion) and business outcomes.",
+      "evidence": [
+        "The key step of HIMS is to monitor the emotional changes of customers through the MER model.",
+        "When the system detects that customers have negative emotions, the marketing scheme turns to manual mode.",
+        "Microexpression recognition (MER) has wide applications in the financial industry."
+      ],
+      "keywords": [
+        "microexpression recognition",
+        "emotion detection",
+        "affective computing",
+        "real-time emotion monitoring",
+        "customer emotion"
+      ],
+      "research_directions": [
+        "affective computing in marketing",
+        "emotion-aware AI systems",
+        "applied affective science in finance",
+        "human-computer interaction with emotional feedback"
+      ]
+    }
+  },
+  "ddf3584f6f3810acca9d28ed5dacc4427273fda602937ee81dbc0ee2fe925382": {
+    "paper_id": "https://openalex.org/W3176383020",
+    "title": "Source Analysis and Human Health Risk Assessment Based on Entropy Weight Method Modification of PM2.5 Heavy Metal in an Industrial Area in the Northeast of China",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:01.473Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental science and health risk assessment of PM2.5 heavy metals, with no connection to emotion or affective processes.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: 'Environmental science, Coal, Health risk assessment, Heavy metals' — no overlap with affective/emotion-related domains."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5030d929711a222657ad9f3121642b64465ab9cf1efc1c833217750d979f0f61": {
+    "paper_id": "https://openalex.org/W3164501468",
+    "title": "Author response: Permeant fluorescent probes visualize the activation of SARM1 and uncover an anti-neurodegenerative drug candidate",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:01.620Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on SARM1 biochemistry, fluorescent probe development, and neuroprotective drug discovery—no connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: 'Drug response, Chemistry, Fluorescence, Cell biology, Biophysics' — all non-affective"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "255035460c4571a9825a2542817b32698663c9d4a279cd967248cc9ad68d7bd2": {
+    "paper_id": "https://openalex.org/W3127684561",
+    "title": "Exposure of street sweepers to cadmium, lead, and arsenic in dust based on variable exposure duration in zinc smelting district, Northeast China",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:01.620Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental exposure to heavy metals and health risks, with no connection to emotion or affective science.",
+      "evidence": [
+        "Title explicitly concerns cadmium, lead, arsenic exposure in street sweepers; concepts are all environmental/health toxicology-related"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "508f7b236e63d9ec7aa054f20fb178b36b30627319fe6a080e6c701f40a0d750": {
+    "paper_id": "https://openalex.org/W4296068025",
+    "title": "The effect of facial attractiveness on micro-expression recognition",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:01.791Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.97,
+      "reason": "The paper directly investigates how facial attractiveness modulates micro-expression recognition — a core affective process tied to emotion perception and regulation — and explicitly tests effects across valenced expressions (positive, neutral, negative), including happiness superiority, aligning tightly with 'emotion' as the researcher's stated interest topic.",
+      "evidence": [
+        "Studies micro-expression (ME) recognition — defined as revealing 'thoughts and feelings that an individual attempts to cover up'",
+        "Tests three ME types: positive, neutral, and negative",
+        "Reports 'happiness superiority effect' for attractive happy faces"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "facial attractiveness",
+        "happiness superiority",
+        "affective processing",
+        "emotion perception"
+      ],
+      "research_directions": [
+        "Affective neuroscience of subtle expression processing",
+        "Cross-modal influence of social traits (e.g., attractiveness) on emotion decoding",
+        "Valence-specific biases in rapid affective perception",
+        "Clinical applications in emotion recognition deficits (e.g., autism, depression)"
+      ]
+    }
+  },
+  "8954a8a2085c994253aa977f23b13310d4b830af80b6baa2050aced7128bb6d3": {
+    "paper_id": "https://openalex.org/W3129932868",
+    "title": "Permeant fluorescent probes visualize the activation of SARM1 and uncover an anti-neurodegenerative drug candidate",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:01.936Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on SARM1 enzymology, axonal degeneration, and neuroprotective drug discovery; no connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics are 'emotion'; paper concepts include 'Neuroprotection', 'Biochemistry', 'Drug discovery' — all non-affective neuroscience domains."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "04003afad2e5cbc7b9d99d70ecc87ad17429bff3fa22eaf0ef98bfa2e61afc51": {
+    "paper_id": "https://openalex.org/W3148101823",
+    "title": "Potential health risks of metals in skin care products used by Chinese consumers aged 19–29 years",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:02.307Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on toxicological and environmental health risks of metals in skincare products, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Heavy metals', 'Toxicology', 'Environmental health' — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "fa89f7e4475869a8712b8c75a8ae8f084cba0d4303f9b5781d03d523d3322354": {
+    "paper_id": "https://openalex.org/W3112616014",
+    "title": "Comprehensive Study on Sloshing Impacts for an Offshore 3D Vessel via the Integration of Computational Fluid Dynamics Simulation, Experimental Unit, and Artificial Neural Network Prediction",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:02.559Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on fluid dynamics and engineering safety of offshore vessels, with no connection to human emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and the abstract concern slosh dynamics, CFD, neural networks for physical prediction, and marine engineering."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9ac229eb0c602af6369dc8c44e67a4b55357ac8be44ee8d642df4045bdeb3936": {
+    "paper_id": "https://openalex.org/W3206283519",
+    "title": "FME'21",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:02.583Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is centrally focused on facial micro-expressions as involuntary, emotion-linked cues, explicitly linking them to emotion understanding, detection, and psychological inference — directly aligning with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "'FMEs are involuntary facial movements that occur spontaneously when a person experiences an emotion'",
+        "The workshop will explore various dimensions of the human mind through emotion understanding and FME analysis"
+      ],
+      "keywords": [
+        "facial micro-expressions",
+        "emotion recognition",
+        "emotion detection",
+        "affective computing",
+        "psychology",
+        "lie detection"
+      ],
+      "research_directions": [
+        "computational emotion analysis",
+        "multi-modal affective sensing",
+        "involuntary behavioral cues for emotion inference",
+        "AI-driven psychology applications"
+      ]
+    }
+  },
+  "2a2a8cf78f8d1bea1c33bc834db70ba61e419cb6ef32ade0d27067ac195116c7": {
+    "paper_id": "https://openalex.org/W3206717387",
+    "title": "A Brief Guide",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:02.820Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.97,
+      "reason": "The paper directly addresses emotion perception through facial expressions, explicitly links facial action units to emotion coding, and targets emotion-related methodology (AU coding) for expression/micro-expression analysis — aligning tightly with 'emotion' as a core interest topic.",
+      "evidence": [
+        "Facial expressions are an important way for humans to perceive emotions",
+        "systematically sorts out the relationship between facial muscles and AU to make more people understand AU coding from the principle",
+        "spotting and recognition of expressions or micro-expressions"
+      ],
+      "keywords": [
+        "facial expression",
+        "emotion perception",
+        "Facial Action Coding System",
+        "micro-expression",
+        "action unit coding"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion recognition",
+        "behavioral signal processing",
+        "psychophysiological coding of emotion"
+      ]
+    }
+  },
+  "1caec9f7054ed383c11a638e943b685705f7dc7790fa3e199f0f04d5d32b1cf9": {
+    "paper_id": "https://openalex.org/W3092085583",
+    "title": "New flare minimization strategies with consideration of multi-plant material exchange",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:03.618Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on industrial flare minimization in process engineering and waste management, with no apparent connection to human emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Flare', 'Minification', 'Process engineering', 'Waste management' — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0251b33e2983f805d1d198b6a6ed4262890eece0a04fa482fdcb9770fe05dce1": {
+    "paper_id": "https://openalex.org/W3092349276",
+    "title": "Ozone pollution control strategies examined by Empirical Kinetics Modeling Approach over the Beaumont-Port Arthur region in Texas of USA",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:03.684Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on ozone pollution control and atmospheric chemistry, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Ozone, Air pollution, Environmental chemistry — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5a2a4b5e877ed2ca390a804b44abde89169bef32da691fafbb8a7a0f83acd4c7": {
+    "paper_id": "https://openalex.org/W3113357318",
+    "title": "Introducing STEM to 7<sup>th</sup> Grade Girls using SeaPerch and Scratch",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:03.811Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on STEM education outreach for middle school girls, with no mention of emotion, affective processes, or psychological constructs related to emotion.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes 'Psychology' but in a general, non-affective context (e.g., social learning, mentoring)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "64b793d2624a9623ef48f0813401b36f69d504a7c2b48a758dee24c3b8f0fbb7": {
+    "paper_id": "https://openalex.org/W3083491031",
+    "title": "Characterization and sensitivity analysis on ozone pollution over the Beaumont-Port Arthur Area in Texas of USA through source apportionment technologies",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:03.845Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on atmospheric ozone pollution and source apportionment in environmental science, with no apparent connection to emotion or affective processes.",
+      "evidence": [
+        "Concepts include Ozone, Pollution, Environmental science, Meteorology — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "46890a2ae230797ae798ae14bd7e307df0c6690b6201f5bfebe16ce770f2f8e5": {
+    "paper_id": "https://openalex.org/W3088070589",
+    "title": "Physiological and genetic effects of cadmium and copper mixtures on carrot under greenhouse cultivation",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:04.124Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on heavy metal toxicity, plant physiology, and gene expression in carrots — no connection to human emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Title and abstract exclusively discuss cadmium/copper mixtures, antioxidant enzymes, and gene expression in carrot cultivation."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4d09ad22ff4b908298564d5f3c34c8caec830f12c602dc47dead8c63a8fd4fd0": {
+    "paper_id": "https://openalex.org/W3089005974",
+    "title": "Design of Fast and Scalable Clustering Algorithm on Spark",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:04.205Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on scalable clustering algorithms in Spark and contains no mention of emotion, affect, or related psychological/computational affective science concepts.",
+      "evidence": [
+        "Abstract and concepts exclusively cover distributed computing, clustering, and big data analytics with no emotional or affective terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2bb2028bd42ad92163384da56f107ef489e6c9cb776e2bdb4c3b9e01f2eba76f": {
+    "paper_id": "https://openalex.org/W3018292637",
+    "title": "Comprehensive study on boil-off gas generation from LNG road tankers under simultaneous impacts of heat leakage and transportation vibration",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:04.312Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on physical engineering aspects of LNG transport, with no connection to human emotion or affective science.",
+      "evidence": [
+        "boil-off gas generation",
+        "heat leakage",
+        "transportation vibration"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c345a7a31ed106be4904811e7e7b502c82b6f1373655ae4031b4c239d9acdbde": {
+    "paper_id": "https://openalex.org/W3016873446",
+    "title": "Health risk assessment of heavy metals in street dust around a zinc smelting plant in China based on bioavailability and bioaccessibility",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:04.474Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental health risk assessment of heavy metals, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Bioavailability, Heavy metals, Smelting, Zinc, Environmental chemistry — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "88b3d78f2342f8b5f26d705eed4e6cc4a0800a77b07c105001adf95ac91affb4": {
+    "paper_id": "https://openalex.org/W3015747234",
+    "title": "Mercury concentration and fatty acid composition in muscle tissue of marine fish species harvested from Liaodong Gulf: An intelligence quotient and coronary heart disease risk assessment",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:04.523Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental chemistry, toxicology, and nutritional risk assessment—specifically mercury levels and fatty acids in marine fish—not emotion or affective science.",
+      "evidence": [
+        "Concepts include Methylmercury, Polyunsaturated fatty acid, Environmental chemistry; no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4f835e648a5083c5c59d192f3925273a5ea5f0a7a0f828e96c736937d40cb391": {
+    "paper_id": "https://openalex.org/W2979517220",
+    "title": "Development and application of a compact ocean bottom electromagnetometer based on ARM embedded system",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:04.533Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical engineering study on ocean-bottom electromagnetometers with no mention of emotion, affect, psychology, or related constructs.",
+      "evidence": [
+        "Title and abstract focus exclusively on hardware design, power efficiency, and geophysical data acquisition."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "93a8b8b00e3889bd5b25f48b9ec9de5c1e42529524034a4264783ca00dfa9900": {
+    "paper_id": "https://openalex.org/W2999387834",
+    "title": "Time-Window Based Berth and Yard Allocation Planning of Container Vessels",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:04.554Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical operations research study on port logistics optimization with no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract focus exclusively on time-window based MINLP modeling for berth and yard allocation in container ports."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4dec0b12da737067f231ca1dd7970011c1fd39f7432c4f2d4f2684ab110bbded": {
+    "paper_id": "https://openalex.org/W3037359893",
+    "title": "Effect of industrial flare DREs derived by CFD and WERF on ozone pollution through CAMx simulation",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:04.622Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on industrial flare emissions, ozone pollution modeling, and atmospheric simulation—topics in environmental engineering and air quality science, with no apparent connection to human emotion or affective processes.",
+      "evidence": [
+        "Title explicitly references CFD, WERF, CAMx, and ozone pollution"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "45e3201e4901dfa0e912fe6a86aec2d80065d7db32432c98f08a9faf02ea564d": {
+    "paper_id": "https://openalex.org/W2950243997",
+    "title": "Integrated Proactive and Reactive Scheduling for Refinery Front-End Crude Movement with Consideration of Unit Maintenance",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:04.667Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on industrial scheduling and maintenance optimization in oil refineries, with no connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract concern refinery operations, MINLP modeling, and maintenance scheduling—no emotion-related terms or constructs appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d8e35997b6c7847082fd4bf79ec5e39a2c01a3732228724f16b174349af19b47": {
+    "paper_id": "https://openalex.org/W3005508038",
+    "title": "WITHDRAWN: Effect of Flare destruction and removal efficiencies on regional ozone pollution from oil, gas and chemical process industries in Southeast of Texas through CAMx modeling and simulation",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:04.703Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on atmospheric modeling of ozone pollution from industrial flares, with no connection to human emotion or affective science.",
+      "evidence": [
+        "Concepts include Ozone, Pollution, Flare, Atmospheric sciences — all environmental/physical science topics; 'emotion' is absent from title, concepts, and venue context."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d34783f0f420898fcd1561ba82940e8ac44830f1e6cb5568b74c35bd65ab8035": {
+    "paper_id": "https://openalex.org/W3137274787",
+    "title": "Video-based Facial Micro-Expression Analysis: A Survey of Datasets, Features and Algorithms",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:04.760Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is directly focused on facial micro-expressions, which are involuntary, transient indicators of genuine underlying emotions; it explicitly links micro-expressions to emotion revelation, lie detection, and criminal detection, and introduces a new dataset (MMEW) with labeled emotion types.",
+      "evidence": [
+        "micro-expressions are involuntary and transient facial expressions capable of revealing the genuine emotions that people attempt to hide",
+        "we present and release a new dataset - called micro-and-macro expression warehouse (MMEW) - containing more video samples and more labeled emotion types"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "facial expression analysis",
+        "affective computing",
+        "emotion labeling",
+        "deception detection"
+      ],
+      "research_directions": [
+        "video-based affective signal analysis",
+        "emotion-aware AI for security applications",
+        "dataset development for fine-grained emotion categories",
+        "neuropsychologically grounded emotion modeling",
+        "spotting and recognition of subtle emotional cues"
+      ]
+    }
+  },
+  "fc5fdd6c6d9afbb0a3fe2228f1df22a84b743b908c3c4a611d8356440e7f9fb4": {
+    "paper_id": "https://openalex.org/W3044871905",
+    "title": "An integrated flare minimization methodology for simultaneous turnaround operations of two chemical plants",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:04.783Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on industrial flare minimization and scheduling in chemical plant operations, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Flare, Minification, Engineering, Scheduling, Operations management — all unrelated to emotion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "66c146d680491cf4f0b99c2c7adc3239ceea97286d018175954b45fdae8d621d": {
+    "paper_id": "https://openalex.org/W2961820806",
+    "title": "Intelligent computational techniques for multimodal data",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:04.876Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper's title, venue, and listed concepts focus on computational techniques and multimodal data processing without explicit mention of emotion or affective computing.",
+      "evidence": [
+        "Concepts include 'Computer science', 'Deep learning', 'Machine learning', but no emotion-related terms such as 'affective computing', 'emotion recognition', or 'sentiment analysis'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6d9ae5db68b108902f66b6b0b443f5c0545d410dc65623ee2460090f15882d01": {
+    "paper_id": "https://openalex.org/W2979929859",
+    "title": "Research on marine creature recognition from seafloor videos",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:04.919Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computer vision and AI for marine creature recognition in underwater videos, with no mention of emotion, affective computing, or psychological/behavioral affective analysis.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical/computational or domain-specific (oceanography, computer vision)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5c04afafa6d9f25e46d1ec1f5b138b767e3a49ed8179798a231df44ac884b33a": {
+    "paper_id": "https://openalex.org/W3141012605",
+    "title": "MESNet: A Convolutional Neural Network for Spotting Multi-Scale Micro-Expression Intervals in Long Videos",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:04.966Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses micro-expression spotting—a core affective computing task tied to emotion inference from subtle, involuntary facial movements. The researcher's interest topic 'emotion' aligns strongly with the paper's goal of detecting emotionally relevant micro-expressions in long videos.",
+      "evidence": [
+        "Title explicitly references 'Micro-Expression', a well-established proxy for concealed or intense emotional states",
+        "Abstract states the method targets 'spontaneous micro-expression intervals', which are defined in affective science as brief, involuntary facial expressions revealing genuine emotion",
+        "Use of CAS(ME)^2 and SAMM datasets—standard benchmarks in affective computing for emotion-related facial behavior analysis"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "facial expression spotting",
+        "affective computing",
+        "spontaneous expression"
+      ],
+      "research_directions": [
+        "affective signal processing",
+        "emotion-aware AI",
+        "nonverbal emotion detection",
+        "deep learning for affective behavior analysis"
+      ]
+    }
+  },
+  "3451aa8c7e6f148324fee48e4ff180d1550954f92cbd10d430bf2a02abe543e0": {
+    "paper_id": "https://openalex.org/W3011738021",
+    "title": "A Coding/Programming Academy for 6th-Grade Females to Increase Knowledge and Interest in Computer Science",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:04.989Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on gender equity in computer science education for young females and uses pedagogical interventions like robotics and game-based learning; it does not address emotion, affective processes, or affective computing.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper concepts include 'Coding', 'Computer science', 'Workforce', 'Sociology' — no emotion-related terms or constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "31eb6ae868c42f94ca959a50b175c4dc07dce4dda364e3e73547370c429e2354": {
+    "paper_id": "https://openalex.org/W2931376180",
+    "title": "The Toxicological Effects of Mercury Exposure in Marine Fish",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:05.117Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mercury toxicity in marine fish, falling under ecotoxicology and environmental health, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Mercury, Bioaccumulation, Ecotoxicology, Marine fish, Toxicity — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d96ca756d1c73ac890dc597769f52a3fb6491a0bd9f8885773fe9de65d2a12d3": {
+    "paper_id": "https://openalex.org/W2901307416",
+    "title": "New insight of ozone pollution impact from flare emissions of chemical plant start-up operations",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:05.628Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on ozone pollution and flare emissions from chemical plants, which falls under environmental science and air pollution—no connection to human emotion or affective processes.",
+      "evidence": [
+        "Concepts include Ozone, NOx, Chemical plant, Pollution—none relate to emotion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8e14a7ade521e05518abd589d9557a137fa3ff268cca02b221768c8461253b19": {
+    "paper_id": "https://openalex.org/W3128621833",
+    "title": "Spatio-temporal fusion for Macro- and Micro-expression Spotting in Long Video Sequences",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:05.863Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on spotting macro- and micro-expressions—direct behavioral manifestations of underlying emotions—and explicitly targets emotion-related facial dynamics, aligning tightly with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Title contains 'Macro- and Micro-expression Spotting'",
+        "Abstract states goal is to spot micro-expression (ME) intervals, which are involuntary, brief facial expressions linked to concealed or intense emotions",
+        "Method addresses challenges specific to emotion expression detection (e.g., low intensity, short duration, head motion interference)"
+      ],
+      "keywords": [
+        "micro-expression",
+        "macro-expression",
+        "emotion recognition",
+        "facial expression spotting",
+        "spatio-temporal analysis",
+        "optical flow",
+        "pattern recognition"
+      ],
+      "research_directions": [
+        "affective computing",
+        "facial behavior analysis",
+        "emotion-based human-computer interaction",
+        "psychological signal processing",
+        "nonverbal emotion detection"
+      ]
+    }
+  },
+  "332a6dba260cecc3acb8860e3b99e60b67a4462a3c175553d604084b42505cd5": {
+    "paper_id": "https://openalex.org/W2940559775",
+    "title": "CDBV: A Driving Dataset With Chinese Characteristics From a Bike View",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:05.970Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on a computer vision dataset for autonomous driving from a bike's perspective, with no mention of emotion, affective computing, or psychological/behavioral states.",
+      "evidence": [
+        "The abstract discusses object detection, traffic elements, and dataset curation for AI in transport engineering; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ac40c5045668356414f9f2cfefdfb108f6c54ce35785aedb2756a589e7945e71": {
+    "paper_id": "https://openalex.org/W2947657801",
+    "title": "Action Units recognition based on Deep Spatial-Convolutional and Multi-label Residual network",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:06.001Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper focuses on Action Units recognition, which is a core task in facial expression analysis and directly tied to emotion inference; 'emotion' is explicitly listed as the researcher's interest topic.",
+      "evidence": [
+        "Title contains 'Action Units recognition', a standard proxy for emotion-related facial behavior analysis",
+        "Researcher's stated interest topic is 'emotion'"
+      ],
+      "keywords": [
+        "Action Units",
+        "facial expression",
+        "emotion recognition",
+        "deep learning",
+        "convolutional neural network"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Facial behavior analysis",
+        "Multimodal emotion recognition",
+        "Deep learning for affect"
+      ]
+    }
+  },
+  "69dc4f0950375d4529a57d6dfdb31360c77664e3530d6e38ada5f112ce593c38": {
+    "paper_id": "https://openalex.org/W3128811047",
+    "title": "Spotting Macro-and Micro-expression Intervals in Long Video Sequences",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:06.091Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses facial macro- and micro-expressions, which are behavioral manifestations of underlying emotions; the researcher's stated interest is 'emotion', and expression analysis is a core affective computing subfield.",
+      "evidence": [
+        "Title explicitly mentions 'Macro-and Micro-expression Intervals'",
+        "Abstract describes spotting facial expressions in long videos for MEGC 2020 — a benchmark challenge focused on emotion-related transient facial behavior",
+        "Researcher's interest topic is 'emotion', and facial expressions are canonical, empirically validated indicators of emotional states"
+      ],
+      "keywords": [
+        "facial expression",
+        "micro-expression",
+        "macro-expression",
+        "emotion recognition",
+        "affective computing",
+        "optical flow",
+        "F1-score"
+      ],
+      "research_directions": [
+        "affective computing",
+        "facial behavior analysis",
+        "emotion detection from video",
+        "nonverbal emotion cues",
+        "machine learning for psychology"
+      ]
+    }
+  },
+  "798542eed9790ad5bc6093632c4164e92806b70eee0c41e5eb7ba0692170fcee": {
+    "paper_id": "https://openalex.org/W3128516613",
+    "title": "MEGC2020 - The Third Facial Micro-Expression Grand Challenge",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:06.235Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on facial micro-expression spotting and analysis, which is a core subfield of affective computing and emotion recognition; the researcher's interest topic 'emotion' directly aligns with this domain.",
+      "evidence": [
+        "The paper centers on automatic facial micro-expression analysis, a well-established method for inferring underlying emotional states.",
+        "It explicitly connects micro-expressions to 'real-world scenarios where micro-expressions are likely to be intertwined among normal expressions', implying affective/emotional significance.",
+        "Facial expression and micro-expression are canonical behavioral indicators of emotion in affective science."
+      ],
+      "keywords": [
+        "facial micro-expression",
+        "emotion recognition",
+        "affective computing",
+        "expression spotting",
+        "nonverbal emotion cues"
+      ],
+      "research_directions": [
+        "automated emotion inference from subtle facial dynamics",
+        "spotting transient affective signals in naturalistic video",
+        "bridging macro- and micro-expression analysis for robust emotion understanding"
+      ]
+    }
+  },
+  "11def5190da8a53d55170ea6c92d57d6ea7145aff2ae078a36218990c7dffc80": {
+    "paper_id": "https://openalex.org/W2895797859",
+    "title": "Optimizing Bus Stop Spacing Using the Simulated Annealing Algorithm with Spatial Interaction Coverage Model",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:06.501Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on transportation optimization using simulated annealing and spatial coverage modeling; no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract contain no emotion-related terms; all concepts are in transport engineering and computer science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ad9b2c55a344cb7100ac1815b0294b918161909a913b8df037dc921a0d76b7b5": {
+    "paper_id": "https://openalex.org/W3047138543",
+    "title": "Concealed emotion analysis and recognition method",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:06.631Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on concealed emotion analysis and recognition, directly aligning with the researcher's interest topic 'emotion'. It integrates psychological theory with computational methods for emotion recognition, especially micro-expression and multimodal physiological signals.",
+      "evidence": [
+        "Title contains 'Concealed emotion analysis and recognition method'",
+        "Abstract emphasizes 'hidden emotion recognition', 'micro-expression', 'emotion recognition', and applications in psychological risk assessment",
+        "Concepts include 'Emotion recognition' and 'Psychology' as top domains"
+      ],
+      "keywords": [
+        "concealed emotion",
+        "micro-expression",
+        "emotion recognition",
+        "hidden emotion",
+        "multimodal emotion analysis",
+        "psychophysiological signals"
+      ],
+      "research_directions": [
+        "affective computing",
+        "clinical emotion assessment",
+        "security-oriented emotion detection",
+        "multimodal affective signal processing",
+        "emotion recognition in high-stakes behavioral contexts"
+      ]
+    }
+  },
+  "3c6d24eace60ff7119542dab3b6a013d71e572d8573d721d30b61d9494c7d63e": {
+    "paper_id": "https://openalex.org/W2961525345",
+    "title": "Pattern Recognition Techniques for Non Verbal Human Behavior (NVHB)",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:06.839Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper's title explicitly references 'Non Verbal Human Behavior (NVHB)', a domain strongly associated with affective computing and emotion recognition, especially since nonverbal cues (e.g., facial expression, posture, gesture) are primary channels for emotion expression. 'Pattern recognition (psychology)' is a listed concept, directly linking pattern recognition methods to psychological constructs like emotion.",
+      "evidence": [
+        "Title: 'Pattern Recognition Techniques for Non Verbal Human Behavior (NVHB)'",
+        "Concept: 'Pattern recognition (psychology)'"
+      ],
+      "keywords": [
+        "nonverbal behavior",
+        "emotion recognition",
+        "affective computing",
+        "pattern recognition",
+        "human behavior analysis"
+      ],
+      "research_directions": [
+        "Affective pattern recognition",
+        "Emotion inference from nonverbal cues",
+        "Psychologically-informed machine learning for behavior analysis"
+      ]
+    }
+  },
+  "ac621a62826415f619b6dabd1437b3d1011b2b572d7355c84a677e0b3d1a1b66": {
+    "paper_id": "https://openalex.org/W2884629931",
+    "title": "Dynamic Routing Optimization for Chemical Hazardous Material Transportation under Uncertainties",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:07.095Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on operations research and optimization for hazardous material transportation routing, with no mention of emotion, affective states, psychological constructs, or human-centered affective phenomena.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical/computational (e.g., MILP, vehicle routing, risk modeling)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a3d93c1fe34df4758e1f736dac17668f2c70fad7c56056a62a1d4e50ecb8ce35": {
+    "paper_id": "https://openalex.org/W2806625504",
+    "title": "A novel MINLP model of front-end crude scheduling for refinery with consideration of inherent upset minimization",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:07.155Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mathematical optimization for refinery scheduling and upset minimization, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Refinery, Scheduling, Mathematical optimization, Distillation — all domain-specific to chemical engineering"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "752b98ff91713d92067e57e917b7a43d879838333083bc197c366bd0a812a4b9": {
+    "paper_id": "https://openalex.org/W2959679536",
+    "title": "MEGC 2019 – The Second Facial Micro-Expressions Grand Challenge",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:07.546Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.97,
+      "reason": "The paper focuses on facial micro-expressions, which are brief, involuntary facial movements strongly linked to concealed or genuine emotional states; this directly aligns with 'emotion' as a core interest topic.",
+      "evidence": [
+        "Automatic facial micro-expression (ME) analysis is a growing field of research that has gained much attention in the last five years.",
+        "Challenges for two micro-expression (ME) tasks — spotting and recognition — aim to develop robust techniques for emotion-related behavioral signals."
+      ],
+      "keywords": [
+        "facial micro-expression",
+        "emotion recognition",
+        "affective computing",
+        "nonverbal emotion cues",
+        "spontaneous emotion detection"
+      ],
+      "research_directions": [
+        "Robust micro-expression spotting under naturalistic conditions",
+        "Cross-dataset generalization for emotion expression analysis",
+        "Integration of neurophysiological signals (e.g., MEG/EEG) with facial dynamics for affect inference"
+      ]
+    }
+  },
+  "e18321ceda45dcd2529d4b72f9ac5b692d56da3036c25241c9ba9aa0830ae49d": {
+    "paper_id": "https://openalex.org/W2805107713",
+    "title": "Analyze and Predict Student Dropout from Online Programs",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:07.710Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on student dropout prediction using data mining and institutional metrics, with no mention of emotion, affective states, or psychological constructs related to emotion.",
+      "evidence": [
+        "Concepts include Dropout, Graduation, Computer science, Enrollment management, Retention rate — all non-affective"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7e54754cd78d155dc965c4781cb624cdc56a938742d6c10ce032c148c463c1a8": {
+    "paper_id": "https://openalex.org/W2791010458",
+    "title": "Intelligent computational techniques",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:07.710Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "No emotion-related concepts or terminology appear in the metadata; all listed concepts are technical computing topics with no affective or psychological content.",
+      "evidence": [
+        "Concepts: Computer science, Parallel computing, Multi-core processor, Workload, Implementation, Linear algebra, Computational science, Computer architecture"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "870839832c8242658bf24a13cbf9fe067ded30e5cb466fa8aaa8392d2f97115e": {
+    "paper_id": "https://openalex.org/W2807201150",
+    "title": "SparkSNN: A density-based clustering algorithm on spark",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:07.711Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on scalable density-based clustering algorithms using Apache Spark, with no mention of emotion, affect, or psychological/behavioral constructs.",
+      "evidence": [
+        "All concepts and the abstract center on cluster analysis, distributed computing, and big data scalability—no emotion-related terms or applications."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "01b557e0f374ba0dc437ece026a2884b099ad4d4ec72e20a4ab88ed321e7f618": {
+    "paper_id": "https://openalex.org/W2793139798",
+    "title": "Study on regional air quality impact from a chemical plant emergency shutdown",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:07.730Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental engineering and air quality impacts from industrial shutdowns, with no indication of emotion or affective science content.",
+      "evidence": [
+        "Concepts include 'Shutdown', 'Ozone', 'Air pollution', 'Environmental engineering' — all domain-specific to environmental science, not affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "510a63718318ff1ff6b2cc1bc083023741bc72d13252ceae1c7b6b98ec5a995a": {
+    "paper_id": "https://openalex.org/W2885099502",
+    "title": "Modelling and Simulation for Regional Ozone Impact by Flaring Destruction and Removal Efficiency of Oil &amp; Gas Industries",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:07.731Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental engineering and ozone modeling related to oil & gas flaring, with no connection to human emotion or affective science.",
+      "evidence": [
+        "Concepts include Ozone, Environmental science, Fossil fuel, Petroleum engineering — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1fc101deaba518b2df0a40d668d4ac1aabcfe3afc6fe14e6b217b311de46e2cc": {
+    "paper_id": "https://openalex.org/W2885345954",
+    "title": "Optimal Front-end Crude Schedule for Refineries under Consideration of Inherent Upset Reduction",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:07.769Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on refinery scheduling and mathematical optimization for upset reduction, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Upset', 'Refinery', 'Scheduling', 'Mathematical optimization'; no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "753e09896f3c1ef920e98409cfe089c54e1352fb2c41ae39962e332bdef42b8f": {
+    "paper_id": "https://openalex.org/W2783745482",
+    "title": "Soybean MADS-box gene GmAGL1 promotes flowering via the photoperiod pathway",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:07.895Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on plant molecular genetics and flowering regulation via the photoperiod pathway, with no connection to human or animal emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Title explicitly references 'Soybean MADS-box gene GmAGL1 promotes flowering via the photoperiod pathway'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f0906ea12855b7f9f2a349638d57657e7600707c91783e87247d55220ca0089d": {
+    "paper_id": "https://openalex.org/W2885160602",
+    "title": "Emission Conscious Scheduling of Crude Unloading, Transferring, and Processing for Petroleum Refineries",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:07.917Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on emission-conscious scheduling in petroleum refineries, which is an industrial process optimization and environmental engineering problem, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Oil refinery, Scheduling, Environmental science, Process engineering — all unrelated to emotion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "297930092c726b449e871009ad88e4f4056d8ce9433f669353c06a212a3960e3": {
+    "paper_id": "https://openalex.org/W2770131355",
+    "title": "Alcoholism Detection by Data Augmentation and Convolutional Neural Network with Stochastic Pooling",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:08.005Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on alcoholism detection using CNNs and data augmentation, with no explicit connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are centered on medical AI, pattern recognition, and technical neural network methods—not emotion processing or affective computing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "19a86b098aed8613e37dcb080e4e3077f63726411eed2f26915f58e51b18a4d4": {
+    "paper_id": "https://openalex.org/W2780243095",
+    "title": "Ozone impact minimization through coordinated scheduling of turnaround operations from multiple olefin plants in an ozone nonattainment area",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:08.062Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on industrial scheduling and ozone pollution mitigation in environmental engineering; no connection to human emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Ozone', 'Scheduling', 'Environmental science', and 'NOx' — all domain-specific to air quality engineering."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "50d893e8486bf578638fd472c8c4dff441135f7378ef692c254d66173aee1c07": {
+    "paper_id": "https://openalex.org/W2756745798",
+    "title": "A data mining framework for environmental and geo-spatial data analysis",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:08.119Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on environmental and geo-spatial data analysis using data mining techniques, with no indication of emotion or affective computing in title, venue, concepts, or available metadata.",
+      "evidence": [
+        "Concepts include 'Cluster analysis', 'Spatial analysis', 'Environmental data', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "739c1f72a56a50a1ca8dd9d01dbf50225b2d1ef749a528cbabbe7a890754fdba": {
+    "paper_id": "https://openalex.org/W4394090658",
+    "title": "Additional file 2: of Soybean MADS-box gene GmAGL1 promotes flowering via the photoperiod pathway",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:08.161Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on plant genetics and flowering regulation via the photoperiod pathway, with no connection to human or computational affective/emotion processes.",
+      "evidence": [
+        "Title and concepts are exclusively botanical/genetic: 'Soybean MADS-box gene', 'photoperiod pathway', 'Arabidopsis', 'Mutant'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "930eb59915dcc37a66d55019fc155aaae4a206b32cc01e2f12afc957c3d4f92e": {
+    "paper_id": "https://openalex.org/W2700893280",
+    "title": "A New Proactive Scheduling Methodology for Front-End Crude Oil and Refinery Operations under Uncertainty of Shipping Delay",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:08.323Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is focused on industrial optimization, scheduling, and operations research under uncertainty in petroleum refining; it contains no affective, emotional, or psychological content.",
+      "evidence": [
+        "All concepts and the abstract pertain to refinery operations, integer programming, profit maximization, and shipping delay modeling."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "32894ac3ba0f0ad856aefb14368dcc00761d5141031ec26d603795fa76cd9a56": {
+    "paper_id": "https://openalex.org/W2912256099",
+    "title": "Aconcagua",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:08.344Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on spatio-temporal emotion change analysis using emotion assessment scores from Twitter, directly aligning with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Aconcagua is described as a 'novel spatio-temporal emotion change analysis framework'",
+        "Inputs include 'emotion assessment score falling in the range [-1, +1], with +1 representing a very positive emotion and -1 representing a very negative emotion'",
+        "The abstract repeatedly references emotion mapping, emotion regions, and emotion change graphs"
+      ],
+      "keywords": [
+        "emotion analysis",
+        "spatio-temporal emotion change",
+        "emotion assessment",
+        "affective computing",
+        "social media emotion mining"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion modeling in social media",
+        "spatio-temporal affective analytics",
+        "change detection in emotional states",
+        "graph-based emotion representation"
+      ]
+    }
+  },
+  "db3d57467369d43fc9e603c681a90fb0d2c751f01456f62105dfd870df8639f4": {
+    "paper_id": "https://openalex.org/W2808064875",
+    "title": "Micro-expression recognition with small sample size by transferring long-term convolutional neural network",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:08.450Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.9,
+      "confidence": 0.95,
+      "reason": "The paper focuses on micro-expression recognition, which is a core subfield of affective computing and emotion analysis; the researcher's stated interest is 'emotion', and micro-expressions are involuntary, fleeting facial expressions directly linked to concealed emotional states.",
+      "evidence": [
+        "Title: 'Micro-expression recognition with small sample size by transferring long-term convolutional neural network'",
+        "Researcher's interest topic: 'emotion'"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "facial expression",
+        "affective computing",
+        "convolutional neural network"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware AI",
+        "facial behavior analysis",
+        "transfer learning for affective signals"
+      ]
+    }
+  },
+  "be02272863ca1ea830e9651659244a442420565c5ae0fa9061a2b55021443d70": {
+    "paper_id": "https://openalex.org/W2617551477",
+    "title": "Impact of chemical plant start-up emissions on ambient ozone concentration",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:08.558Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on atmospheric chemistry and air pollution modeling, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title explicitly concerns ozone concentration and chemical plant emissions"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3bd51e5aa3f69d59e5b7963cbf6e2fbf18bc412fe55202df815d95a0b44f5bfb": {
+    "paper_id": "https://openalex.org/W3032502912",
+    "title": "Status survey of job satisfaction of nurses at public hospitals and recommendations",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:08.697Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper focuses on job satisfaction—a well-established affective construct in psychology—and explicitly links it to emotional and psychological factors (e.g., workplace pressure, job attitude, personnel psychology), aligning with emotion-related research interests.",
+      "evidence": [
+        "Job satisfaction is a core affective work attitude",
+        "Personnel psychology and job attitude are listed as concepts",
+        "Workplace pressure is identified as a key influencing factor for turnover"
+      ],
+      "keywords": [
+        "job satisfaction",
+        "personnel psychology",
+        "job attitude",
+        "workplace pressure",
+        "emotion"
+      ],
+      "research_directions": [
+        "affective organizational behavior",
+        "emotion in healthcare professions",
+        "psychological determinants of occupational well-being"
+      ]
+    }
+  },
+  "bf9b0ac3d4c63eaa2e408af3771d19b58cd9f61cdf5c289a9e8fd36fa1aa777a": {
+    "paper_id": "https://openalex.org/W2607114687",
+    "title": "Simultaneous 2D hoist scheduling and production line design for multi-recipe and multi-stage material handling processes",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:08.842Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on industrial scheduling and production line design in chemical engineering, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include hoist, scheduling, production line, industrial engineering — all unrelated to emotion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "afa2cf0e697a435117dedd72561fb961aa2b6d431cd61f84851ee965d181e006": {
+    "paper_id": "https://openalex.org/W2931939813",
+    "title": "K2: A Novel Data Analysis Framework to Understand US Emotions in Space and Time",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:08.903Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on emotion analysis using Twitter data, aligning directly with the researcher's interest topic 'emotion'. It introduces a framework (K2) for spatio-temporal emotion mapping and change analysis, with core components centered on emotion assessment scores, positive/negative emotion regions, and emotional evolution over time.",
+      "evidence": [
+        "Title explicitly mentions 'Understand US Emotions in Space and Time'",
+        "Abstract states: 'K2 [...] for tweet emotion mapping and emotion change analysis'",
+        "Input includes 'an emotion assessment score in the range [...], with [...] representing very high positive/negative emotion'"
+      ],
+      "keywords": [
+        "emotion analysis",
+        "spatio-temporal emotion mapping",
+        "social media emotion",
+        "Twitter sentiment",
+        "emotion change detection",
+        "kernel density estimation",
+        "contouring algorithms",
+        "emotion storytelling"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Computational social science",
+        "Geospatial affective analytics",
+        "Longitudinal emotion modeling",
+        "AI-driven emotion visualization"
+      ]
+    }
+  },
+  "c9c7f6e344f43555f2e75dc28c9b060cd5ac20a8766cd2aa6128848cb963940e": {
+    "paper_id": "https://openalex.org/W2765735637",
+    "title": "MR-SNN: Design of parallel Shared Nearest Neighbor clustering algorithm using MapReduce",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:08.932Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on parallel clustering algorithm design using MapReduce for big data, with no mention of emotion, affect, or psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively concern distributed computing, clustering algorithms, and AI infrastructure."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4a4117b48fdbd00ed6d8dbbbd9bb2c3416056f284659a1574a36a654ff961423": {
+    "paper_id": "https://openalex.org/W2738711643",
+    "title": "Discovery of patterns in spatio-temporal data using clustering techniques",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:09.357Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on spatio-temporal clustering algorithms for geo-located data, with no mention of emotion, affective computing, or psychological/behavioral states.",
+      "evidence": [
+        "Abstract and concepts exclusively reference cluster analysis, data mining, and geographic applications; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3aeb4baca5e10ed909b96b2655b8a4c43d6f99e25103248d5380df08c2578c3e": {
+    "paper_id": "https://openalex.org/W2576206236",
+    "title": "Emission Constrained Dynamic Scheduling for Ethylene Cracking Furnace System",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:09.851Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on industrial process optimization and environmental emission constraints in ethylene production, with no connection to human emotion, affective computing, or psychological/affective science.",
+      "evidence": [
+        "Concepts include 'Scheduling', 'Cracking', 'Ethylene', 'Process engineering', 'Environmental science' — all domain-specific to chemical engineering."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "117add73d3cb735ce31364f3ddaf8a5a31a41d9680266128c49798d1ae52de5d": {
+    "paper_id": "https://openalex.org/W2892646493",
+    "title": "Micro-Expression Recognition Based on Local Two-Order Gradient Pattern",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:09.906Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on micro-expression recognition, a core subfield of affective computing that directly relates to emotion detection and analysis from facial behavior.",
+      "evidence": [
+        "Title explicitly mentions 'Micro-Expression Recognition';",
+        "Abstract states micro-expressions are studied for their 'spontaneity'—a key property linking them to genuine emotional states;",
+        "Method targets subtle, involuntary facial changes tied to concealed or suppressed emotions; "
+      ],
+      "keywords": [
+        "micro-expression",
+        "facial expression recognition",
+        "emotion recognition",
+        "affective computing",
+        "local pattern",
+        "computer vision"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Emotion-aware AI",
+        "Nonverbal behavior analysis",
+        "Facial affect recognition",
+        "Spontaneous emotion detection"
+      ]
+    }
+  },
+  "0e47330eec78d1ce7de35086ed42d1c26b4e13e01d9b45d96b223ebb0008ecca": {
+    "paper_id": "https://openalex.org/W2626225595",
+    "title": "“Serial” versus “Parallel”: A Comparison of Spatio-Temporal Clustering Approaches",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:09.980Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on spatio-temporal clustering methods in computer science and AI, with no apparent connection to emotion or affective processes.",
+      "evidence": [
+        "Title mentions 'Serial versus Parallel' and 'Spatio-Temporal Clustering', concepts are technical and domain-specific to CS/AI"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "88740951bb8003392579e207aee6dc35374babe1e08dfbba0263ac6f66d869cf": {
+    "paper_id": "https://openalex.org/W2899718219",
+    "title": "Tweet Emotion Mapping: Understanding US Emotions in Time and Space",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:10.070Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion analysis using social media data, aligning precisely with the researcher's stated interest in 'emotion'. It develops a spatio-temporal framework for mapping and tracking emotional valence (positive/negative) from tweets, with explicit focus on emotion classification, assessment, and dynamics.",
+      "evidence": [
+        "Title explicitly contains 'Tweet Emotion Mapping' and 'Understanding US Emotions in Time and Space'",
+        "Abstract defines emotion assessment scores in [-1, +1] and analyzes positive/negative emotion regions over time and space",
+        "Concepts include 'Emotion classification', 'Social media', and 'Spacetime' — all central to affective computing"
+      ],
+      "keywords": [
+        "emotion classification",
+        "social media emotion analysis",
+        "spatio-temporal emotion mapping",
+        "affective computing",
+        "sentiment dynamics"
+      ],
+      "research_directions": [
+        "computational emotion modeling",
+        "geospatial affective analytics",
+        "temporal emotion change detection",
+        "AI-driven emotion storytelling"
+      ]
+    }
+  },
+  "61a9accbcd582e6044795c7cc8f4ff57abe73db42f77be9a966427ae635d3d35": {
+    "paper_id": "https://openalex.org/W2806880187",
+    "title": "Facial Micro-Expressions Grand Challenge 2018 Summary",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:10.253Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper directly addresses facial micro-expressions—a fine-grained, transient manifestation of concealed or suppressed emotions—and is authored by a researcher whose stated interest is 'emotion'. Although the challenge emphasizes AU-centric (anatomical) over emotional-class labeling, micro-expression analysis is fundamentally grounded in affective science and emotion recognition.",
+      "evidence": [
+        "Title includes 'Facial Micro-Expressions', a well-established proxy for underlying emotional states",
+        "Abstract states the goal is 'facial micro-expression analysis'—a core subfield of affective computing",
+        "Researcher's interest topic is explicitly 'emotion'"
+      ],
+      "keywords": [
+        "facial micro-expressions",
+        "emotion recognition",
+        "affective computing",
+        "AU analysis",
+        "cross-database challenge"
+      ],
+      "research_directions": [
+        "emotion inference from subtle facial dynamics",
+        "benchmarking affective behavior analysis methods",
+        "bridging anatomical (AU) and semantic (emotional) labeling in affective computing"
+      ]
+    }
+  },
+  "3103a145162359c40f721a709711013b5622d6aba02addcc62cb02abfa93697b": {
+    "paper_id": "https://openalex.org/W2555341175",
+    "title": "Dynamic simulation of LNG loading, BOG generation, and BOG recovery at LNG exporting terminals",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:10.296Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on LNG process engineering and BOG management, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are exclusively technical/engineering: 'Liquefied natural gas', 'Bog', 'Gas compressor', 'Retrofitting'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "718b11cf256ca3711b22dd74345f3b44b061ce73cdb5501fc29534e739dd6cd6": {
+    "paper_id": "https://openalex.org/W2523935970",
+    "title": "Simultaneous scheduling of front-end crude transfer and refinery processing",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:10.766Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on industrial scheduling in petroleum refining, with no conceptual or lexical connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Refinery', 'Crude oil', 'Scheduling (production processes)' — all domain-specific engineering terms unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f7b3c31c12eb942c4751ff4d8a6f27c178931d2d5241a7e39fd71c905131b663": {
+    "paper_id": "https://openalex.org/W2560088617",
+    "title": "Computer Modeling And Plant-Wide Dynamic Simulation For Industrial Flare Minimization",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:10.904Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on industrial flare minimization using plant-wide dynamic simulation in chemical process industries; no content relates to human emotion, affective computing, or psychological constructs.",
+      "evidence": [
+        "Abstract and metadata contain only engineering, simulation, and emissions-related terms; 'emotion' does not appear and is semantically unrelated to the domain."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e0a5005eef168a6db52f4ea8cae6295e225f91bd12893c3e534ed286b98aed25": {
+    "paper_id": "https://openalex.org/W2514755414",
+    "title": "Air-Quality Considered Study for Multiple Olefin Plant Startups",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:10.904Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on air-quality modeling, industrial scheduling, and environmental impact mitigation—no connection to human emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Title and abstract exclusively address air pollution, flare emissions, and multiplant scheduling; 'emotion' does not appear in metadata or abstract."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5f57b874884e4a8422d3be064b390b9ffccb93cdff75caeab4db96cf03c0f594": {
+    "paper_id": "https://openalex.org/W2343885092",
+    "title": "Impacts of flare emissions from an ethylene plant shutdown to regional air quality",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:10.917Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on industrial emissions and atmospheric chemistry, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Air pollution', 'Ozone', 'Environmental engineering' — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "963e60c1bd8db6a3599d9f6efee59973b71e07c461a7e75445fbb89d3cc31527": {
+    "paper_id": "https://openalex.org/W2471697280",
+    "title": "Dynamic simulation and optimization targeting emission source reduction during an ethylene plant start-up operations",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:11.011Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on industrial process optimization and emission reduction in ethylene plant operations, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Flare', 'Injector', 'Scheduling (production processes)', and 'Engineering' — all domain-specific to chemical/industrial engineering"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "19de84b23721d70dfa9658e2c0dcd7aff69cf0bf65f7acd30f45528d8addccc2": {
+    "paper_id": "https://openalex.org/W2604575779",
+    "title": "A Main Directional Maximal Difference Analysis for Spotting Micro-expressions",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:11.011Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper focuses on spotting micro-expressions, which are brief, involuntary facial expressions directly linked to underlying emotions; 'emotion' is explicitly listed as the researcher's interest topic.",
+      "evidence": [
+        "Title contains 'Micro-expressions'",
+        "Interest topics include 'emotion'",
+        "Concepts include 'Facial expression' and 'Pattern recognition (psychology)'"
+      ],
+      "keywords": [
+        "micro-expressions",
+        "facial expression",
+        "emotion recognition",
+        "spotting",
+        "pattern recognition"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion analysis",
+        "nonverbal behavior analysis",
+        "psychological pattern recognition"
+      ]
+    }
+  },
+  "22b9e10b89116bab20508ab62e6b77fde36a1bab95769c620565a13e13246aa5": {
+    "paper_id": "https://openalex.org/W2482940053",
+    "title": "Dynamic simulation for flare minimization in chemical process industry under abnormal operations",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:11.012Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on dynamic simulation for flare minimization in chemical process engineering under abnormal operations, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Chemical plant', 'Dynamic simulation', 'Shut down', and 'Engineering' — all domain-specific to chemical process safety and optimization."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4cd2a792b803d006dd628d53439c1485c3179d215a51b794d2a00e90b3753162": {
+    "paper_id": "https://openalex.org/W2213782059",
+    "title": "An efficient hybrid kernel extreme learning machine approach for early diagnosis of Parkinson׳s disease",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:11.191Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on machine learning for medical diagnosis of Parkinson's disease, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are exclusively clinical/technical (e.g., 'Extreme learning machine', 'Parkinson's disease', 'Feature selection')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3e19c8ad7a5de682299da2a20ae25cba2f6f236e687c2f04d3f6df21a7c1949f": {
+    "paper_id": "https://openalex.org/W2341542788",
+    "title": "A new method of cyclic hoist scheduling for multi-recipe and multi-stage material handling processes",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:11.214Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mathematical optimization and scheduling in chemical engineering processes, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title mentions 'cyclic hoist scheduling' and 'multi-recipe material handling', which are industrial automation topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c7316c40555477289fe9d0beb1725d0ed4a8be8ecd38d9bf8655e91d2c48696c": {
+    "paper_id": "https://openalex.org/W2567449792",
+    "title": "A main directional maximal difference analysis for spotting facial movements from long-term videos",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:11.337Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper focuses on spotting facial movements from long-term videos, which is directly tied to facial expression analysis—a core method for inferring emotion in affective computing.",
+      "evidence": [
+        "Title mentions 'spotting facial movements', a key technique in emotion recognition",
+        "Concepts include 'Facial expression' and 'Expression (computer science)'"
+      ],
+      "keywords": [
+        "facial expression",
+        "emotion recognition",
+        "facial movement spotting",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Behavioral signal processing",
+        "Facial action unit detection"
+      ]
+    }
+  },
+  "ac263156baf16b145e5c21d637d445add9c11669d91e3416ae095c685e4a6999": {
+    "paper_id": "https://openalex.org/W1906494119",
+    "title": "Simulation study on boil-off gas minimization and recovery strategies at LNG exporting terminals",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:11.516Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on engineering and environmental aspects of LNG terminal operations, with no connection to human emotion or affective science.",
+      "evidence": [
+        "Title explicitly concerns boil-off gas minimization and recovery in LNG terminals"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2ff97d6148126dcf94ef4a895ce9a08bcc81cd4853df93e71c8c3cff191e6323": {
+    "paper_id": "https://openalex.org/W2623355927",
+    "title": "Discriminative Spatiotemporal Local Binary Pattern with Revisited Integral Projection for Spontaneous Facial Micro-Expression Recognition",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:11.553Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses spontaneous facial micro-expression recognition—a core affective computing task focused on inferring subtle, involuntary emotional signals. It is published in IEEE Transactions on Affective Computing and explicitly engages with emotion-related challenges in feature representation and discrimination.",
+      "evidence": [
+        "Title includes 'Spontaneous Facial Micro-Expression Recognition'",
+        "Published in IEEE Transactions on Affective Computing",
+        "Abstract states goal is 'inferring micro-expression from facial image sequences'—a canonical emotion inference task"
+      ],
+      "keywords": [
+        "micro-expression",
+        "facial expression",
+        "affective computing",
+        "emotion recognition",
+        "spatiotemporal features",
+        "discriminative modeling"
+      ],
+      "research_directions": [
+        "affective signal processing",
+        "nonverbal emotion recognition",
+        "subtle behavioral cue analysis",
+        "machine learning for affective states"
+      ]
+    }
+  },
+  "af5d4591087a2121cc7450760ca7c5d8c6f021764cd05782b5823b21d21e7947": {
+    "paper_id": "https://openalex.org/W1464448737",
+    "title": "Monte Carlo optimization for site selection of new chemical plants",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:11.688Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on Monte Carlo optimization for chemical plant site selection in environmental management, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include site selection, Monte Carlo method, air quality index, and environmental engineering — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8eeb86b3df1736c7dea3eb73f868fb07917f75ac67067a3073b6d95e6aff0fbb": {
+    "paper_id": "https://openalex.org/W1793578775",
+    "title": "A PMJ-inspired cognitive framework for natural scene categorization in line drawings",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:11.688Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on natural scene categorization in line drawings using a cognitive framework, with no explicit connection to emotion or affective processes.",
+      "evidence": [
+        "Concepts include Categorization, Perception, Cognition, and Artificial intelligence—none mention emotion, affect, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "fb8cd394f8b6af4413f4b3e2238b066ca9ec8c87a224a810c4a5ad5dedb8bacd": {
+    "paper_id": "https://openalex.org/W2516634121",
+    "title": "Multiobjective Optimization for Air-Quality Monitoring Network Design",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:11.866Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multiobjective optimization for air-quality monitoring network design, with no mention of emotion, affective computing, or psychological/behavioral aspects.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are environmental engineering and operations research focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d835e56838a341f9c27b8126394a59d74c24824c29d0fba4799adb09069e8b47": {
+    "paper_id": "https://openalex.org/W2513239189",
+    "title": "A New Reactive Scheduling Approach for Short-Term Crude Oil Operations under Tank Malfunction",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:11.883Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on reactive scheduling, tank malfunction handling, and operational optimization in crude oil processing; no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Title and abstract exclusively address industrial scheduling, reliability engineering, and operational costs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e3ec1831b2ac1c0922bf1e816edfbd780a07ab3bd0da0f59f1342864e8f41d23": {
+    "paper_id": "https://openalex.org/W2032599656",
+    "title": "Random Vibration Analysis for Impellers of Centrifugal Compressors Through the Pseudo-Excitation Method",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:12.395Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on mechanical vibration analysis of centrifugal compressor impellers using computational methods; no connection to human emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and the abstract pertain to mechanical engineering, fluid dynamics, and structural vibration—no mention of emotion, affect, cognition, or human behavior."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "679b966fc1710e04dd2f976899ae2cedb487b13c2ebc6e45a6fc0f302df79619": {
+    "paper_id": "https://openalex.org/W2413757304",
+    "title": "Sparse tensor canonical correlation analysis for micro-expression recognition",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:12.753Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.9,
+      "confidence": 0.95,
+      "reason": "The paper focuses on micro-expression recognition, which is a core affective computing task directly tied to emotion detection and analysis.",
+      "evidence": [
+        "Title explicitly mentions 'micro-expression recognition'; micro-expressions are involuntary, fleeting facial expressions linked to concealed emotions.",
+        "Researcher's interest topic is 'emotion', and micro-expression recognition is a well-established subfield of affective computing focused on inferring emotional states."
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "facial expression analysis",
+        "affective computing",
+        "canonical correlation analysis"
+      ],
+      "research_directions": [
+        "Affective signal processing",
+        "Nonverbal emotion recognition",
+        "Tensor-based feature learning for affective states",
+        "Sparse representation in affective pattern recognition"
+      ]
+    }
+  },
+  "885094708a41e385bcbdaa132a9db37531f96b2badd6c69ba9c77dbf9d515cbc": {
+    "paper_id": "https://openalex.org/W2019045907",
+    "title": "A General Exponential Framework for Dimensionality Reduction",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:13.253Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mathematical dimensionality reduction using matrix exponential; no mention of emotion, affect, or psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are mathematical/computer vision oriented."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b7cd12c5f897b02525c08eb4d1108a699f755fc7c30a6f264cae0dad8f287490": {
+    "paper_id": "https://openalex.org/W2162363668",
+    "title": "Towards an optimal support vector machine classifier using a parallel particle swarm optimization strategy",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:13.253Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on optimization of SVM classifiers using particle swarm optimization, with no mention of emotion, affect, or psychological/behavioral constructs.",
+      "evidence": [
+        "Concepts include 'Support vector machine', 'Particle swarm optimization', 'Feature selection' — all technical ML/computational topics unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8680b38abae518a6ff41586ac50228abd7d39f378af7d090b9ba85c5ff38a950": {
+    "paper_id": "https://openalex.org/W2011244864",
+    "title": "New Clustering and Analyzing Technique for Mining Multi-source Enriched Geo-spatial Data",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:13.265Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on spatio-temporal clustering of geo-spatial and environmental data, with no mention of emotion, affect, or psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts contain only technical terms from data mining, remote sensing, and spatial analysis; 'emotion' is absent from title, abstract, and all listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "98e3feaec0e2a4cf5c8e71253a11142b7c18e9175e1e74d6f9f587fac71c884d": {
+    "paper_id": "https://openalex.org/W2237362194",
+    "title": "Facial Micro-Expression Recognition Using Spatiotemporal Local Binary Pattern with Integral Projection",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:13.378Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on facial micro-expression recognition, which is a core subfield of emotion analysis in affective computing; the researcher's interest topic 'emotion' directly aligns with this work.",
+      "evidence": [
+        "Title explicitly mentions 'Facial Micro-Expression Recognition'",
+        "Abstract states the goal is 'inferring micro-expression from facial image sequences' and evaluates performance on micro-expression databases",
+        "Concepts include 'Facial expression' and 'Pattern recognition (psychology)'"
+      ],
+      "keywords": [
+        "micro-expression",
+        "facial expression",
+        "emotion recognition",
+        "affective computing",
+        "feature extraction",
+        "spatiotemporal analysis"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion recognition from facial behavior",
+        "nonverbal emotion analysis",
+        "computer vision for psychology"
+      ]
+    }
+  },
+  "96135e617abfe732aa8adc92552e3cd45a8524df6571a313b7d6c2ab6a77c6bf": {
+    "paper_id": "https://openalex.org/W2501714289",
+    "title": "Spontaneous Facial Micro-Expression Recognition using Discriminative Spatiotemporal Local Binary Pattern with an Improved Integral Projection",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:13.378Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses spontaneous facial micro-expression recognition, which is a core subfield of emotion recognition in affective computing; the researcher's stated interest is 'emotion', and micro-expressions are involuntary, brief facial expressions that reveal concealed emotions.",
+      "evidence": [
+        "Title explicitly mentions 'Spontaneous Facial Micro-Expression Recognition'",
+        "Abstract states 'inferring micro-expression from facial image sequences' and emphasizes emotion-relevant subtlety and concealment",
+        "Researcher's interest topic is 'emotion', and micro-expression recognition is a well-established emotion inference modality"
+      ],
+      "keywords": [
+        "micro-expression",
+        "facial expression recognition",
+        "emotion recognition",
+        "spatiotemporal features",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Emotion recognition from nonverbal cues",
+        "Facial behavior analysis",
+        "Machine learning for affective signal processing"
+      ]
+    }
+  },
+  "2f86d389047a9e11cc2ab0f15548d4cbd02db3849c3240b40e05592f063e8b46": {
+    "paper_id": "https://openalex.org/W2571743746",
+    "title": "CAS(ME): A Database for Spontaneous Macro-Expression and Micro-Expression Spotting and Recognition",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:13.500Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion-related facial expressions (macro- and micro-expressions), is published in IEEE Transactions on Affective Computing, uses emotion labels grounded in psychological constructs (AUs, self-report, evoking stimuli), and targets affective computing applications like deception detection.",
+      "evidence": [
+        "Title explicitly references 'Macro-Expression and Micro-Expression Spotting and Recognition'",
+        "Venue: IEEE Transactions on Affective Computing",
+        "Abstract states 'emotion labels are based on action units (AUs), self-reported emotion, and emotion types of emotion-evoking videos'"
+      ],
+      "keywords": [
+        "micro-expression",
+        "macro-expression",
+        "facial expression",
+        "emotion recognition",
+        "affective computing",
+        "deception detection",
+        "action units",
+        "spontaneous expression"
+      ],
+      "research_directions": [
+        "affective computing",
+        "facial affect analysis",
+        "emotion-based deception detection",
+        "spontaneous expression spotting",
+        "AU-based emotion labeling",
+        "benchmark database development for affective AI"
+      ]
+    }
+  },
+  "d1fd8832d7e40a3db0e3f4b3ac31955c3d97d15ec73133d6beaa2508b881ca85": {
+    "paper_id": "https://openalex.org/W2526853616",
+    "title": "A Main Directional Mean Optical Flow Feature for Spontaneous Micro-Expression Recognition",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:13.630Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses spontaneous micro-expression recognition—a core affective computing task tied to emotion inference from facial behavior—and is published in IEEE Transactions on Affective Computing, with 'emotion' as the researcher's stated interest topic.",
+      "evidence": [
+        "Title explicitly references 'Spontaneous Micro-Expression Recognition'",
+        "Published in IEEE Transactions on Affective Computing",
+        "Abstract states micro-expressions are involuntary, brief facial movements linked to concealed emotions"
+      ],
+      "keywords": [
+        "micro-expression",
+        "facial expression",
+        "emotion recognition",
+        "optical flow",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective signal processing",
+        "nonverbal emotion analysis",
+        "spontaneous behavior modeling",
+        "computer vision for affect"
+      ]
+    }
+  },
+  "2fff66463066c6e782e19cce7ae0034c349a3e49d6fbd853994951d6de939b35": {
+    "paper_id": "https://openalex.org/W2502450975",
+    "title": "CAS(ME)2: A Database of Spontaneous Macro-expressions and Micro-expressions",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:13.630Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on a database of spontaneous macro- and micro-expressions, which are direct behavioral manifestations of underlying emotions; the researcher's stated interest is 'emotion', and facial expression recognition is a core affective computing subfield.",
+      "evidence": [
+        "Title explicitly references macro-expressions and micro-expressions",
+        "Concepts include 'Facial expression recognition' and 'Facial expression'",
+        "Researcher's interest topic is 'emotion'"
+      ],
+      "keywords": [
+        "facial expression",
+        "micro-expression",
+        "macro-expression",
+        "emotion recognition",
+        "affective computing",
+        "database"
+      ],
+      "research_directions": [
+        "affective computing",
+        "facial expression analysis",
+        "spontaneous emotion detection",
+        "biometric emotion inference"
+      ]
+    }
+  },
+  "3d728a04fc6c854b2f34e9ca6a04769b4b73315d0c964316e4a2b44a2c3eb42f": {
+    "paper_id": "https://openalex.org/W2093033615",
+    "title": "Micro-Expression Recognition Using Color Spaces",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:13.756Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses micro-expression recognition—a core affective computing task—explicitly linking facial expressions to genuine emotions and lie detection, aligning precisely with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Micro-expressions are brief involuntary facial expressions that reveal genuine emotions",
+        "help detect lies",
+        "Concepts include Facial expression and Pattern recognition (psychology)"
+      ],
+      "keywords": [
+        "micro-expression",
+        "facial expression",
+        "emotion recognition",
+        "affective computing",
+        "CIELab",
+        "TICS",
+        "dynamic texture",
+        "ROI analysis"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-based pattern recognition",
+        "nonverbal emotion analysis",
+        "computer vision for psychological signals",
+        "color space modeling in affective perception"
+      ]
+    }
+  },
+  "9760c1ffa25acb91d9b285d45cf58f93872ddd0f35b16d0fb4c923e5ad4b407f": {
+    "paper_id": "https://openalex.org/W565148957",
+    "title": "Micro-Expression Recognition Using Robust Principal Component Analysis and Local Spatiotemporal Directional Features",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:13.756Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on micro-expression recognition, which is a core subfield of emotion analysis in affective computing; 'emotion' is explicitly listed as the researcher's interest topic, and the paper's concepts include facial expression and pattern recognition in psychological context.",
+      "evidence": [
+        "Title contains 'Micro-Expression Recognition'",
+        "Concepts include 'Facial expression' and 'Pattern recognition (psychology)'",
+        "Researcher's interest topic is 'emotion'"
+      ],
+      "keywords": [
+        "micro-expression",
+        "facial expression",
+        "emotion recognition",
+        "affective computing",
+        "spatiotemporal features"
+      ],
+      "research_directions": [
+        "affective computing",
+        "facial behavior analysis",
+        "nonverbal emotion detection",
+        "computer vision for psychology"
+      ]
+    }
+  },
+  "69751f3168454403f800c76268da692d46f09648b9780644dcb99ba851ee09b8": {
+    "paper_id": "https://openalex.org/W302577434",
+    "title": "Quantifying Micro-expressions with Constraint Local Model and Local Binary Pattern",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:13.756Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on quantifying micro-expressions—a core affective phenomenon—using computer vision and pattern recognition techniques directly tied to emotion analysis.",
+      "evidence": [
+        "Title explicitly mentions 'Micro-expressions'",
+        "Concepts include 'Facial expression' and 'Pattern recognition (psychology)'",
+        "Researcher's interest topic is 'emotion'"
+      ],
+      "keywords": [
+        "micro-expressions",
+        "facial expression",
+        "emotion recognition",
+        "local binary patterns",
+        "feature extraction"
+      ],
+      "research_directions": [
+        "affective computing",
+        "automated emotion analysis",
+        "behavioral signal processing",
+        "psychologically-informed computer vision"
+      ]
+    }
+  },
+  "5898bd882b3bee6577ad0a4363cba53e8c4b5beac074aef85ce083f7833bad9d": {
+    "paper_id": "https://openalex.org/W2068761245",
+    "title": "Analyzing the composition of cities using spatial clustering",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:13.877Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on spatial clustering and urban composition analysis, with no mention of emotion, affective computing, or psychological/behavioral dimensions.",
+      "evidence": [
+        "Concepts include Cluster analysis, Spatial analysis, Urbanization, Geography — all unrelated to emotion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bf69411d1724ebb1ceb683cf5061d6a913d89a5e2dd583a98afaf31d938123d2": {
+    "paper_id": "https://openalex.org/W2330975161",
+    "title": "Proactive Abnormal Emission Identification by Air-Quality-Monitoring Network",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:13.882Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on air-quality monitoring, emission source identification, and environmental risk analysis; no connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are environmental/engineering-focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "97a4ea0de3a463b0239d2da8f66cc0123ea4ce7193d4bc23bbc0d9bd630093fa": {
+    "paper_id": "https://openalex.org/W1967170267",
+    "title": "Scheduling of multiple chemical plant start-ups to minimize regional air quality impacts",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:14.004Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on industrial scheduling and air quality modeling, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts are entirely environmental/engineering-focused: Air quality index, Chemical plant, AERMOD, etc."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7f3c8ca9bdbeb6d5af77674fa9b8afc4294b23fbbc77316cfb8b516159754c11": {
+    "paper_id": "https://openalex.org/W1977942363",
+    "title": "A polygon-based clustering and analysis framework for mining spatial datasets",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:14.005Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on geospatial clustering and polygon-based data mining with no mention or conceptual link to emotion or affective science.",
+      "evidence": [
+        "Concepts include Geospatial analysis, Polygon, Cluster analysis, DBSCAN, Geography — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8a8aad62b55bad3348c39a3ae0c79c7a1ee47a2dbfb569b78f7e73b71066d4ab": {
+    "paper_id": "https://openalex.org/W1980523188",
+    "title": "Fusion Tensor Subspace Transformation Framework",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:14.251Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on tensor subspace transformation for face recognition, with no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts are purely mathematical/computer vision oriented; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4698d7254dc0f50effea12a47884552503e71b245704e25fe7ad7da35018643d": {
+    "paper_id": "https://openalex.org/W2027592990",
+    "title": "New Spatiotemporal Clustering Algorithms and their Applications to Ozone Pollution",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:14.362Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on spatiotemporal clustering algorithms for environmental data (ozone pollution) and contains no mention of emotion, affect, psychological states, or related constructs.",
+      "evidence": [
+        "Concepts include 'Cluster analysis', 'Data mining', 'k-nearest neighbors algorithm'; no emotion-related terms in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2a5075d6a59339d0b80eaa571818d021b02b0bb566893698fa914143c01358ba": {
+    "paper_id": "https://openalex.org/W69444385",
+    "title": "Air Quality Considered Site Selection for New Chemical Plants",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:14.602Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on air quality and site selection for chemical plants using engineering and sustainability criteria; no connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Air quality index', 'Site selection', 'Sustainability', 'Chemical plant' — all domain-specific to chemical engineering and environmental management."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a8bcf79fca7989c22e9e06906895d249aa789bfbbb4eaf4ffe11acafb30d7dc6": {
+    "paper_id": "https://openalex.org/W2006426145",
+    "title": "CASME II: An Improved Spontaneous Micro-Expression Database and the Baseline Evaluation",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:14.634Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion recognition through spontaneous micro-expressions, with explicit labeling of emotions and application to psychological and clinical domains aligned with affective science.",
+      "evidence": [
+        "emotions labeled",
+        "micro-expression recognition system",
+        "applications in clinical diagnosis"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "micro-expression",
+        "facial expression",
+        "affective computing",
+        "emotion labeling"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Automatic emotion recognition",
+        "Psychological pattern recognition",
+        "Clinical affective assessment",
+        "Nonverbal behavior analysis"
+      ]
+    }
+  },
+  "0a83ec5333bc120c712306b9f6b920e442f67a5e36720ec87d5ac55e6cd32461": {
+    "paper_id": "https://openalex.org/W2049623605",
+    "title": "An efficient diagnosis system for detection of Parkinson’s disease using fuzzy k-nearest neighbor approach",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:14.675Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on Parkinson's disease diagnosis using fuzzy k-NN, with no mention or conceptual link to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are strictly clinical/ML-focused; 'emotion' does not appear in title, venue, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1071eecee4a41543daeb82d5d2d60c46a81238b5dccc5bdca5c6bdd246742e95": {
+    "paper_id": "https://openalex.org/W2044459166",
+    "title": "Micro-expression Recognition Using Dynamic Textures on Tensor Independent Color Space",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:14.675Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses micro-expression recognition—a core affective computing task—explicitly linking micro-expressions to genuine emotions and lie detection, and is authored by a researcher whose stated interest is 'emotion'.",
+      "evidence": [
+        "Micro-expression is a brief involuntary facial expression which reveals genuine emotions and helps detect lies.",
+        "Researcher's interest topic: 'emotion'"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "facial expression",
+        "affective computing",
+        "dynamic texture",
+        "Tensor Independent Color Space"
+      ],
+      "research_directions": [
+        "affective computing",
+        "facial emotion analysis",
+        "involuntary expression detection",
+        "multidimensional color space modeling for affect",
+        "psychologically grounded computer vision"
+      ]
+    }
+  },
+  "e7ace6af1bf5e91e8a65f6ccc2028c785b75ab1219a2ca1514dd4f070766834b": {
+    "paper_id": "https://openalex.org/W1483651886",
+    "title": "STPCA: Sparse tensor Principal Component Analysis for feature extraction",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:14.683Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mathematical tensor decomposition and feature extraction for pattern recognition, with no mention of emotion, affect, psychology of emotion, or affective computing.",
+      "evidence": [
+        "Concepts include 'Principal component analysis', 'Tensor', 'Feature extraction'; no emotion-related concepts listed"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "218b5e17262d40dc7f7c65604e5bc06daea85a2587bc5ede958af489b6b4855c": {
+    "paper_id": "https://openalex.org/W2181806525",
+    "title": "Hypertrophy Induced Cardiac - Loss of Bmx Nonreceptor Tyrosine Kinase Prevents Pressure Overload",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:14.750Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cardiac hypertrophy and molecular mechanisms in cardiology, with no mention or conceptual link to emotion or affective processes.",
+      "evidence": [
+        "Concepts include 'Cardiac hypertrophy', 'Tyrosine kinase', 'Pressure overload' — all biomedical/cardiology terms; 'emotion' is absent from title, concepts, and abstract (empty)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c0b53e1fb48f7e6c24245962e1504b2b07c366466127658d93e7cb7a246e645b": {
+    "paper_id": "https://openalex.org/W1993049083",
+    "title": "Sparse Tensor Discriminant Color Space for Face Verification",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:14.771Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on color space optimization for face verification using tensor-based discriminant analysis; no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts emphasize facial recognition, color spaces, and linear discriminant analysis—no affective or emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c9f90d04f089c9c1abb9c313b1e46c647fc0d9a1a60f118e6a2dd6bad0361bc6": {
+    "paper_id": "https://openalex.org/W2166626612",
+    "title": "For micro-expression recognition: Database and suggestions",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:14.884Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on micro-expression recognition, a subfield explicitly concerned with detecting subtle, transient emotional expressions; the researcher's stated interest is 'emotion', and the paper's concepts include facial expression, facial expression recognition, and deception—strongly aligned with affective science.",
+      "evidence": [
+        "Title: 'For micro-expression recognition: Database and suggestions'",
+        "Concepts: 'Facial expression', 'Facial expression recognition', 'Deception'"
+      ],
+      "keywords": [
+        "micro-expression",
+        "facial expression recognition",
+        "emotion detection",
+        "affective computing",
+        "deception detection"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Automatic emotion recognition",
+        "Behavioral biometrics",
+        "Nonverbal affect analysis"
+      ]
+    }
+  },
+  "4334ee802661e1165f3f3a9549d51bc8166839be656fbd2494d996fc6c1a3309": {
+    "paper_id": "https://openalex.org/W2075529802",
+    "title": "Incremental multi-linear discriminant analysis using canonical correlations for action recognition",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:15.185Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on incremental multi-linear discriminant analysis for action recognition, with no explicit connection to emotion or affective computing in title, venue, or listed concepts.",
+      "evidence": [
+        "Concepts include 'Action recognition', 'Linear discriminant analysis', and 'Canonical correlation'—all technical machine learning topics; 'emotion' is absent."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bb00d33334b29376dff404057ed237d3c89ad044ef30ae09a988cf41f5d34f88": {
+    "paper_id": "https://openalex.org/W2397760860",
+    "title": "Human Action Recognition Using Tensor Principal Component Analysis",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:15.185Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on human action recognition using tensor-based dimensionality reduction and classification; no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all concepts are mathematical, computational, or perceptual (e.g., 'tensor PCA', 'pattern recognition (psychology)' refers to perceptual pattern recognition, not affective psychology)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1ee35c8d08df5a45060994af58a4d5f2f654d2ff4e176903a24fd4482e1fd91a": {
+    "paper_id": "https://openalex.org/W2003802155",
+    "title": "Face Recognition and Micro-expression Recognition Based on Discriminant Tensor Subspace Analysis Plus Extreme Learning Machine",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:15.238Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper combines facial recognition with micro-expression recognition, and micro-expressions are involuntary, brief facial expressions that reveal genuine emotions—directly linking to affective/emotion research.",
+      "evidence": [
+        "Title explicitly includes 'Micro-expression Recognition'",
+        "Researcher's interest topic is 'emotion'"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "facial expression",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Emotion-aware AI",
+        "Nonverbal emotion analysis",
+        "Biometric affect detection"
+      ]
+    }
+  },
+  "9628e72acd240ea510d3dc274617b95a8adcbccbb96ed95ff31752f46dce2b81": {
+    "paper_id": "https://openalex.org/W2543310871",
+    "title": "Matrix Exponential LPP for face recognition",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:15.281Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on a technical improvement to LPP for face recognition using matrix exponential; no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts are purely computational/algorithmic; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8c9f93e34acf38b2065aa1a890dd7b6535e15d5977b5dcfad8e55b954ff794f8": {
+    "paper_id": "https://openalex.org/W2090239453",
+    "title": "Exponential locality preserving projections for small sample size problem",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:15.744Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on a mathematical dimensionality reduction technique for the small sample size problem in computer vision; no emotional or affective content is indicated in title, venue, concepts, or metadata.",
+      "evidence": [
+        "Title mentions 'Exponential locality preserving projections' and 'small sample size problem', which are technical machine learning topics unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d78457c1bb7d00750f06e7e5fab88de0de3c534bcf2f4502870efd794684b6bb": {
+    "paper_id": "https://openalex.org/W2065264337",
+    "title": "A novel bankruptcy prediction model based on an adaptive fuzzy k-nearest neighbor method",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:16.221Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on bankruptcy prediction using fuzzy logic and machine learning techniques, with no indication of emotion or affective science content.",
+      "evidence": [
+        "Title and concepts are exclusively finance/CS-oriented: 'Bankruptcy prediction', 'Fuzzy logic', 'Data mining'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1b129513051b2764573893f72d62094343abae6ce3aeef07a131f3570e3c5907": {
+    "paper_id": "https://openalex.org/W2007734621",
+    "title": "A novel face recognition method based on sub-pattern and tensor",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:16.238Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on a technical face recognition method using sub-patterns and tensors, with no explicit connection to emotion or affective computing in title, venue, or listed concepts.",
+      "evidence": [
+        "Concepts include 'Facial recognition system' and 'Pattern recognition', but not 'emotion', 'affect', 'expression', or related psychological/affective terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b234f1a139a92dce579b69700a956bbb43025fc45f1a9d48fe544f4861869734": {
+    "paper_id": "https://openalex.org/W2124258777",
+    "title": "An improved particle swarm optimization for feature selection",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:16.429Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on optimization algorithms for feature selection, with no mention of emotion, affect, or psychological/behavioral constructs related to affective science.",
+      "evidence": [
+        "Concepts include only computational and engineering terms: 'Swarm behaviour', 'Particle swarm optimization', 'Feature selection', etc."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b2dbee9d9f4d6620ff48bacdae6392913fd6ce5a2e7df08075399cee4e7a20cc": {
+    "paper_id": "https://openalex.org/W2086530527",
+    "title": "Support Vector Machine Based Diagnostic System for Breast Cancer Using Swarm Intelligence",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:16.500Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on breast cancer diagnosis using machine learning and swarm intelligence, with no mention or conceptual link to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Breast cancer', 'Support vector machine', 'Particle swarm optimization' — all biomedical/CS topics, no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0747895512c5d438c9b3f03c2fc3d65020e64f4cca0d6e7501a25125c98f3c4f": {
+    "paper_id": "https://openalex.org/W2107581255",
+    "title": "Notice of Retraction: Environmental/Economic Dispatch using a improved Differential Evolution",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:16.503Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper is a retracted notice about environmental/economic dispatch in power systems, with no connection to emotion or affective science.",
+      "evidence": [
+        "Retracted."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2bba2dcaf9fb1d9e14e23d8ed33569b73f219db9c3e3ee34b96fa3fa75538423": {
+    "paper_id": "https://openalex.org/W2110627953",
+    "title": "Tensor Discriminant Color Space for Face Recognition",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:16.510Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on color space optimization and tensor-based discriminant analysis for face recognition, with no mention of emotion, affect, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts emphasize computer vision, pattern recognition, and facial recognition—no emotion-related terms or methodologies"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "de0076612135a736a66fafb924c838657cf5fffd044073ea4d70c44e2d3e7292": {
+    "paper_id": "https://openalex.org/W48536677",
+    "title": "An Adaptive Fuzzy k-Nearest Neighbor Method Based on Parallel Particle Swarm Optimization for Bankruptcy Prediction",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:16.724Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on bankruptcy prediction using optimization and machine learning techniques; no connection to emotion or affective science is indicated in title, venue, concepts, or metadata.",
+      "evidence": [
+        "Concepts include 'Bankruptcy prediction', 'Particle swarm optimization', 'Fuzzy logic' — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "fe59f3f1e57316ac51ff3acd0c2ef393afa6c680d2913c331ad6089140e841f2": {
+    "paper_id": "https://openalex.org/W2005481893",
+    "title": "A Pest Control Model with Periodic Coefficients and Impulses",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:16.724Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a mathematical modeling study on pest control with periodic and impulsive dynamics; no connection to human emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Title and abstract focus exclusively on predator-prey systems, stability analysis, and pest-free periodic solutions"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "70254a5d2ecb221969d0a97f078419c771ea00ad379cebe958c3ee76e017f6b8": {
+    "paper_id": "https://openalex.org/W2023877264",
+    "title": "Solved Environmental/Economic Dispatch Based on Multi-objective PSO",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:16.772Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper addresses environmental/economic power dispatch using multi-objective optimization techniques; it contains no mention of emotion, affect, psychology, or related constructs.",
+      "evidence": [
+        "Title and abstract focus exclusively on PSO, Pareto optimization, and power system dispatch."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "17dc6674a190a6c038d0a42680da58caf86fc75ef43e32d7955e6294a0e87467": {
+    "paper_id": "https://openalex.org/W2002849566",
+    "title": "A polygon-based methodology for mining related spatial datasets",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:16.897Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on spatial data mining, polygon clustering, and geo-referenced environmental analysis; no mention of emotion, affect, or psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract discusses ozone pollution, meteorological variables, and density-based polygon clustering—no emotion-related terms or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8d635bc86d2fb51cb8b9745ef8e5a7149abeab3bd0dfefaf226ddd7f48dbdfdb": {
+    "paper_id": "https://openalex.org/W192161351",
+    "title": "The Analysis of Parameters t and k of LPP on Several Famous Face Databases",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:16.944Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on parameter analysis of LPP (Locality Preserving Projections) for face databases, with no explicit connection to emotion or affective computing.",
+      "evidence": [
+        "Title mentions 'Parameters t and k of LPP' and 'Face Databases', indicating technical dimensionality reduction in facial recognition, not emotion modeling or analysis."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9c743a792e96ad228711343d27bc93e37f47adfb47c15b3cbe589a233b469f32": {
+    "paper_id": "https://openalex.org/W1997494252",
+    "title": "Tensor analysis and multi-scale features based multi-view human action recognition",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:16.978Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on human action recognition using tensor analysis and multi-scale features, with no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts emphasize computer vision, pattern recognition, and tensor-based subspace analysis—not emotion or affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "db18793a38d8dd228cfaffefe55b2495e5aec8dc03ed84f8fd71bd126b5a7319": {
+    "paper_id": "https://openalex.org/W2000284598",
+    "title": "Face recognition using second-order discriminant tensor subspace analysis",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:17.078Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on mathematical and algorithmic aspects of face recognition using tensor subspace analysis, with no explicit connection to emotion modeling, affective computing, or psychological emotion processes.",
+      "evidence": [
+        "Concepts list contains no emotion-related terms; title and venue (Neurocomputing) suggest technical computer vision/ML focus"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "831fb80f4a1606698e5bb8105f472f8b56193f84a21c60087b7ca22598fe18dd": {
+    "paper_id": "https://openalex.org/W1999768094",
+    "title": "Stress signaling by Tec tyrosine kinase in the ischemic myocardium",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:17.207Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular cardiology and Tec tyrosine kinase signaling in ischemic myocardium; 'stress' here refers to cellular/physiological stress, not psychological or affective emotion.",
+      "evidence": [
+        "Abstract contains no emotion-related terms (e.g., fear, joy, arousal, valence, mood, affect); all concepts are biochemical/cellular"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f345b809e28e37ee4fe4529948fd68d732aa506e477eedb0c2595a0c9eafc064": {
+    "paper_id": "https://openalex.org/W2153560492",
+    "title": "Loss of Bmx Nonreceptor Tyrosine Kinase Prevents Pressure Overload–Induced Cardiac Hypertrophy",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:17.266Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a molecular cardiology study focused on tyrosine kinase signaling in cardiac hypertrophy; no connection to emotion or affective processes.",
+      "evidence": [
+        "All concepts and abstract content pertain to cardiac physiology, kinase biology, and mouse models of pressure overload—no emotion-related terms or constructs present."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bc1805736fe298a1e61fd5c9e6ebc558a25b1e5636b3e158558a17c9ac474d7b": {
+    "paper_id": "https://openalex.org/W1983014650",
+    "title": "CASME database: A dataset of spontaneous micro-expressions collected from neutralized faces",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:17.305Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion detection through spontaneous micro-expressions, aligning precisely with the researcher's interest topic 'emotion'. It emphasizes emotional labeling grounded in psychological theory and self-report, and positions micro-expressions as indicators of genuine underlying emotions.",
+      "evidence": [
+        "Micro-expressions are described as 'fleeting and reveal genuine emotions that people try to conceal'",
+        "Emotions were labeled based on psychological studies and participants' self-report to enhance validity",
+        "Title explicitly references 'spontaneous micro-expressions' — a well-established affective phenomenon tied to emotion regulation and leakage"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "facial expression",
+        "affective computing",
+        "spontaneous emotion",
+        "action units",
+        "emotion labeling"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion recognition from facial behavior",
+        "psychophysiological correlates of concealed emotion",
+        "database development for affective AI",
+        "clinical and security applications of emotion detection"
+      ]
+    }
+  },
+  "37b93c7f3ac076b16ec68ff50faca4e9dec163373021a0fcc41b8f2d474d2889": {
+    "paper_id": "https://openalex.org/W1977295666",
+    "title": "A Sign Language Recognition Based on Tensor",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:17.347Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sign language recognition using tensor-based multi-view gesture analysis, with no mention of emotion, affective states, or psychological/behavioral dimensions of emotion.",
+      "evidence": [
+        "Concepts include Gesture, Sign language, Tensor, Computer science — all technical/computer vision topics; abstract describes recognition of alphabetical letters, not emotional expression."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "34c9d7614fa035aaf633c3f8302512625b654a1d42f9bff1b1c278bddee034fb": {
+    "paper_id": "https://openalex.org/W2157933604",
+    "title": "ARCA: An Algorithm for Mining Association Rules Based Concept Lattice",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:17.401Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on formal concept analysis and association rule mining in data mining; no mention of emotion, affect, or psychological/behavioral constructs.",
+      "evidence": [
+        "Concepts include 'Association rule learning', 'Formal concept analysis', 'Lattice (music)', 'Binary relation'; none relate to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c34ad55cee08f8b2dc3699585b16825998d070cd185d47878f2e650a9a7b9ac3": {
+    "paper_id": "https://openalex.org/W2155998980",
+    "title": "An Algorithm Based on Concept-Matrix for Building Concept Lattice with Hasse",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:17.672Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a theoretical computer science work on formal concept analysis and lattice construction algorithms, with no connection to emotion or affective science.",
+      "evidence": [
+        "All listed concepts (e.g., Hasse diagram, Formal concept analysis, Algorithm) are mathematical/computational; 'emotion' does not appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "954ee4dd3a96e86950ce27dca5e33d5cd9ca3344c246885dcc28f2fdcd83581f": {
+    "paper_id": "https://openalex.org/W162996717",
+    "title": "Bmx non‐receptor tyrosine kinase mediation of hypoxic signaling in the adult myocardium",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:17.889Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on molecular cardiology and hypoxic signaling in myocardial tissue, with no mention of emotion, affective processes, or psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively relate to Bmx kinase, angiogenesis, myocyte biology, and ischemia—no emotion-related terms or methodologies present."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "22a4f5c5caf9e0dffa282eddd3b543fc15eb83ad79327766a42f81e65683b69f": {
+    "paper_id": "https://openalex.org/W2080169614",
+    "title": "The fate of mesenchymal stem cells transplanted into immunocompetent neonatal mice: implications for skeletal gene therapy via stem cells",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:17.893Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mesenchymal stem cell transplantation, immunology, and skeletal gene therapy—topics unrelated to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Mesenchymal stem cell', 'Immunology', 'Bone marrow', 'Genetic enhancement'—no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "350a6e06d717bf9d58430ac8ed8441c2fefaa0010276277d2d9e56c128ace83c": {
+    "paper_id": "https://openalex.org/W3175979238",
+    "title": "Proteomic dissection of FAK protein complexes in heart",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:17.989Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on proteomic analysis of FAK protein complexes in cardiac cells, with no mention or conceptual link to emotion, affective processes, or psychological/behavioral states.",
+      "evidence": [
+        "Abstract and concepts exclusively concern cell biology, mechanotransduction, and proteomics; 'emotion' does not appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e6251da837d0c6545020df3137634dae104fcc716310ff96a36c288f343101a2": {
+    "paper_id": "https://openalex.org/W2058341616",
+    "title": "Gene Transfer of p53 to Arthritic Joints Stimulates Synovial Apoptosis and Inhibits Inflammation",
+    "researcher_name": "Su-Jing Wang",
+    "researcher_openalex_author_id": "A5066403927",
+    "updated_at": "2026-02-20T17:34:18.533Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a biomedical study on p53 gene therapy for rheumatoid arthritis, focusing on apoptosis and inflammation at the cellular/tissue level; no connection to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and abstract content are strictly molecular/cellular medicine: 'apoptosis', 'synovial membrane', 'rheumatoid arthritis', 'adenoviral infection', 'cartilage metabolism'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

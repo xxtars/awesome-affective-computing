@@ -934,5 +934,1150 @@
         "Data-driven modeling of emotional response to advertisements"
       ]
     }
+  },
+  "84520a4dbc1d4e38777f4f34e3ce7a7722854a69071b856b030bc11bb4316b16": {
+    "paper_id": "https://openalex.org/W4394673462",
+    "title": "SpeechAlign: Aligning Speech Generation to Human Preferences",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:25.351Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on speech generation alignment with human preferences using preference learning and codec modeling, not on emotion recognition, affective computing, or emotional states.",
+      "evidence": [
+        "Interest topics are 'emotion', but the paper's concepts are 'Speech recognition, Computer science' and abstract contains no emotion-related terms (e.g., affect, valence, arousal, sentiment, empathy, emotional prosody)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4c1015e4be5c1dca5dbe2c19f5e0285fbf66938dcddc9af6d74757270f47221b": {
+    "paper_id": "https://openalex.org/W3037006973",
+    "title": "Integer Programming Approach to the Data Traffic Paths Recovering Problem",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:25.591Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on integer programming and network path recovery in computer science, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title: 'Integer Programming Approach to the Data Traffic Paths Recovering Problem'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "486a6ef24578f6907a6e1c5f56ecd9a415644af5f304b12ebd791ff2fd220d11": {
+    "paper_id": "https://openalex.org/W2790246282",
+    "title": "A simple algorithm for Max Cut",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:25.794Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a mathematical optimization algorithm for Max Cut with no mention or conceptual link to emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Title and abstract focus exclusively on algorithmic optimization; 'emotion' does not appear in metadata or abstract."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "df764cb83168258b51ea695f6e7aa0be9067cace8a827f01ca28e106da9906b2": {
+    "paper_id": "https://openalex.org/W3130669845",
+    "title": "Design and Gait Optimization of Quadruped Robot Based on Energy Conservation",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:25.799Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on robotic gait optimization, energy efficiency, and control theory—topics unrelated to emotion or affective science.",
+      "evidence": [
+        "Abstract contains no mention of emotion, affect, sentiment, human behavior, psychology, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ab2a98f23d6da6a13f819ef88c06473bedc472b4c8b20bddd6f3744157520c5b": {
+    "paper_id": "https://openalex.org/W4210491726",
+    "title": "Properties of Nitrous Oxide and Helium mixtures for space nuclear recompression Brayton cycle",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:25.814Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on thermodynamic properties of gas mixtures for nuclear power cycles, with no connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Brayton cycle, Nuclear engineering, Thermodynamics—no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "23a18905b7bb014acd8406474171852da7d476f18468e43d8c8d1c5df88e88cc": {
+    "paper_id": "https://openalex.org/W4390833703",
+    "title": "GroundingGPT:Language Enhanced Multi-modal Grounding Model",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:25.815Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multi-modal grounding and fine-grained localization in vision-language models, with no mention of emotion, affect, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts listed are modal, computer science, materials science, polymer chemistry"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ab19d36748c69e99bd123c5a0abf6e3c122347c2ee4eb783e3f6492649d840c5": {
+    "paper_id": "https://openalex.org/W4220836169",
+    "title": "Study on Phonon Localization in Silicon Film by Molecular Dynamics",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:25.916Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on phonon localization, thermal cloaking, and nanoscale materials physics; no connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Phonon, Silicon, Molecular dynamics, Thermal — all unrelated to emotion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b307528f60b6b6e5b2cb6d2cdca4a035657e2de325a64b020c0d0bcea4f8236c": {
+    "paper_id": "https://openalex.org/W3197131331",
+    "title": "Numerical analysis on nanoscale thermal cloak in three-dimensional silicon film with circular cavities",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:25.919Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is in thermal physics and nanomaterials engineering, with no conceptual, methodological, or terminological connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract focus exclusively on thermal cloaking, phonons, silicon films, and numerical heat transfer."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "282ce3ff2040b76c3de74f89272a1c7d7cd776d7056d0e2ae8aadd3b75ab6468": {
+    "paper_id": "https://openalex.org/W2981497660",
+    "title": "ATVR: An Attention Training System using Multitasking and Neurofeedback on Virtual Reality Platform",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:25.944Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on attention training using neurofeedback and multitasking in VR, with no mention of emotion, affective states, or emotion-related constructs.",
+      "evidence": [
+        "Abstract and concepts emphasize attention, EEG classification, multitasking, and VR training—no emotion-related terms or affective measures appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c712e1903ed15646e24444cf84eb74f156d4df12e55f39099e543cce9a37abd9": {
+    "paper_id": "https://openalex.org/W3140107801",
+    "title": "Brain-Controlled Robotic Arm Based on Adaptive FBCCA",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:25.947Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on brain-computer interface and robotic arm control using adaptive FBCCA decoding; no mention of emotion, affective computing, or related psychological/physiological constructs.",
+      "evidence": [
+        "Concepts include 'Brain–computer interface', 'Robotic arm', 'Decoding methods', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "779c004273cacf38efd6443781cfb9cda7764442a9410c41cf383be121737ba7": {
+    "paper_id": "https://openalex.org/W3108705668",
+    "title": "The Navigation Design of Mobile Robot in the Man-Machine Environment for Service Assist",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:25.956Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on mobile robot navigation, SLAM, and human-aware path planning in service environments; 'emotion' is not addressed in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Abstract discusses humanized navigation and friendliness but makes no mention of emotion, affect, sentiment, or psychological states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "151d5e01f3e5d2e9ee08fc5d0b77cd354afcad1eb2d28c55e549cf61671a1392": {
+    "paper_id": "https://openalex.org/W2968126547",
+    "title": "Single hazy image restoration using robust atmospheric scattering model",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:26.027Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on image dehazing using an atmospheric scattering model, which is a computer vision and signal processing problem with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Haze, Scattering, Visibility, and Radiance — all technical terms in imaging physics, not affective domains."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8fe9b087a8b4600e67d180506ef28f0ac589dae925ab06478ef5ce3430b5c816": {
+    "paper_id": "https://openalex.org/W2910612715",
+    "title": "(1802-4282) THE 2-ADDITIVE FUZZY CHOQUET INTEGRAL BASED-TODIM METHOD WITH IMPROVED SCORE FUNCTION UNDER HESITANT FUZZY ENVIRONMENT",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:26.130Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multi-criteria decision making under hesitant fuzzy environments using the TODIM method and 2-additive fuzzy Choquet integrals; no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are mathematical/decision-theoretic."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7960bfddc267a7f93e3e715b7fa82bbf7e8565a9d41814798d2d69ba797cde19": {
+    "paper_id": "https://openalex.org/W2939043489",
+    "title": "Wide Swath and High Resolution Airborne HyperSpectral Imaging System and Flight Validation",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:26.141Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is focused on airborne hyperspectral imaging hardware design and remote sensing performance validation, with no mention of emotion, affective computing, or psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively cover technical aspects of hyperspectral imaging, spectral resolution, field of view, and flight validation."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "88de195993f877f4ef19a4bbb10d87ff71a6e0e0ca799bb5acff93541de760c7": {
+    "paper_id": "https://openalex.org/W4285296565",
+    "title": "Multiple Project Scheduling for a Network Roll-Out Problem: MIP Formulation and Heuristic",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:26.312Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mathematical optimization and scheduling for network roll-out, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Mathematical optimization, Scheduling, Heuristic — all technical/computational, no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4681e56a552c4d4822ed5ae6661a3d5226e220194e487893985a04b68c8066e2": {
+    "paper_id": "https://openalex.org/W3088586630",
+    "title": "Dual-SLAM: A framework for robust single camera navigation",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:26.313Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on SLAM algorithm robustness and real-time navigation, with no mention of emotion, affective computing, or related psychological or human-centered constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively cover robotics, computer vision, and estimation theory; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f0cfc1a42b9bdc6c1b8d38a59f57bd66ed27643a4261c2a43810a0040ca91a72": {
+    "paper_id": "https://openalex.org/W2604357417",
+    "title": "An Improved Interval AHP Method for Assessment of Cloud Platform-based Electrical Safety Monitoring System",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:26.313Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cloud-based electrical safety monitoring and an improved interval AHP method for system assessment; no mention of emotion, affective computing, or psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts contain only engineering, decision-making, and cloud computing terms; 'emotion' is absent from title, abstract, concepts, and metadata."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ef293087502ba856436417a54efc2a965744ccf04d2e559e6b8d6d9333f889d8": {
+    "paper_id": "https://openalex.org/W3119010160",
+    "title": "Machine Learning based Malicious Payload Identification in Software-Defined Networking",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:26.444Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on network security and malicious payload detection using machine learning in SDN; no mention or conceptual link to emotion, affective computing, or human-centered affective phenomena.",
+      "evidence": [
+        "Abstract and concepts exclusively concern network packet analysis, OpenFlow, DPI, and classifier design for security—no emotion-related terms or constructs appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b487cd0722b9421dfa3b48341f5bfc3125a5c06c2d0bc76f7baab0fb0b6211be": {
+    "paper_id": "https://openalex.org/W3182805013",
+    "title": "The Equivalent Thermal Conductivity of the Micro/Nano Scaled Periodic Cubic Frame Silver and Its Thermal Radiation Mechanism Analysis",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:26.444Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on thermal conductivity and radiation physics in micro/nano silver structures, with no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract exclusively discuss thermal radiation, plasmon resonance, and material conductivity."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "83e0e9555df8d9134a7518ae4926174a12b3e92f3633e837e0ef41ff1641056b": {
+    "paper_id": "https://openalex.org/W2900801275",
+    "title": "Interactions between mutual fund flows, asset performances and investor behaviours in United States",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:26.444Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mutual fund flows, asset performance, and investor behavior in finance/economics; 'emotion' is not mentioned or implied in title, concepts, or abstract.",
+      "evidence": [
+        "Abstract discusses rational flow-performance sensitivity, behavioral finance context, and investor decisions—but exclusively through economic/financial metrics, with no reference to affective states, emotion regulation, sentiment, or psychological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c898ade7aa80c4c8f8f53d5cea52cc2961a412ee976a70f1e625af2203acdf69": {
+    "paper_id": "https://openalex.org/W4210466874",
+    "title": "Design and experiment of a carrying platform of underwater cleaning robot",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:26.791Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on mechanical design, control systems, and sensor integration for an underwater cleaning robot; no content relates to emotion, affective computing, or human emotional states.",
+      "evidence": [
+        "All concepts and abstract text pertain to robotics, marine engineering, and remote control—no emotion-related terms or constructs appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8a267869387aca59093ea86c1770f7a7b87d0edf44c4f08634825cf185e457f1": {
+    "paper_id": "https://openalex.org/W2986305275",
+    "title": "An Extended TODIM Method Based on Novel Score Function and Accuracy Function under Intuitionistic Fuzzy Environment",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:26.814Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mathematical decision-making methodology under intuitionistic fuzzy environments, with no mention of emotion, affect, psychological states, or human affective processes.",
+      "evidence": [
+        "Abstract emphasizes TODIM, Choquet integral, score/accuracy functions, and supplier selection — all technical MADM constructs; 'emotion' or related terms (e.g., affect, sentiment, valence, arousal) do not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "44995e35544f884a5738bf2665556b5584c891fbaf5d717eb735592296cc6af8": {
+    "paper_id": "https://openalex.org/W3097713022",
+    "title": "Structural equation modeling test of the pre-intentional phase of the health action process approach (HAPA) model on condom use intention among senior high school students in Tianjin, China",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:27.148Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on health behavior modeling (HAPA) and condom use intention in adolescents, with no mention of emotion, affective processes, or related constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; concepts are behavioral, statistical, and biomedical."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "545fdae7df79f7f4541e2754fd44b016ffdc818b8b60c13a36153e9c49a7c982": {
+    "paper_id": "https://openalex.org/W2939352329",
+    "title": "An extended TODIM method to rank products with online reviews under intuitionistic fuzzy environment",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:27.679Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper explicitly models sentiment orientations and emotional intensity using intuitionistic fuzzy sets applied to online reviews, directly engaging with emotion representation and affective analysis in decision-making contexts.",
+      "evidence": [
+        "intuitionistic fuzzy set (IFS) is used to describe sentiment orientations and emotional intensity",
+        "IF (intuitionistic fuzzy) based sentiment word framework and corresponding computation rules are constructed"
+      ],
+      "keywords": [
+        "emotion",
+        "sentiment analysis",
+        "intuitionistic fuzzy sets",
+        "online reviews",
+        "affective computing",
+        "decision-making"
+      ],
+      "research_directions": [
+        "affective information retrieval",
+        "fuzzy modeling of emotions",
+        "emotion-aware recommender systems",
+        "computational sentiment analysis"
+      ]
+    }
+  },
+  "4d57269aeb96964ca8eadcad41cb5e2a9f830baccd55f9febb1fa3d94c88a450": {
+    "paper_id": "https://openalex.org/W2966181529",
+    "title": "Multi-Modal Language Analysis with Hierarchical Interaction-Level and Selection-Level Attentions",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:27.853Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly addresses emotion recognition as one of its core empirical evaluation tasks, and the abstract states it targets multi-modal sentiment classification, sentiment regression, and emotion recognition — directly aligning with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Empirical evaluation demonstrates the effectiveness of our proposed approach to multi-modal sentiment classification, sentiment regression and emotion recognition.",
+        "Interest topics: emotion"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "multi-modal language analysis",
+        "attention mechanisms",
+        "sentiment classification",
+        "natural language processing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multi-modal emotion analysis",
+        "deep learning for emotion recognition",
+        "attention-based NLP models"
+      ]
+    }
+  },
+  "7a76ac4bf4d26cb2d22ccefc471abc960ace3f8035c6958a741ef1e6acde04c9": {
+    "paper_id": "https://openalex.org/W3176028309",
+    "title": "Multi-modal Multi-label Emotion Recognition with Heterogeneous Hierarchical Message Passing",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:28.138Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on multi-modal multi-label emotion recognition, aligning directly with the researcher's interest topic 'emotion'. It is situated in affective computing, uses emotion-labeled data, and proposes methods for modeling emotion dependencies across modalities and labels.",
+      "evidence": [
+        "Title contains 'Emotion Recognition'",
+        "Abstract states 'As an important research issue in affective computing community, multi-modal emotion recognition has become a hot topic'",
+        "Abstract emphasizes 'multi-label scenario' and 'label-to-label dependency' for emotions"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "multi-modal learning",
+        "multi-label classification",
+        "affective computing",
+        "heterogeneous message passing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion analysis",
+        "graph-based dependency modeling for emotions",
+        "partial time-series emotion recognition"
+      ]
+    }
+  },
+  "3022c14f17045159fc22053d5f97af0e0a93a5728ac7fd8faca5a601de08d0aa": {
+    "paper_id": "https://openalex.org/W3093434718",
+    "title": "Transformer-based Label Set Generation for Multi-modal Multi-label Emotion Detection",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:28.242Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses multi-label emotion detection using transformer-based architectures, explicitly modeling emotion dependencies across modalities and between emotion labels — fully aligned with 'emotion' as a core interest topic.",
+      "evidence": [
+        "Title contains 'Multi-modal Multi-label Emotion Detection'",
+        "Abstract emphasizes 'emotion set generation', 'modality-to-label dependency', and 'label-to-label dependency' for emotions",
+        "Method (MESGN) is designed specifically for utterance-level emotion detection"
+      ],
+      "keywords": [
+        "emotion detection",
+        "multi-label learning",
+        "multi-modal fusion",
+        "transformer encoder",
+        "emotion set generation",
+        "cross-modal interaction"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal sentiment and emotion analysis",
+        "deep learning for emotion recognition",
+        "dependency modeling in emotion classification"
+      ]
+    }
+  },
+  "bcec312cbeed4486f0cb219eb1cf76446c9b99bb8b76d155135eed473b8d1fd9": {
+    "paper_id": "https://openalex.org/W3214184275",
+    "title": "Joint Multi-modal Aspect-Sentiment Analysis with Auxiliary Cross-modal Relation Detection",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:28.242Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.97,
+      "reason": "The paper focuses on multi-modal aspect-level sentiment analysis, which is a core subfield of affective computing and emotion-related NLP research; 'sentiment' is semantically and functionally proximal to 'emotion' in computational social science and psychology-informed AI.",
+      "evidence": [
+        "Title explicitly includes 'Aspect-Sentiment Analysis'",
+        "Abstract states the goal is 'multi-modal aspect-level sentiment analysis (MALSA)'",
+        "Researcher's interest topic 'emotion' aligns with sentiment as a measurable affective construct"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "affective computing",
+        "multi-modal learning",
+        "aspect-based sentiment",
+        "emotion recognition"
+      ],
+      "research_directions": [
+        "Affective multimodal AI",
+        "Fine-grained emotion/sentiment modeling",
+        "Cross-modal affective signal integration"
+      ]
+    }
+  },
+  "d47c2a9b832c4a5944d9acfb36031f062ca60edc847ed28dd9f08a3f10ebf5d0": {
+    "paper_id": "https://openalex.org/W2965453734",
+    "title": "Modeling both Context- and Speaker-Sensitive Dependence for Emotion Detection in Multi-speaker Conversations",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:28.381Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on emotion detection in multi-speaker conversations, directly aligning with the researcher's interest topic 'emotion'. The methodology, evaluation, and problem framing are all centered on affective computing and emotional state classification.",
+      "evidence": [
+        "Title contains 'Emotion Detection in Multi-speaker Conversations'",
+        "Abstract states 'emotion detection in conversations becomes a hot research topic' and details modeling of context- and speaker-sensitive dependence for emotion",
+        "Core task is utterance-level emotion classification within conversational graphs"
+      ],
+      "keywords": [
+        "emotion detection",
+        "multi-speaker conversation",
+        "context-sensitive dependence",
+        "speaker-sensitive dependence",
+        "conversational graph",
+        "utterance-level classification"
+      ],
+      "research_directions": [
+        "affective computing",
+        "natural language processing for emotion",
+        "graph neural networks for dialogue",
+        "multimodal emotion analysis",
+        "speaker-aware emotion modeling"
+      ]
+    }
+  },
+  "30824006ccabe476f658aada8b01eb7f2bb80d0196b5145526ec22faceb453ca": {
+    "paper_id": "https://openalex.org/W2601813797",
+    "title": "Balance of Traffic Distribution on Multiple Left-Turn Lanes: A Compositional Analyzing Approach",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:28.486Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on traffic engineering and mathematical analysis of lane distribution, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title: 'Balance of Traffic Distribution on Multiple Left-Turn Lanes: A Compositional Analyzing Approach'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "55bdf52bf351859ccb716cb12dfe2f0c38cc1df648ba87f6ba71a1e880ed1674": {
+    "paper_id": "https://openalex.org/W247165847",
+    "title": "An Efficient Data Extracting Method Based on Hadoop",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:28.613Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on Hadoop-based data extraction and big data computation, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title: 'An Efficient Data Extracting Method Based on Hadoop'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f889067629fa5bb9c6dd87331767b1b219ce13d96bd80abd31ff433972a7097e": {
+    "paper_id": "https://openalex.org/W2885574217",
+    "title": "Ranking products with IF-based sentiment word framework and TODIM method",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:28.613Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on sentiment analysis as a proxy for emotion modeling, uses an intuitionistic fuzzy framework to capture sentiment orientation and intensity (core affective dimensions), and aligns with 'emotion' as a stated interest topic through its computational treatment of subjective, valenced human responses in online reviews.",
+      "evidence": [
+        "constructs intuitionistic fuzzy (IF)-based sentiment word framework to calculate sentiment score of each sentiment phrase",
+        "novel idea to express both the sentiment orientations (positive, negative and neutral) and emotional intensities",
+        "interest topics include 'emotion' and paper treats sentiment as affective state representation"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "emotion modeling",
+        "intuitionistic fuzzy sets",
+        "affective computing",
+        "online reviews",
+        "TODIM"
+      ],
+      "research_directions": [
+        "computational emotion recognition",
+        "fuzzy affective modeling",
+        "decision-making under emotional uncertainty",
+        "sentiment-to-emotion mapping in NLP"
+      ]
+    }
+  },
+  "9a713fed4a1ed08111ef656f366bf8742a7c8c30c6f0c621b3aa10be48f34df6": {
+    "paper_id": "https://openalex.org/W2412270351",
+    "title": "An integrated flight scheduling and fleet assignment method based on a discrete choice model",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:28.613Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on flight scheduling and fleet assignment using operations research and discrete choice modeling, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title explicitly references 'flight scheduling' and 'fleet assignment', core topics in operations research and industrial engineering"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "fefba87722459632122188c7e4f6830ffdb2b38f35815a0de181449a704819df": {
+    "paper_id": "https://openalex.org/W2331874245",
+    "title": "Discussion and Analysis of New Higher Vocational Education in Independent College under New Situation of Globalization and Informatization",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:28.643Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on vocational education, globalization, and informatization in independent colleges; no mention of emotion, affective processes, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3bc3b722876b3770dee11d5b95a9667b38745573cdc624ab46fc706beab324ac": {
+    "paper_id": "https://openalex.org/W2034734147",
+    "title": "A cyclic construction of saturated and supersaturated designs",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:28.737Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is in mathematical statistics and combinatorial design theory, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title mentions 'saturated and supersaturated designs', a statistical experimental design concept"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6055cb2bf8531d82a65c876b887ad3c8e756fb0d690b31f1ed127a32441f02f3": {
+    "paper_id": "https://openalex.org/W2938066609",
+    "title": "Ranking products with online reviews: A novel method based on hesitant fuzzy set and sentiment word framework",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:28.738Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper explicitly integrates sentiment analysis with decision-making frameworks that model human psychological behavior (e.g., TODIM extended to account for decision-makers' psychological behavior), directly engaging with emotion-related constructs in computational modeling of user affect from text.",
+      "evidence": [
+        "mentions 'sentiment analysis (SA)' as core methodology",
+        "uses 'fuzzy sentiment word framework' to compute sentiment scores per feature",
+        "extends TODIM method 'which concerns decision maker’s psychological behavior'"
+      ],
+      "keywords": [
+        "sentiment analysis",
+        "emotional valence",
+        "psychological behavior",
+        "affective computing",
+        "hesitant fuzzy set",
+        "emotion-aware decision making"
+      ],
+      "research_directions": [
+        "Affective sentiment analysis",
+        "Emotion-informed multi-criteria decision making",
+        "Computational modeling of user emotion from reviews",
+        "Fuzzy affective reasoning"
+      ]
+    }
+  },
+  "dcecb39b8fdbe24f4daf69b05ff466d0a11382d84c609ecb1ecf593386a295fc": {
+    "paper_id": "https://openalex.org/W1850152253",
+    "title": "Synthesis of 5A zeolite coating/PSSF composites and the application for adsorption of methane from air",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:28.738Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is in materials science and chemical engineering, focusing on zeolite composites and methane adsorption; no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract contain no emotion-related terms or concepts"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "77e851caa3882f6e32e25316a842b6857371c475cc4e05b019364045305b29aa": {
+    "paper_id": "https://openalex.org/W2361409877",
+    "title": "The Research and Application of Sqlserver Automatic Secondary Backup",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:28.864Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on SQL Server database backup automation and has no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract exclusively discuss database backup, SQL Server, and data protection"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1fd3893a245f83c2f393260182f8d92d4b527aabe6645baf3a163811bd4ebdb2": {
+    "paper_id": "https://openalex.org/W4200406103",
+    "title": "The role of key online reviews in affecting online hotel booking: an empirical investigation",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:28.864Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.65,
+      "confidence": 0.82,
+      "reason": "The paper examines how key online reviews influence booking decisions, and while 'emotion' is not explicitly central, review content quality and reviewer characteristics often implicitly involve affective constructs (e.g., sentiment, emotional tone, trust, perceived credibility); the context of consumer decision-making in hospitality strongly overlaps with emotion-driven behavioral responses.",
+      "evidence": [
+        "The study identifies KORs by combining 'review content quality and reviewer characteristics' — content quality in reviews frequently correlates with emotional valence and intensity.",
+        "KORs are found to play a 'mediating role in the effects of review content [...] on online hotel booking', suggesting affective processing of reviews influences behavior."
+      ],
+      "keywords": [
+        "online reviews",
+        "consumer behavior",
+        "sentiment",
+        "review content quality",
+        "affective influence",
+        "hotel booking"
+      ],
+      "research_directions": [
+        "Affective computing in review analysis",
+        "Emotion-mediated consumer decision-making",
+        "Sentiment-driven influence in hospitality marketing"
+      ]
+    }
+  },
+  "1c86349f38271939dd52b962f14334068dc5333dd90c26680b0e4ddb87a86bfc": {
+    "paper_id": "https://openalex.org/W4230851770",
+    "title": "A new method used for high speed pseudo-random code generating",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:28.889Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on high-speed pseudo-random code generation, a topic in computer science and algorithms, with no mention or conceptual link to emotion or affective processes.",
+      "evidence": [
+        "Title: 'A new method used for high speed pseudo-random code generating'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "321473c3e00d8f25825c9fbf561737ec6f8de444a5ab2ac45b89c9fc4dc00375": {
+    "paper_id": "https://openalex.org/W1546932306",
+    "title": "Semiparametric empirical likelihood confidence intervals for the difference of areas under two correlated ROC curves under density ratio model",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:28.985Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a technical statistical methodology paper focused on ROC curve comparison using empirical likelihood; it contains no emotion-related constructs, measures, or applications.",
+      "evidence": [
+        "All concepts and the abstract pertain to biostatistics, not affective science or emotion research."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "87475f13bc961238804d18527fa11d395a7b3733c4e72e1f1d6bde5e18dabe67": {
+    "paper_id": "https://openalex.org/W2413752091",
+    "title": "[Preoperative location of major language functional cerebral areas using functional magnetic resonance imaging].",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:28.985Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on preoperative localization of language areas using fMRI, with no mention of emotion, affective processing, or related constructs.",
+      "evidence": [
+        "Abstract and concepts center on language functions (e.g., Broca's area, comprehension, semantic memory), not emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0a4e9baf05280a918f05650795b79ff5b224b98fef7b31e2a3e23e16c6890b84": {
+    "paper_id": "https://openalex.org/W2092752072",
+    "title": "Empirical Likelihood Confidence Intervals for the Difference of Areas Under Two Correlated ROC Curves",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:28.993Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is a technical statistics method paper focused on ROC curve comparison and empirical likelihood confidence intervals, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts are exclusively statistical/maths-related: 'Receiver operating characteristic', 'Empirical likelihood', 'Confidence interval'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "52651d775aeeb39fa1af8401aa830fa29e5d6c653907a5a27dfd8ffbf08202a2": {
+    "paper_id": "https://openalex.org/W2050760595",
+    "title": "Topic Detection Research Based on Multi-Models",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:29.109Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on topic detection using multi-model similarity metrics and Bayesian methods, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are technical (e.g., 'Similarity', 'Bayesian probability', 'Data mining')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5211af113665de1a4fe9d5c3a1ec7421600198b86a20e8509cfed36e736f88af": {
+    "paper_id": "https://openalex.org/W2169463887",
+    "title": "Combinational collaborative filtering for personalized community recommendation",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:29.148Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on collaborative filtering and recommender systems with no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Concepts: Collaborative filtering, Recommender system, Scalability, Gibbs sampling"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f96eb20533f1202b6f072ddbf9c194887dd87756f0a2e39f57b0b0df9fec2166": {
+    "paper_id": "https://openalex.org/W12212504",
+    "title": "CSCW Based Labor and Social Security and Employment Information System",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:29.237Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on CSCW, labor information systems, and government IT infrastructure with no mention or conceptual link to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Computer-supported cooperative work', 'Social security', 'Government', 'Information security' — none relate to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3c087cb7db00aa06d82bcc587d5f1c69615502cde8978faafd5af68dcc592948": {
+    "paper_id": "https://openalex.org/W2371347319",
+    "title": "The grid resources management system based on matching algorithm",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:29.268Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is about grid resource scheduling using matching algorithms and has no connection to emotion or affective science.",
+      "evidence": [
+        "Abstract mentions 'matching algorithm', 'scheduling policy', and 'Grid resource management' — all technical computing concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2e47b01e22b1c79b29f497db470d9b63e8cb1c1ac2d4064de8a8c29acdd24394": {
+    "paper_id": "https://openalex.org/W2109869033",
+    "title": "A scan chains combined-balance strategy for hierarchical SoC DFT",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:29.408Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is about design-for-test (DFT) techniques for SoC, focusing on scan chain optimization and test overhead reduction; no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract exclusively discuss scan chains, TAM, scheduling, and ITC'02 benchmarks in hardware testing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "fb3da2a04397021ab523c434fdb069425a7a4feb0723bb76cc7e082a6cff754d": {
+    "paper_id": "https://openalex.org/W2134282114",
+    "title": "Modeling individual and group actions in meetings with layered HMMs",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:29.431Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on modeling group and individual actions in meetings using layered HMMs, with no mention of emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are purely computational and signal-processing oriented."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a2e5b625ef89807e0125ad274c44b945c1446af0bfec36ddb3d3333172040f93": {
+    "paper_id": "https://openalex.org/W2097673133",
+    "title": "Exploring Contextual Information in a Layered Framework for Group Action Recognition",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:29.567Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on group action recognition using sequence modeling techniques (HMMs, CRFs) and contextual information in meetings; no mention of emotion, affect, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Application domain is group action recognition in meetings, not emotion modeling or analysis."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "626fdbd8e40b46527e5217db6deed190c764c44f4781a57c7b533b3bd34accb9": {
+    "paper_id": "https://openalex.org/W2152309805",
+    "title": "Modeling Individual and Group Actions in Meetings: A Two-Layer HMM Framework",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:29.790Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on modeling meeting actions using hierarchical HMMs; no mention of emotion, affect, sentiment, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are computational/structural."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f0abf41ef07b758e94391d2df8728f8524be2fc9606ac766e1e2938308ea7fe8": {
+    "paper_id": "https://openalex.org/W2165061375",
+    "title": "Learning Influence among Interacting Markov Chains",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:29.825Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on modeling influence among interacting Markov chains in multi-agent systems, with no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain only technical terms from AI, probabilistic modeling, and group dynamics—no emotion-related terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "dd501b037653deec2dc4776aafadd86b150dfe33721e429e00ed15c85db9e361": {
+    "paper_id": "https://openalex.org/W1485530307",
+    "title": "Multimodal Integration for Meeting Group Action Segmentation and Recognition",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:29.979Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on meeting group action segmentation and recognition using multimodal AI techniques; no explicit connection to emotion or affective science is indicated in title, venue, concepts, or available metadata.",
+      "evidence": [
+        "Concepts include 'Segmentation', 'Hidden Markov model', 'Pattern recognition (psychology)' — but the latter refers to cognitive pattern recognition, not emotion processing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1a3440f36fc205cf37b693edcd464e86efba32fddafb6ecedc6b409bb0c23420": {
+    "paper_id": "https://openalex.org/W2127517873",
+    "title": "MDA-based development of e-learning system",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:30.218Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on model-driven architecture for e-learning system development with no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain only software engineering and modeling terms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9bbad0d960ee72b053561d4f65020bfc5fed75f31b856b63dc32e2a25fbcbe68": {
+    "paper_id": "https://openalex.org/W2137631934",
+    "title": "A March-CL test for interconnection faults of SOC",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:30.236Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical engineering work on hardware testing for System-on-Chip interconnections; it contains no mention or conceptual link to emotion, affective science, or psychology.",
+      "evidence": [
+        "Title and abstract focus exclusively on March-CL test methodology for detecting stuck/delay faults in SOC interconnections."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c06d644d0e46b94d1e24d62fb2a9c4f116064217c45a46b25e3aac1ee6a32be9": {
+    "paper_id": "https://openalex.org/W2362844778",
+    "title": "A STUDY ON THE APPLICATION OF GIS IN OFFICE SERVICES SYSTEM",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:30.740Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on GIS applications in office services systems, with no mention of emotion, affective computing, or related psychological or computational affect topics.",
+      "evidence": [
+        "Title and abstract contain no emotion-related terms; concepts are technical and domain-specific (GIS, information systems, cartography)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "efa276860636d0c16d77ecf7e54ae10a58e841be4c9b451f83c8841784e46fef": {
+    "paper_id": "https://openalex.org/W2352672533",
+    "title": "PACKAGE CONTRACTIONS AND ITS RELATIONSHIP TO THE GENERAL CONTRACTION",
+    "researcher_name": "Dong Zhang",
+    "researcher_openalex_author_id": "A5100366067",
+    "updated_at": "2026-02-20T17:51:31.113Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a formal logic/mathematical study of package contraction in belief revision theory, with no connection to emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Concepts include Contraction (grammar), Mathematics, Discrete mathematics, R package, Computer science — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

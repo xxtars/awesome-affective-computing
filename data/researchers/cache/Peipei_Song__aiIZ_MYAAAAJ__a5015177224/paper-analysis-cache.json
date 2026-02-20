@@ -1044,5 +1044,341 @@
         "Sentiment-discriminative feature extraction"
       ]
     }
+  },
+  "1a58b9c53dabe18af83ee4dc38e1376bda3852b05e2845a9402ee70468309a61": {
+    "paper_id": "https://openalex.org/W3037932287",
+    "title": "Recurrent Relational Memory Network for Unsupervised Image Captioning",
+    "researcher_name": "Peipei Song",
+    "researcher_openalex_author_id": "A5015177224",
+    "updated_at": "2026-02-20T17:49:21.837Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unsupervised image captioning using a memory-based neural network architecture; no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1effa43366504bad2c68ba24ea00b9b9e550b707cbfd82fb222b9a0a9a5a4064": {
+    "paper_id": "https://openalex.org/W4241957990",
+    "title": "Title Page / Table of Contents",
+    "researcher_name": "Peipei Song",
+    "researcher_openalex_author_id": "A5015177224",
+    "updated_at": "2026-02-20T17:49:22.087Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "Paper metadata contains no emotion-related concepts; venue and concepts are focused on liver cancer, databases, and information retrieval.",
+      "evidence": [
+        "Venue: Liver Cancer"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ae14998031ec6b678ec3f595904ba2cfe2fcc86cda7db99375d324bffe4cb529": {
+    "paper_id": "https://openalex.org/W2962632463",
+    "title": "Automatic Welding Defect Detection of X-Ray Images by Using Cascade AdaBoost With Penalty Term",
+    "researcher_name": "Peipei Song",
+    "researcher_openalex_author_id": "A5015177224",
+    "updated_at": "2026-02-20T17:49:22.336Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper is in industrial computer vision and non-destructive testing; no connection to human emotion, affective science, or psychological emotion processing.",
+      "evidence": [
+        "Title and abstract focus exclusively on welding defect detection using AdaBoost and image processing techniques."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0df465b26987060d634043efb124bab70ff37e073fbd85ba86e33b77b5dd3ac6": {
+    "paper_id": "https://openalex.org/W2602676270",
+    "title": "Rachel Velarde, mezzo-soprano",
+    "researcher_name": "Peipei Song",
+    "researcher_openalex_author_id": "A5015177224",
+    "updated_at": "2026-02-20T17:49:22.339Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "Title refers to a mezzo-soprano performer; no emotional or affective content evident in metadata.",
+      "evidence": [
+        "Title: 'Rachel Velarde, mezzo-soprano'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b470204e172df33001a866f7e6943c986091219cb8643d5ff229077d89c9a233": {
+    "paper_id": "https://openalex.org/W2593743452",
+    "title": "Design of a health care platform for the elderly",
+    "researcher_name": "Peipei Song",
+    "researcher_openalex_author_id": "A5015177224",
+    "updated_at": "2026-02-20T17:49:22.583Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hardware design and remote health monitoring for the elderly, with no mention of emotion, affective states, or psychological constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are biomedical, engineering, or IT-focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "66d6610d2d8dddbbdcdf0ea8b18d37330a649d0ed04c19620952018710009301": {
+    "paper_id": "https://openalex.org/W2519107866",
+    "title": "Asynchronous vibration response characteristics of connectors with looseness fault and its verification",
+    "researcher_name": "Peipei Song",
+    "researcher_openalex_author_id": "A5015177224",
+    "updated_at": "2026-02-20T17:49:22.583Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a mechanical engineering study on vibration response of faulty connectors; 'emotion' in the researcher's interest topics is unrelated to the technical content.",
+      "evidence": [
+        "All concepts and abstract focus on vibration, stiffness, resonance, and fault detection in aero-engine connectors"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7619bcec28ae06b1cc75ef0c188de52e8be6afae44981fb47e1e05bc87c66eed": {
+    "paper_id": "https://openalex.org/W3022468172",
+    "title": "An international comparison analysis of reserve and supply system for emergency medical supplies between China, the United States, Australia, and Canada",
+    "researcher_name": "Peipei Song",
+    "researcher_openalex_author_id": "A5015177224",
+    "updated_at": "2026-02-20T17:49:22.959Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on public health infrastructure, supply chain logistics, and emergency medical resource management during the COVID-19 pandemic; 'emotion' is not addressed in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Concepts include 'Public health', 'Emergency medical services', 'Pandemic', but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "49dac4e6ecad96d3843f57f9c8f29431ed087378362ea8cd7d35f9fa27535018": {
+    "paper_id": "https://openalex.org/W2740022521",
+    "title": "Negotiation of Claude Debussy's Sonata for Cello and Piano",
+    "researcher_name": "Peipei Song",
+    "researcher_openalex_author_id": "A5015177224",
+    "updated_at": "2026-02-20T17:49:22.959Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.85,
+      "reason": "The paper focuses on musical analysis and negotiation of a classical sonata; no explicit or implicit connection to emotion or affective science is indicated by title, concepts, or available metadata.",
+      "evidence": [
+        "Concepts: Cello, Piano, Sonata form, Negotiation — all music-theoretic/performance-related, no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9121d6e5e831dde58e0d64be3c5847c2d76e783be24b180f1c4e618c72d5417a": {
+    "paper_id": "https://openalex.org/W2085502134",
+    "title": "Public policy response, aging in place, and big data platforms: Creating an effective collaborative system to cope with aging of the population",
+    "researcher_name": "Peipei Song",
+    "researcher_openalex_author_id": "A5015177224",
+    "updated_at": "2026-02-20T17:49:22.961Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on public policy, aging in place, big data infrastructure, and health systems for older adults; 'emotion' is not addressed in title, abstract, or listed concepts.",
+      "evidence": [
+        "Concepts include 'Aging in place', 'Big data', 'Public health', but no emotion-related terms; abstract discusses clinical systems, care coordination, and data security—not affective processes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e566734d84742f83afe0eed732772c57e0287aca85efdd4a3f2e7a252d7dc0a0": {
+    "paper_id": "https://openalex.org/W2902887412",
+    "title": "A parallel arithmetic for hardware realization of digital filters",
+    "researcher_name": "Peipei Song",
+    "researcher_openalex_author_id": "A5015177224",
+    "updated_at": "2026-02-20T17:49:22.963Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on hardware arithmetic for digital filters, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title: 'A parallel arithmetic for hardware realization of digital filters'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ebd838a4750b6b517dabf68813e6df96c45253f9b2fe11f6493690ec74f2ff78": {
+    "paper_id": "https://openalex.org/W2963521566",
+    "title": "Super-aged society: Constructing an integrated information platform of self-recording lifelogs and medical records to support health care in Japan",
+    "researcher_name": "Peipei Song",
+    "researcher_openalex_author_id": "A5015177224",
+    "updated_at": "2026-02-20T17:49:23.080Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on health informatics, medical record integration, and lifelog platforms for elderly care; no mention of emotion, affective states, or psychological constructs related to emotion.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts include 'Health care', 'Medical record', 'Lifelog', 'Welfare' — all clinical/technical, no affective/emotion terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b833b6931956cad15355b2c19742640e8ac2a26713abf7980cf37786543284cf": {
+    "paper_id": "https://openalex.org/W3012523838",
+    "title": "Weakly-Supervised Salient Object Detection via Scribble Annotations",
+    "researcher_name": "Peipei Song",
+    "researcher_openalex_author_id": "A5015177224",
+    "updated_at": "2026-02-20T17:49:23.360Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on weakly-supervised salient object detection using scribble annotations and introduces technical contributions in computer vision metrics and model architecture; no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts include 'salient', 'object detection', 'pattern recognition (psychology)' — but the latter is used in a computational/vision context, not affective psychology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "55da95fb218460e22aaf3668ff91e1a08879bd9da59845924d98007a4043383d": {
+    "paper_id": "https://openalex.org/W2795061690",
+    "title": "Internal migration and regional differences of population aging: An empirical study of 287 cities in China",
+    "researcher_name": "Peipei Song",
+    "researcher_openalex_author_id": "A5015177224",
+    "updated_at": "2026-02-20T17:49:23.372Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on demographic trends, internal migration, and regional population aging in China, with no mention or conceptual engagement with emotion, affect, or psychological states.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain zero emotion-related terms or constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e9f944fc58738e7c5942e7f1cc52a7951a363354b76adc8d8266ddf71b06b488": {
+    "paper_id": "https://openalex.org/W2070625361",
+    "title": "Power consumption evaluation in random cellular networks",
+    "researcher_name": "Peipei Song",
+    "researcher_openalex_author_id": "A5015177224",
+    "updated_at": "2026-02-20T17:49:23.429Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on power consumption modeling in stochastic cellular networks using geometric and communication-theoretic methods; no mention of emotion, affect, psychological states, or related constructs.",
+      "evidence": [
+        "Concepts include Cellular network, Base station, Stochastic geometry, Power consumption — all technical and engineering-focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "35ee46c05f34b143da46720fa1ac293cd99627868150cf1e5e715b9120b9e22b": {
+    "paper_id": "https://openalex.org/W1459375177",
+    "title": "Peipei Song, collaborative piano",
+    "researcher_name": "Peipei Song",
+    "researcher_openalex_author_id": "A5015177224",
+    "updated_at": "2026-02-20T17:49:23.509Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.85,
+      "reason": "Title and concepts suggest focus on collaborative piano performance, not emotion research; 'emotion' interest topic is not substantiated by available metadata.",
+      "evidence": [
+        "Title: 'Peipei Song, collaborative piano'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "195cd56cf655bca9cc367bd77f8d82a00e646c8d4050c767ca69a7250c7e9f8d": {
+    "paper_id": "https://openalex.org/W2970472242",
+    "title": "Parallel Temporal Encoder For Sign Language Translation",
+    "researcher_name": "Peipei Song",
+    "researcher_openalex_author_id": "A5015177224",
+    "updated_at": "2026-02-20T17:49:23.613Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sign language translation using temporal encoding and CTC decoding; no mention of emotion recognition, affective computing, or emotional content in sign language.",
+      "evidence": [
+        "Concepts include 'Sign language', 'Encoder', 'Speech recognition', but not 'emotion', 'affect', 'sentiment', or related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9bd314e59fb04f1e4663b59d2474fcbb8f9a1f5039306ade4a37663e2f38fa80": {
+    "paper_id": "https://openalex.org/W2977869591",
+    "title": "Robert Heyde, tenor",
+    "researcher_name": "Peipei Song",
+    "researcher_openalex_author_id": "A5015177224",
+    "updated_at": "2026-02-20T17:49:24.069Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "Title and concepts (Linguistics, Philosophy) show no explicit or implicit connection to emotion; abstract is empty and title refers to a person (tenor), suggesting music/biography, not affective science.",
+      "evidence": [
+        "Title: 'Robert Heyde, tenor'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8645ead8af4814f1ebd87dccc227adb07f7abb2e7cd64081ca39356b285c7c90": {
+    "paper_id": "https://openalex.org/W3084043181",
+    "title": "Backward Design of Theoretical Unit of College Table Tennis Live Broadcast Course during the Epidemic Period",
+    "researcher_name": "Peipei Song",
+    "researcher_openalex_author_id": "A5015177224",
+    "updated_at": "2026-02-20T17:49:24.994Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper explicitly addresses fear and anxiety—core affective/emotional states—and links them to pedagogical design during the pandemic, aligning with emotion-related research in educational psychology.",
+      "evidence": [
+        "improve the students' physical decline due to lack of exercise and the frequent occurrence of fear and anxiety caused by long-term stay at home",
+        "improve the students' interest and enthusiasm in learning",
+        "Psychology"
+      ],
+      "keywords": [
+        "fear",
+        "anxiety",
+        "emotional well-being",
+        "learning motivation",
+        "educational psychology"
+      ],
+      "research_directions": [
+        "emotion in online education",
+        "affective outcomes of physical education interventions",
+        "pandemic-related mental health in academic settings"
+      ]
+    }
   }
 }

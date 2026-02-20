@@ -1047,5 +1047,3055 @@
         "interpretable affective representation learning"
       ]
     }
+  },
+  "20344a3905572e3df7bfa2ae46dc65dd916b588dd76e79729db90ef2249f6fed": {
+    "paper_id": "https://openalex.org/W4393206831",
+    "title": "Ensemble Prototype Network For Weakly Supervised Temporal Action Localization",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.238Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on weakly supervised temporal action localization using ensemble prototype learning; no mention of emotion, affect, or related psychological/physiological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively concern computer vision, clustering, ensemble learning, and action localization in videos"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ce0b81e85331f0880da91f6f449fd7b9a2b8e3c9f91e79445b5e3888b77be253": {
+    "paper_id": "https://openalex.org/W4403791986",
+    "title": "Maskable Retentive Network for Video Moment Retrieval",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.364Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video moment retrieval using architectural innovations in multimodal Transformers; no mention of emotion, affect, sentiment, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Concepts include Computer science, Information retrieval, Physics, Classical mechanics — no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d104f0a9d9ee0a2edbec5fb9a692ebb54e37dde75019d459f71bd5d686c3e1c0": {
+    "paper_id": "https://openalex.org/W4403386295",
+    "title": "Audio-Visual Segmentation with Semantics",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.374Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.85,
+      "reason": "The paper focuses on audio-visual segmentation and semantics in computer vision; no explicit connection to emotion or affective science is indicated by title, venue, concepts, or available metadata.",
+      "evidence": [
+        "Concepts include 'Segmentation', 'Computer vision', 'Semantics (computer science)' — none are emotion-related"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "79f0694d707fa7034a823b503b9a1249e5e821fb377c38f4abcf5617798da584": {
+    "paper_id": "https://openalex.org/W4405468545",
+    "title": "Patch-level Sounding Object Tracking for Audio-Visual Question Answering",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.474Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on audio-visual object tracking and question answering, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical/computational (e.g., 'patch tracking', 'graph network', 'audio-visual correspondence')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8cc096362add0fd3c21de5a15ef40487a859a299f19f8773678ad1913d7e5c5a": {
+    "paper_id": "https://openalex.org/W4401887908",
+    "title": "Depth Matters: Spatial Proximity-Based Gaze Cone Generation for Gaze Following in Wild",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.492Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on gaze following using depth and computer vision techniques, with no mention of emotion, affect, or psychological/affective constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; concepts are strictly technical (gaze, computer vision, AI, HCI)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "caa121347dedec08fc3bb2c58f59f19933fdbbbf3b75eef2cff314ca658fd018": {
+    "paper_id": "https://openalex.org/W4416052292",
+    "title": "Towards Efficient Partially Relevant Video Retrieval with Active Moment Discovering",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.587Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on text-to-video retrieval, moment localization, and model efficiency—no mention of emotion, affect, sentiment, or any affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; topics are purely computer vision and information retrieval."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b9863701d95e47c8f5faffdfbaafb15250300cb1ee0172fafd6cddc9e43cde92": {
+    "paper_id": "https://openalex.org/W4403347037",
+    "title": "Grounding is All You Need? Dual Temporal Grounding for Video Dialog",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.590Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on temporal grounding and dialog response generation in video understanding, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper abstract and concepts contain no emotion-related terms or affective modeling objectives."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "72c19c299177b155bd0cb5439281661cc98a0ee528cc4b4438b1cc52a6c59b92": {
+    "paper_id": "https://openalex.org/W4404954835",
+    "title": "Bridging a Gap in the Synthetic and Measured SAR Images Based on Data Augmentation Methods",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.679Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on SAR image synthesis, data augmentation, and computer vision for target recognition; no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Concepts include Synthetic aperture radar, Computer vision, AI, but no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1c67fddb04de5c42074737e199b512be419f0e3bc5e5c420336e4397ae9040a7": {
+    "paper_id": "https://openalex.org/W4403735370",
+    "title": "DQKNet: Deep Quasiconformal Kernel Network Learning for Image Classification",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.687Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on deep learning architecture optimization for image classification using quasiconformal kernel methods; no mention of emotion, affect, psychological states, or related constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are mathematical, computational, and technical (e.g., 'kernel', 'image classification', 'quasiconformal')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e726c900aeff59dc0556963fedb1f9a1b581e8878cf9376caed1e059c7bc3012": {
+    "paper_id": "https://openalex.org/W4405469826",
+    "title": "Multimodal Class-aware Semantic Enhancement Network for Audio-Visual Video Parsing",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.689Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on audio-visual event parsing and semantic decoupling for temporal localization, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical/computer vision/audio processing focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b9fdeadeea30d65e4e396b962eaa3139bc2c71f4fa4fa99ef934bfa4c240cfa3": {
+    "paper_id": "https://openalex.org/W4392207717",
+    "title": "Dual-Path TokenLearner for Remote Photoplethysmography-Based Physiological Measurement With Facial Videos",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.710Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on remote physiological measurement (rPPG) using facial videos, with no mention of emotion, affect, sentiment, or related psychological constructs.",
+      "evidence": [
+        "Abstract and metadata exclusively discuss photoplethysmography, signal noise reduction, and heartbeat pattern estimation—no emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "fbabacf697e4eba24a79b404a9bb3cf062bfc4c23a4ce13a255cc390dcf375a9": {
+    "paper_id": "https://openalex.org/W4401631828",
+    "title": "Detection of defects on the end face of small motor bearings based on machine vision",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.714Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is focused on industrial defect detection using machine vision and deep learning, with no mention of emotion, affective computing, or related psychological or human-centered constructs.",
+      "evidence": [
+        "Title and abstract exclusively address bearing defect detection, image processing, and YOLOv5 optimization for industrial automation."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5cc9835ba7f25b6ac1323c9be7d6d3abd4955b32ff542058f3e7038bf9b9be70": {
+    "paper_id": "https://openalex.org/W4394575622",
+    "title": "Effect of epidural dexmedetomidine in single-dose combined with ropivacaine for cesarean section",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.854Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on pharmacological anesthesia techniques for cesarean section, with no mention of emotion, affective processes, or psychological constructs.",
+      "evidence": [
+        "Title and concepts are strictly clinical/anesthesiological (e.g., dexmedetomidine, ropivacaine, sedation, analgesia)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8419d6e9019fe82f589566be845e646b8e4dfefbe1b026c387c3a5eea035d024": {
+    "paper_id": "https://openalex.org/W4400232586",
+    "title": "Full-speed domain sensorless control of IPMSM based on the sparrow search algorithm",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.854Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is in motor control engineering and optimization algorithms; no connection to human emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Title and abstract focus exclusively on IPMSM sensorless control, sparrow search algorithm, sliding mode observers, and high-frequency injection—no emotion-related terms or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6c0984fcf6abdd2da7c3f778e83be0393e08f17ded7a964fa7914c8f507e6015": {
+    "paper_id": "https://openalex.org/W4399474077",
+    "title": "Advancing Weakly-Supervised Audio-Visual Video Parsing via Segment-Wise Pseudo Labeling",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.854Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on weakly-supervised audio-visual video parsing and segment-wise pseudo labeling, with no explicit connection to emotion or affective science in title, venue, or listed concepts.",
+      "evidence": [
+        "Concepts include 'Parsing', 'Computer vision', 'Speech recognition', but omit emotion-related terms like 'affect', 'sentiment', 'emotion recognition', or 'psychophysiology'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2f04191261a251e28eac524ec049708c26f11a7434f47249e1f4980b373877f4": {
+    "paper_id": "https://openalex.org/W4402727061",
+    "title": "Frequency Decoupling for Motion Magnification Via Multi-Level Isomorphic Architecture",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.854Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video motion magnification using frequency-domain signal processing and architectural innovations in AI; no mention of emotion, affective states, human sentiment, or psychological constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are technical (e.g., 'Decoupling', 'Magnification', 'Sparse Filters', 'FLOPs')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e043d24de4d84aed59dceacf4ca47e3a805d99f3e199d463fc64dbf7897be452": {
+    "paper_id": "https://openalex.org/W4400066978",
+    "title": "Syntax-Controllable Video Captioning with Tree-Structural Syntax Augmentation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.854Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on syntax control in video captioning, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "All concepts and the abstract center on syntax, tree structures, natural language processing, and video captioning—no emotion-related terms or goals appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9a02eaf5b5eb6a76966fbd9afc3587e844c53ad5e21deeb384433da0a0380a75": {
+    "paper_id": "https://openalex.org/W4399554882",
+    "title": "A Two-Stage Adverse Weather Semantic Segmentation Method for WeatherProof Challenge CVPR 2024 Workshop UG2+",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.854Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on semantic segmentation under adverse weather conditions using computer vision and deep learning techniques, with no mention or conceptual link to emotion, affective computing, or human emotional states.",
+      "evidence": [
+        "All concepts and the abstract center on segmentation, deraining, weather robustness, and AI for computer vision—not emotion or affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5e372ac540e06a95422092eb0c64394fae9232e41695344d13c8333f6aaf3f24": {
+    "paper_id": "https://openalex.org/W4403791418",
+    "title": "Cluster-Phys: Facial Clues Clustering Towards Efficient Remote Physiological Measurement",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.997Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on remote physiological measurement (rPPG) using facial clustering and AI techniques, with no mention of emotion recognition, affective states, or emotional processing.",
+      "evidence": [
+        "Abstract exclusively discusses physiological signal estimation (e.g., heartbeats) via skin color changes; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7a0cf79148b122478e42fd391168d2f65da6a4de8707e9e5f3759f0361952fdb": {
+    "paper_id": "https://openalex.org/W4396625363",
+    "title": "Dual-path temporal map optimization for make-up temporal video grounding",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:11.997Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on temporal video grounding and optimization techniques in computer vision and multimedia systems, with no explicit or implied connection to emotion or affective computing.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: 'Computer vision', 'Artificial intelligence', 'Real-time computing' — all technical and domain-specific, no affective/emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2944a20d5ab4f58e6a691bd36bfc6155b809ce0f724a835ababe87ab7a2a5fa2": {
+    "paper_id": "https://openalex.org/W4400351882",
+    "title": "Multimodal Graph Causal Embedding for Multimedia-Based Recommendation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:12.006Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on causal modeling of user interest and conformity in multimedia recommendation, with no mention of emotion, affect, sentiment, or related psychological constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical (e.g., 'causal embedding', 'multimodal content', 'recommendation')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c561c211f898eac52656af8ca0d480e78382abbd54367cf3d889c679ebb3226e": {
+    "paper_id": "https://openalex.org/W4406548643",
+    "title": "AugRefer: Advancing 3D Visual Grounding via Cross-Modal Augmentation and Spatial Relation-based Referring",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:12.175Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on 3D visual grounding, cross-modal augmentation, and spatial relations in AI/robotics vision — no mention or conceptual link to emotion, affective computing, or human emotional states.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes 'spatial relation', 'artificial intelligence', 'computer science', but not emotion, affect, sentiment, or psychology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "46817b4dcdeb95bdc06188c0d4157f47036e764a14b1b6ded22db7a456e34f34": {
+    "paper_id": "https://openalex.org/W4402660151",
+    "title": "Data-Free Quantization via Pseudo-label Filtering",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:12.175Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on data-free quantization in AI model compression, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Quantization, Computer science, Artificial intelligence, Pattern recognition (psychology), Algorithm — none relate to emotion; abstract contains no emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "916eaf21efe9cf1d88bbdfe38543311cb1000881b3943f9f2d0cb2be8762d6e7": {
+    "paper_id": "https://openalex.org/W4393178472",
+    "title": "Towards Understanding Future: Consistency Guided Probabilistic Modeling for Action Anticipation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:12.175Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on action anticipation in computer vision using probabilistic modeling and temporal consistency; no mention of emotion, affective states, or emotion-related constructs in title, abstract, or concepts.",
+      "evidence": [
+        "Concepts include 'Psychology' and 'Cognitive psychology', but these are generic and not linked to emotion in context; abstract exclusively discusses action prediction, temporal continuity, and probabilistic distributions."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0087ab49893308e8f772d0baa0ab17469f0a2cae557e7de1e2ba00ca88ff222d": {
+    "paper_id": "https://openalex.org/W4403998639",
+    "title": "Label-Anticipated Event Disentanglement for Audio-Visual Video Parsing",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:12.560Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "No mention of emotion, affect, or related psychological/behavioral constructs in title, venue, or listed concepts; focus is on audio-visual parsing and event disentanglement in AI/computer vision.",
+      "evidence": [
+        "Title contains no emotion-related terms; concepts list includes 'Computer vision', 'Artificial intelligence', 'Parsing', but no affective science terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "36827bdc53562fc46c6bfdf913f1dffe6b0f72f8a6fbb99bfcfb6b2caebc4d8a": {
+    "paper_id": "https://openalex.org/W4403791387",
+    "title": "MAC 2024: Micro-Action Analysis Grand Challenge",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:13.057Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper explicitly connects micro-action analysis to understanding human emotional states, positioning micro-actions as indicators of 'true feelings', directly aligning with the researcher's interest in emotion.",
+      "evidence": [
+        "a growing trend towards deeper understanding of human emotional states",
+        "Micro-actions are spontaneous body movements that indicate a person's true feelings and potential intentions"
+      ],
+      "keywords": [
+        "emotion",
+        "micro-actions",
+        "affective computing",
+        "nonverbal behavior",
+        "human-centered AI"
+      ],
+      "research_directions": [
+        "emotion recognition from subtle bodily cues",
+        "affective multimodal analysis",
+        "behavioral signal processing for affective states"
+      ]
+    }
+  },
+  "44655ef02da42ce51c82fa79f7cb7bae7625ec43b92dde85321da3119401e9aa": {
+    "paper_id": "https://openalex.org/W4403676886",
+    "title": "A Style and Attention Mechanism Based Generative Adversarial Neural Network (Style-Atten GAN) for Flute Music Composition",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:13.674Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper explicitly emphasizes 'expressiveness' and 'nuanced expressiveness of flute music', which are affective/emotional qualities in music; 'emotion' is a stated interest topic of the researcher, and expressiveness in generative music aligns with affective computing and emotion modeling in AI.",
+      "evidence": [
+        "fostering the production of compositions that are not only novel, but also rich in musicality and expressiveness",
+        "ability to capture the nuanced expressiveness of flute music",
+        "adherence to musical aesthetics"
+      ],
+      "keywords": [
+        "expressiveness",
+        "musicality",
+        "aesthetics",
+        "emotion in music",
+        "affective generation"
+      ],
+      "research_directions": [
+        "affective music generation",
+        "emotion-aware AI composition",
+        "expressive neural audio synthesis",
+        "affective computing in creative AI"
+      ]
+    }
+  },
+  "e6b314b1ce68454f2f0bc7e627b36292b8996fe94101711bd3782633b86cced8": {
+    "paper_id": "https://openalex.org/W4392972186",
+    "title": "Training A Small Emotional Vision Language Model for Visual Art Comprehension",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:13.798Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on modeling and predicting emotions in visual art comprehension using psychological emotion frameworks (VAD), aligning with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Title includes 'Emotional Vision Language Model'",
+        "Abstract states 'identify its emotion category and explain this prediction with natural language'",
+        "Uses valence-arousal-dominance (VAD) knowledge annotated by psychology experts"
+      ],
+      "keywords": [
+        "emotion",
+        "VAD",
+        "affective computing",
+        "vision-language models",
+        "emotional AI",
+        "art comprehension"
+      ],
+      "research_directions": [
+        "affective vision-language modeling",
+        "psychologically grounded emotion representation",
+        "small-model affective reasoning",
+        "explainable emotional AI"
+      ]
+    }
+  },
+  "e76ce400a053fd8d587b8d973d1e40e10fa98a8fde15e8f99da4bee63eea095d": {
+    "paper_id": "https://openalex.org/W4393154284",
+    "title": "Object-Aware Adaptive-Positivity Learning for Audio-Visual Question Answering",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:13.802Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on audio-visual question answering with object-level multimodal alignment and contrastive learning; no mention of emotion, affect, sentiment, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts and abstract contain no emotion-related terms or affective computing themes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "96b074dd94c7673d524782dafa44c4c1aa0a174abe08d588243f0d4c2cbbca56": {
+    "paper_id": "https://openalex.org/W4403713300",
+    "title": "AMTN: Attention-Enhanced Multimodal Temporal Network for Humor Detection",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:14.174Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "Humor detection is closely tied to affective states and emotional response; the paper's focus on cross-cultural humor detection using multimodal temporal modeling aligns with emotion-related computational research, especially in affective computing and sentiment/humor as emotional phenomena.",
+      "evidence": [
+        "The paper addresses humor detection — a well-established affective phenomenon linked to emotional appraisal and response.",
+        "It participates in MuSe (Multimodal Sentiment Analysis Challenge), which explicitly includes affective computing sub-challenges.",
+        "Use of attention-enhanced multimodal temporal modeling reflects methodologies common in emotion recognition from audio-visual-textual signals."
+      ],
+      "keywords": [
+        "humor detection",
+        "affective computing",
+        "multimodal emotion analysis",
+        "temporal modeling",
+        "cross-cultural affect"
+      ],
+      "research_directions": [
+        "Affective multimodal learning",
+        "Computational humor and emotion",
+        "Cross-cultural affective signal processing",
+        "Attention mechanisms for emotion-related temporal dynamics"
+      ]
+    }
+  },
+  "b1afb850550bfa5b8a73612fe883b3ea261a6d698bd4013590db0e6d3ba9aea1": {
+    "paper_id": "https://openalex.org/W4405627878",
+    "title": "Prototypical Calibrating Ambiguous Samples for Micro-Action Recognition",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:14.325Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper explicitly links micro-action recognition to emotion analysis as a core application domain, and the researcher's stated interest is 'emotion', making this highly relevant despite its primary focus on computer vision and AI methods.",
+      "evidence": [
+        "Abstract states: 'Micro-Action Recognition (MAR) has gained increasing attention due to its crucial role as a form of non-verbal communication in social interactions, with promising potential for applications in human communication and emotion analysis.'",
+        "Researcher's interest topic is 'emotion', and the paper positions MAR as a tool for emotion analysis."
+      ],
+      "keywords": [
+        "micro-action recognition",
+        "non-verbal communication",
+        "emotion analysis",
+        "prototypical learning",
+        "ambiguous sample calibration"
+      ],
+      "research_directions": [
+        "affective computing",
+        "behavioral signal processing",
+        "emotion recognition from body language",
+        "AI for social interaction analysis"
+      ]
+    }
+  },
+  "528faead5cd4d37d5d2f9b33b852bc3f56b911cf4fcaa49adb2bd39f10a801fb": {
+    "paper_id": "https://openalex.org/W4404056942",
+    "title": "Emotion Separation and Recognition From a Facial Expression by Generating the Poker Face With Vision Transformers",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:14.545Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion recognition from facial expressions, aligns with the researcher's stated interest in 'emotion', and employs novel methods for emotion separation and disentanglement — core affective computing tasks.",
+      "evidence": [
+        "Title explicitly includes 'Emotion Separation and Recognition'",
+        "Abstract states the goal is to 'separate and recognize the disturbance-agnostic emotion from a static facial image'",
+        "Method (PF-ViT) is designed to disentangle emotional vs. emotion-irrelevant facial components"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "facial expression",
+        "feature disentanglement",
+        "affective computing",
+        "vision transformers",
+        "poker face generation"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion representation learning",
+        "disentangled deep learning for affect",
+        "facial expression analysis",
+        "transformer-based emotion modeling"
+      ]
+    }
+  },
+  "e410a7b9fa0b767a34eb41d2e0fa78673b31cab01a84cd591b2388c2c06bbacc": {
+    "paper_id": "https://openalex.org/W4396941868",
+    "title": "Temporal Gated Face Alignment Network for Camera-Based Physiological Sensing",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:14.668Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on face alignment for physiological sensing, not emotion modeling or affective computing; 'emotion' is not present in title, concepts, or available abstract.",
+      "evidence": [
+        "Title and concepts emphasize computer vision and physiological sensing, not affective science"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "69702f511b07550cebfda621c38f2a52199a69f5cb389e8269879fcf344b7903": {
+    "paper_id": "https://openalex.org/W4389140516",
+    "title": "Graph Pooling Inference Network for Text-based VQA",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:14.699Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on graph-based reasoning for text-based visual question answering, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical AI/NLP/computer vision topics"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d55b576898f98ea8cf3e86c8f4b27e5f6345c246a45b29dfc5c699b63e12a8f2": {
+    "paper_id": "https://openalex.org/W4389459303",
+    "title": "Channel-Wise Interactive Learning for Remote Heart Rate Estimation From Facial Video",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:14.821Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on remote heart rate estimation using facial video and computer vision techniques; 'emotion' is not mentioned or implied in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Abstract discusses rPPG signal detection and physiological monitoring, with no reference to emotion, affect, or psychological states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "577ffc34672c584a8134932556ebe84cb04de3fc6f34f004104ddcdf5decaae0": {
+    "paper_id": "https://openalex.org/W4390544581",
+    "title": "Epidural Infusion of Dexmedetomidine Improves the Experience of Primiparas Undergoing Cesarean Section with Epidural Anesthesia: A Randomized Double‑Blinded Controlled Study",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:14.919Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on clinical anesthesia outcomes (pain scores, sedation scale, side effects) in cesarean delivery; 'emotion' is not addressed—neither as a measured construct, theoretical framework, nor outcome.",
+      "evidence": [
+        "No mention of emotional states, affective processing, mood, anxiety, fear, or emotion-related measures in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "325e9e244a82c381225107702934b6db1955e54b42c8b29f7c019f71a905ced0": {
+    "paper_id": "https://openalex.org/W4385825476",
+    "title": "ViGT: proposal-free video grounding with a learnable token in the transformer",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:14.971Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video grounding using transformer architecture, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are purely technical/computer vision/AI-focused; 'emotion' does not appear in title, venue, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "20741ebbf1adca3f85661d36faadc1ce577b2e8724e2c7ffc6c9f911fd39c3af": {
+    "paper_id": "https://openalex.org/W4386453561",
+    "title": "Exploring Sparse Spatial Relation in Graph Inference for Text-Based VQA",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:14.975Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on graph-based visual reasoning for TextVQA, with no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical/computer vision focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "eedf4dc44c42e824b63d9325175b5f72271459751923f181105d788418e05457": {
+    "paper_id": "https://openalex.org/W4392151720",
+    "title": "Seeking False Hard Negatives for Graph Contrastive Learning",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:14.977Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on graph contrastive learning, false hard negative sampling, and GNN optimization—technical topics in machine learning and computer vision—with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts include 'Computer science', 'Artificial intelligence', 'Pattern recognition (psychology)'—but the latter refers to perceptual/cognitive pattern recognition, not affective psychology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "00de29545ae5b4e157910687e54f33be5de19e0e80ea8f470fdd01108f437f6e": {
+    "paper_id": "https://openalex.org/W4385334056",
+    "title": "Efficiency optimization control of interior permanent magnet synchronous motor based on Adam algorithm",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:15.002Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on motor control optimization using the Adam algorithm and has no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract pertain to electrical engineering, control theory, and motor efficiency—no emotion-related terms or constructs appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "103f2abce32e644f8ef29a474a6e5cafc45e5e1591498748136d34e12eaadee7": {
+    "paper_id": "https://openalex.org/W4389098529",
+    "title": "Visual-linguistic-stylistic Triple Reward for Cross-lingual Image Captioning",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:15.058Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cross-lingual image captioning using visual, linguistic, and stylistic rewards; no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all rewards are semantic, fluency, and style-aligned—not affective."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "45b06db2361b9534a88d0ca5d6e5a3f8676d621bcb4b8b19126c0f8e9f945875": {
+    "paper_id": "https://openalex.org/W4388430673",
+    "title": "FedSH: Towards Privacy-Preserving Text-Based Person Re-Identification",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:15.111Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on privacy-preserving text-based person re-identification using federated learning; no mention of emotion, affective computing, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms or concepts; all concepts are technical (e.g., federated learning, feature learning, ReID)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8fa7969b408bed4801d1fbe41d13c7e62e79836ce436df4ed32550930dd611d7": {
+    "paper_id": "https://openalex.org/W4389463487",
+    "title": "Preparation and properties of polyester fibers with polyacrylamide hydrogel grafted by <scp>UV</scp>‐irradiation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:15.203Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a materials science study on UV-grafting polyacrylamide hydrogel onto polyester fibers; no connection to emotion, affective computing, psychology, or related domains.",
+      "evidence": [
+        "Title and abstract focus exclusively on polymer modification, hydrophilicity, grafting yield, and material characterization."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "edb1f804c112b14b5e1879d8061adb55918ead3f57fbd02679c5b321e8963b04": {
+    "paper_id": "https://openalex.org/W4385964683",
+    "title": "Data Augmentation for Human Behavior Analysis in Multi-Person Conversations",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:15.266Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on data augmentation and model generalization for bodily behavior, eye contact, and speaker prediction in multi-person conversations, with no mention of emotion recognition, affective states, or emotional processing.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are technical (Transformer, data augmentation, generalization)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bf0193ff88e04c7f7d44d6a4590254fc578e1976a74703d5af459c3df93d6cab": {
+    "paper_id": "https://openalex.org/W4386460347",
+    "title": "Asymptotically honest fiducial generalized inference: an application in autoregressive models",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:15.289Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical statistical methodology paper focused on fiducial inference for autoregressive models, with no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract contain no emotion-related terms; concepts are purely mathematical/statistical (e.g., 'fiducial', 'autoregressive', 'point estimation')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5a04e9273976d993d5dabc17ffa20ab41088b06eb91ac32ed284e33dd9c9db2b": {
+    "paper_id": "https://openalex.org/W4323663038",
+    "title": "Transformer-Based Visual Grounding with Cross-Modality Interaction",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:15.322Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on visual grounding using transformer architectures and cross-modality interaction for object localization, with no mention of emotion, affect, sentiment, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; 'Pattern recognition (psychology)' refers to perceptual pattern recognition, not affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e76143cfb871a271fcf8f64951eb4c3de536aff57143db152069dc5411c47bd0": {
+    "paper_id": "https://openalex.org/W4391697050",
+    "title": "Active Factor Graph Network for Group Activity Recognition",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:15.333Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on group activity recognition using factor graphs and third-order interaction modeling in computer vision; no mention of emotion, affective states, sentiment, or psychological affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes 'Pattern recognition (psychology)' but this refers to perceptual/cognitive pattern recognition, not affective psychology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b25492c1ccdec0e74439bfc66eff19fe01df731d91d8544fb344c808b669fabd": {
+    "paper_id": "https://openalex.org/W4387790929",
+    "title": "Proposal-free video grounding based on motion excitation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:15.415Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video grounding using motion excitation and multimodal alignment; no mention of emotion, affect, sentiment, or related psychological/linguistic constructs.",
+      "evidence": [
+        "The abstract and concepts exclusively discuss motion, action, video-text alignment, and multimodal feature representation—no emotion-related terms or affective phenomena appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "19096c713621df21c828994dbbf88e29e6bf4571e7450deb64fc8c746200d800": {
+    "paper_id": "https://openalex.org/W4327808327",
+    "title": "Multimodal Graph Contrastive Learning for Multimedia-Based Recommendation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:15.518Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multimodal graph learning for recommendation systems and addresses noise contamination in multimedia features, with no mention of emotion, affect, sentiment, or any affective constructs.",
+      "evidence": [
+        "Interest topics are 'emotion', but the paper's concepts and abstract center on recommender systems, graph learning, and multimedia information retrieval—no affective/emotion-related terms or goals appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4ef4147c129942bcd9e121290dd89ecdbf0c6bb396b531b8d6ac93e9cdb893da": {
+    "paper_id": "https://openalex.org/W4384643933",
+    "title": "Multimodal Counterfactual Learning Network for Multimedia-based Recommendation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:15.546Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on counterfactual learning and causal inference for recommendation systems, with no mention or conceptual link to emotion, affect, or affective science.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper concepts include 'Counterfactual thinking', 'Preference', 'User modeling', and 'Spurious relationship' — all within recommender systems and causal ML, not affective computing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4c4fed3ab83c143e67931fd68d6acdb18f99087a475065d93beebab75f3714f1": {
+    "paper_id": "https://openalex.org/W4390124504",
+    "title": "An Active Multi-Target Domain Adaptation Strategy: Progressive Class Prototype Rectification",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:15.752Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.85,
+      "reason": "The paper focuses on domain adaptation and class prototype rectification in AI/CS; 'emotion' is not present in title, concepts, or abstract, and 'Psychology' in concepts is generic and not linked to affective science.",
+      "evidence": [
+        "Concepts include 'Psychology' but no emotion-specific terms (e.g., affect, valence, arousal, sentiment)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c188d3bbfcffb2d35c47ca9b6925c2dd5460fec4070d666d117f3c2568340a05": {
+    "paper_id": "https://openalex.org/W4309660795",
+    "title": "Contrastive Positive Sample Propagation Along the Audio-Visual Event Line",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:16.264Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on audio-visual event localization and contrastive learning for discriminative feature representation, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all listed concepts are technical/computer vision/AI-focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8dfaf37a31aad79409c1521cc50fd65cb864ba0ce2a0488f24ab9d53fed14b81": {
+    "paper_id": "https://openalex.org/W4312956100",
+    "title": "Global Temporal Difference Network for Action Recognition",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:16.396Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on temporal modeling for action recognition in computer vision, with no mention of emotion, affect, sentiment, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts center on temporal difference networks, feature vectors, and action recognition; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "63638a56f080de237e16bdeea6b9f3137d2713b135b14905527f93e1631239a2": {
+    "paper_id": "https://openalex.org/W4387969035",
+    "title": "Emotion-Prior Awareness Network for Emotional Video Captioning",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:16.571Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is directly focused on emotion modeling in video captioning, aligning precisely with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Title: 'Emotion-Prior Awareness Network for Emotional Video Captioning'",
+        "Abstract emphasizes 'perceive subtle and ambiguous visual emotion cues' and 'inherent emotion expressed in a video'",
+        "Concepts include 'Emotion recognition' and 'Human–computer interaction'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "emotional video captioning",
+        "affective computing",
+        "multimodal emotion analysis",
+        "emotion-prior modeling"
+      ],
+      "research_directions": [
+        "Affective multimedia understanding",
+        "Emotion-aware natural language generation",
+        "Human-centered AI for emotional content description"
+      ]
+    }
+  },
+  "094e3e837b9d5b553ee3e28a0c9241265e7fb3357e7a9bcdf560b3059e07f6da": {
+    "paper_id": "https://openalex.org/W4387814911",
+    "title": "Exploiting Diverse Feature for Multimodal Sentiment Analysis",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:16.809Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly models arousal and valence—core dimensional constructs in emotion research—using multimodal signals to predict continuous emotional states, aligning precisely with 'emotion' as a stated interest topic.",
+      "evidence": [
+        "predict the continuous arousal and valence values",
+        "MuSe-Personalisation sub-challenge in the MuSe 2023 Multimodal Sentiment Analysis Challenge",
+        "arousal and valence CCC"
+      ],
+      "keywords": [
+        "arousal",
+        "valence",
+        "sentiment analysis",
+        "multimodal emotion recognition",
+        "continuous emotion prediction"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion modeling",
+        "personalized affective signal processing",
+        "dimensional emotion analysis"
+      ]
+    }
+  },
+  "33577d4ae2edf7706370368cae2a714433e344337006fa678085325f82e8d67e": {
+    "paper_id": "https://openalex.org/W4391216149",
+    "title": "Benchmarking Micro-Action Recognition: Dataset, Methods, and Applications",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:16.912Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper explicitly links micro-action recognition to emotion recognition and psychological assessment, with direct application to emotion understanding; 'emotion' is a stated interest topic of the researcher.",
+      "evidence": [
+        "Micro-action is an imperceptible non-verbal behaviour characterised by low-intensity movement. It offers insights into the feelings and intentions of individuals...",
+        "In the extended application in emotion recognition has demonstrated one of the important values of our proposed dataset and method.",
+        "accounting for 205 participants and 22,422 video instances collated from the psychological interviews."
+      ],
+      "keywords": [
+        "emotion recognition",
+        "micro-action",
+        "non-verbal behavior",
+        "psychological assessment",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware AI",
+        "behavioral signal analysis",
+        "human-centered computer vision",
+        "multimodal emotion inference"
+      ]
+    }
+  },
+  "b54d1eddff918574a0db8a274989dd65f58487b47b54f4ed0dcdf9823a77580c": {
+    "paper_id": "https://openalex.org/W4391454521",
+    "title": "Emotional Video Captioning With Vision-Based Emotion Interpretation Network",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:16.920Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.98,
+      "confidence": 0.99,
+      "reason": "The paper explicitly focuses on modeling, predicting, and generating language that conveys emotions in video captioning, directly aligning with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Title contains 'Emotional Video Captioning' and 'Vision-Based Emotion Interpretation Network'",
+        "Abstract states: 'we design a Vision-based Emotion Interpretation Network to effectively capture the emotions conveyed in videos'",
+        "Abstract emphasizes 'emotional state prediction', 'emotion-fact coordinated optimization', and 'emotional representation learning'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "affective computing",
+        "emotional language generation",
+        "video captioning",
+        "multimodal emotion modeling"
+      ],
+      "research_directions": [
+        "affective multimedia understanding",
+        "emotion-aware natural language generation",
+        "vision-language models with affective components"
+      ]
+    }
+  },
+  "20198d0bca27a648d4479ae4f2899cb1ac78c3696867706f1d6728e743417a58": {
+    "paper_id": "https://openalex.org/W4304083193",
+    "title": "Early-Learning regularized Contrastive Learning for Cross-Modal Retrieval with Noisy Labels",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:17.027Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cross-modal retrieval with noisy labels and technical solutions like contrastive learning and regularization; no mention or conceptual link to emotion, affect, or affective computing.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper concepts and abstract contain no emotion-related terms, tasks, or applications."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "870deb075c9ed31e06565cff45ce7d69e76737c3ac8ae27cdff2a1054f4e13e7": {
+    "paper_id": "https://openalex.org/W4306816392",
+    "title": "Clinical photoacoustic/ultrasound dual-modal imaging: Current status and future trends",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:17.071Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on clinical photoacoustic/ultrasound dual-modal imaging technology and biomedical applications, with no mention or conceptual link to emotion, affective science, or human affective states.",
+      "evidence": [
+        "All concepts and the abstract pertain to medical imaging physics and engineering; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ee8c1ad3b5719540774339e959269bcd328446ba77702c8c7e827935a7726d8a": {
+    "paper_id": "https://openalex.org/W4297226993",
+    "title": "Spatiotemporal contrastive modeling for video moment retrieval",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:17.518Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video moment retrieval using spatiotemporal contrastive modeling, with concepts rooted in computer science, AI, and physics—no indication of emotion or affective computing.",
+      "evidence": [
+        "Concepts: Computer science, Moment (physics), Artificial intelligence, Information retrieval, Physics, Classical mechanics"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b74b43cc1636125d34843f03172f0df5535613b258e7a31cb63bebb3b83957f4": {
+    "paper_id": "https://openalex.org/W4304014869",
+    "title": "Gloss Semantic-Enhanced Network with Online Back-Translation for Sign Language Production",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:17.590Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sign language production, gloss-to-pose translation, and pose generation using transformer-based architectures; no mention of emotion, affective states, or emotional processing.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes 'Gloss (optics)', 'Computer science', 'Artificial intelligence', etc., but no affective/emotion concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e924b94d9ffff90bbcc7275186cc4f48a824a97b177e594a5f5a65f79d43f72a": {
+    "paper_id": "https://openalex.org/W4282549812",
+    "title": "MEGCF: Multimodal Entity Graph Collaborative Filtering for Personalized Recommendation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:17.749Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on multimodal recommendation systems and graph-based collaborative filtering, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes 'Human–computer interaction' but not affective computing or emotion modeling"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5524e1650135434d05055d60585c4aeed6bc9c8911efeec9e9bcebf159a80d29": {
+    "paper_id": "https://openalex.org/W4386799620",
+    "title": "A Study on the Present Status of the Social Mentality among Primary and Secondary School Teachers in Anshan",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:17.826Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper investigates 'social mentality' among teachers—a construct deeply intertwined with emotional states, affective well-being, and psychological functioning—and explicitly links it to job satisfaction, self-efficacy, and job involvement—core affective and motivational variables in emotion research.",
+      "evidence": [
+        "'Social mentality' is a socio-affective construct reflecting collective emotional dispositions and attitudes",
+        "Job satisfaction is a well-established affective outcome in emotion and organizational psychology",
+        "General self-efficacy and job involvement are emotion-adjacent regulatory and motivational constructs"
+      ],
+      "keywords": [
+        "social mentality",
+        "job satisfaction",
+        "self-efficacy",
+        "job involvement",
+        "affective well-being",
+        "teacher emotion"
+      ],
+      "research_directions": [
+        "Affective dimensions of occupational social psychology",
+        "Emotion regulation in educational professionals",
+        "Linking social mentality to discrete emotions and mood states",
+        "Cross-cultural affective assessment in teacher populations"
+      ]
+    }
+  },
+  "ce7a897af52e1b3bd1d5726a5298181a6dbc51c149908c947455473f61bc00f1": {
+    "paper_id": "https://openalex.org/W4282920689",
+    "title": "Memorial GAN With Joint Semantic Optimization for Unpaired Image Captioning",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:18.122Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unpaired image captioning using generative adversarial networks and semantic optimization, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are technical (e.g., 'multimodal semantic-aware space', 'GAN', 'sentence reconstruction')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a112db405bf0eaa13b6dedb035d32a28601efb87466dd89192262e070438c5ad": {
+    "paper_id": "https://openalex.org/W4313123347",
+    "title": "Audio–Visual Segmentation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:18.132Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on audio-visual segmentation, a technical computer vision and AI task with no explicit connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Segmentation', 'Computer vision', 'Audio visual', and 'Benchmark'—all technical, non-affective domains."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3c75af6ef907f2f3f31ec94adf23d8343de187c2d4266b7fb27ef82ec6e1de7a": {
+    "paper_id": "https://openalex.org/W4225659937",
+    "title": "Differentiated Attention with Multi-modal Reasoning for Video Question Answering",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:18.164Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video question answering using differentiated attention and multi-modal reasoning; no mention of emotion, affect, sentiment, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical (e.g., attention mechanism, bilinear pooling, video clips)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "27cbcd3c9d488c40294faf061a851f493cef776b6709d057c9f588b7c3f7d303": {
+    "paper_id": "https://openalex.org/W4226368340",
+    "title": "Joint Multi-Grained Popularity-Aware Graph Convolution Collaborative Filtering for Recommendation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:18.248Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on graph convolutional collaborative filtering and popularity-aware recommendation; 'emotion' is not addressed in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Concepts include Psychology but no mention of emotion, affect, sentiment, or related constructs; abstract discusses popularity, user preferences, and graph learning—not emotional states or affective processes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "072fca701c8834dbcc2d0677c1c3ff97ae90c2351444522fb1ec23eb2862dcfe": {
+    "paper_id": "https://openalex.org/W4220663529",
+    "title": "LCSNet: End-to-end Lipreading with Channel-aware Feature Selection",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:18.300Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on lipreading and speech-to-text decoding using computer vision and deep learning; no mention of emotion, affective states, or affective computing.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; concepts include speech recognition, feature selection, and pattern recognition (psychology) — the latter refers to perceptual/cognitive pattern recognition, not affective psychology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d60ab8688492aab06d88c164e9566cb301c767cd1974733cd80710e2a1f20bf2": {
+    "paper_id": "https://openalex.org/W3207847779",
+    "title": "Pairwise VLAD Interaction Network for Video Question Answering",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:18.372Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video question answering using VLAD encoding and pairwise interaction modeling; no mention of emotion, affect, sentiment, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively cover computer vision, NLP, and multimodal reasoning—no emotion-related terms or tasks."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "63d2eaec6fd336d92885a27ecd6d852da058a3271f42434b927b000f81e0c42d": {
+    "paper_id": "https://openalex.org/W4214815931",
+    "title": "Evaluation of Tracheal Stenosis in Rabbits Using Multispectral Optoacoustic Tomography",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:18.441Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper is a biomedical imaging study focused on tracheal stenosis in rabbits, with no conceptual, methodological, or terminological connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract pertain to medical imaging, histology, and respiratory pathology; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1c33f31d31e2a273adf38b5a95d0728f1044a1288a6d25a4b1592a698d1af8e8": {
+    "paper_id": "https://openalex.org/W4206115076",
+    "title": "Visual feature synthesis with semantic reconstructor for traditional and generalized zero‐shot object classification",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:18.445Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on zero-shot learning, generative adversarial networks, and semantic-visual feature alignment; no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical AI/ML topics (e.g., 'semantic embedding', 'Wasserstein GAN', 'visual feature synthesis')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9ab411056278f81ee3940254f847e5270f3383412cfaf206e037306dcbb63720": {
+    "paper_id": "https://openalex.org/W3170662127",
+    "title": "DDFPN: Context enhanced network for object detection",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:18.458Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on object detection in computer vision using a context-enhanced neural network; no connection to emotion or affective science is indicated by title, venue, concepts, or metadata.",
+      "evidence": [
+        "Title: 'DDFPN: Context enhanced network for object detection'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d05d26a8f5975d777759943d20f75fd9fca6d63834f29af95c3eb245a9c25b8f": {
+    "paper_id": "https://openalex.org/W4403249699",
+    "title": "Cross-lingual image captioning based on semantic matching and language evaluation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:18.615Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cross-lingual image captioning using semantic matching and language evaluation, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper's abstract, concepts, and methodology center on NLP, computer vision, and evaluation metrics—not affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3e00c3e5588743ce27304acdfbb00fe8233dc67b4b0a4884eb3c2a24a5bdf39b": {
+    "paper_id": "https://openalex.org/W3165695488",
+    "title": "Context-Aware Graph Inference With Knowledge Distillation for Visual Dialog",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:18.648Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on visual dialog, graph neural networks, and knowledge distillation for relational inference; 'emotion' is not mentioned in title, abstract, or concepts.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes 'Computer science', 'Inference', 'Dialog box', etc., but no affective/emotion constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "506024092d40fa1b38045c36bbb30edf3b400e4199c53dcb6707b0a8982c818c": {
+    "paper_id": "https://openalex.org/W4210280907",
+    "title": "[Retracted] Analysis of Performance Evaluation Model for Higher Education Informatization by Means of PLS‐BP Model",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:18.709Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on a technical performance evaluation model for higher education informatization using PLS-BP neural networks, with no mention or conceptual link to emotion, affective science, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts contain only technical terms: 'PLS', 'BP neural network', 'informatization', 'evaluation methods'; no emotion-related terms appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "435c217d450b653520b4e19cab0ffa1c0a435acf7945df92e5e86111e624fc1b": {
+    "paper_id": "https://openalex.org/W3201845447",
+    "title": "Sign Language Recognition",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:18.732Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sign language recognition using technical machine learning methods; no explicit connection to emotion or affective computing is indicated by title, concepts, or available metadata.",
+      "evidence": [
+        "Concepts include 'Recurrent neural network', 'Gesture', 'Speech recognition' — all technical/computational, with no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f44ad6b11b79f44c992be91bec22bab20018476ee41f21e651bd32ece9ad4b91": {
+    "paper_id": "https://openalex.org/W4205242444",
+    "title": "Construction and Simulation of a Strategic HR Decision Model Based on Recurrent Neural Network",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:18.799Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on HR strategic decision modeling using RNNs and BP neural networks, with no mention of emotion, affect, sentiment, or related psychological constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical/computational (e.g., 'RNN', 'BP neural network', 'gray correlation analysis', 'HR strategic decision-making')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "457a20a2a13034d5396af98ff446db117ae6c2fc34158681edfe0ce6e9afc3cb": {
+    "paper_id": "https://openalex.org/W3176201273",
+    "title": "Proposal-Free Video Grounding with Contextual Pyramid Network",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:18.954Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video grounding and temporal correlation modeling using a pyramid network; no mention of emotion, affect, sentiment, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all concepts are technical/computer vision focused (e.g., 'temporal correlation', 'regression', 'pyramid network')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "daee397876c648e156cb00200748e55e8fbc2987c40a5c1f604ae7e9faba269c": {
+    "paper_id": "https://openalex.org/W4281646123",
+    "title": "Micro-expression recognition with attention mechanism and region enhancement",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:19.127Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on micro-expression recognition, which is a core subfield of emotion analysis in affective computing; 'emotion' is explicitly listed as the researcher's interest topic.",
+      "evidence": [
+        "Title contains 'Micro-expression recognition'",
+        "Researcher's interest topic is 'emotion'",
+        "Concepts include 'Facial expression' and 'Pattern recognition (psychology)'"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "facial expression",
+        "attention mechanism",
+        "region enhancement"
+      ],
+      "research_directions": [
+        "affective computing",
+        "nonverbal emotion analysis",
+        "deep learning for emotion detection",
+        "robust facial behavior understanding"
+      ]
+    }
+  },
+  "7424d7c477f831fe24d3446a05f603850315fb5a1df85895f86bdac47147b98f": {
+    "paper_id": "https://openalex.org/W3208444478",
+    "title": "The Distribution of Teaching Staff in Colleges and Universities based on Neuropsychology",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:19.297Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on faculty distribution modeling using neuropsychology as a nominal contextual anchor, but contains no emotion-related constructs, measures, or analysis; 'emotion' is absent from title, abstract, concepts, and methodology.",
+      "evidence": [
+        "Abstract and concepts emphasize genetic algorithms, neural networks, and resource distribution—no mention of emotion, affect, sentiment, or related psychological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0fbcaed80d42d773ee9082076901318dd5c8842f365d8a7fa011d979d55b5556": {
+    "paper_id": "https://openalex.org/W4411244713",
+    "title": "Distilling Dynamic Spatial Relation Network for Human Pose Estimation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:19.306Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on human pose estimation using spatial relation networks, which is a computer vision and AI engineering task with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Computer science', 'Spatial relation', 'Estimation', 'Artificial intelligence' — none relate to emotion or affective processes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "34da3c6e5803b8c00e9fb3ad00025a9f66824c4733c55fe8b6deaf638fa2604d": {
+    "paper_id": "https://openalex.org/W3109476184",
+    "title": "AOPNet: Anchor Offset Prediction Network for Temporal Action Proposal Generation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:19.521Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on temporal action proposal generation in video understanding using anchor offset prediction; no mention of emotion, affective computing, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively reference computer vision, machine learning, and temporal modeling—no emotion-related terms or applications."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "eebe178f889fdb8a77c0c80cd40cd60e2886e35ab66543dcfed6a3aed07e2b53": {
+    "paper_id": "https://openalex.org/W3034493371",
+    "title": "Recurrent Relational Memory Network for Unsupervised Image Captioning",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:19.579Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unsupervised image captioning using a memory-based neural architecture; no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract and concepts list contain no emotion-related terms; all topics are technical/computer vision focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a7c2d20083c0a06578db71e38db334f3f1030a6c012edd5f46ad5e340a9c541c": {
+    "paper_id": "https://openalex.org/W3159936774",
+    "title": "Classification for Time Series of Aerospace Targets with Deep Convolutional Neural Networks",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:19.840Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on aerospace target classification using deep learning for radar time-series analysis; no content relates to human emotion, affective computing, or psychological emotion modeling.",
+      "evidence": [
+        "Concepts include Aerospace, Radar, Convolutional neural network — all technical/engineering; 'Pattern recognition (psychology)' is listed but not substantiated in abstract and is likely a misaligned concept tag."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8848b2d81168d452ee0428b21060318a559f727ce329615c07fb682fdfd0a12e": {
+    "paper_id": "https://openalex.org/W3034291519",
+    "title": "Iterative Context-Aware Graph Inference for Visual Dialog",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:19.889Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on graph-based relational inference for visual dialog, with no mention of emotion, affect, sentiment, or any affective constructs in title, concepts, or abstract.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes only technical AI/NLP topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c94bc892825aace556b8db77582bee58d0616e5697772c003681d6cf184c7e7e": {
+    "paper_id": "https://openalex.org/W4285200050",
+    "title": "Contextual Attention Network for Emotional Video Captioning",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:19.933Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.99,
+      "reason": "The paper explicitly focuses on emotional video captioning, directly aligning with the researcher's interest topic 'emotion'. It introduces a model (CANet) designed to detect and describe emotional clues in videos, supported by emotion-specific datasets and loss functions.",
+      "evidence": [
+        "Title: 'Contextual Attention Network for Emotional Video Captioning'",
+        "Abstract states: 'given a video, the task aims to not only describe the factual content... but also discover the emotional clues in the video'",
+        "Uses emotion-specific datasets: EmVidCap and EmVidCap-S"
+      ],
+      "keywords": [
+        "emotional video captioning",
+        "affective computing",
+        "emotion recognition",
+        "contextual attention",
+        "contrastive learning",
+        "multimodal emotion analysis"
+      ],
+      "research_directions": [
+        "Affective multimodal understanding",
+        "Emotion-aware natural language generation",
+        "Video-based affective computing",
+        "Joint semantic and emotional modeling"
+      ]
+    }
+  },
+  "60999f02428b2c43a03c1b672a06592446012dfceb1e35722798b8fca5e90b2f": {
+    "paper_id": "https://openalex.org/W3204447181",
+    "title": "Graph-Based Multimodal Sequential Embedding for Sign Language Translation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:19.957Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sign language translation using graph-based multimodal sequential embedding, with no mention of emotion, affect, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are technical (e.g., 'graph', 'embedding', 'natural language processing')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "df975848275a0e5cd889a187605c9806d10eee6ee354691a76ea70457e5bd45d": {
+    "paper_id": "https://openalex.org/W3028627856",
+    "title": "Shuffle Scheduling for MapReduce Jobs Based on Periodic Network Status",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:20.400Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on network-aware scheduling optimization for MapReduce shuffle phases in distributed computing, with no conceptual, methodological, or empirical connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: 'Job shop scheduling', 'Distributed computing', 'Approximation algorithm' — all technical and systems-oriented"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6db1a7b772778a3aecdb740a8178738737e82ea73c5cea5cbc6d8a9a4143dd2f": {
+    "paper_id": "https://openalex.org/W2982021328",
+    "title": "DADNet",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:20.555Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on crowd counting using dilated attention and deformable convolutions in computer vision; no mention of emotion, affect, or psychological/behavioral affective constructs.",
+      "evidence": [
+        "Concepts include 'Computer vision', 'Convolutional neural network', 'Segmentation', 'Robustness'; abstract discusses density map estimation, not emotion-related modeling or analysis."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "de4b908c08dce7213516cb6537356664738e65c15b954dd97b626703df0d4ddd": {
+    "paper_id": "https://openalex.org/W3027560576",
+    "title": "Textual-Visual Reference-Aware Attention Network for Visual Dialog",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:20.555Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on visual dialog modeling and multimodal attention mechanisms, with no mention of emotion, affect, or related psychological/linguistic constructs.",
+      "evidence": [
+        "Interest topics specify 'emotion', but the paper's abstract, concepts, and methodology center on computer vision, natural language processing, and interpretability in visual dialog—no emotion-related terms, tasks, or metrics appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ab7f1ff5cc9823dc52939dd98855f46533a89cf2b5ca0427d9043da96a22b660": {
+    "paper_id": "https://openalex.org/W2981449102",
+    "title": "Continuous Sign Language Recognition Based on Pseudo-supervised Learning",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:20.555Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on continuous sign language recognition using pseudo-supervised learning and computer vision techniques, with no mention or conceptual link to emotion, affective computing, or psychological emotion modeling.",
+      "evidence": [
+        "Concepts include Computer science, Artificial intelligence, Convolutional neural network, Feature learning — all technical; no emotion-related terms in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f0b64009ff8421715989b878894c128043cd1c5c089710c3d9fe2294d07cab20": {
+    "paper_id": "https://openalex.org/W2975231468",
+    "title": "Hierarchical Recurrent Deep Fusion Using Adaptive Clip Summarization for Sign Language Translation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:20.861Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sign language translation using computer vision and sequence modeling; 'emotion' is not addressed in title, abstract, concepts, or methodology.",
+      "evidence": [
+        "Abstract mentions facial expressions only as part of sign linguistics variation, not as affective/emotion targets; no emotion-related terms or goals appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6cd41f4d5bbcc25ec7fc722c3df5953de745dbe12118d4321d0fc82118e836d0": {
+    "paper_id": "https://openalex.org/W2967513960",
+    "title": "AN OPTIMIZATION APPROACH BASED ON IMPROVED ARTIFICIAL BEE COLONY ALGORITHM FOR LOCATION AND CAPACITY OF GRID-CONNECTED PHOTOVOLTAIC SYSTEMS",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:20.862Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is entirely focused on optimization of photovoltaic system placement using computational algorithms; no content relates to emotion or affective science.",
+      "evidence": [
+        "Title and abstract contain only technical terms from power systems and optimization algorithms; 'emotion' appears zero times."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6cb8b02effa8531e7639664abde251e2dc6097b199c04b9c3dd1671de3d599f0": {
+    "paper_id": "https://openalex.org/W2981763149",
+    "title": "Semantic Enhanced Encoder-Decoder Network (SEN) for Video Captioning",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:21.068Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video captioning using encoder-decoder architectures and reinforcement learning for semantic reward computation, with no mention of emotion modeling, affective computing, or emotional content analysis.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts list includes 'Encoder', 'Decoding methods', 'Artificial intelligence', but not emotion, affect, sentiment, or related terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "195cd56cf655bca9cc367bd77f8d82a00e646c8d4050c767ca69a7250c7e9f8d": {
+    "paper_id": "https://openalex.org/W2970472242",
+    "title": "Parallel Temporal Encoder For Sign Language Translation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:21.071Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sign language translation using temporal encoding and CTC-based decoding; no mention of emotion recognition, affective computing, or emotional content in sign language.",
+      "evidence": [
+        "Concepts include 'Sign language', 'Encoder', 'Speech recognition', but not 'emotion', 'affect', 'sentiment', or related terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "55079fd775d9b6ccba50991e61e776118db97450260af76b26f8512e9fcf3889": {
+    "paper_id": "https://openalex.org/W2947115678",
+    "title": "Teaching Analysis of Cross-university Elective Courses Based on TRIZ Theory—\"Analog Electronic Technology\" Course as an Example",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:21.230Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on engineering education reform using TRIZ theory and does not address emotion, affective processes, or psychological dimensions of learning.",
+      "evidence": [
+        "Interest topics are 'emotion', but paper concepts and abstract contain no emotion-related terms or constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "83f7c7c690c88201d80c22fd34617e77fbff79e21f7140e459a6551a25cc3c71": {
+    "paper_id": "https://openalex.org/W2966158321",
+    "title": "Dual Visual Attention Network for Visual Dialog",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:21.367Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on visual dialog and cross-modal attention mechanisms in AI, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are technical (e.g., 'visual attention', 'semantic correlation', 'dialog box')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bf9e05e526f7430fc2330940dee89272d6b7ab9c63bfd431863f07e562316e57": {
+    "paper_id": "https://openalex.org/W2941271153",
+    "title": "Unsupervised video summarization via clustering validity index",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:21.380Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unsupervised video summarization using clustering validity index, with no mention or conceptual link to emotion or affective computing.",
+      "evidence": [
+        "Concepts include automatic summarization, cluster analysis, and robustness—none relate to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b6450ad0cfc9f2f45c2b787c730dfcf596d21e8bb1b35ec7b2f40599c75984bb": {
+    "paper_id": "https://openalex.org/W2944707531",
+    "title": "Speedy and accurate image super‐resolution via deeply recursive CNN with skip connection and network in network",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:21.415Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on image super-resolution using deep CNN architectures; no mention of emotion, affective computing, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all concepts are computer vision/AI technical terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "709464ef26d72fc456a9990862d6da6bae3f57e16415365b94afb010216fda49": {
+    "paper_id": "https://openalex.org/W2965778995",
+    "title": "Dense Temporal Convolution Network for Sign Language Translation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:21.464Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sign language translation using temporal convolution networks and has no mention or conceptual link to emotion, affective computing, or related psychological/linguistic dimensions of emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical (e.g., TCN, CTC loss, SLT, NLP)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "646966ada0a014b222dd1f16aa5ed663bfbd2c60f5005650f77fcfcea62b6dc4": {
+    "paper_id": "https://openalex.org/W2810656137",
+    "title": "Capacity-Constrained Contraflow Adaption for Lane Reconfiguration in Evacuation Planning",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:21.487Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on traffic evacuation optimization using contraflow reconfiguration and mathematical heuristics, with no mention of emotion, affective states, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are in transportation engineering and algorithmic optimization."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9f22ca0a222fd4d76f0139dcabbe7f2f950aed4ff736fa2fa5a23262d5ee67b0": {
+    "paper_id": "https://openalex.org/W2788334925",
+    "title": "Hierarchical LSTM for Sign Language Translation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:21.697Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sign language translation using hierarchical LSTM and computer vision techniques, with no mention of emotion, affective states, or psychological affective processes.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, mood, or affective computing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "94b4f7893d7c057104e0b035e48360fdcd36a187dbe3f3b0f9054da2e740c53b": {
+    "paper_id": "https://openalex.org/W2964452558",
+    "title": "Connectionist Temporal Modeling of Video and Language: a Joint Model for Translation and Sign Labeling",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:21.697Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sign language translation and labeling using connectionist temporal modeling; no mention of emotion, affect, sentiment, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are technical (e.g., CNN, dynamic programming, sign labeling, sentence translation)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c63386199ef56d4ade108a179fc50a7e308d1f8798a8797ac8482e6aeaa4aacd": {
+    "paper_id": "https://openalex.org/W2776541261",
+    "title": "Online Early-Late Fusion Based on Adaptive HMM for Sign Language Recognition",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:21.832Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sign language recognition using adaptive HMM and multimodal fusion techniques; no mention of emotion, affective states, or psychological affective processes.",
+      "evidence": [
+        "Abstract contains no terms related to emotion, affect, sentiment, mood, or affective computing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4341922a723fc473b66126a6a0a6e9219b3c77c5153f7dd30e68f56b062b30f1": {
+    "paper_id": "https://openalex.org/W2896487916",
+    "title": "Connectionist Temporal Fusion for Sign Language Translation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:21.857Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sign language translation using deep learning architectures and temporal fusion mechanisms, with no mention of emotion, affective states, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all concepts are technical/computational (e.g., 'Connectionism', 'Feature engineering', 'CTC loss')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "70bf77c010df232326fb0fb6afb6e40f71b1162f6b925ac89447bad861334b33": {
+    "paper_id": "https://openalex.org/W2962529143",
+    "title": "Cross-Modality Retrieval by Joint Correlation Learning",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:21.973Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cross-modality retrieval using joint correlation learning for image-sentence matching, with no mention of emotion, affect, sentiment, or related psychological or affective constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all listed concepts are technical/computational (e.g., embedding, feature learning, pattern recognition in psychology context refers to perceptual/cognitive patterns, not affective ones)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "62c4efca6071548f7de12a6d3f925ae6c4b6910080be101b31a737280f13f450": {
+    "paper_id": "https://openalex.org/W2883660999",
+    "title": "Cultivation of English Teaching Ability for Preschool Students of English Education Major",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:21.973Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on pedagogical training for preschool English teachers and does not address emotion, affective processes, or emotion-related constructs.",
+      "evidence": [
+        "Abstract mentions 'teaching ability', 'training content', and 'professional teaching skills' with no reference to emotion, affect, or psychological affective dimensions."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "17017ac336b88a949def6134bbdbbd7affd4c10fd7b4d4e8b13492a939954f6f": {
+    "paper_id": "https://openalex.org/W2741327208",
+    "title": "Research on complex network layout algorithm based on grid point matching method",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:22.109Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on graph drawing and grid-based layout algorithms for complex networks, with no mention of emotion, affective processes, or psychological/behavioral constructs related to emotion.",
+      "evidence": [
+        "Title and abstract exclusively discuss computational layout algorithms, clustering, and network visualization metrics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5d2e45ace29c57ba9536330a3b43abe1eb71e1442dc452496fc50f5b6bacd16a": {
+    "paper_id": "https://openalex.org/W3029139714",
+    "title": "Implementation and management of clinical research training",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:22.109Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on clinical research training, medical education, and translational medicine with no mention of emotion, affective processes, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are biomedical/educational."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "61088bf87a4684f77311e7f29eff25d45ea4f6026877e224c37af6847635e5ce": {
+    "paper_id": "https://openalex.org/W2939363363",
+    "title": "Piecewise-recursive Convolutional Network for Fast and Accurate Face Image Super-resolution",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:22.407Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face image super-resolution using deep learning techniques, with no mention of emotion, affect, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are computer vision/AI technical"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a327b97f98abff2350b61eea7791de82eec9004bbcab20a6f7143b08e5bc44bc": {
+    "paper_id": "https://openalex.org/W2568536509",
+    "title": "Improved marching tetrahedra algorithm based on hierarchical signed distance field and multi-scale depth map fusion for 3D reconstruction",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:22.407Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on geometric 3D reconstruction algorithms and has no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are exclusively computer graphics/geometry-related (e.g., 'marching tetrahedra', 'signed distance field', 'isosurface')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e8b4d29116e868e160d109036539086f882607c6f4a9e6f15a4c3cdda44f77ba": {
+    "paper_id": "https://openalex.org/W2810211967",
+    "title": "Contraflow-constrained evacuation route planning",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:22.407Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on algorithmic optimization for evacuation routing using network flow and graph algorithms; no mention of emotion, affective states, psychological factors, or human-centered affective modeling.",
+      "evidence": [
+        "Concepts include Dijkstra's algorithm, flow network, mathematical optimization — all technical/computational; abstract discusses traffic control, capacity constraints, and evacuation time — no affective/emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d02f493477eaf161f2821a999b2575c50b3696d7c8ba22257bcaed3ab989b61e": {
+    "paper_id": "https://openalex.org/W2750441000",
+    "title": "Study on the Reform of Computer Practice Teaching",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:22.440Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computer practice teaching reform in education, with no mention of emotion, affective processes, or related psychological constructs.",
+      "evidence": [
+        "Abstract discusses pedagogical reform, student creativity, and social adaptation—no emotional or affective terminology"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f61cad3d7790026db6ff6cdff84a4b6c3fd49779a59042e710ef8b6ab5b9a0bd": {
+    "paper_id": "https://openalex.org/W2515446175",
+    "title": "Sign language recognition based on adaptive HMMS with data augmentation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:22.904Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sign language recognition using HMMs and data augmentation, with no mention of emotion, affect, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts center on gesture recognition, HMMs, pattern recognition (technical), and vocabulary—no affective/emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cbfabe3e7fb23d4c821a81bc87067fa116a0af125e29c141c65949f9f9e78579": {
+    "paper_id": "https://openalex.org/W2521204033",
+    "title": "Optimal Configuration PV System Grid Connection based on the Minimum Transmission Loss",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:23.078Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on photovoltaic grid integration optimization using algorithms and power system engineering metrics; no mention or conceptual link to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Title and abstract exclusively address transmission loss, voltage improvement, load flow, and PV system configuration"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9f0882a7c896d95cba94f0c3ebc23170e0613bbb73fd90767d33efba45f730f3": {
+    "paper_id": "https://openalex.org/W2270175440",
+    "title": "Motion-compensated frame interpolation with weighted motion estimation and hierarchical vector refinement",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:23.078Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on motion estimation and frame interpolation in computer vision, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are strictly technical and related to video processing and AI"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a205dcb3e1e5a9e545e881fe558223a294038def14dedb693e75dcc841d453e6": {
+    "paper_id": "https://openalex.org/W2594852003",
+    "title": "Co-occurrence pattern mining based on a biological approximation scoring matrix",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:23.087Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on co-occurrence pattern mining using a biological approximation scoring matrix, with concepts rooted in pattern recognition (in a computational/biological context), chemistry, and AI—no indication of emotion, affective science, or psychological emotion modeling.",
+      "evidence": [
+        "Concepts include 'Pattern recognition (psychology)' but this refers to the psychology-inspired computational method, not emotion research; no emotion-related terms appear in title, venue, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e2fdeae9435e5cc142e0f89ce32d2419945043677f5ae8e97f1f027641299718": {
+    "paper_id": "https://openalex.org/W2593134483",
+    "title": "Frequent Pattern Mining Based on Approximate Edit Distance Matrix",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:23.251Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on algorithmic frequent pattern mining in bioinformatics sequences using edit distance and pruning techniques; no connection to emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Abstract contains no mention of emotion, affect, sentiment, behavior, psychology, or related terms; all concepts are computational/data-mining focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2d18c9d6119266c7f7de2dfdc7fe7bd93bca70d00d984d430075a06d85b1f571": {
+    "paper_id": "https://openalex.org/W2409013668",
+    "title": "Parametric and nonparametric residual vector quantization optimizations for ANN search",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:23.251Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical optimizations in approximate nearest neighbor search using vector quantization, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Vector quantization', 'Singular value decomposition', and 'Linde–Buzo–Gray algorithm' — all signal processing/machine learning engineering topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e5f194e5632f854f3506fe73567133e12a8590e063f66a29a03aafefc6e354c4": {
+    "paper_id": "https://openalex.org/W2592345105",
+    "title": "Max-Flow Rate Priority Algorithm for Evacuation Route Planning",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:23.428Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mathematical optimization and heuristic algorithms for evacuation route planning; no mention of emotion, affective states, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Concepts include 'Flow network', 'Mathematical optimization', 'Route planning'; abstract discusses 'evacuee stream' and 'capacity constraints', not emotional responses or affective modeling."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f17669acff86c1daf0ed8905da1c5dbb7d7b28b257dfcc0dd9f2d7c0ba77dfb9": {
+    "paper_id": "https://openalex.org/W1863454641",
+    "title": "Evaluation of Cost Management Controlling System in Petroleum Enterprise",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:23.428Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cost management and strategic evaluation in petroleum enterprises, with no mention of emotion, affective processes, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively concern cost accounting, operations management, and engineering systems."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "997a9327a75d7a1d359fba8b1b3c17d248e7646d33c73eab6fa28e656fe82d8f": {
+    "paper_id": "https://openalex.org/W2315054514",
+    "title": "Enhancement of Dorsal Hand Vein Image with a Low-Cost Binocular Vein Viewer System",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:23.782Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on biomedical imaging and computer vision for dorsal hand vein enhancement, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are strictly technical/medical: 'Dorsum', 'Vein', 'Computer vision', 'Medicine', 'Anatomy'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f1c16745c7025c8bf0472afacb748b28343a220567a3680bcd1a67346a769cb3": {
+    "paper_id": "https://openalex.org/W835296994",
+    "title": "Complex-query web image search with concept-based relevance estimation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:24.104Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "No mention of emotion, affect, or related psychological/linguistic constructs in title, venue, or listed concepts; focus is on image retrieval and relevance ranking in computer science.",
+      "evidence": [
+        "Concepts: Computer science, WordNet, Information retrieval, Relevance (law), Ranking (information retrieval), Image retrieval, Context (archaeology), Image (mathematics)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bdddec9a0c93d0d8c79517a3cb7ded2d6cad1f5876549d929d2f4bbc63c45854": {
+    "paper_id": "https://openalex.org/W1985072839",
+    "title": "Flexible Pattern Matching with Gap-Length and One-Off Conditions",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:24.228Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical computer science work on pattern matching algorithms with no conceptual, methodological, or lexical connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract focus exclusively on graph algorithms, pruning, and pattern matching; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b943ee50bb52923b5c9b90ed79a6132f7cba632336b8da0e948aaefb33dc8757": {
+    "paper_id": "https://openalex.org/W1990698027",
+    "title": "A Decision-Making Model for Distribution Center Location during Earthquake Responses",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:24.229Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on operations research and decision modeling for disaster logistics, with no mention or conceptual link to emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively reference AHP, distribution centers, earthquake response logistics, and mathematical modeling—no emotion-related terms or frameworks."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "99fec739fb121e18949ef331af437a6a54b95461971f3b38042c93a14cd94547": {
+    "paper_id": "https://openalex.org/W1968832403",
+    "title": "Performance Analysis of the Multiple Antenna Asynchronous Cognitive MAC Protocol in Cognitive Radio Network for IT Convergence",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:24.263Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on wireless communication protocols, cognitive radio, and spectrum sensing—technical topics in computer networking with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Cognitive radio', 'Asynchronous communication', 'Protocol (science)', 'Cognition' (used in engineering context, not psychological/affective sense)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "502fa343ec20857ab98e2dc55ef594ace620fa85d744cf9493e1772eb51f3a6c": {
+    "paper_id": "https://openalex.org/W112634031",
+    "title": "Research on Software Architecture Base on Data Snap Technology",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:24.352Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on software architecture and data snap technology with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include only technical CS terms like 'Software architecture', 'Snap', 'Operating system'; no emotion-related terms present."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4ba1369116e9e6cd682ed4ad3a0f68ff688f37644f0e650230010e0ad77a5d90": {
+    "paper_id": "https://openalex.org/W2101711080",
+    "title": "Notice of Retraction: Study on evaluation of control system of cost management",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:24.477Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper is a retraction notice for a study on cost management control systems, with no substantive content related to emotion or affective science.",
+      "evidence": [
+        "Retracted."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "aa704c808399460835bf6be8f005d66e2b68f1c142f536275536055dc9547bdd": {
+    "paper_id": "https://openalex.org/W2378155751",
+    "title": "On the Influence Factors of Foreign Direct Investment and the Countermeasures in Guangxi Province",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:24.477Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on economic determinants of foreign direct investment in Guangxi Province, with no mention or conceptual link to emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively concern economics, investment, infrastructure, and regional development."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a0b10eb4bb66e6ecc2b37e3a06affa122c90a41a413d89012b46c5b7f46c1536": {
+    "paper_id": "https://openalex.org/W2090509093",
+    "title": "Pattern matching with wildcards and gap-length constraints based on a centrality-degree graph",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:24.477Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on graph-based pattern matching with combinatorial and theoretical computer science concepts; no mention or implication of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Concepts: Computer science, Centrality, Graph, Matching (statistics), Theoretical computer science, Combinatorics, Mathematics"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3231583fe345f699ea2b0f6b032ae25d4088fe56f15a66eced46bc33a9ee604c": {
+    "paper_id": "https://openalex.org/W1995274133",
+    "title": "MAIL: mining sequential patterns with wildcards",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:24.515Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on sequential pattern mining with wildcards in bioinformatics and data mining, with no mention or conceptual link to emotion, affect, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all concepts are technical/computational (e.g., 'Pruning', 'Sequential Pattern Mining', 'DNA sequences')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "362c08760cb6dbf305f16f64ec1bc3591034ccf25a1596e16de7e7380dd267bc": {
+    "paper_id": "https://openalex.org/W2099701661",
+    "title": "Multidimensional teaching research on university computer foundation course",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:24.727Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on teaching methodology and curriculum design for a computer foundation course, with no mention of emotion, affective processes, or psychological constructs.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are pedagogical or technical."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "98aa95cde6797edde243c6f76f731023ea752372fb4067de99fe78746a67b00e": {
+    "paper_id": "https://openalex.org/W2031850511",
+    "title": "MHC-MAC: Cognitive MAC with asynchronous-assembly line mode for improving spectrum utilization and network capacity",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:24.727Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cognitive MAC protocols and spectrum efficiency in computer networks, with no conceptual or terminological overlap with emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Computer network', 'Throughput', 'Protocol (science)', and 'Asynchronous communication' — all technical networking terms unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "73879ef6e5959267a020346ebbd4837821b8d15f86a28fa04db6b9de52168345": {
+    "paper_id": "https://openalex.org/W2358482596",
+    "title": "The Ascertain of the Material Guarantee Problems in the University Training of the Primary and Secondary School Teachers",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:24.727Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on material resource constraints in teacher training, with no mention of emotion, affective processes, or related psychological constructs.",
+      "evidence": [
+        "Abstract discusses funding, facilities, and management—not emotion or affective phenomena."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "45adf78b3323b4c70e27cd7fa543548cd0ca7470718efcd5eb731728e62deb71": {
+    "paper_id": "https://openalex.org/W2060137620",
+    "title": "A BIT-PARALLEL ALGORITHM FOR SEQUENTIAL PATTERN MATCHING WITH WILDCARDS",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:24.885Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical computer science algorithm paper focused on bit-parallel pattern matching with wildcards; no mention or conceptual link to emotion, affect, psychology, neuroscience, or affective computing.",
+      "evidence": [
+        "Title and abstract exclusively discuss algorithms, pattern matching, NFAs, bioinformatics, and time complexity—no emotion-related terms or constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "913d82ad32b6162afdf03e7d53575b53fa44dc8f11544bf28d99ccb61d635a9f": {
+    "paper_id": "https://openalex.org/W2381351592",
+    "title": "On the Cost Management of the Strategic Human Resource",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:25.103Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cost management and strategic human resource planning in business contexts, with no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Concepts include 'Competitive advantage', 'Human resource management', 'Strategic management'; abstract discusses labor costs and productivity, not emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "24dcbeec753b839719189dfaf02dc65348f42840250bfc996d2f865b9e8e9a2b": {
+    "paper_id": "https://openalex.org/W1997277737",
+    "title": "New ideas for Web service discovery-ontology-based prototype system of service search engine",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:25.103Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on ontology-based web service discovery and search engine design, with no mention or conceptual link to emotion, affective computing, or related psychological or computational affective phenomena.",
+      "evidence": [
+        "Abstract and concepts exclusively concern ontology, service discovery, and information retrieval in web services"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a1fd0b4c7b3b1e24b85b155682b669870c585db3f1d9794dd95c9c1e21fc3f8d": {
+    "paper_id": "https://openalex.org/W1993904422",
+    "title": "A sensing policy based on the statistical property of licensed channel in cognitive network",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:25.224Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is about cognitive radio spectrum sensing policies and statistical channel utilization; it contains no affective, emotional, or psychological content.",
+      "evidence": [
+        "Title and abstract focus exclusively on licensed channel statistics, sensing efficiency, and network throughput in cognitive radio networks."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a9dcca370c1d1174cf95fa79d931b7255763458e4b464f93e68c5b7e69fe9e51": {
+    "paper_id": "https://openalex.org/W2091495616",
+    "title": "Online pattern matching with wildcards",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:25.224Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical algorithmic contribution to pattern matching in computer science with no conceptual, methodological, or empirical connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Algorithm', 'Pattern matching', 'Space', 'Overhead', 'Sequence'; no emotion-related terms appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "86c12368e247741179438481092da6487992926e41c66acc5a09b5987d4193ce": {
+    "paper_id": "https://openalex.org/W2060554645",
+    "title": "Sequential Pattern Mining with Wildcards",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:25.351Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on algorithmic improvements in sequential pattern mining with wildcards and gap constraints; no mention of emotion, affect, psychology, or related constructs.",
+      "evidence": [
+        "Concepts: Computer science, Sequential Pattern Mining, Prefix, Pruning, Constraint (computer-aided design), Sequence (biology), Data mining, Flexibility (engineering)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cfbc5b58506a63df0fc3bbb5466254f8da950be3a2ad36db57d9d1718ec304e7": {
+    "paper_id": "https://openalex.org/W2388258794",
+    "title": "The solution to knapsack problem with genetic greedy algorithm",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:25.482Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on combinatorial optimization and algorithmic improvements for the knapsack problem, with no mention or conceptual link to emotion, affect, or psychological constructs.",
+      "evidence": [
+        "All concepts and the abstract are strictly computational: 'Genetic algorithm', 'Greedy algorithm', 'Premature convergence', 'Mathematical optimization'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a165f20b79b632dd2eedb9a87dcb5812f85e326d98b07892d5367195735afdb5": {
+    "paper_id": "https://openalex.org/W2143084828",
+    "title": "Cognitive channel combination multi-channel MAC protocol",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:25.616Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical networking protocol design focused on spectrum efficiency and throughput in cognitive radio systems, with no mention or conceptual link to emotion, affective computing, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively cover wireless protocols, throughput, cognitive radio, and channel allocation"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bc10a51730314583c7247b361b244b39d307ad065f0a335635d8761c80410a56": {
+    "paper_id": "https://openalex.org/W2541960153",
+    "title": "Is P2P Assisted Video Accelerator Feasible and Efficient?",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:25.765Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on P2P-assisted video acceleration, server load reduction, and network efficiency; no content relates to emotion, affective computing, or psychological aspects of emotion.",
+      "evidence": [
+        "Abstract and concepts center on broadband, real-time computing, server load, and trace-driven simulation—not emotion or affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6a1c4bc241f16cd68c74defbec1cc9f24d1dc8ac07d89b13965832aac474a82d": {
+    "paper_id": "https://openalex.org/W2390593764",
+    "title": "Applicablity and Case-study of Gray Correlation Analysis in High-tech Enterprises",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:25.783Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on gray relational analysis for performance evaluation in high-tech enterprises, with no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are technical/managerial (e.g., 'Grey relational analysis', 'Business', 'Knowledge management')."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6574288fce8ef79aba038eaad46f2bb8db9d7ff0166e6f7d6c879e67ff6faa89": {
+    "paper_id": "https://openalex.org/W2130994265",
+    "title": "Understanding and searching the online video in China",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:26.057Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on video search engine design and user behavior in online video retrieval, with no mention of emotion, affective computing, or psychological constructs.",
+      "evidence": [
+        "Concepts include 'Search engine indexing', 'Online video', 'User behavior of search and clicks' — all technical and information-retrieval oriented."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d1996fdc383f0fe6037e28c9efe45bb293e0c236c4c7b6bba3fd330a1f54c4ad": {
+    "paper_id": "https://openalex.org/W2053133212",
+    "title": "Performance analysis of rate adaptation in cognitive wireless network over fading channel",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:26.100Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical wireless networking study focused on fading channels, rate adaptation, and cognitive radio performance; no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract contain no emotion-related terms; all concepts are in telecommunications and signal processing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "41ce2d3c6d1441d5b02459fcae78afa935931041ec4c1e7634fa4ecccb54bed6": {
+    "paper_id": "https://openalex.org/W2372471534",
+    "title": "Visual Literacy Training in Vocational Education University",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:26.169Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on visual literacy training in vocational education and does not address emotion, affective processes, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all listed concepts are educational, technical, or cognitive-skills oriented."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "43f7d3d1df7775760f8a27af31f202f563bfb29258a98f714e868320fe59e7d9": {
+    "paper_id": "https://openalex.org/W2148975197",
+    "title": "On diversity of viewing of online video through a large-scale search engine",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:26.204Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on search engine behavior, video duplication, site homogeneity, and diversity of online video content—none of which involve emotion modeling, affective computing, or human emotional responses.",
+      "evidence": [
+        "Abstract contains no mention of emotion, affect, sentiment, user feelings, or psychological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cb7978e70f7a5e04c1d12693d9c1767f6848501416baa7f65828b75754e8ec3d": {
+    "paper_id": "https://openalex.org/W2157994998",
+    "title": "A measurement study of online internet video views through a large-scale, search engine",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:26.244Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on traffic patterns, diurnal regularity, and system resource optimization for online video access; no mention of emotion, affective states, or psychological constructs.",
+      "evidence": [
+        "Concepts include Computer science, Online video, Search engine, Video quality — all technical/system-oriented; abstract discusses access logs, surges, QoS, and social behaviors only at a macro behavioral level without emotional valence or affective measurement."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a2cb10d939bae13e13afa613d5b91d18ace437e36f3185386ec6a4e45507d588": {
+    "paper_id": "https://openalex.org/W2122722201",
+    "title": "Research on Resource Sharing Architecture for Web-Based Education Based on OGSA",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:26.361Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on grid computing, web services, and educational resource architecture with no mention of emotion, affective computing, or related psychological or computational affect concepts.",
+      "evidence": [
+        "Abstract and concepts contain only technical terms like 'OGSA', 'Ajax', 'Grid computing', and 'Web service'; no emotion-related terms appear."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9567ba9f03cb4eb0cba5944e5facaadb9aeb2661737660a71ca576139f74d73b": {
+    "paper_id": "https://openalex.org/W2536933101",
+    "title": "Coop-Stream: Distributed Video Streaming Service Using Cooperative Peers",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:26.419Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on distributed video streaming architecture and bandwidth optimization, with no mention of emotion, affective computing, or psychological/behavioral aspects.",
+      "evidence": [
+        "All concepts and the abstract pertain to networking, P2P systems, and QoS optimization."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0b352c50472f9e0a1d8cd3d19b529c936c83436b7c78f32052f310c1aa71914e": {
+    "paper_id": "https://openalex.org/W1524577570",
+    "title": "Integrated Agent-Based Modeling with GIS for Large Scale Emergency Simulation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:26.463Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on agent-based modeling and GIS for emergency simulation, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Computer science, Geographic information system, Scale, Architecture, etc.; 'emotion' is absent from title, concepts, and venue context."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9afa1a6a3f08400d01946aa55db748113dda5a9eb1dd1c1f948828af7e123ebf": {
+    "paper_id": "https://openalex.org/W2156011592",
+    "title": "A hierarchical pedestrians motion planning model for heterogeneous crowds simulation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:26.699Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computational motion planning and crowd simulation using geometric and physics-based models; no mention of emotion, affective states, or psychological constructs related to emotion.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords are technical/computational (e.g., 'Motion planning', 'Social force model', 'Obstacle avoidance')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0d8c1c6bb31d5fde79e90683e6a7feb01cfd3e3fa6078ed915bce50ee4355693": {
+    "paper_id": "https://openalex.org/W2055763354",
+    "title": "Implementation of TQM in China and Organisation Performance: An Empirical Investigation",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:26.703Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on Total Quality Management implementation and organizational performance in Chinese companies, with no mention of emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all concepts are operations/management-focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "844e357effdda29f2c331362c41fd22837567597b3a5340d360c3d0d5ea3ae3d": {
+    "paper_id": "https://openalex.org/W2607470930",
+    "title": "Optical Automatic Protection Switching Protocol (O-APS)",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:26.974Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper concerns optical networking protocols and computer security, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title: 'Optical Automatic Protection Switching Protocol (O-APS)'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3e92ed86451332df5e336a60e53a169d238480e51e70630dd0356e45ce3156cb": {
+    "paper_id": "https://openalex.org/W2363468193",
+    "title": "Implement of the 3D Virtual Mine System Based on OpenGL",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:27.198Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on 3D visualization and virtual reality for mining systems using OpenGL, with no mention of emotion, affective computing, or psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts are exclusively technical: OpenGL, stratum, virtual reality, geology, computer graphics"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bad2b4faf4b38aa0dec534b2e37948fbcee8fd96df8a2816f22f890db1f313e1": {
+    "paper_id": "https://openalex.org/W2377267480",
+    "title": "A Classifying and Searching Method for Efficient",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:27.261Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on portfolio selection, subset classification, and data mining in finance/computer science; no mention of emotion, affect, or psychological constructs.",
+      "evidence": [
+        "Abstract discusses 'efficient subset for portfolio selection' and 'classifying efficient subset for portfolio selection'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "27b4313c900932b3b22a943a3e3572e9fe7f887a8b0a454dca88c0a7816b29f8": {
+    "paper_id": "https://openalex.org/W2347393656",
+    "title": "Conversion of the Orientation and Teaching Method of Juristic Education",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:27.631Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.85,
+      "reason": "The paper focuses on juristic education reform, teaching methodology, and societal values like democracy and justice; 'emotion' is not addressed in title, abstract, or listed concepts.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts include Democracy, Psychology (broadly, not affective), Political science—no affective/emotion-specific constructs"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b5f1cd2eb29202029bd000fd39aca8732acbc7f41b260f232f093d0a2cbe0f1f": {
+    "paper_id": "https://openalex.org/W2353129789",
+    "title": "Reflections on Chinese Teaching in the Middle School and the Quality of the Teachers",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:27.757Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on pedagogical reform, teacher quality, and curriculum challenges in Chinese language education; 'emotion' is not mentioned or implied in title, abstract, or concepts.",
+      "evidence": [
+        "Abstract discusses textbooks, exam constraints, teaching methodology, and teacher knowledge/aesthetic taste—no reference to emotion, affect, or emotional processes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "affa47db1f8b45ce1dfe27634e2eec0fba50944159a4e42428ec72918eafd5e0": {
+    "paper_id": "https://openalex.org/W2394411639",
+    "title": "The imitative system of X-ray motion tomography irtual motion tomography made by MATLAB softwate(II)",
+    "researcher_name": "Dan Guo",
+    "researcher_openalex_author_id": "A5059530979",
+    "updated_at": "2026-02-20T17:37:28.108Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "The paper focuses on X-ray motion tomography simulation using MATLAB for teaching and algorithm research; 'affections' in the abstract is a clear typo for 'effects', not referring to emotions.",
+      "evidence": [
+        "'affections which are in different factors and algorithms' is a mistranslation/typo meaning 'effects' (e.g., of parameters/algorithms), not emotional states"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

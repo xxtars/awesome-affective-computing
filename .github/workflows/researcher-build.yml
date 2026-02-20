@@ -75,7 +75,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/researchers/researcher.profile.json data/researchers/cache
+          git add data/researchers/researchers.index.json data/researchers/profiles data/researchers/cache static/data/researchers
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
