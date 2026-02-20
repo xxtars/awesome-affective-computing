@@ -1,0 +1,3013 @@
+{
+  "4cd24036b6d47a46e22df06dffdc3cd0542760b52abbc50e4740d922f83cafd0": {
+    "paper_id": "https://openalex.org/W4399343161",
+    "title": "CNN-GRU–based single-channel blind source separation of complex signals",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:58.095Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on signal processing and deep learning for blind source separation, with no mention of emotion, affective computing, or human emotional states.",
+      "evidence": [
+        "Abstract and concepts exclusively concern radar/communication signal separation, CNN-GRU architecture, and technical performance metrics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3b14bd565f31fe1ca3ecf33c5f91bd042d0f2782ec2c36fdb5a42d54bb96e1ef": {
+    "paper_id": "https://openalex.org/W4388022681",
+    "title": "Signal Slice and Tensor-Based Blind Separation of Underdetermined Mixtures",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:58.096Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mathematical signal processing techniques for blind source separation and contains no mention of emotion, affect, psychological constructs, or human-centered affective phenomena.",
+      "evidence": [
+        "Abstract and concepts exclusively reference tensor decomposition, matrix algorithms, and noise suppression in underdetermined systems."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "42295218ac510761ef313d1ae304643db473990641eb9467b9f48f44e28a2641": {
+    "paper_id": "https://openalex.org/W4404238950",
+    "title": "Biometric Authentication Based on Enhanced Remote Photoplethysmography Signal Morphology",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:58.109Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on biometric authentication using rPPG signal morphology, with no mention of emotion recognition, affective states, or emotional processing.",
+      "evidence": [
+        "All concepts and the abstract center on biometrics, security, and signal morphology—not emotion or affective computing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "971b606d16b89dfe962453916648cbccdaed7adf5bfafbf18d38c5acd811fa2c": {
+    "paper_id": "https://openalex.org/W4403488484",
+    "title": "Unified Video and Image Representation for Boosted Video Face Forgery Detection",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:58.170Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on technical aspects of face forgery detection in video and image data, with no mention of emotion, affective states, or psychological/behavioral modeling of emotions.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all concepts are computer vision/AI security focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9bc4e1eb2452202863223c3573121d8315dd64f0a617e089ce492d6cb851d63f": {
+    "paper_id": "https://openalex.org/W4403488405",
+    "title": "Exemplar-Free Incremental Deepfake Detection",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:58.175Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on deepfake detection and incremental learning in computer vision, with no mention of emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; concepts are strictly 'Computer science' and 'deepfake detection'."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a285379205b3a8b80dc0ec4ccfa2015e9bad37c822e8355005f10d10e7bcfed5": {
+    "paper_id": "https://openalex.org/W4409450112",
+    "title": "A cellulose-based CO2 capture foam-like porous material for biological carbon fixation",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:58.222Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on materials science and chemical engineering for CO2 capture and biological carbon fixation, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Cellulose, Porosity, Carbon fixation, Chemical engineering, Materials science — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1e59c28a259f9e7b0339f03abfd22c6e8070f98f63859b9f9869fa357c91198f": {
+    "paper_id": "https://openalex.org/W4393118261",
+    "title": "Underdetermined blind source separation based on third‐order cumulant and tensor compression",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:58.233Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical signal processing method focused on blind source separation using cumulants and tensor decomposition, with no mention of emotion, affect, psychological states, or human-centered affective computing.",
+      "evidence": [
+        "Abstract contains no emotion-related terms; all concepts are mathematical, statistical, or engineering-focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bc2bce82a09758904b3785b0f8d165dafe8c377ea38b87ccf650083caf52b095": {
+    "paper_id": "https://openalex.org/W4408347348",
+    "title": "Gaze-GZ: Generalized Gaze Estimation with Multi-scale Gaze Zone Prediction",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:58.270Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on gaze estimation—a computer vision and AI problem—and contains no conceptual, methodological, or empirical connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: 'Gaze, Computer science, Artificial intelligence, Scale (ratio), Computer vision, Eye tracking'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a541e4a9209f50c3d545cc51a59e7ea2ea189d72ec76e901ad28b0688a305efd": {
+    "paper_id": "https://openalex.org/W4415891964",
+    "title": "Facile fabrication of light-activated multi-level output system based on thienyl-diphenylethene: Toward intelligent multimodal security protection",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:58.282Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on photochromic materials for security applications, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract exclusively discuss optical switching, anti-counterfeiting, and material chemistry; no mention of emotion, affect, psychology, neuroscience, or human behavior."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d06273817944598745fcb2517a49c8abb6243056f6c3c15f871352293e28bf65": {
+    "paper_id": "https://openalex.org/W4399035916",
+    "title": "Many birds, one stone: Medical image segmentation with multiple partially labeled datasets",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:58.392Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on medical image segmentation using multiple partially labeled datasets, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include segmentation, computer science, artificial intelligence, and pattern recognition (in the mathematical/psychological sense), but none relate to emotion, affect, or human emotional processing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "46b6b303d8cbd5afde01d7de38a91d7a0d9f7f8b9b760f5d665403be253b84d2": {
+    "paper_id": "https://openalex.org/W4416958834",
+    "title": "OmniFD: A Unified Model for Versatile Face Forgery Detection",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:58.430Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face forgery detection using computer vision and multi-task learning; no mention of emotion, affect, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Title and abstract exclusively address technical aspects of forgery detection (classification, localization), with no reference to emotion, affect, expression, sentiment, or related constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7645dc07b1164d75cd4dce2e80062c35e70ab66acb616aa5c81ce5745b068f68": {
+    "paper_id": "https://openalex.org/W4396220226",
+    "title": "Photorewriting, Time-Resolved Encryption, and Unclonable Anticounterfeiting with Artificial Intelligence Authentication via a Reversible Photoswitchable System",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:58.431Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on photochromic materials, encryption, and AI-based image analysis for anticounterfeiting; no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "Interest topics: 'emotion'; paper concepts: Photochromism, Encryption, Materials science, Fluorescence, Nanotechnology, Computer science"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d420e5ff908114a8c3c2ce2902ab157a077ea20531723dfc5c4c958fcfb138e1": {
+    "paper_id": "https://openalex.org/W4412426081",
+    "title": "Handwritten signature verification using a wearable surface-EMG armband",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:58.563Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on biometric signature verification using surface-EMG hardware and pattern recognition, with no stated or implied connection to emotion or affective science.",
+      "evidence": [
+        "Interest topic is 'emotion', but paper concepts include 'Wearable computer', 'Pattern recognition (psychology)', and 'Signature (topology)' — none of which pertain to emotion processing or affective computing."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8d1893d616b2a304830a117ed28e606e739e25f49204ece39b6795b7ec1aa33f": {
+    "paper_id": "https://openalex.org/W4402532982",
+    "title": "AGIL-SwinT: Attention-guided inconsistency learning for face forgery detection",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:58.575Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on face forgery detection using attention-guided learning; no explicit connection to emotion, affective science, or psychological emotion processing is indicated by title, venue, concepts, or metadata.",
+      "evidence": [
+        "Concepts include 'Computer vision', 'Face detection', 'Facial recognition system'—all technical/computational, with no affective or emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7738dd46904dd8821075be2c0feeace6bf78ad2baed4f9dc96fc0a3467292fee": {
+    "paper_id": "https://openalex.org/W4415536792",
+    "title": "Evidential Remote Physiological Measurement via Uncertainty-aware Fusion of Video and RF",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:58.661Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on remote physiological signal measurement (e.g., heart rate) using video and RF sensors, with an emphasis on uncertainty-aware multimodal fusion; it does not address emotion recognition, affective states, or any psychological/affective constructs.",
+      "evidence": [
+        "Abstract contains no mention of emotion, affect, sentiment, mood, or related psychological terms; core focus is on physiological signal accuracy and robustness."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "225b5d86cdcc527ab22a1d4595d60ec7e5ee883fd0f914f35efabf317de7d3ab": {
+    "paper_id": "https://openalex.org/W4391759543",
+    "title": "HRUNet: Assessing Uncertainty in Heart Rates Measured From Facial Videos",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:58.733Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on uncertainty quantification in video-based heart rate measurement, with no conceptual or methodological engagement with emotion, affect, or affective processes.",
+      "evidence": [
+        "Interest topics are 'emotion'; paper concepts include 'noise', 'reliability', 'machine learning', and 'pattern recognition (psychology)'—but the psychology context here refers to perceptual/cognitive pattern recognition, not affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d619365a521e715a8a193cee292723fd772f94e2a052663acff65ab1b906b06f": {
+    "paper_id": "https://openalex.org/W4391952587",
+    "title": "Contrast-Phys+: Unsupervised and Weakly-Supervised Video-Based Remote Physiological Measurement via Spatiotemporal Contrast",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:58.839Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on unsupervised/weakly-supervised remote physiological measurement (rPPG) using video, with no mention of emotion modeling, affective states, or psychological affective constructs.",
+      "evidence": [
+        "All concepts and the abstract center on physiological signal extraction (e.g., blood volume change), contrastive learning for rPPG, and technical robustness—not emotion recognition, affective computing, or affective neuroscience."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "36827bdc53562fc46c6bfdf913f1dffe6b0f72f8a6fbb99bfcfb6b2caebc4d8a": {
+    "paper_id": "https://openalex.org/W4403791387",
+    "title": "MAC 2024: Micro-Action Analysis Grand Challenge",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:59.775Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper explicitly focuses on micro-actions as indicators of human emotional states, directly aligning with the researcher's interest in 'emotion'. It frames micro-action analysis as a means to infer 'true feelings', establishing strong affective relevance.",
+      "evidence": [
+        "a growing trend towards deeper understanding of human emotional states",
+        "Micro-actions are spontaneous body movements that indicate a person's true feelings and potential intentions"
+      ],
+      "keywords": [
+        "micro-actions",
+        "emotional states",
+        "affective computing",
+        "human-centered AI",
+        "nonverbal behavior"
+      ],
+      "research_directions": [
+        "affective behavior analysis",
+        "fine-grained emotion recognition from body movement",
+        "benchmark development for emotion-linked micro-actions"
+      ]
+    }
+  },
+  "e1fd17df057dc8a0827b573ed539136bf117bc8e0e2c37fb1e21c0c6493efb9f": {
+    "paper_id": "https://openalex.org/W4387968479",
+    "title": "MEGC2023: ACM Multimedia 2023 ME Grand Challenge",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:43:59.976Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses facial micro-expressions, which are involuntary, emotion-linked facial movements; the challenge is explicitly framed around emotion detection and suppression, aligning tightly with 'emotion' as a core interest topic.",
+      "evidence": [
+        "Facial micro-expressions (MEs) are involuntary movements of the face that occur spontaneously when a person experiences an emotion but attempts to suppress or repress the facial expression",
+        "ME and the macro-expression (MaE) spotting task"
+      ],
+      "keywords": [
+        "facial micro-expressions",
+        "emotion recognition",
+        "facial expression",
+        "affective computing",
+        "emotion suppression"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware AI",
+        "nonverbal emotion analysis",
+        "biometric affect sensing"
+      ]
+    }
+  },
+  "e90cb9b496179a6df7c195a74f0f1c67cb488545a0d9bfd30cd007f78d32297b": {
+    "paper_id": "https://openalex.org/W4402916211",
+    "title": "TCCT-Net: Two-Stream Network Architecture for Fast and Efficient Engagement Estimation via Behavioral Feature Signals",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:00.462Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper focuses on engagement estimation, which is a core affective/emotion-related construct in affective computing; engagement is widely recognized as a cognitive-affective state closely tied to attention, motivation, and emotional involvement.",
+      "evidence": [
+        "Title explicitly mentions 'Engagement Estimation'",
+        "Abstract states 'Engagement analysis finds various applications in healthcare, education, advertisement, services'",
+        "Researcher's interest topic is 'emotion', and engagement is a validated proxy/related dimension in affective science"
+      ],
+      "keywords": [
+        "engagement",
+        "affective computing",
+        "behavioral signals",
+        "real-time affect estimation"
+      ],
+      "research_directions": [
+        "affective state estimation from behavioral cues",
+        "lightweight deep learning for real-time emotion/engagement recognition",
+        "multimodal (temporal-spatial + temporal-frequency) fusion in affective computing"
+      ]
+    }
+  },
+  "745f584b6c5f6a04ad1c8165491955cd6d9ed6d772ee32b514f1d8d677183824": {
+    "paper_id": "https://openalex.org/W4415538192",
+    "title": "MAC 2025: The 2nd Micro-Action Analysis Grand Challenge",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:00.606Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper explicitly links micro-action analysis to human emotion analysis, aligning directly with the researcher's interest topic 'emotion'. It positions MAs as crucial for emotion analysis and is part of a challenge aimed at advancing human-centric action understanding, which includes affective computing.",
+      "evidence": [
+        "Micro-Actions (MAs) are a crucial form of non-verbal communication in social interactions, with promising applications in human emotion analysis.",
+        "The goal of this grand challenge is to foster innovative research in micro-action analysis and advance research in the human-centric action understanding community."
+      ],
+      "keywords": [
+        "micro-actions",
+        "non-verbal communication",
+        "emotion analysis",
+        "human-centric action understanding",
+        "benchmark dataset"
+      ],
+      "research_directions": [
+        "affective behavior modeling",
+        "fine-grained emotion recognition from body cues",
+        "dataset development for affective computing",
+        "multimodal emotion analysis"
+      ]
+    }
+  },
+  "eff888111852e855a9ace48e2d2ba763c444c66ca551838798927b2211cd1cd3": {
+    "paper_id": "https://openalex.org/W4403791372",
+    "title": "MEGC2024: ACM Multimedia 2024 Facial Micro-Expression Grand Challenge",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:00.611Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses facial micro-expressions, which are involuntary, emotion-linked physiological responses; the researcher's interest topic 'emotion' aligns strongly with the core scientific goal of inferring concealed emotions from micro-expressions.",
+      "evidence": [
+        "Facial micro-expressions (MEs) are involuntary spontaneous movements of the face that typically appear in high-stakes situations where a person attempts to conceal a certain emotion",
+        "research in computational analysis of MEs has now advanced toward new pathways, exploring problems crucial to model generalization and real-world practicality"
+      ],
+      "keywords": [
+        "facial micro-expression",
+        "emotion recognition",
+        "affective computing",
+        "cross-cultural emotion",
+        "spot-then-recognize"
+      ],
+      "research_directions": [
+        "affective signal processing",
+        "emotion-aware AI",
+        "cross-cultural affective computing",
+        "real-time emotion inference from nonverbal cues"
+      ]
+    }
+  },
+  "e5631faabeed9bfcdba05fdd13b3514a481c8795b46d63d500e10f9ef94a5e46": {
+    "paper_id": "https://openalex.org/W4416338813",
+    "title": "AffectGPT-R1: Leveraging Reinforcement Learning for Open-Vocabulary Multimodal Emotion Recognition",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:00.706Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.98,
+      "confidence": 0.99,
+      "reason": "The paper is explicitly focused on multimodal emotion recognition, directly aligning with the researcher's interest topic 'emotion'. It introduces a reinforcement learning framework (AffectGPT-R1) specifically designed for open-vocabulary emotion understanding, using emotion wheels and affective metrics — all core affective science concepts.",
+      "evidence": [
+        "Title contains 'Multimodal Emotion Recognition'",
+        "Abstract repeatedly uses 'emotion', 'affect', 'emotion wheels', 'affective understanding'",
+        "Methodology centers on optimizing emotion prediction via reward functions derived from affective metrics"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "affective computing",
+        "reinforcement learning",
+        "multimodal learning",
+        "open-vocabulary",
+        "emotion wheel"
+      ],
+      "research_directions": [
+        "affective AI",
+        "generative models for emotion",
+        "reward-based training in affective computing",
+        "multimodal affect analysis"
+      ]
+    }
+  },
+  "ad857a586b3b0b432f208db4b0814b982939b3e9b489047614a336256d2c1d16": {
+    "paper_id": "https://openalex.org/W4415537487",
+    "title": "MEGC2025: Micro-Expression Grand Challenge on Spot Then Recognize and Visual Question Answering",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:00.722Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion-related phenomena—specifically, facial micro-expressions as involuntary, emotion-linked facial movements—and explicitly positions its tasks (spot-then-recognize, VQA) within the context of emotion analysis and understanding.",
+      "evidence": [
+        "Micro-expressions are defined as 'involuntary movements of the face that occur spontaneously when a person experiences an emotion but attempts to suppress or repress the facial expression'",
+        "The challenge tasks (ME-STR and ME-VQA) aim to detect and interpret emotion-cued signals in realistic, high-stakes settings"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "facial expression",
+        "affective computing",
+        "visual question answering",
+        "spotting"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion understanding",
+        "AI for emotion inference",
+        "micro-expression analysis",
+        "vision-language models for affect"
+      ]
+    }
+  },
+  "1db54af0a21bca3eb123a9356207a48dac0542142b00e57e5479f7c85e24fc84": {
+    "paper_id": "https://openalex.org/W4387967977",
+    "title": "FME '23: 3rd Facial Micro-Expression Workshop",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:00.743Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is directly focused on micro-expressions, which are transient, involuntary facial expressions revealing genuine underlying emotions; the workshop explicitly situates itself within affective computing and discusses emotion-related applications (deception detection, abnormal emotion recognition) and ethical issues in emotion analysis.",
+      "evidence": [
+        "Micro-expressions are described as 'facial movements that [...] often reflect the genuine emotions of individuals'",
+        "Workshop aims include 'a consensus on micro-expression standards within affective computing'",
+        "Applications listed include 'abnormal emotion recognition' and 'non-contact [...] deception detection', both grounded in emotion inference"
+      ],
+      "keywords": [
+        "micro-expression",
+        "facial expression recognition",
+        "affective computing",
+        "emotion recognition",
+        "deception detection"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware AI",
+        "nonverbal emotion analysis",
+        "ethical affective technologies",
+        "deep learning for emotion recognition"
+      ]
+    }
+  },
+  "722e2d17f76870c9d0d5a9b04988a76ab97d567ff9ab6c887277dba752a8d210": {
+    "paper_id": "https://openalex.org/W4414271325",
+    "title": "Audio-visual Feature Disentanglement and Fusion Network for Automatic Depression Severity Prediction",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:00.884Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses affective computing by predicting depression severity—a core clinical emotion-related condition—using audio-visual behavioral cues, and is published in IEEE Transactions on Affective Computing, a top-tier venue for emotion research.",
+      "evidence": [
+        "Title explicitly references 'Automatic Depression Severity Prediction'",
+        "Published in IEEE Transactions on Affective Computing",
+        "Abstract states goal is 'early screening' and 'assist clinical decision-making' for depression, an emotion-related disorder"
+      ],
+      "keywords": [
+        "depression",
+        "affective computing",
+        "multimodal learning",
+        "emotion recognition",
+        "audio-visual analysis",
+        "mental health assessment"
+      ],
+      "research_directions": [
+        "clinical affective computing",
+        "multimodal emotion disorder detection",
+        "behavioral biomarkers for depression",
+        "disentangled representation learning for affect"
+      ]
+    }
+  },
+  "bac5b525e11b26287bce2fe2111096b5673e6c428a2b674527586e3c7d8925aa": {
+    "paper_id": "https://openalex.org/W4414140705",
+    "title": "Cross-Cultural Nuances of Micro-Expressions and Action Units: A Comparative Study",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:01.034Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper directly investigates micro-expressions and facial action units—core behavioral indicators of emotion—with explicit focus on cross-cultural variation in emotional expression, aligning tightly with 'emotion' as a primary interest topic.",
+      "evidence": [
+        "Title explicitly references 'Micro-Expressions', a well-established affective phenomenon",
+        "Abstract states the study explores 'cultural norms, expressive traits, and computational modeling' in emotion-related facial behavior",
+        "Hypothesis contrasts ME recognition (emotion-laden) vs AU detection (anatomically grounded but used for emotion inference)"
+      ],
+      "keywords": [
+        "micro-expressions",
+        "facial action units",
+        "cross-cultural emotion",
+        "FACS",
+        "emotion recognition",
+        "domain shift in affective computing"
+      ],
+      "research_directions": [
+        "Culturally adaptive emotion recognition models",
+        "Ethnically balanced affective datasets",
+        "Decoupling anatomical facial movements from affective interpretation across cultures",
+        "Robustness of affective signal detection under cultural variation"
+      ]
+    }
+  },
+  "a64cb7ad40feed9900a89616e3e2c46e8ea9e59f9b048c1bb49e8be73fcba5ac": {
+    "paper_id": "https://openalex.org/W4410639046",
+    "title": "VISTANet: VIsual Spoken Textual Additive Net for Interpretable Multimodal Emotion Recognition",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:01.081Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.98,
+      "confidence": 0.99,
+      "reason": "The paper is explicitly focused on multimodal emotion recognition, aligns with the researcher's stated interest in 'emotion', is published in IEEE Transactions on Affective Computing, and uses affective computing methodologies with interpretability for emotion classes.",
+      "evidence": [
+        "Title contains 'Multimodal Emotion Recognition'",
+        "Venue: IEEE Transactions on Affective Computing",
+        "Concepts include 'Emotion recognition', 'Affective computing', 'Psychology'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "affective computing",
+        "multimodal learning",
+        "interpretability",
+        "VISTANet",
+        "KAAP",
+        "IIT-R MMEmoRec"
+      ],
+      "research_directions": [
+        "multimodal affective computing",
+        "explainable AI for emotion analysis",
+        "discrete emotion classification",
+        "fusion architectures for emotion recognition",
+        "affective dataset construction"
+      ]
+    }
+  },
+  "1b7130c7315bd5a7a6747278c75b1e9340ca1d6eb999b5fa4eed5bbf8e2707ce": {
+    "paper_id": "https://openalex.org/W4389576988",
+    "title": "VidBP: Detecting Blood Pressure from Facial Videos with Personalized Calibration",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:01.314Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on blood pressure estimation from facial videos using physiological signal processing and personalized calibration, with no mention of emotion, affective states, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts emphasize BVP, calibration, feature extraction, and clinical BP monitoring—no emotion-related terms or affective modeling."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "19711a604276e2bc57accdcd0a6c8ae84f7dc2b58b88be3b464604639f3268f5": {
+    "paper_id": "https://openalex.org/W4321609468",
+    "title": "Review of Face Presentation Attack Detection Competitions",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:01.367Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face presentation attack detection (anti-spoofing in biometrics), with no indication of emotion or affective computing content.",
+      "evidence": [
+        "Concepts include Biometrics, Spoofing attack, Facial recognition system — all security/identification-oriented, not affective."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a9998b62bdf166cc83e10edbc3fbfeca18dbbd5380643f04a406c05751aea93c": {
+    "paper_id": "https://openalex.org/W4308889038",
+    "title": "Advances and challenges of cellulose functional materials in sensors",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:01.393Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on cellulose-based sensor materials and engineering applications, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts are entirely materials science and bioengineering-related; 'emotion' does not appear in title, venue, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1b313120d92162d32b2930df59706f2188356079ed7d81c72f77d1ecaa67cf25": {
+    "paper_id": "https://openalex.org/W4402917158",
+    "title": "Analyzing Participants’ Engagement during Online Meetings Using Unsupervised Remote Photoplethysmography with Behavioral Features",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:01.455Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper directly addresses emotion-adjacent affective states—specifically engagement, a core construct in affective science and emotion research—using physiological (HRV) and behavioral features derived from video, aligning with emotion sensing and affective computing.",
+      "evidence": [
+        "Engagement is widely recognized as an affective-cognitive state closely tied to emotional arousal, attention, and valence in affective neuroscience and human-computer interaction.",
+        "Use of HRV—a well-established physiological correlate of emotional regulation and autonomic response—is explicitly leveraged for engagement estimation.",
+        "The paper's goal of unsupervised, contactless affective state inference from video aligns with affective computing and emotion AI research directions."
+      ],
+      "keywords": [
+        "engagement",
+        "heart rate variability",
+        "rPPG",
+        "affective computing",
+        "remote physiological sensing",
+        "behavioral cues"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware HCI",
+        "contactless affect sensing",
+        "multimodal emotion/engagement recognition",
+        "unsupervised physiological signal estimation"
+      ]
+    }
+  },
+  "cc1870eafd1f6208025ee1751bf2af27b8052c4f29e731a9a1cdb777b9fa178c": {
+    "paper_id": "https://openalex.org/W4311347520",
+    "title": "Design of Electric Bicycle Charger Protection Device Based on Anti-Electrode Reverse Connection Technology",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:01.458Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on electrical engineering and fire safety for electric bicycle chargers, with no mention of emotion, affective computing, or psychological/behavioral aspects.",
+      "evidence": [
+        "Abstract discusses anti-electrode reversal technology, battery voltage monitoring, and thermal runaway prevention—no emotion-related terms or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "218bcc6dd6872d2dc206989f06033e4f58f0bb480935613c9cfa76345aa09459": {
+    "paper_id": "https://openalex.org/W4386895344",
+    "title": "A Novel Complex-Valued Blind Source Separation and Its Applications in Integrated Reception",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:01.536Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on complex-valued blind source separation for radar/communication/jamming signal processing, with no mention or conceptual link to emotion, affective computing, or psychological/affective phenomena.",
+      "evidence": [
+        "All concepts and the abstract pertain to signal processing, robustness, orthogonality, and optimization in electromagnetic reception—not affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "6a3538ba19d1cab772f3fd4b30bceae68d1300f048373253dd334600d340fb0f": {
+    "paper_id": "https://openalex.org/W4392866724",
+    "title": "Computational Analysis of Stress, Depression and Engagement in Mental Health: A Survey",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:01.553Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses stress, depression, and engagement—core affective and emotion-related psychological states—and explicitly positions them within affective computing and mental health contexts, aligning tightly with 'emotion' as a research interest.",
+      "evidence": [
+        "Title explicitly includes 'Stress, Depression and Engagement'—all recognized affective/psychophysiological states",
+        "Abstract states 'Analysis of stress, depression and engagement is less common and more complex than that of frequently discussed emotions such as happiness, sadness, fear and anger'",
+        "Describes computational methods for affective state analysis, including taxonomy, datasets, and pipelines used in affective computing"
+      ],
+      "keywords": [
+        "stress",
+        "depression",
+        "engagement",
+        "affective computing",
+        "mental health",
+        "emotion recognition",
+        "computational psychology"
+      ],
+      "research_directions": [
+        "Computational modeling of subclinical affective states",
+        "Multimodal sensing for longitudinal stress/depression assessment",
+        "Affective state interplay (e.g., stress → depression → disengagement)",
+        "Clinical translation of engagement metrics in digital mental health"
+      ]
+    }
+  },
+  "dda9ab3d0be4fc6334a8b623a094df32755b9995c5f98464832ed560a9b80b1b": {
+    "paper_id": "https://openalex.org/W4405573914",
+    "title": "Editorial: Towards Emotion AI to next generation healthcare and education",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:01.604Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is explicitly centered on Emotion AI, directly aligning with the researcher's interest topic 'emotion'. It addresses emotion recognition methods, multimodal affective signals (facial expressions, voice tone, physiological signals), and applications in emotionally sensitive domains (healthcare, education).",
+      "evidence": [
+        "Title contains 'Emotion AI'",
+        "Abstract emphasizes 'facial expressions, voice tone, dialogue sentiment, and physiological signals' as emotion indicators",
+        "Research Topic explicitly explores 'theories, methodologies, and applications of Emotion AI in healthcare and education'"
+      ],
+      "keywords": [
+        "Emotion AI",
+        "affective computing",
+        "multimodal emotion recognition",
+        "facial expression analysis",
+        "voice tone analysis",
+        "physiological signals",
+        "trust in AI",
+        "AI acceptance"
+      ],
+      "research_directions": [
+        "Affective multimodal fusion",
+        "Explainable emotion-aware AI systems",
+        "Trust and adoption of emotion AI in clinical and educational settings",
+        "Automated affective assessment in human interaction (e.g., parent-infant)",
+        "Ethical and psychological implications of emotion sensing technologies"
+      ]
+    }
+  },
+  "ba06d350b45349d578d28033e82f250b52f484b5a88c66d6a695fb28edc4316b": {
+    "paper_id": "https://openalex.org/W4409262129",
+    "title": "Multimodal Interpretable Depression Analysis Using Visual, Physiological, Audio and Textual Data",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:01.626Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.97,
+      "reason": "The paper directly addresses emotion-related clinical affective states—specifically depression—as a core affective construct, using multimodal signals (visual, audio, physiological, textual) that are well-established proxies for emotional expression and regulation. The researcher's interest in 'emotion' aligns strongly with affective computing and clinical emotion assessment.",
+      "evidence": [
+        "Title explicitly names 'Depression' as the target condition, a canonical affective disorder",
+        "Uses modalities (facial expression, voice prosody, physiological arousal, linguistic sentiment) intrinsically tied to emotion expression and regulation",
+        "Employs interpretability methods (Multiviz) to quantify modality-specific contributions to affective state inference"
+      ],
+      "keywords": [
+        "depression",
+        "affective computing",
+        "multimodal emotion analysis",
+        "interpretable AI",
+        "physiological signals",
+        "speech prosody",
+        "facial expression",
+        "natural language processing for emotion"
+      ],
+      "research_directions": [
+        "Affective multimodal fusion",
+        "Clinical emotion recognition",
+        "Interpretable affective AI",
+        "Depression detection from behavioral signals"
+      ]
+    }
+  },
+  "0e521ec7ec3af4383e166166777a2e0fd251045ace139094c0f3588e54bc49d9": {
+    "paper_id": "https://openalex.org/W4300972459",
+    "title": "Single channel blind source separation of complex signals based on spatial‐temporal fusion deep learning",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:01.711Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on blind source separation of radar/communication/jamming signals using deep learning; no mention of emotion, affective computing, or psychological affective constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively concern signal processing, deep learning architectures (CNN, BiLSTM), and electronic warfare applications."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "dbd86ef405bdee24d4320a3235b77485a2dcfc72f083f5fca43dd8276177b1ec": {
+    "paper_id": "https://openalex.org/W4367840177",
+    "title": "ECG signal reconstruction based on facial videos via combined explicit and implicit supervision",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:01.760Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on ECG signal reconstruction from facial videos using computer vision and AI techniques; no explicit connection to emotion modeling, affective computing, or emotional states is indicated by title, venue, or listed concepts.",
+      "evidence": [
+        "Title mentions 'ECG signal reconstruction' and 'facial videos', but not emotion, affect, or related psychological constructs"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f6f2141d374a31bd5d9b6d38ebca77410cdfe39af324492fbd2fc489d9104620": {
+    "paper_id": "https://openalex.org/W4319978305",
+    "title": "Research on current limiting protector testing technology based on thyristor phase control technology",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:01.952Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on electrical engineering, thyristor-based test equipment for current limiting protectors, and circuit design—no connection to emotion, affective science, or psychological/physiological aspects of emotion.",
+      "evidence": [
+        "Title and abstract contain no emotion-related terms; all concepts are technical and domain-specific to power electronics and protection systems."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1e7bb13e61dbf33f349a6090594475cabbc6309bfd19c88084912ec1238aeb2a": {
+    "paper_id": "https://openalex.org/W4312829251",
+    "title": "Contrast-Phys: Unsupervised Video-Based Remote Physiological Measurement via Spatiotemporal Contrast",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:02.047Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on unsupervised remote physiological measurement from video, with no explicit connection to emotion or affective processes.",
+      "evidence": [
+        "Concepts include computer science, contrast (vision), RGB color model, and pattern recognition (psychology) — but the latter refers to perceptual/cognitive pattern recognition, not affective psychology."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9a1100eb8646f25883458acbe287d0c91a798bb76e70ce11e40efdcee42ab6e8": {
+    "paper_id": "https://openalex.org/W3207417694",
+    "title": "Non-Contact Atrial Fibrillation Detection From Face Videos by Learning Systolic Peaks",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:02.149Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on non-contact atrial fibrillation detection using facial video analysis and physiological signal modeling, with no mention of emotion, affective states, or psychological affective processes.",
+      "evidence": [
+        "Abstract and concepts emphasize cardiology, AI-based pattern recognition for systolic peaks, and AF diagnosis—not emotion or affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d4c24291a2c754cab9c6d5cd390f6ab9f18578ee62a78af381269c60912350a1": {
+    "paper_id": "https://openalex.org/W4304113593",
+    "title": "Deep learning-based remote-photoplethysmography measurement from short-time facial video",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:02.419Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on non-contact heart rate estimation using remote photoplethysmography and deep learning; no mention of emotion, affect, affective states, or psychological valence/arousal — 'emotion' in the researcher's interest topics is not substantiated by content.",
+      "evidence": [
+        "Abstract and metadata exclusively address physiological signal extraction (rPPG) and HR measurement, with no reference to emotional states, affective computing, or emotion recognition."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "eef753a2d3e84bec5acd9643b5cd2c2e678828e0c9dfee8bfe2cd8a54f15935c": {
+    "paper_id": "https://openalex.org/W4321460002",
+    "title": "Editorial for pattern recognition letters special issue on face-based emotion understanding",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:02.465Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is an editorial for a special issue on 'face-based emotion understanding', directly aligning with the researcher's interest topic 'emotion'. The title explicitly centers on emotion recognition from facial cues, a core affective computing domain.",
+      "evidence": [
+        "Editorial for pattern recognition letters special issue on face-based emotion understanding"
+      ],
+      "keywords": [
+        "emotion",
+        "face-based emotion understanding",
+        "affective computing",
+        "pattern recognition",
+        "facial expression analysis"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Emotion recognition from visual cues",
+        "Face analysis in AI",
+        "Human-centered AI"
+      ]
+    }
+  },
+  "ea1f89d73ba1745fe398c39825389ebc73f815fb891a1aa19c5c90d6f5593beb": {
+    "paper_id": "https://openalex.org/W4306832857",
+    "title": "Deep Learning for Face Anti-Spoofing: A Survey",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:03.052Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face anti-spoofing and deep learning for security in facial recognition, with no mention of emotion, affect, or related psychological/behavioral constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are technical/computer vision focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "16831df2cc0523b672061d25e10c0f6a1490622a750a4d8e367be51fb5813c59": {
+    "paper_id": "https://openalex.org/W4379468209",
+    "title": "Facial Micro-Expressions: An Overview",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:03.511Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is centrally focused on facial micro-expressions as involuntary indicators of true emotions, directly aligning with 'emotion' as the researcher's stated interest topic. It bridges psychology and computer vision to analyze affective states through subtle facial behavior.",
+      "evidence": [
+        "Micro-expression (ME) is an involuntary, fleeting, and subtle facial expression... may occur when people attempt to conceal or suppress their true feelings",
+        "MEs can provide essential clues to people's true feelings",
+        "Interest topics: emotion"
+      ],
+      "keywords": [
+        "micro-expression",
+        "facial expression",
+        "emotion recognition",
+        "affective computing",
+        "feeling",
+        "deception detection"
+      ],
+      "research_directions": [
+        "automatic micro-expression analysis",
+        "ME spotting and recognition",
+        "action unit detection in emotional contexts",
+        "ME generation for affective modeling",
+        "clinical and security applications of emotion inference"
+      ]
+    }
+  },
+  "6397f48092818d59774eaf27b5c73e1395655261aae27e4e922b4443ed311a5b": {
+    "paper_id": "https://openalex.org/W4304013820",
+    "title": "MEGC2022",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:03.758Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion-related phenomena—specifically micro- and macro-expressions—which are involuntary, brief facial indicators of underlying emotional states; aligns precisely with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Facial micro-expressions (MEs) are involuntary movements of the face that occur spontaneously when a person experiences an emotion",
+        "focuses on micro- and macro-expression spotting task",
+        "Concepts include Facial expression, Macro"
+      ],
+      "keywords": [
+        "facial micro-expressions",
+        "emotion recognition",
+        "facial expression spotting",
+        "macro-expression",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Emotion-aware human-computer interaction",
+        "Automated emotion detection from nonverbal cues",
+        "Biometric affect sensing"
+      ]
+    }
+  },
+  "c476df79f16d37b736cb3548c27f62805fb0707c4055556e11e580bd3ed416a1": {
+    "paper_id": "https://openalex.org/W3188354902",
+    "title": "Dual-Cross Central Difference Network for Face Anti-Spoofing",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:03.846Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face anti-spoofing using novel convolutional architectures and data augmentation; no mention of emotion recognition, affective computing, or emotional states.",
+      "evidence": [
+        "Abstract and concepts exclusively address computer vision, pattern recognition, and biometric security—not emotion or affective processes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "53ee5fc848d64295e77b6407e761d189c583ad491cf1baa1a7d8f93a47e6aa5d": {
+    "paper_id": "https://openalex.org/W3190107783",
+    "title": "Deep-HR: Fast heart rate estimation from face video under realistic conditions",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:03.886Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on heart rate estimation from facial video, a physiological signal processing task, with no explicit connection to emotion modeling, affective computing, or affective states.",
+      "evidence": [
+        "Title indicates 'heart rate estimation', a biomedical/physiological measurement task, not emotion recognition or affective analysis"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f01b46c3b8d4d36d9d8a04527c00aa64ebf5aab4b16dbb24c1a987623746372f": {
+    "paper_id": "https://openalex.org/W4379540094",
+    "title": "Interpretable Multimodal Emotion Recognition using Facial Features and Physiological Signals",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:04.115Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is directly focused on emotion recognition using multimodal signals, explicitly aligning with the researcher's interest topic 'emotion'. It integrates facial features and physiological signals (rPPG) for affective computing, includes interpretability analysis of emotion classification, and uses a standard emotion dataset (IEMOCAP).",
+      "evidence": [
+        "Title contains 'Multimodal Emotion Recognition'",
+        "Abstract states 'emotion recognition' as primary goal and uses IEMOCAP (a benchmark emotion dataset)",
+        "Concepts include 'Emotion recognition', 'Facial expression', and 'Interpretability' in affective context"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "multimodal learning",
+        "facial expression",
+        "rPPG",
+        "interpretability",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Multimodal emotion analysis",
+        "Explainable AI for emotion classification",
+        "Physiological signal-based emotion detection"
+      ]
+    }
+  },
+  "550f22dff9b5302d6a037e6233e603e7e742314a67bdcfbcf62fd5f57cafb5fa": {
+    "paper_id": "https://openalex.org/W4366968111",
+    "title": "Estimating Stress in Online Meetings by Remote Physiological Signal and Behavioral Features",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:04.229Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.97,
+      "reason": "The paper directly addresses stress estimation—a core affective/emotional state—using remote physiological and behavioral signals tied to emotion expression, aligning tightly with 'emotion' as a stated interest topic.",
+      "evidence": [
+        "Title explicitly references 'Estimating Stress', a well-established affective construct; Abstract frames stress as impacting well-being and uses facial expression and rPPG—validated emotion/stress correlates; Concepts include 'Facial expression' and 'Expression (computer science)', both emotion-relevant modalities."
+      ],
+      "keywords": [
+        "stress",
+        "facial expression",
+        "remote photoplethysmography",
+        "affective computing",
+        "behavioral features",
+        "emotion recognition"
+      ],
+      "research_directions": [
+        "Affective computing in remote settings",
+        "Multimodal emotion and stress estimation from video",
+        "Contactless physiological signal analysis for affective states",
+        "AI-driven well-being monitoring in virtual collaboration"
+      ]
+    }
+  },
+  "a93b7f42102eb11ebc919cd9d24f19febbd4f75c2cc1f0121060fa1c551df906": {
+    "paper_id": "https://openalex.org/W4321101505",
+    "title": "SMG: A Micro-gesture Dataset Towards Spontaneous Body Gestures for Emotional Stress State Analysis",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:04.298Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly investigates micro-gestures as behavioral indicators of hidden emotional stress states, explicitly linking body movement to affective states (e.g., 'emotional stress state analysis', 'inner human feelings', 'conveying hidden emotional information'), aligning precisely with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Title explicitly references 'Emotional Stress State Analysis'",
+        "Abstract states MGs are 'more reliable than normal facial expressions for conveying hidden emotional information'",
+        "Concepts include 'Feeling', 'Emotional expression', and 'Gesture' in affective context"
+      ],
+      "keywords": [
+        "micro-gestures",
+        "emotional stress",
+        "nonverbal communication",
+        "affective computing",
+        "spontaneous behavior",
+        "body language"
+      ],
+      "research_directions": [
+        "affective body gesture analysis",
+        "hidden emotion recognition",
+        "multimodal emotion AI",
+        "stress-state detection from movement",
+        "psychologically-grounded micro-behavior modeling"
+      ]
+    }
+  },
+  "568d8e47ea585e24e12d1273dd85e614ab12589337651f9deb8f4cb4bf94e671": {
+    "paper_id": "https://openalex.org/W3175452902",
+    "title": "TransRPPG: Remote Photoplethysmography Transformer for 3D Mask Face Presentation Attack Detection",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:04.383Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on liveness detection for face presentation attack defense using rPPG and transformers, with no connection to emotion recognition, affective computing, or emotional states.",
+      "evidence": [
+        "The abstract and concepts exclusively mention liveness, biometrics, facial recognition, and transformer-based signal processing—no emotion-related terms or goals."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b31fc2cc1eec7fde34ede7750bb52d8a4ad76ba7106a227cfed704683c2c9d7f": {
+    "paper_id": "https://openalex.org/W3211078553",
+    "title": "A Compressed Sensing Method for Joint Radar and Communication System Based on OFDM-IM Signal",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:04.392Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on radar-communication signal processing using compressed sensing and OFDM-IM; no connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts exclusively cover signal processing, radar, communications, and engineering topics."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "91394661834ffaf8716dd6f31e9cbdf6a2862ec74002ead1377cf671df8dbb8c": {
+    "paper_id": "https://openalex.org/W3094861582",
+    "title": "NAS-FAS: Static-Dynamic Central Difference Network Search for Face Anti-Spoofing",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:04.484Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face anti-spoofing using neural architecture search and has no conceptual, methodological, or empirical connection to emotion or affective science.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are computer vision/AI security focused."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "829ce68458485f8b4faa80b1442c149ef12a5d06f6721daf56b6c4cdef94cd2f": {
+    "paper_id": "https://openalex.org/W3081715229",
+    "title": "Revisiting motion-based respiration measurement from videos",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:04.720Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on contactless respiration rate monitoring using video-based motion analysis, with no mention of emotion, affective states, or psychological constructs.",
+      "evidence": [
+        "Abstract exclusively discusses respiratory motion, pixel movement, signal extraction, and CNN performance for physiological measurement."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5f448039f4a2ff6bc84925a2da268936b9fd3ab9c0b24b6ed81e4c7f4574abd4": {
+    "paper_id": "https://openalex.org/W3138196357",
+    "title": "Revisiting Pixel-Wise Supervision for Face Anti-Spoofing",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:04.727Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face anti-spoofing, interpretability, and multi-scale supervision in biometrics—not emotion or affective computing.",
+      "evidence": [
+        "All concepts and the abstract center on presentation attack detection, pixel-wise supervision, and model interpretability in FAS, with no mention of emotion, affect, sentiment, or related psychological/physiological constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bbf629d90e59dba02741d2d36f2c96900404aac4a26c56c2fd13a622e4ebca31": {
+    "paper_id": "https://openalex.org/W3035459165",
+    "title": "Searching Central Difference Convolutional Networks for Face Anti-Spoofing",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:05.059Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face anti-spoofing using convolutional neural networks and architecture search; no mention of emotion, affect, or related psychological constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "beb8ca505276487c24a425479137ac36ad2b3f893cbf275cc477f0b8f07dfe4b": {
+    "paper_id": "https://openalex.org/W3108722472",
+    "title": "Face Anti-Spoofing with Human Material Perception",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:05.079Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face anti-spoofing, a computer vision and security problem, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include spoofing attack, convolutional neural network, facial recognition system — all technical/computer science topics; 'emotion' is absent from title, concepts, and metadata."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a288e293eccb45c8e19e55b310af54a8891469aa5bc874fc9529e45b521440b0": {
+    "paper_id": "https://openalex.org/W3082504832",
+    "title": "Experimental Study on Deliquification with Atomizing Nozzle in Gas Well",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:05.106Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical engineering study on gas well deliquification using atomizing nozzles; it contains no emotion-related content or methodology.",
+      "evidence": [
+        "Concepts include 'Nozzle', 'Sauter mean diameter', 'Petroleum engineering'; no emotion, affect, psychology, or behavioral terms appear in title, abstract, or concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "341573b5b79169411dc3eee6788c80683e2d134dc40541dfe9ac1d2d00d0dfe3": {
+    "paper_id": "https://openalex.org/W3212352054",
+    "title": "The 2nd Challenge on Remote Physiological Signal Sensing (RePSS)",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:05.285Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper explicitly links respiration measurement to emotional status, aligning with the researcher's interest in emotion; it is part of a challenge focused on remote physiological sensing, where affective states are a key application domain.",
+      "evidence": [
+        "Track 2 is about respiration measurement from facial videos, as respiration is another important physiological index related to both health and emotional status."
+      ],
+      "keywords": [
+        "respiration",
+        "physiological signals",
+        "emotional status",
+        "remote sensing",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Remote estimation of emotion via physiological signals",
+        "Multimodal affective sensing from video",
+        "Benchmarking affect-related physiological signal extraction"
+      ]
+    }
+  },
+  "5f15cd1001bcbbbfcc0b069d2ed52e6b866436e1ece0f0c2fc35d69f55016726": {
+    "paper_id": "https://openalex.org/W3134059694",
+    "title": "Micro-expression spotting: A new benchmark",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:05.322Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.9,
+      "confidence": 0.95,
+      "reason": "Micro-expression spotting is a core subfield of affective computing focused on detecting brief, involuntary facial expressions revealing concealed emotions; directly aligns with 'emotion' interest topic.",
+      "evidence": [
+        "Title contains 'Micro-expression spotting'",
+        "Micro-expressions are scientifically defined as transient emotional indicators"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "affective computing",
+        "facial expression analysis"
+      ],
+      "research_directions": [
+        "affective signal processing",
+        "deception detection",
+        "nonverbal emotion analysis",
+        "AI for mental state inference"
+      ]
+    }
+  },
+  "9b3736a38a81ab7b10d0ff1a8ead118fe1251c4ef3a6e55f0266897119b9ce32": {
+    "paper_id": "https://openalex.org/W4285126378",
+    "title": "Privacy-Phys: Facial Video-Based Physiological Modification for Privacy Protection",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:05.329Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.9,
+      "reason": "The paper explicitly links rPPG signals in facial videos to emotion recognition, positioning privacy protection of physiological signals as critical in contexts where emotion inference is possible — directly engaging with the 'emotion' interest topic through its application domain and threat model.",
+      "evidence": [
+        "'Recent studies show that rPPG is a non-contact way for emotion recognition, disease detection, and biometric identification'",
+        "The core motivation includes preventing unauthorized emotion recognition via leaked physiological signals from facial video"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "rPPG",
+        "facial video",
+        "privacy protection",
+        "physiological signal"
+      ],
+      "research_directions": [
+        "Affective computing privacy",
+        "Emotion-signal leakage mitigation",
+        "Privacy-preserving affective sensing"
+      ]
+    }
+  },
+  "7a30e4c868ed7ae8e613a08193d0e005898c348b303d9e5f20e0b07979d627df": {
+    "paper_id": "https://openalex.org/W3036080349",
+    "title": "Multi-Modal Face Anti-Spoofing Based on Central Difference Networks",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:05.414Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face anti-spoofing using multi-modal computer vision techniques, with no mention or conceptual link to emotion, affective computing, or psychological/affective states.",
+      "evidence": [
+        "All concepts and the abstract center on spoofing detection, convolutional networks, and biometric security—not emotion recognition or affective modeling."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ccf751ab6fba54e37c8c584af3a4d35f32a4520edc52b43c4252d218977f5533": {
+    "paper_id": "https://openalex.org/W4285183242",
+    "title": "4DME: A Spontaneous 4D Micro-Expression Dataset With Multimodalities",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:05.513Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is directly focused on micro-expressions as behavioral indicators of underlying emotions, explicitly annotates five emotion categories, discusses AU-Emo mapping, and is published in IEEE Transactions on Affective Computing — a core venue for affective computing research.",
+      "evidence": [
+        "Annotates 'five categories of emotion labels'",
+        "Proposes a preliminary 'AU-Emo mapping table'",
+        "Published in IEEE Transactions on Affective Computing"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "affective computing",
+        "facial expression",
+        "action unit",
+        "4D vision",
+        "spontaneous emotion"
+      ],
+      "research_directions": [
+        "multimodal emotion analysis",
+        "4D-based affective computing",
+        "AU-emotion relationship modeling",
+        "spontaneous micro-expression dataset curation",
+        "cross-modality fusion for affect recognition"
+      ]
+    }
+  },
+  "2bed28a8e9fe6ed12e5b3f79d5a9eb36808a07d1c60d3874f3778cf4dbf85080": {
+    "paper_id": "https://openalex.org/W3036205469",
+    "title": "The 1st Challenge on Remote Physiological Signal Sensing (RePSS)",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:05.660Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on remote heart rate measurement from facial videos, a physiological signal sensing task; 'emotion' is not mentioned in title, abstract, or concepts, and no affective/emotion-related methodology, labeling, or application is indicated.",
+      "evidence": [
+        "The challenge focuses on measuring average heart rate — a basic physiological parameter, not an emotional state or affective process."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0cfa0a6631cfe7692b76e77cbd602bd6141f927685803ecc005b42862ac65640": {
+    "paper_id": "https://openalex.org/W3177709384",
+    "title": "iMiGUE: An Identity-free Video Dataset for Micro-Gesture Understanding and Emotion Analysis",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:05.688Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on emotion analysis using micro-gestures, aligns directly with the researcher's interest topic 'emotion', and positions itself within emotional AI research.",
+      "evidence": [
+        "Title includes 'Emotion Analysis'",
+        "Abstract states 'iMiGUE is a new dataset for the emotional artificial intelligence research'",
+        "Abstract emphasizes 'understand the emotional states behind gestures in a holistic way'"
+      ],
+      "keywords": [
+        "emotion analysis",
+        "micro-gesture",
+        "emotional AI",
+        "nonverbal behavior",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion recognition",
+        "gesture-based emotion inference",
+        "unsupervised representation learning for affect"
+      ]
+    }
+  },
+  "bdc2a8271dc8d13081008668a5c46c7a3c283c3e2f2c1b31c7e8da9aa60d77ac": {
+    "paper_id": "https://openalex.org/W3110179947",
+    "title": "Video-Based Remote Physiological Measurement via Cross-Verified Feature Disentangling",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:05.876Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.85,
+      "reason": "The paper focuses on remote physiological measurement from video, which is commonly used to infer affective states (e.g., stress, arousal) via signals like heart rate and blood volume pulse — directly relevant to emotion research.",
+      "evidence": [
+        "Video-Based Remote Physiological Measurement",
+        "Photoplethysmogram",
+        "Pattern recognition (psychology)"
+      ],
+      "keywords": [
+        "physiological sensing",
+        "emotion recognition",
+        "remote photoplethysmography",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Non-contact physiological monitoring",
+        "Emotion inference from biosignals"
+      ]
+    }
+  },
+  "9ac229eb0c602af6369dc8c44e67a4b55357ac8be44ee8d642df4045bdeb3936": {
+    "paper_id": "https://openalex.org/W3206283519",
+    "title": "FME'21",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:06.348Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper is centrally focused on facial micro-expressions as involuntary, emotion-linked physiological signals, directly aligning with the researcher's interest in 'emotion'. It explicitly connects FMEs to emotion understanding, detection, and psychological interpretation.",
+      "evidence": [
+        "FMEs are involuntary facial movements that occur spontaneously when a person experiences an emotion but tries to suppress or repress the facial expression",
+        "MEs are considered to be one of the most valuable cues for complex human emotion understanding and lie detection",
+        "The workshop will explore various dimensions of the human mind through emotion understanding and FME analysis"
+      ],
+      "keywords": [
+        "facial micro-expressions",
+        "emotion recognition",
+        "emotion detection",
+        "affective computing",
+        "psychophysiological signals"
+      ],
+      "research_directions": [
+        "automated emotion recognition from subtle facial cues",
+        "multi-modal affective computing",
+        "emotion-based lie detection",
+        "psychological modeling of suppressed emotions"
+      ]
+    }
+  },
+  "6a1509997ad13c91146d22f7c433c7b92ea7d46239c2de99bc7f3dd8bec5ec60": {
+    "paper_id": "https://openalex.org/W3127609451",
+    "title": "Landmarks-assisted Collaborative Deep Framework for Automatic 4D Facial Expression Recognition",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:06.360Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on automatic facial expression recognition, which is a core subfield of affective computing and emotion research; the title, abstract, and concepts explicitly link to emotion-related perception and modeling.",
+      "evidence": [
+        "Title contains 'Facial Expression Recognition'",
+        "Abstract states the goal is '4D facial expression recognition (FER)'",
+        "Interest topic of researcher is 'emotion'"
+      ],
+      "keywords": [
+        "facial expression recognition",
+        "affective computing",
+        "emotion recognition",
+        "4D FER",
+        "deep learning for emotion"
+      ],
+      "research_directions": [
+        "affective computing",
+        "computer vision for emotion analysis",
+        "multimodal emotion recognition",
+        "deep learning in psychology-aligned AI"
+      ]
+    }
+  },
+  "407118e35111ee3c72319e609e1c99dffc3cf124a96102d02114cf183d8d2be5": {
+    "paper_id": "https://openalex.org/W3211152704",
+    "title": "Facial-Video-Based Physiological Signal Measurement: Recent advances and affective applications",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:06.400Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on affective applications of facial-video-based physiological signal measurement, directly linking physiological signals (e.g., HRV) to emotion inference, and positions itself within affective computing — aligning precisely with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Title includes 'affective applications'",
+        "Abstract states: 'review studies on rPPG-based affective applications and compare them with other affective computing modalities'",
+        "Concepts include 'Affective computing' and 'Facial expression'"
+      ],
+      "keywords": [
+        "affective computing",
+        "emotion recognition",
+        "physiological signals",
+        "rPPG",
+        "facial video analysis",
+        "HRV",
+        "heart rate"
+      ],
+      "research_directions": [
+        "remote physiological sensing for emotion inference",
+        "multimodal affective computing",
+        "benchmarking affective rPPG methods",
+        "unsupervised/supervised learning for affective signal extraction"
+      ]
+    }
+  },
+  "e27d685801fbcdae6dd10def326b1f0814edd5de3a4b490bd196ef7a59c3fcb5": {
+    "paper_id": "https://openalex.org/W3100063341",
+    "title": "AutoHR:a strong end-to-end baseline for remote heart rate measurement with neural searching",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:06.405Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on remote heart rate measurement using deep learning and neural architecture search, with no connection to emotion or affective computing.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all topics are biomedical signal processing and AI engineering."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e22563ad0d8f5c53ba459a7b71242e002c2ffd7719ec7bb80b0dc9c4d55d8132": {
+    "paper_id": "https://openalex.org/W3004457568",
+    "title": "Sparsity-Aware Deep Learning for Automatic 4D Facial Expression Recognition",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:06.593Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on automatic 4D facial expression recognition, which is a core computational method for inferring human emotion from behavioral cues; 'emotion' is explicitly listed as an interest topic of the researcher.",
+      "evidence": [
+        "Title contains 'Facial Expression Recognition'",
+        "Interest topics include 'emotion'"
+      ],
+      "keywords": [
+        "facial expression",
+        "emotion recognition",
+        "deep learning",
+        "4D modeling",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Emotion-aware AI",
+        "Behavioral signal analysis",
+        "Multimodal emotion recognition"
+      ]
+    }
+  },
+  "0f37e1f66e057dd380e2d15b05669e3f93ba903ecc60977c48bae12849b32adc": {
+    "paper_id": "https://openalex.org/W3173802132",
+    "title": "Towards Reading Beyond Faces for Sparsity-aware 3D/4D Affect Recognition",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:06.876Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on affect recognition—specifically 3D/4D facial expression recognition—which is a core subfield of emotion (affective) computing. The title, abstract, and methodology all center on modeling and recognizing affective states from facial dynamics.",
+      "evidence": [
+        "Title contains 'Affect Recognition'",
+        "Abstract states 'automatic 3D/4D facial expression recognition (FER)'",
+        "Researcher's interest topic is 'emotion', and FER is a canonical emotion-related task"
+      ],
+      "keywords": [
+        "affect recognition",
+        "facial expression recognition",
+        "3D/4D emotion analysis",
+        "sparsity-aware deep learning",
+        "multi-view facial dynamics"
+      ],
+      "research_directions": [
+        "affective computing",
+        "facial emotion modeling",
+        "3D/4D biometric affect analysis",
+        "deep learning for emotion recognition",
+        "sparse representation in affective signal processing"
+      ]
+    }
+  },
+  "e38afb1325e21b8a0ec6297065f6d530a61608255a95797cff77cd5faef63555": {
+    "paper_id": "https://openalex.org/W2986906199",
+    "title": "Remote Heart Rate Measurement From Highly Compressed Facial Videos: An End-to-End Deep Learning Solution With Video Enhancement",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:06.918Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on remote heart rate measurement using computer vision and deep learning, with no mention of emotion, affective states, or psychological constructs.",
+      "evidence": [
+        "Abstract and metadata contain no emotion-related terms; concepts are strictly technical (computer vision, data compression, rPPG)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0b22a7e3557d34664d84af8476375a3e2dce80cb1227bb36f733d64ab0e23066": {
+    "paper_id": "https://openalex.org/W3201626421",
+    "title": "Disentangling 3D/4D Facial Affect Recognition With Faster Multi-View Transformer",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:07.082Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on facial affect recognition—a core subfield of emotion research—and aligns directly with the researcher's stated interest in 'emotion'. The title, abstract, and concepts all emphasize affect (i.e., emotion) recognition using advanced AI methods.",
+      "evidence": [
+        "Title contains 'Facial Affect Recognition'",
+        "Abstract states 'MiT: a novel multi-view transformer model for 3D/4D facial affect recognition'",
+        "Interest topics include 'emotion', and 'affect' is a technical synonym in psychology and affective computing"
+      ],
+      "keywords": [
+        "facial affect recognition",
+        "emotion recognition",
+        "3D/4D facial analysis",
+        "multi-view transformer",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware AI",
+        "multimodal emotion recognition",
+        "transformer-based affect modeling",
+        "computer vision for emotion"
+      ]
+    }
+  },
+  "3dcc003b6a3d10315a89863b866f9acccfb802f1c8127a9654745c4d88aaef19": {
+    "paper_id": "https://openalex.org/W2967427637",
+    "title": "Recent Advances in Colloidal Photonic Crystal-Based Anti-Counterfeiting Materials",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:07.206Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on colloidal photonic crystals for anti-counterfeiting applications, with no mention of emotion, affective computing, psychology, or related domains.",
+      "evidence": [
+        "Abstract and concepts contain only materials science, photonics, and nanotechnology terms; 'emotion' is absent from title, abstract, concepts, and venue context."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b6a3317134465297c6f54ef75d8e0fa0833d58638a3f9691a5456b1b02deb1dd": {
+    "paper_id": "https://openalex.org/W2954053303",
+    "title": "Atrial Fibrillation Detection From Face Videos by Fusing Subtle Variations",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:07.397Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on atrial fibrillation detection using remote photoplethysmography from face videos; no connection to emotion, affective computing, or psychological affective processes.",
+      "evidence": [
+        "Interest topic is 'emotion', but paper concepts and abstract center on cardiac arrhythmia detection, signal processing, and biomedical pattern recognition."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "99caea0f9c6f3e7afe4e6e2e49f4baca38d4912c20d01174e4e516979e509898": {
+    "paper_id": "https://openalex.org/W2949978251",
+    "title": "Face Liveness Detection by rPPG Features and Contextual Patch-Based CNN",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:07.433Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face liveness detection and anti-spoofing using rPPG and texture features, with no connection to emotion recognition, affective computing, or psychological emotion modeling.",
+      "evidence": [
+        "Abstract and concepts emphasize security, spoofing attacks, and biometric authentication—not emotion or affective states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "78afbde3879461e9b8b893c1ba7b4e8395fd93d137a34a723caddeffa8ecd189": {
+    "paper_id": "https://openalex.org/W2907172176",
+    "title": "Recent Progress on Face Presentation Attack Detection of 3D Mask Attacks",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:07.599Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on computer security and biometric spoofing detection (3D mask attacks), with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Concepts include Computer security, Computer science, Internet privacy — no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "798542eed9790ad5bc6093632c4164e92806b70eee0c41e5eb7ba0692170fcee": {
+    "paper_id": "https://openalex.org/W3128516613",
+    "title": "MEGC2020 - The Third Facial Micro-Expression Grand Challenge",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:07.640Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper focuses on facial micro-expression spotting and analysis, which is a core subfield of affective computing and emotion recognition; the researcher's interest topic 'emotion' directly aligns with this domain.",
+      "evidence": [
+        "The paper centers on automatic facial micro-expression analysis, a well-established method for inferring underlying emotional states.",
+        "It explicitly connects micro-expressions to 'real-world scenarios where micro-expressions are likely to be intertwined among normal expressions', implying affective/emotional significance.",
+        "Facial expression is listed as a top concept, and micro-expressions are widely accepted in psychology and affective computing as involuntary indicators of concealed or suppressed emotions."
+      ],
+      "keywords": [
+        "facial micro-expression",
+        "emotion recognition",
+        "affective computing",
+        "expression spotting",
+        "nonverbal emotion cues"
+      ],
+      "research_directions": [
+        "automated emotion inference from subtle facial dynamics",
+        "real-world affective state detection in long video streams",
+        "joint macro- and micro-expression analysis for robust emotion understanding"
+      ]
+    }
+  },
+  "944295aeb15202833afb58fb59df224eaf6b95359666cc9b25ee0a0fda3a6cb0": {
+    "paper_id": "https://openalex.org/W3035944432",
+    "title": "Behind the Scenes: Towards Reading Beyond Faces for Sparsity-Aware 4D Affect Recognition",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:07.695Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on 4D facial expression recognition (FER), a core subfield of affective computing and emotion recognition, aligning directly with the researcher's interest topic 'emotion'.",
+      "evidence": [
+        "Title contains '4D Affect Recognition'",
+        "Abstract states 'automatic 4D facial expression recognition (FER)'",
+        "Method targets emotion-related facial muscle movements via TOP-landmarks and sparsity-aware modeling of affective dynamics"
+      ],
+      "keywords": [
+        "affect recognition",
+        "facial expression recognition",
+        "4D FER",
+        "emotion",
+        "sparsity-aware deep learning",
+        "LSTM for affect"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal emotion recognition",
+        "3D/4D facial dynamics modeling",
+        "deep learning for affect"
+      ]
+    }
+  },
+  "c410e8269a46642f25daf94a5f5fbe02fb06b101c7277fc62a3d102bfeeaff4d": {
+    "paper_id": "https://openalex.org/W2799778803",
+    "title": "Arylether-type polybenzimidazoles bearing benzimidazolyl pendants for high-temperature proton exchange membrane fuel cells",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:08.074Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper is in materials science and fuel cell engineering, with no conceptual or lexical connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are exclusively focused on polybenzimidazoles, proton exchange membranes, and fuel cell performance."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a15925a3af2fd6fb0a13cfdca993d0a68d1d86db1394bdf40a94b796b0c252ff": {
+    "paper_id": "https://openalex.org/W2805424946",
+    "title": "The OBF Database: A Large Face Video Database for Remote Physiological Signal Measurement and Atrial Fibrillation Detection",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:08.291Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on remote physiological signal measurement and atrial fibrillation detection using facial videos; 'emotion' is not addressed in title, abstract, or concepts.",
+      "evidence": [
+        "Interest topics: emotion; paper concepts include Atrial fibrillation, HRV, AI, clinical practice — no emotion-related terms"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "21bcc08d37cf2438dcda09473088644d9f7f36dc58b4e4e538fa6fa7023729a2": {
+    "paper_id": "https://openalex.org/W2550235143",
+    "title": "Dimensionally-stable phosphoric acid–doped polybenzimidazoles for high-temperature proton exchange membrane fuel cells",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:08.530Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper is in materials science and chemical engineering, focusing on fuel cell membrane technology; no connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are entirely technical and domain-specific to proton exchange membrane fuel cells."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9203774f41e650cb7c1fbd9a2d0ba777479da4d013d5cc2fb94c48464dce655d": {
+    "paper_id": "https://openalex.org/W2608167567",
+    "title": "Modified nanocrystal cellulose/fluorene-containing sulfonated poly(ether ether ketone ketone) composites for proton exchange membranes",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:08.585Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on materials science and polymer chemistry for proton exchange membranes, with no apparent connection to emotion or affective science.",
+      "evidence": [
+        "Title and concepts are exclusively technical/materials-focused: 'nanocrystal cellulose', 'sulfonated poly(ether ether ketone)', 'proton exchange membranes'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "80599831b9e834a8cd1d2859ca8170819e43cd5b5d2c65a05bc78e76b636f6e9": {
+    "paper_id": "https://openalex.org/W2577714982",
+    "title": "RealSense = real heart rate: Illumination invariant heart rate estimation from videos",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:08.780Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on illumination-invariant heart rate estimation using RealSense NIR imaging and depth data; it does not address emotion, affective states, or psychological constructs.",
+      "evidence": [
+        "Heart rate estimation is treated as a physiological signal measurement task, not as an emotional or affective indicator."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1a15df663e15516d5331bc304cb0ac1752aba6ec538c788d3f2a13f4744fbcf9": {
+    "paper_id": "https://openalex.org/W2963847434",
+    "title": "Automatic Micro-Expression Analysis: Open Challenges",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:08.786Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on micro-expression analysis, which is a core subfield of emotion recognition in psychology and affective computing; the researcher's interest topic 'emotion' directly aligns with this domain.",
+      "evidence": [
+        "Title: 'Automatic Micro-Expression Analysis: Open Challenges'",
+        "Venue: 'Frontiers in Psychology'",
+        "Concepts include 'Expression (computer science)' and 'Psychology', both tightly coupled with emotion research"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "affective computing",
+        "nonverbal behavior",
+        "psychophysiology"
+      ],
+      "research_directions": [
+        "automated facial expression analysis",
+        "cross-cultural micro-expression detection",
+        "real-time emotion inference from subtle cues",
+        "integration of psychology and AI for affect modeling"
+      ]
+    }
+  },
+  "e2ec1a979fd7240903770e466feda5eda87a880028e089d1be4eabb60107c8d3": {
+    "paper_id": "https://openalex.org/W2608997542",
+    "title": "Generalized face anti-spoofing by detecting pulse from face videos",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:08.810Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face anti-spoofing and liveness detection using physiological pulse signals, with no connection to emotion recognition, affective computing, or emotional states.",
+      "evidence": [
+        "Title and abstract exclusively address biometric security, not emotion or affective processes."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "87898d9b518fe90ebf3003ae2eb0c10a8e15a7be0df2299917362c40286efbc6": {
+    "paper_id": "https://openalex.org/W2964796858",
+    "title": "Remote Photoplethysmograph Signal Measurement from Facial Videos Using Spatio-Temporal Networks",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:08.948Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper explicitly addresses emotion recognition as a downstream application of its reconstructed rPPG signals, directly linking physiological signal measurement to affective computing. This aligns with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "We also achieve promising results of using reconstructed rPPG signals for AF detection and emotion recognition.",
+        "Interest topics: emotion"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "rPPG",
+        "heart rate variability",
+        "affective computing",
+        "physiological signals"
+      ],
+      "research_directions": [
+        "affective computing",
+        "non-contact emotion sensing",
+        "biometric-based emotion analysis",
+        "deep learning for affective signal processing"
+      ]
+    }
+  },
+  "b85405587d54d8497781efeb3955754864b0e3d96bbd415bed9b4d3cc467f2fe": {
+    "paper_id": "https://openalex.org/W2560141654",
+    "title": "Novel iodo-containing poly(arylene ether ketone)s as intermediates for grafting perfluoroalkyl sulfonic acid groups",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:08.974Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is in polymer chemistry, focusing on synthetic routes for iodo-containing poly(arylene ether ketone)s and functionalization with perfluoroalkyl sulfonic acid groups; no connection to emotion or affective science.",
+      "evidence": [
+        "Concepts: Arylene, Sulfonic acid, Ether, Chemistry, Ketone, Polymer chemistry, Nucleophilic aromatic substitution, Thermal stability"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f18c3bf0c6588169f6ddef68fa17676041540013a831bacf1fa7bf9e9668459b": {
+    "paper_id": "https://openalex.org/W2135410242",
+    "title": "Asymmetric membranes prepared with trifluoromethylphenylated poly(ether ether ketone) for gas separation",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:09.352Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper is a materials science study on gas-separation membranes; no connection to emotion or affective processes.",
+      "evidence": [
+        "All concepts and abstract content pertain to polymer chemistry and membrane engineering."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "32a026aaa8da320ad33ea7ce423fe0abb9c15c1a6a4897bd300cf6cd51188313": {
+    "paper_id": "https://openalex.org/W3068731427",
+    "title": "Towards Reading Beyond Faces for Sparsity-Aware 4D Affect Recognition",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:09.393Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly targets 4D affect recognition — a core affective computing task — and aligns directly with the researcher's interest in 'emotion'. It focuses on facial expression recognition (FER) as a proxy for affect/emotion states, uses affect-labeled datasets (BU-4DFE), and employs methodologies standard in emotion AI research.",
+      "evidence": [
+        "Title contains '4D Affect Recognition'",
+        "Abstract states 'automatic 4D facial expression recognition (FER)'",
+        "Uses BU-4DFE dataset — a benchmark affective dataset for 4D facial expressions"
+      ],
+      "keywords": [
+        "affect recognition",
+        "facial expression recognition",
+        "4D emotion analysis",
+        "sparsity-aware deep learning",
+        "multiview emotion modeling"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion recognition from 3D/4D facial dynamics",
+        "deep learning for affective signal processing",
+        "sparse representation in emotion AI"
+      ]
+    }
+  },
+  "22f875f36837699a37fe06fd1779dbc420c11411b3acc861d7500d76aae9fe67": {
+    "paper_id": "https://openalex.org/W2990920365",
+    "title": "Psychological Treatment for Depressive Disorder",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:09.464Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper focuses on psychological treatments for depressive disorder, which is a core clinical manifestation of affective/emotional dysfunction; multiple emotion-relevant therapeutic modalities (e.g., interpersonal, psychodynamic, psychosocial) are explicitly listed as concepts.",
+      "evidence": [
+        "Concepts include Interpersonal psychotherapy, Psychosocial, Psychology, Psychodynamic psychotherapy",
+        "Title explicitly references depressive disorder — a primary affective disorder"
+      ],
+      "keywords": [
+        "depression",
+        "interpersonal psychotherapy",
+        "psychosocial intervention",
+        "affective disorders",
+        "emotion regulation"
+      ],
+      "research_directions": [
+        "Emotion-focused psychotherapy",
+        "Affective mechanisms in depression treatment",
+        "Psychosocial interventions for mood disorders"
+      ]
+    }
+  },
+  "8f32e2021f310963021c6b35c022eb7355aad4cda25e9e567582fb67100c3464": {
+    "paper_id": "https://openalex.org/W1986273245",
+    "title": "Remote Heart Rate Measurement from Face Videos under Realistic Situations",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:09.564Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.92,
+      "reason": "The paper focuses on remote physiological measurement (heart rate) using computer vision and signal processing; no affective or emotion-related constructs, models, or applications are addressed.",
+      "evidence": [
+        "Abstract mentions heart rate as a physiological indicator but makes no reference to emotion, affect, sentiment, or psychological states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9b6dee83a94d0d35e1abc62c67a33828cd2871b0c7e1dd5ef9dbd6ab3e23ef65": {
+    "paper_id": "https://openalex.org/W4288358601",
+    "title": "Remote Photoplethysmograph Signal Measurement from Facial Videos Using\\n Spatio-Temporal Networks",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:09.568Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper explicitly addresses emotion recognition as a downstream application of its rPPG signal reconstruction method, directly linking physiological signal analysis to affective computing.",
+      "evidence": [
+        "We also achieve promising results of using reconstructed rPPG signals for AF detection and emotion recognition.",
+        "Interest topics include 'emotion', and the paper applies its method to emotion recognition."
+      ],
+      "keywords": [
+        "emotion recognition",
+        "rPPG",
+        "heart rate variability",
+        "affective computing",
+        "physiological signals"
+      ],
+      "research_directions": [
+        "affective computing",
+        "remote physiological sensing",
+        "multimodal emotion analysis",
+        "deep learning for biometric signal estimation"
+      ]
+    }
+  },
+  "1db169bbe2ff37e34e02189c473680c645c23c3ccc5a8c87d5728b381c1b6088": {
+    "paper_id": "https://openalex.org/W1990697067",
+    "title": "Effect of surfactant additive on vertical two-phase flow",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:09.716Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper concerns fluid mechanics and petroleum engineering, with no conceptual or lexical overlap with emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Two-phase flow', 'Pressure drop', 'Drag', all unrelated to emotion"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9e16dbb59489d45b31ba2adc67af5c49501e389334033e2e40550866c2b0b307": {
+    "paper_id": "https://openalex.org/W2755263305",
+    "title": "Reading subtle information from human faces",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:09.886Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.9,
+      "reason": "The paper title 'Reading subtle information from human faces' strongly implies analysis of facial expressions, which is a core modality for emotion recognition in affective science; the researcher's stated interest is 'emotion', and psychology—a concept listed—is a foundational discipline for affective research.",
+      "evidence": [
+        "Title: 'Reading subtle information from human faces'",
+        "Researcher interest: 'emotion'",
+        "Concept: 'Psychology'"
+      ],
+      "keywords": [
+        "facial expression",
+        "emotion recognition",
+        "affective computing",
+        "nonverbal communication"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Human-computer interaction",
+        "Psychological signal processing",
+        "Computer vision for emotion"
+      ]
+    }
+  },
+  "1fca72d8c327b955352bc5369f21017f23ddcf3468a58f6438ab03a50b17d36c": {
+    "paper_id": "https://openalex.org/W2016640769",
+    "title": "Naphthalene-based poly(arylene ether ketone) anion exchange membranes",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:10.027Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a materials chemistry study on anion exchange membranes; no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract focus exclusively on polymer synthesis, ionic conductivity, and fuel cell applications."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2ccf46a012fdee5f2c9c350dc32b6b01fa8e1c5d8b449fe8fc120782d033cee9": {
+    "paper_id": "https://openalex.org/W2944459812",
+    "title": "Automatic 4D Facial Expression Recognition via Collaborative Cross-domain Dynamic Image Network",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:10.343Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses facial expression recognition, which is a core subfield of affective computing and emotion research; the researcher's interest topic 'emotion' aligns precisely with the paper's goal of automatic recognition of emotional states from dynamic 4D facial data.",
+      "evidence": [
+        "Title explicitly includes 'Facial Expression Recognition'",
+        "Abstract states the method is for '4D Facial Expression Recognition (FER)'",
+        "Method encodes 'facial deformations over time' linked to emotion expression"
+      ],
+      "keywords": [
+        "facial expression",
+        "emotion recognition",
+        "affective computing",
+        "4D face analysis",
+        "dynamic image",
+        "rank pooling"
+      ],
+      "research_directions": [
+        "affective computing",
+        "computer vision for emotion",
+        "multimodal emotion recognition",
+        "deep learning for FER",
+        "3D/4D facial dynamics"
+      ]
+    }
+  },
+  "57669cabbbb9b84263edf2e3d0516931b6e209913c64ccab4f6d629180ed0a9e": {
+    "paper_id": "https://openalex.org/W2041181818",
+    "title": "Fire Detecting Technology based on Dynamic Textures",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:10.411Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on fire detection using dynamic textures and optical flow in computer vision, with no mention of human emotion, affective computing, or psychological/emotional processes.",
+      "evidence": [
+        "Abstract and concepts exclusively relate to computer vision, image processing, and fire detection"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9123b53fff8ed838c12e950b6c7a28f4ca9517fc8a35578d2930ffacb6244b74": {
+    "paper_id": "https://openalex.org/W2944730351",
+    "title": "Recovering remote Photoplethysmograph Signal from Facial videos Using Spatio-Temporal Convolutional Networks.",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:10.445Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.92,
+      "reason": "The paper recovers photoplethysmographic (PPG) signals from facial videos, which are widely used as physiological proxies for affective states (e.g., heart rate variability linked to stress, arousal, and emotion regulation); 'emotion' is explicitly listed as the researcher's interest topic, and PPG-based remote sensing of autonomic activity is a well-established method in affective computing.",
+      "evidence": [
+        "Interest topics: emotion",
+        "Title mentions recovering remote Photoplethysmograph Signal — a key physiological signal in emotion recognition",
+        "Concepts include Computer vision and Pattern recognition (psychology), both relevant to affective computing"
+      ],
+      "keywords": [
+        "photoplethysmography",
+        "remote physiological sensing",
+        "facial video analysis",
+        "affective computing",
+        "autonomic nervous system",
+        "emotion recognition"
+      ],
+      "research_directions": [
+        "Physiological signal estimation from video for emotion inference",
+        "Spatio-temporal deep learning in affective computing",
+        "Contactless emotion assessment using cardiovascular biomarkers"
+      ]
+    }
+  },
+  "f9700dc5d7cc7a23f5d044edd8d261410b52e764806b6e130762379d490c7620": {
+    "paper_id": "https://openalex.org/W2396728763",
+    "title": "Multi-modal emotion analysis from facial expressions and electroencephalogram",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:10.609Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion analysis using multimodal physiological and behavioral signals, aligning precisely with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Title explicitly states 'Multi-modal emotion analysis'",
+        "Concepts include 'Emotion recognition' and 'Facial expression'",
+        "Concepts list 'Electroencephalography'—a key modality for affective neuroscience"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "facial expression",
+        "electroencephalography",
+        "multimodal analysis",
+        "affective computing"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Multimodal emotion sensing",
+        "Neurophysiological correlates of emotion",
+        "Pattern recognition in affective science"
+      ]
+    }
+  },
+  "4942d827f5a99e4ca9c21a910c9a74c8ada9babe5e58beba430b77d584ed51c8": {
+    "paper_id": "https://openalex.org/W1033743030",
+    "title": "Multi-Antenna Spectrum Detection Based on Cyclostationary Signatures in Cognitive System",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:10.636Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is in cognitive radio and signal processing, with no conceptual or methodological connection to emotion or affective science.",
+      "evidence": [
+        "All concepts and the abstract focus on spectrum sensing, cyclostationary processes, and antenna diversity in wireless communications."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9a72203ae68c8b048676812ae8e62290fa4115271facdf9b5b32301e11c63615": {
+    "paper_id": "https://openalex.org/W3103539074",
+    "title": "Towards reading hidden emotions:a comparative study of spontaneous micro-expression spotting and recognition methods",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:10.699Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion recognition through micro-expressions, aligning precisely with the researcher's interest topic 'emotion'. It focuses on spontaneous, involuntary emotional cues, grounded in psychology and affective computing.",
+      "evidence": [
+        "Title explicitly references 'hidden emotions' and 'micro-expression spotting and recognition'",
+        "Abstract states MEs 'reveal emotions that people do not intend to show'",
+        "Concepts include 'Emotion recognition', 'Psychology', and 'Expression (computer science)'"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "spontaneous expression",
+        "affective computing",
+        "facial expression analysis"
+      ],
+      "research_directions": [
+        "affective computing",
+        "automated emotion detection",
+        "psychophysiological signal interpretation",
+        "forensic affective analysis",
+        "human-computer interaction with emotional awareness"
+      ]
+    }
+  },
+  "fc60183637f3b840aebd912456a3ddd6a419b526c297e89a613988f1bbbf2504": {
+    "paper_id": "https://openalex.org/W2079108212",
+    "title": "The Fusiform Face Area Is Engaged in Holistic, Not Parts-Based, Representation of Faces",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:10.717Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on neural mechanisms of face perception and holistic representation in the fusiform face area, with no mention of emotion, affective processing, or related constructs.",
+      "evidence": [
+        "Abstract and concepts contain no emotion-related terms; all keywords pertain to visual neuroscience and perception."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0ce8bfddced538e29f1c446a8931f1888dcc79b2505aae012ee1ae4e4244e558": {
+    "paper_id": "https://openalex.org/W2376208569",
+    "title": "Channel Estimation Based on Subcarriers Noise Reduction and Wavelet Transform in Spectrum Pooling",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:10.982Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is in wireless communications signal processing, focusing on channel estimation and noise reduction techniques; no connection to emotion or affective science.",
+      "evidence": [
+        "Title and abstract contain only technical terms from telecommunications and signal processing (e.g., 'subcarriers', 'wavelet transform', 'MRC', 'SNR')"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "82a6b27c8f4befb99b618e21460948596212e07cd55ba3f6cedbad9165eb5a4a": {
+    "paper_id": "https://openalex.org/W2956286548",
+    "title": "Analyze Spontaneous Gestures for Emotional Stress State Recognition: A Micro-gesture Dataset and Analysis with Deep Learning",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:11.213Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly investigates spontaneous micro-gestures as behavioral correlates of emotional stress states, aligning precisely with 'emotion' as the researcher's core interest topic. It bridges affective science and AI-driven recognition, with explicit focus on hidden emotions, mental strain, and emotion-state inference.",
+      "evidence": [
+        "Title explicitly references 'Emotional Stress State Recognition'",
+        "Abstract states: 'Emotions are central for human intelligence' and 'interpreting the human hidden emotions via these specific gestural behaviors'",
+        "Methodology centers on inferring 'subjective emotional states' from gestures using a Bayesian network"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "micro-gestures",
+        "emotional stress",
+        "nonverbal emotion cues",
+        "affective computing",
+        "spontaneous behavior"
+      ],
+      "research_directions": [
+        "affective gesture analysis",
+        "multimodal emotion recognition beyond face/voice",
+        "psychophysiological correlates of stress",
+        "AI for implicit affect detection",
+        "interdisciplinary affective science (psychology + AI)"
+      ]
+    }
+  },
+  "4eb87373a7954ee78cd9cf434ac81c9bc5e375cc745a870724b64b1d7c348ed7": {
+    "paper_id": "https://openalex.org/W1985881047",
+    "title": "Improved adaptive stereo matching using double dynamic programming with correlation of row and column",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:11.641Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper is purely technical and focused on stereo vision algorithms using dynamic programming; no mention or conceptual link to emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "Title and abstract exclusively discuss stereo matching, dynamic programming, and optimization for computer vision."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1071eecee4a41543daeb82d5d2d60c46a81238b5dccc5bdca5c6bdd246742e95": {
+    "paper_id": "https://openalex.org/W2044459166",
+    "title": "Micro-expression Recognition Using Dynamic Textures on Tensor Independent Color Space",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:11.821Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses micro-expression recognition, which is a core subfield of emotion analysis in affective computing; it explicitly links micro-expressions to genuine emotions and lie detection, aligning with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Micro-expression is a brief involuntary facial expression which reveals genuine emotions",
+        "helps detect lies",
+        "intrigues psychologists and computer scientists' (especially on computer vision and pattern recognition) interests due to its promising applications in various fields"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "facial expression",
+        "affective computing",
+        "dynamic texture",
+        "Tensor Independent Color Space"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware computer vision",
+        "nonverbal emotion analysis",
+        "biometric-based emotion detection",
+        "psychophysiological signal interpretation"
+      ]
+    }
+  },
+  "b162d5750fe7fd3899c9e8d1a2ae38ea40cc72ce5f2af0267c518e7523700605": {
+    "paper_id": "https://openalex.org/W2037747987",
+    "title": "The design and fabrication on gate type resonant tunneling transistor",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:11.865Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on semiconductor device physics and nanofabrication, with no conceptual or terminological overlap with emotion or affective science.",
+      "evidence": [
+        "Concepts include 'Quantum tunnelling', 'Transistor', 'Photolithography' — all unrelated to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "756f15a29d5d853007fb42eb81b8fdd7e7bad24febefb9714221da16384480ca": {
+    "paper_id": "https://openalex.org/W1970505192",
+    "title": "The Part Task of the Part-Spacing Paradigm Is Not a Pure Measurement of Part-Based Information of Faces",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:11.897Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on methodological critique of the part-spacing paradigm in face perception research, with no engagement with emotion, affective processes, or related constructs.",
+      "evidence": [
+        "Abstract and concepts exclusively address perception, face processing, cognitive psychology, and task design—no mention of emotion, affect, valence, arousal, or related terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2499a17a72e0b5a380cec19e89e31adee1834937e72c7bd76a497fce89d56c52": {
+    "paper_id": "https://openalex.org/W2354117359",
+    "title": "What Makes a Face a Face: A Review of Studies on Face Specificity",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:12.024Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face specificity from sociological, philosophical, linguistic, and computer science perspectives, with no indication of emotion or affective processing in title, concepts, or available metadata.",
+      "evidence": [
+        "Concepts: Face (sociological concept), Face-to-face, Computer science, Epistemology, Philosophy, Linguistics"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3d728a04fc6c854b2f34e9ca6a04769b4b73315d0c964316e4a2b44a2c3eb42f": {
+    "paper_id": "https://openalex.org/W2093033615",
+    "title": "Micro-Expression Recognition Using Color Spaces",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:12.103Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses micro-expression recognition—a core affective computing task—explicitly linking facial expressions to genuine underlying emotions and lie detection, aligning precisely with the researcher's interest in 'emotion'.",
+      "evidence": [
+        "Micro-expressions are brief involuntary facial expressions that reveal genuine emotions and, thus, help detect lies.",
+        "Concepts include 'Facial expression' and 'Pattern recognition (psychology)'",
+        "Uses emotion-relevant databases CASME and CASME 2, designed for spontaneous micro-expression analysis"
+      ],
+      "keywords": [
+        "micro-expression",
+        "facial expression",
+        "emotion recognition",
+        "CIELab",
+        "CIELuv",
+        "TICS",
+        "dynamic texture",
+        "ROI",
+        "affective computing"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion-aware computer vision",
+        "nonverbal emotion analysis",
+        "deception detection",
+        "perceptual color modeling for affect"
+      ]
+    }
+  },
+  "ce762a185efc23092b4118120bba26b0ffbeb04233479079290d90ffd9840b3d": {
+    "paper_id": "https://openalex.org/W2044106642",
+    "title": "A Spontaneous Micro-expression Database: Inducement, collection and baseline",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:12.107Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion through the study of micro-expressions—brief, involuntary facial expressions that reveal concealed emotions—and explicitly links them to psychological and affective states.",
+      "evidence": [
+        "Micro-expressions are short, involuntary facial expressions which reveal hidden emotions.",
+        "Micro-expressions are important for understanding humans' deceitful behavior.",
+        "Researcher's interest topic is 'emotion', and the paper's core subject is emotion-revealing facial behavior."
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion",
+        "facial expression",
+        "affective computing",
+        "emotion recognition"
+      ],
+      "research_directions": [
+        "automatic micro-expression detection",
+        "spontaneous affective behavior analysis",
+        "emotion inference from nonverbal cues",
+        "affective database construction"
+      ]
+    }
+  },
+  "8b6bff9cae8e2ad7403bea33881cc315f4771453b25b31d5793a434587fb290e": {
+    "paper_id": "https://openalex.org/W2015973974",
+    "title": "Research of GPS Anti-Jamming Based on Circular Antenna Array",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:12.169Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical signal processing study on GPS anti-jamming using antenna arrays; it contains no mention of emotion, affect, psychology, or related constructs.",
+      "evidence": [
+        "Title and abstract focus exclusively on GPS signal suppression, circular antenna arrays, and algorithms like min-norm and LCMV."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f2e4e8da0a83f561eaae29f50c4989b270671c3e9068040168bf06155cb159f1": {
+    "paper_id": "https://openalex.org/W1917313599",
+    "title": "Reading Hidden Emotions: Spontaneous Micro-expression Spotting and Recognition.",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:12.177Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion analysis through micro-expression spotting and recognition, aligning precisely with the researcher's interest topic 'emotion'. The abstract explicitly frames MEs as involuntary indicators of hidden emotions, and the technical contributions target real-world affective computing challenges.",
+      "evidence": [
+        "Title contains 'Hidden Emotions' and 'Micro-expression Spotting and Recognition'",
+        "Abstract states: 'Micro-expressions (MEs) are rapid, involuntary facial expressions which reveal emotions that people do not intend to show.'",
+        "Applications cited include forensic science and psychotherapy—domains grounded in affective/emotional assessment."
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "spontaneous emotion",
+        "affective computing",
+        "facial expression analysis"
+      ],
+      "research_directions": [
+        "automatic affect detection from nonverbal cues",
+        "spontaneous vs. posed emotion analysis",
+        "low-intensity emotion recognition",
+        "human-AI comparison in emotion perception"
+      ]
+    }
+  },
+  "a8bcf79fca7989c22e9e06906895d249aa789bfbbb4eaf4ffe11acafb30d7dc6": {
+    "paper_id": "https://openalex.org/W2006426145",
+    "title": "CASME II: An Improved Spontaneous Micro-Expression Database and the Baseline Evaluation",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:12.265Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion recognition through spontaneous micro-expressions, with explicit labeling of emotions and application to psychological and clinical domains aligned with affective science.",
+      "evidence": [
+        "'247 micro-expressions were selected for the database with action units (AUs) and emotions labeled'",
+        "Applications in 'clinical diagnosis' and focus on 'emotions' as ground-truth labels",
+        "Concepts include 'Facial expression', 'Facial expression recognition', and 'Pattern recognition (psychology)'"
+      ],
+      "keywords": [
+        "micro-expression",
+        "emotion recognition",
+        "facial expression",
+        "affective computing",
+        "action units",
+        "LBP-TOP",
+        "SVM"
+      ],
+      "research_directions": [
+        "affective computing",
+        "automatic emotion recognition",
+        "psychological signal processing",
+        "nonverbal behavior analysis",
+        "clinical affective biomarkers"
+      ]
+    }
+  },
+  "d7f5519a57242526bc3fe86bd2885bfe97ca6b1e9da43bd1917e156d32337b66": {
+    "paper_id": "https://openalex.org/W2359261543",
+    "title": "Steganalysis Technology Based on Generalized Character Sequence",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:12.267Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on steganalysis and information hiding in images using generalized character sequences, with no mention or conceptual link to emotion, affective computing, or psychological/behavioral aspects of emotion.",
+      "evidence": [
+        "All concepts and the abstract pertain to computer security, steganography, and signal analysis—not emotion or affective science."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "710b8428f86a99b954c4a6c14d4cbc3aea2cadbdd8efde79f5b58e9bc2e9c987": {
+    "paper_id": "https://openalex.org/W2379588234",
+    "title": "Real-time Reliable Multicast Protocols for Distribution of Radar Intelligence",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:12.303Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on real-time reliable multicast protocols for radar intelligence distribution, with no mention or conceptual overlap with emotion, affective computing, or psychological/affective phenomena.",
+      "evidence": [
+        "Concepts include Multicast, Reliable multicast, Computer network, Network packet — all technical networking topics; abstract discusses FEC, LIR, latency, reliability — no emotion-related terms or constructs."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "029750bb70ced5fb73b1280d7a98906b7d7c5f7b87e93454f03f3260bbfc134b": {
+    "paper_id": "https://openalex.org/W2535157064",
+    "title": "Electric field optimization of the 72.5kV high voltage vacuum interrupter",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:12.415Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper is a technical engineering study on electric field optimization in high-voltage vacuum interrupters, with no connection to human emotion, affective science, or psychological constructs.",
+      "evidence": [
+        "All concepts and the abstract focus exclusively on electrical engineering, materials science, and computational optimization."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "759a37ccfa6b6c702778973ec21509cbce83d792373035fafee494dce925c11b": {
+    "paper_id": "https://openalex.org/W2140464438",
+    "title": "Properties and defects study on GaAs based epitaxy materials",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:12.416Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.98,
+      "reason": "The paper focuses on materials science and device fabrication of GaAs-based semiconductors, with no mention of emotion, affect, psychology, or related constructs.",
+      "evidence": [
+        "Title: 'Properties and defects study on GaAs based epitaxy materials'"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e352892166f1cea487e894dd02efa4e2b1e0a265a212d3e03c4286ca5ba89052": {
+    "paper_id": "https://openalex.org/W2011631883",
+    "title": "Data reduction via adaptive sampling",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:12.569Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on mathematical data reduction and adaptive sampling techniques with no mention of emotion, affect, psychology, or related constructs.",
+      "evidence": [
+        "Abstract and concepts are purely statistical/computational; 'emotion' does not appear in title, abstract, or listed concepts."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0e212a9c642af8aaa9aa037a2cfe30f45badcb832d33da643c4b00e9ff2cda2c": {
+    "paper_id": "https://openalex.org/W2384423292",
+    "title": "Scientific problems of electro-material & -device of SiC and GaN",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:12.685Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on materials science and semiconductor device physics of SiC and GaN, with no mention of emotion, affective computing, psychology, or related domains.",
+      "evidence": [
+        "Abstract discusses polytype, piezoelectricity, current collapse, trap phenomena, and thermal carrier behavior—none related to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9de45f5b46ded7c9a10cb51f5196111909e88466ef440257b10654b357934dbd": {
+    "paper_id": "https://openalex.org/W2059068649",
+    "title": "Recognising spontaneous facial micro-expressions",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:12.937Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion-related phenomena—specifically, spontaneous facial micro-expressions that reveal suppressed affect—and aligns precisely with the researcher's stated interest in 'emotion'.",
+      "evidence": [
+        "Facial micro-expressions are rapid involuntary facial expressions which reveal suppressed affect.",
+        "We designed an induced emotion suppression experiment to collect the new corpus.",
+        "The system is the first to recognise spontaneous facial micro-expressions."
+      ],
+      "keywords": [
+        "facial micro-expressions",
+        "suppressed affect",
+        "emotion recognition",
+        "spontaneous expression",
+        "affect detection"
+      ],
+      "research_directions": [
+        "affective computing",
+        "emotion recognition from facial behavior",
+        "micro-expression analysis",
+        "involuntary emotional response detection"
+      ]
+    }
+  },
+  "f751ef99d3de5b7ac0bcc49f8e6197a98c4474c3446db2a69a0bb778b02413c5": {
+    "paper_id": "https://openalex.org/W2154129660",
+    "title": "Multimodal emotion recognition by combining physiological signals and facial expressions: A preliminary study",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:13.166Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses emotion recognition using physiological and behavioral modalities, aligning precisely with the researcher's stated interest in 'emotion'. It explicitly investigates core affective dimensions (arousal and valence) and employs methods central to affective computing.",
+      "evidence": [
+        "Title explicitly includes 'Multimodal emotion recognition'",
+        "Abstract states 'emotion recognition by combining physiological signals and facial expressions was studied'",
+        "Concepts include 'Arousal', 'Valence (chemistry)', 'Facial expression', 'Emotion recognition', 'Emotional valence'"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "arousal",
+        "valence",
+        "physiological signals",
+        "facial expression",
+        "multimodal"
+      ],
+      "research_directions": [
+        "affective computing",
+        "multimodal affect sensing",
+        "physiological correlates of emotion",
+        "facial expression analysis for emotion",
+        "valence-arousal modeling"
+      ]
+    }
+  },
+  "3843e6ecd702c343300ca6b068a4a69bff191b58987e927ec9738d4c18cfe226": {
+    "paper_id": "https://openalex.org/W1998022503",
+    "title": "Differentiating spontaneous from posed facial expressions within a generic facial expression recognition framework",
+    "researcher_name": "Xiaobai Li",
+    "researcher_openalex_author_id": "A5101691493",
+    "updated_at": "2026-02-20T19:44:13.802Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.92,
+      "confidence": 0.95,
+      "reason": "The paper directly addresses emotion-related behavior through differentiation of spontaneous vs. posed facial expressions—a core problem in affective computing and emotion recognition.",
+      "evidence": [
+        "Title explicitly references 'spontaneous' and 'posed facial expressions', which are behavioral proxies for genuine vs. simulated emotion.",
+        "Abstract states the method is the first to differentiate spontaneous from posed expressions using a realistic corpus—central to emotion expression analysis.",
+        "Interest topic 'emotion' aligns with facial expression as a primary modality for emotion inference in psychology and AI."
+      ],
+      "keywords": [
+        "facial expression",
+        "spontaneous emotion",
+        "posed expression",
+        "affective computing",
+        "emotion recognition"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Emotion recognition from visual behavior",
+        "Spontaneous vs. deliberate emotion expression modeling",
+        "Multimodal (visual/NIR) emotion analysis"
+      ]
+    }
+  }
+}

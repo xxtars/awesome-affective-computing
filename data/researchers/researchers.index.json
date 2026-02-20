@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-20T19:01:38.247Z",
+  "generated_at": "2026-02-20T19:44:35.027Z",
   "pipeline_version": "v0.1.0",
   "run_config": {
     "model": "qwen-plus",
@@ -10,7 +10,7 @@
     "concurrency": 32,
     "save_every": 5,
     "researcher_names": [
-      "Jia Liu"
+      "Xiaobai Li"
     ]
   },
   "researchers": [
@@ -2662,6 +2662,105 @@
         "summary_recomputed": true
       },
       "profile_path": "data/researchers/profiles/A5088062069.json"
+    },
+    {
+      "identity": {
+        "name": "Xiaobai Li",
+        "google_scholar": "https://scholar.google.com/citations?user=JTFfexYAAAAJ",
+        "openalex_author_id": "A5101691493",
+        "openalex_author_url": "https://openalex.org/A5101691493"
+      },
+      "affiliation": {
+        "last_known_institution": "Zhejiang University",
+        "last_known_country": "China",
+        "source": "seed_google_scholar"
+      },
+      "metrics": {
+        "works_count": 147,
+        "cited_by_count": 8260,
+        "h_index": 41,
+        "i10_index": 71
+      },
+      "topic_summary": {
+        "top_research_directions": [
+          {
+            "name": "multimodal emotion analysis",
+            "weight": 1
+          },
+          {
+            "name": "micro-expression analysis",
+            "weight": 0.98
+          },
+          {
+            "name": "affective computing",
+            "weight": 0.96
+          },
+          {
+            "name": "clinical affective computing",
+            "weight": 0.92
+          },
+          {
+            "name": "explainable AI for emotion analysis",
+            "weight": 0.89
+          },
+          {
+            "name": "cross-cultural affective computing",
+            "weight": 0.85
+          },
+          {
+            "name": "remote physiological sensing for emotion inference",
+            "weight": 0.83
+          },
+          {
+            "name": "affective behavior modeling (body/gesture/micro-action)",
+            "weight": 0.81
+          }
+        ],
+        "trend_summary": "Xiaobai Li's research centers on multimodal, clinically grounded, and ethically aware affective AI — with strong emphasis on fine-grained, spontaneous, and culturally robust emotion inference from nonverbal cues (especially micro-expressions, micro-gestures, and remote physiological signals). A clear evolution is observed: from foundational work on micro-expression datasets (CASME, 4DME) and spotting/recognition methods, toward integrated frameworks combining vision, language, physiology, and behavior — increasingly interpretable, disentangled, reinforcement-aligned, and deployed in real-world contexts like online meetings, depression screening, and cross-cultural HCI. Trust, privacy, and clinical translation are recurring thematic constraints shaping technical design.",
+        "representative_papers": [
+          {
+            "title": "CASME II: An Improved Spontaneous Micro-Expression Database and the Baseline Evaluation",
+            "why": "Foundational dataset paper with highest citation count (930), establishing benchmark standards for spontaneous micro-expression research — core to Li's long-term focus on subtle, involuntary affect."
+          },
+          {
+            "title": "Video-Based Remote Physiological Measurement via Cross-Verified Feature Disentangling",
+            "why": "Highly cited (197) methodological breakthrough enabling contactless emotion inference via rPPG, bridging physiological signal estimation and affective computing — a pillar of Li's remote sensing work."
+          },
+          {
+            "title": "SMG: A Micro-gesture Dataset Towards Spontaneous Body Gestures for Emotional Stress State Analysis",
+            "why": "Seminal body-based affect resource (48 citations), expanding beyond facial cues to model hidden stress through spontaneous micro-gestures — key to holistic affective behavior modeling."
+          },
+          {
+            "title": "MEGC2025: Micro-Expression Grand Challenge on Spot Then Recognize and Visual Question Answering",
+            "why": "Latest flagship challenge integrating micro-expression analysis with vision-language understanding, reflecting Li's forward-looking shift toward multimodal, open-vocabulary, and reasoning-capable affective AI."
+          },
+          {
+            "title": "AffectGPT-R1: Leveraging Reinforcement Learning for Open-Vocabulary Multimodal Emotion Recognition",
+            "why": "Represents cutting-edge direction: merging generative foundation models, reward-based training, and open-set emotion recognition — signaling next-generation affective AI architecture."
+          },
+          {
+            "title": "Cross-Cultural Nuances of Micro-Expressions and Action Units: A Comparative Study",
+            "why": "Exemplifies growing emphasis on cultural robustness and decoupling anatomical vs. affective interpretation — critical for global deployment and ethical validity of emotion AI."
+          },
+          {
+            "title": "Multimodal Interpretable Depression Analysis Using Visual, Physiological, Audio and Textual Data",
+            "why": "Highlights clinical translation focus: high-citation (3) multimodal depression detection with interpretability — aligning with healthcare-oriented affective computing goals."
+          },
+          {
+            "title": "VISTANet: VIsual Spoken Textual Additive Net for Interpretable Multimodal Emotion Recognition",
+            "why": "Embodies core technical synthesis: interpretable fusion of visual, spoken, and textual modalities — directly addressing the need for transparency in real-world emotion-aware systems."
+          }
+        ]
+      },
+      "stats": {
+        "analyzed_works_count": 127,
+        "interesting_works_count": 54,
+        "new_works_count": 127,
+        "deduped_works_count": 127,
+        "ai_called_count": 127,
+        "summary_recomputed": true
+      },
+      "profile_path": "data/researchers/profiles/A5101691493.json"
     },
     {
       "identity": {
