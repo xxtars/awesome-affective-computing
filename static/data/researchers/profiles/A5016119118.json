@@ -1,14 +1,15 @@
 {
   "identity": {
     "name": "Guanqun Bi",
+    "orcid": "https://orcid.org/0000-0001-8829-9489",
     "google_scholar": "https://scholar.google.com/citations?user=cTMKxukAAAAJ",
     "openalex_author_id": "A5016119118",
     "openalex_author_url": "https://openalex.org/A5016119118"
   },
   "affiliation": {
-    "last_known_institution": "Tsinghua University",
-    "last_known_country": "China",
-    "source": "seed_google_scholar"
+    "last_known_institution": null,
+    "last_known_country": null,
+    "source": "openalex"
   },
   "metrics": {
     "works_count": 22,

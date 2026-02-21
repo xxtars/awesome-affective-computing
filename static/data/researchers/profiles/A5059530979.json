@@ -1,14 +1,15 @@
 {
   "identity": {
     "name": "Dan Guo",
-    "google_scholar": "",
+    "orcid": "https://orcid.org/0000-0003-2594-254X",
+    "google_scholar": null,
     "openalex_author_id": "A5059530979",
     "openalex_author_url": "https://openalex.org/A5059530979"
   },
   "affiliation": {
-    "last_known_institution": "Chengdu University of Traditional Chinese Medicine",
+    "last_known_institution": "Institute of Artificial Intelligence, Hefei Comprehensive National Science Center",
     "last_known_country": "China",
-    "source": "openalex_first_institution"
+    "source": "orcid"
   },
   "metrics": {
     "works_count": 214,

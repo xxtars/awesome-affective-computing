@@ -1,6 +1,7 @@
 {
   "identity": {
     "name": "Leida Li",
+    "orcid": "https://orcid.org/0000-0001-9069-8796",
     "google_scholar": "https://scholar.google.com/citations?user=xMvuFI8AAAAJ",
     "openalex_author_id": "A5033615240",
     "openalex_author_url": "https://openalex.org/A5033615240"
@@ -8,7 +9,7 @@
   "affiliation": {
     "last_known_institution": "Xidian University",
     "last_known_country": "China",
-    "source": "seed_google_scholar"
+    "source": "orcid"
   },
   "metrics": {
     "works_count": 310,

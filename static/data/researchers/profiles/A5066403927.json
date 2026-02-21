@@ -1,14 +1,15 @@
 {
   "identity": {
     "name": "Su-Jing Wang",
+    "orcid": "https://orcid.org/0000-0002-8774-6328",
     "google_scholar": "https://scholar.google.com/citations?user=BW-_LKsAAAAJ",
     "openalex_author_id": "A5066403927",
     "openalex_author_url": "https://openalex.org/A5066403927"
   },
   "affiliation": {
-    "last_known_institution": "Institute of Psychology, CAS",
+    "last_known_institution": "Institute of Psychology Chinese Academy of Sciences",
     "last_known_country": "China",
-    "source": "seed_google_scholar"
+    "source": "orcid"
   },
   "metrics": {
     "works_count": 233,

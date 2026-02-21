@@ -8029,5 +8029,43 @@
         "Psychologically grounded AI systems"
       ]
     }
+  },
+  "6e7bc82fd7d80c7efbd19ab536ceccc7ec0c011b593222f494f4f2297a8d7777": {
+    "paper_id": "https://openalex.org/W4246909194",
+    "title": "Issue Information",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "researcher_orcid": "https://orcid.org/0000-0002-6944-1037",
+    "updated_at": "2026-02-21T10:06:25.125Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0,
+      "confidence": 0.9,
+      "reason": "Paper title indicates issue metadata without emotion-related research content.",
+      "evidence": [
+        "Title: Issue Information"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "e9d0ab492879c18c9816dd07dfceead2ef9db93c3af69264be82279b96111a0a": {
+    "paper_id": "https://openalex.org/W4248213341",
+    "title": "Author response for \"Psychological model of representation, generation, and adjustion of belief for artificial general intelligence\"",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "researcher_orcid": "https://orcid.org/0000-0002-6944-1037",
+    "updated_at": "2026-02-21T10:06:28.186Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.8,
+      "reason": "Paper focuses on belief modeling and AGI politics rather than emotion or affective states.",
+      "evidence": [
+        "Title and concepts emphasize belief representation and political science"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

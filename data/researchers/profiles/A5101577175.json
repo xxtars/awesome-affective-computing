@@ -1,14 +1,15 @@
 {
   "identity": {
     "name": "Kejun Zhang",
+    "orcid": null,
     "google_scholar": "https://scholar.google.com/citations?user=0t1B3vMAAAAJ",
     "openalex_author_id": "A5101577175",
     "openalex_author_url": "https://openalex.org/A5101577175"
   },
   "affiliation": {
-    "last_known_institution": "Zhejiang University",
+    "last_known_institution": "University of Science and Technology of China",
     "last_known_country": "China",
-    "source": "seed_google_scholar"
+    "source": "openalex"
   },
   "metrics": {
     "works_count": 182,
@@ -90,10 +91,10 @@
   "stats": {
     "analyzed_works_count": 163,
     "interesting_works_count": 35,
-    "new_works_count": 2,
+    "new_works_count": 0,
     "deduped_works_count": 163,
-    "ai_called_count": 2,
-    "summary_recomputed": true
+    "ai_called_count": 0,
+    "summary_recomputed": false
   },
   "works": [
     {

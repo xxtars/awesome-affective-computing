@@ -23532,5 +23532,119 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "97710a5900c8c24ab5e7f55e5d4828f609178b95967ef6fee5a3601d54a3de63": {
+    "paper_id": "https://openalex.org/W4387908493",
+    "title": "Author Response: Body size as a metric for the affordable world",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "researcher_orcid": "https://orcid.org/0000-0003-0383-0934",
+    "updated_at": "2026-02-21T10:03:19.168Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "Paper focuses on embodied cognition and affordance perception without addressing emotion or affect.",
+      "evidence": [
+        "impact of human body size on the perception of action possibilities"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a84fe39e6cbd8e17e5faed77e163def94b6b6f3b34146b1760d9551798ae6fc8": {
+    "paper_id": "https://openalex.org/W4247945849",
+    "title": "Downregulation of S100 Calcium Binding Protein A12 inhibits the growth of glioma cells",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "researcher_orcid": "https://orcid.org/0000-0003-0383-0934",
+    "updated_at": "2026-02-21T10:03:19.431Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0,
+      "confidence": 0.95,
+      "reason": "Paper focuses on oncology and cell biology, not emotional processes.",
+      "evidence": [
+        "Study examines S100A12 role in glioma growth and apoptosis."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "05d54c4bfb12c3042ed4ed004a594cce801c01d3e75f9acbb4e39a0ea957e761": {
+    "paper_id": "https://openalex.org/W4328050432",
+    "title": "Body size as a metric for the affordable world",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "researcher_orcid": "https://orcid.org/0000-0003-0383-0934",
+    "updated_at": "2026-02-21T10:03:20.496Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on embodied cognition and affordance perception related to body size, without addressing emotional or affective processes.",
+      "evidence": [
+        "investigated the impact of human body size on the perception of action possibilities (affordances)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3a3885111e44b192951d49d7952c288022c4a12f579f2c8edc4aa97fc9c6abff": {
+    "paper_id": "https://openalex.org/W2744554426",
+    "title": "オントロジー概念類似性のリモートセンシング情報サービスマッチング研究に基づく【JST・京大機械翻訳】",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "researcher_orcid": "https://orcid.org/0000-0003-0383-0934",
+    "updated_at": "2026-02-21T10:03:22.307Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.9,
+      "reason": "Paper focuses on remote sensing and ontology service matching, unrelated to emotion.",
+      "evidence": [
+        "Title mentions remote sensing and ontology concept similarity"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "75b92885dcdde1c2d636f6eb31bb3bed07ef049c0b891382aaf0f2943b48c1a6": {
+    "paper_id": "https://openalex.org/W4387096248",
+    "title": "A stochastic world model on gravity for stability inference",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "researcher_orcid": "https://orcid.org/0000-0003-0383-0934",
+    "updated_at": "2026-02-21T10:03:22.429Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper investigates physical stability inference and gravity perception, lacking any focus on affective or emotional processes.",
+      "evidence": [
+        "Study measures sensitivity to gravity's direction and stability inference, not emotional responses."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d777b3ba7acb0c67ff2a461aa65b0b0152d26162b3dc834a25d77ea44d9e6911": {
+    "paper_id": "https://openalex.org/W4210666789",
+    "title": "Spatially Periodic Computation in the Entorhinal-Hippocampal Circuit During Navigation",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "researcher_orcid": "https://orcid.org/0000-0003-0383-0934",
+    "updated_at": "2026-02-21T10:03:25.477Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "Paper focuses on spatial navigation and neural computation in hippocampal-entorhinal circuits, lacking any focus on emotion or affect.",
+      "evidence": [
+        "Abstract mentions navigation, grid cells, and spatial periodicity without emotional context."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

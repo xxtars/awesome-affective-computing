@@ -1,14 +1,15 @@
 {
   "identity": {
     "name": "Xiaolan Fu",
+    "orcid": "https://orcid.org/0000-0002-6944-1037",
     "google_scholar": "https://scholar.google.com/citations?user=tM8ln5IAAAAJ",
     "openalex_author_id": "A5015329251",
     "openalex_author_url": "https://openalex.org/A5015329251"
   },
   "affiliation": {
-    "last_known_institution": "Institute of Psychology, CAS; Shanghai Jiao Tong University",
+    "last_known_institution": "Shanghai Jiao Tong University",
     "last_known_country": "China",
-    "source": "seed_google_scholar"
+    "source": "openalex"
   },
   "metrics": {
     "works_count": 339,
@@ -19,71 +20,71 @@
   "topic_summary": {
     "top_research_directions": [
       {
-        "name": "Affective computing",
-        "weight": 1
+        "name": "Affective Computing and Micro-expression Analysis",
+        "weight": 0.95
       },
       {
-        "name": "Emotion recognition from facial behavior",
-        "weight": 0.97
+        "name": "Affective Neuroscience and Neural Correlates",
+        "weight": 0.9
       },
       {
-        "name": "Affective neuroscience",
-        "weight": 0.94
+        "name": "Emotion-Cognition Interaction",
+        "weight": 0.85
       },
       {
-        "name": "Micro-expression detection and analysis",
-        "weight": 0.92
+        "name": "Facial Expression Recognition and Perception",
+        "weight": 0.8
       },
       {
-        "name": "Emotion-cognition interaction",
-        "weight": 0.89
+        "name": "Social Emotion and Moral Psychology",
+        "weight": 0.7
       },
       {
-        "name": "Nonverbal emotion analysis",
-        "weight": 0.86
+        "name": "Clinical Affective Science and Psychopathology",
+        "weight": 0.65
       },
       {
-        "name": "Physiological basis of emotion",
-        "weight": 0.83
+        "name": "Affective AI and Multimodal Modeling",
+        "weight": 0.6
       },
       {
-        "name": "Cross-cultural emotion expression and judgment",
-        "weight": 0.78
+        "name": "Cross-cultural Emotion Research",
+        "weight": 0.5
       }
     ],
-    "trend_summary": "Xiaolan Fu’s research centers on the computational and neuroscientific foundations of human emotion, with a strong emphasis on nonverbal affect—especially micro-expressions—as objective, quantifiable signals bridging psychology, AI, and clinical applications. Her work integrates multimodal measurement (EMG, ERP, MEG, fNIRS), deep learning for sparse behavioral cues, and cross-cultural validation, increasingly converging toward human-centered affective AI: systems that recognize, interpret, and respond to covert or contextually modulated emotion (e.g., masked faces, moral surprise, pandemic-related agency loss). A unifying thread is translational rigor—building databases (CASME series, CFBD, MFED), benchmarking affective models (e.g., EmotionHallucer), and grounding AI in psychological theory (e.g., agency, moral conscience, time perception under threat).",
+    "trend_summary": "Research commenced (2002-2006) with foundational work on media effects, group decision-making, and basic emotion measurement scales. During 2007-2011, focus expanded to cross-cultural trust, implicit emotional learning, and neural mechanisms of insight. The 2012-2016 window marked a pivotal shift towards affective computing, notably micro-expression recognition via the CASME database, alongside neural correlates of emotion perception using ERP. In 2017-2021, deep learning techniques enhanced micro-expression spotting, while research broadened to include moral cognition, sense of agency, and masked expression analysis during the pandemic. The latest period (2022-2025) demonstrates integration of affective AI with neuroscience, emphasizing multimodal emotion recognition, clinical psychopathology, and neural decoding of social agency. Current work prioritizes evaluating emotion grounding in foundation models and refining physiological measurement of covert affect.",
     "representative_papers": [
       {
-        "title": "CAS(ME)³: A Third Generation Facial Spontaneous Micro-Expression Database with Depth Information and High Ecological Validity",
-        "why": "Landmark resource enabling ecological, multimodal micro-expression research; cited 80×, reflects her leadership in standardized affective database construction."
+        "title": "CASME II: An Improved Spontaneous Micro-Expression Database and the Baseline Evaluation",
+        "why": "Establishes the foundational CASME database series critical for spontaneous micro-expression research."
+      },
+      {
+        "title": "A Main Directional Mean Optical Flow Feature for Spontaneous Micro-Expression Recognition",
+        "why": "Represents key algorithmic innovation in optical flow features for affective computing."
+      },
+      {
+        "title": "The interaction between cognition and emotion",
+        "why": "Early theoretical paper defining the core emotion-cognition interaction framework."
       },
       {
         "title": "MESNet: A Convolutional Neural Network for Spotting Multi-Scale Micro-Expression Intervals in Long Videos",
-        "why": "Highly influential (122 citations) deep learning architecture specifically designed for real-world micro-expression spotting—exemplifies her bridge between computer vision and affective science."
+        "why": "Demonstrates the evolution towards deep learning architectures for video-based emotion spotting."
       },
       {
-        "title": "Could Micro-Expressions Be Quantified? Electromyography Gives Affirmative Evidence",
-        "why": "Introduces EMG as an objective physiological ground truth for micro-expression intensity—key step toward validating AI models with biological signals (cited 2×, early high-impact signal)."
+        "title": "CAS(ME)3: A Third Generation Facial Spontaneous Micro-Expression Database with Depth Information and High Ecological Validity",
+        "why": "Shows continuity and advancement in dataset construction with multimodal depth information."
       },
       {
         "title": "Decoding the temporal representation of facial expression in face-selective regions",
-        "why": "MEG-based study revealing millisecond-scale neural dynamics of emotion decoding—represents her integration of high-temporal-resolution neuroscience with perceptual modeling (cited 15×)."
-      },
-      {
-        "title": "Enhancing Face Perception Research with the Chinese Face and Body Dataset (CFBD)",
-        "why": "Addresses critical cultural bias in affective datasets; enables cross-cultural validation of emotion perception models—core to her agenda on ecological and cultural validity."
+        "why": "Highlights advanced neural decoding techniques using MEG for time-resolved emotion processing."
       },
       {
         "title": "EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models",
-        "why": "Pioneering work at the AI–psychology interface—introduces a psychology-informed benchmark for evaluating affective grounding in foundation models (2025, emerging impact)."
+        "why": "Reflects the latest shift towards evaluating emotion grounding in foundation models and AI."
       },
       {
-        "title": "Moral conscience matters on trust violation and its repair strategies in virtual and real-world settings",
-        "why": "Demonstrates expansion into high-stakes socio-affective domains—linking moral emotion, trust repair, and human–AI interaction contexts (2025, conceptually integrative)."
-      },
-      {
-        "title": "The sense of agency and the attribution of responsibility in human behavior",
-        "why": "Foundational theoretical–empirical work connecting affective neuroscience (agency), moral cognition, and real-world decision-making—recurrent theme across her career (2020, highly cited conceptual anchor)."
+        "title": "The role of arousal in the estimation of time‐to‐collision of threatening stimuli",
+        "why": "Exemplifies research on affective modulation of perceptual timing and survival-related cognition."
       }
     ]
   },

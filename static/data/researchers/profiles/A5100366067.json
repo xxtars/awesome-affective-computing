@@ -1,6 +1,7 @@
 {
   "identity": {
     "name": "Dong Zhang",
+    "orcid": "https://orcid.org/0000-0001-6756-6664",
     "google_scholar": "https://scholar.google.com/citations?user=1E_WmCUAAAAJ",
     "openalex_author_id": "A5100366067",
     "openalex_author_url": "https://openalex.org/A5100366067"
@@ -8,7 +9,7 @@
   "affiliation": {
     "last_known_institution": "Sun Yat-sen University",
     "last_known_country": "China",
-    "source": "seed_google_scholar"
+    "source": "orcid"
   },
   "metrics": {
     "works_count": 108,

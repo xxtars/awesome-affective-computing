@@ -1,14 +1,15 @@
 {
   "identity": {
     "name": "Guiguang Ding",
+    "orcid": "https://orcid.org/0000-0003-0137-9975",
     "google_scholar": "https://scholar.google.com/citations?user=6cYECZAAAAAJ",
     "openalex_author_id": "A5057732142",
     "openalex_author_url": "https://openalex.org/A5057732142"
   },
   "affiliation": {
-    "last_known_institution": "Tsinghua University",
+    "last_known_institution": "Harbin University",
     "last_known_country": "China",
-    "source": "seed_google_scholar"
+    "source": "openalex"
   },
   "metrics": {
     "works_count": 321,

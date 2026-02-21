@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-21T09:21:00.529Z",
+  "generated_at": "2026-02-21T10:07:59.186Z",
   "pipeline_version": "v0.1.0",
   "run_config": {
     "model": "qwen3.5-plus",
@@ -8,23 +8,58 @@
     "max_papers": null,
     "delay_ms": 300,
     "concurrency": 32,
-    "save_every": 4,
+    "save_every": 5,
     "researcher_names": [
-      "Guoying Zhao"
+      "Bin Hu",
+      "Bing Qin",
+      "Björn Schuller",
+      "C.L. Philip Chen",
+      "Dan Guo",
+      "Dong Zhang",
+      "Guanqun Bi",
+      "Guiguang Ding",
+      "Guoying Zhao",
+      "Honghai Liu",
+      "Hongxun Yao",
+      "Jia Liu",
+      "Jianhua Tao",
+      "Jufeng Yang",
+      "Kejun Zhang",
+      "Leida Li",
+      "Meng Wang",
+      "Ming Li",
+      "Peipei Song",
+      "Qin Jin",
+      "Qunxi Dong",
+      "Shengping Zhang",
+      "Shiguang Shan",
+      "Sicheng Zhao",
+      "Su-Jing Wang",
+      "Tong Zhang",
+      "Weidong Chen",
+      "Wenming Zheng",
+      "Xiao Sun",
+      "Xiaobai Li",
+      "Xiaolan Fu",
+      "Xun Chen",
+      "Yanyan Zhao",
+      "Yue Gao",
+      "Zheng Lian"
     ]
   },
   "researchers": [
     {
       "identity": {
         "name": "Bin Hu",
+        "orcid": "https://orcid.org/0000-0003-3514-5413",
         "google_scholar": "https://scholar.google.com/citations?user=5kcgY8MAAAAJ",
         "openalex_author_id": "A5100380066",
         "openalex_author_url": "https://openalex.org/A5100380066"
       },
       "affiliation": {
-        "last_known_institution": "Beijing Institute of Technology",
+        "last_known_institution": "北京理工大学",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 1188,
@@ -116,14 +151,15 @@
     {
       "identity": {
         "name": "Bing Qin",
+        "orcid": "https://orcid.org/0000-0002-2543-5604",
         "google_scholar": "https://scholar.google.com/citations?user=LKnCub0AAAAJ",
         "openalex_author_id": "A5017671620",
         "openalex_author_url": "https://openalex.org/A5017671620"
       },
       "affiliation": {
-        "last_known_institution": "Harbin Institute of Technology",
+        "last_known_institution": "Sinopec (China)",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "openalex"
       },
       "metrics": {
         "works_count": 460,
@@ -235,79 +271,79 @@
         "top_research_directions": [
           {
             "name": "Speech Emotion Recognition",
-            "weight": 0.95
+            "weight": 1
           },
           {
             "name": "Multimodal Affective Computing",
-            "weight": 0.88
-          },
-          {
-            "name": "Mental Health & Depression Detection",
-            "weight": 0.82
+            "weight": 0.95
           },
           {
             "name": "Computational Paralinguistics",
-            "weight": 0.78
+            "weight": 0.9
           },
           {
-            "name": "Domain Adaptation & Transfer Learning",
-            "weight": 0.72
+            "name": "Mental Health Detection",
+            "weight": 0.85
           },
           {
-            "name": "Deep Learning for Affect (Transformers, LLMs, Foundation Models)",
-            "weight": 0.68
+            "name": "Deep Learning Architectures",
+            "weight": 0.8
           },
           {
-            "name": "Responsible & Ethical Affective Computing",
-            "weight": 0.55
+            "name": "Domain Adaptation",
+            "weight": 0.7
           },
           {
-            "name": "Healthcare & Clinical Applications",
-            "weight": 0.52
+            "name": "Physiological Signal Processing",
+            "weight": 0.6
+          },
+          {
+            "name": "Responsible Affective Computing",
+            "weight": 0.5
           }
         ],
-        "trend_summary": "Björn Schuller's research has evolved from foundational speech emotion recognition and computational paralinguistics (2000s-2010s) toward multimodal affective computing with deep learning architectures (2015-2020), and most recently focuses on mental health applications, foundation models/LLMs for emotion AI, and responsible/ethical affective computing (2020-2025). The work consistently emphasizes real-world deployment, cross-corpus generalization, and clinical validation, with increasing attention to privacy, fairness, and bias mitigation in recent years.",
+        "trend_summary": "Research evolved from foundational acoustic feature engineering (2002-2006) to structured paralinguistic challenges (2007-2011). Early work focused on HMMs and speaker-independent speech emotion recognition. Between 2012-2016, deep learning integration began, emphasizing cross-corpus robustness and standardized feature sets like GeMAPS. The 2017-2021 window saw dominance of end-to-end multimodal architectures and expanded applications into mental health detection, particularly depression and autism. Recent years (2022-2026) prioritize foundation models, large language models, and responsible AI. Current focus shifts towards clinical deployment, privacy-preserving federated learning, and cognition-oriented affective computing. Continuity exists in multimodal fusion, but methodology transitioned from handcrafted features to generative foundation models. Evidence for 2002-2006 is limited compared to later periods, yet establishes core paralinguistic taxonomies. Overall, the trajectory moves from laboratory-constrained acoustic analysis to in-the-wild, ethically-aware mental health interventions powered by general AI.",
         "representative_papers": [
           {
             "title": "The INTERSPEECH 2009 emotion challenge",
-            "why": "Seminal work establishing benchmarking standards for speech emotion recognition that shaped the field"
+            "why": "Established benchmarking standards for speech emotion recognition, catalyzing community progress."
+          },
+          {
+            "title": "Cross-Corpus Acoustic Emotion Recognition: Variances and Strategies",
+            "why": "Addresses critical robustness and generalization challenges across different datasets."
+          },
+          {
+            "title": "Computational Paralinguistics: Emotion, Affect and Personality in Speech and Language Processing",
+            "why": "Defines the broader field scope beyond emotion to include personality and paralinguistic traits."
           },
           {
             "title": "The Geneva Minimalistic Acoustic Parameter Set (GeMAPS) for Voice Research and Affective Computing",
-            "why": "Highly cited (1633+) foundational work standardizing acoustic features for affective computing"
+            "why": "Standardized acoustic feature extraction, enabling reproducibility across affective studies."
+          },
+          {
+            "title": "Adieu features? End-to-end speech emotion recognition using a deep convolutional recurrent network",
+            "why": "Marks the methodological shift from handcrafted features to end-to-end deep learning."
           },
           {
             "title": "End-to-End Multimodal Emotion Recognition Using Deep Neural Networks",
-            "why": "Pivotal deep learning work (697+ citations) advancing multimodal fusion architectures"
-          },
-          {
-            "title": "AVEC 2019 Workshop and Challenge: State-of-Mind, Detecting Depression with AI, and Cross-Cultural Affect Recognition",
-            "why": "Represents the shift toward mental health applications and cross-cultural affect analysis"
+            "why": "Demonstrates the integration of multiple modalities using advanced neural architectures."
           },
           {
             "title": "Will Affective Computing Emerge From Foundation Models and General Artificial Intelligence? A First Evaluation of ChatGPT",
-            "why": "Highly cited (149+) work exploring LLMs and foundation models for emotion AI"
-          },
-          {
-            "title": "Contrastive Learning Based Modality-Invariant Feature Acquisition for Robust Multimodal Emotion Recognition With Missing Modalities",
-            "why": "Recent high-impact work (59+ citations) on robust multimodal emotion recognition"
-          },
-          {
-            "title": "Ethical Awareness in Paralinguistics: A Taxonomy of Applications",
-            "why": "Represents the emerging focus on ethics, privacy, and responsible affective computing"
+            "why": "Investigates the impact of large language models and foundation models on emotion tasks."
           },
           {
             "title": "Digital interventions in mental health: An overview and future perspectives",
-            "why": "Highly cited (54+) work summarizing digital mental health interventions and AI-driven support"
+            "why": "Represents the mature application of affective computing in clinical mental health interventions."
           }
         ]
       },
       "stats": {
         "analyzed_works_count": 1568,
         "interesting_works_count": 907,
-        "new_works_count": 1568,
+        "new_works_count": 175,
         "deduped_works_count": 1568,
-        "ai_called_count": 1568,
+        "ai_called_count": 175,
         "summary_recomputed": true
       },
       "profile_path": "data/researchers/profiles/A5043060302.json"
@@ -315,14 +351,15 @@
     {
       "identity": {
         "name": "C.L. Philip Chen",
+        "orcid": "https://orcid.org/0000-0001-5451-7230",
         "google_scholar": "https://scholar.google.com/citations?user=Q5248zwAAAAJ",
         "openalex_author_id": "A5100643265",
         "openalex_author_url": "https://openalex.org/A5100643265"
       },
       "affiliation": {
-        "last_known_institution": "South China University of Technology",
+        "last_known_institution": "University of Macau",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 1448,
@@ -414,14 +451,15 @@
     {
       "identity": {
         "name": "Dan Guo",
-        "google_scholar": "",
+        "orcid": "https://orcid.org/0000-0003-2594-254X",
+        "google_scholar": null,
         "openalex_author_id": "A5059530979",
         "openalex_author_url": "https://openalex.org/A5059530979"
       },
       "affiliation": {
-        "last_known_institution": "Chengdu University of Traditional Chinese Medicine",
+        "last_known_institution": "Institute of Artificial Intelligence, Hefei Comprehensive National Science Center",
         "last_known_country": "China",
-        "source": "openalex_first_institution"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 214,
@@ -513,6 +551,7 @@
     {
       "identity": {
         "name": "Dong Zhang",
+        "orcid": "https://orcid.org/0000-0001-6756-6664",
         "google_scholar": "https://scholar.google.com/citations?user=1E_WmCUAAAAJ",
         "openalex_author_id": "A5100366067",
         "openalex_author_url": "https://openalex.org/A5100366067"
@@ -520,7 +559,7 @@
       "affiliation": {
         "last_known_institution": "Sun Yat-sen University",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 108,
@@ -612,14 +651,15 @@
     {
       "identity": {
         "name": "Guanqun Bi",
+        "orcid": "https://orcid.org/0000-0001-8829-9489",
         "google_scholar": "https://scholar.google.com/citations?user=cTMKxukAAAAJ",
         "openalex_author_id": "A5016119118",
         "openalex_author_url": "https://openalex.org/A5016119118"
       },
       "affiliation": {
-        "last_known_institution": "Tsinghua University",
-        "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "last_known_institution": null,
+        "last_known_country": null,
+        "source": "openalex"
       },
       "metrics": {
         "works_count": 22,
@@ -711,14 +751,15 @@
     {
       "identity": {
         "name": "Guiguang Ding",
+        "orcid": "https://orcid.org/0000-0003-0137-9975",
         "google_scholar": "https://scholar.google.com/citations?user=6cYECZAAAAAJ",
         "openalex_author_id": "A5057732142",
         "openalex_author_url": "https://openalex.org/A5057732142"
       },
       "affiliation": {
-        "last_known_institution": "Tsinghua University",
+        "last_known_institution": "Harbin University",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "openalex"
       },
       "metrics": {
         "works_count": 321,
@@ -829,80 +870,80 @@
       "topic_summary": {
         "top_research_directions": [
           {
-            "name": "Micro-expression Analysis",
+            "name": "Micro-expression Recognition",
             "weight": 0.95
           },
           {
-            "name": "Facial Expression Recognition",
+            "name": "Facial Expression Analysis",
             "weight": 0.9
           },
           {
-            "name": "Physiological Signal Processing for Affect",
+            "name": "Multimodal Emotion Recognition",
+            "weight": 0.85
+          },
+          {
+            "name": "Physiological Signal Processing",
+            "weight": 0.8
+          },
+          {
+            "name": "Affective Computing",
             "weight": 0.75
           },
           {
-            "name": "Multimodal Emotion Recognition",
-            "weight": 0.7
-          },
-          {
-            "name": "Deep Learning Architectures for Affect",
+            "name": "Domain Adaptation",
             "weight": 0.6
           },
           {
-            "name": "Pain and Stress Recognition",
-            "weight": 0.45
+            "name": "Deep Learning for Emotion",
+            "weight": 0.55
           },
           {
-            "name": "Responsible and Privacy-Preserving AI",
-            "weight": 0.35
-          },
-          {
-            "name": "Generative AI and LLMs for Emotion",
-            "weight": 0.3
+            "name": "Responsible Affective Computing",
+            "weight": 0.4
           }
         ],
-        "trend_summary": "Research evolved from handcrafted features (LBP) for facial expression to deep learning-based micro-expression analysis and physiological signal processing (rPPG). Recent work focuses on multimodal fusion, robustness in dynamic domains, privacy preservation, and integrating large language models for affective understanding.",
+        "trend_summary": "Research from 2007-2011 established foundational dynamic texture recognition and facial expression analysis using local binary patterns. During 2012-2016, focus shifted significantly toward spontaneous micro-expression recognition, marked by the creation of benchmark datasets like CASME II and spatiotemporal descriptor refinement. The 2017-2021 period expanded scope to multimodal emotion recognition and physiological signal processing, notably remote photoplethysmography (rPPG) and cross-domain adaptation using deep learning architectures. Recent work from 2022-2025 integrates large language models, generative AI, and responsible affective computing, addressing privacy, ethics, and complex real-world applications such as dementia monitoring and educational analytics. Current efforts prioritize robustness in dynamic domain shifts, self-supervised learning, and the fusion of vision-language models for fine-grained emotion understanding, reflecting a transition from isolated visual cues to holistic, ethically-aware multimodal systems.",
         "representative_papers": [
           {
             "title": "Dynamic Texture Recognition Using Local Binary Patterns with an Application to Facial Expressions",
-            "why": "Foundational work on LBP-TOP with highest citations (2793), establishing early feature extraction methods."
+            "why": "Foundational work establishing LBP-based dynamic texture analysis for emotion recognition in the earliest window."
           },
           {
             "title": "CASME II: An Improved Spontaneous Micro-Expression Database and the Baseline Evaluation",
-            "why": "Seminal dataset publication (930 citations) that standardized micro-expression benchmarking."
+            "why": "Critical dataset release that standardized spontaneous micro-expression analysis during the 2012-2016 period."
           },
           {
             "title": "A Main Directional Mean Optical Flow Feature for Spontaneous Micro-Expression Recognition",
-            "why": "Key methodological contribution (504 citations) for spotting subtle facial movements."
+            "why": "Highly cited method defining feature extraction techniques for micro-expressions in the mid-phase."
           },
           {
-            "title": "Remote Heart Rate Measurement from Face Videos under Realistic Situations",
-            "why": "Pioneering work (547 citations) in non-contact physiological measurement for affect."
+            "title": "Remote Photoplethysmograph Signal Measurement from Facial Videos Using Spatio-Temporal Networks",
+            "why": "Marks the strategic shift towards non-contact physiological signal processing for affective computing."
           },
           {
-            "title": "Deep Affect Prediction in-the-Wild: Aff-Wild Database and Challenge, Deep Architectures, and Beyond",
-            "why": "Major contribution (366 citations) to in-the-wild emotion recognition and benchmarking."
+            "title": "Video-Based Remote Physiological Measurement via Cross-Verified Feature Disentangling",
+            "why": "Represents the peak of rPPG research integration with deep learning and cross-domain adaptation."
           },
           {
-            "title": "PhysFormer++: Facial Video-Based Physiological Measurement with SlowFast Temporal Difference Transformer",
-            "why": "State-of-the-art transformer-based physiological measurement (111 citations) showing modern architecture adoption."
-          },
-          {
-            "title": "Facial Micro-Expressions: An Overview",
-            "why": "Comprehensive survey (71 citations) summarizing the core domain expertise."
+            "title": "From Emotion AI to Cognitive AI",
+            "why": "Signifies the conceptual transition from pure emotion recognition to broader cognitive and explainable AI."
           },
           {
             "title": "MER 2025: When Affective Computing Meets Large Language Models",
-            "why": "Represents the latest 2025 shift towards LLM-driven affective computing and generative models."
+            "why": "Illustrates the latest integration of generative AI and LLMs into emotion understanding frameworks."
+          },
+          {
+            "title": "3-D Face De-Identification With Preserving Multi-Facial Attributes: A Benchmark",
+            "why": "Highlights the emerging focus on privacy preservation and responsible AI in facial analysis."
           }
         ]
       },
       "stats": {
         "analyzed_works_count": 522,
         "interesting_works_count": 168,
-        "new_works_count": 522,
+        "new_works_count": 72,
         "deduped_works_count": 522,
-        "ai_called_count": 522,
+        "ai_called_count": 72,
         "summary_recomputed": true
       },
       "profile_path": "data/researchers/profiles/A5082301986.json"
@@ -910,14 +951,15 @@
     {
       "identity": {
         "name": "Honghai Liu",
+        "orcid": "https://orcid.org/0000-0002-2880-4698",
         "google_scholar": "https://scholar.google.com/citations?user=bsabUhgAAAAJ",
         "openalex_author_id": "A5085867312",
         "openalex_author_url": "https://openalex.org/A5085867312"
       },
       "affiliation": {
-        "last_known_institution": "Portsmouth University",
+        "last_known_institution": "University of Portsmouth",
         "last_known_country": "United Kingdom",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 793,
@@ -1009,14 +1051,15 @@
     {
       "identity": {
         "name": "Hongxun Yao",
+        "orcid": "https://orcid.org/0000-0003-3298-2574",
         "google_scholar": "https://scholar.google.com/citations?user=aOMFNFsAAAAJ",
         "openalex_author_id": "A5023274785",
         "openalex_author_url": "https://openalex.org/A5023274785"
       },
       "affiliation": {
-        "last_known_institution": "Harbin Institute of Technology",
+        "last_known_institution": "China Mobile (China)",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "openalex"
       },
       "metrics": {
         "works_count": 417,
@@ -1108,6 +1151,7 @@
     {
       "identity": {
         "name": "Jia Liu",
+        "orcid": "https://orcid.org/0000-0003-0383-0934",
         "google_scholar": "https://scholar.google.com/citations?user=xPoVpSEAAAAJ",
         "openalex_author_id": "A5100409741",
         "openalex_author_url": "https://openalex.org/A5100409741"
@@ -1115,7 +1159,7 @@
       "affiliation": {
         "last_known_institution": "Tsinghua University",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 1245,
@@ -1126,80 +1170,80 @@
       "topic_summary": {
         "top_research_directions": [
           {
-            "name": "Affective neuroscience",
+            "name": "Affective Neuroscience",
             "weight": 1
           },
           {
-            "name": "Emotion-cognition interactions",
-            "weight": 0.97
+            "name": "Emotion-Cognition Interaction",
+            "weight": 0.9
           },
           {
-            "name": "Individual differences in emotion processing",
-            "weight": 0.94
+            "name": "Clinical Affective Science",
+            "weight": 0.8
           },
           {
-            "name": "Neural correlates of emotion dysregulation",
-            "weight": 0.91
+            "name": "Individual Differences in Emotion",
+            "weight": 0.7
           },
           {
-            "name": "Cross-linguistic and cross-cultural affective semantics",
-            "weight": 0.88
+            "name": "Neural Biomarkers of Affect",
+            "weight": 0.6
           },
           {
-            "name": "Affective mechanisms in clinical and health contexts",
-            "weight": 0.85
+            "name": "Social Emotion Processing",
+            "weight": 0.5
           },
           {
-            "name": "Human-AI emotional interaction and affective AI",
-            "weight": 0.82
+            "name": "Emotion Regulation Mechanisms",
+            "weight": 0.4
           },
           {
-            "name": "Emotion regulation in developmental and crisis contexts",
-            "weight": 0.79
+            "name": "Affective Computing and AI",
+            "weight": 0.3
           }
         ],
-        "trend_summary": "Jia Liu's research spans a highly integrative, translational affective science agenda—bridging neural mechanisms (especially fMRI/ERP-based), individual differences (trait anxiety, motivation, EI, resilience), and real-world contexts (pandemic stress, education, healthcare, sustainability investing, AI interaction). A strong emphasis emerges on cross-level analysis: from molecular (e.g., 5-HTTLPR), structural (e.g., ACC, amygdala, fusiform gyrus), and functional (resting-state, conflict tasks) brain correlates, to behavioral, linguistic, and sociocultural dimensions of emotion. Recent work increasingly converges on three frontiers: (1) affective computation (AI emotion modeling, NLP-generated language perception), (2) transdiagnostic affective mechanisms (e.g., inflammation-emotion links, trauma-to-psychosis pathways), and (3) context-sensitive emotion regulation (school, clinical, occupational, and digital environments). Chinese populations and linguistic stimuli (e.g., Chinese emotion words, CEPS/PISA data) serve as a consistent cultural-empirical anchor.",
+        "trend_summary": "Research began (2002-2006) with foundational work on face perception stages and clinical psychology aspects of anxiety and hypertension, though evidence is limited for this window. During 2007-2011, focus expanded to affective computing in speech and neural correlates of insight and trait anxiety using ERP and fMRI. The 2012-2016 period marked a peak in affective neuroscience, extensively utilizing VBM and resting-state fMRI to map structural and functional biomarkers of depression, PTSD, mindfulness, and self-processing. From 2017-2021, studies maintained neural mechanistic inquiries while integrating environmental factors like parental care and pandemic-related stress, emphasizing resilience and intervention. Currently (2022-2026), the focus has evolved towards applied affective science, examining AI emotional intelligence, ESG sentiment, educational support, and cross-cultural emotion processing, alongside continued investigation into neural biomarkers of psychopathology and recovery.",
         "representative_papers": [
           {
-            "title": "The neural correlates of perceived social support and its relationship to psychological well-being",
-            "why": "Exemplifies core integration of social-affective neuroscience, structural/functional brain mapping, and well-being outcomes—highly cited (5) and representative of the 'affective neuroscience' and 'emotion regulation in developmental contexts' directions."
+            "title": "Stages of processing in face perception: an MEG study",
+            "why": "Foundational high-impact work establishing temporal dynamics of emotional face perception."
+          },
+          {
+            "title": "Neural correlates of psychological resilience and their relation to life satisfaction in a sample of healthy young adults",
+            "why": "Defines neural mechanisms linking psychological resilience to life satisfaction."
+          },
+          {
+            "title": "Frequency-selective control of cortical and subcortical networks by central thalamus",
+            "why": "Elucidates frequency-dependent neuromodulation of affective states."
+          },
+          {
+            "title": "Altered resting-state functional activity in posttraumatic stress disorder: A quantitative meta-analysis",
+            "why": "Comprehensive meta-analysis mapping affective circuit dysfunction in trauma."
+          },
+          {
+            "title": "Brain grey matter volume alterations in late-life depression",
+            "why": "Identifies structural biomarkers specific to geriatric affective disorders."
           },
           {
             "title": "Emotional intelligence of Large Language Models",
-            "why": "Landmark paper (95 citations) defining the emerging 'affective AI' direction—bridges computational linguistics, psychometrics, and human-AI emotional alignment."
+            "why": "Pivotal shift towards evaluating emotional intelligence in artificial agents."
           },
           {
-            "title": "Trait motivation is associated with fusiform face area morphometry",
-            "why": "Highlights structural brain-personality-emotion interface in a Chinese youth sample—epitomizes 'individual differences in emotion processing' and 'neural correlates of emotion-related traits'."
-          },
-          {
-            "title": "The Effects of Trait Anxiety and Emotional Word Type on the Processing of Chinese Words: An ERP Study",
-            "why": "Foundational for 'cross-linguistic affective semantics' and 'affective neuroscience', using Chinese stimuli to dissect valence-, trait-, and modality-specific neural dynamics."
-          },
-          {
-            "title": "Behavioral reactions to ESG sentiment: Evidence from heterogeneous Asia-pacific markets",
-            "why": "Signals expansion into applied affective economics—demonstrates how emotion-sentiment linkage drives real-world financial decisions across cultures."
+            "title": "The neural mechanisms of explicit and implicit processing of Chinese emotion-label and emotion-laden words: evidence from emotional categorisation and emotional Stroop tasks",
+            "why": "Advances cross-linguistic affective semantics and neural word processing."
           },
           {
             "title": "Central symptoms and network associations of depressive symptoms among school-aged students: A network analysis",
-            "why": "Represents 'emotion regulation in developmental and crisis contexts' and 'affective symptom networks'—high-impact (17 citations) methodological innovation in youth depression."
-          },
-          {
-            "title": "Combined effects of prenatal ozone exposure and school/neighborhood environments on youth brain, cognition, and psychotic‐like experiences",
-            "why": "Embodies transdiagnostic, multilevel affective science—linking environmental exposure, psychosocial context, neural development, and emergent affective-psychotic phenotypes."
-          },
-          {
-            "title": "Dissociable neural correlates of trait and ability emotional intelligence: a resting-state fMRI study",
-            "why": "Key contribution to 'neural correlates of emotion dysregulation' and 'individual differences', clarifying neurobiological distinctions between self-reported vs. performance-based emotion competencies."
+            "why": "Applies network analysis to model affective symptom structures in youth."
           }
         ]
       },
       "stats": {
         "analyzed_works_count": 1161,
         "interesting_works_count": 121,
-        "new_works_count": 8,
+        "new_works_count": 6,
         "deduped_works_count": 1161,
-        "ai_called_count": 8,
+        "ai_called_count": 6,
         "summary_recomputed": true
       },
       "profile_path": "data/researchers/profiles/A5100409741.json"
@@ -1207,6 +1251,7 @@
     {
       "identity": {
         "name": "Jianhua Tao",
+        "orcid": "https://orcid.org/0000-0002-9344-6428",
         "google_scholar": null,
         "openalex_author_id": "A5112613657",
         "openalex_author_url": "https://openalex.org/A5112613657"
@@ -1214,7 +1259,7 @@
       "affiliation": {
         "last_known_institution": "Tsinghua University",
         "last_known_country": "China",
-        "source": "openalex_first_institution"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 617,
@@ -1306,6 +1351,7 @@
     {
       "identity": {
         "name": "Jufeng Yang",
+        "orcid": "https://orcid.org/0000-0003-0219-3443",
         "google_scholar": "https://scholar.google.com/citations?user=c5vDJv0AAAAJ",
         "openalex_author_id": "A5089409678",
         "openalex_author_url": "https://openalex.org/A5089409678"
@@ -1313,7 +1359,7 @@
       "affiliation": {
         "last_known_institution": "Nankai University",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 147,
@@ -1405,14 +1451,15 @@
     {
       "identity": {
         "name": "Kejun Zhang",
+        "orcid": null,
         "google_scholar": "https://scholar.google.com/citations?user=0t1B3vMAAAAJ",
         "openalex_author_id": "A5101577175",
         "openalex_author_url": "https://openalex.org/A5101577175"
       },
       "affiliation": {
-        "last_known_institution": "Zhejiang University",
+        "last_known_institution": "University of Science and Technology of China",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "openalex"
       },
       "metrics": {
         "works_count": 182,
@@ -1494,16 +1541,17 @@
       "stats": {
         "analyzed_works_count": 163,
         "interesting_works_count": 35,
-        "new_works_count": 2,
+        "new_works_count": 0,
         "deduped_works_count": 163,
-        "ai_called_count": 2,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5101577175.json"
     },
     {
       "identity": {
         "name": "Leida Li",
+        "orcid": "https://orcid.org/0000-0001-9069-8796",
         "google_scholar": "https://scholar.google.com/citations?user=xMvuFI8AAAAJ",
         "openalex_author_id": "A5033615240",
         "openalex_author_url": "https://openalex.org/A5033615240"
@@ -1511,7 +1559,7 @@
       "affiliation": {
         "last_known_institution": "Xidian University",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 310,
@@ -1603,6 +1651,7 @@
     {
       "identity": {
         "name": "Meng Wang",
+        "orcid": "https://orcid.org/0000-0002-3094-7735",
         "google_scholar": "https://scholar.google.com/citations?user=rHagaaIAAAAJ",
         "openalex_author_id": "A5100377147",
         "openalex_author_url": "https://openalex.org/A5100377147"
@@ -1610,7 +1659,7 @@
       "affiliation": {
         "last_known_institution": "Hefei University of Technology",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 1461,
@@ -1702,14 +1751,15 @@
     {
       "identity": {
         "name": "Ming Li",
+        "orcid": "https://orcid.org/0000-0002-6406-1983",
         "google_scholar": "https://scholar.google.com/citations?user=zp2Kz44AAAAJ",
         "openalex_author_id": "A5100351449",
         "openalex_author_url": "https://openalex.org/A5100351449"
       },
       "affiliation": {
-        "last_known_institution": "The Chinese University of Hong Kong, Shenzhen",
+        "last_known_institution": "Chinese University of Hong Kong, Shenzhen",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 403,
@@ -1801,14 +1851,15 @@
     {
       "identity": {
         "name": "Peipei Song",
+        "orcid": "https://orcid.org/0000-0001-6764-3375",
         "google_scholar": "https://scholar.google.com/citations?user=aiIZ_MYAAAAJ",
         "openalex_author_id": "A5015177224",
         "openalex_author_url": "https://openalex.org/A5015177224"
       },
       "affiliation": {
-        "last_known_institution": "University of Science and Technology of China",
+        "last_known_institution": "Hefei University of Technology",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 68,
@@ -1900,6 +1951,7 @@
     {
       "identity": {
         "name": "Qin Jin",
+        "orcid": "https://orcid.org/0000-0001-6486-6020",
         "google_scholar": "https://scholar.google.com/citations?user=8UkYbCMAAAAJ",
         "openalex_author_id": "A5009985839",
         "openalex_author_url": "https://openalex.org/A5009985839"
@@ -1907,7 +1959,7 @@
       "affiliation": {
         "last_known_institution": "Renmin University of China",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 238,
@@ -1999,6 +2051,7 @@
     {
       "identity": {
         "name": "Qunxi Dong",
+        "orcid": "https://orcid.org/0000-0002-0484-3019",
         "google_scholar": "https://scholar.google.com/citations?user=ocu6_PMAAAAJ",
         "openalex_author_id": "A5057680942",
         "openalex_author_url": "https://openalex.org/A5057680942"
@@ -2006,7 +2059,7 @@
       "affiliation": {
         "last_known_institution": "Beijing Institute of Technology",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 64,
@@ -2098,14 +2151,15 @@
     {
       "identity": {
         "name": "Shengping Zhang",
+        "orcid": "https://orcid.org/0000-0001-5200-3420",
         "google_scholar": "https://scholar.google.com/citations?user=hMNsT8sAAAAJ",
         "openalex_author_id": "A5084025984",
         "openalex_author_url": "https://openalex.org/A5084025984"
       },
       "affiliation": {
-        "last_known_institution": "Harbin Institute of Technology (Weihai)",
+        "last_known_institution": "Harbin Institute of Technology - Weihai",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 273,
@@ -2189,14 +2243,15 @@
     {
       "identity": {
         "name": "Shiguang Shan",
+        "orcid": "https://orcid.org/0000-0002-8348-392X",
         "google_scholar": "https://scholar.google.com/citations?user=Vkzd7MIAAAAJ",
         "openalex_author_id": "A5050297728",
         "openalex_author_url": "https://openalex.org/A5050297728"
       },
       "affiliation": {
-        "last_known_institution": "Institute of Computing Technology, CAS",
+        "last_known_institution": "University of Chinese Academy of Sciences",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 726,
@@ -2278,24 +2333,25 @@
       "stats": {
         "analyzed_works_count": 615,
         "interesting_works_count": 68,
-        "new_works_count": 2,
+        "new_works_count": 0,
         "deduped_works_count": 615,
-        "ai_called_count": 2,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5050297728.json"
     },
     {
       "identity": {
         "name": "Sicheng Zhao",
+        "orcid": "https://orcid.org/0000-0001-5843-6411",
         "google_scholar": "https://scholar.google.com/citations?user=LJiQRJIAAAAJ",
         "openalex_author_id": "A5051149140",
         "openalex_author_url": "https://openalex.org/A5051149140"
       },
       "affiliation": {
-        "last_known_institution": "Tsinghua University",
+        "last_known_institution": "Harbin Institute of Technology",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 250,
@@ -2387,14 +2443,15 @@
     {
       "identity": {
         "name": "Su-Jing Wang",
+        "orcid": "https://orcid.org/0000-0002-8774-6328",
         "google_scholar": "https://scholar.google.com/citations?user=BW-_LKsAAAAJ",
         "openalex_author_id": "A5066403927",
         "openalex_author_url": "https://openalex.org/A5066403927"
       },
       "affiliation": {
-        "last_known_institution": "Institute of Psychology, CAS",
+        "last_known_institution": "Institute of Psychology Chinese Academy of Sciences",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 233,
@@ -2486,6 +2543,7 @@
     {
       "identity": {
         "name": "Tong Zhang",
+        "orcid": "https://orcid.org/0000-0002-7025-6365",
         "google_scholar": "https://scholar.google.com/citations?user=-neWbpUAAAAJ",
         "openalex_author_id": "A5100378800",
         "openalex_author_url": "https://openalex.org/A5100378800"
@@ -2493,7 +2551,7 @@
       "affiliation": {
         "last_known_institution": "South China University of Technology",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 369,
@@ -2585,14 +2643,15 @@
     {
       "identity": {
         "name": "Weidong Chen",
+        "orcid": null,
         "google_scholar": "https://scholar.google.com/citations?user=Z-vKGdoAAAAJ",
         "openalex_author_id": "A5100357376",
         "openalex_author_url": "https://openalex.org/A5100357376"
       },
       "affiliation": {
-        "last_known_institution": "University of Science and Technology of China",
-        "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "last_known_institution": "Ministry of Education",
+        "last_known_country": "Taiwan",
+        "source": "openalex"
       },
       "metrics": {
         "works_count": 650,
@@ -2668,6 +2727,7 @@
     {
       "identity": {
         "name": "Wenming Zheng",
+        "orcid": "https://orcid.org/0000-0002-7764-5179",
         "google_scholar": "https://scholar.google.com/citations?user=k5fqIogAAAAJ",
         "openalex_author_id": "A5029771864",
         "openalex_author_url": "https://openalex.org/A5029771864"
@@ -2675,7 +2735,7 @@
       "affiliation": {
         "last_known_institution": "Southeast University",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 311,
@@ -2767,14 +2827,15 @@
     {
       "identity": {
         "name": "Xiao Sun",
+        "orcid": "https://orcid.org/0000-0001-9750-7032",
         "google_scholar": null,
         "openalex_author_id": "A5088062069",
         "openalex_author_url": "https://openalex.org/A5088062069"
       },
       "affiliation": {
-        "last_known_institution": "Shenyang Pharmaceutical University",
+        "last_known_institution": "Hefei University of Technology",
         "last_known_country": "China",
-        "source": "openalex_first_institution"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 399,
@@ -2856,16 +2917,17 @@
       "stats": {
         "analyzed_works_count": 381,
         "interesting_works_count": 104,
-        "new_works_count": 1,
+        "new_works_count": 0,
         "deduped_works_count": 381,
-        "ai_called_count": 1,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5088062069.json"
     },
     {
       "identity": {
         "name": "Xiaobai Li",
+        "orcid": "https://orcid.org/0000-0003-4519-7823",
         "google_scholar": "https://scholar.google.com/citations?user=JTFfexYAAAAJ",
         "openalex_author_id": "A5101691493",
         "openalex_author_url": "https://openalex.org/A5101691493"
@@ -2873,7 +2935,7 @@
       "affiliation": {
         "last_known_institution": "Zhejiang University",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 147,
@@ -2965,14 +3027,15 @@
     {
       "identity": {
         "name": "Xiaolan Fu",
+        "orcid": "https://orcid.org/0000-0002-6944-1037",
         "google_scholar": "https://scholar.google.com/citations?user=tM8ln5IAAAAJ",
         "openalex_author_id": "A5015329251",
         "openalex_author_url": "https://openalex.org/A5015329251"
       },
       "affiliation": {
-        "last_known_institution": "Institute of Psychology, CAS; Shanghai Jiao Tong University",
+        "last_known_institution": "Shanghai Jiao Tong University",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "openalex"
       },
       "metrics": {
         "works_count": 339,
@@ -2983,71 +3046,71 @@
       "topic_summary": {
         "top_research_directions": [
           {
-            "name": "Affective computing",
-            "weight": 1
+            "name": "Affective Computing and Micro-expression Analysis",
+            "weight": 0.95
           },
           {
-            "name": "Emotion recognition from facial behavior",
-            "weight": 0.97
+            "name": "Affective Neuroscience and Neural Correlates",
+            "weight": 0.9
           },
           {
-            "name": "Affective neuroscience",
-            "weight": 0.94
+            "name": "Emotion-Cognition Interaction",
+            "weight": 0.85
           },
           {
-            "name": "Micro-expression detection and analysis",
-            "weight": 0.92
+            "name": "Facial Expression Recognition and Perception",
+            "weight": 0.8
           },
           {
-            "name": "Emotion-cognition interaction",
-            "weight": 0.89
+            "name": "Social Emotion and Moral Psychology",
+            "weight": 0.7
           },
           {
-            "name": "Nonverbal emotion analysis",
-            "weight": 0.86
+            "name": "Clinical Affective Science and Psychopathology",
+            "weight": 0.65
           },
           {
-            "name": "Physiological basis of emotion",
-            "weight": 0.83
+            "name": "Affective AI and Multimodal Modeling",
+            "weight": 0.6
           },
           {
-            "name": "Cross-cultural emotion expression and judgment",
-            "weight": 0.78
+            "name": "Cross-cultural Emotion Research",
+            "weight": 0.5
           }
         ],
-        "trend_summary": "Xiaolan Fu’s research centers on the computational and neuroscientific foundations of human emotion, with a strong emphasis on nonverbal affect—especially micro-expressions—as objective, quantifiable signals bridging psychology, AI, and clinical applications. Her work integrates multimodal measurement (EMG, ERP, MEG, fNIRS), deep learning for sparse behavioral cues, and cross-cultural validation, increasingly converging toward human-centered affective AI: systems that recognize, interpret, and respond to covert or contextually modulated emotion (e.g., masked faces, moral surprise, pandemic-related agency loss). A unifying thread is translational rigor—building databases (CASME series, CFBD, MFED), benchmarking affective models (e.g., EmotionHallucer), and grounding AI in psychological theory (e.g., agency, moral conscience, time perception under threat).",
+        "trend_summary": "Research commenced (2002-2006) with foundational work on media effects, group decision-making, and basic emotion measurement scales. During 2007-2011, focus expanded to cross-cultural trust, implicit emotional learning, and neural mechanisms of insight. The 2012-2016 window marked a pivotal shift towards affective computing, notably micro-expression recognition via the CASME database, alongside neural correlates of emotion perception using ERP. In 2017-2021, deep learning techniques enhanced micro-expression spotting, while research broadened to include moral cognition, sense of agency, and masked expression analysis during the pandemic. The latest period (2022-2025) demonstrates integration of affective AI with neuroscience, emphasizing multimodal emotion recognition, clinical psychopathology, and neural decoding of social agency. Current work prioritizes evaluating emotion grounding in foundation models and refining physiological measurement of covert affect.",
         "representative_papers": [
           {
-            "title": "CAS(ME)³: A Third Generation Facial Spontaneous Micro-Expression Database with Depth Information and High Ecological Validity",
-            "why": "Landmark resource enabling ecological, multimodal micro-expression research; cited 80×, reflects her leadership in standardized affective database construction."
+            "title": "CASME II: An Improved Spontaneous Micro-Expression Database and the Baseline Evaluation",
+            "why": "Establishes the foundational CASME database series critical for spontaneous micro-expression research."
+          },
+          {
+            "title": "A Main Directional Mean Optical Flow Feature for Spontaneous Micro-Expression Recognition",
+            "why": "Represents key algorithmic innovation in optical flow features for affective computing."
+          },
+          {
+            "title": "The interaction between cognition and emotion",
+            "why": "Early theoretical paper defining the core emotion-cognition interaction framework."
           },
           {
             "title": "MESNet: A Convolutional Neural Network for Spotting Multi-Scale Micro-Expression Intervals in Long Videos",
-            "why": "Highly influential (122 citations) deep learning architecture specifically designed for real-world micro-expression spotting—exemplifies her bridge between computer vision and affective science."
+            "why": "Demonstrates the evolution towards deep learning architectures for video-based emotion spotting."
           },
           {
-            "title": "Could Micro-Expressions Be Quantified? Electromyography Gives Affirmative Evidence",
-            "why": "Introduces EMG as an objective physiological ground truth for micro-expression intensity—key step toward validating AI models with biological signals (cited 2×, early high-impact signal)."
+            "title": "CAS(ME)3: A Third Generation Facial Spontaneous Micro-Expression Database with Depth Information and High Ecological Validity",
+            "why": "Shows continuity and advancement in dataset construction with multimodal depth information."
           },
           {
             "title": "Decoding the temporal representation of facial expression in face-selective regions",
-            "why": "MEG-based study revealing millisecond-scale neural dynamics of emotion decoding—represents her integration of high-temporal-resolution neuroscience with perceptual modeling (cited 15×)."
-          },
-          {
-            "title": "Enhancing Face Perception Research with the Chinese Face and Body Dataset (CFBD)",
-            "why": "Addresses critical cultural bias in affective datasets; enables cross-cultural validation of emotion perception models—core to her agenda on ecological and cultural validity."
+            "why": "Highlights advanced neural decoding techniques using MEG for time-resolved emotion processing."
           },
           {
             "title": "EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models",
-            "why": "Pioneering work at the AI–psychology interface—introduces a psychology-informed benchmark for evaluating affective grounding in foundation models (2025, emerging impact)."
+            "why": "Reflects the latest shift towards evaluating emotion grounding in foundation models and AI."
           },
           {
-            "title": "Moral conscience matters on trust violation and its repair strategies in virtual and real-world settings",
-            "why": "Demonstrates expansion into high-stakes socio-affective domains—linking moral emotion, trust repair, and human–AI interaction contexts (2025, conceptually integrative)."
-          },
-          {
-            "title": "The sense of agency and the attribution of responsibility in human behavior",
-            "why": "Foundational theoretical–empirical work connecting affective neuroscience (agency), moral cognition, and real-world decision-making—recurrent theme across her career (2020, highly cited conceptual anchor)."
+            "title": "The role of arousal in the estimation of time‐to‐collision of threatening stimuli",
+            "why": "Exemplifies research on affective modulation of perceptual timing and survival-related cognition."
           }
         ]
       },
@@ -3064,6 +3127,7 @@
     {
       "identity": {
         "name": "Xun Chen",
+        "orcid": "https://orcid.org/0000-0002-4922-8116",
         "google_scholar": "https://scholar.google.com/citations?user=aBnUWyQAAAAJ",
         "openalex_author_id": "A5100451602",
         "openalex_author_url": "https://openalex.org/A5100451602"
@@ -3071,7 +3135,7 @@
       "affiliation": {
         "last_known_institution": "University of Science and Technology of China",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "openalex"
       },
       "metrics": {
         "works_count": 687,
@@ -3163,14 +3227,15 @@
     {
       "identity": {
         "name": "Yanyan Zhao",
+        "orcid": "https://orcid.org/0000-0001-5852-7962",
         "google_scholar": "https://scholar.google.com/citations?user=mEdfAYoAAAAJ",
         "openalex_author_id": "A5031911989",
         "openalex_author_url": "https://openalex.org/A5031911989"
       },
       "affiliation": {
-        "last_known_institution": "Harbin Institute of Technology",
+        "last_known_institution": "Yunnan Normal University",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "openalex"
       },
       "metrics": {
         "works_count": 119,
@@ -3258,6 +3323,7 @@
     {
       "identity": {
         "name": "Yue Gao",
+        "orcid": "https://orcid.org/0000-0002-4971-590X",
         "google_scholar": "https://scholar.google.com/citations?user=UTDfWocAAAAJ",
         "openalex_author_id": "A5100602494",
         "openalex_author_url": "https://openalex.org/A5100602494"
@@ -3265,7 +3331,7 @@
       "affiliation": {
         "last_known_institution": "Tsinghua University",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 583,
@@ -3347,16 +3413,17 @@
       "stats": {
         "analyzed_works_count": 539,
         "interesting_works_count": 32,
-        "new_works_count": 2,
+        "new_works_count": 0,
         "deduped_works_count": 539,
-        "ai_called_count": 2,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5100602494.json"
     },
     {
       "identity": {
         "name": "Zheng Lian",
+        "orcid": "https://orcid.org/0000-0001-9477-0599",
         "google_scholar": "https://scholar.google.com/citations?user=S34nWz0AAAAJ",
         "openalex_author_id": "A5001973434",
         "openalex_author_url": "https://openalex.org/A5001973434"
@@ -3364,7 +3431,7 @@
       "affiliation": {
         "last_known_institution": "Tongji University",
         "last_known_country": "China",
-        "source": "seed_google_scholar"
+        "source": "orcid"
       },
       "metrics": {
         "works_count": 152,

@@ -1,14 +1,15 @@
 {
   "identity": {
     "name": "Hongxun Yao",
+    "orcid": "https://orcid.org/0000-0003-3298-2574",
     "google_scholar": "https://scholar.google.com/citations?user=aOMFNFsAAAAJ",
     "openalex_author_id": "A5023274785",
     "openalex_author_url": "https://openalex.org/A5023274785"
   },
   "affiliation": {
-    "last_known_institution": "Harbin Institute of Technology",
+    "last_known_institution": "China Mobile (China)",
     "last_known_country": "China",
-    "source": "seed_google_scholar"
+    "source": "openalex"
   },
   "metrics": {
     "works_count": 417,

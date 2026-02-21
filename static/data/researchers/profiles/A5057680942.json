@@ -1,6 +1,7 @@
 {
   "identity": {
     "name": "Qunxi Dong",
+    "orcid": "https://orcid.org/0000-0002-0484-3019",
     "google_scholar": "https://scholar.google.com/citations?user=ocu6_PMAAAAJ",
     "openalex_author_id": "A5057680942",
     "openalex_author_url": "https://openalex.org/A5057680942"
@@ -8,7 +9,7 @@
   "affiliation": {
     "last_known_institution": "Beijing Institute of Technology",
     "last_known_country": "China",
-    "source": "seed_google_scholar"
+    "source": "orcid"
   },
   "metrics": {
     "works_count": 64,

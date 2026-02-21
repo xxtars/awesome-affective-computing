@@ -1,14 +1,15 @@
 {
   "identity": {
     "name": "Sicheng Zhao",
+    "orcid": "https://orcid.org/0000-0001-5843-6411",
     "google_scholar": "https://scholar.google.com/citations?user=LJiQRJIAAAAJ",
     "openalex_author_id": "A5051149140",
     "openalex_author_url": "https://openalex.org/A5051149140"
   },
   "affiliation": {
-    "last_known_institution": "Tsinghua University",
+    "last_known_institution": "Harbin Institute of Technology",
     "last_known_country": "China",
-    "source": "seed_google_scholar"
+    "source": "orcid"
   },
   "metrics": {
     "works_count": 250,

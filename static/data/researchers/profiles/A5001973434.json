@@ -1,6 +1,7 @@
 {
   "identity": {
     "name": "Zheng Lian",
+    "orcid": "https://orcid.org/0000-0001-9477-0599",
     "google_scholar": "https://scholar.google.com/citations?user=S34nWz0AAAAJ",
     "openalex_author_id": "A5001973434",
     "openalex_author_url": "https://openalex.org/A5001973434"
@@ -8,7 +9,7 @@
   "affiliation": {
     "last_known_institution": "Tongji University",
     "last_known_country": "China",
-    "source": "seed_google_scholar"
+    "source": "orcid"
   },
   "metrics": {
     "works_count": 152,

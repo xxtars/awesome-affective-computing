@@ -1,14 +1,15 @@
 {
   "identity": {
     "name": "Ming Li",
+    "orcid": "https://orcid.org/0000-0002-6406-1983",
     "google_scholar": "https://scholar.google.com/citations?user=zp2Kz44AAAAJ",
     "openalex_author_id": "A5100351449",
     "openalex_author_url": "https://openalex.org/A5100351449"
   },
   "affiliation": {
-    "last_known_institution": "The Chinese University of Hong Kong, Shenzhen",
+    "last_known_institution": "Chinese University of Hong Kong, Shenzhen",
     "last_known_country": "China",
-    "source": "seed_google_scholar"
+    "source": "orcid"
   },
   "metrics": {
     "works_count": 403,

@@ -12042,5 +12042,1717 @@
         "Pattern Recognition"
       ]
     }
+  },
+  "aa54e26468d339a174c5b90ecb1f8169cdf65c7ddb1ff5f205ae6ee04faf767e": {
+    "paper_id": "https://openalex.org/W4313050591",
+    "title": "Learning Optimal K-space Acquisition and Reconstruction using Physics-Informed Neural Networks",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:09.852Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0,
+      "confidence": 1,
+      "reason": "The paper focuses on MRI reconstruction and k-space sampling optimization using neural ODEs, with no connection to emotion analysis or affective computing.",
+      "evidence": [
+        "Learning Optimal K-space Acquisition and Reconstruction using Physics-Informed Neural Networks"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2a588c29eab189cfbe00693f8d64a473f3ecf512caa5225923d53fa35bdf6a07": {
+    "paper_id": "https://openalex.org/W4386721989",
+    "title": "Modality Unifying Network for Visible-Infrared Person Re-Identification",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:11.369Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on visible-infrared person re-identification and cross-modality feature learning, with no mention of emotion recognition or affective computing.",
+      "evidence": [
+        "Visible-infrared person re-identification (VI-ReID) is a challenging task due to large cross-modality discrepancies"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2eea59b0cf853dcb504267f5a21a219cdea8146aadab635e319e6116ca3f0369": {
+    "paper_id": "https://openalex.org/W4309866147",
+    "title": "RIC-CNN: Rotation-Invariant Coordinate Convolutional Neural Network",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:12.879Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on rotation-invariant convolutional neural networks for general image classification and does not address emotion recognition or affective computing.",
+      "evidence": [
+        "Abstract mentions rotation invariance, MNIST, and image classification without reference to emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "73c5b4176b4429b748d9018630ba0c036cfdd6494f5fb9dbd4e824f9f8c816c0": {
+    "paper_id": "https://openalex.org/W7125177382",
+    "title": "Minutes-long soft X-ray prompt emission from a compact object merger",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:13.057Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0,
+      "confidence": 1,
+      "reason": "The paper focuses on astrophysics and gamma-ray bursts, which is unrelated to emotion research.",
+      "evidence": [
+        "Paper discusses X-ray emission from compact object mergers."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "81ac7413db53afe1bc97f8bc7a7d9b413705948661367362539c5b9798d1a8d0": {
+    "paper_id": "https://openalex.org/W4366459742",
+    "title": "MER 2023: Multi-label Learning, Modality Robustness, and Semi-Supervised Learning",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:13.215Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper introduces the Multimodal Emotion Recognition Challenge (MER 2023), focusing explicitly on recognizing discrete and dimensional emotions, which directly matches the researcher's interest in emotion.",
+      "evidence": [
+        "Multimodal Emotion Recognition Challenge (MER 2023)",
+        "recognize both discrete and dimensional emotions",
+        "benchmark in multimodal emotion recognition"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "multimodal learning",
+        "modality robustness",
+        "semi-supervised learning",
+        "MER 2023"
+      ],
+      "research_directions": [
+        "Multimodal Emotion Recognition",
+        "Robustness in Affective Computing",
+        "Semi-Supervised Learning for Emotion"
+      ]
+    }
+  },
+  "187eaa7ed449e8bc2af75b0b086209a7b2ae6592f182418c63bf250b4c3e2f2c": {
+    "paper_id": "https://openalex.org/W4396570329",
+    "title": "MER 2024: Semi-Supervised Learning, Noise Robustness, and Open-Vocabulary Multimodal Emotion Recognition",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:13.233Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.95,
+      "reason": "The paper is explicitly about Multimodal Emotion Recognition (MER), organizing competitions and tracks dedicated to emotion recognition, which directly matches the interest topic 'emotion'.",
+      "evidence": [
+        "Title: MER 2024: Semi-Supervised Learning, Noise Robustness, and Open-Vocabulary Multimodal Emotion Recognition",
+        "Abstract: Multimodal emotion recognition is an important research topic in artificial intelligence."
+      ],
+      "keywords": [
+        "Emotion Recognition",
+        "Multimodal",
+        "Semi-Supervised Learning",
+        "Noise Robustness",
+        "Open-Vocabulary"
+      ],
+      "research_directions": [
+        "Multimodal Emotion Recognition",
+        "Affective Computing",
+        "Robust Emotion Analysis",
+        "Open-Vocabulary Emotion Detection"
+      ]
+    }
+  },
+  "705e8f4e767b0347f8661673b6d700488a7050764e309682492ed603c08793db": {
+    "paper_id": "https://openalex.org/W4320496153",
+    "title": "Uncertain Facial Expression Recognition via Multi-task Assisted Correction",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:13.277Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper directly addresses facial expression recognition and explicitly models discrete and continuous emotions, which aligns perfectly with the interest topic 'emotion'.",
+      "evidence": [
+        "Title: Uncertain Facial Expression Recognition via Multi-task Assisted Correction",
+        "Abstract: 'confusing emotions, which could severely decline the robustness'",
+        "Abstract: 'valence-arousal measurement'"
+      ],
+      "keywords": [
+        "Facial Expression Recognition",
+        "Emotion Analysis",
+        "Multi-task Learning",
+        "Uncertainty Modeling",
+        "Valence-Arousal"
+      ],
+      "research_directions": [
+        "Affective Computing",
+        "Computer Vision",
+        "Deep Learning for Emotion Recognition",
+        "Robustness in Emotion AI"
+      ]
+    }
+  },
+  "04810e4173539a61ded0fe976d4b433ceab5fc20990382df5fafd81fee8d5ce8": {
+    "paper_id": "https://openalex.org/W4283772445",
+    "title": "Pain modulates early sensory brain responses to task-irrelevant emotional faces",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:13.920Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper explicitly investigates the perception of facial emotions (happy, sad, neutral) and how pain modulates neural responses to these emotional stimuli, directly aligning with the researcher's interest in emotion.",
+      "evidence": [
+        "Title: Pain modulates early sensory brain responses to task-irrelevant emotional faces",
+        "Abstract: We investigated how pain affected the perception of facial emotions",
+        "Abstract: ERPs were measured in response to neutral, sad, and happy faces"
+      ],
+      "keywords": [
+        "emotion perception",
+        "facial expressions",
+        "pain modulation",
+        "event-related potentials",
+        "affective neuroscience",
+        "social cognition"
+      ],
+      "research_directions": [
+        "Impact of physical pain on emotional processing",
+        "Neural mechanisms of emotion perception under stress",
+        "Cross-modal interactions between pain and emotion",
+        "Temporal dynamics of emotional face processing"
+      ]
+    }
+  },
+  "14629cad8cc9076fee46655a84cf9ccfd509e5ec0bdaf83540dfde5dadf1f14f": {
+    "paper_id": "https://openalex.org/W4417432687",
+    "title": "Hybrid-supervised Hypergraph-enhanced Transformer for Micro-gesture Based Emotion Recognition",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:14.605Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.98,
+      "confidence": 0.99,
+      "reason": "The paper explicitly focuses on emotion recognition using micro-gestures, directly aligning with the researcher's interest in emotion.",
+      "evidence": [
+        "Title: Hybrid-supervised Hypergraph-enhanced Transformer for Micro-gesture Based Emotion Recognition",
+        "Abstract: convey the emotion states of humans and start to attract more research attention in the fields of human behavior understanding and affective computing",
+        "Abstract: recognize the emotion states based on the micro-gestures"
+      ],
+      "keywords": [
+        "emotion recognition",
+        "micro-gestures",
+        "affective computing",
+        "hypergraph transformer",
+        "human behavior understanding"
+      ],
+      "research_directions": [
+        "Affective Computing",
+        "Emotion Recognition",
+        "Human Behavior Analysis",
+        "Deep Learning for Emotion"
+      ]
+    }
+  },
+  "b555a830d1faacbf55efb93d88fa3e4136f887e3883804704ab3bafcd9f1d6ab": {
+    "paper_id": "https://openalex.org/W4225648490",
+    "title": "Flexible-Modal Face Anti-Spoofing: A Benchmark",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:15.718Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "Paper focuses on face anti-spoofing security, not emotion recognition.",
+      "evidence": [
+        "Face anti-spoofing (FAS) plays a vital role in securing face recognition systems"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c9a7ab710accee84298043fded3d92e57ab7c18bd480906fc88dcfd25492518a": {
+    "paper_id": "https://openalex.org/W4392822618",
+    "title": "PFStorer: Personalized Face Restoration and Super-Resolution",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:15.726Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face restoration and identity preservation, lacking any focus on emotion analysis or affective computing.",
+      "evidence": [
+        "Abstract emphasizes identity faithfulness and image quality rather than emotional states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "80b6449f164612830e8342b67177abeef21a73752cb9a95c7cff07546138094c": {
+    "paper_id": "https://openalex.org/W4200632371",
+    "title": "Short and Long Range Relation Based Spatio-Temporal Transformer for Micro-Expression Recognition",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:16.393Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.95,
+      "reason": "The paper focuses on micro-expression recognition, explicitly linking it to the inference of true emotions and affective computing in the abstract.",
+      "evidence": [
+        "micro-expressions are useful in the inference of a person's true emotions",
+        "recognition of micro-expressions is a difficult task in affective computing",
+        "Micro-Expression Recognition"
+      ],
+      "keywords": [
+        "micro-expression recognition",
+        "affective computing",
+        "emotion inference",
+        "spatio-temporal transformer",
+        "deep learning"
+      ],
+      "research_directions": [
+        "Affective Computing",
+        "Facial Expression Analysis",
+        "Emotion Recognition",
+        "Computer Vision for Psychology"
+      ]
+    }
+  },
+  "c9ce772044aec2ffccf797a8d44fac342aa4018a22b7ee26537959c78720ee21": {
+    "paper_id": "https://openalex.org/W4416073151",
+    "title": "FingerVeinSyn-5M: A Million-Scale Dataset and Benchmark for Finger Vein Recognition",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:16.457Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0,
+      "confidence": 0.95,
+      "reason": "The paper addresses finger vein recognition and synthetic dataset generation, which are biometric security tasks unrelated to emotion analysis.",
+      "evidence": [
+        "FingerVeinSyn-5M: A Million-Scale Dataset and Benchmark for Finger Vein Recognition"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "db691b36420f82c7e6d483a60c489a21a8959975e9eaac865fa0e52593d1d2d3": {
+    "paper_id": "https://openalex.org/W4323362396",
+    "title": "Prior Information based Decomposition and Reconstruction Learning for Micro-Expression Recognition",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:16.505Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on Micro-Expression Recognition (MER), explicitly stating that micro-expressions infer genuine emotions, which directly aligns with the interest topic 'emotion'.",
+      "evidence": [
+        "Micro-expression recognition (MER) draws intensive research interest as micro-expressions (MEs) can infer genuine emotions",
+        "Title: Prior Information based Decomposition and Reconstruction Learning for Micro-Expression Recognition"
+      ],
+      "keywords": [
+        "Micro-Expression Recognition",
+        "Emotion Inference",
+        "Facial Analysis",
+        "Graph Representation Learning",
+        "Feature Decomposition"
+      ],
+      "research_directions": [
+        "Affective Computing",
+        "Facial Expression Analysis",
+        "Emotion Recognition",
+        "Computer Vision"
+      ]
+    }
+  },
+  "0284f6cac4f6fe5f240aa4846f8c402cc63174a4d806476a4c1d3f8b103517d7": {
+    "paper_id": "https://openalex.org/W4415082785",
+    "title": "Deep Change Monitoring: A Hyperbolic Representative Learning Framework and a Dataset for Long-term Fine-grained Tree Change Detection",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:16.952Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "Paper focuses on environmental tree monitoring and change detection, not emotion recognition.",
+      "evidence": [
+        "specifically designed to detect individual Tree Changes (TCs)"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "874177dffa81c441a08bdcb409867b686c6b914019957ef665030b2a8b1748a0": {
+    "paper_id": "https://openalex.org/W4322707779",
+    "title": "Dmanet: Dual-Modality Alignment Network for Visible-Infrared Person Re-Identification",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:17.054Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper addresses cross-modal person re-identification, which is a biometric identification task distinct from affective computing or emotion recognition.",
+      "evidence": [
+        "Title specifies Visible-Infrared Person Re-Identification"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "aab8801b95fe6b8473bb6a06f0a3c9fe0c792cdb89a17bb2ae12ba06f39c115b": {
+    "paper_id": "https://openalex.org/W4417167370",
+    "title": "MER 2025: When Affective Computing Meets Large Language Models",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:17.549Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 1,
+      "confidence": 0.98,
+      "reason": "The paper explicitly focuses on affective computing and emotion recognition challenges, directly aligning with the researcher's interest in emotion.",
+      "evidence": [
+        "MER2025 centers on the theme When Affective Computing Meets Large Language Models",
+        "offering innovative solutions for more accurate and reliable emotion understanding",
+        "MER-SEMI focuses on fixed categorical emotion recognition"
+      ],
+      "keywords": [
+        "affective computing",
+        "emotion recognition",
+        "Large Language Models",
+        "emotion understanding",
+        "fine-grained emotions",
+        "multimodal cues"
+      ],
+      "research_directions": [
+        "LLM-driven generative methods for emotion",
+        "fine-grained emotion recognition",
+        "multimodal emotion analysis",
+        "emotion-based personality recognition"
+      ]
+    }
+  },
+  "a32ab3ace082863dbf030e00fab7aaca3fbb72cd70e6c5d1e781d59193139d83": {
+    "paper_id": "https://openalex.org/W4400434436",
+    "title": "Biometric Authentication Based on Enhanced Remote Photoplethysmography Signal Morphology",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:18.689Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on biometric authentication using rPPG signal morphology, not emotion recognition or affective computing.",
+      "evidence": [
+        "utilize the morphology of rPPG signals extracted from facial videos for person authentication"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ccc57fb0b2b038ebe028c0e384f90f08ca31b6f0d55df72e68b8e7026f9a7d86": {
+    "paper_id": "https://openalex.org/W4387724579",
+    "title": "An Empirical Study of Super-resolution on Low-resolution Micro-expression Recognition",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:18.872Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.95,
+      "reason": "The paper focuses on Micro-expression Recognition (MER), which is a direct subfield of affective computing aimed at detecting hidden emotions through subtle facial movements.",
+      "evidence": [
+        "Micro-expression recognition (MER) in low-resolution (LR) scenarios presents an important and complex challenge",
+        "addressing the problem of super-resolution in MER"
+      ],
+      "keywords": [
+        "Micro-expression Recognition",
+        "MER",
+        "Super-resolution",
+        "Emotion Detection",
+        "Affective Computing",
+        "Low-resolution"
+      ],
+      "research_directions": [
+        "Super-resolution for emotion recognition",
+        "Low-resolution micro-expression analysis",
+        "Benchmarking MER methods",
+        "Affective computing in crowded environments"
+      ]
+    }
+  },
+  "852de38fff38e053b53964f87c103fade6585182526ff56f18f414bb41895d8c": {
+    "paper_id": "https://openalex.org/W4220717216",
+    "title": "Geometry-Contrastive Transformer for Generalized 3D Pose Transfer",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:19.190Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on 3D geometric pose transfer and mesh deformation without addressing emotion, affective states, or expression analysis.",
+      "evidence": [
+        "We present a customized 3D mesh Transformer model for the pose transfer task."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8c539e894dfac4508992f566d2addf8b8237e41d0ad1219d85bc3f058a45c2f0": {
+    "paper_id": "https://openalex.org/W4416039518",
+    "title": "Enhancing Facial Privacy Protection via Weakening Diffusion Purification",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:19.619Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on facial privacy protection and adversarial attacks against face recognition systems, with no mention of emotion analysis or affective computing.",
+      "evidence": [
+        "protecting facial privacy against unauthorized AFR systems is essential"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0aeb8ac2df868a795abf5a67f51bf055e663c47b858e6b42a7af247f6c86e771": {
+    "paper_id": "https://openalex.org/W4226106599",
+    "title": "Review of Face Presentation Attack Detection Competitions",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:19.827Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "Paper focuses on biometric security and anti-spoofing rather than emotion analysis.",
+      "evidence": [
+        "Abstract mentions face presentation attack detection and spoofing but lacks emotion-related terms."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4544ed8671b9fd523a628ed1a67661f94784e00c290b2d0adce05fc401060b06": {
+    "paper_id": "https://openalex.org/W4309804056",
+    "title": "Data Leakage and Evaluation Issues in Micro-Expression Analysis",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:20.180Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.95,
+      "reason": "The paper directly addresses micro-expression analysis, which is a fundamental aspect of emotion recognition and emotional sciences, aligning closely with the interest topic 'emotion'.",
+      "evidence": [
+        "The task is, however, difficult as it incorporates many challenges from the fields of computer vision, machine learning and emotional sciences.",
+        "Micro-expressions have drawn increasing interest lately due to various potential applications.",
+        "propose a new standardized evaluation protocol using facial action units with over 2000 micro-expression samples"
+      ],
+      "keywords": [
+        "Micro-expression",
+        "Emotion recognition",
+        "Facial expression",
+        "Emotional sciences",
+        "Evaluation protocol",
+        "Data leakage"
+      ],
+      "research_directions": [
+        "Affective computing",
+        "Facial expression analysis",
+        "Machine learning for emotion",
+        "Standardized evaluation in emotion recognition"
+      ]
+    }
+  },
+  "dbf06265fa3c38a634e208d0d6f0c9e202b7008c9813bf790f134f76ee809e29": {
+    "paper_id": "https://openalex.org/W4327792811",
+    "title": "Discovering Attention-Guided Cross-Modality Correlation for Visible-Infrared Person Re-Identification",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:20.632Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.9,
+      "reason": "Paper focuses on person re-identification across visible and infrared modalities, not emotion analysis.",
+      "evidence": [
+        "Title indicates Visible-Infrared Person Re-Identification"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "2f8ba761097c0e0ecacce542921074eb9d490008910ac0359c7ed1a4c9471af1": {
+    "paper_id": "https://openalex.org/W4391987844",
+    "title": "PhySU-Net: Long Temporal Context Transformer for rPPG with Self-Supervised Pre-training",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:21.154Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.9,
+      "reason": "Paper focuses on rPPG cardiac signal estimation rather than emotion recognition or affective analysis.",
+      "evidence": [
+        "measuring of cardiac activity from facial videos"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "72b12485c083eab1e59ad5f0021c6b1eda2d6f4ace241a0194164dae50b53916": {
+    "paper_id": "https://openalex.org/W4225376288",
+    "title": "Geometric Graph Representation with Learnable Graph Structure and Adaptive AU Constraint for Micro-Expression Recognition",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:21.347Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on Micro-Expression Recognition (MER), which is explicitly stated to reveal genuine emotions, directly aligning with the researcher's interest in emotion.",
+      "evidence": [
+        "Micro-expression recognition (MER) is valuable because micro-expressions (MEs) can reveal genuine emotions.",
+        "adaptive action unit loss is proposed to reasonably build the strong correlation between landmarks, facial action units and MEs."
+      ],
+      "keywords": [
+        "Micro-Expression Recognition",
+        "Emotion Analysis",
+        "Facial Landmarks",
+        "Action Units",
+        "Graph Neural Networks"
+      ],
+      "research_directions": [
+        "Affective Computing",
+        "Facial Expression Analysis",
+        "Deep Learning for Emotion Recognition",
+        "Human-Computer Interaction"
+      ]
+    }
+  },
+  "0fbc9ac45279b56ec011fce43dda9524cc56465b7a2fe9e32d1bfb8dce847d13": {
+    "paper_id": "https://openalex.org/W4224950776",
+    "title": "Uncertain Label Correction via Auxiliary Action Unit Graphs for Facial Expression Recognition",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:23.709Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper addresses Facial Expression Recognition (FER), a core subfield of affective computing, and explicitly models the relationship between emotions and Action Units.",
+      "evidence": [
+        "Title: Facial Expression Recognition",
+        "Abstract: latent dependency between emotions and AUs",
+        "Datasets: RAF-DB and AffectNet"
+      ],
+      "keywords": [
+        "Facial Expression Recognition",
+        "Action Units",
+        "Emotion Analysis",
+        "Label Correction",
+        "Graph Convolutional Networks"
+      ],
+      "research_directions": [
+        "Affective Computing",
+        "Computer Vision",
+        "Emotion Recognition",
+        "Deep Learning"
+      ]
+    }
+  },
+  "e4df6aac41fa07d298db5b28923144e94a2f8e8f54a412bd3ee4dca731c9fcac": {
+    "paper_id": "https://openalex.org/W4394778684",
+    "title": "Topological Feature Search Method for Multichannel EEG: Application in ADHD classification",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:24.016Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on ADHD classification using EEG and topological data analysis, not emotion recognition or affective computing.",
+      "evidence": [
+        "Application in ADHD classification"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "cb165fc346e86aadda1b25718de61db0ba0de35032a96d3219a69cc0be7c9c7f": {
+    "paper_id": "https://openalex.org/W4389427275",
+    "title": "Fast and Sustainable Co2 Conversion to Propylene Carbonate Using Fluoroalcohol-Based Bifunctional Ionic Liquids: Insights from Experiments and Theoretical Simulations",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:27.098Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0,
+      "confidence": 0.95,
+      "reason": "Paper focuses on chemical engineering and CO2 conversion, unrelated to emotion.",
+      "evidence": [
+        "Title mentions CO2 Conversion and Ionic Liquids"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "debcc24ef2dee1d4e542846a27794098e047f0f4dedb3f8df7bcf23a0cbe730f": {
+    "paper_id": "https://openalex.org/W3173536475",
+    "title": "Deep Learning for Face Anti-Spoofing: A Survey",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:30.277Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "Paper focuses on face anti-spoofing and security rather than emotion analysis.",
+      "evidence": [
+        "Abstract discusses securing face recognition from presentation attacks, not emotional states."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "718a3e459e2669601bb42a98b167416076138b6b894250b9829bea4bfc0dec84": {
+    "paper_id": "https://openalex.org/W3205363408",
+    "title": "AniFormer: Data-driven 3D Animation with Transformer",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:30.728Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "Paper focuses on 3D animation and motion transfer techniques without addressing emotion or affective computing.",
+      "evidence": [
+        "Abstract discusses animating 3D objects via motion transfer, not emotional expression."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f20eed7e88982c4c240f20f7c89d2243af015f6173471e1142b816529efbabbe": {
+    "paper_id": "https://openalex.org/W4287251706",
+    "title": "Graph-based Facial Affect Analysis: A Review",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:31.937Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on Facial Affect Analysis (FAA), which is the computational study of emotions expressed through facial expressions, directly aligning with the interest topic 'emotion'.",
+      "evidence": [
+        "Title: Graph-based Facial Affect Analysis: A Review",
+        "Abstract: As one of the most important affective signals, facial affect analysis (FAA) is essential",
+        "Abstract: discuss approaches widely used for graph-based affective representation"
+      ],
+      "keywords": [
+        "Facial Affect Analysis",
+        "Emotion Recognition",
+        "Affective Computing",
+        "Graph Neural Networks",
+        "Human-Computer Interaction"
+      ],
+      "research_directions": [
+        "Graph-based affective representation",
+        "Deep learning for FAA",
+        "Relational reasoning in emotion analysis",
+        "Challenges in graph-based FAA"
+      ]
+    }
+  },
+  "64ee9091c2f27c228b27aea93155ed7af4f889073e53630e2bff5ffcfe27508f": {
+    "paper_id": "https://openalex.org/W3154213653",
+    "title": "TransRPPG: Remote Photoplethysmography Transformer for 3D Mask Face Presentation Attack Detection",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:32.830Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on liveness detection and security against 3D mask attacks using rPPG, not emotion recognition or affective analysis.",
+      "evidence": [
+        "3D mask face presentation attack detection (PAD) plays a vital role in securing face recognition systems"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "92378ccdab0e09dba7b54318d507d69549098bd93372f9114336b6c7e3f2ec29": {
+    "paper_id": "https://openalex.org/W2959162516",
+    "title": "Video Action Recognition Via Neural Architecture Searching",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:32.971Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.9,
+      "reason": "The paper focuses on video action recognition and neural architecture search, not emotion analysis.",
+      "evidence": [
+        "Video Action Recognition Via Neural Architecture Searching"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "06287f6803b2a2f5ed294e5deeba517a97111c832f512e7ef18f8db4ba9373eb": {
+    "paper_id": "https://openalex.org/W3038870975",
+    "title": "Face Anti-Spoofing with Human Material Perception",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:33.465Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "Paper focuses on face anti-spoofing and material perception, not emotion recognition or affective computing.",
+      "evidence": [
+        "Face anti-spoofing (FAS) plays a vital role in securing the face recognition systems from presentation attacks."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8440f698dd28a84e9b191f64bcb77d1b6f990171779931453c782cc547ee19e2": {
+    "paper_id": "https://openalex.org/W3108078565",
+    "title": "Revisiting Pixel-Wise Supervision for Face Anti-Spoofing",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:33.893Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face anti-spoofing and security mechanisms rather than emotion recognition or affective computing.",
+      "evidence": [
+        "Face anti-spoofing (FAS) plays a vital role in securing face recognition systems from the presentation attacks (PAs)."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f5df80d8fc13600e8c7c1cb41174d0f5555340b00a6a82e9b4a44b56c133d09d": {
+    "paper_id": "https://openalex.org/W3158343070",
+    "title": "Dual-Cross Central Difference Network for Face Anti-Spoofing",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:34.132Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "Paper addresses face anti-spoofing security, not emotion recognition.",
+      "evidence": [
+        "Face anti-spoofing (FAS) plays a vital role in securing face recognition systems."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8d2724d2571bc0d7ca50b8c5f2be2034509bfe1944e0bd3e8e4f8dc4f3b1d371": {
+    "paper_id": "https://openalex.org/W3164452733",
+    "title": "A hybrid quantum-classical neural network with deep residual learning",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:34.322Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0,
+      "confidence": 0.95,
+      "reason": "The paper focuses on quantum-classical neural network architecture and robustness, with no mention of emotion or affective computing.",
+      "evidence": [
+        "Abstract discusses quantum neural networks and unitary transformations, not emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f294c6c1a51b177ee139a8a0e691c4425bbe0a4f6b5e65ca81129d04617d7ac8": {
+    "paper_id": "https://openalex.org/W3035981757",
+    "title": "Revealing the Invisible with Model and Data Shrinking for Composite-database Micro-expression Recognition",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:35.249Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.95,
+      "reason": "The paper focuses on micro-expression recognition, which is a specialized subfield of affective computing dedicated to detecting hidden emotions through subtle facial movements.",
+      "evidence": [
+        "Title explicitly states 'Micro-expression Recognition'",
+        "Abstract mentions datasets SMIC, CASME II, and SAMM which are standard benchmarks for emotion-related micro-expression analysis",
+        "Goal is to recognize subtle dynamics associated with expressions"
+      ],
+      "keywords": [
+        "micro-expression recognition",
+        "emotion analysis",
+        "affective computing",
+        "facial expression",
+        "deep learning"
+      ],
+      "research_directions": [
+        "Affective Computing",
+        "Facial Expression Analysis",
+        "Emotion Recognition"
+      ]
+    }
+  },
+  "e379aa69e8b322f2271a66b60989e9870db463c7ef01b7511031e5660982f8a1": {
+    "paper_id": "https://openalex.org/W4287705996",
+    "title": "Micro-expression spotting: A new benchmark",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:36.342Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on micro-expression spotting, which is fundamentally about detecting involuntary facial expressions linked to concealed emotions and feelings, directly aligning with the interest topic 'emotion'.",
+      "evidence": [
+        "Micro-expressions (MEs) are brief and involuntary facial expressions that occur when people are trying to hide their true feelings or conceal their emotions.",
+        "MEs play an important role in understanding genuine emotions",
+        "determine the emotion category of the detected MEs"
+      ],
+      "keywords": [
+        "Micro-expression",
+        "Emotion analysis",
+        "Facial expression spotting",
+        "Affective computing",
+        "SMIC-E-Long database"
+      ],
+      "research_directions": [
+        "Affective Computing",
+        "Emotion Recognition",
+        "Computer Vision for Psychology",
+        "Non-verbal Behavior Analysis"
+      ]
+    }
+  },
+  "5ca7527094a0cbe98ab417d458fce57231d070ded21360dfb02be1918c50d25d": {
+    "paper_id": "https://openalex.org/W3009920034",
+    "title": "Searching Central Difference Convolutional Networks for Face Anti-Spoofing",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:36.959Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on face anti-spoofing and network architecture search, not emotion recognition or affective computing.",
+      "evidence": [
+        "Face anti-spoofing (FAS) plays a vital role in face recognition systems."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3688ed2724e174cd202ac473750d09c747ad0d8db9d1ecdfe4f1ba521c30590e": {
+    "paper_id": "https://openalex.org/W2922081294",
+    "title": "Micro-expression Recognition Under Low-resolution Cases",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:38.095Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on micro-expression recognition, which is explicitly described in the abstract as a behavior that expresses hidden emotions, directly aligning with the researcher's interest in emotion.",
+      "evidence": [
+        "Micro-expression is an essential non-verbal behavior that can faithfully express the human's hidden emotions",
+        "automatic micro-expression recognition"
+      ],
+      "keywords": [
+        "Micro-expression",
+        "Emotion Recognition",
+        "Low-resolution",
+        "Face Hallucination",
+        "Computer Vision"
+      ],
+      "research_directions": [
+        "Affective Computing",
+        "Facial Expression Analysis",
+        "Low-quality Image Processing",
+        "Emotion Detection"
+      ]
+    }
+  },
+  "c8498883ad4d6111f4fda46506235448f6794b614d8a887cba4a4665ec60917a": {
+    "paper_id": "https://openalex.org/W2979822998",
+    "title": "Landmarks-assisted Collaborative Deep Framework for Automatic 4D Facial Expression Recognition",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:39.026Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper focuses on Facial Expression Recognition (FER), a core task in affective computing directly aligned with emotion analysis.",
+      "evidence": [
+        "Automatic 4D Facial Expression Recognition",
+        "expression predictions",
+        "facial muscle movements"
+      ],
+      "keywords": [
+        "Facial Expression Recognition",
+        "4D FER",
+        "Deep Learning",
+        "Affective Computing",
+        "Landmarks"
+      ],
+      "research_directions": [
+        "Emotion Recognition",
+        "Computer Vision",
+        "Multimodal Analysis",
+        "Deep Learning for Affect"
+      ]
+    }
+  },
+  "6a355b3688d7b4c90dcf65086d911f7ffb951f0fb162005c5036fc4f43adf083": {
+    "paper_id": "https://openalex.org/W2983483785",
+    "title": "Learning Graph Convolutional Network for Skeleton-based Human Action Recognition by Neural Searching",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:39.563Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "Paper focuses on skeleton-based action recognition architecture, not emotion analysis.",
+      "evidence": [
+        "Human action recognition from skeleton data"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "33e87714d2ab010959f491eae860f16a17b54d056932e074f6c5a794349c2b6d": {
+    "paper_id": "https://openalex.org/W2964962925",
+    "title": "Remote Heart Rate Measurement from Highly Compressed Facial Videos: an End-to-end Deep Learning Solution with Video Enhancement",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:40.225Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on remote heart rate measurement (rPPG) and video compression recovery, not emotion recognition or affective state analysis.",
+      "evidence": [
+        "Remote photoplethysmography (rPPG), which aims at measuring heart activities without any contact"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0b81b8bf856bc3044024c87a9961cd999a0d8834b125e565c0f24d34eed9adab": {
+    "paper_id": "https://openalex.org/W3046355216",
+    "title": "Mix Dimension in Poincaré Geometry for 3D Skeleton-based Action Recognition",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:40.304Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on 3D skeleton-based action recognition using geometric deep learning, not emotion or affective computing.",
+      "evidence": [
+        "Focuses on skeleton-based action recognition"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "4eadd58e33d5aab659131cccd2c3c2a968d73fce473a7d7e7b40e4832daf2d7f": {
+    "paper_id": "https://openalex.org/W4287086211",
+    "title": "Deep Learning for Micro-expression Recognition: A Survey",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:40.972Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.98,
+      "reason": "The paper surveys Micro-expression Recognition (MER), which is fundamentally about detecting involuntary facial movements that reveal hidden emotions, directly aligning with the interest topic of emotion.",
+      "evidence": [
+        "Micro-expressions (MEs) are involuntary facial movements revealing people's hidden feelings",
+        "comprehensive review of deep micro-expression recognition (MER)"
+      ],
+      "keywords": [
+        "Micro-expression Recognition",
+        "Deep Learning",
+        "Emotion Detection",
+        "Facial Analysis",
+        "Affective Computing"
+      ],
+      "research_directions": [
+        "Robust deep MER systems",
+        "Small-scale dataset handling",
+        "MER pipeline optimization",
+        "High-stake emotion analysis"
+      ]
+    }
+  },
+  "d7a07c3f9a26398b09c6bac58f72983d49900701dd93e7979551a17af2f2c993": {
+    "paper_id": "https://openalex.org/W2903718075",
+    "title": "Cross-Database Micro-Expression Recognition: A Benchmark",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:41.128Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.99,
+      "reason": "The paper focuses on micro-expression recognition (MER), which is a core subfield of affective computing dedicated to detecting subtle facial expressions that indicate concealed emotions, directly aligning with the interest topic of emotion.",
+      "evidence": [
+        "Title: Cross-Database Micro-Expression Recognition: A Benchmark",
+        "Cross-database micro-expression recognition (CDMER) is one of recently emerging and interesting problem in micro-expression analysis.",
+        "The overall superior performance of RSTR demonstrates that taking into consideration the important cues benefiting MER, e.g., the facial local region information, contributes to develop effective DA methods for dealing with CDMER problem."
+      ],
+      "keywords": [
+        "micro-expression recognition",
+        "emotion analysis",
+        "affective computing",
+        "facial expression analysis",
+        "domain adaptation"
+      ],
+      "research_directions": [
+        "Cross-database micro-expression recognition",
+        "Domain adaptation for emotion recognition",
+        "Facial local region analysis for MER",
+        "Benchmarking emotion recognition methods"
+      ]
+    }
+  },
+  "3e828a5754eed8e8f3cee67b4d1c49dd6b0fe4b71478b19eb00f63bca0369160": {
+    "paper_id": "https://openalex.org/W3017010529",
+    "title": "Multi-Modal Face Anti-Spoofing Based on Central Difference Networks",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:42.641Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper addresses face anti-spoofing and security, lacking any focus on emotion or affective states.",
+      "evidence": [
+        "Topic is presentation attack detection, not emotion recognition"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "dbfe9bf3c03873b6e3ec7f613f532fe90916b08f4e61880a0cc94d5d7d10f7b1": {
+    "paper_id": "https://openalex.org/W2909115907",
+    "title": "Spatiotemporal Recurrent Convolutional Networks for Recognizing Spontaneous Micro-expressions",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:42.704Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.99,
+      "reason": "The paper focuses on recognizing spontaneous facial micro-expressions, which are involuntary facial movements directly linked to human emotion, aligning perfectly with the interest topic of emotion.",
+      "evidence": [
+        "recognition task of spontaneous facial micro-expressions",
+        "micro-expression recognition approach",
+        "Pattern recognition (psychology)"
+      ],
+      "keywords": [
+        "micro-expressions",
+        "emotion recognition",
+        "deep learning",
+        "spatiotemporal analysis",
+        "facial expression"
+      ],
+      "research_directions": [
+        "Affective Computing",
+        "Facial Expression Analysis",
+        "Deep Learning for Emotion Recognition",
+        "Computer Vision"
+      ]
+    }
+  },
+  "1a7cf1173248d291027ef996172dcd6a6f0ad432632a9aee586904315268a9ba": {
+    "paper_id": "https://openalex.org/W2883589236",
+    "title": "SRN: Side-output Residual Network for Object Reflection Symmetry Detection and Beyond",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:43.545Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on object reflection symmetry detection and deep learning architectures for computer vision tasks, without any connection to affective computing or emotion analysis.",
+      "evidence": [
+        "Object Reflection Symmetry Detection"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "1556ea2ad565d85ab0972b65a470ca0aedb3880dc6568aef013ea83a07766bf5": {
+    "paper_id": "https://openalex.org/W2972640528",
+    "title": "Structured Modeling of Joint Deep Feature and Prediction Refinement for Salient Object Detection",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:46.629Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0,
+      "confidence": 0.95,
+      "reason": "The paper addresses salient object detection using CNNs and CRFs, with no connection to emotion or affective computing.",
+      "evidence": [
+        "Salient Object Detection"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ca3e7f52d7ef822a75ada001872a01e8266c81c28844fc8b882c804bb65715e2": {
+    "paper_id": "https://openalex.org/W3217437548",
+    "title": "PhysFormer: Facial Video-based Physiological Measurement with Temporal Difference Transformer",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:48.725Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.75,
+      "confidence": 0.9,
+      "reason": "The paper develops a physiological measurement technique (rPPG) explicitly linked to affective computing applications, where physiological signals are fundamental for emotion recognition.",
+      "evidence": [
+        "has great potential in many applications (e.g., remote healthcare and affective computing)",
+        "measuring heart activities and physiological signals from facial video"
+      ],
+      "keywords": [
+        "rPPG",
+        "affective computing",
+        "physiological signals",
+        "facial video",
+        "PhysFormer"
+      ],
+      "research_directions": [
+        "Affective Computing",
+        "Physiological Signal Analysis",
+        "Deep Learning for Video",
+        "Remote Health Monitoring"
+      ]
+    }
+  },
+  "523c13f4e496778cc9a7d622638b457d8d8ba2bd0319fbf9d43d71082052c107": {
+    "paper_id": "https://openalex.org/W2897056786",
+    "title": "3D Skeletal Gesture Recognition via Sparse Coding of Time-Warping Invariant Riemannian Trajectories",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:49.016Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.85,
+      "reason": "Focuses on mathematical methods for gesture classification rather than affective state or emotion analysis.",
+      "evidence": [
+        "Title specifies 3D skeletal gesture recognition via sparse coding without mentioning emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d76869921fc65f675ab614a7913bc33999a1198d3ea8c670685eebda03f063a9": {
+    "paper_id": "https://openalex.org/W2950183501",
+    "title": "From BoW to CNN: Two Decades of Texture Representation for Texture Classification",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:50.324Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper surveys general texture representation methods for classification without specific application to emotion or affective computing.",
+      "evidence": [
+        "Abstract focuses on texture representation, BoW, CNNs, and benchmark datasets for texture classification."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "c7925fd38ae46d95c786952c7dc179d7662f294c209f2a5bd5b663142e2c10d6": {
+    "paper_id": "https://openalex.org/W2953077246",
+    "title": "HEp-2 Cell Classification: The Role of Gaussian Scale Space Theory as A Pre-processing Approach",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:50.463Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0,
+      "confidence": 0.95,
+      "reason": "The paper focuses on medical image analysis for HEp-2 cell classification, not emotion recognition or affective computing.",
+      "evidence": [
+        "HEp-2 cell classification mainly focus on feature extraction, feature encoding and classifier design."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5e5553dbbee3882a88b7409e3e99ea587963a72c7f47c097a877401c339a9b74": {
+    "paper_id": "https://openalex.org/W2952438563",
+    "title": "SRN: Side-output Residual Network for Object Symmetry Detection in the Wild",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:50.987Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0,
+      "confidence": 0.95,
+      "reason": "The paper focuses on object symmetry detection and computer vision benchmarks, with no connection to emotion or affective computing.",
+      "evidence": [
+        "Abstract mentions object symmetry detection, deep learning, and benchmarks without referencing emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b539684fbeef9fe153437f3dcf74e5770374e143e80487f4c442aac5de5df04a": {
+    "paper_id": "https://openalex.org/W4319654053",
+    "title": "PhysFormer++: Facial Video-based Physiological Measurement with SlowFast Temporal Difference Transformer",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:53.578Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.6,
+      "confidence": 0.85,
+      "reason": "The paper explicitly identifies affective computing as a key application for the proposed rPPG measurement technology. Physiological signals extracted from facial video are fundamental modalities for emotion recognition systems, aligning with the researcher's interest in emotion.",
+      "evidence": [
+        "Abstract states potential applications include affective computing",
+        "Focus on facial video-based physiological measurement used in emotion analysis"
+      ],
+      "keywords": [
+        "rPPG",
+        "affective computing",
+        "physiological signals",
+        "facial video",
+        "transformer",
+        "PhysFormer"
+      ],
+      "research_directions": [
+        "Physiological-based emotion recognition",
+        "Multimodal affective computing",
+        "Remote physiological monitoring"
+      ]
+    }
+  },
+  "5d9070e0b4c384e2954290b7f24a7fc64e3e0300f073559cc399f518c83b3dcd": {
+    "paper_id": "https://openalex.org/W4239413195",
+    "title": "Learning mappings for face synthesis from near infrared to visual light images",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:53.622Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0,
+      "confidence": 0.98,
+      "reason": "Paper focuses on cross-spectral face recognition and image synthesis, with no mention of emotion or affective states.",
+      "evidence": [
+        "Abstract describes synthesizing VIS images from NIR for face recognition matching."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "bc4e5bc7e28ed1fc8121952a7a17b04c62fe8312712905bd31b7401a6010348a": {
+    "paper_id": "https://openalex.org/W2984319161",
+    "title": "3D Gait Recognition Using Multiple Cameras",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:55.147Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "Paper focuses on biometric identification using gait, not emotion analysis.",
+      "evidence": [
+        "Gait recognition is used to identify individuals in image sequences by the way they walk."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ffe80d83f419a102fbbc601336a4e618e6db1a090197f63681cc1093ca97f028": {
+    "paper_id": "https://openalex.org/W2761200753",
+    "title": "PCANet-II: When PCANet Meets the Second Order Pooling",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T09:59:58.110Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.9,
+      "reason": "The paper focuses on improving feature pooling methods in shallow networks for general pattern recognition, without explicit mention of emotion or affective computing applications.",
+      "evidence": [
+        "Abstract discusses histogram-based pooling, second order pooling, and feature representation efficiency without mentioning emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "37d6ed0932da7d9207f9918abe6b4d720bdb605292400fe84d9dc755f449dc28": {
+    "paper_id": "https://openalex.org/W2951237745",
+    "title": "LOAD: Local Orientation Adaptive Descriptor for Texture and Material Classification",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T10:00:00.182Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "Paper focuses on texture and material classification, not emotion or affective computing.",
+      "evidence": [
+        "Abstract describes texture classification and material recognition benchmarks."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "b9a309786de01fdb575db8edc1df0e1b0ffcc8ff4f881a9b51e7fdb9a2a43c57": {
+    "paper_id": "https://openalex.org/W2346147676",
+    "title": "Recurrent Convolutional Neural Network Regression for Continuous Pain Intensity Estimation in Video",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T10:00:01.306Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.9,
+      "reason": "Pain expression analysis is a core subfield of affective computing, utilizing similar facial expression recognition techniques as emotion analysis.",
+      "evidence": [
+        "Automatic pain intensity estimation",
+        "AAM-warped facial images",
+        "UNBC-McMaster Shoulder Pain Expression Archive Database"
+      ],
+      "keywords": [
+        "pain estimation",
+        "facial expression",
+        "affective computing",
+        "recurrent neural network",
+        "video analysis"
+      ],
+      "research_directions": [
+        "Affective Computing",
+        "Facial Expression Analysis",
+        "Deep Learning for Video",
+        "Medical Image Analysis"
+      ]
+    }
+  },
+  "c5e71acf71281761e3e754c17f0c1cfa0adfb802ea24ef575ae8eb438d1aef82": {
+    "paper_id": "https://openalex.org/W3163923421",
+    "title": "Non-contact Pain Recognition from Video Sequences with Remote Physiological Measurements Prediction",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T10:00:01.972Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.85,
+      "confidence": 0.9,
+      "reason": "Pain recognition is a sub-domain of affective computing utilizing facial expression analysis, aligning closely with emotion recognition research interests and methodologies.",
+      "evidence": [
+        "assessing facial appearance changes",
+        "modeling expressions over time",
+        "Concepts: Facial expression"
+      ],
+      "keywords": [
+        "pain recognition",
+        "facial expression",
+        "affective computing",
+        "rPPG",
+        "multi-task learning",
+        "spatio-temporal attention"
+      ],
+      "research_directions": [
+        "Facial Expression Analysis",
+        "Physiological Signal Processing",
+        "Multimodal Affect Recognition",
+        "Non-contact Health Monitoring"
+      ]
+    }
+  },
+  "f5aa2015bab6d65933cb9a85e96fd01b9585fc750f79d376b9b298002eb37c9d": {
+    "paper_id": "https://openalex.org/W4414815238",
+    "title": "To Remember, To Adapt, To Preempt: A Stable Continual Test-Time Adaptation Framework for Remote Physiological Measurement in Dynamic Domain Shifts",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T10:00:08.175Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.95,
+      "reason": "The paper focuses on remote physiological measurement (rPPG) and domain adaptation, without mentioning emotion or affective states.",
+      "evidence": [
+        "Remote photoplethysmography (rPPG) aims to extract non-contact physiological signals from facial videos"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "3bfb14706e7f81e4f42f16a1fcc68812cf8124d176fe9672304ca0dc6eae7fd5": {
+    "paper_id": "https://openalex.org/W2951619115",
+    "title": "Dynamic texture and scene classification by transferring deep image features",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T10:00:11.483Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on dynamic texture and scene classification using transferred deep features, with no mention of emotion, affect, or human expression analysis.",
+      "evidence": [
+        "Dynamic texture and scene classification are two fundamental problems in understanding natural video content."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a05c7a2b27bf52b54089f92bffbd1614702be629f43c8b66267fbfe307cdc1ee": {
+    "paper_id": "https://openalex.org/W3013162476",
+    "title": "The 1st Challenge on Remote Physiological Signal Sensing (RePSS)",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T10:00:14.425Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.6,
+      "confidence": 0.85,
+      "reason": "Remote physiological signal sensing (rPPG) is a foundational modality for non-contact affective computing and emotion recognition, aligning with the researcher's interest in emotion analysis through visual and physiological data.",
+      "evidence": [
+        "Remote measurement of physiological signals from videos",
+        "measuring the average heart rate from facial videos",
+        "Human–computer interaction"
+      ],
+      "keywords": [
+        "remote physiological sensing",
+        "heart rate estimation",
+        "rPPG",
+        "affective computing",
+        "video analysis",
+        "benchmark"
+      ],
+      "research_directions": [
+        "non-contact emotion recognition",
+        "physiological signal processing",
+        "multimodal affect analysis",
+        "unobtrusive monitoring"
+      ]
+    }
+  },
+  "27f54478868c1ec557eb63b6e51744ab42454b584151eb9d43c140c3ba0ce1dd": {
+    "paper_id": "https://openalex.org/W1516748092",
+    "title": "Computer Vision Using Local Binary Patterns",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T10:00:16.715Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.85,
+      "reason": "Paper focuses on general feature descriptor methodology rather than specific emotion analysis.",
+      "evidence": [
+        "Title and concepts emphasize computer vision and biometrics without mentioning emotion or expression."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "5071ddcc19432cd1289905bf58181b774327dc3b3b994183eb84af49498cd63b": {
+    "paper_id": "https://openalex.org/W2742940806",
+    "title": "幾何学的変形モデルによる自発的ミクロ発現スポッティング【Powered by NICT】",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T10:00:18.436Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.95,
+      "confidence": 0.9,
+      "reason": "The title explicitly mentions 'Micro-expression Spotting' (ミクロ発現スポッティング), which is a direct subfield of emotion recognition and affective computing. Guoying Zhao is a leading researcher in micro-expression analysis.",
+      "evidence": [
+        "Title contains 'ミクロ発現' (Micro-expression)",
+        "Researcher Guoying Zhao is known for emotion/micro-expression work"
+      ],
+      "keywords": [
+        "Micro-expression",
+        "Emotion Recognition",
+        "Facial Analysis",
+        "Spotting",
+        "Geometric Deformation"
+      ],
+      "research_directions": [
+        "Affective Computing",
+        "Spontaneous Emotion Detection",
+        "Facial Expression Recognition"
+      ]
+    }
+  },
+  "2a5ba9d70c462fa5817d9b49f153765b94c8812177622c8f9520b9ecbbcc9e18": {
+    "paper_id": "https://openalex.org/W4407424960",
+    "title": "CodePhys: Robust Video-based Remote Physiological Measurement through Latent Codebook Querying",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T10:00:18.968Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.85,
+      "reason": "Focuses on physiological signal extraction rather than emotion recognition.",
+      "evidence": [
+        "measure non-contact physiological signals"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "ad3d4b7f1e313cbd93edc90579c85bf7eaa761ce809fc5a7955458b272b3c178": {
+    "paper_id": "https://openalex.org/W3043309408",
+    "title": "Video-based Remote Physiological Measurement via Cross-verified Feature Disentangling",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T10:00:37.534Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.2,
+      "confidence": 0.9,
+      "reason": "Paper focuses on physiological signal extraction robustness; emotion application is implicit but not stated.",
+      "evidence": [
+        "Abstract lists HR, HRV, respiration tasks without emotion keywords."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "424926a75c593d5e2812e0c7aea74b8119e779c1aae94f024ff2164fd2d5968e": {
+    "paper_id": "https://openalex.org/W3006560391",
+    "title": "Deep-HR: Fast Heart Rate Estimation from Face Video Under Realistic Conditions",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T10:01:12.139Z",
+    "analysis": {
+      "is_interesting": true,
+      "relevance_score": 0.6,
+      "confidence": 0.85,
+      "reason": "Heart rate estimation from face video is a core physiological modality in affective computing used to infer emotional states, aligning with the researcher's interest in emotion analysis despite the paper's technical focus on signal processing.",
+      "evidence": [
+        "remote heart rate (HR) estimation",
+        "blood pumping by the heart is highly correlated to the intense color of face pixels",
+        "face videos"
+      ],
+      "keywords": [
+        "Heart Rate Estimation",
+        "Face Video",
+        "Physiological Signals",
+        "Deep Learning",
+        "Remote Sensing"
+      ],
+      "research_directions": [
+        "Physiological Emotion Recognition",
+        "Remote Photoplethysmography",
+        "Multimodal Affect Analysis"
+      ]
+    }
   }
 }

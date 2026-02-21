@@ -1,14 +1,15 @@
 {
   "identity": {
     "name": "Xiao Sun",
+    "orcid": "https://orcid.org/0000-0001-9750-7032",
     "google_scholar": null,
     "openalex_author_id": "A5088062069",
     "openalex_author_url": "https://openalex.org/A5088062069"
   },
   "affiliation": {
-    "last_known_institution": "Shenyang Pharmaceutical University",
+    "last_known_institution": "Hefei University of Technology",
     "last_known_country": "China",
-    "source": "openalex_first_institution"
+    "source": "orcid"
   },
   "metrics": {
     "works_count": 399,
@@ -90,10 +91,10 @@
   "stats": {
     "analyzed_works_count": 381,
     "interesting_works_count": 104,
-    "new_works_count": 1,
+    "new_works_count": 0,
     "deduped_works_count": 381,
-    "ai_called_count": 1,
-    "summary_recomputed": true
+    "ai_called_count": 0,
+    "summary_recomputed": false
   },
   "works": [
     {

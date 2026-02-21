@@ -1,6 +1,7 @@
 {
   "identity": {
     "name": "Tong Zhang",
+    "orcid": "https://orcid.org/0000-0002-7025-6365",
     "google_scholar": "https://scholar.google.com/citations?user=-neWbpUAAAAJ",
     "openalex_author_id": "A5100378800",
     "openalex_author_url": "https://openalex.org/A5100378800"
@@ -8,7 +9,7 @@
   "affiliation": {
     "last_known_institution": "South China University of Technology",
     "last_known_country": "China",
-    "source": "seed_google_scholar"
+    "source": "orcid"
   },
   "metrics": {
     "works_count": 369,
