@@ -1389,20 +1389,9 @@ async function run() {
   }
   if (analysisTasks.length > 0) process.stdout.write("\n");
 
+  // Prepare merged works and fallback summaries first.
   for (const ctx of researcherContexts) {
-    const {
-      researcher,
-      authorId,
-      previousResearcher,
-      previousWorks,
-      authorProfile,
-      effectiveOrcid,
-      cachePath,
-      cache,
-      analyzedNewWorks,
-      aiCalledCount,
-    } = ctx;
-
+    const { previousResearcher, previousWorks, analyzedNewWorks } = ctx;
     const mergedWorks = [...analyzedNewWorks];
     if (!args.fullRefresh) {
       for (const oldWork of previousWorks) {
@@ -1412,7 +1401,6 @@ async function run() {
       }
     }
     const dedupedMergedWorks = dedupeWorksByTitle(mergedWorks);
-
     dedupedMergedWorks.sort((a, b) => {
       const dateA = a.publication_date || "";
       const dateB = b.publication_date || "";
@@ -1422,46 +1410,82 @@ async function run() {
       return yearB - yearA;
     });
 
-    const interestingWorks = dedupedMergedWorks.filter((w) => w.analysis?.is_interesting);
-
     const shouldRecomputeSummary =
       args.fullRefresh || analyzedNewWorks.length > 0 || !previousResearcher?.topic_summary;
-    let topicSummary = shouldRecomputeSummary
+    ctx.dedupedMergedWorks = dedupedMergedWorks;
+    ctx.interestingWorks = dedupedMergedWorks.filter((w) => w.analysis?.is_interesting);
+    ctx.shouldRecomputeSummary = shouldRecomputeSummary;
+    ctx.topicSummary = shouldRecomputeSummary
       ? fallbackSummary(dedupedMergedWorks)
       : previousResearcher.topic_summary;
-    if (!args.skipAi && shouldRecomputeSummary) {
-      try {
-        const summaryRaw = await callQwenChat({
-          apiKey: qwenApiKey,
-          baseUrl: qwenBaseUrl,
-          model: args.model,
-          userPrompt: buildSummaryPrompt(researcher, dedupedMergedWorks),
-          temperature: 0,
-          maxTokens: 1000,
-          enableThinking: true,
-        });
-        topicSummary = {
-          top_research_directions: Array.isArray(summaryRaw?.top_research_directions)
-            ? summaryRaw.top_research_directions.slice(0, 8).map((d) => ({
-                name: String(d?.name || ""),
-                weight: clamp01(d?.weight, 0),
-              }))
-            : topicSummary.top_research_directions,
-          trend_summary:
-            typeof summaryRaw?.trend_summary === "string"
-              ? summaryRaw.trend_summary
-              : topicSummary.trend_summary,
-          representative_papers: Array.isArray(summaryRaw?.representative_papers)
-            ? summaryRaw.representative_papers.slice(0, 8).map((p) => ({
-                title: String(p?.title || ""),
-                why: String(p?.why || ""),
-              }))
-            : topicSummary.representative_papers,
-        };
-      } catch (err) {
-        console.warn(`Summary generation failed, fallback used: ${err.message}`);
+  }
+
+  // Run researcher summary generation concurrently (also controlled by --concurrency).
+  if (!args.skipAi) {
+    const summaryTargets = researcherContexts.filter((ctx) => ctx.shouldRecomputeSummary);
+    let summaryCursor = 0;
+    let summaryDone = 0;
+    const summaryWorkers = new Array(workerCount).fill(null).map(async () => {
+      while (true) {
+        const idx = summaryCursor;
+        if (idx >= summaryTargets.length) break;
+        summaryCursor += 1;
+        const ctx = summaryTargets[idx];
+        try {
+          const summaryRaw = await callQwenChat({
+            apiKey: qwenApiKey,
+            baseUrl: qwenBaseUrl,
+            model: args.model,
+            userPrompt: buildSummaryPrompt(ctx.researcher, ctx.dedupedMergedWorks),
+            temperature: 0,
+            maxTokens: 1000,
+            enableThinking: true,
+          });
+          ctx.topicSummary = {
+            top_research_directions: Array.isArray(summaryRaw?.top_research_directions)
+              ? summaryRaw.top_research_directions.slice(0, 8).map((d) => ({
+                  name: String(d?.name || ""),
+                  weight: clamp01(d?.weight, 0),
+                }))
+              : ctx.topicSummary.top_research_directions,
+            trend_summary:
+              typeof summaryRaw?.trend_summary === "string"
+                ? summaryRaw.trend_summary
+                : ctx.topicSummary.trend_summary,
+            representative_papers: Array.isArray(summaryRaw?.representative_papers)
+              ? summaryRaw.representative_papers.slice(0, 8).map((p) => ({
+                  title: String(p?.title || ""),
+                  why: String(p?.why || ""),
+                }))
+              : ctx.topicSummary.representative_papers,
+          };
+        } catch (err) {
+          console.warn(`Summary generation failed, fallback used: ${err.message}`);
+        } finally {
+          summaryDone += 1;
+          process.stdout.write(`Generating researcher summary ${summaryDone}/${summaryTargets.length}\r`);
+        }
       }
-    }
+    });
+    await Promise.all(summaryWorkers);
+    if (summaryTargets.length > 0) process.stdout.write("\n");
+  }
+
+  for (const ctx of researcherContexts) {
+    const {
+      researcher,
+      authorId,
+      authorProfile,
+      effectiveOrcid,
+      cachePath,
+      cache,
+      analyzedNewWorks,
+      aiCalledCount,
+    } = ctx;
+    const dedupedMergedWorks = ctx.dedupedMergedWorks || [];
+    const interestingWorks = ctx.interestingWorks || [];
+    const shouldRecomputeSummary = Boolean(ctx.shouldRecomputeSummary);
+    const topicSummary = ctx.topicSummary || fallbackSummary(dedupedMergedWorks);
 
     const nextResearcherProfile = {
       identity: {
