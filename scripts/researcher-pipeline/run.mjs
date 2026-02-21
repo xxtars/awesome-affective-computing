@@ -1029,6 +1029,9 @@ async function run() {
     throw new Error("QWEN_API_KEY is required unless --skip-ai is set");
   }
   const qwenBaseUrl = process.env.QWEN_BASE_URL || DEFAULT_QWEN_BASE_URL;
+  const workerCount = Math.max(1, Math.floor(args.concurrency || 1));
+  const lowWatermark = Math.max(1, workerCount * 6);
+  const highWatermark = Math.max(lowWatermark + 1, workerCount * 12);
 
   const previousIndex = (await loadJson(args.out, null)) || null;
   const legacyMonolithPath = path.join(path.dirname(args.out), "researcher.profile.json");
@@ -1064,9 +1067,39 @@ async function run() {
     researchers: outputResearchers,
   };
 
-  const researcherContexts = [];
+  console.log("[build-config] researcher pipeline");
+  console.log(`  seed: ${args.seed}`);
+  console.log(`  out: ${args.out}`);
+  console.log(`  cache: ${args.cache}`);
+  console.log(`  model: ${args.model}`);
+  console.log(`  qwen_base_url: ${qwenBaseUrl}`);
+  console.log(`  qwen_api_key: ${qwenApiKey ? "set" : "missing"}`);
+  console.log(`  full_refresh: ${args.fullRefresh}`);
+  console.log(`  skip_ai: ${args.skipAi}`);
+  console.log(`  max_papers: ${args.maxPapers ?? "none"}`);
+  console.log(`  delay_ms: ${args.delayMs}`);
+  console.log(`  concurrency: ${workerCount}`);
+  console.log(`  save_every: ${Math.max(1, Math.floor(args.saveEvery || 1))}`);
+  console.log(`  queue_low_watermark: ${lowWatermark}`);
+  console.log(`  queue_high_watermark: ${highWatermark}`);
+  console.log(`  selected_researchers: ${selectedResearchers.length}`);
+  if (args.researcherNames.length > 0) {
+    console.log(`  researcher_name_filter: ${args.researcherNames.join(", ")}`);
+  }
 
-  for (const researcher of selectedResearchers) {
+  const researcherContexts = [];
+  const analysisTasks = [];
+  let taskCursor = 0;
+  let analyzedCount = 0;
+  let completedCount = 0;
+  let producerCursor = 0;
+  let inFlightResearchers = 0;
+  let producerDone = false;
+  let producerError = null;
+  const producerWorkerCount = 2;
+  const outstandingTasks = () => analysisTasks.length - completedCount;
+
+  async function prepareResearcherContext(researcher) {
     const authorId = normalizeAuthorId(researcher.openalex_author_id);
     const previousIndexRecord = previousIndexResearchers.find(
       (item) => item?.identity?.openalex_author_id === authorId
@@ -1105,7 +1138,7 @@ async function run() {
     });
     console.log(`Fetched ${newWorks.length} uncached works`);
 
-    researcherContexts.push({
+    const ctx = {
       researcher,
       authorId,
       runtimeResearcher,
@@ -1120,58 +1153,98 @@ async function run() {
       processedSinceFlush: 0,
       saveEvery: Math.max(1, Math.floor(args.saveEvery || 1)),
       cacheSaveChain: Promise.resolve(),
-      queueCacheSave: async function queueCacheSave() {
-        this.cacheSaveChain = this.cacheSaveChain.then(() => saveJson(this.cachePath, this.cache));
-        await this.cacheSaveChain;
-      },
-    });
+      queueCacheSave: null,
+    };
+    ctx.queueCacheSave = async () => {
+      ctx.cacheSaveChain = ctx.cacheSaveChain.then(() => saveJson(ctx.cachePath, ctx.cache));
+      await ctx.cacheSaveChain;
+    };
+    return ctx;
   }
 
-  const analysisTasks = [];
-  for (const ctx of researcherContexts) {
-    for (let i = 0; i < ctx.analyzedNewWorks.length; i += 1) {
-      analysisTasks.push({
-        ctx,
-        i,
-        work: ctx.analyzedNewWorks[i],
+  const producer = (async () => {
+    try {
+      const producerWorkers = new Array(producerWorkerCount).fill(null).map(async () => {
+        while (true) {
+          if (outstandingTasks() >= highWatermark) {
+            await sleep(80);
+            continue;
+          }
+
+          const currentIndex = producerCursor;
+          if (currentIndex >= selectedResearchers.length) break;
+          producerCursor += 1;
+
+          const researcher = selectedResearchers[currentIndex];
+          inFlightResearchers += 1;
+          try {
+            const ctx = await prepareResearcherContext(researcher);
+            researcherContexts.push(ctx);
+            for (let i = 0; i < ctx.analyzedNewWorks.length; i += 1) {
+              analysisTasks.push({
+                ctx,
+                i,
+                work: ctx.analyzedNewWorks[i],
+              });
+            }
+          } finally {
+            inFlightResearchers -= 1;
+          }
+
+          if (outstandingTasks() < lowWatermark) {
+            continue;
+          }
+        }
       });
+      await Promise.all(producerWorkers);
+    } catch (err) {
+      producerError = err;
+    } finally {
+      producerDone = true;
     }
-  }
+  })();
 
-  let taskCursor = 0;
-  let analyzedCount = 0;
-  const workerCount = Math.max(1, Math.floor(args.concurrency || 1));
   const workers = new Array(workerCount).fill(null).map(async () => {
     while (true) {
+      if (producerError) throw producerError;
+
       const taskIndex = taskCursor;
-      if (taskIndex >= analysisTasks.length) break;
-      taskCursor += 1;
+      if (taskIndex < analysisTasks.length) {
+        taskCursor += 1;
+        const task = analysisTasks[taskIndex];
+        const { ctx, i, work } = task;
+        const { analysis, fromCache } = await analyzePaper({
+          researcher: ctx.runtimeResearcher,
+          work,
+          args,
+          cache: ctx.cache,
+          qwenConfig: { apiKey: qwenApiKey, baseUrl: qwenBaseUrl },
+        });
+        ctx.analyzedNewWorks[i] = { ...work, analysis };
+        if (!fromCache) {
+          ctx.aiCalledCount += 1;
+          if (args.delayMs > 0) await sleep(args.delayMs);
+        }
 
-      const task = analysisTasks[taskIndex];
-      const { ctx, i, work } = task;
-      const { analysis, fromCache } = await analyzePaper({
-        researcher: ctx.runtimeResearcher,
-        work,
-        args,
-        cache: ctx.cache,
-        qwenConfig: { apiKey: qwenApiKey, baseUrl: qwenBaseUrl },
-      });
-      ctx.analyzedNewWorks[i] = { ...work, analysis };
-      if (!fromCache) {
-        ctx.aiCalledCount += 1;
-        if (args.delayMs > 0) await sleep(args.delayMs);
+        analyzedCount += 1;
+        completedCount += 1;
+        ctx.processedSinceFlush += 1;
+        if (ctx.processedSinceFlush >= ctx.saveEvery) {
+          ctx.processedSinceFlush = 0;
+          await ctx.queueCacheSave();
+        }
+        process.stdout.write(`Analyzing new paper ${analyzedCount}/${analysisTasks.length}\r`);
+        continue;
       }
 
-      analyzedCount += 1;
-      ctx.processedSinceFlush += 1;
-      if (ctx.processedSinceFlush >= ctx.saveEvery) {
-        ctx.processedSinceFlush = 0;
-        await ctx.queueCacheSave();
-      }
-      process.stdout.write(`Analyzing new paper ${analyzedCount}/${analysisTasks.length}\r`);
+      if (producerDone && inFlightResearchers === 0) break;
+      await sleep(50);
     }
   });
+
   await Promise.all(workers);
+  await producer;
+  if (producerError) throw producerError;
   for (const ctx of researcherContexts) {
     await ctx.cacheSaveChain;
   }
@@ -1195,7 +1268,7 @@ async function run() {
     if (!args.fullRefresh) {
       for (const oldWork of previousWorks) {
         if (!oldWork?.id) continue;
-        if (newWorks.some((nw) => nw.id === oldWork.id)) continue;
+        if (analyzedNewWorks.some((nw) => nw.id === oldWork.id)) continue;
         mergedWorks.push(oldWork);
       }
     }
