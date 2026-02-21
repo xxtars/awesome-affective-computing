@@ -13,78 +13,78 @@
   },
   "metrics": {
     "works_count": 339,
-    "cited_by_count": 7989,
+    "cited_by_count": 8003,
     "h_index": 41,
     "i10_index": 101
   },
   "topic_summary": {
     "top_research_directions": [
       {
-        "name": "Affective Computing and Micro-expression Analysis",
+        "name": "Affective Computing and Emotion Recognition",
         "weight": 0.95
       },
       {
-        "name": "Affective Neuroscience and Neural Correlates",
-        "weight": 0.9
-      },
-      {
-        "name": "Emotion-Cognition Interaction",
+        "name": "Micro-expression Analysis and Detection",
         "weight": 0.85
       },
       {
-        "name": "Facial Expression Recognition and Perception",
-        "weight": 0.8
+        "name": "Affective Neuroscience and Neural Mechanisms",
+        "weight": 0.75
       },
       {
-        "name": "Social Emotion and Moral Psychology",
+        "name": "Emotion-Cognition Interaction",
         "weight": 0.7
       },
       {
-        "name": "Clinical Affective Science and Psychopathology",
+        "name": "AI and Machine Learning for Affect",
         "weight": 0.65
       },
       {
-        "name": "Affective AI and Multimodal Modeling",
-        "weight": 0.6
+        "name": "Social Emotion and Interpersonal Dynamics",
+        "weight": 0.5
+      },
+      {
+        "name": "Clinical Affective Psychology",
+        "weight": 0.45
       },
       {
         "name": "Cross-cultural Emotion Research",
-        "weight": 0.5
+        "weight": 0.35
       }
     ],
-    "trend_summary": "Research commenced (2002-2006) with foundational work on media effects, group decision-making, and basic emotion measurement scales. During 2007-2011, focus expanded to cross-cultural trust, implicit emotional learning, and neural mechanisms of insight. The 2012-2016 window marked a pivotal shift towards affective computing, notably micro-expression recognition via the CASME database, alongside neural correlates of emotion perception using ERP. In 2017-2021, deep learning techniques enhanced micro-expression spotting, while research broadened to include moral cognition, sense of agency, and masked expression analysis during the pandemic. The latest period (2022-2025) demonstrates integration of affective AI with neuroscience, emphasizing multimodal emotion recognition, clinical psychopathology, and neural decoding of social agency. Current work prioritizes evaluating emotion grounding in foundation models and refining physiological measurement of covert affect.",
+    "trend_summary": "Research began in 2002-2006 with foundational studies on media effects, group decision-making, and basic emotion-cognition interactions, though evidence is limited for this window. During 2007-2011, focus shifted to emotion measurement standards and attentional modulation by facial expressions, initiating micro-expression application research. The 2012-2016 period marked significant expansion in affective computing, characterized by seminal micro-expression databases like CASME II and intensified affective neuroscience investigations using ERP and fNIRS. From 2017-2021, deep learning integration accelerated emotion recognition capabilities, while clinical applications addressed depression and pandemic-related stress alongside advanced neural mechanism mapping. In 2022-2025, current focus emphasizes multimodal affective AI evaluation, physiological signal quantification via EMG, and social-emotional service systems. Evolution demonstrates a trajectory from behavioral observation to computational modeling and neural decoding, culminating in interdisciplinary AI-psychology integration.",
     "representative_papers": [
       {
+        "title": "The interaction between cognition and emotion",
+        "why": "Establishes early theoretical foundations for emotion-cognition interaction research prevalent in 2007-2011."
+      },
+      {
         "title": "CASME II: An Improved Spontaneous Micro-Expression Database and the Baseline Evaluation",
-        "why": "Establishes the foundational CASME database series critical for spontaneous micro-expression research."
+        "why": "Seminal work defining data standards for micro-expression analysis during the 2012-2016 expansion."
       },
       {
         "title": "A Main Directional Mean Optical Flow Feature for Spontaneous Micro-Expression Recognition",
-        "why": "Represents key algorithmic innovation in optical flow features for affective computing."
-      },
-      {
-        "title": "The interaction between cognition and emotion",
-        "why": "Early theoretical paper defining the core emotion-cognition interaction framework."
+        "why": "Represents key algorithmic advancements in feature extraction for affective computing in 2012-2016."
       },
       {
         "title": "MESNet: A Convolutional Neural Network for Spotting Multi-Scale Micro-Expression Intervals in Long Videos",
-        "why": "Demonstrates the evolution towards deep learning architectures for video-based emotion spotting."
+        "why": "Illustrates the shift to deep learning architectures for emotion recognition in 2017-2021."
+      },
+      {
+        "title": "Reexamining the neural network involved in perception of facial expression: A meta-analysis",
+        "why": "Synthesizes neural mechanism findings, highlighting the neuroscience strand in 2017-2021."
       },
       {
         "title": "CAS(ME)3: A Third Generation Facial Spontaneous Micro-Expression Database with Depth Information and High Ecological Validity",
-        "why": "Shows continuity and advancement in dataset construction with multimodal depth information."
+        "why": "Demonstrates continued evolution of data resources and ecological validity in 2022-2025."
       },
       {
-        "title": "Decoding the temporal representation of facial expression in face-selective regions",
-        "why": "Highlights advanced neural decoding techniques using MEG for time-resolved emotion processing."
+        "title": "Human emotion and StO2: Dataset, pattern, and recognition of basic emotions",
+        "why": "Reflects the 2022-2025 focus on multimodal physiological signals beyond facial visuals."
       },
       {
         "title": "EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models",
-        "why": "Reflects the latest shift towards evaluating emotion grounding in foundation models and AI."
-      },
-      {
-        "title": "The role of arousal in the estimation of time‐to‐collision of threatening stimuli",
-        "why": "Exemplifies research on affective modulation of perceptual timing and survival-related cognition."
+        "why": "Captures the latest 2022-2025 direction of evaluating affective reasoning in foundation models."
       }
     ]
   },

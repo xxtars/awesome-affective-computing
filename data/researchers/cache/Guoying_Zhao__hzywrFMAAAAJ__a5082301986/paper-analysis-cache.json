@@ -13754,5 +13754,81 @@
         "Multimodal Affect Analysis"
       ]
     }
+  },
+  "c27beb3f2d3792867a82018b6eb8e8bd8b9ceebb63ea138fb7ae9a175af42915": {
+    "paper_id": "https://openalex.org/W4225556011",
+    "title": "Geometry-Contrastive Transformer for Generalized 3D Pose Transfer",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T11:41:01.056Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "Paper focuses on 3D mesh geometry and pose transfer without any mention of emotion or affective states.",
+      "evidence": [
+        "Abstract describes geometry-contrastive Transformer for 3D pose transfer."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "9d7e224dd1d359dbabab8cb7750a0331b54db9a31fc70552a3e739fbf2c56009": {
+    "paper_id": "https://openalex.org/W4395470778",
+    "title": "Topological Feature Search Method for Multichannel Eeg: Application in Adhd Classification",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T11:41:02.640Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.9,
+      "reason": "Paper focuses on ADHD classification using EEG, not emotion recognition.",
+      "evidence": [
+        "Application in Adhd Classification"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "0cbf547a40bc9834008672c93053b5b8ce34b91133fb5c1494d487a90c115788": {
+    "paper_id": "https://openalex.org/W4224129150",
+    "title": "Learning Optimal K-space Acquisition and Reconstruction using Physics-Informed Neural Networks",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T11:41:06.234Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0,
+      "confidence": 0.95,
+      "reason": "The paper focuses on MRI image reconstruction and k-space sampling optimization, unrelated to emotion or affective computing.",
+      "evidence": [
+        "Magnetic Resonance Image (MRI) has spurred the development of various acceleration methods"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "a759e584ea5a4d20f60d9581afb9bde286f4eb1537be6cd7b50cac503f562592": {
+    "paper_id": "https://openalex.org/W4299461567",
+    "title": "AniFormer: Data-driven 3D Animation with Transformer",
+    "researcher_name": "Guoying Zhao",
+    "researcher_openalex_author_id": "A5082301986",
+    "researcher_orcid": "https://orcid.org/0000-0003-3694-206X",
+    "updated_at": "2026-02-21T11:41:30.419Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.1,
+      "confidence": 0.9,
+      "reason": "Paper focuses on 3D animation architecture and motion transfer fidelity rather than emotion analysis or affective computing.",
+      "evidence": [
+        "Abstract emphasizes mesh sequences and Transformer architecture without mentioning emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

@@ -8067,5 +8067,43 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "eeb701cc8fe00022fc3f0c7589867136d451a1f21df1f2a263322ee08f47f822": {
+    "paper_id": "https://openalex.org/W4234988720",
+    "title": "Issue Information",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "researcher_orcid": "https://orcid.org/0000-0002-6944-1037",
+    "updated_at": "2026-02-21T11:46:17.002Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The title 'Issue Information' indicates this is journal metadata rather than a research article containing emotion-related content.",
+      "evidence": [
+        "Title: Issue Information"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "f7342c0c1f64253f0d9c09d33d4b7ca93bc7a2e79c83f73873375a8e56ab4d1c": {
+    "paper_id": "https://openalex.org/W4246676401",
+    "title": "Author response for \"Psychological model of representation, generation, and adjustion of belief for artificial general intelligence\"",
+    "researcher_name": "Xiaolan Fu",
+    "researcher_openalex_author_id": "A5015329251",
+    "researcher_orcid": "https://orcid.org/0000-0002-6944-1037",
+    "updated_at": "2026-02-21T11:46:22.866Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.15,
+      "confidence": 0.65,
+      "reason": "Paper focuses on belief modeling in AGI rather than affective states.",
+      "evidence": [
+        "Title specifies belief representation and adjustment without mentioning emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

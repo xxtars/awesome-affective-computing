@@ -23646,5 +23646,81 @@
       "keywords": [],
       "research_directions": []
     }
+  },
+  "21b605dd5bd996a0ed873055da43885c9626065009c5227b924efbb95d1c980c": {
+    "paper_id": "https://openalex.org/W2743153282",
+    "title": "蓋地域及び周辺地域における気候資源の時空間的特徴の分析【JST・京大機械翻訳】",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "researcher_orcid": "https://orcid.org/0000-0003-0383-0934",
+    "updated_at": "2026-02-21T11:43:44.459Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0,
+      "confidence": 0.95,
+      "reason": "Paper topic is climate resource analysis, unrelated to emotion.",
+      "evidence": [
+        "Title refers to climate resources and spatiotemporal characteristics"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "8eef3289f2127e5ca794d56f60b32b66543930d658d9974354a2af871c145080": {
+    "paper_id": "https://openalex.org/W4387908758",
+    "title": "Body size as a metric for the affordable world",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "researcher_orcid": "https://orcid.org/0000-0003-0383-0934",
+    "updated_at": "2026-02-21T11:43:44.516Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "The paper focuses on embodied cognition, affordance perception, and body size metrics without addressing emotional states or affective processes.",
+      "evidence": [
+        "Abstract focuses on action possibilities and body size rather than emotion."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "7961de77842be75882e15abe19b7ffee2b0445a998d9047ecaa4666032468a68": {
+    "paper_id": "https://openalex.org/W4313346045",
+    "title": "A stochastic world model on gravity for stability inference",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "researcher_orcid": "https://orcid.org/0000-0003-0383-0934",
+    "updated_at": "2026-02-21T11:43:44.821Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0.05,
+      "confidence": 0.95,
+      "reason": "Research focuses on intuitive physics and stability inference rather than affective states.",
+      "evidence": [
+        "inferring objects's stability through a world model that performs mental simulations with a priori knowledge of gravity"
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
+  },
+  "d5777b8f5707c23d03be1a3776b11e4284902d41e4259a6bfbd12269aeea0a66": {
+    "paper_id": "https://openalex.org/W4243822344",
+    "title": "Downregulation of S100 Calcium Binding Protein A12 inhibits the growth of glioma cells",
+    "researcher_name": "Jia Liu",
+    "researcher_openalex_author_id": "A5100409741",
+    "researcher_orcid": "https://orcid.org/0000-0003-0383-0934",
+    "updated_at": "2026-02-21T11:43:53.965Z",
+    "analysis": {
+      "is_interesting": false,
+      "relevance_score": 0,
+      "confidence": 0.95,
+      "reason": "The paper focuses on glioma cell biology and cancer research, with no connection to emotion or affective science.",
+      "evidence": [
+        "Study examines S100A12 protein role in glioma tumor growth and migration."
+      ],
+      "keywords": [],
+      "research_directions": []
+    }
   }
 }

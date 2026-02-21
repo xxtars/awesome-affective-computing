@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-21T10:07:59.186Z",
+  "generated_at": "2026-02-21T11:48:19.832Z",
   "pipeline_version": "v0.1.0",
   "run_config": {
     "model": "qwen3.5-plus",
@@ -63,7 +63,7 @@
       },
       "metrics": {
         "works_count": 1188,
-        "cited_by_count": 23708,
+        "cited_by_count": 23812,
         "h_index": 76,
         "i10_index": 417
       },
@@ -163,8 +163,8 @@
       },
       "metrics": {
         "works_count": 460,
-        "cited_by_count": 16213,
-        "h_index": 45,
+        "cited_by_count": 16280,
+        "h_index": 46,
         "i10_index": 153
       },
       "topic_summary": {
@@ -263,9 +263,9 @@
       },
       "metrics": {
         "works_count": 1764,
-        "cited_by_count": 54089,
-        "h_index": 102,
-        "i10_index": 722
+        "cited_by_count": 54209,
+        "h_index": 103,
+        "i10_index": 723
       },
       "topic_summary": {
         "top_research_directions": [
@@ -341,10 +341,10 @@
       "stats": {
         "analyzed_works_count": 1568,
         "interesting_works_count": 907,
-        "new_works_count": 175,
+        "new_works_count": 0,
         "deduped_works_count": 1568,
-        "ai_called_count": 175,
-        "summary_recomputed": true
+        "ai_called_count": 0,
+        "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5043060302.json"
     },
@@ -362,10 +362,10 @@
         "source": "orcid"
       },
       "metrics": {
-        "works_count": 1448,
-        "cited_by_count": 62117,
-        "h_index": 126,
-        "i10_index": 760
+        "works_count": 1450,
+        "cited_by_count": 62486,
+        "h_index": 127,
+        "i10_index": 771
       },
       "topic_summary": {
         "top_research_directions": [
@@ -463,7 +463,7 @@
       },
       "metrics": {
         "works_count": 214,
-        "cited_by_count": 2957,
+        "cited_by_count": 2974,
         "h_index": 29,
         "i10_index": 65
       },
@@ -563,7 +563,7 @@
       },
       "metrics": {
         "works_count": 108,
-        "cited_by_count": 1431,
+        "cited_by_count": 1442,
         "h_index": 19,
         "i10_index": 28
       },
@@ -663,7 +663,7 @@
       },
       "metrics": {
         "works_count": 22,
-        "cited_by_count": 112,
+        "cited_by_count": 116,
         "h_index": 5,
         "i10_index": 1
       },
@@ -763,7 +763,7 @@
       },
       "metrics": {
         "works_count": 321,
-        "cited_by_count": 20109,
+        "cited_by_count": 20200,
         "h_index": 62,
         "i10_index": 147
       },
@@ -863,19 +863,19 @@
       },
       "metrics": {
         "works_count": 599,
-        "cited_by_count": 29022,
+        "cited_by_count": 29072,
         "h_index": 85,
         "i10_index": 283
       },
       "topic_summary": {
         "top_research_directions": [
           {
-            "name": "Micro-expression Recognition",
-            "weight": 0.95
+            "name": "Facial Expression Recognition",
+            "weight": 1
           },
           {
-            "name": "Facial Expression Analysis",
-            "weight": 0.9
+            "name": "Micro-expression Recognition",
+            "weight": 0.95
           },
           {
             "name": "Multimodal Emotion Recognition",
@@ -883,67 +883,67 @@
           },
           {
             "name": "Physiological Signal Processing",
-            "weight": 0.8
-          },
-          {
-            "name": "Affective Computing",
             "weight": 0.75
           },
           {
             "name": "Domain Adaptation",
+            "weight": 0.65
+          },
+          {
+            "name": "3D/4D Facial Analysis",
             "weight": 0.6
           },
           {
-            "name": "Deep Learning for Emotion",
-            "weight": 0.55
+            "name": "Responsible Affective Computing",
+            "weight": 0.5
           },
           {
-            "name": "Responsible Affective Computing",
-            "weight": 0.4
+            "name": "Generative Affective Models",
+            "weight": 0.45
           }
         ],
-        "trend_summary": "Research from 2007-2011 established foundational dynamic texture recognition and facial expression analysis using local binary patterns. During 2012-2016, focus shifted significantly toward spontaneous micro-expression recognition, marked by the creation of benchmark datasets like CASME II and spatiotemporal descriptor refinement. The 2017-2021 period expanded scope to multimodal emotion recognition and physiological signal processing, notably remote photoplethysmography (rPPG) and cross-domain adaptation using deep learning architectures. Recent work from 2022-2025 integrates large language models, generative AI, and responsible affective computing, addressing privacy, ethics, and complex real-world applications such as dementia monitoring and educational analytics. Current efforts prioritize robustness in dynamic domain shifts, self-supervised learning, and the fusion of vision-language models for fine-grained emotion understanding, reflecting a transition from isolated visual cues to holistic, ethically-aware multimodal systems.",
+        "trend_summary": "Research from 2007-2011 established foundational methods for dynamic texture recognition and spontaneous micro-expression spotting using spatiotemporal local binary patterns and near-infrared videos. During 2012-2016, focus shifted towards constructing spontaneous micro-expression databases like CASME II and integrating early deep learning pipelines, alongside initial remote physiological measurement. The 2017-2021 period marked a significant evolution into deep neural networks, cross-domain adaptation, and multimodal fusion incorporating physiological signals and EEG, evidenced by challenges like MuSe. Finally, 2022-2025 demonstrates a current focus on robustness via self-supervised learning, responsible affective computing regarding privacy, and the integration of vision-language models for fine-grained emotion analysis. Throughout, micro-expression recognition remains a consistent core theme, evolving from handcrafted features to generative and LLM-driven approaches.",
         "representative_papers": [
           {
             "title": "Dynamic Texture Recognition Using Local Binary Patterns with an Application to Facial Expressions",
-            "why": "Foundational work establishing LBP-based dynamic texture analysis for emotion recognition in the earliest window."
+            "why": "Establishes foundational LBP methodology for dynamic facial analysis in the earliest window."
+          },
+          {
+            "title": "Recognising spontaneous facial micro-expressions",
+            "why": "Pioneers spontaneous micro-expression recognition distinct from posed expressions."
           },
           {
             "title": "CASME II: An Improved Spontaneous Micro-Expression Database and the Baseline Evaluation",
-            "why": "Critical dataset release that standardized spontaneous micro-expression analysis during the 2012-2016 period."
+            "why": "Provides critical benchmark dataset driving subsequent micro-expression research."
           },
           {
-            "title": "A Main Directional Mean Optical Flow Feature for Spontaneous Micro-Expression Recognition",
-            "why": "Highly cited method defining feature extraction techniques for micro-expressions in the mid-phase."
+            "title": "Remote Heart Rate Measurement from Face Videos under Realistic Situations",
+            "why": "Initiates non-contact physiological signal processing for affective computing."
           },
           {
-            "title": "Remote Photoplethysmograph Signal Measurement from Facial Videos Using Spatio-Temporal Networks",
-            "why": "Marks the strategic shift towards non-contact physiological signal processing for affective computing."
+            "title": "Spatiotemporal Recurrent Convolutional Networks for Recognizing Spontaneous Micro-Expressions",
+            "why": "Marks transition to deep learning architectures for micro-expression spotting."
           },
           {
-            "title": "Video-Based Remote Physiological Measurement via Cross-Verified Feature Disentangling",
-            "why": "Represents the peak of rPPG research integration with deep learning and cross-domain adaptation."
-          },
-          {
-            "title": "From Emotion AI to Cognitive AI",
-            "why": "Signifies the conceptual transition from pure emotion recognition to broader cognitive and explainable AI."
+            "title": "PhysFormer++: Facial Video-Based Physiological Measurement with SlowFast Temporal Difference Transformer",
+            "why": "Represents advanced transformer-based physiological measurement integration."
           },
           {
             "title": "MER 2025: When Affective Computing Meets Large Language Models",
-            "why": "Illustrates the latest integration of generative AI and LLMs into emotion understanding frameworks."
+            "why": "Illustrates current shift towards LLM-driven emotion understanding."
           },
           {
             "title": "3-D Face De-Identification With Preserving Multi-Facial Attributes: A Benchmark",
-            "why": "Highlights the emerging focus on privacy preservation and responsible AI in facial analysis."
+            "why": "Highlights emerging focus on privacy and responsible AI in affective analysis."
           }
         ]
       },
       "stats": {
         "analyzed_works_count": 522,
         "interesting_works_count": 168,
-        "new_works_count": 72,
+        "new_works_count": 4,
         "deduped_works_count": 522,
-        "ai_called_count": 72,
+        "ai_called_count": 4,
         "summary_recomputed": true
       },
       "profile_path": "data/researchers/profiles/A5082301986.json"
@@ -963,9 +963,9 @@
       },
       "metrics": {
         "works_count": 793,
-        "cited_by_count": 14756,
+        "cited_by_count": 14801,
         "h_index": 64,
-        "i10_index": 277
+        "i10_index": 278
       },
       "topic_summary": {
         "top_research_directions": [
@@ -1063,7 +1063,7 @@
       },
       "metrics": {
         "works_count": 417,
-        "cited_by_count": 11216,
+        "cited_by_count": 11228,
         "h_index": 46,
         "i10_index": 153
       },
@@ -1163,22 +1163,22 @@
       },
       "metrics": {
         "works_count": 1245,
-        "cited_by_count": 36407,
+        "cited_by_count": 36432,
         "h_index": 71,
-        "i10_index": 391
+        "i10_index": 392
       },
       "topic_summary": {
         "top_research_directions": [
           {
             "name": "Affective Neuroscience",
-            "weight": 1
+            "weight": 0.95
           },
           {
             "name": "Emotion-Cognition Interaction",
-            "weight": 0.9
+            "weight": 0.85
           },
           {
-            "name": "Clinical Affective Science",
+            "name": "Mental Health and Psychopathology",
             "weight": 0.8
           },
           {
@@ -1186,64 +1186,64 @@
             "weight": 0.7
           },
           {
-            "name": "Neural Biomarkers of Affect",
+            "name": "Social Support and Resilience",
             "weight": 0.6
           },
           {
-            "name": "Social Emotion Processing",
+            "name": "Affective Computing and AI",
             "weight": 0.5
           },
           {
-            "name": "Emotion Regulation Mechanisms",
-            "weight": 0.4
+            "name": "Educational and Developmental Psychology",
+            "weight": 0.45
           },
           {
-            "name": "Affective Computing and AI",
-            "weight": 0.3
+            "name": "Health Psychology in Medical Contexts",
+            "weight": 0.4
           }
         ],
-        "trend_summary": "Research began (2002-2006) with foundational work on face perception stages and clinical psychology aspects of anxiety and hypertension, though evidence is limited for this window. During 2007-2011, focus expanded to affective computing in speech and neural correlates of insight and trait anxiety using ERP and fMRI. The 2012-2016 period marked a peak in affective neuroscience, extensively utilizing VBM and resting-state fMRI to map structural and functional biomarkers of depression, PTSD, mindfulness, and self-processing. From 2017-2021, studies maintained neural mechanistic inquiries while integrating environmental factors like parental care and pandemic-related stress, emphasizing resilience and intervention. Currently (2022-2026), the focus has evolved towards applied affective science, examining AI emotional intelligence, ESG sentiment, educational support, and cross-cultural emotion processing, alongside continued investigation into neural biomarkers of psychopathology and recovery.",
+        "trend_summary": "Research began with basic perceptual and clinical psychology studies between 2002 and 2006, though evidence is limited for this window. From 2007 to 2011, focus expanded into affective computing and consumer behavior alongside caregiver burden assessment. The 2012-2016 period marked a significant shift toward affective neuroscience, utilizing fMRI and ERP to map neural correlates of emotion, self-processing, and psychopathology like PTSD and depression. Between 2017 and 2021, work continued on structural and functional brain biomarkers while incorporating computational psychiatry and addressing pandemic-related stressors. Currently, in the 2022-2026 window, research diversifies into AI emotion modeling, youth mental health networks, and social support mechanisms in educational and medical contexts. The evolution demonstrates a trajectory from behavioral observation to neural mechanism mapping, now integrating artificial intelligence and large-scale social determinants of emotional well-being.",
         "representative_papers": [
           {
             "title": "Stages of processing in face perception: an MEG study",
-            "why": "Foundational high-impact work establishing temporal dynamics of emotional face perception."
-          },
-          {
-            "title": "Neural correlates of psychological resilience and their relation to life satisfaction in a sample of healthy young adults",
-            "why": "Defines neural mechanisms linking psychological resilience to life satisfaction."
-          },
-          {
-            "title": "Frequency-selective control of cortical and subcortical networks by central thalamus",
-            "why": "Elucidates frequency-dependent neuromodulation of affective states."
+            "why": "Earliest foundational work establishing temporal dynamics of emotional face processing."
           },
           {
             "title": "Altered resting-state functional activity in posttraumatic stress disorder: A quantitative meta-analysis",
-            "why": "Comprehensive meta-analysis mapping affective circuit dysfunction in trauma."
+            "why": "High-impact clinical neuroscience paper defining neural basis of emotional dysregulation in trauma."
           },
           {
-            "title": "Brain grey matter volume alterations in late-life depression",
-            "why": "Identifies structural biomarkers specific to geriatric affective disorders."
+            "title": "Neural correlates of psychological resilience and their relation to life satisfaction in a sample of healthy young adults",
+            "why": "Key study linking neural mechanisms to positive affective traits and well-being."
+          },
+          {
+            "title": "The neural correlates of the happy life: The amplitude of spontaneous low frequency fluctuations predicts subjective well-being",
+            "why": "Seminal work connecting resting-state brain activity to subjective emotional well-being."
+          },
+          {
+            "title": "Trauma-specific Grey Matter Alterations in PTSD",
+            "why": "Representative of structural neuroimaging focus on affective psychopathology during 2012-2016."
           },
           {
             "title": "Emotional intelligence of Large Language Models",
-            "why": "Pivotal shift towards evaluating emotional intelligence in artificial agents."
-          },
-          {
-            "title": "The neural mechanisms of explicit and implicit processing of Chinese emotion-label and emotion-laden words: evidence from emotional categorisation and emotional Stroop tasks",
-            "why": "Advances cross-linguistic affective semantics and neural word processing."
+            "why": "Marks significant recent expansion into affective AI and computational emotion modeling."
           },
           {
             "title": "Central symptoms and network associations of depressive symptoms among school-aged students: A network analysis",
-            "why": "Applies network analysis to model affective symptom structures in youth."
+            "why": "Illustrates shift toward network analysis methods in developmental affective psychopathology."
+          },
+          {
+            "title": "Behavioral reactions to ESG sentiment: Evidence from heterogeneous Asia-pacific markets",
+            "why": "Demonstrates recent application of affective drivers to financial decision-making contexts."
           }
         ]
       },
       "stats": {
         "analyzed_works_count": 1161,
         "interesting_works_count": 121,
-        "new_works_count": 6,
+        "new_works_count": 4,
         "deduped_works_count": 1161,
-        "ai_called_count": 6,
+        "ai_called_count": 4,
         "summary_recomputed": true
       },
       "profile_path": "data/researchers/profiles/A5100409741.json"
@@ -1263,7 +1263,7 @@
       },
       "metrics": {
         "works_count": 617,
-        "cited_by_count": 8562,
+        "cited_by_count": 8594,
         "h_index": 43,
         "i10_index": 188
       },
@@ -1363,7 +1363,7 @@
       },
       "metrics": {
         "works_count": 147,
-        "cited_by_count": 5716,
+        "cited_by_count": 5739,
         "h_index": 33,
         "i10_index": 76
       },
@@ -1463,7 +1463,7 @@
       },
       "metrics": {
         "works_count": 182,
-        "cited_by_count": 1955,
+        "cited_by_count": 1957,
         "h_index": 18,
         "i10_index": 32
       },
@@ -1563,7 +1563,7 @@
       },
       "metrics": {
         "works_count": 310,
-        "cited_by_count": 7168,
+        "cited_by_count": 7196,
         "h_index": 44,
         "i10_index": 153
       },
@@ -1663,9 +1663,9 @@
       },
       "metrics": {
         "works_count": 1461,
-        "cited_by_count": 41979,
+        "cited_by_count": 42109,
         "h_index": 103,
-        "i10_index": 615
+        "i10_index": 616
       },
       "topic_summary": {
         "top_research_directions": [
@@ -1763,7 +1763,7 @@
       },
       "metrics": {
         "works_count": 403,
-        "cited_by_count": 8134,
+        "cited_by_count": 8152,
         "h_index": 37,
         "i10_index": 116
       },
@@ -1863,7 +1863,7 @@
       },
       "metrics": {
         "works_count": 68,
-        "cited_by_count": 818,
+        "cited_by_count": 822,
         "h_index": 13,
         "i10_index": 16
       },
@@ -1963,7 +1963,7 @@
       },
       "metrics": {
         "works_count": 238,
-        "cited_by_count": 4961,
+        "cited_by_count": 4976,
         "h_index": 32,
         "i10_index": 93
       },
@@ -2063,7 +2063,7 @@
       },
       "metrics": {
         "works_count": 64,
-        "cited_by_count": 1027,
+        "cited_by_count": 1041,
         "h_index": 19,
         "i10_index": 34
       },
@@ -2163,7 +2163,7 @@
       },
       "metrics": {
         "works_count": 273,
-        "cited_by_count": 8669,
+        "cited_by_count": 8716,
         "h_index": 46,
         "i10_index": 99
       },
@@ -2255,7 +2255,7 @@
       },
       "metrics": {
         "works_count": 726,
-        "cited_by_count": 34405,
+        "cited_by_count": 34475,
         "h_index": 93,
         "i10_index": 369
       },
@@ -2355,7 +2355,7 @@
       },
       "metrics": {
         "works_count": 250,
-        "cited_by_count": 8419,
+        "cited_by_count": 8436,
         "h_index": 46,
         "i10_index": 113
       },
@@ -2455,7 +2455,7 @@
       },
       "metrics": {
         "works_count": 233,
-        "cited_by_count": 8449,
+        "cited_by_count": 8470,
         "h_index": 45,
         "i10_index": 116
       },
@@ -2555,9 +2555,9 @@
       },
       "metrics": {
         "works_count": 369,
-        "cited_by_count": 12484,
-        "h_index": 49,
-        "i10_index": 137
+        "cited_by_count": 12545,
+        "h_index": 50,
+        "i10_index": 138
       },
       "topic_summary": {
         "top_research_directions": [
@@ -2643,7 +2643,7 @@
     {
       "identity": {
         "name": "Weidong Chen",
-        "orcid": null,
+        "orcid": "https://orcid.org/0000-0001-8757-0679",
         "google_scholar": "https://scholar.google.com/citations?user=Z-vKGdoAAAAJ",
         "openalex_author_id": "A5100357376",
         "openalex_author_url": "https://openalex.org/A5100357376"
@@ -2655,7 +2655,7 @@
       },
       "metrics": {
         "works_count": 650,
-        "cited_by_count": 7578,
+        "cited_by_count": 7618,
         "h_index": 45,
         "i10_index": 166
       },
@@ -2739,7 +2739,7 @@
       },
       "metrics": {
         "works_count": 311,
-        "cited_by_count": 10764,
+        "cited_by_count": 10823,
         "h_index": 52,
         "i10_index": 149
       },
@@ -2839,7 +2839,7 @@
       },
       "metrics": {
         "works_count": 399,
-        "cited_by_count": 7255,
+        "cited_by_count": 7269,
         "h_index": 38,
         "i10_index": 92
       },
@@ -2939,7 +2939,7 @@
       },
       "metrics": {
         "works_count": 147,
-        "cited_by_count": 8260,
+        "cited_by_count": 8285,
         "h_index": 41,
         "i10_index": 71
       },
@@ -3039,78 +3039,78 @@
       },
       "metrics": {
         "works_count": 339,
-        "cited_by_count": 7989,
+        "cited_by_count": 8003,
         "h_index": 41,
         "i10_index": 101
       },
       "topic_summary": {
         "top_research_directions": [
           {
-            "name": "Affective Computing and Micro-expression Analysis",
+            "name": "Affective Computing and Emotion Recognition",
             "weight": 0.95
           },
           {
-            "name": "Affective Neuroscience and Neural Correlates",
-            "weight": 0.9
-          },
-          {
-            "name": "Emotion-Cognition Interaction",
+            "name": "Micro-expression Analysis and Detection",
             "weight": 0.85
           },
           {
-            "name": "Facial Expression Recognition and Perception",
-            "weight": 0.8
+            "name": "Affective Neuroscience and Neural Mechanisms",
+            "weight": 0.75
           },
           {
-            "name": "Social Emotion and Moral Psychology",
+            "name": "Emotion-Cognition Interaction",
             "weight": 0.7
           },
           {
-            "name": "Clinical Affective Science and Psychopathology",
+            "name": "AI and Machine Learning for Affect",
             "weight": 0.65
           },
           {
-            "name": "Affective AI and Multimodal Modeling",
-            "weight": 0.6
+            "name": "Social Emotion and Interpersonal Dynamics",
+            "weight": 0.5
+          },
+          {
+            "name": "Clinical Affective Psychology",
+            "weight": 0.45
           },
           {
             "name": "Cross-cultural Emotion Research",
-            "weight": 0.5
+            "weight": 0.35
           }
         ],
-        "trend_summary": "Research commenced (2002-2006) with foundational work on media effects, group decision-making, and basic emotion measurement scales. During 2007-2011, focus expanded to cross-cultural trust, implicit emotional learning, and neural mechanisms of insight. The 2012-2016 window marked a pivotal shift towards affective computing, notably micro-expression recognition via the CASME database, alongside neural correlates of emotion perception using ERP. In 2017-2021, deep learning techniques enhanced micro-expression spotting, while research broadened to include moral cognition, sense of agency, and masked expression analysis during the pandemic. The latest period (2022-2025) demonstrates integration of affective AI with neuroscience, emphasizing multimodal emotion recognition, clinical psychopathology, and neural decoding of social agency. Current work prioritizes evaluating emotion grounding in foundation models and refining physiological measurement of covert affect.",
+        "trend_summary": "Research began in 2002-2006 with foundational studies on media effects, group decision-making, and basic emotion-cognition interactions, though evidence is limited for this window. During 2007-2011, focus shifted to emotion measurement standards and attentional modulation by facial expressions, initiating micro-expression application research. The 2012-2016 period marked significant expansion in affective computing, characterized by seminal micro-expression databases like CASME II and intensified affective neuroscience investigations using ERP and fNIRS. From 2017-2021, deep learning integration accelerated emotion recognition capabilities, while clinical applications addressed depression and pandemic-related stress alongside advanced neural mechanism mapping. In 2022-2025, current focus emphasizes multimodal affective AI evaluation, physiological signal quantification via EMG, and social-emotional service systems. Evolution demonstrates a trajectory from behavioral observation to computational modeling and neural decoding, culminating in interdisciplinary AI-psychology integration.",
         "representative_papers": [
           {
+            "title": "The interaction between cognition and emotion",
+            "why": "Establishes early theoretical foundations for emotion-cognition interaction research prevalent in 2007-2011."
+          },
+          {
             "title": "CASME II: An Improved Spontaneous Micro-Expression Database and the Baseline Evaluation",
-            "why": "Establishes the foundational CASME database series critical for spontaneous micro-expression research."
+            "why": "Seminal work defining data standards for micro-expression analysis during the 2012-2016 expansion."
           },
           {
             "title": "A Main Directional Mean Optical Flow Feature for Spontaneous Micro-Expression Recognition",
-            "why": "Represents key algorithmic innovation in optical flow features for affective computing."
-          },
-          {
-            "title": "The interaction between cognition and emotion",
-            "why": "Early theoretical paper defining the core emotion-cognition interaction framework."
+            "why": "Represents key algorithmic advancements in feature extraction for affective computing in 2012-2016."
           },
           {
             "title": "MESNet: A Convolutional Neural Network for Spotting Multi-Scale Micro-Expression Intervals in Long Videos",
-            "why": "Demonstrates the evolution towards deep learning architectures for video-based emotion spotting."
+            "why": "Illustrates the shift to deep learning architectures for emotion recognition in 2017-2021."
+          },
+          {
+            "title": "Reexamining the neural network involved in perception of facial expression: A meta-analysis",
+            "why": "Synthesizes neural mechanism findings, highlighting the neuroscience strand in 2017-2021."
           },
           {
             "title": "CAS(ME)3: A Third Generation Facial Spontaneous Micro-Expression Database with Depth Information and High Ecological Validity",
-            "why": "Shows continuity and advancement in dataset construction with multimodal depth information."
+            "why": "Demonstrates continued evolution of data resources and ecological validity in 2022-2025."
           },
           {
-            "title": "Decoding the temporal representation of facial expression in face-selective regions",
-            "why": "Highlights advanced neural decoding techniques using MEG for time-resolved emotion processing."
+            "title": "Human emotion and StO2: Dataset, pattern, and recognition of basic emotions",
+            "why": "Reflects the 2022-2025 focus on multimodal physiological signals beyond facial visuals."
           },
           {
             "title": "EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models",
-            "why": "Reflects the latest shift towards evaluating emotion grounding in foundation models and AI."
-          },
-          {
-            "title": "The role of arousal in the estimation of time‐to‐collision of threatening stimuli",
-            "why": "Exemplifies research on affective modulation of perceptual timing and survival-related cognition."
+            "why": "Captures the latest 2022-2025 direction of evaluating affective reasoning in foundation models."
           }
         ]
       },
@@ -3133,15 +3133,15 @@
         "openalex_author_url": "https://openalex.org/A5100451602"
       },
       "affiliation": {
-        "last_known_institution": "University of Science and Technology of China",
+        "last_known_institution": "Chinese Academy of Sciences",
         "last_known_country": "China",
         "source": "openalex"
       },
       "metrics": {
-        "works_count": 687,
-        "cited_by_count": 19312,
+        "works_count": 688,
+        "cited_by_count": 19417,
         "h_index": 63,
-        "i10_index": 284
+        "i10_index": 286
       },
       "topic_summary": {
         "top_research_directions": [
@@ -3239,7 +3239,7 @@
       },
       "metrics": {
         "works_count": 119,
-        "cited_by_count": 2708,
+        "cited_by_count": 2712,
         "h_index": 22,
         "i10_index": 33
       },
@@ -3335,7 +3335,7 @@
       },
       "metrics": {
         "works_count": 583,
-        "cited_by_count": 19017,
+        "cited_by_count": 19071,
         "h_index": 70,
         "i10_index": 261
       },
@@ -3435,7 +3435,7 @@
       },
       "metrics": {
         "works_count": 152,
-        "cited_by_count": 2485,
+        "cited_by_count": 2500,
         "h_index": 27,
         "i10_index": 49
       },
