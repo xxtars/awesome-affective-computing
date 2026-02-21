@@ -916,7 +916,7 @@ async function backfillVenueFromDoiForWorks(works, resolveVenueByDoi) {
 async function analyzePaper({ researcher, work, args, cache, qwenConfig }) {
   const cacheKey = paperCacheKey(work);
   const cachedEntry = cache[cacheKey];
-  if (cachedEntry) {
+  if (cachedEntry && !args.fullRefresh) {
     if (cachedEntry.analysis && typeof cachedEntry.analysis === "object") {
       return { analysis: cachedEntry.analysis, fromCache: true };
     }
