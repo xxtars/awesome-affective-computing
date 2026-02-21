@@ -153,7 +153,7 @@ export default function ResearchersPage(): ReactNode {
       uniqueSorted(
         profile.researchers.map((researcher) => formatInstitutionCountry(researcher.affiliation.last_known_country)),
       ),
-    [],
+    [profile.researchers],
   );
   const universityOptions = useMemo(
     () =>
@@ -162,7 +162,7 @@ export default function ResearchersPage(): ReactNode {
           splitInstitutionNames(researcher.affiliation.last_known_institution),
         ),
       ),
-    [],
+    [profile.researchers],
   );
   const activeInitialOptions = useMemo(() => {
     return uniqueSorted(
@@ -172,7 +172,7 @@ export default function ResearchersPage(): ReactNode {
         return getNameInitial(source);
       }),
     );
-  }, [initialAxis]);
+  }, [initialAxis, profile.researchers]);
 
   const resetFilters = () => {
     setCountryFilter('All');
@@ -216,7 +216,7 @@ export default function ResearchersPage(): ReactNode {
       if (givenCmp !== 0) return givenCmp;
       return a.identity.name.localeCompare(b.identity.name, 'en', {sensitivity: 'base'});
     });
-  }, [countryFilter, initialAxis, nameInitialFilter, query, universityFilter]);
+  }, [countryFilter, initialAxis, nameInitialFilter, profile.researchers, query, universityFilter]);
 
   return (
     <Layout title="Researchers">
