@@ -34,7 +34,11 @@ type ResearcherProfile = {
 type IndexFile = {
   generated_at: string | null;
   pipeline_version: string;
-  researchers: ResearcherProfile[];
+  researchers: Array<
+    ResearcherProfile & {
+      profile_path?: string;
+    }
+  >;
 };
 
 const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
@@ -132,7 +136,33 @@ export default function ResearchersPage(): ReactNode {
         const res = await fetch(url);
         if (!res.ok) throw new Error(`Failed to load index: ${res.status}`);
         const json = (await res.json()) as IndexFile;
-        if (!disposed) setProfile(json);
+
+        const hasLightweightRecords = (json.researchers || []).some(
+          (researcher) => !researcher.affiliation && Boolean(researcher.profile_path),
+        );
+
+        if (!hasLightweightRecords) {
+          if (!disposed) setProfile(json);
+          return;
+        }
+
+        const loadedProfiles = await Promise.all(
+          (json.researchers || []).map(async (researcher) => {
+            const rel = String(researcher.profile_path || '').replace(/^\/+/, '');
+            if (!rel) return null;
+            const profileUrl = buildResearchDataUrl(dataBaseUrl, rel);
+            const profileRes = await fetch(profileUrl);
+            if (!profileRes.ok) return null;
+            return (await profileRes.json()) as ResearcherProfile;
+          }),
+        );
+
+        if (!disposed) {
+          setProfile({
+            ...json,
+            researchers: loadedProfiles.filter(Boolean) as ResearcherProfile[],
+          });
+        }
       } catch (err) {
         console.error(err);
         if (!disposed) {
