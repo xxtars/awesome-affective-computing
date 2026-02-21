@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-21T08:39:48.609Z",
+  "generated_at": "2026-02-21T09:21:00.529Z",
   "pipeline_version": "v0.1.0",
   "run_config": {
     "model": "qwen3.5-plus",
@@ -8,9 +8,9 @@
     "max_papers": null,
     "delay_ms": 300,
     "concurrency": 32,
-    "save_every": 5,
+    "save_every": 4,
     "researcher_names": [
-      "Björn Schuller"
+      "Guoying Zhao"
     ]
   },
   "researchers": [
@@ -806,6 +806,106 @@
         "summary_recomputed": false
       },
       "profile_path": "data/researchers/profiles/A5057732142.json"
+    },
+    {
+      "identity": {
+        "name": "Guoying Zhao",
+        "orcid": "https://orcid.org/0000-0003-3694-206X",
+        "google_scholar": "http://scholar.google.com/citations?user=hzywrFMAAAAJ",
+        "openalex_author_id": "A5082301986",
+        "openalex_author_url": "https://openalex.org/A5082301986"
+      },
+      "affiliation": {
+        "last_known_institution": "University of Oulu",
+        "last_known_country": "Finland",
+        "source": "orcid"
+      },
+      "metrics": {
+        "works_count": 599,
+        "cited_by_count": 29022,
+        "h_index": 85,
+        "i10_index": 283
+      },
+      "topic_summary": {
+        "top_research_directions": [
+          {
+            "name": "Micro-expression Analysis",
+            "weight": 0.95
+          },
+          {
+            "name": "Facial Expression Recognition",
+            "weight": 0.9
+          },
+          {
+            "name": "Physiological Signal Processing for Affect",
+            "weight": 0.75
+          },
+          {
+            "name": "Multimodal Emotion Recognition",
+            "weight": 0.7
+          },
+          {
+            "name": "Deep Learning Architectures for Affect",
+            "weight": 0.6
+          },
+          {
+            "name": "Pain and Stress Recognition",
+            "weight": 0.45
+          },
+          {
+            "name": "Responsible and Privacy-Preserving AI",
+            "weight": 0.35
+          },
+          {
+            "name": "Generative AI and LLMs for Emotion",
+            "weight": 0.3
+          }
+        ],
+        "trend_summary": "Research evolved from handcrafted features (LBP) for facial expression to deep learning-based micro-expression analysis and physiological signal processing (rPPG). Recent work focuses on multimodal fusion, robustness in dynamic domains, privacy preservation, and integrating large language models for affective understanding.",
+        "representative_papers": [
+          {
+            "title": "Dynamic Texture Recognition Using Local Binary Patterns with an Application to Facial Expressions",
+            "why": "Foundational work on LBP-TOP with highest citations (2793), establishing early feature extraction methods."
+          },
+          {
+            "title": "CASME II: An Improved Spontaneous Micro-Expression Database and the Baseline Evaluation",
+            "why": "Seminal dataset publication (930 citations) that standardized micro-expression benchmarking."
+          },
+          {
+            "title": "A Main Directional Mean Optical Flow Feature for Spontaneous Micro-Expression Recognition",
+            "why": "Key methodological contribution (504 citations) for spotting subtle facial movements."
+          },
+          {
+            "title": "Remote Heart Rate Measurement from Face Videos under Realistic Situations",
+            "why": "Pioneering work (547 citations) in non-contact physiological measurement for affect."
+          },
+          {
+            "title": "Deep Affect Prediction in-the-Wild: Aff-Wild Database and Challenge, Deep Architectures, and Beyond",
+            "why": "Major contribution (366 citations) to in-the-wild emotion recognition and benchmarking."
+          },
+          {
+            "title": "PhysFormer++: Facial Video-Based Physiological Measurement with SlowFast Temporal Difference Transformer",
+            "why": "State-of-the-art transformer-based physiological measurement (111 citations) showing modern architecture adoption."
+          },
+          {
+            "title": "Facial Micro-Expressions: An Overview",
+            "why": "Comprehensive survey (71 citations) summarizing the core domain expertise."
+          },
+          {
+            "title": "MER 2025: When Affective Computing Meets Large Language Models",
+            "why": "Represents the latest 2025 shift towards LLM-driven affective computing and generative models."
+          }
+        ]
+      },
+      "stats": {
+        "analyzed_works_count": 522,
+        "interesting_works_count": 168,
+        "new_works_count": 522,
+        "deduped_works_count": 522,
+        "ai_called_count": 522,
+        "summary_recomputed": true
+      },
+      "profile_path": "data/researchers/profiles/A5082301986.json"
     },
     {
       "identity": {
