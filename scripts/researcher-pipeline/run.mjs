@@ -1176,7 +1176,7 @@ async function run() {
       affiliation: {
         last_known_institution: null,
         last_known_country: null,
-        source: "orcid_preferred_openalex_fallback",
+        source: "google_scholar_preferred_orcid_openalex_fallback",
       },
       metrics: {
         works_count: authorProfile.works_count || 0,
@@ -1217,15 +1217,15 @@ async function run() {
       }
     }
     const selectedInstitution =
-      orcidAffiliation.institution ||
       scholarAffiliation ||
+      orcidAffiliation.institution ||
       authorProfile.last_known_institutions?.[0]?.display_name ||
       null;
     nextResearcherProfile.affiliation.source =
-      orcidAffiliation.institution
-        ? "orcid"
-        : scholarAffiliation
+      scholarAffiliation
         ? "google_scholar"
+        : orcidAffiliation.institution
+        ? "orcid"
         : "openalex";
     const countryFromInstitution = selectedInstitution
       ? await resolveInstitutionCountryName({

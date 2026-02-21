@@ -261,7 +261,7 @@ export default function ResearcherDetailPage(): ReactNode {
               <span className={styles.metaValue}>{researcher.affiliation.last_known_institution || '-'}</span>
             </div>
             <div className={styles.metaCard}>
-              <span className={styles.metaLabel}>Institution Country</span>
+              <span className={styles.metaLabel}>Institution Country/Region</span>
               <span className={styles.metaValue}>{formatInstitutionCountry(researcher.affiliation.last_known_country)}</span>
             </div>
             <div className={styles.metaCard}>

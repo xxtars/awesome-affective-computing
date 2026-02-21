@@ -194,7 +194,7 @@ export default function ResearchersPage(): ReactNode {
           <Heading as="h1">Researchers</Heading>
           <p>Generated at: {formatDateOnly(profile.generated_at)}</p>
           <p className={styles.note}>
-            Institution is shown by priority rule: ORCID first, then Google Scholar, otherwise OpenAlex first
+            Institution is shown by priority rule: Google Scholar first, then ORCID, otherwise OpenAlex first
             institution. Country is resolved from institution name (geocoding lookup) and displayed as full country
             name.
           </p>
@@ -216,7 +216,7 @@ export default function ResearchersPage(): ReactNode {
                 </div>
 
                 <label>
-                  Institution Country
+                  Institution Country/Region
                   <select value={countryFilter} onChange={(event) => setCountryFilter(event.target.value)}>
                     <option value="All">All</option>
                     {countryOptions.map((country) => (
@@ -295,7 +295,7 @@ export default function ResearchersPage(): ReactNode {
                   <input
                     value={query}
                     onChange={(event) => setQuery(event.target.value)}
-                    placeholder="name / topic / institution country / university"
+                    placeholder="name / topic / institution country/region / university"
                     type="text"
                   />
                 </label>
