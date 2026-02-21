@@ -122,7 +122,9 @@ async function main() {
   for (const record of researchers) {
     const relPath = String(record?.profile_path || "").replace(/^\/+/, "");
     if (!relPath) continue;
-    const normalizedRelPath = relPath.replace(/^data\/researchers\//, "");
+    const normalizedRelPath = relPath
+      .replace(/^data-repo\/data\/researchers\//, "")
+      .replace(/^data\/researchers\//, "");
     const sourceProfilePath = path.resolve(srcRoot, normalizedRelPath);
     const sourceProfile = await loadJson(sourceProfilePath);
     const publicProfile = toPublicProfile(sourceProfile);
