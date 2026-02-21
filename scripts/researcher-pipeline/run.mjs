@@ -798,11 +798,14 @@ Return strict JSON:
 
 Rules:
 - Preserve input priority order.
+- Output institution names in full English official style when inferable from evidence (e.g., "BIT" -> "Beijing Institute of Technology").
 - Keep only institution names; remove titles/degrees/role text (e.g., Professor, PhD, Department, Lab).
 - Split combined affiliations into separate institutions when clearly present.
 - Do not invent institutions not grounded in input.
 - institutions length must equal institution_countries length.
-- Use English full country/region names in institution_countries when confident; otherwise null.
+- Use English full country/region names in institution_countries.
+- If country_hint is provided for a candidate, treat it as high-priority evidence.
+- If no reliable evidence for country, output null instead of guessing.
 - Output valid JSON only.`;
 }
 
@@ -890,6 +893,14 @@ function normalizeAffiliationNormalization(raw) {
     normalizeCountryNameToEnglish(countriesRaw[i] == null ? null : String(countriesRaw[i]).trim()) || null
   );
   return { institutions, institution_countries: institutionCountries };
+}
+
+function isLikelyInstitutionAbbreviation(value) {
+  const name = String(value || "").trim();
+  if (!name) return false;
+  if (name.length > 10) return false;
+  if (/\s/.test(name)) return false;
+  return /^[A-Z][A-Z0-9.&-]{1,9}$/.test(name);
 }
 
 function fallbackSummary(analyzedWorks) {
@@ -1441,7 +1452,7 @@ async function run() {
     // Strict fallback chain: Google Scholar -> OpenAlex -> ORCID.
     // Once an upper-priority source provides affiliation, do not pull lower-priority sources.
     if (String(scholarAffiliation || "").trim()) {
-      pushInstitutionCandidate(scholarAffiliation, "google_scholar", null);
+      pushInstitutionCandidate(scholarAffiliation, "google_scholar", openalexCountryHint);
     } else if (String(openalexInstitution || "").trim()) {
       pushInstitutionCandidate(openalexInstitution, "openalex", openalexCountryHint);
     } else {
@@ -1483,16 +1494,28 @@ async function run() {
       }
     }
 
+    const candidateCountryHintByInstitutionKey = new Map();
+    for (const candidate of institutionCandidates) {
+      const key = normalizeInstitutionKey(candidate.name);
+      if (!key) continue;
+      if (!candidateCountryHintByInstitutionKey.has(key) && candidate.countryHint) {
+        candidateCountryHintByInstitutionKey.set(key, candidate.countryHint);
+      }
+    }
+
     if (institutions.length === 0) {
       for (const candidate of institutionCandidates) {
-        const countryFromInstitution = await resolveInstitutionCountryName({
-          institutionName: candidate.name,
-          institutionCountryCache,
-          institutionCountryCachePath,
-        });
         const finalCountry =
-          normalizeCountryNameToEnglish(countryFromInstitution) ||
           candidate.countryHint ||
+          (isLikelyInstitutionAbbreviation(candidate.name)
+            ? null
+            : normalizeCountryNameToEnglish(
+                await resolveInstitutionCountryName({
+                  institutionName: candidate.name,
+                  institutionCountryCache,
+                  institutionCountryCachePath,
+                })
+              )) ||
           null;
         institutions.push(candidate.name);
         institutionCountries.push(finalCountry);
@@ -1500,6 +1523,16 @@ async function run() {
     } else {
       for (let i = 0; i < institutions.length; i += 1) {
         if (institutionCountries[i]) continue;
+        const key = normalizeInstitutionKey(institutions[i]);
+        const hint = key ? candidateCountryHintByInstitutionKey.get(key) : null;
+        if (hint) {
+          institutionCountries[i] = hint;
+          continue;
+        }
+        if (isLikelyInstitutionAbbreviation(institutions[i])) {
+          institutionCountries[i] = null;
+          continue;
+        }
         const countryFromInstitution = await resolveInstitutionCountryName({
           institutionName: institutions[i],
           institutionCountryCache,

@@ -382,24 +382,32 @@ export default function ResearchersPage(): ReactNode {
                       const institutionLabel = institutions.length > 0 ? institutions.join(' ; ') : '-';
                       const countries = getInstitutionCountries(researcher);
                       const countryLabel = countries.length > 0 ? countries.join(' ; ') : '-';
+                      const directionsLabel = formatTopDirections(researcher) || '-';
                       return (
                         <>
-                          <p className={styles.meta}>
-                            <span className={styles.institutionText} title={institutionLabel}>
+                          <div className={styles.infoBlock}>
+                            <p className={styles.infoLabel}>Institution</p>
+                            <div className={styles.infoScroll} title={institutionLabel}>
                               {institutionLabel}
-                            </span>
-                          </p>
+                            </div>
+                          </div>
 
-                          <p className={styles.meta} title={countryLabel}>
-                            {countryLabel}
-                          </p>
+                          <div className={styles.infoBlock}>
+                            <p className={styles.infoLabel}>Institution Country/Region</p>
+                            <div className={styles.infoScroll} title={countryLabel}>
+                              {countryLabel}
+                            </div>
+                          </div>
+
+                          <div className={styles.infoBlock}>
+                            <p className={styles.infoLabel}>Top directions</p>
+                            <div className={styles.infoScroll} title={directionsLabel}>
+                              {directionsLabel}
+                            </div>
+                          </div>
                         </>
                       );
                     })()}
-
-                    <p className={styles.directions}>
-                      Top directions: <span className={styles.directionsText}>{formatTopDirections(researcher) || '-'}</span>
-                    </p>
 
                     <p className={styles.meta}>
                       Analyzed/Affective-related: {researcher.stats.analyzed_works_count}/

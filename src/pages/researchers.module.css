@@ -150,28 +150,30 @@
   margin-bottom: 0.4rem;
 }
 
-.institutionText {
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
-  display: -webkit-inline-box;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  vertical-align: bottom;
+.infoBlock {
+  margin-bottom: 0.55rem;
 }
 
-.directions {
-  margin-bottom: 0.8rem;
+.infoLabel {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.24rem;
 }
 
-.directionsText {
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
-  display: -webkit-inline-box;
-  line-height: 1.45;
-  min-height: calc(1.45em * 4);
-  overflow: hidden;
-  text-overflow: ellipsis;
-  vertical-align: bottom;
+.infoScroll {
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  color: var(--ifm-color-emphasis-800);
+  font-size: 0.98rem;
+  line-height: 1.4;
+  max-height: 4.2rem;
+  min-height: 2.7rem;
+  overflow-y: auto;
+  padding: 0.45rem 0.55rem;
+  white-space: normal;
 }
 
 .links {
