@@ -39,13 +39,24 @@ function pickLinks(links) {
 }
 
 function pickAnalysis(analysis) {
+  const problemDirections = Array.isArray(analysis?.problem_directions)
+    ? analysis.problem_directions.map((x) => String(x || "").trim()).filter(Boolean)
+    : [];
+  const methodDirections = Array.isArray(analysis?.method_directions)
+    ? analysis.method_directions.map((x) => String(x || "").trim()).filter(Boolean)
+    : [];
+  const legacyDirections = Array.isArray(analysis?.research_directions)
+    ? analysis.research_directions.map((x) => String(x || "").trim()).filter(Boolean)
+    : [];
+  const resolvedProblem = problemDirections.length > 0 ? problemDirections : legacyDirections.slice(0, 3);
+  const resolvedMethod = methodDirections.length > 0 ? methodDirections : legacyDirections.slice(3, 6);
+
   return {
     is_interesting: Boolean(analysis?.is_interesting),
     relevance_score: Number(analysis?.relevance_score || 0),
     tldr: String(analysis?.tldr || "").trim(),
-    research_directions: Array.isArray(analysis?.research_directions)
-      ? analysis.research_directions.map((x) => String(x || "").trim()).filter(Boolean)
-      : [],
+    problem_directions: resolvedProblem,
+    method_directions: resolvedMethod,
   };
 }
 

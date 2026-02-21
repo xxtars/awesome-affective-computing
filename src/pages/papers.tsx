@@ -28,7 +28,8 @@ type WorkItem = {
     is_interesting: boolean;
     relevance_score: number;
     tldr?: string;
-    research_directions?: string[];
+    problem_directions?: string[];
+    method_directions?: string[];
   };
 };
 
@@ -119,6 +120,14 @@ function formatPreviewList(items: string[] | undefined) {
   const normalized = (items || []).map((item) => String(item || '').trim()).filter(Boolean);
   if (normalized.length === 0) return '-';
   return normalized.map((item) => capitalizeFirst(item)).join(', ');
+}
+
+function getProblemDirections(analysis: WorkItem['analysis'] | undefined) {
+  return Array.isArray(analysis?.problem_directions) ? analysis?.problem_directions : [];
+}
+
+function getMethodDirections(analysis: WorkItem['analysis'] | undefined) {
+  return Array.isArray(analysis?.method_directions) ? analysis?.method_directions : [];
 }
 
 function authorPositionOrder(position: string | null | undefined) {
@@ -291,7 +300,7 @@ export default function PapersPage(): ReactNode {
           <Heading as="h1">Papers</Heading>
           <p>Main affective-related papers from tracked researchers (deduplicated by title).</p>
           <p className={styles.note}>
-            Disclaimer: author order and venue are resolved from OpenAlex/DOI metadata; directions and TLDR are
+            Disclaimer: author order and venue are resolved from OpenAlex/DOI metadata; problem/method directions and TLDR are
             AI-generated and may contain errors.
           </p>
           <section className={styles.searchSection}>
@@ -376,8 +385,13 @@ export default function PapersPage(): ReactNode {
                         </div>
 
                         <div className={styles.blockScrollMd}>
-                          <p className={styles.blockLabel}>Directions</p>
-                          <p className={styles.blockText}>{formatPreviewList(paper.analysis?.research_directions)}</p>
+                          <p className={styles.blockLabel}>Problem Directions</p>
+                          <p className={styles.blockText}>{formatPreviewList(getProblemDirections(paper.analysis))}</p>
+                        </div>
+
+                        <div className={styles.blockScrollMd}>
+                          <p className={styles.blockLabel}>Method Directions</p>
+                          <p className={styles.blockText}>{formatPreviewList(getMethodDirections(paper.analysis))}</p>
                         </div>
                       </article>
                     ))}

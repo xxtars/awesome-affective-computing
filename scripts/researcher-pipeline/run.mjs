@@ -826,7 +826,7 @@ function buildPaperFilterPrompt(work) {
 }
 
 function buildPaperExtractionPrompt(researcher, work) {
-  return `You are doing Stage-2 extraction for an already-selected affective/emotion-related paper.\n\nResearcher: ${researcher.name}\nInterest topics: ${getInterestTopics(researcher).join(", ")}\n\nPaper metadata:\n- Title: ${work.title}\n- Year: ${work.publication_year || "unknown"}\n- Venue: ${work.primary_source || "unknown"}\n- Concepts: ${(work.concepts || []).join(", ") || "none"}\n- Abstract: ${shortenText(work.abstract || "(empty)")}\n\nReturn strict JSON:\n{\n  "reason": string,\n  "evidence": string[],\n  "tldr": string,\n  "research_directions": string[]\n}\n\nRules:\n- reason: one concise sentence.\n- evidence: 1-3 short concrete clues from title/abstract/concepts.\n- TLDR: 1 sentence only, 25-40 words; focus on problem + method + contribution; neutral and factual.\n- research_directions: 2-6 items; noun phrases (2-6 words), lowercase, avoid overlap/synonyms.\n- Ground everything in given metadata only; do not invent facts.\n- Output valid JSON only.`;
+  return `You are doing Stage-2 extraction for an already-selected affective/emotion-related paper.\n\nResearcher: ${researcher.name}\nInterest topics: ${getInterestTopics(researcher).join(", ")}\n\nPaper metadata:\n- Title: ${work.title}\n- Year: ${work.publication_year || "unknown"}\n- Venue: ${work.primary_source || "unknown"}\n- Concepts: ${(work.concepts || []).join(", ") || "none"}\n- Abstract: ${shortenText(work.abstract || "(empty)")}\n\nReturn strict JSON:\n{\n  "reason": string,\n  "evidence": string[],\n  "tldr": string,\n  "problem_directions": string[],\n  "method_directions": string[]\n}\n\nRules:\n- reason: one concise sentence.\n- evidence: 1-3 short concrete clues from title/abstract/concepts.\n- TLDR: 1 sentence only, 25-40 words; focus on problem + method + contribution; neutral and factual.\n- problem_directions: 1-3 items; what affective/emotion problem/task is addressed.\n- method_directions: 1-3 items; what methods/technical approaches are used.\n- Total directions across both arrays should be 2-6.\n- Each direction should be noun phrase (2-6 words), lowercase.\n- Avoid redundancy: no duplicate or near-synonym items within each array.\n- Avoid cross-array overlap: one item must appear in only one array (problem OR method).\n- Prefer stable canonical wording; avoid paraphrase variants.\n- Ground everything in given metadata only; do not invent facts.\n- Output valid JSON only.`;
 }
 
 function buildSummaryPrompt(researcher, analyzedWorks) {
@@ -836,10 +836,10 @@ function buildSummaryPrompt(researcher, analyzedWorks) {
       title: w.title,
       year: w.publication_year,
       cited_by_count: w.cited_by_count,
-      directions: w.analysis.research_directions || [],
+      problem_directions: w.analysis.problem_directions || [],
     }));
 
-  return `Based on interesting papers for researcher ${researcher.name}, summarize research directions and evolution.\n\nInput papers JSON:\n${JSON.stringify(interesting)}\n\nReturn strict JSON:\n{\n  "top_research_directions": [{"name": string, "weight": number}],\n  "trend_summary": string,\n  "representative_papers": [{"title": string, "why": string}]\n}\n\nRules for top_research_directions:\n- Keep direction labels concise and stable (noun phrases).\n- max 8 directions\n- weight in [0,1], sorted desc\n- Do NOT turn directions into timeline sentences.\n\nRules for trend_summary:\n- Write 1 paragraph (120-220 words), academic and neutral tone.\n- Use adaptive evolution windows, NOT fixed 5-year bins.\n- Infer 2-4 phases from directional/topic shifts in the input (earliest -> latest).\n- Each phase should include an explicit year span (e.g., 2019-2021) and a concise thematic focus.\n- If all papers cluster in a short period, still describe phase transitions by topic/method change; do not force long windows.\n- End with the latest phase as current focus.\n- Ground statements in input years/titles/directions only; do not invent facts.\n- Use consistent terminology across phases; avoid synonym drift for the same direction.\n- If evidence for a phase is sparse, explicitly say evidence is limited.\n- Avoid generic praise and vague wording.\n\nRules for representative_papers:\n- max 8 items\n- why should explain representativeness for direction/evolution, not only citation count.`;
+  return `Based on interesting papers for researcher ${researcher.name}, summarize research directions and evolution.\n\nInput papers JSON:\n${JSON.stringify(interesting)}\n\nReturn strict JSON:\n{\n  "top_research_directions": [{"name": string, "weight": number}],\n  "trend_summary": string,\n  "representative_papers": [{"title": string, "why": string}]\n}\n\nRules for top_research_directions:\n- Build this list from problem_directions only (not method_directions).\n- Keep direction labels concise and stable (noun phrases).\n- max 8 directions\n- weight in [0,1], sorted desc\n- Do NOT turn directions into timeline sentences.\n\nRules for trend_summary:\n- Write 1 paragraph (120-220 words), academic and neutral tone.\n- Use adaptive evolution windows, NOT fixed 5-year bins.\n- Infer 2-4 phases from shifts in problem_directions (earliest -> latest).\n- Each phase should include an explicit year span (e.g., 2019-2021) and a concise problem-focus description.\n- If all papers cluster in a short period, still describe phase transitions by problem-focus change; do not force long windows.\n- End with the latest phase as current focus.\n- Keep the narrative integrated; do not split into separate problem/method sub-summaries.\n- Ground statements in input years/titles/problem_directions only; do not invent facts.\n- Use consistent terminology across phases; avoid synonym drift for the same direction.\n- If evidence for a phase is sparse, explicitly say evidence is limited.\n- Avoid generic praise and vague wording.\n\nRules for representative_papers:\n- max 8 items\n- why should explain representativeness for direction/evolution, not only citation count.`;
 }
 
 function buildAffiliationNormalizationPrompt(researcher, candidates) {
@@ -930,17 +930,61 @@ function normalizePaperFilter(raw) {
 }
 
 function normalizePaperExtraction(raw) {
-  const directions = Array.isArray(raw?.research_directions)
+  const problemDirections = Array.isArray(raw?.problem_directions)
+    ? raw.problem_directions.filter(Boolean).slice(0, 3)
+    : [];
+  const methodDirections = Array.isArray(raw?.method_directions)
+    ? raw.method_directions.filter(Boolean).slice(0, 3)
+    : [];
+  // Legacy fallback if cache/model output still uses a single list.
+  const legacyDirections = Array.isArray(raw?.research_directions)
     ? raw.research_directions.filter(Boolean).slice(0, 6)
     : [];
   const evidence = Array.isArray(raw?.evidence) ? raw.evidence.filter(Boolean).slice(0, 3) : [];
   const tldr = typeof raw?.tldr === "string" ? raw.tldr.trim() : "";
 
+  const normalizeDirectionList = (items) =>
+    items
+      .map((x) => String(x || "").trim().toLowerCase())
+      .filter(Boolean)
+      .filter((item, index, arr) => arr.indexOf(item) === index);
+
+  let normalizedProblem = normalizeDirectionList(problemDirections);
+  let normalizedMethod = normalizeDirectionList(methodDirections);
+  if (normalizedProblem.length === 0 && normalizedMethod.length === 0 && legacyDirections.length > 0) {
+    normalizedProblem = normalizeDirectionList(legacyDirections.slice(0, 3));
+    normalizedMethod = normalizeDirectionList(legacyDirections.slice(3, 6));
+  }
+  const problemSet = new Set(normalizedProblem);
+  normalizedMethod = normalizedMethod.filter((item) => !problemSet.has(item));
+  normalizedProblem = normalizedProblem.slice(0, 3);
+  normalizedMethod = normalizedMethod.slice(0, 3);
+  while (normalizedProblem.length + normalizedMethod.length > 6) {
+    if (normalizedMethod.length > 0) normalizedMethod.pop();
+    else normalizedProblem.pop();
+  }
+
   return {
     reason: typeof raw?.reason === "string" ? raw.reason : "",
     evidence,
     tldr,
-    research_directions: directions,
+    problem_directions: normalizedProblem,
+    method_directions: normalizedMethod,
+  };
+}
+
+function normalizeAnalysisShape(rawAnalysis) {
+  const base = rawAnalysis && typeof rawAnalysis === "object" ? rawAnalysis : {};
+  const normalized = normalizePaperExtraction(base);
+  return {
+    is_interesting: Boolean(base?.is_interesting),
+    relevance_score: clamp01(base?.relevance_score, 0),
+    confidence: clamp01(base?.confidence, 0),
+    reason: typeof base?.reason === "string" ? base.reason : normalized.reason,
+    evidence: normalized.evidence,
+    tldr: normalized.tldr,
+    problem_directions: normalized.problem_directions,
+    method_directions: normalized.method_directions,
   };
 }
 
@@ -968,7 +1012,8 @@ function fallbackSummary(analyzedWorks) {
   for (const work of analyzedWorks) {
     const analysis = work.analysis;
     if (!analysis?.is_interesting) continue;
-    for (const direction of analysis.research_directions || []) {
+    const problemDirections = Array.isArray(analysis.problem_directions) ? analysis.problem_directions : [];
+    for (const direction of problemDirections) {
       directionCounts.set(direction, (directionCounts.get(direction) || 0) + 1);
     }
   }
@@ -1006,9 +1051,9 @@ async function analyzePaper({ researcher, work, args, cache, qwenConfig }) {
   const cachedEntry = cache[cacheKey];
   if (cachedEntry && !args.fullRefresh) {
     if (cachedEntry.analysis && typeof cachedEntry.analysis === "object") {
-      return { analysis: cachedEntry.analysis, fromCache: true };
+      return { analysis: normalizeAnalysisShape(cachedEntry.analysis), fromCache: true };
     }
-    return { analysis: cachedEntry, fromCache: true };
+    return { analysis: normalizeAnalysisShape(cachedEntry), fromCache: true };
   }
 
   if (args.skipAi) {
@@ -1019,7 +1064,8 @@ async function analyzePaper({ researcher, work, args, cache, qwenConfig }) {
       reason: "AI skipped by --skip-ai",
       evidence: [],
       tldr: "",
-      research_directions: [],
+      problem_directions: [],
+      method_directions: [],
     };
     cache[cacheKey] = {
       paper_id: work.id,
@@ -1053,7 +1099,8 @@ async function analyzePaper({ researcher, work, args, cache, qwenConfig }) {
         ...stage1,
         evidence: [],
         tldr: "",
-        research_directions: [],
+        problem_directions: [],
+        method_directions: [],
       };
 
       if (stage1.is_interesting) {

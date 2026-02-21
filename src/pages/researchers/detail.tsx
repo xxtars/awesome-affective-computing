@@ -12,7 +12,8 @@ type WorkAnalysis = {
   is_interesting: boolean;
   relevance_score: number;
   tldr?: string;
-  research_directions: string[];
+  problem_directions?: string[];
+  method_directions?: string[];
 };
 
 type WorkItem = {
@@ -82,6 +83,14 @@ function capitalizeFirst(text: string) {
 function formatList(items: string[] | undefined) {
   if (!items || items.length === 0) return '-';
   return items.map((item) => capitalizeFirst(item)).join(', ');
+}
+
+function getProblemDirections(analysis: WorkAnalysis | undefined) {
+  return Array.isArray(analysis?.problem_directions) ? analysis.problem_directions : [];
+}
+
+function getMethodDirections(analysis: WorkAnalysis | undefined) {
+  return Array.isArray(analysis?.method_directions) ? analysis.method_directions : [];
 }
 
 function normalizeVenueName(name: string | null | undefined) {
@@ -369,8 +378,13 @@ export default function ResearcherDetailPage(): ReactNode {
                 </div>
 
                 <div className={styles.paperBlockMd}>
-                  <p className={styles.paperBlockLabel}>Directions</p>
-                  <p className={styles.paperBlockText}>{formatList(work.analysis.research_directions)}</p>
+                  <p className={styles.paperBlockLabel}>Problem Directions</p>
+                  <p className={styles.paperBlockText}>{formatList(getProblemDirections(work.analysis))}</p>
+                </div>
+
+                <div className={styles.paperBlockMd}>
+                  <p className={styles.paperBlockLabel}>Method Directions</p>
+                  <p className={styles.paperBlockText}>{formatList(getMethodDirections(work.analysis))}</p>
                 </div>
               </article>
             ))}
