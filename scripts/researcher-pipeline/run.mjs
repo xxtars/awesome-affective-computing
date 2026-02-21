@@ -1165,8 +1165,7 @@ async function run() {
   }
   const qwenBaseUrl = process.env.QWEN_BASE_URL || DEFAULT_QWEN_BASE_URL;
   const workerCount = Math.max(1, Math.floor(args.concurrency || 1));
-  const lowWatermark = Math.max(1, workerCount * 6);
-  const highWatermark = Math.max(lowWatermark + 1, workerCount * 12);
+  const queueTarget = Math.max(1, workerCount * 200);
 
   const previousIndex = (await loadJson(args.out, null)) || null;
   const legacyMonolithPath = path.join(path.dirname(args.out), "researcher.profile.json");
@@ -1215,8 +1214,7 @@ async function run() {
   console.log(`  delay_ms: ${args.delayMs}`);
   console.log(`  concurrency: ${workerCount}`);
   console.log(`  save_every: ${Math.max(1, Math.floor(args.saveEvery || 1))}`);
-  console.log(`  queue_low_watermark: ${lowWatermark}`);
-  console.log(`  queue_high_watermark: ${highWatermark}`);
+  console.log(`  queue_target: ${queueTarget}`);
   console.log(`  selected_researchers: ${selectedResearchers.length}`);
   if (args.researcherNames.length > 0) {
     console.log(`  researcher_name_filter: ${args.researcherNames.join(", ")}`);
@@ -1231,7 +1229,6 @@ async function run() {
   let inFlightResearchers = 0;
   let producerDone = false;
   let producerError = null;
-  const producerWorkerCount = 2;
   const outstandingTasks = () => analysisTasks.length - completedCount;
 
   async function prepareResearcherContext(researcher) {
@@ -1303,39 +1300,30 @@ async function run() {
 
   const producer = (async () => {
     try {
-      const producerWorkers = new Array(producerWorkerCount).fill(null).map(async () => {
-        while (true) {
-          if (outstandingTasks() >= highWatermark) {
-            await sleep(80);
-            continue;
-          }
-
-          const currentIndex = producerCursor;
-          if (currentIndex >= selectedResearchers.length) break;
-          producerCursor += 1;
-
-          const researcher = selectedResearchers[currentIndex];
-          inFlightResearchers += 1;
-          try {
-            const ctx = await prepareResearcherContext(researcher);
-            researcherContexts.push(ctx);
-            for (let i = 0; i < ctx.analyzedNewWorks.length; i += 1) {
-              analysisTasks.push({
-                ctx,
-                i,
-                work: ctx.analyzedNewWorks[i],
-              });
-            }
-          } finally {
-            inFlightResearchers -= 1;
-          }
-
-          if (outstandingTasks() < lowWatermark) {
-            continue;
-          }
+      while (producerCursor < selectedResearchers.length) {
+        if (outstandingTasks() >= queueTarget) {
+          await sleep(80);
+          continue;
         }
-      });
-      await Promise.all(producerWorkers);
+
+        const currentIndex = producerCursor;
+        producerCursor += 1;
+        const researcher = selectedResearchers[currentIndex];
+        inFlightResearchers += 1;
+        try {
+          const ctx = await prepareResearcherContext(researcher);
+          researcherContexts.push(ctx);
+          for (let i = 0; i < ctx.analyzedNewWorks.length; i += 1) {
+            analysisTasks.push({
+              ctx,
+              i,
+              work: ctx.analyzedNewWorks[i],
+            });
+          }
+        } finally {
+          inFlightResearchers -= 1;
+        }
+      }
     } catch (err) {
       producerError = err;
     } finally {
