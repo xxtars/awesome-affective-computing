@@ -1064,6 +1064,8 @@ async function run() {
     researchers: outputResearchers,
   };
 
+  const researcherContexts = [];
+
   for (const researcher of selectedResearchers) {
     const authorId = normalizeAuthorId(researcher.openalex_author_id);
     const previousIndexRecord = previousIndexResearchers.find(
@@ -1103,47 +1105,91 @@ async function run() {
     });
     console.log(`Fetched ${newWorks.length} uncached works`);
 
-    const analyzedNewWorks = newWorks;
-    let aiCalledCount = 0;
-    let processedCount = 0;
-    let nextIndex = 0;
-    let processedSinceFlush = 0;
-    const saveEvery = Math.max(1, Math.floor(args.saveEvery || 1));
-    let cacheSaveChain = Promise.resolve();
-    const queueCacheSave = async () => {
-      cacheSaveChain = cacheSaveChain.then(() => saveJson(cachePath, cache));
-      await cacheSaveChain;
-    };
-    const workerCount = Math.max(1, Math.floor(args.concurrency || 1));
-    const workers = new Array(workerCount).fill(null).map(async () => {
-      while (true) {
-        const i = nextIndex;
-        if (i >= newWorks.length) break;
-        nextIndex += 1;
-        const work = newWorks[i];
-
-        const { analysis, fromCache } = await analyzePaper({
-          researcher: runtimeResearcher,
-          work,
-          args,
-          cache,
-          qwenConfig: { apiKey: qwenApiKey, baseUrl: qwenBaseUrl },
-        });
-        analyzedNewWorks[i] = { ...work, analysis };
-        if (!fromCache) aiCalledCount += 1;
-        if (!fromCache && args.delayMs > 0) await sleep(args.delayMs);
-        processedCount += 1;
-        processedSinceFlush += 1;
-        if (processedSinceFlush >= saveEvery) {
-          processedSinceFlush = 0;
-          await queueCacheSave();
-        }
-        process.stdout.write(`Analyzing new paper ${processedCount}/${newWorks.length}\r`);
-      }
+    researcherContexts.push({
+      researcher,
+      authorId,
+      runtimeResearcher,
+      previousResearcher,
+      previousWorks,
+      authorProfile,
+      effectiveOrcid,
+      cachePath,
+      cache,
+      analyzedNewWorks: [...newWorks],
+      aiCalledCount: 0,
+      processedSinceFlush: 0,
+      saveEvery: Math.max(1, Math.floor(args.saveEvery || 1)),
+      cacheSaveChain: Promise.resolve(),
+      queueCacheSave: async function queueCacheSave() {
+        this.cacheSaveChain = this.cacheSaveChain.then(() => saveJson(this.cachePath, this.cache));
+        await this.cacheSaveChain;
+      },
     });
-    await Promise.all(workers);
-    await cacheSaveChain;
-    if (newWorks.length > 0) process.stdout.write("\n");
+  }
+
+  const analysisTasks = [];
+  for (const ctx of researcherContexts) {
+    for (let i = 0; i < ctx.analyzedNewWorks.length; i += 1) {
+      analysisTasks.push({
+        ctx,
+        i,
+        work: ctx.analyzedNewWorks[i],
+      });
+    }
+  }
+
+  let taskCursor = 0;
+  let analyzedCount = 0;
+  const workerCount = Math.max(1, Math.floor(args.concurrency || 1));
+  const workers = new Array(workerCount).fill(null).map(async () => {
+    while (true) {
+      const taskIndex = taskCursor;
+      if (taskIndex >= analysisTasks.length) break;
+      taskCursor += 1;
+
+      const task = analysisTasks[taskIndex];
+      const { ctx, i, work } = task;
+      const { analysis, fromCache } = await analyzePaper({
+        researcher: ctx.runtimeResearcher,
+        work,
+        args,
+        cache: ctx.cache,
+        qwenConfig: { apiKey: qwenApiKey, baseUrl: qwenBaseUrl },
+      });
+      ctx.analyzedNewWorks[i] = { ...work, analysis };
+      if (!fromCache) {
+        ctx.aiCalledCount += 1;
+        if (args.delayMs > 0) await sleep(args.delayMs);
+      }
+
+      analyzedCount += 1;
+      ctx.processedSinceFlush += 1;
+      if (ctx.processedSinceFlush >= ctx.saveEvery) {
+        ctx.processedSinceFlush = 0;
+        await ctx.queueCacheSave();
+      }
+      process.stdout.write(`Analyzing new paper ${analyzedCount}/${analysisTasks.length}\r`);
+    }
+  });
+  await Promise.all(workers);
+  for (const ctx of researcherContexts) {
+    await ctx.cacheSaveChain;
+  }
+  if (analysisTasks.length > 0) process.stdout.write("\n");
+
+  for (const ctx of researcherContexts) {
+    const {
+      researcher,
+      authorId,
+      previousResearcher,
+      previousWorks,
+      authorProfile,
+      effectiveOrcid,
+      cachePath,
+      cache,
+      analyzedNewWorks,
+      aiCalledCount,
+    } = ctx;
 
     const mergedWorks = [...analyzedNewWorks];
     if (!args.fullRefresh) {
