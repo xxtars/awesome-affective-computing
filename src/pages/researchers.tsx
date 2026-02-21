@@ -34,11 +34,10 @@ type ResearcherProfile = {
 type IndexFile = {
   generated_at: string | null;
   pipeline_version: string;
-  researchers: Array<
-    ResearcherProfile & {
-      profile_path?: string;
-    }
-  >;
+  researchers: Array<{
+    identity: ResearcherProfile['identity'];
+    profile_path: string;
+  }>;
 };
 
 const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
@@ -136,16 +135,6 @@ export default function ResearchersPage(): ReactNode {
         const res = await fetch(url);
         if (!res.ok) throw new Error(`Failed to load index: ${res.status}`);
         const json = (await res.json()) as IndexFile;
-
-        const hasLightweightRecords = (json.researchers || []).some(
-          (researcher) => !researcher.affiliation && Boolean(researcher.profile_path),
-        );
-
-        if (!hasLightweightRecords) {
-          if (!disposed) setProfile(json);
-          return;
-        }
-
         const loadedProfiles = await Promise.all(
           (json.researchers || []).map(async (researcher) => {
             const rel = String(researcher.profile_path || '').replace(/^\/+/, '');
