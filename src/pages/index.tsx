@@ -67,7 +67,7 @@ export default function Home(): ReactNode {
             <p>
               This project is an AI-assisted research landscape tracking workspace for affective computing research.
               It organizes researcher identities, paper-level analysis, and aggregated paper views for continuous
-              updates — powered by OpenAlex, ORCID, Google Scholar, and AI-generated summaries.
+              updates — powered by OpenAlex, ORCID, Google Scholar, and Qwen-generated summaries.
             </p>
           </section>
 

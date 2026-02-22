@@ -139,6 +139,41 @@ function formatInstitutionCountry(value: string | null) {
   return raw;
 }
 
+function getWindowMinYear(
+  windowType: 'all' | 'recent_5y' | 'recent_3y' | 'recent_1y',
+  currentYear: number,
+) {
+  if (windowType === 'recent_1y') return currentYear;
+  if (windowType === 'recent_3y') return currentYear - 2;
+  if (windowType === 'recent_5y') return currentYear - 4;
+  return null;
+}
+
+function getWindowStats(
+  researcher: ResearcherProfile,
+  windowType: 'all' | 'recent_5y' | 'recent_3y' | 'recent_1y',
+  currentYear: number,
+) {
+  const minYear = getWindowMinYear(windowType, currentYear);
+  const works = Array.isArray(researcher.works) ? researcher.works : [];
+
+  if (works.length === 0) {
+    const analyzed = Number(researcher.stats?.analyzed_works_count || 0);
+    const interesting = Number(researcher.stats?.interesting_works_count || 0);
+    return {analyzed, interesting, ratio: analyzed > 0 ? interesting / analyzed : 0};
+  }
+
+  const scoped = works.filter((w) => {
+    const year = w.publication_year;
+    return Number.isFinite(year) && (minYear == null || Number(year) >= minYear);
+  });
+  if (scoped.length === 0) return {analyzed: 0, interesting: 0, ratio: 0};
+
+  const analyzed = scoped.length;
+  const interesting = scoped.filter((w) => Boolean(w.analysis?.is_interesting)).length;
+  return {analyzed, interesting, ratio: analyzed > 0 ? interesting / analyzed : 0};
+}
+
 export default function ResearchersPage(): ReactNode {
   const dataBaseUrl = useResearchDataBaseUrl();
   const [generatedAt, setGeneratedAt] = useState<string | null>(null);
@@ -148,8 +183,8 @@ export default function ResearchersPage(): ReactNode {
   const [universityFilter, setUniversityFilter] = useState('All');
   const [initialAxis, setInitialAxis] = useState<'family' | 'given'>('family');
   const [nameInitialFilter, setNameInitialFilter] = useState('All');
-  const [sortMetric, setSortMetric] = useState<'affective_count' | 'affective_ratio'>('affective_count');
-  const [sortWindow, setSortWindow] = useState<'all' | 'recent_5y' | 'recent_3y'>('all');
+  const [sortMetric, setSortMetric] = useState<'none' | 'affective_count' | 'affective_ratio'>('none');
+  const [sortWindow, setSortWindow] = useState<'all' | 'recent_5y' | 'recent_3y' | 'recent_1y'>('all');
   const [query, setQuery] = useState('');
 
   useEffect(() => {
@@ -221,7 +256,7 @@ export default function ResearchersPage(): ReactNode {
     setUniversityFilter('All');
     setInitialAxis('family');
     setNameInitialFilter('All');
-    setSortMetric('affective_count');
+    setSortMetric('none');
     setSortWindow('all');
     setQuery('');
   };
@@ -250,39 +285,19 @@ export default function ResearchersPage(): ReactNode {
     });
 
     const currentYear = new Date().getFullYear();
-    const getWindowBounds = () => {
-      if (sortWindow === 'recent_3y') return currentYear - 2;
-      if (sortWindow === 'recent_5y') return currentYear - 4;
-      return null;
-    };
-    const minYear = getWindowBounds();
-    const inWindow = (year: number | null | undefined) =>
-      Number.isFinite(year) && (minYear == null || Number(year) >= minYear);
-
-    const getWindowStats = (researcher: ResearcherProfile) => {
-      const works = Array.isArray(researcher.works) ? researcher.works : [];
-      if (works.length === 0) {
-        const analyzed = Number(researcher.stats?.analyzed_works_count || 0);
-        const interesting = Number(researcher.stats?.interesting_works_count || 0);
-        return {analyzed, interesting, ratio: analyzed > 0 ? interesting / analyzed : 0};
-      }
-      const scoped = works.filter((w) => inWindow(w.publication_year));
-      if (scoped.length === 0) return {analyzed: 0, interesting: 0, ratio: 0};
-      const analyzed = scoped.length;
-      const interesting = scoped.filter((w) => Boolean(w.analysis?.is_interesting)).length;
-      const ratio = analyzed > 0 ? interesting / analyzed : 0;
-      return {analyzed, interesting, ratio};
-    };
 
     return matched.sort((a, b) => {
-      const aWindow = getWindowStats(a);
-      const bWindow = getWindowStats(b);
+      const aWindow = getWindowStats(a, sortWindow, currentYear);
+      const bWindow = getWindowStats(b, sortWindow, currentYear);
       const aName = splitNameParts(a.identity.name);
       const bName = splitNameParts(b.identity.name);
       const familyCmp = aName.familyName.localeCompare(bName.familyName, 'en', { sensitivity: 'base' });
       const givenCmp = aName.givenName.localeCompare(bName.givenName, 'en', { sensitivity: 'base' });
 
-      if (sortMetric === 'affective_ratio') {
+      if (sortMetric === 'none') {
+        if (familyCmp !== 0) return familyCmp;
+        if (givenCmp !== 0) return givenCmp;
+      } else if (sortMetric === 'affective_ratio') {
         if (bWindow.ratio !== aWindow.ratio) return bWindow.ratio - aWindow.ratio;
         if (bWindow.interesting !== aWindow.interesting) return bWindow.interesting - aWindow.interesting;
       } else {
@@ -291,14 +306,24 @@ export default function ResearchersPage(): ReactNode {
       }
 
       // Stable fallback by name.
-      if (familyCmp !== 0) {
-        if (familyCmp !== 0) return familyCmp;
-      }
+      if (familyCmp !== 0) return familyCmp;
       if (givenCmp !== 0) return givenCmp;
 
       return a.identity.name.localeCompare(b.identity.name, 'en', {sensitivity: 'base'});
     });
   }, [countryFilter, initialAxis, nameInitialFilter, query, researchers, sortMetric, sortWindow, universityFilter]);
+
+  const windowStatsById = useMemo(() => {
+    const currentYear = new Date().getFullYear();
+    const map = new Map<string, {analyzed: number; interesting: number; ratio: number}>();
+    filteredResearchers.forEach((researcher) => {
+      map.set(
+        researcher.identity.openalex_author_id,
+        getWindowStats(researcher, sortWindow, currentYear),
+      );
+    });
+    return map;
+  }, [filteredResearchers, sortWindow]);
 
   return (
     <Layout title="Researchers">
@@ -359,6 +384,7 @@ export default function ResearchersPage(): ReactNode {
                 <label>
                   Sort Metric
                   <select value={sortMetric} onChange={(event) => setSortMetric(event.target.value as typeof sortMetric)}>
+                    <option value="none">None (family name A-Z)</option>
                     <option value="affective_count">Affective-related count (high to low)</option>
                     <option value="affective_ratio">Affective-related ratio (high to low)</option>
                   </select>
@@ -368,6 +394,7 @@ export default function ResearchersPage(): ReactNode {
                   Time Window
                   <select value={sortWindow} onChange={(event) => setSortWindow(event.target.value as typeof sortWindow)}>
                     <option value="all">All time</option>
+                    <option value="recent_1y">Recent 1 year</option>
                     <option value="recent_5y">Recent 5 years</option>
                     <option value="recent_3y">Recent 3 years</option>
                   </select>
@@ -476,8 +503,13 @@ export default function ResearchersPage(): ReactNode {
                     })()}
 
                     <p className={styles.meta}>
-                      Analyzed/Affective-related: {researcher.stats.analyzed_works_count}/
-                      {researcher.stats.interesting_works_count}
+                      {(() => {
+                        const stats = windowStatsById.get(researcher.identity.openalex_author_id) || {
+                          analyzed: 0,
+                          interesting: 0,
+                        };
+                        return `Analyzed/Affective-related: ${stats.analyzed}/${stats.interesting}`;
+                      })()}
                     </p>
 
                     <div className={styles.links}>
