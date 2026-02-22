@@ -1050,9 +1050,9 @@ async function analyzePaper({ researcher, work, args, cache, qwenConfig }) {
   const cachedEntry = cache[cacheKey];
   if (cachedEntry && !args.fullRefresh) {
     if (cachedEntry.analysis && typeof cachedEntry.analysis === "object") {
-      return { analysis: normalizeAnalysisShape(cachedEntry.analysis), fromCache: true };
+      return { analysis: normalizeAnalysisShape(cachedEntry.analysis), fromCache: true, skipped: false };
     }
-    return { analysis: normalizeAnalysisShape(cachedEntry), fromCache: true };
+    return { analysis: normalizeAnalysisShape(cachedEntry), fromCache: true, skipped: false };
   }
 
   if (args.skipAi) {
@@ -1075,14 +1075,15 @@ async function analyzePaper({ researcher, work, args, cache, qwenConfig }) {
       updated_at: new Date().toISOString(),
       analysis: skipped,
     };
-    return { analysis: skipped, fromCache: false };
+    return { analysis: skipped, fromCache: false, skipped: false };
   }
 
   const stage1Prompt = buildPaperFilterPrompt(work);
   let attempt = 0;
   let lastErr = null;
+  const maxAttempts = 2;
 
-  while (attempt < 3) {
+  while (attempt < maxAttempts) {
     attempt += 1;
     try {
       const filterRaw = await callQwenChat({
@@ -1127,14 +1128,25 @@ async function analyzePaper({ researcher, work, args, cache, qwenConfig }) {
         updated_at: new Date().toISOString(),
         analysis: normalized,
       };
-      return { analysis: normalized, fromCache: false };
+      return { analysis: normalized, fromCache: false, skipped: false };
     } catch (err) {
       lastErr = err;
       await sleep(500 * attempt);
     }
   }
 
-  throw lastErr;
+  if (cachedEntry && cachedEntry.analysis && typeof cachedEntry.analysis === "object") {
+    const recovered = normalizeAnalysisShape(cachedEntry.analysis);
+    console.warn(
+      `Paper analysis failed after ${maxAttempts} attempts, fallback to existing cache: ${work.title} (${work.id || "no-id"})`
+    );
+    return { analysis: recovered, fromCache: true, skipped: false };
+  }
+  const errMsg = lastErr instanceof Error ? lastErr.message : String(lastErr || "unknown error");
+  console.warn(
+    `Paper analysis failed after ${maxAttempts} attempts, deferred to next run: ${work.title} (${work.id || "no-id"}) - ${errMsg}`
+  );
+  return { analysis: null, fromCache: false, skipped: true };
 }
 
 async function run() {
@@ -1344,14 +1356,18 @@ async function run() {
         taskCursor += 1;
         const task = analysisTasks[taskIndex];
         const { ctx, i, work } = task;
-        const { analysis, fromCache } = await analyzePaper({
+        const { analysis, fromCache, skipped } = await analyzePaper({
           researcher: ctx.runtimeResearcher,
           work,
           args,
           cache: ctx.cache,
           qwenConfig: { apiKey: qwenApiKey, baseUrl: qwenBaseUrl },
         });
-        ctx.analyzedNewWorks[i] = { ...work, analysis };
+        if (skipped) {
+          ctx.analyzedNewWorks[i] = null;
+        } else {
+          ctx.analyzedNewWorks[i] = { ...work, analysis };
+        }
         if (!fromCache) {
           ctx.aiCalledCount += 1;
           if (args.delayMs > 0) await sleep(args.delayMs);
@@ -1384,11 +1400,12 @@ async function run() {
   // Prepare merged works and fallback summaries first.
   for (const ctx of researcherContexts) {
     const { previousResearcher, previousWorks, analyzedNewWorks } = ctx;
-    const mergedWorks = [...analyzedNewWorks];
+    const successfulAnalyzedNewWorks = analyzedNewWorks.filter((w) => w && w.id);
+    const mergedWorks = [...successfulAnalyzedNewWorks];
     if (!args.fullRefresh) {
       for (const oldWork of previousWorks) {
         if (!oldWork?.id) continue;
-        if (analyzedNewWorks.some((nw) => nw.id === oldWork.id)) continue;
+        if (successfulAnalyzedNewWorks.some((nw) => nw.id === oldWork.id)) continue;
         mergedWorks.push(oldWork);
       }
     }
@@ -1403,10 +1420,11 @@ async function run() {
     });
 
     const shouldRecomputeSummary =
-      args.fullRefresh || analyzedNewWorks.length > 0 || !previousResearcher?.topic_summary;
+      args.fullRefresh || successfulAnalyzedNewWorks.length > 0 || !previousResearcher?.topic_summary;
     ctx.dedupedMergedWorks = dedupedMergedWorks;
     ctx.interestingWorks = dedupedMergedWorks.filter((w) => w.analysis?.is_interesting);
     ctx.shouldRecomputeSummary = shouldRecomputeSummary;
+    ctx.successfulNewWorksCount = successfulAnalyzedNewWorks.length;
     ctx.topicSummary = shouldRecomputeSummary
       ? fallbackSummary(dedupedMergedWorks)
       : previousResearcher.topic_summary;
@@ -1477,6 +1495,7 @@ async function run() {
     const dedupedMergedWorks = ctx.dedupedMergedWorks || [];
     const interestingWorks = ctx.interestingWorks || [];
     const shouldRecomputeSummary = Boolean(ctx.shouldRecomputeSummary);
+    const successfulNewWorksCount = Number(ctx.successfulNewWorksCount || 0);
     const topicSummary = ctx.topicSummary || fallbackSummary(dedupedMergedWorks);
 
     const nextResearcherProfile = {
@@ -1504,7 +1523,7 @@ async function run() {
       stats: {
         analyzed_works_count: dedupedMergedWorks.length,
         interesting_works_count: interestingWorks.length,
-        new_works_count: analyzedNewWorks.length,
+        new_works_count: successfulNewWorksCount,
         deduped_works_count: dedupedMergedWorks.length,
         ai_called_count: aiCalledCount,
         summary_recomputed: shouldRecomputeSummary,
