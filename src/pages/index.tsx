@@ -51,6 +51,10 @@ export default function Home(): ReactNode {
                 <Heading as="h3">Papers</Heading>
                 <p>Browse affective-related papers aggregated across tracked researchers.</p>
               </Link>
+              <Link className={styles.linkCard} to="/landscape">
+                <Heading as="h3">Landscape</Heading>
+                <p>Inspect L1/L2 taxonomy snapshots and stage-wise mapping from clustering to final naming.</p>
+              </Link>
             </div>
           </section>
 

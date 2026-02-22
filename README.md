@@ -16,6 +16,7 @@ Current website structure:
 - `/researchers`: researcher overview (search/filter by country, university, keyword)
 - `/researchers/detail?id=<openalex_author_id>`: per-researcher detail page
 - `/papers`: aggregated affective-related papers from tracked researchers
+- `/landscape`: L1/L2 taxonomy analysis and stage-wise mapping view
 
 ### Seed file
 
@@ -118,7 +119,8 @@ This repo also supports offline taxonomy analysis using paper-level
 1. direction-only text -> Qwen embedding (`text-embedding-v4` by default)
 2. BERTopic clustering on embeddings
 3. Qwen labels each cluster as L2
-4. Qwen groups L2 into L1
+4. Qwen directly outputs L1 categories from all L2 items
+5. Local embedding-based mapping assigns each L2 to one L1
 
 Install Python deps:
 
@@ -147,9 +149,9 @@ Defaults:
 
 Thinking mode for taxonomy labeling:
 
-- Auto by default: enable `enable_thinking=true` only when chat-call volume is small.
-- Threshold env: `QWEN_THINKING_MAX_CALLS` (default `8`).
-- Force on/off (optional): `QWEN_ENABLE_THINKING=true|false`.
+- Disabled by default.
+- Enable only when needed: `QWEN_ENABLE_THINKING=true`.
+- Force off: `QWEN_ENABLE_THINKING=false`.
 
 Raw API responses are persisted for later reuse/audit:
 
@@ -161,24 +163,24 @@ Main outputs:
 - `data-repo/data/taxonomy/problem/taxonomy.json`
 - `data-repo/data/taxonomy/method/taxonomy.json`
 - `data-repo/data/taxonomy/taxonomy.summary.json`
-- `data-repo/data/taxonomy/<axis>/l1.second_level.items.json` (unique L2 items)
-- `data-repo/data/taxonomy/<axis>/l1.second_level.assignments.json` (L2 -> second-level cluster mapping)
-- `data-repo/data/taxonomy/<axis>/l1.second_level.clusters.json` (second-level cluster members)
-- `data-repo/data/taxonomy/<axis>/l1.naming.json` (second-level cluster -> final L1 naming)
+- `data-repo/data/taxonomy/<axis>/l1.input.items.json` (unique L2 items for direct L1 grouping)
+- `data-repo/data/taxonomy/<axis>/l1.direct.grouping.json` (LLM raw and normalized L1 output)
+- `data-repo/data/taxonomy/<axis>/l1.direct.assignments.json` (local embedding-based L2 -> L1 mapping)
 
 Resume/incremental cache files (per axis):
 
 - `cache.embedding.json`: record-level embedding cache (resume from interruption; only embed misses)
 - `cache.bertopic.json`: first-stage BERTopic assignments/candidates cache (reused when fingerprint matches)
 - `cache.l2.json`: topic-label cache (reuse prior L2 labels by topic fingerprint)
-- `cache.l1.embedding.json`: second-level L2 embedding cache
-- `cache.l1.json`: L1 naming cache (reuse prior naming by second-level cluster fingerprint)
+- `cache.l1.json`: L1 direct-grouping cache (reuse prior L1 raw output by fingerprint)
 
 Production recommendation:
 
 - Keep full generated data in a separate private data repository.
 - GitHub Actions `Researcher Build` writes full data to the external data repo using `DATA_REPO_PAT`.
-- `Deploy to GitHub Pages` checks out the private data repo and exports a minimized public snapshot to `static/data/researchers` during CI build only.
+- `Deploy to GitHub Pages` checks out the private data repo and exports minimized public snapshots to:
+  - `static/data/researchers`
+  - `static/data/taxonomy`
 - The public snapshot is not committed back to this code repository.
   - Add `DATA_REPO_PAT` in repository secrets with access to `xxtars/affective-computing-research-data`.
 

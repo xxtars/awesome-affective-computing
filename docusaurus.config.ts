@@ -85,6 +85,7 @@ const config: Config = {
       items: [
         {to: '/researchers', label: 'Researchers', position: 'left'},
         {to: '/papers', label: 'Papers', position: 'left'},
+        {to: '/landscape', label: 'Landscape', position: 'left'},
         {
           href: `https://github.com/${organizationName}/${projectName}`,
           label: 'GitHub',
@@ -119,6 +120,10 @@ const config: Config = {
             {
               label: 'Papers',
               to: '/papers',
+            },
+            {
+              label: 'Landscape',
+              to: '/landscape',
             },
           ],
         },

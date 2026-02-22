@@ -5,11 +5,15 @@ function parseArgs(argv) {
   const args = {
     src: "data/researchers",
     out: "static/data/researchers",
+    taxonomySrc: "",
+    taxonomyOut: "",
   };
   for (let i = 0; i < argv.length; i += 1) {
     const token = argv[i];
     if (token === "--src") args.src = argv[++i];
     else if (token === "--out") args.out = argv[++i];
+    else if (token === "--taxonomy-src") args.taxonomySrc = argv[++i];
+    else if (token === "--taxonomy-out") args.taxonomyOut = argv[++i];
   }
   return args;
 }
@@ -22,6 +26,61 @@ async function loadJson(filePath) {
 async function saveJson(filePath, value) {
   await fs.mkdir(path.dirname(filePath), { recursive: true });
   await fs.writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
+}
+
+async function copyTaxonomySnapshot({ srcRoot, outRoot }) {
+  const axes = ["problem", "method"];
+  await fs.rm(outRoot, { recursive: true, force: true });
+  await fs.mkdir(outRoot, { recursive: true });
+
+  const summaryPath = path.join(srcRoot, "taxonomy.summary.json");
+  try {
+    const summary = await loadJson(summaryPath);
+    await saveJson(path.join(outRoot, "taxonomy.summary.json"), summary);
+  } catch {
+    await saveJson(path.join(outRoot, "taxonomy.summary.json"), {
+      generated_at: null,
+      axes: [],
+    });
+  }
+
+  const keepFiles = [
+    "taxonomy.json",
+    "taxonomy.l1.json",
+    "taxonomy.l2.json",
+    "topics.candidates.json",
+    "topics.assignments.json",
+    "l1.second_level.items.json",
+    "l1.second_level.assignments.json",
+    "l1.second_level.clusters.json",
+    "l1.naming.json",
+  ];
+
+  for (const axis of axes) {
+    const axisSrc = path.join(srcRoot, axis);
+    const axisOut = path.join(outRoot, axis);
+    await fs.mkdir(axisOut, { recursive: true });
+
+    for (const file of keepFiles) {
+      const from = path.join(axisSrc, file);
+      const to = path.join(axisOut, file);
+      try {
+        const content = await loadJson(from);
+        await saveJson(to, content);
+      } catch {
+        if (file === "taxonomy.json") {
+          await saveJson(to, {
+            axis,
+            generated_at: null,
+            meta: {},
+            l1_categories: [],
+            l2_categories: [],
+            assignments: [],
+          });
+        }
+      }
+    }
+  }
 }
 
 function pickSource(source) {
@@ -127,6 +186,12 @@ async function main() {
   const args = parseArgs(process.argv.slice(2));
   const srcRoot = path.resolve(args.src);
   const outRoot = path.resolve(args.out);
+  const taxonomySrcRoot = args.taxonomySrc
+    ? path.resolve(args.taxonomySrc)
+    : path.resolve(srcRoot, "../taxonomy");
+  const taxonomyOutRoot = args.taxonomyOut
+    ? path.resolve(args.taxonomyOut)
+    : path.resolve(outRoot, "../taxonomy");
 
   const srcIndexPath = path.join(srcRoot, "researchers.index.json");
   const sourceIndex = await loadJson(srcIndexPath);
@@ -165,8 +230,13 @@ async function main() {
     researchers: outResearchers,
   };
   await saveJson(path.join(outRoot, "researchers.index.json"), outIndex);
+  await copyTaxonomySnapshot({
+    srcRoot: taxonomySrcRoot,
+    outRoot: taxonomyOutRoot,
+  });
 
   console.log(`Exported public snapshot: ${outResearchers.length} researchers`);
+  console.log(`Exported taxonomy snapshot: ${taxonomyOutRoot}`);
 }
 
 main().catch((err) => {

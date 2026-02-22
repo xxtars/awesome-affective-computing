@@ -27,7 +27,6 @@ from typing import Any, Dict, List, Tuple
 import numpy as np
 import requests
 from bertopic import BERTopic
-from sklearn.cluster import AgglomerativeClustering
 from sklearn.feature_extraction.text import CountVectorizer
 from umap import UMAP
 
@@ -150,16 +149,17 @@ def make_topic_fingerprint(axis: str, keywords: List[str], examples: List[str]) 
     return stable_hash(json.dumps(normalized, ensure_ascii=False, sort_keys=True))
 
 
-def make_l1_cluster_fingerprint(axis: str, members: List[Dict[str, Any]]) -> str:
+def make_l1_fingerprint(axis: str, items: List[Dict[str, Any]], l1_target: int) -> str:
     payload = [
         {
             "l2_name": str(m.get("l2_name", "")).strip().lower(),
             "definition": str(m.get("definition", "")).strip().lower(),
         }
-        for m in members
+        for m in items
     ]
     payload = sorted(payload, key=lambda x: x["l2_name"])
-    return stable_hash(f"{axis}|{json.dumps(payload, ensure_ascii=False, sort_keys=True)}")
+    base = {"axis": axis, "target": int(l1_target), "items": payload}
+    return stable_hash(json.dumps(base, ensure_ascii=False, sort_keys=True))
 
 
 def log_api(
@@ -422,6 +422,7 @@ def call_chat_json(
     url = f"{base_url.rstrip('/')}/chat/completions"
     headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
     last_err: Exception | None = None
+    http_timeout = int(os.getenv("QWEN_HTTP_TIMEOUT_SEC", "120"))
     for attempt in range(max_retries + 1):
         strict_suffix = ""
         if attempt > 0:
@@ -442,7 +443,16 @@ def call_chat_json(
                 {"role": "user", "content": f"{prompt}{strict_suffix}"},
             ],
         }
-        resp = requests.post(url, headers=headers, json=req, timeout=120)
+        try:
+            resp = requests.post(url, headers=headers, json=req, timeout=http_timeout)
+        except requests.exceptions.RequestException as err:
+            last_err = err
+            if attempt < max_retries:
+                backoff = min(6.0, 0.8 * (2**attempt))
+                print(f"[taxonomy] chat request retry {attempt+1}/{max_retries} for {log_name}: {err}")
+                time.sleep(backoff)
+                continue
+            break
         body_text = resp.text
         try:
             payload = resp.json()
@@ -457,7 +467,7 @@ def call_chat_json(
             last_err = err
             if attempt < max_retries:
                 print(f"[taxonomy] chat parse retry {attempt+1}/{max_retries} for {log_name}: {err}")
-                time.sleep(0.4)
+                time.sleep(min(6.0, 0.8 * (2**attempt)))
                 continue
             break
     if last_err is None:
@@ -524,142 +534,89 @@ def build_l2_canonical_items(l2_entries: List[Dict[str, Any]]) -> List[Dict[str,
     return sorted(by_name.values(), key=lambda x: x["l2_name"].lower())
 
 
-def build_l2_embedding_text(item: Dict[str, Any], axis: str) -> str:
-    definition = str(item.get("definition", "")).strip()
-    if definition:
-        return f"{axis} L2: {item.get('l2_name', '')}. {definition}"
-    return f"{axis} L2: {item.get('l2_name', '')}"
-
-
-def embed_l2_items(
-    axis: str,
-    items: List[Dict[str, Any]],
-    api_key: str,
-    base_url: str,
-    model: str,
-    batch_size: int,
-    embedding_concurrency: int,
-    log_dir: Path,
-    cache_path: Path,
-) -> np.ndarray:
-    texts = [build_l2_embedding_text(item, axis) for item in items]
-    keys = [stable_hash(f"{axis}|{str(item.get('l2_name', '')).strip().lower()}") for item in items]
-    text_hashes = [stable_hash(t) for t in texts]
-    cache_payload = load_json_if_exists(cache_path, {"version": 1, "model": model, "items": {}})
-    cache_items = cache_payload.get("items", {}) if isinstance(cache_payload, dict) else {}
-    if not isinstance(cache_items, dict):
-        cache_items = {}
-    cache_model = str(cache_payload.get("model", "")).strip() if isinstance(cache_payload, dict) else ""
-    if cache_model and cache_model != model:
-        cache_items = {}
-
-    vectors: List[List[float] | None] = [None] * len(items)
-    missing_indexes: List[int] = []
-    for i, key in enumerate(keys):
-        hit = cache_items.get(key)
-        if (
-            isinstance(hit, dict)
-            and hit.get("text_hash") == text_hashes[i]
-            and isinstance(hit.get("vector"), list)
-            and len(hit.get("vector")) > 0
-        ):
-            vectors[i] = hit["vector"]
-        else:
-            missing_indexes.append(i)
-
-    print(
-        f"[taxonomy] axis={axis} L2 embedding cache: hits={len(items)-len(missing_indexes)} "
-        f"misses={len(missing_indexes)} total={len(items)}"
-    )
-    if len(missing_indexes) == 0:
-        return np.asarray(vectors, dtype=np.float32)
-
-    embedding_max_batch = int(os.getenv("QWEN_EMBEDDING_MAX_BATCH", str(DEFAULT_EMBEDDING_MAX_BATCH)))
-    effective_batch_size = max(1, min(batch_size, embedding_max_batch))
-    total_batches = (len(missing_indexes) + effective_batch_size - 1) // effective_batch_size
-    effective_concurrency = max(1, min(embedding_concurrency, total_batches))
-
-    batch_specs: List[Tuple[int, List[int], List[str], int]] = []
-    for i in range(0, len(missing_indexes), effective_batch_size):
-        batch_indexes = missing_indexes[i : i + effective_batch_size]
-        batch = [texts[j] for j in batch_indexes]
-        batch_idx = i // effective_batch_size + 1
-        batch_specs.append((i, batch_indexes, batch, batch_idx))
-
-    with ThreadPoolExecutor(max_workers=effective_concurrency) as ex:
-        futures = {
-            ex.submit(
-                call_embedding_api,
-                api_key=api_key,
-                base_url=base_url,
-                model=model,
-                texts=batch,
-                log_dir=log_dir,
-                batch_name=f"l2_batch_{i//effective_batch_size:04d}",
-            ): (i, batch_indexes, batch_idx)
-            for i, batch_indexes, batch, batch_idx in batch_specs
-        }
-        completed = 0
-        for fut in as_completed(futures):
-            i, batch_indexes, batch_idx = futures[fut]
-            batch_vec = fut.result()
-            completed += 1
-            print(
-                f"[taxonomy] axis={axis} L2 embedding progress: {completed}/{total_batches} "
-                f"(batch {batch_idx})"
-            )
-            for local_idx, vec in enumerate(batch_vec):
-                item_idx = batch_indexes[local_idx]
-                vectors[item_idx] = vec
-                cache_items[keys[item_idx]] = {
-                    "text_hash": text_hashes[item_idx],
-                    "vector": vec,
-                    "updated_at": utc_now(),
-                }
-            dump_json(
-                cache_path,
-                {"version": 1, "model": model, "updated_at": utc_now(), "items": cache_items},
-            )
-    if any(v is None for v in vectors):
-        raise RuntimeError("L2 embedding incomplete")
-    return np.asarray(vectors, dtype=np.float32)
-
-
-def cluster_l2_items(l2_embeddings: np.ndarray, target_clusters: int) -> List[int]:
-    n_items = int(l2_embeddings.shape[0])
-    n_clusters = max(1, min(target_clusters, n_items))
-    if n_items == 1:
-        return [0]
-    model = AgglomerativeClustering(n_clusters=n_clusters, metric="cosine", linkage="average")
-    labels = model.fit_predict(l2_embeddings)
-    return [int(x) for x in labels]
-
-
-def build_l1_name_prompt(axis: str, cluster_id: int, members: List[Dict[str, Any]]) -> str:
+def build_l1_direct_prompt(axis: str, items: List[Dict[str, Any]], l1_min: int, l1_target: int, l1_max: int) -> str:
     payload = [
         {
             "l2_name": str(m.get("l2_name", "")).strip(),
             "definition": str(m.get("definition", "")).strip(),
         }
-        for m in members
+        for m in items
     ]
+    axis_rule = (
+        "- This is the problem axis: L1 names must describe problem domains/challenges/questions, "
+        "not methods, models, or technical solutions.\n"
+        if axis == "problem"
+        else "- This is the method axis: L1 names must describe methodological families/technical approaches, "
+        "not application problems or clinical/task domains.\n"
+    )
     return (
+        "Context: This project surveys trends *within* Affective Computing.\n"
+        "Therefore, L1 labels must be subdomains inside Affective Computing, "
+        "not Affective Computing itself and not any higher-level umbrella.\n"
         f"Axis: {axis}\n"
-        f"Second-level cluster id: {cluster_id}\n"
-        "Name this cluster as one L1 category.\n"
-        f"Cluster members JSON:\n{json.dumps(payload, ensure_ascii=False)}\n\n"
+        "Group the following L2 categories into L1 categories and return full mapping.\n"
+        f"L2 items JSON:\n{json.dumps(payload, ensure_ascii=False)}\n\n"
         "Return strict JSON:\n"
         "{\n"
-        '  "l1_name": string,\n'
-        '  "definition": string,\n'
-        '  "aliases": string[]\n'
+        '  "l1_categories": [\n'
+        '    {\n'
+        '      "name": string,\n'
+        '      "definition": string,\n'
+        '      "aliases": string[]\n'
+        "    }\n"
+        "  ]\n"
         "}\n\n"
         "Rules:\n"
-        "- l1_name should be broad, stable, and concise.\n"
+        f"- Target around {l1_target} L1 categories (acceptable range: {l1_min}-{l1_max}).\n"
+        "- L1 names should be broad, stable, and concise.\n"
+        "- L1 names must be discriminative and stay below the field level.\n"
+        "- Do NOT use Affective Computing itself, any parent-level umbrella, or sibling-global labels.\n"
+        "- Forbidden examples: 'Affective Computing', 'Emotion Recognition', 'Emotion Analysis', "
+        "'Artificial Intelligence', 'Machine Learning', 'Deep Learning'.\n"
+        "- Prefer a scope that distinguishes categories from each other.\n"
+        f"{axis_rule}"
         "- definition should be one sentence.\n"
-        "- aliases are optional close paraphrases.\n"
         "- Keep output factual and concise."
     )
+
+
+def embed_text_list(
+    texts: List[str],
+    api_key: str,
+    base_url: str,
+    model: str,
+    batch_size: int,
+    log_dir: Path,
+    name_prefix: str,
+) -> np.ndarray:
+    if not texts:
+        return np.zeros((0, 1), dtype=np.float32)
+    embedding_max_batch = int(os.getenv("QWEN_EMBEDDING_MAX_BATCH", str(DEFAULT_EMBEDDING_MAX_BATCH)))
+    effective_batch_size = max(1, min(batch_size, embedding_max_batch))
+    vectors: List[List[float]] = []
+    total_batches = (len(texts) + effective_batch_size - 1) // effective_batch_size
+    for i in range(0, len(texts), effective_batch_size):
+        batch = texts[i : i + effective_batch_size]
+        batch_idx = i // effective_batch_size + 1
+        print(f"[taxonomy] {name_prefix} embedding progress: {batch_idx}/{total_batches}")
+        batch_vec = call_embedding_api(
+            api_key=api_key,
+            base_url=base_url,
+            model=model,
+            texts=batch,
+            log_dir=log_dir,
+            batch_name=f"{name_prefix}_batch_{i//effective_batch_size:04d}",
+        )
+        vectors.extend(batch_vec)
+    return np.asarray(vectors, dtype=np.float32)
+
+
+def unit_normalize_rows(mat: np.ndarray) -> np.ndarray:
+    if mat.size == 0:
+        return mat
+    norms = np.linalg.norm(mat, axis=1, keepdims=True)
+    norms = np.where(norms == 0, 1.0, norms)
+    return mat / norms
 
 
 def extract_topic_keywords(topic_model: BERTopic, topic_id: int, top_n: int = 10) -> List[str]:
@@ -792,14 +749,10 @@ def run_axis(
     l2_miss_count = sum(1 for fp in topic_fingerprints if not isinstance(l2_cache_items.get(fp), dict))
     planned_chat_calls = l2_miss_count + (1 if len(topic_candidates) > 0 else 0)
     thinking_override = parse_bool_env(os.getenv("QWEN_ENABLE_THINKING"))
-    thinking_max_calls = int(os.getenv("QWEN_THINKING_MAX_CALLS", "8"))
-    if thinking_override is None:
-        enable_thinking = planned_chat_calls <= thinking_max_calls
-    else:
-        enable_thinking = thinking_override
+    enable_thinking = bool(thinking_override) if thinking_override is not None else False
     print(
         f"[taxonomy] axis={axis} chat_calls={planned_chat_calls} "
-        f"enable_thinking={enable_thinking} (threshold={thinking_max_calls})"
+        f"enable_thinking={enable_thinking}"
     )
 
     l2_entries: List[Dict[str, Any] | None] = [None] * len(topic_candidates)
@@ -883,152 +836,133 @@ def run_axis(
 
     l1_min, l1_target, l1_max = suggest_l1_count_range(len(l2_entries))
     l2_items = build_l2_canonical_items(l2_entries)
-    dump_json(out_axis_dir / "l1.second_level.items.json", l2_items)
-    print(f"[taxonomy] axis={axis} L1 second-level items={len(l2_items)} target={l1_target}")
-
-    l2_emb = embed_l2_items(
-        axis=axis,
-        items=l2_items,
-        api_key=api_key,
-        base_url=base_url,
-        model=emb_model,
-        batch_size=args.embedding_batch_size,
-        embedding_concurrency=args.embedding_concurrency,
-        log_dir=log_dir,
-        cache_path=out_axis_dir / "cache.l1.embedding.json",
-    )
-    np.save(out_axis_dir / "l1.second_level.embeddings.npy", l2_emb)
-    second_labels = cluster_l2_items(l2_emb, target_clusters=l1_target)
-
-    second_assignments = []
-    by_second_cluster: Dict[int, List[Dict[str, Any]]] = {}
-    for i, item in enumerate(l2_items):
-        cid = int(second_labels[i])
-        second_assignments.append(
-            {
-                "l2_index": i,
-                "l2_name": item.get("l2_name"),
-                "topic_ids": item.get("topic_ids", []),
-                "second_cluster_id": cid,
-            }
-        )
-        by_second_cluster.setdefault(cid, []).append(item)
-    dump_json(out_axis_dir / "l1.second_level.assignments.json", second_assignments)
-    dump_json(
-        out_axis_dir / "l1.second_level.clusters.json",
-        [
-            {
-                "second_cluster_id": cid,
-                "size": len(members),
-                "l2_names": [m.get("l2_name") for m in members],
-            }
-            for cid, members in sorted(by_second_cluster.items(), key=lambda x: x[0])
-        ],
-    )
+    dump_json(out_axis_dir / "l1.input.items.json", l2_items)
+    print(f"[taxonomy] axis={axis} L1 direct grouping start l2_items={len(l2_items)} target={l1_target}")
 
     l1_cache_path = out_axis_dir / "cache.l1.json"
-    l1_cache = load_json_if_exists(l1_cache_path, {"version": 1, "items": {}})
+    l1_cache = load_json_if_exists(l1_cache_path, {"version": 3, "items": {}})
     l1_cache_items = l1_cache.get("items", {}) if isinstance(l1_cache, dict) else {}
     if not isinstance(l1_cache_items, dict):
         l1_cache_items = {}
-
-    l1_names_payload = []
-    l1_clean = []
-    l2_to_l1: Dict[str, str] = {}
-    l2_to_second_cluster: Dict[str, int] = {}
-    cluster_ids = sorted(by_second_cluster.keys())
-    print(f"[taxonomy] axis={axis} L1 naming start clusters={len(cluster_ids)}")
-    l1_workers = max(1, min(args.chat_concurrency, max(1, len(cluster_ids))))
-    print(
-        f"[taxonomy] axis={axis} L1 workers={l1_workers} "
-        f"(requested={args.chat_concurrency}, total={len(cluster_ids)})"
-    )
-
-    def to_l1_payload(cid: int, fp: str, members: List[Dict[str, Any]], raw: Dict[str, Any], source: str) -> Dict[str, Any]:
-        l1_name = str(raw.get("l1_name", "")).strip() or f"{axis}_l1_cluster_{cid}"
-        definition = str(raw.get("definition", "")).strip()
-        aliases = [str(x).strip() for x in (raw.get("aliases") or []) if str(x).strip()]
-        l2_names = [str(m.get("l2_name", "")).strip() for m in members if str(m.get("l2_name", "")).strip()]
-        return {
-            "second_cluster_id": cid,
-            "cluster_fingerprint": fp,
-            "source": source,
-            "l1_name": l1_name,
-            "definition": definition,
-            "aliases": aliases,
-            "l2_names": l2_names,
-        }
-
-    done_l1 = 0
-    pending_l1: List[Tuple[int, str, List[Dict[str, Any]]]] = []
-    for cid in cluster_ids:
-        members = by_second_cluster[cid]
-        fp = make_l1_cluster_fingerprint(axis, members)
-        raw = l1_cache_items.get(fp)
-        if isinstance(raw, dict):
-            payload = to_l1_payload(cid, fp, members, raw, "cache")
-            l1_names_payload.append(payload)
-            done_l1 += 1
-            print(
-                f"[taxonomy] axis={axis} L1 naming progress: {done_l1}/{len(cluster_ids)} "
-                f"(cluster={cid}, cache)"
-            )
-        else:
-            pending_l1.append((cid, fp, members))
-
-    if pending_l1:
-        with ThreadPoolExecutor(max_workers=l1_workers) as ex:
-            futures = {}
-            for cid, fp, members in pending_l1:
-                fut = ex.submit(
-                    call_chat_json,
-                    api_key=api_key,
-                    base_url=base_url,
-                    model=chat_model,
-                    prompt=build_l1_name_prompt(axis, cid, members),
-                    log_dir=log_dir,
-                    log_name=f"l1_name_cluster_{cid}",
-                    max_tokens=260,
-                    enable_thinking=enable_thinking,
-                )
-                futures[fut] = (cid, fp, members)
-
-            for fut in as_completed(futures):
-                cid, fp, members = futures[fut]
-                raw = fut.result()
-                l1_cache_items[fp] = raw
-                dump_json(
-                    l1_cache_path,
-                    {"version": 2, "updated_at": utc_now(), "items": l1_cache_items},
-                )
-                payload = to_l1_payload(cid, fp, members, raw, "api")
-                l1_names_payload.append(payload)
-                done_l1 += 1
-                print(
-                    f"[taxonomy] axis={axis} L1 naming progress: {done_l1}/{len(cluster_ids)} "
-                    f"(cluster={cid}, api)"
-                )
-
-    l1_names_payload = sorted(l1_names_payload, key=lambda x: int(x["second_cluster_id"]))
-    for item in l1_names_payload:
-        l1_clean.append(
-            {
-                "name": item["l1_name"],
-                "definition": item["definition"],
-                "l2_names": item["l2_names"],
-            }
+    l1_fingerprint = make_l1_fingerprint(axis, l2_items, l1_target)
+    l1_raw = l1_cache_items.get(l1_fingerprint)
+    if isinstance(l1_raw, dict):
+        print(f"[taxonomy] axis={axis} L1 direct grouping cache hit")
+    else:
+        l1_raw = call_chat_json(
+            api_key=api_key,
+            base_url=base_url,
+            model=chat_model,
+            prompt=build_l1_direct_prompt(axis, l2_items, l1_min, l1_target, l1_max),
+            log_dir=log_dir,
+            log_name="l1_grouping_direct",
+            max_tokens=1800,
+            enable_thinking=True,
         )
-        cid = int(item["second_cluster_id"])
-        l1_name = str(item["l1_name"])
-        for l2n in item["l2_names"]:
-            if l2n and l2n not in l2_to_l1:
-                l2_to_l1[l2n] = l1_name
-            if l2n and l2n not in l2_to_second_cluster:
-                l2_to_second_cluster[l2n] = cid
+        l1_cache_items[l1_fingerprint] = l1_raw
+        dump_json(
+            l1_cache_path,
+            {"version": 3, "updated_at": utc_now(), "items": l1_cache_items},
+        )
 
-    dump_json(out_axis_dir / "l1.naming.json", l1_names_payload)
+    raw_categories = l1_raw.get("l1_categories", []) if isinstance(l1_raw, dict) else []
+    raw_categories = raw_categories if isinstance(raw_categories, list) else []
+    l1_clean = []
+    l2_name_set = {str(item.get("l2_name", "")).strip() for item in l2_items if str(item.get("l2_name", "")).strip()}
+    l2_to_l1: Dict[str, str] = {}
+    l1_by_name: Dict[str, Dict[str, Any]] = {}
+
+    for item in raw_categories:
+        if not isinstance(item, dict):
+            continue
+        name = str(item.get("name", "")).strip()
+        if not name:
+            continue
+        definition = str(item.get("definition", "")).strip()
+        if name not in l1_by_name:
+            l1_by_name[name] = {"name": name, "definition": definition, "l2_names": []}
+    l1_clean = list(l1_by_name.values())
+
+    # Build deterministic L2->L1 mapping by embedding similarity (LLM output stays simple).
+    if l1_clean:
+        l2_texts = [
+            f"{axis} L2: {str(item.get('l2_name', '')).strip()}. {str(item.get('definition', '')).strip()}"
+            for item in l2_items
+        ]
+        l1_texts = [
+            f"{axis} L1: {str(item.get('name', '')).strip()}. {str(item.get('definition', '')).strip()}"
+            for item in l1_clean
+        ]
+        l2_vec = embed_text_list(
+            texts=l2_texts,
+            api_key=api_key,
+            base_url=base_url,
+            model=emb_model,
+            batch_size=args.embedding_batch_size,
+            log_dir=log_dir,
+            name_prefix="l1_map_l2",
+        )
+        l1_vec = embed_text_list(
+            texts=l1_texts,
+            api_key=api_key,
+            base_url=base_url,
+            model=emb_model,
+            batch_size=args.embedding_batch_size,
+            log_dir=log_dir,
+            name_prefix="l1_map_l1",
+        )
+        l2n = unit_normalize_rows(l2_vec)
+        l1n = unit_normalize_rows(l1_vec)
+        sim = l2n @ l1n.T
+        mapping_rows = []
+        for i, item in enumerate(l2_items):
+            l2_name = str(item.get("l2_name", "")).strip()
+            if not l2_name:
+                continue
+            best_idx = int(np.argmax(sim[i]))
+            score = float(sim[i, best_idx])
+            l1_name = str(l1_clean[best_idx]["name"])
+            l2_to_l1[l2_name] = l1_name
+            l1_clean[best_idx]["l2_names"].append(l2_name)
+            mapping_rows.append(
+                {
+                    "l2_name": l2_name,
+                    "l1_name": l1_name,
+                    "similarity": score,
+                }
+            )
+        dump_json(out_axis_dir / "l1.direct.assignments.json", mapping_rows)
+    else:
+        # If LLM returns no L1, create a fallback bucket.
+        fallback_name = "Unassigned Specific Subdomain"
+        l1_clean = [
+            {
+                "name": fallback_name,
+                "definition": "Fallback bucket because LLM returned no valid L1 categories.",
+                "l2_names": sorted(list(l2_name_set)),
+            }
+        ]
+        for l2n in l2_name_set:
+            l2_to_l1[l2n] = fallback_name
+        dump_json(
+            out_axis_dir / "l1.direct.assignments.json",
+            [{"l2_name": x, "l1_name": fallback_name, "similarity": None} for x in sorted(list(l2_name_set))],
+        )
+
+    dump_json(
+        out_axis_dir / "l1.direct.grouping.json",
+        {
+            "fingerprint": l1_fingerprint,
+            "l1_target_min": l1_min,
+            "l1_target": l1_target,
+            "l1_target_max": l1_max,
+            "raw": l1_raw,
+            "normalized": l1_clean,
+            "mapping_method": "embedding_cosine",
+        },
+    )
     dump_json(out_axis_dir / "taxonomy.l1.json", l1_clean)
-    print(f"[taxonomy] axis={axis} L1 naming done categories={len(l1_clean)}")
+    print(f"[taxonomy] axis={axis} L1 direct grouping done categories={len(l1_clean)}")
 
     topic_id_to_l2 = {int(e["topic_id"]): e["l2_name"] for e in l2_entries}
 
@@ -1048,7 +982,7 @@ def run_axis(
                 "researcher_name": records[i].researcher_name,
                 "topic_id": topic_id,
                 "l2_name": l2_name,
-                "second_cluster_id": l2_to_second_cluster.get(l2_name) if l2_name else None,
+                "second_cluster_id": None,
                 "l1_name": l2_to_l1.get(l2_name) if l2_name else None,
             }
         )
@@ -1069,7 +1003,7 @@ def run_axis(
             "records": len(records),
             "clusters": len(topic_candidates),
             "l2_unique_count": len(l2_items),
-            "l1_second_clusters": len(cluster_ids),
+            "l1_second_clusters": 0,
         },
         "l1_categories": l1_clean,
         "l2_categories": l2_entries,

@@ -1,0 +1,137 @@
+.page {
+  padding: 2rem 0 3rem;
+}
+
+.muted {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1.2rem;
+}
+
+.controlLabel {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.controlInput,
+.controlSelect {
+  width: 100%;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 10px;
+  padding: 0.45rem 0.65rem;
+  background: var(--ifm-background-color);
+  color: var(--ifm-color-emphasis-900);
+}
+
+.panel {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 14px;
+  padding: 0.9rem 1rem 1rem;
+  margin-top: 1rem;
+}
+
+.lineWrap {
+  margin-top: 0.7rem;
+}
+
+.lineRow {
+  display: grid;
+  grid-template-columns: minmax(240px, 320px) 1fr;
+  gap: 0.8rem;
+  align-items: end;
+  margin-bottom: 0.55rem;
+}
+
+.lineLabel {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 0.92rem;
+  color: var(--ifm-color-emphasis-800);
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.dot {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.sparkline {
+  min-height: 54px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(16px, 1fr);
+  gap: 0.22rem;
+  align-items: end;
+}
+
+.bar {
+  border-radius: 4px 4px 0 0;
+}
+
+.yearRow {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(16px, 1fr);
+  gap: 0.22rem;
+  font-size: 0.72rem;
+  color: var(--ifm-color-emphasis-600);
+  text-align: center;
+}
+
+.heatmap {
+  margin-top: 0.7rem;
+  display: grid;
+  grid-template-columns: minmax(220px, 280px) repeat(var(--heat-years, 10), minmax(34px, 1fr));
+  gap: 0.28rem;
+  align-items: center;
+}
+
+.heatHead {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-700);
+  text-align: center;
+}
+
+.heatTopic {
+  font-size: 0.86rem;
+  color: var(--ifm-color-emphasis-800);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.heatCell {
+  min-height: 30px;
+  border-radius: 6px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: var(--ifm-color-emphasis-900);
+}
+
+@media (max-width: 996px) {
+  .lineRow {
+    grid-template-columns: 1fr;
+  }
+
+  .yearRow {
+    margin-left: 0;
+  }
+
+  .heatmap {
+    grid-template-columns: minmax(160px, 220px) repeat(var(--heat-years, 10), minmax(28px, 1fr));
+  }
+}
