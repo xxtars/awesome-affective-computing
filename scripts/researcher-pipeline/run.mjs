@@ -6,6 +6,7 @@ const OPENALEX_BASE_URL = "https://api.openalex.org";
 const CROSSREF_BASE_URL = "https://api.crossref.org";
 const ORCID_BASE_URL = "https://pub.orcid.org/v3.0";
 const DEFAULT_QWEN_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1";
+const BATCH_QWEN_BASE_URL = "https://batch.dashscope.aliyuncs.com/compatible-mode/v1";
 const NOMINATIM_BASE_URL = "https://nominatim.openstreetmap.org";
 const DEFAULT_INTEREST_TOPICS = ["emotion"];
 
@@ -17,6 +18,7 @@ function parseArgs(argv) {
     interestingOverrides: "",
     model: process.env.QWEN_MODEL || "qwen-plus",
     skipAi: false,
+    useBatchEndpoint: false,
     maxPapers: null,
     delayMs: 200,
     fullRefresh: false,
@@ -42,6 +44,7 @@ function parseArgs(argv) {
       args.researcherNames.push(...names);
     }
     else if (token === "--skip-ai") args.skipAi = true;
+    else if (token === "--batch") args.useBatchEndpoint = true;
     else if (token === "--full-refresh") args.fullRefresh = true;
   }
 
@@ -1232,7 +1235,10 @@ async function run() {
   if (!args.skipAi && !qwenApiKey) {
     throw new Error("QWEN_API_KEY is required unless --skip-ai is set");
   }
-  const qwenBaseUrl = process.env.QWEN_BASE_URL || DEFAULT_QWEN_BASE_URL;
+  // --batch switches to the DashScope batch endpoint (~50% cost, higher latency/queuing).
+  // QWEN_BASE_URL env var overrides both; explicit --batch takes precedence over the default.
+  const qwenBaseUrl = process.env.QWEN_BASE_URL
+    || (args.useBatchEndpoint ? BATCH_QWEN_BASE_URL : DEFAULT_QWEN_BASE_URL);
   const overridePath = args.interestingOverrides
     ? path.resolve(args.interestingOverrides)
     : path.join(path.dirname(path.resolve(args.out)), "interesting-overrides.json");
