@@ -183,7 +183,7 @@
     {
       "name": "Weidong Chen",
       "openalex_author_id": "A5100357376",
-      "orcid": null,
+      "orcid": "https://orcid.org/0000-0001-8757-0679",
       "google_scholar": "https://scholar.google.com/citations?user=Z-vKGdoAAAAJ"
     },
     {
@@ -257,6 +257,72 @@
       "openalex_author_id": "A5001973434",
       "orcid": "https://orcid.org/0000-0001-9477-0599",
       "google_scholar": "https://scholar.google.com/citations?user=S34nWz0AAAAJ"
+    },
+    {
+      "name": "Bowen Zhang",
+      "openalex_author_id": "A5100385142",
+      "orcid": "https://orcid.org/0000-0002-4971-4878",
+      "google_scholar": "https://scholar.google.com/citations?user=2O1BOpEAAAAJ"
+    },
+    {
+      "name": "Xiaomao Fan",
+      "openalex_author_id": "A5044447422",
+      "orcid": "https://orcid.org/0000-0001-8160-1294",
+      "google_scholar": "https://scholar.google.com/citations?user=zDwIj2wAAAAJ"
+    },
+    {
+      "name": "Ping Luo",
+      "openalex_author_id": "A5100752686",
+      "orcid": "https://orcid.org/0000-0002-6685-7950",
+      "google_scholar": "https://scholar.google.com/citations?user=aXdjxb4AAAAJ"
+    },
+    {
+      "name": "Xiangmin Xu",
+      "openalex_author_id": "A5007354180",
+      "orcid": "https://orcid.org/0000-0003-4573-5820",
+      "google_scholar": "https://scholar.google.com/citations?user=1UAMLAIAAAAJ"
+    },
+    {
+      "name": "Zhendong Mao",
+      "openalex_author_id": "A5023341829",
+      "orcid": "https://orcid.org/0000-0001-5739-8126",
+      "google_scholar": "https://scholar.google.com/citations?user=m-0P8sgAAAAJ"
+    },
+    {
+      "name": "Xiaofen Xing",
+      "openalex_author_id": "A5036301580",
+      "orcid": "https://orcid.org/0000-0002-0016-9055",
+      "google_scholar": "https://scholar.google.com/citations?user=-dWjbm4AAAAJ"
+    },
+    {
+      "name": "Fabien Ringeval",
+      "openalex_author_id": "A5026933067",
+      "orcid": "https://orcid.org/0000-0002-9213-4529",
+      "google_scholar": "https://scholar.google.com/citations?user=9CskMcsAAAAJ"
+    },
+    {
+      "name": "Michel Valstar",
+      "openalex_author_id": "A5089151131",
+      "orcid": "https://orcid.org/0000-0003-2414-161X",
+      "google_scholar": "https://scholar.google.com/citations?user=SRs5RFEAAAAJ"
+    },
+    {
+      "name": "Maja Pantic",
+      "openalex_author_id": "A5016033078",
+      "orcid": "https://orcid.org/0000-0002-3620-5986",
+      "google_scholar": "https://scholar.google.com/citations?user=ygpxbK8AAAAJ"
+    },
+    {
+      "name": "Louis-Philippe Morency",
+      "openalex_author_id": "A5081398601",
+      "orcid": "https://orcid.org/0000-0001-6376-7696",
+      "google_scholar": "https://scholar.google.com/citations?user=APgaFK0AAAAJ"
+    },
+    {
+      "name": "Bao-Liang Lu",
+      "openalex_author_id": "A5040440605",
+      "orcid": "https://orcid.org/0000-0001-8359-0058",
+      "google_scholar": "https://scholar.google.com/citations?user=709il6EAAAAJ"
     }
   ]
 }

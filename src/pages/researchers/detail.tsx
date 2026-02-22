@@ -279,9 +279,6 @@ export default function ResearcherDetailPage(): ReactNode {
 
           <div className={styles.profileHeader}>
             <h1 className={styles.profileHeaderName}>{researcher.identity.name}</h1>
-            {institutionCountries.length > 0 && (
-              <p className={styles.profileHeaderMeta}>{institutionCountries.join(' · ')}</p>
-            )}
             <div className={styles.profileHeaderLinks}>
               {researcher.identity.google_scholar && (
                 <a className={styles.profileHeaderLink} href={researcher.identity.google_scholar} rel="noreferrer" target="_blank">
