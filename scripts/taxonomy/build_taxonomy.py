@@ -17,6 +17,7 @@ import hashlib
 import json
 import os
 import re
+import tempfile
 import time
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
@@ -261,6 +262,45 @@ def _emb_meta_path(cache_path: Path) -> Path:
     return cache_path.with_suffix("").with_suffix(".meta.json")
 
 
+def _atomic_write_json(path: Path, payload: Any) -> None:
+    ensure_dir(path.parent)
+    with tempfile.NamedTemporaryFile(
+        mode="w",
+        encoding="utf-8",
+        delete=False,
+        dir=str(path.parent),
+        prefix=f".{path.name}.",
+        suffix=".tmp",
+    ) as fh:
+        tmp_path = Path(fh.name)
+        fh.write(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
+        fh.flush()
+        os.fsync(fh.fileno())
+    os.replace(tmp_path, path)
+
+
+def _atomic_write_npz(path: Path, matrix: np.ndarray) -> None:
+    ensure_dir(path.parent)
+    tmp_file = tempfile.NamedTemporaryFile(
+        mode="wb",
+        delete=False,
+        dir=str(path.parent),
+        prefix=f".{path.name}.",
+        suffix=".tmp.npz",
+    )
+    tmp_file.close()
+    tmp_path = Path(tmp_file.name)
+    try:
+        np.savez_compressed(str(tmp_path), embeddings=matrix)
+        os.replace(tmp_path, path)
+    finally:
+        if tmp_path.exists():
+            try:
+                tmp_path.unlink()
+            except Exception:
+                pass
+
+
 def _load_emb_cache(cache_path: Path, model: str) -> Tuple[Dict[str, Any], np.ndarray | None]:
     """Load embedding cache from npz + meta.json format.
 
@@ -329,6 +369,35 @@ def _load_emb_cache(cache_path: Path, model: str) -> Tuple[Dict[str, Any], np.nd
         matrix = data["embeddings"].astype(np.float32)
         return items, matrix
     except Exception as e:
+        # Recovery path: npz may be corrupted after interrupted write.
+        # Try to restore from embeddings.npy snapshot in the same axis directory.
+        npy_path = cache_path.parent / "embeddings.npy"
+        try:
+            meta = load_json(meta_path) if meta_path.exists() else {}
+            cached_model = str(meta.get("model", "")).strip() if isinstance(meta, dict) else ""
+            if cached_model and cached_model != model:
+                raise RuntimeError(
+                    f"embedding cache model changed: {cached_model} -> {model}, cannot recover from npy"
+                )
+            items = meta.get("items", {}) if isinstance(meta, dict) else {}
+            if not isinstance(items, dict):
+                items = {}
+            if npy_path.exists() and items:
+                matrix = np.load(str(npy_path)).astype(np.float32)
+                valid_items: Dict[str, Any] = {}
+                max_row = len(matrix) - 1
+                for key, entry in items.items():
+                    row_idx = entry.get("row_index") if isinstance(entry, dict) else None
+                    if isinstance(row_idx, int) and 0 <= row_idx <= max_row:
+                        valid_items[key] = entry
+                if valid_items:
+                    print(
+                        f"[taxonomy] embedding cache load failed ({e}); recovered from {npy_path.name} "
+                        f"with {len(valid_items)} entries"
+                    )
+                    return valid_items, matrix
+        except Exception:
+            pass
         print(f"[taxonomy] embedding cache load failed ({e}), starting fresh")
         return {}, None
 
@@ -346,10 +415,11 @@ def _save_emb_cache(
     """
     meta_path = _emb_meta_path(cache_path)
     npz_path = cache_path.with_suffix(".npz")
-    ensure_dir(npz_path.parent)
     matrix = np.asarray(rows, dtype=np.float32)
-    np.savez_compressed(str(npz_path), embeddings=matrix)
-    dump_json(meta_path, {"version": 2, "model": model, "updated_at": utc_now(), "items": meta_items})
+    _atomic_write_npz(npz_path, matrix)
+    _atomic_write_json(
+        meta_path, {"version": 2, "model": model, "updated_at": utc_now(), "items": meta_items}
+    )
 
 
 def embed_records(
@@ -359,6 +429,7 @@ def embed_records(
     model: str,
     batch_size: int,
     embedding_concurrency: int,
+    checkpoint_every: int,
     log_dir: Path,
     cache_path: Path,
 ) -> np.ndarray:
@@ -415,6 +486,8 @@ def embed_records(
         batch_idx = i // effective_batch_size + 1
         batch_specs.append((i, batch_indexes, batch, batch_idx))
 
+    checkpoint_every = max(1, int(checkpoint_every))
+
     with ThreadPoolExecutor(max_workers=effective_concurrency) as ex:
         futures = {
             ex.submit(
@@ -450,28 +523,23 @@ def embed_records(
                     "row_index": row_idx,
                     "updated_at": utc_now(),
                 }
-            # Persist after each batch so partial progress survives crashes.
-            _save_emb_cache(cache_path, model, meta_items, rows)
+            # Periodic checkpoint to balance safety and I/O overhead.
+            if completed % checkpoint_every == 0:
+                _save_emb_cache(cache_path, model, meta_items, rows)
             time.sleep(0.05)
 
     if any(v is None for v in vectors):
         raise RuntimeError("embedding resume failed: some vectors are still missing")
     result = np.asarray(vectors, dtype=np.float32)
-
-    # If there were no misses, the cache may still be stale/incomplete (e.g. from a
-    # previous interrupted run that wrote embeddings.npy but not the full cache).
-    # Do a final full-cache write whenever the in-memory rows don't match the full result.
-    if len(rows) != len(records) or len(missing_indexes) > 0:
-        # Rebuild meta_items and rows to match the final result exactly.
-        final_meta: Dict[str, Any] = {}
-        for i, key in enumerate(keys):
-            final_meta[key] = {
-                "context_hash": context_hashes[i],
-                "row_index": i,
-                "updated_at": meta_items.get(key, {}).get("updated_at", utc_now()),
-            }
-        _save_emb_cache(cache_path, model, final_meta, list(result))
-
+    # Always finalize to ensure cache and result are fully aligned.
+    final_meta: Dict[str, Any] = {}
+    for i, key in enumerate(keys):
+        final_meta[key] = {
+            "context_hash": context_hashes[i],
+            "row_index": i,
+            "updated_at": meta_items.get(key, {}).get("updated_at", utc_now()),
+        }
+    _save_emb_cache(cache_path, model, final_meta, list(result))
     return result
 
 
@@ -902,6 +970,7 @@ def run_axis(
         model=emb_model,
         batch_size=args.embedding_batch_size,
         embedding_concurrency=args.embedding_concurrency,
+        checkpoint_every=args.embedding_checkpoint_every,
         log_dir=log_dir,
         cache_path=out_axis_dir / "cache.embedding.json",  # base name; actual files: .npz + .meta.json
     )
@@ -1296,6 +1365,12 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--embedding-batch-size", type=int, default=10)
     parser.add_argument("--embedding-concurrency", type=int, default=4)
+    parser.add_argument(
+        "--embedding-checkpoint-every",
+        type=int,
+        default=50,
+        help="Persist embedding cache every N completed embedding batches (default: 50).",
+    )
     parser.add_argument("--chat-concurrency", type=int, default=4)
     parser.add_argument("--min-topic-size", type=int, default=10)
     parser.add_argument("--random-seed", type=int, default=42)

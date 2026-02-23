@@ -16,7 +16,7 @@ function parseArgs(argv) {
     out: "data/researchers/researchers.index.json",
     cache: "data/researchers/cache",
     interestingOverrides: "",
-    model: process.env.QWEN_MODEL || "qwen-plus",
+    model: process.env.QWEN_MODEL || "qwen3.5-plus",
     skipAi: false,
     summaryOnly: false,
     useBatchEndpoint: false,
@@ -1237,10 +1237,10 @@ async function run() {
   if (!args.skipAi && !qwenApiKey) {
     throw new Error("QWEN_API_KEY is required unless --skip-ai is set");
   }
-  // --batch switches to the DashScope batch endpoint (~50% cost, higher latency/queuing).
-  // QWEN_BASE_URL env var overrides both; explicit --batch takes precedence over the default.
-  const qwenBaseUrl = process.env.QWEN_BASE_URL
-    || (args.useBatchEndpoint ? BATCH_QWEN_BASE_URL : DEFAULT_QWEN_BASE_URL);
+  // Base endpoint for non-paper calls (summary/affiliation/venue-normalization).
+  const qwenBaseUrl = process.env.QWEN_BASE_URL || DEFAULT_QWEN_BASE_URL;
+  // --batch only affects paper analysis stage-1/stage-2 calls.
+  const qwenPaperBaseUrl = args.useBatchEndpoint ? BATCH_QWEN_BASE_URL : qwenBaseUrl;
   const overridePath = args.interestingOverrides
     ? path.resolve(args.interestingOverrides)
     : path.join(path.dirname(path.resolve(args.out)), "interesting-overrides.json");
@@ -1290,6 +1290,7 @@ async function run() {
   console.log(`  cache: ${args.cache}`);
   console.log(`  model: ${args.model}`);
   console.log(`  qwen_base_url: ${qwenBaseUrl}`);
+  console.log(`  qwen_paper_base_url: ${qwenPaperBaseUrl}`);
   console.log(`  qwen_api_key: ${qwenApiKey ? "set" : "missing"}`);
   console.log(`  full_refresh: ${args.fullRefresh}`);
   console.log(`  skip_ai: ${args.skipAi}`);
@@ -1444,7 +1445,7 @@ async function run() {
           work,
           args,
           cache: ctx.cache,
-          qwenConfig: { apiKey: qwenApiKey, baseUrl: qwenBaseUrl },
+          qwenConfig: { apiKey: qwenApiKey, baseUrl: qwenPaperBaseUrl },
         });
         if (skipped) {
           ctx.analyzedNewWorks[i] = null;
@@ -1535,6 +1536,7 @@ async function run() {
             temperature: 0,
             maxTokens: 2048,
             enableThinking: true,
+            timeoutMs: 20 * 60 * 1000,
           });
           ctx.topicSummary = {
             top_research_directions: Array.isArray(summaryRaw?.top_research_directions)
