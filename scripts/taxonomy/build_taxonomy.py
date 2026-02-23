@@ -128,11 +128,13 @@ def make_bertopic_fingerprint(
     emb_model: str,
     min_topic_size: int,
     random_seed: int,
+    target_topics: int | None = None,
 ) -> str:
     payload = {
         "emb_model": emb_model,
         "min_topic_size": int(min_topic_size),
         "random_seed": int(random_seed),
+        "target_topics": target_topics,  # None means no limit
         "records": [make_record_key(r) for r in records],
         "contexts": [stable_hash(r.context) for r in records],
     }
@@ -462,6 +464,7 @@ def build_topic_model(
     embeddings: np.ndarray,
     min_topic_size: int,
     random_seed: int,
+    target_topics: int | None = None,
 ) -> Tuple[BERTopic, List[int]]:
     vectorizer = CountVectorizer(stop_words="english", ngram_range=(1, 2))
     umap_model = UMAP(
@@ -475,6 +478,7 @@ def build_topic_model(
         vectorizer_model=vectorizer,
         umap_model=umap_model,
         min_topic_size=min_topic_size,
+        nr_topics=target_topics,
         calculate_probabilities=False,
         verbose=False,
     )
@@ -889,12 +893,28 @@ def run_axis(
     print(f"[taxonomy] axis={axis} embeddings ready shape={list(embeddings.shape)}")
 
     docs = [r.context for r in records]
+
+    # Compute effective target_topics for BERTopic nr_topics merging step.
+    unique_docs = len(set(docs))
+    if args.target_topics < 0:
+        import math
+        effective_target: int | None = max(20, int(math.sqrt(unique_docs)))
+    elif args.target_topics == 0:
+        effective_target = None  # no merging, fully driven by min_topic_size
+    else:
+        effective_target = args.target_topics
+    print(
+        f"[taxonomy] axis={axis} effective_target_topics={effective_target} "
+        f"(unique_directions={unique_docs}, --target-topics={args.target_topics})"
+    )
+
     bertopic_cache_path = out_axis_dir / "cache.bertopic.json"
     bertopic_fingerprint = make_bertopic_fingerprint(
         records=records,
         emb_model=emb_model,
         min_topic_size=args.min_topic_size,
         random_seed=args.random_seed,
+        target_topics=effective_target,
     )
     bertopic_cache = load_json_if_exists(bertopic_cache_path, {})
     topics: List[int]
@@ -919,6 +939,7 @@ def run_axis(
             embeddings,
             min_topic_size=args.min_topic_size,
             random_seed=args.random_seed,
+            target_topics=effective_target,
         )
         print(f"[taxonomy] axis={axis} BERTopic finished assignments={len(topics)}")
         topic_model.save(str(out_axis_dir / "bertopic_model"), serialization="safetensors", save_ctfidf=True)
@@ -1262,6 +1283,17 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--chat-concurrency", type=int, default=4)
     parser.add_argument("--min-topic-size", type=int, default=10)
     parser.add_argument("--random-seed", type=int, default=42)
+    parser.add_argument(
+        "--target-topics",
+        type=int,
+        default=-1,
+        help=(
+            "Target number of L2 clusters. "
+            "-1 (default): auto = max(20, sqrt(unique_directions)); "
+            "0: no limit, controlled by --min-topic-size only; "
+            "positive int: explicit upper bound."
+        ),
+    )
     return parser.parse_args()
 
 
