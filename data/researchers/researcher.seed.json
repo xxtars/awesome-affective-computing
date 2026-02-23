@@ -551,6 +551,30 @@
       "openalex_author_id": "A5058898461",
       "orcid": "https://orcid.org/0000-0002-1720-2085",
       "google_scholar": "https://scholar.google.com/citations?user=uB2He2UAAAAJ"
+    },
+    {
+      "name": "Fan Zhang",
+      "openalex_author_id": "A5025758534",
+      "orcid": "https://orcid.org/0000-0002-2863-6938",
+      "google_scholar": "https://scholar.google.com/citations?user=unOrVgoAAAAJ"
+    },
+    {
+      "name": "Sahand Sabour",
+      "openalex_author_id": "A5084758279",
+      "orcid": "",
+      "google_scholar": "https://scholar.google.com/citations?user=EaOudNsAAAAJ"
+    },
+    {
+      "name": "Hongxia Xie",
+      "openalex_author_id": "A5101186415",
+      "orcid": "",
+      "google_scholar": "https://scholar.google.com/citations?user=vw_YW_UAAAAJ"
+    },
+    {
+      "name": "Dingkang Yang",
+      "openalex_author_id": "A5064280715",
+      "orcid": "https://orcid.org/0000-0003-1829-5671",
+      "google_scholar": "https://scholar.google.com/citations?user=jvlDhkcAAAAJ"
     }
   ]
 }
