@@ -556,6 +556,25 @@ function applyInterestingOverride(work, overrides) {
   return { ...work, analysis };
 }
 
+function hasStage2Extraction(analysis) {
+  if (!analysis || typeof analysis !== "object") return false;
+  const tldr = String(analysis.tldr || "").trim();
+  const problem = Array.isArray(analysis.problem_directions)
+    ? analysis.problem_directions.map((x) => String(x || "").trim()).filter(Boolean)
+    : [];
+  const method = Array.isArray(analysis.method_directions)
+    ? analysis.method_directions.map((x) => String(x || "").trim()).filter(Boolean)
+    : [];
+  return Boolean(tldr || problem.length > 0 || method.length > 0);
+}
+
+function isInterestingOverridden(work, overrides) {
+  if (!work || !overrides) return false;
+  const byId = typeof work.id === "string" && overrides.ids.has(work.id);
+  const byTitle = overrides.titles.has(normalizeTitle(work.title));
+  return byId || byTitle;
+}
+
 function normalizeNameForMatch(name) {
   return String(name || "").toLowerCase().replace(/\s+/g, " ").trim();
 }
@@ -1504,6 +1523,67 @@ async function run() {
       const yearB = b.publication_year || 0;
       return yearB - yearA;
     });
+
+    if (!args.skipAi) {
+      const overrideBackfillTargets = dedupedMergedWorks.filter(
+        (work) =>
+          work?.analysis?.is_interesting &&
+          isInterestingOverridden(work, interestingOverrides) &&
+          !hasStage2Extraction(work.analysis)
+      );
+      if (overrideBackfillTargets.length > 0) {
+        console.log(
+          `Backfilling Stage-2 extraction for overridden papers: ${ctx.researcher.name} (${overrideBackfillTargets.length})`
+        );
+      }
+      for (const work of overrideBackfillTargets) {
+        let extracted = null;
+        for (let attempt = 1; attempt <= 2; attempt += 1) {
+          try {
+            const extractionRaw = await callQwenChat({
+              apiKey: qwenApiKey,
+              baseUrl: qwenPaperBaseUrl,
+              model: args.model,
+              userPrompt: buildPaperExtractionPrompt(ctx.runtimeResearcher, work),
+              temperature: 0,
+              maxTokens: 260,
+            });
+            extracted = normalizePaperExtraction(extractionRaw);
+            break;
+          } catch (err) {
+            if (attempt >= 2) {
+              console.warn(
+                `Override backfill failed for ${work.id || work.title}: ${err.message}`
+              );
+            }
+          }
+        }
+        if (!extracted) continue;
+
+        const mergedAnalysis = normalizeAnalysisShape({
+          ...(work.analysis || {}),
+          is_interesting: true,
+          ...extracted,
+        });
+        work.analysis = mergedAnalysis;
+        const cacheKey = paperCacheKey(work);
+        const cacheRecord = ctx.cache[cacheKey] || {};
+        ctx.cache[cacheKey] = {
+          ...cacheRecord,
+          paper_id: work.id,
+          title: work.title,
+          researcher_name: ctx.runtimeResearcher.name,
+          researcher_openalex_author_id: normalizeAuthorId(ctx.runtimeResearcher.openalex_author_id),
+          researcher_orcid: normalizeOrcid(ctx.runtimeResearcher.orcid) || null,
+          updated_at: new Date().toISOString(),
+          analysis: mergedAnalysis,
+        };
+        ctx.aiCalledCount += 1;
+      }
+      if (overrideBackfillTargets.length > 0) {
+        await ctx.queueCacheSave();
+      }
+    }
 
     const shouldRecomputeSummary =
       args.summaryOnly || args.fullRefresh || successfulAnalyzedNewWorks.length > 0 || !previousResearcher?.topic_summary;

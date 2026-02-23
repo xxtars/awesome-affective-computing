@@ -6,6 +6,7 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
 import {buildResearchDataUrl, useResearchDataBaseUrl} from '../../lib/researchData';
+import {formatDirectionList, formatDirectionText} from '../../lib/directionCase';
 import styles from './detail.module.css';
 
 type WorkAnalysis = {
@@ -74,16 +75,6 @@ type IndexRecord = {
 type IndexFile = {
   researchers: IndexRecord[];
 };
-
-function capitalizeFirst(text: string) {
-  if (!text) return text;
-  return text.charAt(0).toUpperCase() + text.slice(1);
-}
-
-function formatList(items: string[] | undefined) {
-  if (!items || items.length === 0) return '-';
-  return items.map((item) => capitalizeFirst(item)).join(', ');
-}
 
 function getProblemDirections(analysis: WorkAnalysis | undefined) {
   return Array.isArray(analysis?.problem_directions) ? analysis.problem_directions : [];
@@ -326,7 +317,7 @@ export default function ResearcherDetailPage(): ReactNode {
           <div className={styles.directionList}>
             {researcher.topic_summary.top_research_directions.map((item) => (
               <span key={item.name} className={styles.directionTag}>
-                {item.name}
+                {formatDirectionText(item.name)}
               </span>
             ))}
           </div>
@@ -384,12 +375,12 @@ export default function ResearcherDetailPage(): ReactNode {
 
                 <div className={styles.paperBlockMd}>
                   <p className={styles.paperBlockLabel}>Problem Directions</p>
-                  <p className={styles.paperBlockText}>{formatList(getProblemDirections(work.analysis))}</p>
+                  <p className={styles.paperBlockText}>{formatDirectionList(getProblemDirections(work.analysis))}</p>
                 </div>
 
                 <div className={styles.paperBlockMd}>
                   <p className={styles.paperBlockLabel}>Method Directions</p>
-                  <p className={styles.paperBlockText}>{formatList(getMethodDirections(work.analysis))}</p>
+                  <p className={styles.paperBlockText}>{formatDirectionList(getMethodDirections(work.analysis))}</p>
                 </div>
               </article>
             ))}

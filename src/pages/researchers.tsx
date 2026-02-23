@@ -5,6 +5,7 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
 import {buildResearchDataUrl, useResearchDataBaseUrl} from '../lib/researchData';
+import {formatDirectionText} from '../lib/directionCase';
 import styles from './researchers.module.css';
 
 type ResearcherProfile = {
@@ -58,7 +59,7 @@ const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 function formatTopDirections(researcher: ResearcherProfile) {
   return (researcher.topic_summary.top_research_directions || [])
     .slice(0, 3)
-    .map((item) => item.name)
+    .map((item) => formatDirectionText(item.name))
     .join(', ');
 }
 

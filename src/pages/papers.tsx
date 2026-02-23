@@ -5,6 +5,7 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
 import {buildResearchDataUrl, useResearchDataBaseUrl} from '../lib/researchData';
+import {formatDirectionList} from '../lib/directionCase';
 import styles from './papers.module.css';
 
 type WorkItem = {
@@ -109,17 +110,6 @@ function formatYearMonth(dateText: string | null | undefined, year: number | nul
     if (m) return `${m[1]}-${m[2]}`;
   }
   return String(year || '-');
-}
-
-function capitalizeFirst(text: string) {
-  if (!text) return text;
-  return text.charAt(0).toUpperCase() + text.slice(1);
-}
-
-function formatPreviewList(items: string[] | undefined) {
-  const normalized = (items || []).map((item) => String(item || '').trim()).filter(Boolean);
-  if (normalized.length === 0) return '-';
-  return normalized.map((item) => capitalizeFirst(item)).join(', ');
 }
 
 function getProblemDirections(analysis: WorkItem['analysis'] | undefined) {
@@ -387,12 +377,12 @@ export default function PapersPage(): ReactNode {
 
                         <div className={styles.blockScrollMd}>
                           <p className={styles.blockLabel}>Problem Directions</p>
-                          <p className={styles.blockText}>{formatPreviewList(getProblemDirections(paper.analysis))}</p>
+                          <p className={styles.blockText}>{formatDirectionList(getProblemDirections(paper.analysis))}</p>
                         </div>
 
                         <div className={styles.blockScrollMd}>
                           <p className={styles.blockLabel}>Method Directions</p>
-                          <p className={styles.blockText}>{formatPreviewList(getMethodDirections(paper.analysis))}</p>
+                          <p className={styles.blockText}>{formatDirectionList(getMethodDirections(paper.analysis))}</p>
                         </div>
                       </article>
                     ))}
